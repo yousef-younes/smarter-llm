@@ -1,0 +1,86 @@
+TruthfulQA: Measuring How Models Mimic Human Falsehoods
+
+Stephanie Lin
+University of Oxford
+sylin07@gmail.com
+
+Jacob Hilton
+OpenAI
+jhilton@openai.com
+
+Owain Evans
+University of Oxford
+owaine@gmail.com
+
+2
+2
+0
+2
+
+y
+a
+M
+8
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+8
+5
+9
+7
+0
+.
+9
+0
+1
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+We propose a benchmark to measure whether
+a language model is truthful in generating an-
+swers to questions. The benchmark comprises
+817 questions that span 38 categories, includ-
+ing health,
+law, ﬁnance and politics. We
+crafted questions that some humans would an-
+swer falsely due to a false belief or miscon-
+ception. To perform well, models must avoid
+generating false answers learned from imitat-
+ing human texts. We tested GPT-3, GPT-Neo/J,
+GPT-2 and a T5-based model. The best model
+was truthful on 58% of questions, while hu-
+man performance was 94%. Models generated
+many false answers that mimic popular mis-
+conceptions and have the potential to deceive
+humans. The largest models were generally
+the least truthful. This contrasts with other
+NLP tasks, where performance improves with
+model size. However, this result is expected if
+false answers are learned from the training dis-
+tribution. We suggest that scaling up models
+alone is less promising for improving truthful-
+ness than ﬁne-tuning using training objectives
+other than imitation of text from the web.
+
+“The enemy of
+
+truth is blind acceptance.”
+–Anonymous
+
+1
+

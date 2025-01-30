@@ -1,0 +1,68 @@
+ESPnet: End-to-End Speech Processing Toolkit
+
+Shinji Watanabe1, Takaaki Hori2, Shigeki Karita3, Tomoki Hayashi4, Jiro Nishitoba5, Yuya Unno6,
+Nelson Enrique Yalta Soplin7, Jahn Heymann8, Matthew Wiesner1, Nanxin Chen1, Adithya
+Renduchintala1, Tsubasa Ochiai9,
+
+1Johns Hopkins University, 2Mitsubishi Electric Research Laboratories, 3NTT Communication
+Science Laboratories, 4Nagoya University, 5Retrieva, Inc., 6Preferred Networks, Inc., 7Waseda
+University, 8Paderborn University, 9Doshisha University
+shinjiw@jhu.edu
+
+8
+1
+0
+2
+
+r
+a
+
+M
+0
+3
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+5
+1
+0
+0
+0
+.
+4
+0
+8
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+This paper introduces a new open source platform for end-to-
+end speech processing named ESPnet. ESPnet mainly focuses
+on end-to-end automatic speech recognition (ASR), and adopts
+widely-used dynamic neural network toolkits, Chainer and Py-
+Torch, as a main deep learning engine. ESPnet also follows
+the Kaldi ASR toolkit style for data processing, feature extrac-
+tion/format, and recipes to provide a complete setup for speech
+recognition and other speech processing experiments. This pa-
+per explains a major architecture of this software platform, sev-
+eral important functionalities, which differentiate ESPnet from
+other open source ASR toolkits, and experimental results with
+major ASR benchmarks.
+Index Terms: speech recognition, open source software, end-
+to-end, dynamical neural network, Kaldi
+
+1. 

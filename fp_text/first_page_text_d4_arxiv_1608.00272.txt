@@ -1,0 +1,63 @@
+6
+1
+0
+2
+
+g
+u
+A
+0
+1
+
+]
+
+V
+C
+.
+s
+c
+[
+
+3
+v
+2
+7
+2
+0
+0
+.
+8
+0
+6
+1
+:
+v
+i
+X
+r
+a
+
+Modeling Context in Referring Expressions
+
+Licheng Yu, Patrick Poirson, Shan Yang, Alexander C. Berg, Tamara L. Berg
+
+Department of Computer Science,
+University of North Carolina at Chapel Hill
+{licheng,poirson,alexyang,aberg,tlberg}@cs.unc.edu
+
+Abstract. Humans refer to objects in their environments all the time,
+especially in dialogue with other people. We explore generating and com-
+prehending natural language referring expressions for objects in images.
+In particular, we focus on incorporating better measures of visual con-
+text into referring expression models and ﬁnd that visual comparison to
+other objects within an image helps improve performance signiﬁcantly.
+We also develop methods to tie the language generation process together,
+so that we generate expressions for all objects of a particular category
+jointly. Evaluation on three recent datasets - RefCOCO, RefCOCO+,
+and RefCOCOg1, shows the advantages of our methods for both refer-
+ring expression generation and comprehension.
+
+Keywords: language, language and vision, generation, referring expres-
+sion generation
+
+1 

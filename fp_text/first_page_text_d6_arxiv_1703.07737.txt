@@ -1,0 +1,62 @@
+In Defense of the Triplet Loss for Person Re-Identiﬁcation
+
+Alexander Hermans∗, Lucas Beyer∗ and Bastian Leibe
+Visual Computing Institute
+RWTH Aachen University
+last@vision.rwth-aachen.org
+
+7
+1
+0
+2
+
+v
+o
+N
+1
+2
+
+]
+
+V
+C
+.
+s
+c
+[
+
+4
+v
+7
+3
+7
+7
+0
+.
+3
+0
+7
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+In the past few years, the ﬁeld of computer vision has
+gone through a revolution fueled mainly by the advent
+of large datasets and the adoption of deep convolutional
+neural networks for end-to-end learning. The person re-
+identiﬁcation subﬁeld is no exception to this. Unfortunately,
+a prevailing belief in the community seems to be that the
+triplet loss is inferior to using surrogate losses (classiﬁ-
+cation, veriﬁcation) followed by a separate metric learn-
+ing step. We show that, for models trained from scratch as
+well as pretrained ones, using a variant of the triplet loss to
+perform end-to-end deep metric learning outperforms most
+other published methods by a large margin.
+
+1. 

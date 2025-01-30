@@ -1,0 +1,82 @@
+Monolingual or Multilingual Instruction Tuning:
+Which Makes a Better Alpaca
+
+Pinzhen Chen1,*
+Andrey Kutuzov3
+1University of Edinburgh
+
+Shaoxiong Ji2,*
+Barry Haddow1
+2University of Helsinki
+
+Nikolay Bogoychev1
+Kenneth Heafield1
+
+3University of Oslo
+
+4
+2
+0
+2
+
+n
+a
+J
+
+1
+3
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+8
+5
+9
+8
+0
+.
+9
+0
+3
+2
+:
+v
+i
+X
+r
+a
+
+pchen3@ed.ac.uk
+
+shaoxiong.ji@helsinki.fi
+
+Abstract
+
+Foundational large language models (LLMs)
+can be instruction-tuned to perform open-
+domain question answering, facilitating appli-
+cations like chat assistants. While such efforts
+are often carried out in a single language, we
+empirically analyze cost-efficient strategies for
+multilingual scenarios. Our study employs the
+Alpaca dataset and machine translations of it to
+form multilingual data, which is then used to
+tune LLMs through either low-rank adaptation
+or full-parameter training. Under a controlled
+computation budget, comparisons show that
+multilingual tuning is on par or better than tun-
+ing a model for each language. Furthermore,
+multilingual tuning with downsampled data can
+be as powerful and more robust. Our findings
+serve as a guide for expanding language sup-
+port through instruction tuning.
+
+1
+

@@ -1,0 +1,69 @@
+Crossmodal-3600: A Massively Multilingual
+Multimodal Evaluation Dataset
+
+Ashish V. Thapliyal, Jordi Pont-Tuset, Xi Chen, Radu Soricut
+Google Research
+{asht,jponttuset,chillxichen,rsoricut}@google.com
+
+2
+2
+0
+2
+
+t
+c
+O
+0
+1
+
+]
+
+V
+C
+.
+s
+c
+[
+
+2
+v
+2
+2
+5
+2
+1
+.
+5
+0
+2
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Research in massively multilingual image cap-
+tioning has been severely hampered by a lack
+of high-quality evaluation datasets. In this pa-
+per we present the Crossmodal-3600 dataset
+(XM3600 in short), a geographically-diverse
+set of 3600 images annotated with human-
+generated reference captions in 36 languages.
+The images were selected from across the
+world, covering regions where the 36 lan-
+guages are spoken, and annotated with cap-
+tions that achieve consistency in terms of style
+across all languages, while avoiding annota-
+tion artifacts due to direct translation. We
+apply this benchmark to model selection for
+massively multilingual image captioning mod-
+els, and show strong correlation results with
+human evaluations when using XM3600 as
+golden references for automatic metrics.
+
+1
+

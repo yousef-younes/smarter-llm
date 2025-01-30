@@ -1,0 +1,85 @@
+COMMONSENSEQA: A Question Answering Challenge Targeting
+Commonsense Knowledge
+
+Alon Talmor∗∗,1,2
+
+Jonathan Herzig∗,1
+
+Nicholas Lourie2
+
+Jonathan Berant1,2
+
+1School of Computer Science, Tel-Aviv University
+2Allen Institute for Artiﬁcial Intelligence
+{alontalmor@mail,jonathan.herzig@cs,joberant@cs}.tau.ac.il, nicholasl@allenai.org
+
+9
+1
+0
+2
+
+r
+a
+
+M
+5
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+7
+3
+9
+0
+0
+.
+1
+1
+8
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+When answering a question, people often draw
+upon their rich world knowledge in addi-
+tion to the particular context. Recent work
+has focused primarily on answering questions
+given some relevant document or context,
+and required very little general background.
+To investigate question answering with prior
+knowledge, we present COMMONSENSEQA:
+a challenging new dataset for commonsense
+question answering. To capture common sense
+beyond associations, we extract from CON-
+CEPTNET (Speer et al., 2017) multiple target
+concepts that have the same semantic relation
+to a single source concept. Crowd-workers
+are asked to author multiple-choice questions
+that mention the source concept and discrim-
+inate in turn between each of the target con-
+cepts. This encourages workers to create ques-
+tions with complex semantics that often re-
+quire prior knowledge. We create 12,247 ques-
+tions through this procedure and demonstrate
+the difﬁculty of our task with a large number
+of strong baselines. Our best baseline is based
+on BERT-large (Devlin et al., 2018) and ob-
+tains 56% accuracy, well below human perfor-
+mance, which is 89%.
+
+1
+

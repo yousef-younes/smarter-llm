@@ -1,0 +1,69 @@
+4
+2
+0
+2
+
+r
+a
+
+M
+8
+2
+
+]
+
+G
+L
+.
+s
+c
+[
+
+1
+v
+2
+2
+5
+9
+1
+.
+3
+0
+4
+2
+:
+v
+i
+X
+r
+a
+
+Model Stock: All we need is just a few fine-tuned
+models
+
+Dong-Hwan Jang⋆, Sangdoo Yun, and Dongyoon Han
+
+NAVER AI Lab
+
+Abstract. This paper introduces an efficient fine-tuning method for
+large pre-trained models, offering strong in-distribution (ID) and out-of-
+distribution (OOD) performance. Breaking away from traditional prac-
+tices that need a multitude of fine-tuned models for averaging, our ap-
+proach employs significantly fewer models to achieve final weights yet
+yield superior accuracy. Drawing from key insights in the weight space
+of fine-tuned weights, we uncover a strong link between the performance
+and proximity to the center of weight space. Based on this, we introduce
+a method that approximates a center-close weight using only two fine-
+tuned models, applicable during or after training. Our innovative layer-
+wise weight averaging technique surpasses state-of-the-art model meth-
+ods such as Model Soup, utilizing only two fine-tuned models. This strat-
+egy can be aptly coined Model Stock, highlighting its reliance on selecting
+a minimal number of models to draw a more optimized-averaged model.
+We demonstrate the efficacy of Model Stock with fine-tuned models based
+upon pre-trained CLIP architectures, achieving remarkable performance
+on both ID and OOD tasks on the standard benchmarks, all while barely
+bringing extra computational demands. Our code and pre-trained models
+are available at https://github.com/naver-ai/model-stock.
+
+1
+

@@ -1,0 +1,75 @@
+2
+2
+0
+2
+
+y
+a
+M
+3
+2
+
+]
+
+V
+C
+.
+s
+c
+[
+
+1
+v
+7
+8
+4
+1
+1
+.
+5
+0
+2
+2
+:
+v
+i
+X
+r
+a
+
+Photorealistic Text-to-Image Diffusion Models
+with Deep Language Understanding
+
+Chitwan Saharia∗, William Chan∗, Saurabh Saxena†, Lala Li†, Jay Whang†,
+Emily Denton, Seyed Kamyar Seyed Ghasemipour, Burcu Karagol Ayan,
+S. Sara Mahdavi, Rapha Gontijo Lopes, Tim Salimans,
+Jonathan Ho†, David J Fleet†, Mohammad Norouzi∗
+
+{sahariac,williamchan,mnorouzi}@google.com
+{srbs,lala,jwhang,jonathanho,davidfleet}@google.com
+
+Google Research, Brain Team
+Toronto, Ontario, Canada
+
+Abstract
+
+We present Imagen, a text-to-image diffusion model with an unprecedented degree
+of photorealism and a deep level of language understanding. Imagen builds on
+the power of large transformer language models in understanding text and hinges
+on the strength of diffusion models in high-ﬁdelity image generation. Our key
+discovery is that generic large language models (e.g. T5), pretrained on text-only
+corpora, are surprisingly effective at encoding text for image synthesis: increasing
+the size of the language model in Imagen boosts both sample ﬁdelity and image-
+text alignment much more than increasing the size of the image diffusion model.
+Imagen achieves a new state-of-the-art FID score of 7.27 on the COCO dataset,
+without ever training on COCO, and human raters ﬁnd Imagen samples to be on par
+with the COCO data itself in image-text alignment. To assess text-to-image models
+in greater depth, we introduce DrawBench, a comprehensive and challenging
+benchmark for text-to-image models. With DrawBench, we compare Imagen with
+recent methods including VQ-GAN+CLIP, Latent Diffusion Models, GLIDE and
+DALL-E 2, and ﬁnd that human raters prefer Imagen over other models in side-by-
+side comparisons, both in terms of sample quality and image-text alignment. See
+imagen.research.google for an overview of the results.
+
+1
+

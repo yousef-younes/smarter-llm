@@ -1,0 +1,60 @@
+TallyQA: Answering Complex Counting Questions
+
+Manoj Acharya, Kushal Kaﬂe, Christopher Kanan
+Chester F. Carlson Center for Imaging Science
+Rochester Institute of Technology
+{ma7583, kk6055, kanan}@rit.edu
+
+8
+1
+0
+2
+
+t
+c
+O
+1
+3
+
+]
+
+V
+C
+.
+s
+c
+[
+
+2
+v
+0
+4
+4
+2
+1
+.
+0
+1
+8
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Most counting questions in visual question answering (VQA)
+datasets are simple and require no more than object detection.
+Here, we study algorithms for complex counting questions
+that involve relationships between objects, attribute identiﬁ-
+cation, reasoning, and more. To do this, we created TallyQA,
+the world’s largest dataset for open-ended counting. We pro-
+pose a new algorithm for counting that uses relation networks
+with region proposals. Our method lets relation networks be
+efﬁciently used with high-resolution imagery. It yields state-
+of-the-art results compared to baseline and recent systems on
+both TallyQA and the HowMany-QA benchmark.
+

@@ -1,0 +1,57 @@
+Gender Bias in Coreference Resolution
+
+Rachel Rudinger, Jason Naradowsky, Brian Leonard, and Benjamin Van Durme
+Johns Hopkins University
+
+8
+1
+0
+2
+
+r
+p
+A
+5
+2
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+1
+0
+3
+9
+0
+.
+4
+0
+8
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+We present an empirical study of gender bias
+in coreference resolution systems. We ﬁrst in-
+troduce a novel, Winograd schema-style set of
+minimal pair sentences that differ only by pro-
+noun gender. With these Winogender schemas,
+we evaluate and conﬁrm systematic gender
+bias in three publicly-available coreference
+resolution systems, and correlate this bias with
+real-world and textual gender statistics.
+
+1
+

@@ -1,0 +1,85 @@
+TriviaQA: A Large Scale Distantly Supervised Challenge Dataset
+for Reading Comprehension
+
+Mandar Joshi†
+
+Eunsol Choi†
+
+Daniel S. Weld†
+
+Luke Zettlemoyer†‡
+
+† Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA
+{mandar90, eunsol, weld, lsz}@cs.washington.edu
+
+‡ Allen Institute for Artiﬁcial Intelligence, Seattle, WA
+lukez@allenai.org
+
+7
+1
+0
+2
+
+y
+a
+M
+3
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+1
+5
+5
+3
+0
+.
+5
+0
+7
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+We present TriviaQA, a challenging
+reading comprehension dataset contain-
+ing over 650K question-answer-evidence
+triples. TriviaQA includes 95K question-
+answer pairs authored by trivia enthusi-
+asts and independently gathered evidence
+documents, six per question on average,
+that provide high quality distant super-
+vision for answering the questions. We
+show that, in comparison to other recently
+introduced large-scale datasets, TriviaQA
+(1) has relatively complex, compositional
+questions, (2) has considerable syntactic
+and lexical variability between questions
+and corresponding answer-evidence sen-
+tences, and (3) requires more cross sen-
+tence reasoning to ﬁnd answers. We also
+present two baseline algorithms: a feature-
+based classiﬁer and a state-of-the-art neu-
+ral network, that performs well on SQuAD
+reading comprehension. Neither approach
+comes close to human performance (23%
+and 40% vs. 80%), suggesting that Trivi-
+aQA is a challenging testbed that is worth
+signiﬁcant future study.1
+
+1
+

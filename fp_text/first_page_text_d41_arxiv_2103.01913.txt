@@ -1,0 +1,128 @@
+1
+2
+0
+2
+
+r
+a
+
+M
+3
+
+]
+
+V
+C
+.
+s
+c
+[
+
+2
+v
+3
+1
+9
+1
+0
+.
+3
+0
+1
+2
+:
+v
+i
+X
+r
+a
+
+WIT: Wikipedia-based Image Text Dataset for Multimodal
+Multilingual Machine Learning
+
+Krishna Srinivasan
+Google
+krishnaps@google.com
+
+Karthik Raman
+Google
+karthikraman@google.com
+
+Jiecao Chen
+Google
+chenjiecao@google.com
+
+Michael Bendersky
+Google
+bemike@google.com
+
+Marc Najork
+Google
+najork@google.com
+
+1 INTRODUCTION
+Deep learning has fundamentally revolutionized the fields of NLP,
+IR and Vision via our ability to have a rich semantic understanding
+of texts and images. Notable examples of this include Deep CNN
+models [29, 34] which set the bar for standard vision tasks like image
+recognition and image classification. Attention based transformer
+models [35] like BERT [8] have likewise enabled achieving new
+benchmark performance across a myriad of text understanding /
+NLP / IR tasks. These transformational advances have also found
+their way to multimodal tasks such as image-text retrieval / search
+[14] and image captioning [36, 41]. Multimodal models – such
+as ViLBERT [22], UNITER [6], Unicoder-VL [17] amongst others
+[1, 19, 32] – are able to jointly model the complex relationships
+between text and visual inputs leading to wins in downstream tasks
+like image search, Visual Question Answering (VQA) [2] and Visual
+Commonsense Reasoning (VCR) [40].
+
+ABSTRACT
+The milestone improvements brought about by deep representation
+learning and pre-training techniques have led to large performance
+gains across downstream NLP, IR and Vision tasks. Multimodal mod-
+eling techniques aim to leverage large high-quality visio-linguistic
+datasets for learning complementary information (across image
+and text modalities). In this paper, we introduce the Wikipedia-
+based Image Text (WIT) Dataset1 to better facilitate multimodal,
+multilingual learning. WIT is composed of a curated set of 37.6
+million entity rich image-text examples with 11.5 million unique
+images across 108 Wikipedia languages. Its size enables WIT to be
+used as a pretraining dataset for multimodal models, as we show
+when applied to downstream tasks such as image-text retrieval.
+WIT has four main and unique advantages. First, WIT is the largest
+multimodal dataset by the number of image-text examples by 3x (at
+the time of writing). Second, WIT is massively multilingual (first of
+its kind) with coverage over 100+ languages (each of which has at
+least 12K examples) and provides cross-lingual texts for many im-
+ages. Third, WIT represents a more diverse set of concepts and real
+world entities relative to what previous datasets cover. Lastly, WIT
+provides a very challenging real-world test set, as we empirically
+illustrate using an image-text retrieval task as an example.
+
+KEYWORDS
+machine learning, neural networks, multi-modal, multi-lingual,
+image-text retrieval
+
+ACM Reference Format:
+Krishna Srinivasan, Karthik Raman, Jiecao Chen, Michael Bendersky, and Marc
+Najork. 2021. WIT: Wikipedia-based Image Text Dataset for Multimodal
+Multilingual Machine Learning. In Proceedings of SIGIR Resource Track. ACM,
+New York, NY, USA, 16 pages. https://doi.org/10.1145/1122445.1122456
+
+1https://github.com/google-research-datasets/wit
+
+Figure 1: The Wikipedia page for Half Dome, Yosemite, Cal-
+ifornia via Wikimedia Commons.
+
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than ACM
+must be honored. Abstracting with credit is permitted. To copy otherwise, or republish,
+to post on servers or to redistribute to lists, requires prior specific permission and/or a
+fee. Request permissions from permissions@acm.org.
+SIGIR Resource Track, 2021, Virtual
+© 2021 Association for Computing Machinery.
+ACM ISBN 978-x-xxxx-xxxx-x/YY/MM. . . $15.00
+https://doi.org/10.1145/

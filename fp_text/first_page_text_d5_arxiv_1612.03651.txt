@@ -1,0 +1,112 @@
+6
+1
+0
+2
+c
+e
+D
+2
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+1
+5
+6
+3
+0
+.
+2
+1
+6
+1
+:
+v
+i
+X
+r
+a
+
+Under review as a conference paper at ICLR 2017
+
+FASTTEXT.ZIP:
+COMPRESSING TEXT CLASSIFICATION MODELS
+
+Armand Joulin, Edouard Grave, Piotr Bojanowski, Matthijs Douze, Herv´e J´egou & Tomas Mikolov
+Facebook AI Research
+{ajoulin,egrave,bojanowski,matthijs,rvj,tmikolov}@fb.com
+
+ABSTRACT
+
+We consider the problem of producing compact architectures for text classiﬁca-
+tion, such that the full model ﬁts in a limited amount of memory. After considering
+different solutions inspired by the hashing literature, we propose a method built
+upon product quantization to store word embeddings. While the original tech-
+nique leads to a loss in accuracy, we adapt this method to circumvent quantization
+artefacts. Our experiments carried out on several benchmarks show that our ap-
+proach typically requires two orders of magnitude less memory than fastText
+while being only slightly inferior with respect to accuracy. As a result, it outper-
+forms the state of the art by a good margin in terms of the compromise between
+memory usage and accuracy.
+
+1
+
+INTRODUCTION
+
+Text classiﬁcation is an important problem in Natural Language Processing (NLP). Real world use-
+cases include spam ﬁltering or e-mail categorization. It is a core component in more complex sys-
+tems such as search and ranking. Recently, deep learning techniques based on neural networks
+have achieved state of the art results in various NLP applications. One of the main successes of deep
+learning is due to the effectiveness of recurrent networks for language modeling and their application
+to speech recognition and machine translation (Mikolov, 2012). However, in other cases including
+several text classiﬁcation problems, it has been shown that deep networks do not convincingly beat
+the prior state of the art techniques (Wang & Manning, 2012; Joulin et al., 2016).
+
+In spite of being (typically) orders of magnitude slower to train than traditional techniques based
+on n-grams, neural networks are often regarded as a promising alternative due to compact model
+sizes, in particular for character based models. This is important for applications that need to run on
+systems with limited memory such as smartphones.
+
+This paper speciﬁcally addresses the compromise between classiﬁcation accuracy and the model
+size. We extend our previous work implemented in the fastText library1. It is based on n-gram
+features, dimensionality reduction, and a fast approximation of the softmax classiﬁer (Joulin et al.,
+2016). We show that a few key ingredients, namely feature pruning, quantization, hashing, and re-
+training, allow us to produce text classiﬁcation models with tiny size, often less than 100kB when
+trained on several popular datasets, without noticeably sacriﬁcing accuracy or speed.
+
+We plan to publish the code and scripts required to reproduce our results as an extension of the
+fastText library, thereby providing strong reproducible baselines for text classiﬁers that optimize
+the compromise between the model size and accuracy. We hope that this will help the engineering
+community to improve existing applications by using more efﬁcient models.
+
+This paper is organized as follows. Section 2 introduces related work, Section 3 describes our text
+classiﬁcation model and explains how we drastically reduce the model size. Section 4 shows the
+effectiveness of our approach in experiments on multiple text classiﬁcation benchmarks.
+
+1https://github.com/facebookresearch/fastText
+
+1
+
+ 
+ 
+ 
+ 
+ 
+ 
+Under review as a conference paper at ICLR 2017
+
+2 RELATED WORK
+
+Models for text classiﬁcation. Text classiﬁcation is a problem that has its roots in many applica-
+tions such as web search, information retrieval and document classiﬁcation (Deerwester et al., 1990;
+Pang & Lee, 2008). Linear classiﬁers often obtain state-of-the-art performance while being scal-
+able (Agarwal et al., 2014; Joachims, 1998; Joulin et al., 2016; McCallum & Nigam, 1998). They
+are par

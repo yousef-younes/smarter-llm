@@ -1,0 +1,84 @@
+REALTOXICITYPROMPTS:
+Evaluating Neural Toxic Degeneration in Language Models
+
+Samuel Gehman(cid:5) Suchin Gururangan(cid:5)† Maarten Sap(cid:5) Yejin Choi(cid:5)† Noah A. Smith(cid:5)†
+(cid:5)Paul G. Allen School of Computer Science & Engineering, University of Washington
+†Allen Institute for Artiﬁcial Intelligence
+Seattle, USA
+{sgehman,sg01,msap,yejin,nasmith}@cs.washington.edu
+
+0
+2
+0
+2
+
+p
+e
+S
+5
+2
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+2
+6
+4
+1
+1
+.
+9
+0
+0
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Pretrained neural language models (LMs) are
+prone to generating racist, sexist, or otherwise
+toxic language which hinders their safe deploy-
+ment. We investigate the extent to which pre-
+trained LMs can be prompted to generate toxic
+language, and the effectiveness of controllable
+text generation algorithms at preventing such
+toxic degeneration. We create and release RE-
+ALTOXICITYPROMPTS, a dataset of 100K nat-
+urally occurring, sentence-level prompts de-
+rived from a large corpus of English web
+text, paired with toxicity scores from a widely-
+used toxicity classiﬁer. Using REALTOXICI-
+TYPROMPTS, we ﬁnd that pretrained LMs can
+degenerate into toxic text even from seemingly
+innocuous prompts. We empirically assess sev-
+eral controllable generation methods, and ﬁnd
+that while data- or compute-intensive methods
+(e.g., adaptive pretraining on non-toxic data)
+are more effective at steering away from toxic-
+ity than simpler solutions (e.g., banning “bad”
+words), no current method is failsafe against
+neural toxic degeneration. To pinpoint the po-
+tential cause of such persistent toxic degenera-
+tion, we analyze two web text corpora used to
+pretrain several LMs (including GPT-2; Rad-
+ford et al., 2019), and ﬁnd a signiﬁcant amount
+of offensive, factually unreliable, and other-
+wise toxic content. Our work provides a test
+bed for evaluating toxic generations by LMs
+and stresses the need for better data selection
+processes for pretraining.
+
+1
+

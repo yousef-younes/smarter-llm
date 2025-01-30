@@ -1,0 +1,81 @@
+How Can We Effectively Expand the Vocabulary of LLMs
+with 0.01GB of Target Language Text?
+
+Atsuki Yamaguchi1, Aline Villavicencio1,2 and Nikolaos Aletras1
+1School of Computer Science, University of Sheffield, United Kingdom
+2Department of Computer Science, Institute of Data Science and Artificial Intelligence,
+University of Exeter, United Kingdom
+{ayamaguchi1,a.villavicencio,n.aletras}@sheffield.ac.uk
+
+4
+2
+0
+2
+
+p
+e
+S
+6
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+7
+7
+4
+1
+1
+.
+6
+0
+4
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Large language models (LLMs) have shown
+remarkable capabilities in many languages be-
+yond English. Yet, LLMs require more infer-
+ence steps when generating non-English text
+due to their reliance on English-centric tok-
+enizers and vocabulary, resulting in higher us-
+age costs to non-English speakers. Vocabu-
+lary expansion with target language tokens is
+a widely used cross-lingual vocabulary adap-
+tation approach to remedy this issue. Despite
+its effectiveness in inference speedup, previ-
+ous work on vocabulary expansion has focused
+on high-resource settings assuming access to
+a substantial amount of target language data
+to effectively initialize the embeddings of the
+new tokens and adapt the LLM to the target
+language. However, vocabulary expansion in
+low-resource settings has yet to be explored.
+In this paper, we investigate vocabulary expan-
+sion in low-resource settings by considering
+embedding initialization methods and contin-
+ual pre-training strategies. Through extensive
+experiments across typologically diverse lan-
+guages, tasks and models, we establish a set of
+strategies to perform vocabulary expansion for
+faster inference, maintaining competitive down-
+stream performance to baselines with only 30K
+sentences (∼0.01GB text data) from the target
+language.1
+
+1
+

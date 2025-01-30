@@ -1,0 +1,75 @@
+BoolQ: Exploring the Surprising Difﬁculty of Natural Yes/No Questions
+
+Christopher Clark∗1, Kenton Lee†, Ming-Wei Chang†, Tom Kwiatkowski†
+
+Michael Collins †2, Kristina Toutanova†
+
+∗Paul G. Allen School of CSE, University of Washington
+csquared@cs.uw.edu
+
+†Google AI Language
+{kentonl, mingweichang, tomkwiat, mjcollins, kristout}@google.com
+
+9
+1
+0
+2
+
+y
+a
+M
+4
+2
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+4
+4
+0
+0
+1
+.
+5
+0
+9
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+In this paper we study yes/no questions that are
+naturally occurring — meaning that they are
+generated in unprompted and unconstrained
+settings. We build a reading comprehension
+dataset, BoolQ, of such questions, and show
+that they are unexpectedly challenging. They
+often query for complex, non-factoid informa-
+tion, and require difﬁcult entailment-like infer-
+ence to solve. We also explore the effective-
+ness of a range of transfer learning baselines.
+We ﬁnd that transferring from entailment data
+is more effective than transferring from para-
+phrase or extractive QA data, and that it, sur-
+prisingly, continues to be very beneﬁcial even
+when starting from massive pre-trained lan-
+guage models such as BERT. Our best method
+trains BERT on MultiNLI and then re-trains it
+on our train set. It achieves 80.4% accuracy
+compared to 90% accuracy of human anno-
+tators (and 62% majority-baseline), leaving a
+signiﬁcant gap for future work.
+
+1 

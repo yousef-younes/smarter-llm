@@ -1,0 +1,59 @@
+BBQ: A Hand-Built Bias Benchmark for Question Answering
+
+Alicia Parrish,1 Angelica Chen,2 Nikita Nangia,2 Vishakh Padmakumar,2
+Jason Phang,2 Jana Thompson,2 Phu Mon Htut,2 Samuel R. Bowman1,2,3
+
+1New York University
+Dept. of Linguistics
+
+2New York University
+Center for Data Science
+
+3New York University
+Dept. of Computer Science
+
+Correspondence: {alicia.v.parrish, bowman}@nyu.edu
+
+Abstract
+
+It is well documented that NLP models learn
+social biases, but little work has been done
+on how these biases manifest in model out-
+puts for applied tasks like question answer-
+ing (QA). We introduce the Bias Benchmark
+for QA (BBQ), a dataset of question sets con-
+structed by the authors that highlight attested
+social biases against people belonging to pro-
+tected classes along nine social dimensions rel-
+evant for U.S. English-speaking contexts. Our
+task evaluates model responses at two levels:
+(i) given an under-informative context, we test
+how strongly responses reﬂect social biases,
+and (ii) given an adequately informative con-
+text, we test whether the model’s biases over-
+ride a correct answer choice. We ﬁnd that mod-
+els often rely on stereotypes when the context
+is under-informative, meaning the model’s out-
+puts consistently reproduce harmful biases in
+this setting. Though models are more accurate
+when the context provides an informative an-
+swer, they still rely on stereotypes and average
+up to 3.4 percentage points higher accuracy
+when the correct answer aligns with a social
+bias than when it conﬂicts, with this difference
+widening to over 5 points on examples target-
+ing gender for most models tested.
+
+Figure 1: Examples in BBQ come in sets of 4, created
+by varying the two contexts options in (A), ambiguous
+context only or ambiguous + disambiguated context,
+with the two question types in (B), negative question or
+non-negative question. We then repeat this with “Chris-
+tian” and “Muslim” switched. The correct answers for
+this set are shown in (C). Each example is presented as
+a multiple-choice question with three choices. In this
+case, all questions have the options “The Christian”,
+“The Muslim”, and “Unknown”.
+
+1
+

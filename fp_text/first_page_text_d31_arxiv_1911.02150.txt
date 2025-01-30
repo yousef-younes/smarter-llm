@@ -1,0 +1,60 @@
+9
+1
+0
+2
+
+v
+o
+N
+6
+
+]
+E
+N
+.
+s
+c
+[
+
+1
+v
+0
+5
+1
+2
+0
+.
+1
+1
+9
+1
+:
+v
+i
+X
+r
+a
+
+Fast Transformer Decoding: One Write-Head is All
+You Need
+
+Noam Shazeer
+Google
+noam@google.com
+
+November 7, 2019
+
+Abstract
+
+Multi-head attention layers, as used in the Transformer neural sequence model, are a powerful alter-
+native to RNNs for moving information across and between sequences. While training these layers is
+generally fast and simple, due to parallelizability across the length of the sequence, incremental inference
+(where such paralleization is impossible) is often slow, due to the memory-bandwidth cost of repeatedly
+loading the large "keys" and "values" tensors. We propose a variant called multi-query attention, where
+the keys and values are shared across all of the diﬀerent attention "heads", greatly reducing the size of
+these tensors and hence the memory bandwidth requirements of incremental decoding. We verify exper-
+imentally that the resulting models can indeed be much faster to decode, and incur only minor quality
+degradation from the baseline.
+
+1
+

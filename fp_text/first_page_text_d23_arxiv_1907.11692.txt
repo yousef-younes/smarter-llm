@@ -1,0 +1,78 @@
+9
+1
+0
+2
+
+l
+u
+J
+
+6
+2
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+2
+9
+6
+1
+1
+.
+7
+0
+9
+1
+:
+v
+i
+X
+r
+a
+
+RoBERTa: A Robustly Optimized BERT Pretraining Approach
+
+Yinhan Liu∗§ Myle Ott∗§ Naman Goyal∗§
+
+Jingfei Du∗§ Mandar Joshi†
+
+Danqi Chen§ Omer Levy§ Mike Lewis§ Luke Zettlemoyer†§ Veselin Stoyanov§
+
+† Paul G. Allen School of Computer Science & Engineering,
+University of Washington, Seattle, WA
+{mandar90,lsz}@cs.washington.edu
+§ Facebook AI
+{yinhanliu,myleott,naman,jingfeidu,
+danqi,omerlevy,mikelewis,lsz,ves}@fb.com
+
+Abstract
+
+Language model pretraining has led to sig-
+niﬁcant performance gains but careful com-
+parison between different approaches is chal-
+lenging. Training is computationally expen-
+sive, often done on private datasets of different
+sizes, and, as we will show, hyperparameter
+choices have signiﬁcant impact on the ﬁnal re-
+sults. We present a replication study of BERT
+pretraining (Devlin et al., 2019) that carefully
+measures the impact of many key hyperparam-
+eters and training data size. We ﬁnd that BERT
+was signiﬁcantly undertrained, and can match
+or exceed the performance of every model
+published after it. Our best model achieves
+state-of-the-art results on GLUE, RACE and
+SQuAD. These results highlight the impor-
+tance of previously overlooked design choices,
+and raise questions about the source of re-
+cently reported improvements. We release our
+models and code.1
+
+1 

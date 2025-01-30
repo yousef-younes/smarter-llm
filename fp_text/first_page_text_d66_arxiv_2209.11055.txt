@@ -1,0 +1,89 @@
+Efﬁcient Few-Shot Learning Without Prompts
+Lewis Tunstall1, Nils Reimers2, Unso Eun Seo Jo1, Luke Bates3,
+Daniel Korat4, Moshe Wasserblat4, Oren Pereg4
+
+1Hugging Face
+
+2cohere.ai
+
+3Ubiquitous Knowledge Processing Lab, Technical University of Darmstadt
+4Emergent AI Lab, Intel Labs
+
+1firstname@huggingface.com
+
+2info@nils-reimers.de
+
+3bates@ukp.informatik.tu-darmstadt.de
+4firstname.lastname@intel.com
+
+2
+2
+0
+2
+
+p
+e
+S
+2
+2
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+5
+5
+0
+1
+1
+.
+9
+0
+2
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Recent few-shot methods, such as parameter-
+efﬁcient ﬁne-tuning (PEFT) and pattern ex-
+ploiting training (PET), have achieved impres-
+sive results in label-scarce settings. How-
+ever, they are difﬁcult to employ since they
+are subject to high variability from manually
+crafted prompts, and typically require billion-
+parameter language models to achieve high ac-
+curacy. To address these shortcomings, we
+propose SETFIT (Sentence Transformer Fine-
+tuning), an efﬁcient and prompt-free frame-
+work for few-shot ﬁne-tuning of Sentence
+Transformers (ST). SETFIT works by ﬁrst ﬁne-
+tuning a pretrained ST on a small number of
+text pairs, in a contrastive Siamese manner.
+The resulting model is then used to generate
+rich text embeddings, which are used to train a
+classiﬁcation head. This simple framework re-
+quires no prompts or verbalizers, and achieves
+high accuracy with orders of magnitude less
+parameters than existing techniques. Our ex-
+periments show that SETFIT obtains compa-
+rable results with PEFT and PET techniques,
+while being an order of magnitude faster to
+train. We also show that SETFIT can be ap-
+plied in multilingual settings by simply switch-
+ing the ST body. Our code1 and datasets2 are
+made publicly available.
+
+1
+

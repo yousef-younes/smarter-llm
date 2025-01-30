@@ -1,0 +1,150 @@
+Model soups: averaging weights of multiple ﬁne-tuned models
+improves accuracy without increasing inference time
+
+Mitchell Wortsman 1 Gabriel Ilharco 1 Samir Yitzhak Gadre 2 Rebecca Roelofs 3 Raphael Gontijo-Lopes 3
+Ari S. Morcos 4 Hongseok Namkoong 2 Ali Farhadi 1 Yair Carmon * 5 Simon Kornblith * 3 Ludwig Schmidt * 1
+
+2
+2
+0
+2
+
+l
+u
+J
+
+1
+
+]
+
+G
+L
+.
+s
+c
+[
+
+3
+v
+2
+8
+4
+5
+0
+.
+3
+0
+2
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+The conventional recipe for maximizing model
+accuracy is to (1) train multiple models with var-
+ious hyperparameters and (2) pick the individ-
+ual model which performs best on a held-out
+validation set, discarding the remainder. In this
+paper, we revisit the second step of this proce-
+dure in the context of ﬁne-tuning large pre-trained
+models, where ﬁne-tuned models often appear
+to lie in a single low error basin. We show that
+averaging the weights of multiple models ﬁne-
+tuned with different hyperparameter conﬁgura-
+tions often improves accuracy and robustness. Un-
+like a conventional ensemble, we may average
+many models without incurring any additional
+inference or memory costs—we call the results
+“model soups.” When ﬁne-tuning large pre-trained
+models such as CLIP, ALIGN, and a ViT-G pre-
+trained on JFT, our soup recipe provides signiﬁ-
+cant improvements over the best model in a hy-
+perparameter sweep on ImageNet. The result-
+ing ViT-G model, which attains 90.94% top-1
+accuracy on ImageNet, achieved a new state of
+the art. Furthermore, we show that the model
+soup approach extends to multiple image clas-
+siﬁcation and natural language processing tasks,
+improves out-of-distribution performance, and im-
+proves zero-shot performance on new downstream
+tasks. Finally, we analytically relate the perfor-
+mance similarity of weight-averaging and logit-
+ensembling to ﬂatness of the loss and conﬁdence
+of the predictions, and validate this relation em-
+pirically. Code is available at https://github.
+com/mlfoundations/model-soups.
+
+*Equal contribution 1University of Washington 2Columbia Uni-
+versity 3Google Research, Brain Team 4Meta AI Research 5Tel
+Aviv University. Correspondence to: <mitchnw@uw.edu>.
+
+Proceedings of the 39 th International Conference on Machine
+Learning, Baltimore, Maryland, USA, PMLR 162, 2022. Copy-
+right 2022 by the author(s).
+
+Figure 1: Model soups improve accuracy over the best individual
+model when performing a large, random hyperparameter search
+for ﬁne-tuning a CLIP ViT-B/32 model on ImageNet. The uniform
+soup (blue circle) averages all ﬁne-tuned models (green diamonds)
+in a random hyperparameter search over learning rate, weight-
+decay, iterations, data augmentation, mixup, and label smoothing.
+The greedy soup adds models sequentially to the model soup,
+keeping a model in the soup if accuracy on the held-out validation
+set does not decrease.
+
+Method
+
+ImageNet acc. Distribution
+(top-1, %)
+
+shifts
+
+ViT-G (Zhai et al., 2021)
+CoAtNet-7 (Dai et al., 2021)
+
+90.45
+90.88
+
+Our models/evaluations based on ViT-G:
+ViT-G (reevaluated)
+Best model in
+hyperparam search
+Greedy soup
+
+90.47
+90.78
+
+90.94
+
+–
+–
+
+82.06
+84.68
+
+85.02
+
+Table 1: Model soups improve accuracy over the best individual
+model when ﬁne-tuning a JFT-3B pre-trained ViT-G/14 model on
+ImageNet. Instead of selecting the best model from a hyperparam-
+eter sweep during ﬁne-tuning, model soups average the weights
+of multiple ﬁne-tuned models. To evaluate performance under
+distribution shift we consider average accuracy on ImageNet-V2,
+ImageNet-R, ImageNet-Sketch, ObjectNet, and ImageNet-A. Ad-
+ditional details are provided by Table 4 and Section 3.3.2, while
+analogous results for BASIC (Pham et al., 2021) are in Appendix C.
+
+75767778798081ImageNetAccuracy(top-1,%)3540455055Avg.accuracyon5distributionshiftsGreedySoupUniformSoupInitializationVarioushyperparameters 
+ 
+ 
+ 
+ 
+ 
+Model soups: averaging weights of multiple ﬁne-tuned models improves accuracy without increasing inference time
+
+1. 

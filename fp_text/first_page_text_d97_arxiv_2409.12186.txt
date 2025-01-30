@@ -1,0 +1,90 @@
+Technical Report
+
+Qwen2.5-Coder Technical Report
+
+Jian Yang* Zeyu Cui*
+
+Binyuan Hui*
+Dayiheng Liu Lei Zhang Tianyu Liu Jiajun Zhang Bowen Yu Keming Lu
+Kai Dang Yang Fan Yichang Zhang An Yang Rui Men Fei Huang
+Bo Zheng Yibo Miao
+Xingzhang Ren Xuancheng Ren Jingren Zhou Junyang Lin†
+Qwen Team Alibaba Group
+
+Shanghaoran Quan Yunlong Feng
+
+Jiaxi Yang*
+
+https://hf.co/Qwen/Qwen2.5-Coder-32B-Instruct
+https://github.com/QwenLM/Qwen2.5-Coder
+
+Abstract
+
+In this report, we introduce the Qwen2.5-Coder series, a significant up-
+grade from its predecessor, CodeQwen1.5. This series includes six models:
+Qwen2.5-Coder-(0.5B/1.5B/3B/7B/14B/32B). As a code-specific model,
+Qwen2.5-Coder is built upon the Qwen2.5 architecture and continues pre-
+trained on a vast corpus of over 5.5 trillion tokens. Through meticulous
+data cleaning, scalable synthetic data generation, and balanced data mix-
+ing, Qwen2.5-Coder demonstrates impressive code generation capabilities
+while retaining general and math skills. These models have been evaluated
+on a wide range of code-related tasks, achieving state-of-the-art (SOTA)
+performance across more than 10 benchmarks, including code generation,
+completion, reasoning, and repair, consistently outperforming larger mod-
+els of the same model size. We believe that the release of the Qwen2.5-Coder
+series will advance research in code intelligence and, with its permissive
+licensing, support wider adoption by developers in real-world applications.
+
+4
+2
+0
+2
+
+v
+o
+N
+2
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+3
+v
+6
+8
+1
+2
+1
+.
+9
+0
+4
+2
+:
+v
+i
+X
+r
+a
+
+∗Equal core contribution, †Corresponding author
+
+1
+
+92.788.479.378.190.289.281.273.331.427.922.621.365.962.954.350.538.336.329.829.473.772.959.451.183.475.163.550.658.451.946.245.686.383.874.973.568.957.421.716.892.186.834.665.837.671.489.254.284.469.1..lavEnamuH.....PPBMLiveCodeBench.......McEvalBigCodeBench......AiderCRUXEval-O...BIRD-SQL....sulPlavE..anerAedoCQwen2.5-Coder-32B-InstructDeepSeek-Coder-V2-InstructDeepSeek-Coder-33B-InstructCodeStral-22BGPT-4o-202408061Qwen2.5-Coder-32B 
+ 
+ 
+ 
+ 
+ 
+Technical Report
+
+Contents
+
+1 

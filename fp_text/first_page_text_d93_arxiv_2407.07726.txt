@@ -1,0 +1,57 @@
+4
+2
+0
+2
+
+t
+c
+O
+0
+1
+
+]
+
+V
+C
+.
+s
+c
+[
+
+2
+v
+6
+2
+7
+7
+0
+.
+7
+0
+4
+2
+:
+v
+i
+X
+r
+a
+
+July 2024
+
+PaliGemma: A versatile 3B VLM for transfer
+Lucas Beyer*,†, Andreas Steiner*, André Susano Pinto*, Alexander Kolesnikov*, Xiao Wang*, Daniel Salz,
+Maxim Neumann, Ibrahim Alabdulmohsin, Michael Tschannen, Emanuele Bugliarello, Thomas Unterthiner,
+Daniel Keysers, Skanda Koppula, Fangyu Liu, Adam Grycner, Alexey Gritsenko, Neil Houlsby, Manoj Kumar,
+Keran Rong, Julian Eisenschlos, Rishabh Kabra, Matthias Bauer, Matko Bošnjak, Xi Chen, Matthias Minderer,
+Paul Voigtlaender, Ioana Bica, Ivana Balazevic, Joan Puigcerver, Pinelopi Papalampidi, Olivier Henaff, Xi
+Xiong, Radu Soricut, Jeremiah Harmsen and Xiaohua Zhai*,†
+*Core team, †Project lead
+
+PaliGemma is an open Vision-Language Model (VLM) that is based on the SigLIP-So400m vision encoder
+and the Gemma-2B language model. It is trained to be a versatile and broadly knowledgeable base
+model that is effective to transfer. It achieves strong performance on a wide variety of open-world tasks.
+We evaluate PaliGemma on almost 40 diverse tasks including standard VLM benchmarks, but also more
+specialized tasks such as remote-sensing and segmentation.
+
+1. 

@@ -1,0 +1,85 @@
+HellaSwag: Can a Machine Really Finish Your Sentence?
+
+Rowan Zellers♠ Ari Holtzman♠ Yonatan Bisk♠ Ali Farhadi♠♥ Yejin Choi♠♥
+♠Paul G. Allen School of Computer Science & Engineering, University of Washington
+♥Allen Institute for Artiﬁcial Intelligence
+https://rowanzellers.com/hellaswag
+
+9
+1
+0
+2
+
+y
+a
+M
+9
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+0
+3
+8
+7
+0
+.
+5
+0
+9
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Recent work by Zellers et al. (2018) intro-
+duced a new task of commonsense natural lan-
+guage inference: given an event description
+such as “A woman sits at a piano,” a machine
+must select the most likely followup: “She
+sets her ﬁngers on the keys.” With the intro-
+duction of BERT (Devlin et al., 2018), near
+human-level performance was reached. Does
+this mean that machines can perform human
+level commonsense inference?
+
+In this paper, we show that commonsense in-
+ference still proves diﬃcult for even state-
+of-the-art models, by presenting HellaSwag,
+a new challenge dataset. Though its ques-
+tions are trivial for humans (ą95% accuracy),
+state-of-the-art models struggle (ă48%). We
+achieve this via Adversarial Filtering (AF), a
+data collection paradigm wherein a series of
+discriminators iteratively select an adversarial
+set of machine-generated wrong answers. AF
+proves to be surprisingly robust. The key in-
+sight is to scale up the length and complex-
+ity of the dataset examples towards a critical
+‘Goldilocks’ zone wherein generated text is
+ridiculous to humans, yet often misclassiﬁed
+by state-of-the-art models.
+
+Our construction of HellaSwag, and its result-
+ing diﬃculty, sheds light on the inner work-
+ings of deep pretrained models. More broadly,
+it suggests a new path forward for NLP re-
+search, in which benchmarks co-evolve with
+the evolving state-of-the-art in an adversarial
+way, so as to present ever-harder challenges.
+
+1
+

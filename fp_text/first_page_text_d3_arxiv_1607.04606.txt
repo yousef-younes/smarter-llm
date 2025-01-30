@@ -1,0 +1,73 @@
+Enriching Word Vectors with Subword Information
+
+Piotr Bojanowski∗ and Edouard Grave∗ and Armand Joulin and Tomas Mikolov
+Facebook AI Research
+{bojanowski,egrave,ajoulin,tmikolov}@fb.com
+
+7
+1
+0
+2
+
+n
+u
+J
+
+9
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+6
+0
+6
+4
+0
+.
+7
+0
+6
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Continuous word representations, trained on
+large unlabeled corpora are useful for many
+natural language processing tasks. Popular
+models that learn such representations ignore
+the morphology of words, by assigning a dis-
+tinct vector to each word. This is a limitation,
+especially for languages with large vocabular-
+ies and many rare words. In this paper, we pro-
+pose a new approach based on the skipgram
+model, where each word is represented as a
+bag of character n-grams. A vector represen-
+tation is associated to each character n-gram;
+words being represented as the sum of these
+representations. Our method is fast, allow-
+ing to train models on large corpora quickly
+and allows us to compute word representations
+for words that did not appear in the training
+data. We evaluate our word representations on
+nine different languages, both on word sim-
+ilarity and analogy tasks. By comparing to
+recently proposed morphological word repre-
+sentations, we show that our vectors achieve
+state-of-the-art performance on these tasks.
+
+1
+

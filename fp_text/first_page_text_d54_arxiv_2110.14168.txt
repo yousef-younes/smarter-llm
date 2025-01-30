@@ -1,0 +1,85 @@
+1
+2
+0
+2
+
+v
+o
+N
+8
+1
+
+]
+
+G
+L
+.
+s
+c
+[
+
+2
+v
+8
+6
+1
+4
+1
+.
+0
+1
+1
+2
+:
+v
+i
+X
+r
+a
+
+Training Veriﬁers to Solve Math Word Problems
+
+Karl Cobbe∗
+
+Vineet Kosaraju∗
+
+Mohammad Bavarian
+
+Mark Chen
+
+Heewoo Jun
+
+(cid:32)Lukasz Kaiser
+
+Matthias Plappert
+
+Jerry Tworek
+
+Jacob Hilton
+
+Reiichiro Nakano
+
+Christopher Hesse
+
+John Schulman
+
+OpenAI
+
+Abstract
+
+State-of-the-art language models can match human performance on
+many tasks, but they still struggle to robustly perform multi-step mathe-
+matical reasoning. To diagnose the failures of current models and support
+research, we introduce GSM8K, a dataset of 8.5K high quality linguisti-
+cally diverse grade school math word problems. We ﬁnd that even the
+largest transformer models fail to achieve high test performance, despite
+the conceptual simplicity of this problem distribution. To increase per-
+formance, we propose training veriﬁers to judge the correctness of model
+completions. At test time, we generate many candidate solutions and
+select the one ranked highest by the veriﬁer. We demonstrate that ver-
+iﬁcation signiﬁcantly improves performance on GSM8K, and we provide
+strong empirical evidence that veriﬁcation scales more eﬀectively with
+increased data than a ﬁnetuning baseline.
+
+1
+

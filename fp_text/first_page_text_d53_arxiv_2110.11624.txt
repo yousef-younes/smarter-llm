@@ -1,0 +1,73 @@
+SCICAP: Generating Captions for Scientiﬁc Figures
+
+Ting-Yao (Edward) Hsu, C. Lee Giles, Ting-Hao ‘Kenneth’ Huang
+Pennsylvania State University
+University Park, PA, USA
+{txh357, clg20, txh710}@psu.edu
+
+1
+2
+0
+2
+
+t
+c
+O
+5
+2
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+4
+2
+6
+1
+1
+.
+0
+1
+1
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Researchers use ﬁgures to communicate rich,
+complex information in scientiﬁc papers. The
+captions of these ﬁgures are critical to convey-
+ing effective messages. However, low-quality
+ﬁgure captions commonly occur in scientiﬁc
+articles and may decrease understanding.
+In
+this paper, we propose an end-to-end neural
+framework to automatically generate informa-
+tive, high-quality captions for scientiﬁc ﬁgures.
+To this end, we introduce SCICAP,1 a large-
+scale ﬁgure-caption dataset based on computer
+science arXiv papers published between 2010
+and 2020. After pre-processing – including
+ﬁgure-type classiﬁcation, sub-ﬁgure identiﬁca-
+tion, text normalization, and caption text selec-
+tion – SCICAP contained more than two mil-
+lion ﬁgures extracted from over 290,000 pa-
+pers. We then established baseline models that
+caption graph plots, the dominant (19.2%) ﬁg-
+ure type. The experimental results showed
+both opportunities and steep challenges of gen-
+erating captions for scientiﬁc ﬁgures.
+
+1
+

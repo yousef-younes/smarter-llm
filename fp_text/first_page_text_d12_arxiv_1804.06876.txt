@@ -1,0 +1,87 @@
+Gender Bias in Coreference Resolution:
+Evaluation and Debiasing Methods
+
+Jieyu Zhao§
+
+Tianlu Wang†
+
+Mark Yatskar‡
+
+Vicente Ordonez†
+
+Kai-Wei Chang§
+
+§University of California, Los Angeles
+† University of Virginia
+
+{jyzhao, kwchang}@cs.ucla.edu
+
+{tw8bc, vicente}@virginia.edu
+
+‡Allen Institute for Artiﬁcial Intelligence
+
+marky@allenai.org
+
+8
+1
+0
+2
+
+r
+p
+A
+8
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+6
+7
+8
+6
+0
+.
+4
+0
+8
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+We introduce a new benchmark, WinoBias, for
+coreference resolution focused on gender bias.
+Our corpus contains Winograd-schema style
+sentences with entities corresponding to peo-
+ple referred by their occupation (e.g. the nurse,
+the doctor, the carpenter). We demonstrate
+that a rule-based, a feature-rich, and a neu-
+ral coreference system all link gendered pro-
+nouns to pro-stereotypical entities with higher
+accuracy than anti-stereotypical entities, by
+an average difference of 21.1 in F1 score.
+Finally, we demonstrate a data-augmentation
+approach that,
+in combination with exist-
+ing word-embedding debiasing techniques, re-
+moves the bias demonstrated by these sys-
+tems in WinoBias without signiﬁcantly affect-
+ing their performance on existing coreference
+benchmark datasets. Our dataset and code are
+avialable at http://winobias.org.
+
+1
+

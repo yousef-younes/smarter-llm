@@ -1,0 +1,78 @@
+PIQA: Reasoning about Physical Commonsense in Natural Language
+
+Yonatan Bisk1,2,3,4
+
+Rowan Zellers1,4
+1Allen Institute for Artiﬁcial Intelligence
+
+Ronan Le Bras1
+2Microsoft Research AI
+
+Jianfeng Gao2
+
+Yejin Choi1,4
+
+3Carnegie Mellon University
+
+4Paul G. Allen School for Computer Science and Engineering, University of Washington
+http://yonatanbisk.com/piqa
+
+9
+1
+0
+2
+
+v
+o
+N
+6
+2
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+1
+4
+6
+1
+1
+.
+1
+1
+9
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+To apply eyeshadow without a brush, should I use a cotton
+swab or a toothpick? Questions requiring this kind of phys-
+ical commonsense pose a challenge to today’s natural lan-
+guage understanding systems. While recent pretrained mod-
+els (such as BERT) have made progress on question answer-
+ing over more abstract domains – such as news articles and
+encyclopedia entries, where text is plentiful – in more physi-
+cal domains, text is inherently limited due to reporting bias.
+Can AI systems learn to reliably answer physical common-
+sense questions without experiencing the physical world?
+In this paper, we introduce the task of physical commonsense
+reasoning and a corresponding benchmark dataset Physical
+Interaction: Question Answering or PIQA
+. Though hu-
+mans ﬁnd the dataset easy (95% accuracy), large pretrained
+models struggle (∼77%). We provide analysis about the di-
+mensions of knowledge that existing models lack, which of-
+fers signiﬁcant opportunities for future research.
+

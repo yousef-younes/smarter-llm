@@ -1,0 +1,113 @@
+2
+2
+0
+2
+
+r
+a
+
+M
+1
+2
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+3
+6
+1
+6
+1
+.
+6
+0
+1
+2
+:
+v
+i
+X
+r
+a
+
+Published as a conference paper at ICLR 2022
+
+THE MULTIBERTS: BERT REPRODUCTIONS FOR
+ROBUSTNESS ANALYSIS
+
+Thibault Sellam∗, Steve Yadlowsky∗, Ian Tenney∗, Jason Wei†, Naomi Saphra‡,
+Alexander D’Amour, Tal Linzen, Jasmijn Bastings, Iulia Turc,
+Jacob Eisenstein, Dipanjan Das, and Ellie Pavlick
+
+{tsellam, yadlowsky, iftenney, epavlick}@google.com
+Google Research
+
+ABSTRACT
+
+Experiments with pre-trained models such as BERT are often based on a single
+checkpoint. While the conclusions drawn apply to the artifact tested in the ex-
+periment (i.e., the particular instance of the model), it is not always clear whether
+they hold for the more general procedure which includes the architecture, training
+data, initialization scheme, and loss function. Recent work has shown that repeat-
+ing the pre-training process can lead to substantially different performance, sug-
+gesting that an alternate strategy is needed to make principled statements about
+procedures. To enable researchers to draw more robust conclusions, we intro-
+duce the MultiBERTs, a set of 25 BERT-Base checkpoints, trained with similar
+hyper-parameters as the original BERT model but differing in random weight ini-
+tialization and shufﬂing of training data. We also deﬁne the Multi-Bootstrap, a
+non-parametric bootstrap method for statistical inference designed for settings
+where there are multiple pre-trained models and limited test data. To illustrate
+our approach, we present a case study of gender bias in coreference resolution, in
+which the Multi-Bootstrap lets us measure effects that may not be detected with
+a single checkpoint. We release our models and statistical library,1 along with
+an additional set of 140 intermediate checkpoints captured during pre-training to
+facilitate research on learning dynamics.
+
+1
+
+INTRODUCTION
+
+Contemporary natural language processing (NLP) relies heavily on pretrained language models,
+which are trained using large-scale unlabeled data (Bommasani et al., 2021). BERT (Devlin et al.,
+2019) is a particularly popular choice: it has been widely adopted in academia and industry, and
+aspects of its performance have been reported on in thousands of research papers (see, e.g., Rogers
+et al., 2020, for an overview). Because pre-training large language models is computationally ex-
+pensive (Strubell et al., 2019), researchers often rely on the release of model checkpoints through
+libraries such as HuggingFace Transformers (Wolf et al., 2020), which enable them to use large-scale
+language models without repeating the pre-training work. Consequently, most published results are
+based on a small number of publicly released model checkpoints.
+
+While this reuse of model checkpoints has lowered the cost of research and facilitated head-to-head
+comparisons, it limits our ability to draw general scientiﬁc conclusions about the performance of a
+particular class of models (Dror et al., 2019; D’Amour et al., 2020; Zhong et al., 2021). The key
+issue is that reusing model checkpoints makes it hard to generalize observations about the behavior
+of a single model artifact to statements about the underlying pre-training procedure which created
+it. Pre-training such models is an inherently stochastic process which depends on the initializa-
+tion of the model’s parameters and the ordering of training examples; for example, D’Amour et al.
+
+∗ Equal contribution.
+† Work done as a Google AI resident.
+‡ Work done during an internship at Google.
+1http://goo.gle/multiberts
+
+1
+
+ 
+ 
+ 
+ 
+ 
+ 
+Published as a conference paper at ICLR 2022
+
+(2020) report substantial quantitative differences across multiple checkpoints of the same model ar-
+chitecture on several “stress tests” (Naik et al., 2018; McCoy et al., 2019). It is therefore difﬁcult to
+know how much of the success of a model based on the original BERT checkpoint is due to BERT’s
+design, and how much is due to idiosyncracies of a particular artifact. Understand

@@ -1,0 +1,82 @@
+4
+2
+0
+2
+
+g
+u
+A
+9
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+1
+4
+4
+0
+1
+.
+8
+0
+4
+2
+:
+v
+i
+X
+r
+a
+
+Goldfish: Monolingual Language Models for 350 Languages
+
+Tyler A. Chang1,2, Catherine Arnett3, Zhuowen Tu1, Benjamin K. Bergen1
+1Department of Cognitive Science
+2Halıcıo˘glu Data Science Institute
+3Department of Linguistics
+University of California San Diego
+{tachang, ccarnett, ztu, bkbergen}@ucsd.edu
+
+Abstract
+
+For many low-resource languages, the only
+available language models are large multilin-
+gual models trained on many languages simul-
+taneously. However, using FLORES perplex-
+ity as a metric, we find that these models per-
+form worse than bigrams for many languages
+(e.g. 24% of languages in XGLM 4.5B; 43%
+in BLOOM 7.1B). To facilitate research that
+focuses on low-resource languages, we pre-
+train and release Goldfish, a suite of monolin-
+gual autoregressive Transformer language mod-
+els up to 125M parameters for 350 languages.
+The Goldfish reach lower FLORES perplexities
+than BLOOM, XGLM, and MaLA-500 on 98
+of 204 FLORES languages, despite each Gold-
+fish model being over 10× smaller. However,
+the Goldfish significantly underperform larger
+multilingual models on reasoning benchmarks,
+suggesting that for low-resource languages,
+multilinguality primarily improves general rea-
+soning abilities rather than basic text genera-
+tion. We release models trained on 5MB (350
+languages), 10MB (288 languages), 100MB
+(166 languages), and 1GB (83 languages) of
+text data where available. The Goldfish models
+are available as baselines, fine-tuning sources,
+or augmentations to existing models in low-
+resource NLP research, and they are further
+useful for crosslinguistic studies requiring max-
+imally comparable models across languages.
+
+1
+

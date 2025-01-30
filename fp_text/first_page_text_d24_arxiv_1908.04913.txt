@@ -1,0 +1,72 @@
+FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age
+
+Kimmo K¨arkk¨ainen
+UCLA
+kimmo@cs.ucla.edu
+
+Jungseock Joo
+UCLA
+jjoo@comm.ucla.edu
+
+9
+1
+0
+2
+
+g
+u
+A
+4
+1
+
+]
+
+V
+C
+.
+s
+c
+[
+
+1
+v
+3
+1
+9
+4
+0
+.
+8
+0
+9
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Existing public face datasets are strongly biased toward
+Caucasian faces, and other races (e.g., Latino) are sig-
+niﬁcantly underrepresented. This can lead to inconsistent
+model accuracy, limit the applicability of face analytic sys-
+tems to non-White race groups, and adversely affect re-
+search ﬁndings based on such skewed data. To mitigate
+the race bias in these datasets, we construct a novel face
+image dataset, containing 108,501 images, with an empha-
+sis of balanced race composition in the dataset. We deﬁne
+7 race groups: White, Black, Indian, East Asian, Southeast
+Asian, Middle East, and Latino. Images were collected from
+the YFCC-100M Flickr dataset and labeled with race, gen-
+der, and age groups. Evaluations were performed on exist-
+ing face attribute datasets as well as novel image datasets
+to measure generalization performance. We ﬁnd that the
+model trained from our dataset is substantially more accu-
+rate on novel datasets and the accuracy is consistent be-
+tween race and gender groups. The dataset will be released
+via {https://github.com/joojs/fairface}.
+
+1. 

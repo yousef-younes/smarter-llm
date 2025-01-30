@@ -1,0 +1,92 @@
+ColD Fusion: Collaborative Descent for Distributed Multitask Finetuning
+
+Shachar Don-Yehiya
+IBM Research
+Hebrew University of Jerusalem
+shachar.don-yehiya@ibm.com
+
+Noam Slonim
+IBM Research
+noams@il.ibm.com
+
+Abstract
+
+Elad Venezian
+IBM Research
+eladv@il.ibm.com
+
+Yoav Katz
+IBM Research
+katz@il.ibm.com
+
+Colin Raffel
+UNC Chapel Hill
+craffel@gmail.com
+
+Leshem Choshen
+IBM Research
+leshem.choshen@il.ibm.com
+
+3
+2
+0
+2
+
+p
+e
+S
+3
+1
+
+]
+
+G
+L
+.
+s
+c
+[
+
+2
+v
+8
+7
+3
+1
+0
+.
+2
+1
+2
+2
+:
+v
+i
+X
+r
+a
+
+We propose a new paradigm to continually
+evolve pretrained models, denoted ColD Fu-
+sion. It provides the benefits of multitask learn-
+ing but leverages distributed computation with
+limited communication and eliminates the need
+for shared data. Consequentially, ColD Fusion
+can give rise to a synergistic loop, where fine-
+tuned models can be recycled to continually im-
+prove the pretrained model they are based upon.
+We show that ColD Fusion yields comparable
+benefits to multitask training by producing a
+model that (a) attains strong performance on
+all of the datasets it was trained on; and (b) is
+a better starting point for finetuning on unseen
+datasets. We show that ColD Fusion outper-
+forms RoBERTa and even previous multitask
+models. Specifically, when training and test-
+ing on 35 diverse datasets, ColD Fusion-based
+model outperforms RoBERTa by 2.33 points
+on average without any changes to the architec-
+ture.1
+
+1
+

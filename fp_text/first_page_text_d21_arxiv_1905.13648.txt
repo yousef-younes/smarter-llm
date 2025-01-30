@@ -1,0 +1,74 @@
+9
+1
+0
+2
+
+t
+c
+O
+6
+1
+
+]
+
+V
+C
+.
+s
+c
+[
+
+2
+v
+8
+4
+6
+3
+1
+.
+5
+0
+9
+1
+:
+v
+i
+X
+r
+a
+
+Scene Text Visual Question Answering
+
+Ali Furkan Biten∗,1 Rub`en Tito∗,1 Andres Maﬂa∗,1
+
+Lluis Gomez1
+
+Marc¸al Rusi˜nol1
+
+Ernest Valveny1 C.V. Jawahar2 Dimosthenis Karatzas1
+
+1Computer Vision Center, UAB, Spain
+
+2CVIT, IIIT Hyderabad, India
+
+{abiten, rperez, amafla, lgomez, marcal, dimos}@cvc.uab.es
+
+Abstract
+
+Current visual question answering datasets do not con-
+sider the rich semantic information conveyed by text within
+an image. In this work, we present a new dataset, ST-VQA,
+that aims to highlight the importance of exploiting high-
+level semantic information present in images as textual cues
+in the Visual Question Answering process. We use this
+dataset to deﬁne a series of tasks of increasing difﬁculty for
+which reading the scene text in the context provided by the
+visual information is necessary to reason and generate an
+appropriate answer. We propose a new evaluation metric
+for these tasks to account both for reasoning errors as well
+as shortcomings of the text recognition module. In addition
+we put forward a series of baseline methods, which provide
+further insight to the newly released dataset, and set the
+scene for further research.
+
+1. 

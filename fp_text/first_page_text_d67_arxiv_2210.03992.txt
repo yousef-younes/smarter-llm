@@ -1,0 +1,79 @@
+Generative Language Models for Paragraph-Level Question Generation
+
+Asahi Ushio and Fernando Alva-Manchego and Jose Camacho-Collados
+Cardiff NLP, School of Computer Science and Informatics, Cardiff University, UK
+{UshioA,AlvaManchegoF,CamachoColladosJ}@cardiff.ac.uk
+
+3
+2
+0
+2
+
+n
+a
+J
+
+2
+
+]
+L
+C
+.
+s
+c
+[
+
+3
+v
+2
+9
+9
+3
+0
+.
+0
+1
+2
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Powerful generative models have led to recent
+progress in question generation (QG). How-
+ever,
+it is difﬁcult to measure advances in
+QG research since there are no standardized
+resources that allow a uniform comparison
+among approaches. In this paper, we introduce
+QG-Bench, a multilingual and multidomain
+benchmark for QG that uniﬁes existing ques-
+tion answering datasets by converting them to
+a standard QG setting.
+It includes general-
+purpose datasets such as SQuAD (Rajpurkar
+et al., 2016) for English, datasets from ten do-
+mains and two styles, as well as datasets in
+eight different languages. Using QG-Bench
+as a reference, we perform an extensive anal-
+ysis of the capabilities of language models for
+the task. First, we propose robust QG base-
+lines based on ﬁne-tuning generative language
+models. Then, we complement automatic eval-
+uation based on standard metrics with an ex-
+tensive manual evaluation, which in turn sheds
+light on the difﬁculty of evaluating QG models.
+Finally, we analyse both the domain adaptabil-
+ity of these models as well as the effectiveness
+of multilingual models in languages other than
+English. QG-Bench is released along with
+the ﬁne-tuned models presented in the paper,1
+which are also available as a demo.2
+
+1
+

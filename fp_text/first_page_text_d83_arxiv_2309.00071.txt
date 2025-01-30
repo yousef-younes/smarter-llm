@@ -1,0 +1,86 @@
+YaRN: Efficient Context Window Extension of Large
+Language Models
+
+Bowen Peng1∗
+
+Jeffrey Quesnelle1†
+
+Honglu Fan23
+
+Enrico Shippole‡
+
+1Nous Research
+
+2EleutherAI
+
+3University of Geneva
+
+Abstract
+
+Rotary Position Embeddings (RoPE) have been shown to effectively encode posi-
+tional information in transformer-based language models. However, these models
+fail to generalize past the sequence length they were trained on. We present YaRN
+(Yet another RoPE extensioN method), a compute-efficient method to extend the
+context window of such models, requiring 10x less tokens and 2.5x less training
+steps than previous methods. Using YaRN, we show that LLaMA models can
+effectively utilize and extrapolate to context lengths much longer than their original
+pre-training would allow, while also surpassing previous the state-of-the-art at
+context window extension. In addition, we demonstrate that YaRN exhibits the
+capability to extrapolate beyond the limited context of a fine-tuning dataset. The
+models fine-tuned using YaRN has been made available and reproduced online up
+to 128k context length at https://github.com/jquesnelle/yarn.
+
+3
+2
+0
+2
+
+v
+o
+N
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+1
+7
+0
+0
+0
+.
+9
+0
+3
+2
+:
+v
+i
+X
+r
+a
+
+Figure 1: Sliding window perplexity (S = 256) of ten 128k Proof-pile documents truncated to evaluation
+context window size
+
+∗Reddit: /u/bloc97 GitHub: bloc97
+†Reddit: /u/emozilla X: @theemozilla GitHub: jquesnelle
+‡X: @EnricoShippole GitHub: conceptofmind
+
+Preprint. Under review.
+
+020000400006000080000100000120000Context Window2.22.42.62.83.03.23.43.63.8Perplexity (lower is better)CodeLlama-13b-hfYarn-Llama-2-13b-64kYarn-Llama-2-13b-128ktogethercomputer/LLaMA-2-7B-32KCodeLlama-7b-hfYarn-Llama-2-7b-64kYarn-Llama-2-7b-128k 
+ 
+ 
+ 
+ 
+ 
+1
+

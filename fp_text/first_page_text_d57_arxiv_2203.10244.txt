@@ -1,0 +1,109 @@
+ChartQA: A Benchmark for Question Answering about Charts
+with Visual and Logical Reasoning
+
+Ahmed Masry
+
+♣
+
+, Do Xuan Long
+
+♠
+
+, Jia Qing Tan
+
+♠
+
+, Shaﬁq Joty
+
+♠♦
+
+, Enamul Hoque
+
+♣
+
+♣
+
+♣
+
+York University, Canada
+Nanyang Technological University, Singapore,
+
+♠
+
+♦
+
+Salesforce Research
+
+{masry20, enamulh}@yorku.ca
+{xuanlong001@e.ntu, C190022@e.ntu, srjoty@ntu}.edu.sg
+
+♠
+
+2
+2
+0
+2
+
+r
+a
+
+M
+9
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+4
+4
+2
+0
+1
+.
+3
+0
+2
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Charts are very popular for analyzing data.
+When exploring charts, people often ask a
+variety of complex reasoning questions that
+involve several logical and arithmetic opera-
+tions. They also commonly refer to visual fea-
+tures of a chart in their questions. However,
+most existing datasets do not focus on such
+complex reasoning questions as their ques-
+tions are template-based and answers come
+from a ﬁxed-vocabulary.
+In this work, we
+present a large-scale benchmark covering 9.6K
+human-written questions as well as 23.1K
+questions generated from human-written chart
+summaries. To address the unique challenges
+in our benchmark involving visual and log-
+ical reasoning over charts, we present two
+transformer-based models that combine visual
+features and the data table of the chart in a uni-
+ﬁed way to answer questions. While our mod-
+els achieve the state-of-the-art results on the
+previous datasets as well as on our benchmark,
+the evaluation also reveals several challenges
+in answering complex reasoning questions.
+
+1
+

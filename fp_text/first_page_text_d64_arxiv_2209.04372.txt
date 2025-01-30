@@ -1,0 +1,62 @@
+Pre-training image-language transformers for open-vocabulary tasks
+
+AJ Piergiovanni
+Google Research
+
+Weicheng Kuo
+Google Research
+
+Anelia Angelova
+Google Research
+
+2
+2
+0
+2
+
+p
+e
+S
+9
+
+]
+
+V
+C
+.
+s
+c
+[
+
+1
+v
+2
+7
+3
+4
+0
+.
+9
+0
+2
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+We present a pre-training approach for vision and lan-
+guage transformer models, which is based on a mixture of
+diverse tasks. We explore both the use of image-text cap-
+tioning data in pre-training, which does not need additional
+supervision, as well as object-aware strategies to pre-train
+the model. We evaluate the method on a number of text-
+generative vision+language tasks, such as Visual Question
+Answering, visual entailment and captioning, and demon-
+strate large gains over standard pre-training methods.
+
+1. 

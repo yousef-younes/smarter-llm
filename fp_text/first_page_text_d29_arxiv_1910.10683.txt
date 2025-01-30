@@ -1,0 +1,103 @@
+3
+2
+0
+2
+
+p
+e
+S
+9
+1
+
+]
+
+G
+L
+.
+s
+c
+[
+
+4
+v
+3
+8
+6
+0
+1
+.
+0
+1
+9
+1
+:
+v
+i
+X
+r
+a
+
+Journal of Machine Learning Research 21 (2020) 1-67
+
+Submitted 1/20; Revised 6/20; Published 6/20
+
+Exploring the Limits of Transfer Learning with a Unified
+Text-to-Text Transformer
+
+Colin Raffel∗
+Noam Shazeer∗
+Adam Roberts∗
+Katherine Lee∗
+
+Sharan Narang
+
+Michael Matena
+
+Yanqi Zhou
+
+Wei Li
+
+Peter J. Liu
+
+Google, Mountain View, CA 94043, USA
+
+Editor: Ivan Titov
+
+craffel@gmail.com
+
+noam@google.com
+
+adarob@google.com
+
+katherinelee@google.com
+
+sharannarang@google.com
+
+mmatena@google.com
+
+yanqiz@google.com
+
+mweili@google.com
+
+peterjliu@google.com
+
+Abstract
+Transfer learning, where a model is first pre-trained on a data-rich task before being fine-
+tuned on a downstream task, has emerged as a powerful technique in natural language
+processing (NLP). The effectiveness of transfer learning has given rise to a diversity of
+approaches, methodology, and practice. In this paper, we explore the landscape of transfer
+learning techniques for NLP by introducing a unified framework that converts all text-based
+language problems into a text-to-text format. Our systematic study compares pre-training
+objectives, architectures, unlabeled data sets, transfer approaches, and other factors on
+dozens of language understanding tasks. By combining the insights from our exploration
+with scale and our new “Colossal Clean Crawled Corpus”, we achieve state-of-the-art results
+on many benchmarks covering summarization, question answering, text classification, and
+more. To facilitate future work on transfer learning for NLP, we release our data set,
+pre-trained models, and code.1
+
+Keywords:
+based models, deep learning
+
+transfer learning, natural language processing, multi-task learning, attention-
+
+1. 

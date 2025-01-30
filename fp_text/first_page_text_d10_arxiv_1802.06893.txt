@@ -1,0 +1,62 @@
+Learning Word Vectors for 157 Languages
+
+Edouard Grave1,∗ Piotr Bojanowski1,∗ Prakhar Gupta1,2 Armand Joulin1 Tomas Mikolov1
+
+1Facebook AI Research
+
+2EPFL
+
+8
+1
+0
+2
+
+r
+a
+
+M
+8
+2
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+3
+9
+8
+6
+0
+.
+2
+0
+8
+1
+:
+v
+i
+X
+r
+a
+
+{egrave,bojanowski,ajoulin,tmikolov}@fb.com, prakhar.gupta@epfl.ch
+Abstract
+Distributed word representations, or word vectors, have recently been applied to many tasks in natural language processing, leading
+to state-of-the-art performance. A key ingredient to the successful application of these representations is to train them on very large
+corpora, and use these pre-trained models in downstream tasks.
+In this paper, we describe how we trained such high quality word
+representations for 157 languages. We used two sources of data to train these models: the free online encyclopedia Wikipedia and data
+from the common crawl project. We also introduce three new word analogy datasets to evaluate these word vectors, for French, Hindi
+and Polish. Finally, we evaluate our pre-trained word vectors on 10 languages for which evaluation datasets exists, showing very strong
+performance compared to previous models.
+
+Keywords: word vectors, word analogies, fasttext
+
+1.
+

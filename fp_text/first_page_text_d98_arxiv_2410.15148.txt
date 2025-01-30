@@ -1,0 +1,71 @@
+Less is More: Parameter-Efficient Selection
+of Intermediate Tasks for Transfer Learning
+
+David Schulte, Felix Hamborg, Alan Akbik
+Humboldt University of Berlin
+davidsiriusschulte@gmail.com
+{felix.hamborg, alan.akbik}@hu-berlin.de
+
+4
+2
+0
+2
+
+t
+c
+O
+9
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+8
+4
+1
+5
+1
+.
+0
+1
+4
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Intermediate task transfer learning can greatly
+improve model performance. If, for example,
+one has little training data for emotion detec-
+tion, first fine-tuning a language model on a
+sentiment classification dataset may improve
+performance strongly. But which task to choose
+for transfer learning? Prior methods produc-
+ing useful task rankings are infeasible for large
+source pools, as they require forward passes
+through all source language models. We over-
+come this by introducing Embedding Space
+Maps (ESMs), light-weight neural networks
+that approximate the effect of fine-tuning a lan-
+guage model. We conduct the largest study on
+NLP task transferability and task selection with
+12k source-target pairs. We find that apply-
+ing ESMs on a prior method reduces execution
+time and disk space usage by factors of 10 and
+278, respectively, while retaining high selection
+performance (avg. regret@5 score of 2.95).
+
+1
+
