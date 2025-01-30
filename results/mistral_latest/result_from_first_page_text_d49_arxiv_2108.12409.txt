@@ -1,0 +1,5 @@
+ Title: TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION
+   Authors:
+   - Name: Oﬁr Press, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington, Email: oifrp@cs.washington.edu
+   - Name: Noah A. Smith, Affiliation: 1Paul G. Allen School of Computer Science & Engineering, University of Washington, Affiliation 2: Facebook AI Research, Affiliation 3: Allen Institute for AI
+   (Email not provided)

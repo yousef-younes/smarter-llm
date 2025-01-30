@@ -1,0 +1,6 @@
+ Title: Advances in AI Research through Multilingual Instruction Tuning
+   Authors:
+   - Name: Pinzhen Chen, Affiliation: University of Edinburgh, Email: pchen3@ed.ac.uk
+   - Name: Shaoxiong Ji, Affiliation: University of Helsinki, Email: shaoxiong.ji@helsinki.fi (Not mentioned if this author is Dr. or Prof.)
+   - Name: Nikolay Bogoychev, Affiliation: University of Oslo, Email: NA (Not provided in the context)
+   - Name: Kenneth Heafield, Affiliation: University of Edinburgh, Email: NA (Not provided in the context)

@@ -1,0 +1,14 @@
+ Title: Transformers for Image Recognition at Scale
+   Authors:
+   - Name: Alexey Dosovitskiy, Affiliation: Google Research, Brain Team, Email: [adosovitskiy, neilhoulsby]@google.com
+   - Name: Lucas Beyer, Affiliation: Google Research, Brain Team, Email: NA (not provided in the context)
+   - Name: Alexander Kolesnikov, Affiliation: Google Research, Brain Team, Email: NA (not provided in the context)
+   - Name: Dirk Weissenborn, Affiliation: Google Research, Brain Team, Email: NA (not provided in the context)
+   - Name: Xiaohua Zhai, Affiliation: Google Research, Brain Team, Email: NA (not provided in the context)
+   - Name: Thomas Unterthiner, Affiliation: Google Research, Brain Team, Email: NA (not provided in the context)
+   - Name: Mostafa Dehghani, Affiliation: Google Research, Brain Team, Email: NA (not provided in the context)
+   - Name: Matthias Minderer, Affiliation: Google Research, Brain Team, Email: NA (not provided in the context)
+   - Name: Georg Heigold, Affiliation: Google Research, Brain Team, Email: NA (not provided in the context)
+   - Name: Sylvain Gelly, Affiliation: Google Research, Brain Team, Email: NA (not provided in the context)
+   - Name: Jakob Uszkoreit, Affiliation: Google Research, Brain Team, Email: NA (not provided in the context)
+   - Name: Neil Houlsby, Affiliation: Google Research, Brain Team, Email: [adosovitskiy, neilhoulsby]@google.com

@@ -1,0 +1,12 @@
+ Title: The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink
+   Authors:
+   - Name: David Patterson, Affiliation: N/A, Email: N/A   (No explicit affiliation provided)
+   - Name: Joseph Gonzalez, Affiliation: N/A, Email: N/A    (No explicit affiliation provided)
+   - Name: Urs Hölzle, Affiliation: N/A, Email: N/A  (No explicit affiliation provided)
+   - Name: Quoc Le, Affiliation: N/A, Email: N/A     (No explicit affiliation provided)
+   - Name: Chen Liang, Affiliation: N/A, Email: N/A      (No explicit affiliation provided)
+   - Name: Lluis-Miquel Munguia, Affiliation: N/A, Email: N/A  (No explicit affiliation provided)
+   - Name: Daniel Rothchild, Affiliation: N/A, Email: N/A    (No explicit affiliation provided)
+   - Name: David So, Affiliation: N/A, Email: N/A     (No explicit affiliation provided)
+   - Name: Maud Texier, Affiliation: N/A, Email: N/A  (No explicit affiliation provided)
+   - Name: Jeff Dean, Affiliation: N/A, Email: N/A  (No explicit affiliation provided)

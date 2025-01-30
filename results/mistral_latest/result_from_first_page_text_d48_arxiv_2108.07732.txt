@@ -1,0 +1,13 @@
+ Title: Program Synthesis with Large Language Models
+   Authors:
+    - Name: Jacob Austin, Affiliation: Google Research, Email: jaaustin@google.com
+    - Name: Augustus Odena, Affiliation: Google Research, Email: augustusodena@google.com
+    - Name: Maxwell Nye (Assumed as the author with no affiliation and email mentioned), NA
+    - Name: Maarten Bosma (Assumed as the author with no affiliation and email mentioned), NA
+    - Name: Henryk Michalewski, Affiliation: Google Research, NA
+    - Name: David Dohan, Affiliation: Google Research, NA
+    - Name: Ellen Jiang, Affiliation: Google Research, NA
+    - Name: Carrie Cai, Affiliation: Google Research, NA
+    - Name: Michael Terry, Affiliation: Google Research, NA
+    - Name: Quoc Le, Affiliation: Google Research, NA
+    - Name: Charles Sutton, Affiliation: Google Research, NA

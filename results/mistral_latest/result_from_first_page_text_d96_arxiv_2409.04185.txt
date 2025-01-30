@@ -1,0 +1,7 @@
+ **Title:** Residual Stream Analysis with Multi-Layer SAEs
+
+   **Authors:**
+    - Name: Tim Lawson, Affiliation: School of Engineering Mathematics and Technology, University of Bristol, Email: [Not Provided]
+    - Name: Lucy Farnik, Affiliation: School of Engineering Mathematics and Technology, University of Bristol, Email: [Not Provided]
+    - Name: Conor Houghton, Affiliation: School of Engineering Mathematics and Technology, University of Bristol, Email: [Not Provided]
+    - Name: Laurence Aitchison, Affiliation: School of Engineering Mathematics and Technology, University of Bristol, Email: [Not Provided]

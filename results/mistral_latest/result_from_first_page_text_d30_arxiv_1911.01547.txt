@@ -1,0 +1,3 @@
+ Title: On the Measure of Intelligence
+   Authors:
+   - Name: Franc¸ois Chollet, Affiliation: Google, Inc., Email: fchollet@google.com

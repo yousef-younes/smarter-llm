@@ -1,0 +1,9 @@
+ Title: Scene Text Visual Question Answering
+   Authors:
+   - Name: Ali Furkan Biten, Affiliation: Computer Vision Center, UAB, Spain, Email: abiten@cvc.uab.es
+   - Name: Rub`en Tito, Affiliation: Computer Vision Center, UAB, Spain, Email: rperez@cvc.uab.es
+   - Name: Andres Maﬂa, Affiliation: Computer Vision Center, UAB, Spain, Email: amafla@cvc.uab.es
+   - Name: Lluis Gomez, Affiliation: Computer Vision Center, UAB, Spain, Email: lgomez@cvc.uab.es
+   - Name: Marc´al Rusi˜nol, Affiliation: Computer Vision Center, UAB, Spain, Email: marcal@cvc.uab.es
+   - Name: Ernest Valveny, Affiliation: CVC, UAB, Spain, Email: NA (not provided in the context)
+   - Name: C.V. Jawahar, Affiliation: CVIT, IIIT Hyderabad, India, Email: N/A (not provided in the context)

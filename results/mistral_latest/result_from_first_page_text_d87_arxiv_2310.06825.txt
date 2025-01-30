@@ -1,0 +1,20 @@
+ Title: Announcing Mistral 7B
+   Authors:
+   - Name: Albert Q. Jiang, Affiliation: N/A, Email: N/A
+   - Name: Alexandre Sablayrolles, Affiliation: N/A, Email: N/A
+   - Name: Arthur Mensch, Affiliation: N/A, Email: N/A
+   - Name: Chris Bamford, Affiliation: N/A, Email: N/A
+   - Name: Devendra Singh Chaplot, Affiliation: N/A, Email: N/A
+   - Name: Diego de las Casas, Affiliation: N/A, Email: N/A
+   - Name: Florian Bressand, Affiliation: N/A, Email: N/A
+   - Name: Gianna Lengyel, Affiliation: N/A, Email: N/A
+   - Name: Guillaume Lample, Affiliation: N/A, Email: N/A
+   - Name: Lucile Saulnier, Affiliation: N/A, Email: N/A
+   - Name: Lélio Renard Lavaud, Affiliation: N/A, Email: N/A
+   - Name: Marie-Anne Lachaux, Affiliation: N/A, Email: N/A
+   - Name: Pierre Stock, Affiliation: N/A, Email: N/A
+   - Name: Teven Le Scao, Affiliation: N/A, Email: N/A
+   - Name: Thibaut Lavril, Affiliation: N/A, Email: N/A
+   - Name: Thomas Wang, Affiliation: N/A, Email: N/A
+   - Name: Timothée Lacroix, Affiliation: N/A, Email: N/A
+   - Name: William El Sayed, Affiliation: N/A, Email: N/A

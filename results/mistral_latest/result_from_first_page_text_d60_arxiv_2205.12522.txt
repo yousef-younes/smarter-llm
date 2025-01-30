@@ -1,0 +1,6 @@
+ Title: Crossmodal-3600: A Massively Multilingual Multimodal Evaluation Dataset
+   Authors:
+   - Name: Ashish V. Thapliyal, Affiliation: Google Research, Email: asht@google.com
+   - Name: Jordi Pont-Tuset, Affiliation: Google Research, Email: jponttuset@google.com
+   - Name: Xi Chen, Affiliation: Google Research, Email: chillxichen@google.com
+   - Name: Radu Soricut, Affiliation: Google Research, Email: rsoricut@google.com

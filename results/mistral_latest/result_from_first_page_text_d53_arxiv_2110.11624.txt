@@ -1,0 +1,5 @@
+ Title: Automatically Generating Informative, High-Quality Captions for Scientific Figures
+   Authors:
+   - Name: Ting-Yao (Edward) Hsu, Affiliation: Pennsylvania State University, Email: {txh357@psu.edu}
+   - Name: C. Lee Giles, Affiliation: Pennsylvania State University, Email: NA (Email not provided in the context)
+   - Name: Ting-Hao ‘Kenneth’ Huang, Affiliation: Pennsylvania State University, Email: {txh710@psu.edu}

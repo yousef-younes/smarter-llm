@@ -1,0 +1,14 @@
+ Title: Improving Accuracy of AI Models Through Model Soups: Extending Beyond ImageNet
+
+   Authors:
+    - Name: Mitchell Wortsman, Affiliation: University of Washington, Email: mitchnw@uw.edu
+    - Name: Gabriel Ilharco, Affiliation: University of Washington, Email: NA
+    - Name: Samir Yitzhak Gadre, Affiliation: Columbia University, Email: NA
+    - Name: Rebecca Roelofs, Affiliation: Google Research, Brain Team, Email: NA
+    - Name: Raphael Gontijo-Lopes, Affiliation: Google Research, Brain Team, Email: NA
+    - Name: Ari S. Morcos, Affiliation: Meta AI Research, Email: NA
+    - Name: Hongseok Namkoong, Affiliation: Columbia University, Email: NA
+    - Name: Ali Farhadi, Affiliation: University of Washington, Email: NA
+    - Name: Yair Carmon, Affiliation: Tel Aviv University, Email: NA
+    - Name: Simon Kornblith, Affiliation: Tel Aviv University, Email: NA
+    - Name: Ludwig Schmidt, Affiliation: University of Washington, Email: NA

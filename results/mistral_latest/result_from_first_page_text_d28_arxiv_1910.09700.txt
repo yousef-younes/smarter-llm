@@ -1,0 +1,6 @@
+ Title: Quantifying the Carbon Emissions of Machine Learning
+   Authors:
+   - Name: Alexandre Lacoste, Affiliation: Element AI, Email: allac@elementai.com
+   - Name: Alexandra Luccioni, Affiliation: Mila, Université de Montréal, Email: N/A
+   - Name: Victor Schmidt, Affiliation: Mila, Université de Montréal, Email: schmidtv@mila.quebec
+   - Name: Thomas Dandres, Affiliation: Polytechnique Montréal, CIRAIG, Email: thomas.dandres@polymtl.ca

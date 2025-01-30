@@ -1,0 +1,53 @@
+ Title: Qwen2 Technical Report
+   Authors:
+   - Name: An Yang, Affiliation: N/A, Email: N/A
+   - Name: Baosong Yang, Affiliation: N/A, Email: N/A
+   - Name: Binyuan Hui, Affiliation: N/A, Email: N/A
+   - Name: Bo Zheng, Affiliation: N/A, Email: N/A
+   - Name: Bowen Yu, Affiliation: N/A, Email: N/A
+   - Name: Chang Zhou, Affiliation: N/A, Email: N/A
+   - Name: Chengpeng Li, Affiliation: N/A, Email: N/A
+   - Name: Chengyuan Li, Affiliation: N/A, Email: N/A
+   - Name: Dayiheng Liu, Affiliation: N/A, Email: N/A
+   - Name: Fei Huang, Affiliation: N/A, Email: N/A
+   - Name: Guanting Dong, Affiliation: N/A, Email: N/A
+   - Name: Haoran Wei, Affiliation: N/A, Email: N/A
+   - Name: Huan Lin, Affiliation: N/A, Email: N/A
+   - Name: Jialong Tang, Affiliation: N/A, Email: N/A
+   - Name: Jialin Wang, Affiliation: N/A, Email: N/A
+   - Name: Jian Yang, Affiliation: N/A, Email: N/A
+   - Name: Jianhong Tu, Affiliation: N/A, Email: N/A
+   - Name: Jianwei Zhang, Affiliation: N/A, Email: N/A
+   - Name: Jianxin Ma, Affiliation: N/A, Email: N/A
+   - Name: Jianxin Yang, Affiliation: N/A, Email: N/A
+   - Name: Jin Xu, Affiliation: N/A, Email: N/A
+   - Name: Jingren Zhou, Affiliation: N/A, Email: N/A
+   - Name: Jinze Bai, Affiliation: N/A, Email: N/A
+   - Name: Jinzheng He, Affiliation: N/A, Email: N/A
+   - Name: Junyang Lin, Affiliation: N/A, Email: N/A
+   - Name: Kai Dang, Affiliation: N/A, Email: N/A
+   - Name: Keming Lu, Affiliation: N/A, Email: N/A
+   - Name: Keqin Chen, Affiliation: N/A, Email: N/A
+   - Name: Kexin Yang, Affiliation: N/A, Email: N/A
+   - Name: Mei Li, Affiliation: N/A, Email: N/A
+   - Name: Mingfeng Xue, Affiliation: N/A, Email: N/A
+   - Name: Na Ni, Affiliation: N/A, Email: N/A
+   - Name: Pei Zhang, Affiliation: N/A, Email: N/A
+   - Name: Peng Wang, Affiliation: N/A, Email: N/A
+   - Name: Ru Peng, Affiliation: N/A, Email: N/A
+   - Name: Rui Men, Affiliation: N/A, Email: N/A
+   - Name: Ruize Gao, Affiliation: N/A, Email: N/A
+   - Name: Runji Lin, Affiliation: N/A, Email: N/A
+   - Name: Shijie Wang, Affiliation: N/A, Email: N/A
+   - Name: Shuai Bai, Affiliation: N/A, Email: N/A
+   - Name: Sinan Tan, Affiliation: N/A, Email: N/A
+   - Name: Tao Xie, Affiliation: N/A, Email: N/A
+   - Name: Xiangzhou Ren, Affiliation: N/A, Email: N/A
+   - Name: Yinglong Xie, Affiliation: N/A, Email: N/A
+   - Name: Zhenyu Wang, Affiliation: N/A, Email: N/A
+   - Name: Zhifeng Chen, Affiliation: N/A, Email: N/A
+   - Name: Zhiqiang Lin, Affiliation: N/A, Email: N/A
+   - Name: Zhiming Zhang, Affiliation: N/A, Email: N/A
+   - Name: Qi Tian, Affiliation: Alibaba DAMO Academy, Email: qitian@damo.com (Associated Author)
+   - Name: Jie Tang, Affiliation: Alibaba DAMO Academy, Email: jietang@damo.com (Associated Author)
+   - Name: Wei Liu, Affiliation: Alibaba DAMO Academy, Email: weiliu@damo.com (Associated Author)

@@ -1,0 +1,8 @@
+ Title: Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements
+   Authors:
+    - Name: Yang Li, Affiliation: Google Research, Mountain View, CA 94043, USA, Email: [liyang@google.com](mailto:liyang@google.com)
+    - Name: Gang Li, Affiliation: Georgia Tech, Atlanta, GA 30332, USA, Email: [leebird@georgia.tech](mailto:leebird@georgia.tech) (Assuming this is an abbreviation for the author's name and not a separate author)
+    - Name: Luheng He, Affiliation: N/A, Email: [luheng@google.com](mailto:luheng@google.com)
+    - Name: Jingjie Zheng, Affiliation: N/A, Email: [jingjiezheng@google.com](mailto:jingjiezheng@google.com)
+    - Name: Hong Li, Affiliation: N/A, Email: [zguan@google.com](mailto:zguan@google.com)
+    - Name: Zhiwei Guan, Affiliation: N/A, Email: N/A (Assuming this is an abbreviation for the author's name and not a separate author)

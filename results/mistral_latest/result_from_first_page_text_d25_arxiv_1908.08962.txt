@@ -1,0 +1,6 @@
+ Title: On the Importance of Pre-Training Compact Models
+   Authors:
+   - Name: Iulia Turc, Affiliation: Google Research, Email: iuliaturc@google.com
+   - Name: Ming-Wei Chang, Affiliation: Google Research, Email: mingweichang@google.com
+   - Name: Kenton Lee, Affiliation: Google Research, Email: kentonl@google.com
+   - Name: Kristina Toutanova, Affiliation: Google Research, Email: kristout@google.com

@@ -1,0 +1,15 @@
+ Title: Learning Transferable Visual Models From Natural Language Supervision
+
+   Authors:
+   - Name: Alec Radford, Affiliation: Not specified in the context, Email: Not specified in the context
+   - Name: Jong Wook Kim, Affiliation: Not specified in the context, Email: Not specified in the context
+   - Name: Chris Hallacy, Affiliation: Not specified in the context, Email: Not specified in the context
+   - Name: Aditya Ramesh, Affiliation: Not specified in the context, Email: Not specified in the context
+   - Name: Gabriel Goh, Affiliation: Not specified in the context, Email: Not specified in the context
+   - Name: Sandhini Agarwal, Affiliation: Not specified in the context, Email: Not specified in the context
+   - Name: Girish Sastry, Affiliation: Not specified in the context, Email: Not specified in the context
+   - Name: Amanda Askell, Affiliation: Not specified in the context, Email: Not specified in the context
+   - Name: Pamela Mishkin, Affiliation: Not specified in the context, Email: Not specified in the context
+   - Name: Jack Clark, Affiliation: Not specified in the context, Email: Not specified in the context
+   - Name: Gretchen Krueger, Affiliation: Not specified in the context, Email: Not specified in the context
+   - Name: Ilya Sutskever, Affiliation: Not specified in the context, Email: Not specified in the context

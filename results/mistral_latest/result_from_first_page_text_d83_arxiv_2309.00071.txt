@@ -1,0 +1,6 @@
+ Title: Efficient Context Window Extension of Large Language Models
+   Authors:
+   - Name: Bowen Peng, Affiliation: Nous Research, Email: NA (not provided in the context)
+   - Name: Jeffrey Quesnelle, Affiliation: Nous Research, Email: <https://github.com/jquesnelle/> (Linked to GitHub account)
+   - Name: Honglu Fan, Affiliation: EleutherAI, Email: NA (not provided in the context)
+   - Name: Enrico Shippole, Affiliation: University of Geneva, Email: <https://github.com/conceptofmind> (Linked to GitHub account)

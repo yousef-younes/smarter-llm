@@ -1,0 +1,7 @@
+ Title: Physical Commonsense Reasoning in Natural Language Understanding Systems
+   Authors:
+   - Name: Yonatan Bisk, Affiliation: Allen Institute for Artificial Intelligence, Email: N/A (the provided context does not contain an email for this author)
+   - Name: Rowan Zellers, Affiliation: Allen Institute for Artificial Intelligence, Email: N/A (the provided context does not contain an email for this author)
+   - Name: Ronan Le Bras, Affiliation: Microsoft Research AI, Email: N/A (the provided context does not contain an email for this author)
+   - Name: Jianfeng Gao, Affiliation: 2Microsoft Research AI, Email: N/A (the provided context does not contain an email for this author)
+   - Name: Yejin Choi, Affiliation: 1Allen Institute for Artificial Intelligence and 4Paul G. Allen School for Computer Science and Engineering, University of Washington, Email: N/A (the provided context does not contain an email for this author)

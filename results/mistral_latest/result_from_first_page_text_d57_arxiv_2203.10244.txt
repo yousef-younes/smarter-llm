@@ -1,0 +1,8 @@
+ Title: Advances in Question Answering about Charts with Visual and Logical Reasoning
+
+   Authors:
+   - Name: Ahmed Masry, Affiliation: York University, Canada, Email: masry20@yorku.ca
+   - Name: Do Xuan Long, Affiliation: Nanyang Technological University, Singapore, Email: xuanlong001@e.ntu.edu.sg
+   - Name: Jia Qing Tan, Affiliation: Nanyang Technological University, Singapore, Email: C190022@e.ntu.edu.sg (Email seems to be incomplete)
+   - Name: Shaﬁq Joty, Affiliation: Salesforce Research, (No email provided in the context)
+   - Name: Enamul Hoque, Affiliation: York University, Canada, Email: enamulh@yorku.ca

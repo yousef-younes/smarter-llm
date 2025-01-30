@@ -1,0 +1,6 @@
+ Title: Llama 2: Open Foundation and Fine-Tuned Chat Models
+   Authors:
+   - Name: Hugo Touvron, Affiliation: GenAI, Meta, Email: [htouvron@meta.com](mailto:htouvron@meta.com)
+   - Name: Louis Martin, Affiliation: NA, Email: NA
+   - Name: Kevin Stone, Affiliation: NA, Email: NA
+   - Contributions for all the authors can be found in Section A.1. (There is no individual email address provided for the other authors in this context)

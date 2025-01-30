@@ -1,0 +1,14 @@
+ Title: ESPnet: End-to-End Speech Processing Toolkit
+   Authors:
+   - Name: Shinji Watanabe, Affiliation: Johns Hopkins University, Email: shinjiw@jhu.edu
+   - Name: Takaaki Hori, Affiliation: Mitsubishi Electric Research Laboratories, Email: N/A
+   - Name: Shigeki Karita, Affiliation: NTT Communication Science Laboratories, Email: N/A
+   - Name: Tomoki Hayashi, Affiliation: Nagoya University, Email: N/A
+   - Name: Jiro Nishitoba, Affiliation: Retrieva, Inc., Email: N/A
+   - Name: Yuya Unno, Affiliation: Preferred Networks, Inc., Email: N/A
+   - Name: Nelson Enrique Yalta Soplin, Affiliation: Waseda University, Email: N/A
+   - Name: Jahn Heymann, Affiliation: Paderborn University, Email: N/A
+   - Name: Matthew Wiesner, Affiliation: Johns Hopkins University, Email: N/A
+   - Name: Nanxin Chen, Affiliation: Johns Hopkins University, Email: N/A
+   - Name: Adithya Renduchintala, Affiliation: Johns Hopkins University, Email: N/A
+   - Name: Tsubasa Ochiai, Affiliation: Doshisha University, Email: N/A

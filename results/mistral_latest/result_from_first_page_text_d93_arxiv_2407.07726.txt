@@ -1,0 +1,38 @@
+ Title: A Versatile 3B VLM for Transfer
+
+   Authors:
+   - Name: Lucas Beyer, Affiliation: N/A, Email: N/A
+   - Name: Andreas Steiner, Affiliation: N/A, Email: N/A
+   - Name: André Susano Pinto, Affiliation: N/A, Email: N/A
+   - Name: Alexander Kolesnikov, Affiliation: N/A, Email: N/A
+   - Name: Xiao Wang, Affiliation: N/A, Email: N/A
+   - Name: Daniel Salz, Affiliation: N/A, Email: N/A
+   - Name: Maxim Neumann, Affiliation: N/A, Email: N/A
+   - Name: Ibrahim Alabdulmohsin, Affiliation: N/A, Email: N/A
+   - Name: Michael Tschannen, Affiliation: N/A, Email: N/A
+   - Name: Emanuele Bugliarello, Affiliation: N/A, Email: N/A
+   - Name: Thomas Unterthiner, Affiliation: N/A, Email: N/A
+   - Name: Daniel Keysers, Affiliation: N/A, Email: N/A
+   - Name: Skanda Koppula, Affiliation: N/A, Email: N/A
+   - Name: Fangyu Liu, Affiliation: N/A, Email: N/A
+   - Name: Adam Grycner, Affiliation: N/A, Email: N/A
+   - Name: Alexey Gritsenko, Affiliation: N/A, Email: N/A
+   - Name: Neil Houlsby, Affiliation: N/A, Email: N/A
+   - Name: Manoj Kumar, Affiliation: N/A, Email: N/A
+   - Name: Keran Rong, Affiliation: N/A, Email: N/A
+   - Name: Julian Eisenschlos, Affiliation: N/A, Email: N/A
+   - Name: Rishabh Kabra, Affiliation: N/A, Email: N/A
+   - Name: Matthias Bauer, Affiliation: N/A, Email: N/A
+   - Name: Matko Bošnjak, Affiliation: N/A, Email: N/A
+   - Name: Xi Chen, Affiliation: N/A, Email: N/A
+   - Name: Matthias Minderer, Affiliation: N/A, Email: N/A
+   - Name: Paul Voigtlaender, Affiliation: N/A, Email: N/A
+   - Name: Ioana Bica, Affiliation: N/A, Email: N/A
+   - Name: Ivana Balazevic, Affiliation: N/A, Email: N/A
+   - Name: Joan Puigcerver, Affiliation: N/A, Email: N/A
+   - Name: Pinelopi Papalampidi, Affiliation: N/A, Email: N/A
+   - Name: Olivier Henaff, Affiliation: N/A, Email: N/A
+   - Name: Xi Xiong, Affiliation: N/A, Email: N/A
+   - Name: Radu Soricut, Affiliation: N/A, Email: N/A
+   - Name: Jeremiah Harmsen, Affiliation: N/A, Email: N/A
+   - Name: Xiaohua Zhai, Affiliation: Project Lead, Email: N/A

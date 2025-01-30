@@ -1,0 +1,11 @@
+ **Expected Output:**
+
+   Title: Compressing Thousands of LoRa Adapters with Little Overhead
+   Authors:
+   - Name: Rickard Brüel Gabrielsson, Affiliation: MIT CSAIL, Email: N/A
+   - Name: Jiacheng Zhu, Affiliation: MIT CSAIL, Email: N/A
+   - Name: Onkar Bhardwaj, Affiliation: MIT-IBM Watson AI Lab, Email: N/A
+   - Name: Leshem Choshen, Affiliation: 1MIT CSAIL, 2MIT-IBM Watson AI Lab, Email: N/A
+   - Name: Kristjan Greenewald, Affiliation: 2MIT-IBM Watson AI Lab, Email: N/A
+   - Name: Mikhail Yurochkin, Affiliation: 2MIT-IBM Watson AI Lab, Email: N/A
+   - Name: Justin Solomon, Affiliation: 1MIT CSAIL, Email: N/A

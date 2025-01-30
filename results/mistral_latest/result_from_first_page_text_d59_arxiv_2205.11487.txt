@@ -1,0 +1,17 @@
+ Title: Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding
+
+   Authors:
+   - Name: Chitwan Saharia, Affiliation: Google Research, Brain Team (Email: [sahariac@google.com](mailto:sahariac@google.com))
+   - Name: William Chan, Affiliation: Google Research, Brain Team (Email: [williamchan@google.com](mailto:williamchan@google.com))
+   - Name: Saurabh Saxena, Affiliation: NA (Email: N/A)
+   - Name: Lala Li, Affiliation: Google Research, Brain Team (Email: [lala@google.com](mailto:lala@google.com))
+   - Name: Jay Whang, Affiliation: Google Research, Brain Team (Email: [jwhang@google.com](mailto:jwhang@google.com))
+   - Name: Emily Denton, Affiliation: NA (Email: N/A)
+   - Name: Seyed Kamyar Seyed Ghasemipour, Affiliation: NA (Email: N/A)
+   - Name: Burcu Karagol Ayan, Affiliation: NA (Email: N/A)
+   - Name: S. Sara Mahdavi, Affiliation: NA (Email: N/A)
+   - Name: Rapha Gontijo Lopes, Affiliation: NA (Email: N/A)
+   - Name: Tim Salimans, Affiliation: NA (Email: N/A)
+   - Name: Jonathan Ho, Affiliation: Google Research, Brain Team (Email: [jonathanho@google.com](mailto:jonathanho@google.com))
+   - Name: David J Fleet, Affiliation: Google Research, Brain Team (Email: [davidfleet@google.com](mailto:davidfleet@google.com))
+   - Name: Mohammad Norouzi, Affiliation: Google Research, Brain Team (Email: [mnorouzi@google.com](mailto:mnorouzi@google.com))

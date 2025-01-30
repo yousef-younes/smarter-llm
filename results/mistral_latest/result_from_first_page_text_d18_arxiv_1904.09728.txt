@@ -1,0 +1,8 @@
+ Title: Introduction to SOCIAL IQA: A Large-scale Benchmark for Commonsense Reasoning about Social Interactions
+
+   Authors:
+   - Name: Maarten Sap, Affiliation: Allen Institute for Artificial Intelligence, Seattle, WA, USA, Email: [msap@cs.washington.edu](mailto:msap@cs.washington.edu)
+   - Name: Hannah Rashkin, Affiliation: Allen Institute for Artificial Intelligence, Seattle, WA, USA, Email: [hrashkin@cs.washington.edu](mailto:hrashkin@cs.washington.edu)
+   - Name: Derek Chen (cid:63), Affiliation: Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA, Email: [dchen14@cs.washington.edu](mailto:dchen14@cs.washington.edu)
+   - Name: Ronan Le Bras (cid:63), Affiliation: AllenAI ([@allenai.org](http://allenai.org)), Email: [ronanlb@allenai.org](mailto:ronanlb@allenai.org)
+   - Name: Yejin Choi, Affiliation: Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA, Email: N/A

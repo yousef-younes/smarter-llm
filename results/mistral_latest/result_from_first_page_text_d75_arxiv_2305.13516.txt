@@ -1,0 +1,18 @@
+ Title: Scaling Speech Technology to 1,000+ Languages
+
+   Authors:
+   - Name: Vineel Pratap, Affiliation: Meta AI, Email: N/A (As the context does not provide any information about the author's email)
+   - Name: Andros Tjandra, Affiliation: Meta AI, Email: N/A (As the context does not provide any information about the author's email)
+   - Name: Bowen Shi, Affiliation: Meta AI, Email: N/A (As the context does not provide any information about the author's email)
+   - Name: Paden Tomasello, Affiliation: N/A, Email: N/A (As the context does not provide any information about this author's affiliation and email)
+   - Name: Arun Babu Sayani Kundu, Affiliation: N/A, Email: N/A (As the context does not provide any information about this author's affiliation and email)
+   - Name: Ali Elkahky, Affiliation: N/A, Email: N/A (As the context does not provide any information about this author's affiliation and email)
+   - Name: Zhaoheng Ni, Affiliation: N/A, Email: N/A (As the context does not provide any information about this author's affiliation and email)
+   - Name: Apoorv Vyas, Affiliation: N/A, Email: N/A (As the context does not provide any information about this author's affiliation and email)
+   - Name: Maryam Fazel-Zarandi, Affiliation: N/A, Email: N/A (As the context does not provide any information about this author's affiliation and email)
+   - Name: Alexei Baevski, Affiliation: N/A, Email: N/A (As the context does not provide any information about this author's affiliation and email)
+   - Name: Yossi Adi, Affiliation: N/A, Email: N/A (As the context does not provide any information about this author's affiliation and email)
+   - Name: Xiaohui Zhang, Affiliation: N/A, Email: N/A (As the context does not provide any information about this author's affiliation and email)
+   - Name: Wei-Ning Hsu, Affiliation: N/A, Email: N/A (As the context does not provide any information about this author's affiliation and email)
+   - Name: Alexis Conneau, Affiliation: N/A, Email: N/A (As the context does not provide any information about this author's affiliation and email)
+   - Name: Michael Auli, Affiliation: Meta AI, Email: N/A (As the context does not provide any information about this author's email)

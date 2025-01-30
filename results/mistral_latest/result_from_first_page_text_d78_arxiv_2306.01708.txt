@@ -1,0 +1,7 @@
+ Title: TIES-MERGING: Resolving Interference When Merging Models
+   Authors:
+   - Name: Prateek Yadav, Affiliation: University of North Carolina at Chapel Hill, Email: praty@cs.unc.edu
+   - Name: Derek Tam, Affiliation: University of North Carolina at Chapel Hill, Email: dtredsox@cs.unc.edu
+   - Name: Leshem Choshen, Affiliation: IBM Research and MIT, Email: leshem.choshen@ibm.com
+   - Name: Colin Raffel, Affiliation: University of North Carolina at Chapel Hill, Email: craffel@cs.unc.edu
+   - Name: Mohit Bansal, Affiliation: University of North Carolina at Chapel Hill, Email: mbansal@cs.unc.edu
