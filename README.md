@@ -5,9 +5,9 @@ This repository contains the code for our paper **XXX**, which aims to extract t
 ## Directory Structure
 
 - **data/**: Contains PDFs obtained from multiple sources:
-  - `Arxiv/`: PDFs from Arxiv
-  - `IEEE/`: PDFs from IEEE
-  - `Springer/`: PDFs from Springer
+  - `arxiv/`: PDFs from Arxiv
+  - `ieee/`: PDFs from IEEE
+  - `springer/`: PDFs from Springer
 
 - **data-preparation/**: Contains the code used to collect the PDFs and extract text from them.
 
