@@ -1,0 +1,12 @@
+**Expected Output:**
+
+Title: MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING
+
+Authors:  
+- Name: Dan Hendrycks, Affiliation: UC Berkeley, Email: NA  
+- Name: Collin Burns, Affiliation: Columbia University, Email: NA  
+- Name: Steven Basart, Affiliation: UChicago, Email: NA  
+- Name: Andy Zou, Affiliation: UC Berkeley, Email: NA  
+- Name: Mantas Mazeika, Affiliation: UIUC, Email: NA  
+- Name: Dawn Song, Affiliation: UC Berkeley, Email: NA  
+- Name: Jacob Steinhardt, Affiliation: UC Berkeley, Email: NA  

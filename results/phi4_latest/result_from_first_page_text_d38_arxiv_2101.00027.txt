@@ -1,0 +1,17 @@
+**Expected Output:**
+
+Title: The Pile: An 800GB Dataset of Diverse Text for Language Modeling
+
+Authors:
+- Name: Leo Gao, Affiliation: NA, Email: NA
+- Name: Stella Biderman, Affiliation: NA, Email: NA
+- Name: Sid Black, Affiliation: NA, Email: NA
+- Name: Laurence Golding, Affiliation: NA, Email: NA
+- Name: Travis Hoppe, Affiliation: NA, Email: NA
+- Name: Charles Foster, Affiliation: NA, Email: NA
+- Name: Jason Phang, Affiliation: NA, Email: NA
+- Name: Horace He, Affiliation: NA, Email: NA
+- Name: Anish Thite, Affiliation: NA, Email: NA
+- Name: Noa Nabeshima, Affiliation: NA, Email: NA
+- Name: Shawn Presser, Affiliation: NA, Email: NA
+- Name: Connor Leahy, Affiliation: EleutherAI, Email: contact@eleuther.ai

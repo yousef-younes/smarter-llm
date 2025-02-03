@@ -1,0 +1,20 @@
+**Title:** Scaling Speech Technology to 1,000+ Languages
+
+**Authors:**  
+- Name: Vineel Pratap, Affiliation: Meta AI, Email: NA  
+- Name: Andros Tjandra, Affiliation: Meta AI, Email: NA  
+- Name: Bowen Shi, Affiliation: Meta AI, Email: NA  
+- Name: Paden Tomasello, Affiliation: Meta AI, Email: NA  
+- Name: Arun Babu Sayani Kundu∗, Affiliation: Meta AI, Email: NA  
+- Name: Ali Elkahky†, Affiliation: Meta AI, Email: NA  
+- Name: Zhaoheng Ni, Affiliation: Meta AI, Email: NA  
+- Name: Apoorv Vyas, Affiliation: Meta AI, Email: NA  
+- Name: Maryam Fazel-Zarandi, Affiliation: Meta AI, Email: NA  
+- Name: Alexei Baevski‡, Affiliation: Meta AI, Email: NA  
+- Name: Yossi Adi§, Affiliation: Meta AI, Email: NA  
+- Name: Xiaohui Zhang, Affiliation: Meta AI, Email: NA  
+- Name: Wei-Ning Hsu, Affiliation: Meta AI, Email: NA  
+- Name: Alexis Conneau¶, Affiliation: Meta AI, Email: NA  
+- Name: Michael Auli♢, Affiliation: Meta AI, Email: NA  
+
+(* Core team)

@@ -1,0 +1,53 @@
+**Expected Output:**
+
+Title: QWEN TECHNICAL REPORT
+
+Authors:
+- Name: Jinze Bai, Affiliation: Alibaba Group, Email: NA
+- Name: Shuai Bai, Affiliation: Alibaba Group, Email: NA
+- Name: Yunfei Chu, Affiliation: Alibaba Group, Email: NA
+- Name: Zeyu Cui, Affiliation: Alibaba Group, Email: NA
+- Name: Kai Dang, Affiliation: Alibaba Group, Email: NA
+- Name: Xiaodong Deng, Affiliation: Alibaba Group, Email: NA
+- Name: Yang Fan, Affiliation: Alibaba Group, Email: NA
+- Name: Wenbin Ge, Affiliation: Alibaba Group, Email: NA
+- Name: Yu Han, Affiliation: Alibaba Group, Email: NA
+- Name: Fei Huang, Affiliation: Alibaba Group, Email: NA
+- Name: Binyuan Hui, Affiliation: Alibaba Group, Email: NA
+- Name: Luo Ji, Affiliation: Alibaba Group, Email: NA
+- Name: Mei Li, Affiliation: Alibaba Group, Email: NA
+- Name: Junyang Lin, Affiliation: Alibaba Group, Email: NA
+- Name: Runji Lin, Affiliation: Alibaba Group, Email: NA
+- Name: Dayiheng Liu, Affiliation: Alibaba Group, Email: NA
+- Name: Gao Liu, Affiliation: Alibaba Group, Email: NA
+- Name: Chengqiang Lu, Affiliation: Alibaba Group, Email: NA
+- Name: Keming Lu, Affiliation: Alibaba Group, Email: NA
+- Name: Jianxin Ma, Affiliation: Alibaba Group, Email: NA
+- Name: Rui Men, Affiliation: Alibaba Group, Email: NA
+- Name: Xingzhang Ren, Affiliation: Alibaba Group, Email: NA
+- Name: Xuancheng Ren, Affiliation: Alibaba Group, Email: NA
+- Name: Chuanqi Tan, Affiliation: Alibaba Group, Email: NA
+- Name: Sinan Tan, Affiliation: Alibaba Group, Email: NA
+- Name: Jianhong Tu, Affiliation: Alibaba Group, Email: NA
+- Name: Peng Wang, Affiliation: Alibaba Group, Email: NA
+- Name: Shijie Wang, Affiliation: Alibaba Group, Email: NA
+- Name: Wei Wang, Affiliation: Alibaba Group, Email: NA
+- Name: Shengguang Wu, Affiliation: Alibaba Group, Email: NA
+- Name: Benfeng Xu, Affiliation: Alibaba Group, Email: NA
+- Name: Jin Xu, Affiliation: Alibaba Group, Email: NA
+- Name: An Yang, Affiliation: Alibaba Group, Email: NA
+- Name: Hao Yang, Affiliation: Alibaba Group, Email: NA
+- Name: Jian Yang, Affiliation: Alibaba Group, Email: NA
+- Name: Shusheng Yang, Affiliation: Alibaba Group, Email: NA
+- Name: Yang Yao, Affiliation: Alibaba Group, Email: NA
+- Name: Bowen Yu, Affiliation: Alibaba Group, Email: NA
+- Name: Hongyi Yuan, Affiliation: Alibaba Group, Email: NA
+- Name: Zheng Yuan, Affiliation: Alibaba Group, Email: NA
+- Name: Jianwei Zhang, Affiliation: Alibaba Group, Email: NA
+- Name: Xingxuan Zhang, Affiliation: Alibaba Group, Email: NA
+- Name: Yichang Zhang, Affiliation: Alibaba Group, Email: NA
+- Name: Zhenru Zhang, Affiliation: Alibaba Group, Email: NA
+- Name: Chang Zhou, Affiliation: Alibaba Group, Email: ericzhou.zc@alibaba-inc.com (Corresponding author)
+- Name: Jingren Zhou, Affiliation: Alibaba Group, Email: NA
+- Name: Xiaohuan Zhou, Affiliation: Alibaba Group, Email: NA
+- Name: Tianhang Zhu, Affiliation: Alibaba Group, Email: NA

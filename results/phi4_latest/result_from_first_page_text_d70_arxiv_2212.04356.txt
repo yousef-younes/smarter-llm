@@ -1,0 +1,11 @@
+**Title:** Robust Speech Recognition via Large-Scale Weak Supervision
+
+**Authors:**  
+- Name: Alec Radford, Affiliation: NA, Email: NA  
+- Name: Jong Wook Kim, Affiliation: NA, Email: NA  
+- Name: Tao Xu, Affiliation: NA, Email: NA  
+- Name: Greg Brockman, Affiliation: NA, Email: NA  
+- Name: Christine McLeavey, Affiliation: NA, Email: NA  
+- Name: Ilya Sutskever, Affiliation: NA, Email: NA  
+
+If more specific affiliations or contact information were needed but are not available in the context, they should be marked as NA.

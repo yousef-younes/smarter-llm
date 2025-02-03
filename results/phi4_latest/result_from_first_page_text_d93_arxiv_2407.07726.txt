@@ -1,0 +1,38 @@
+**Title:** PaliGemma: A versatile 3B VLM for transfer
+
+**Authors:**
+- Name: Lucas Beyer, Affiliation: Core team, Email: NA
+- Name: Andreas Steiner, Affiliation: Core team, Email: NA
+- Name: André Susano Pinto, Affiliation: Core team, Email: NA
+- Name: Alexander Kolesnikov, Affiliation: Core team, Email: NA
+- Name: Xiao Wang, Affiliation: Core team, Email: NA
+- Name: Daniel Salz, Affiliation: Core team, Email: NA
+- Name: Maxim Neumann, Affiliation: Core team, Email: NA
+- Name: Ibrahim Alabdulmohsin, Affiliation: Core team, Email: NA
+- Name: Michael Tschannen, Affiliation: Core team, Email: NA
+- Name: Emanuele Bugliarello, Affiliation: Core team, Email: NA
+- Name: Thomas Unterthiner, Affiliation: Core team, Email: NA
+- Name: Daniel Keysers, Affiliation: Core team, Email: NA
+- Name: Skanda Koppula, Affiliation: Core team, Email: NA
+- Name: Fangyu Liu, Affiliation: Core team, Email: NA
+- Name: Adam Grycner, Affiliation: Core team, Email: NA
+- Name: Alexey Gritsenko, Affiliation: Core team, Email: NA
+- Name: Neil Houlsby, Affiliation: Core team, Email: NA
+- Name: Manoj Kumar, Affiliation: Core team, Email: NA
+- Name: Keran Rong, Affiliation: Core team, Email: NA
+- Name: Julian Eisenschlos, Affiliation: Core team, Email: NA
+- Name: Rishabh Kabra, Affiliation: Core team, Email: NA
+- Name: Matthias Bauer, Affiliation: Core team, Email: NA
+- Name: Matko Bošnjak, Affiliation: Core team, Email: NA
+- Name: Xi Chen, Affiliation: Core team, Email: NA
+- Name: Matthias Minderer, Affiliation: Core team, Email: NA
+- Name: Paul Voigtlaender, Affiliation: Core team, Email: NA
+- Name: Ioana Bica, Affiliation: Core team, Email: NA
+- Name: Ivana Balazevic, Affiliation: Core team, Email: NA
+- Name: Joan Puigcerver, Affiliation: Core team, Email: NA
+- Name: Pinelopi Papalampidi, Affiliation: Core team, Email: NA
+- Name: Olivier Henaff, Affiliation: Core team, Email: NA
+- Name: Xi Xiong, Affiliation: Core team, Email: NA
+- Name: Radu Soricut, Affiliation: Core team, Email: NA
+- Name: Jeremiah Harmsen, Affiliation: Core team, Email: NA
+- Name: Xiaohua Zhai, Affiliation: Project lead, Email: NA

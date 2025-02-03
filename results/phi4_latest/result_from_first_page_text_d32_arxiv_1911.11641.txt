@@ -1,0 +1,10 @@
+**Title:** PIQA: Reasoning about Physical Commonsense in Natural Language
+
+**Authors:**  
+- Name: Yonatan Bisk, Affiliation: Allen Institute for Artificial Intelligence, Microsoft Research AI, Carnegie Mellon University, Paul G. Allen School for Computer Science and Engineering, University of Washington, Email: NA  
+- Name: Rowan Zellers, Affiliation: Allen Institute for Artificial Intelligence, Paul G. Allen School for Computer Science and Engineering, University of Washington, Email: NA  
+- Name: Ronan Le Bras, Affiliation: Allen Institute for Artificial Intelligence, Email: NA  
+- Name: Jianfeng Gao, Affiliation: Microsoft Research AI, Email: NA  
+- Name: Yejin Choi, Affiliation: Allen Institute for Artificial Intelligence, Paul G. Allen School for Computer Science and Engineering, University of Washington, Email: NA  
+
+If some info is not available, write NA.

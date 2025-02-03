@@ -1,0 +1,20 @@
+**Expected Output:**
+
+Title: Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena
+
+Authors:  
+- Name: Lianmin Zheng, Affiliation: UC Berkeley, Email: NA  
+- Name: Wei-Lin Chiang, Affiliation: UC Berkeley, Email: NA  
+- Name: Ying Sheng, Affiliation: Stanford, Email: NA  
+- Name: Siyuan Zhuang, Affiliation: UC Berkeley, Email: NA  
+- Name: Zhanghao Wu, Affiliation: UC Berkeley, Email: NA  
+- Name: Yonghao Zhuang, Affiliation: Carnegie Mellon University, Email: NA  
+- Name: Zi Lin, Affiliation: UC San Diego, Email: NA  
+- Name: Zhuohan Li, Affiliation: UC Berkeley, Email: NA  
+- Name: Dacheng Li, Affiliations: UC Berkeley, Carnegie Mellon University, MBZUAI, Email: NA  
+- Name: Eric P. Xing, Affiliations: UC Berkeley, Carnegie Mellon University, Email: NA  
+- Name: Hao Zhang, Affiliations: UC Berkeley, UC San Diego, Email: NA  
+- Name: Joseph E. Gonzalez, Affiliation: UC Berkeley, Email: NA  
+- Name: Ion Stoica, Affiliation: UC Berkeley, Email: NA  
+
+If some info is not available write NA.

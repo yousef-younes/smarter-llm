@@ -1,0 +1,15 @@
+**Expected Output:**
+
+Title: LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS
+
+Authors:  
+- Name: Phillip Wallis, Affiliation: Microsoft Corporation, Email: phwallis@microsoft.com  
+- Name: Yelong Shen, Affiliation: Microsoft Corporation, Email: yeshe@microsoft.com  
+- Name: Shean Wang, Affiliation: Microsoft Corporation, Email: swang@microsoft.com  
+- Name: Edward Hu, Affiliation: Microsoft Corporation, Email: edwardhu@microsoft.com  
+- Name: Yuanzhi Li, Affiliation: Microsoft Corporation and Carnegie Mellon University, Email: yuanzhil@microsoft.com, yuanzhil@andrew.cmu.edu  
+- Name: Lu Wang, Affiliation: Microsoft Corporation, Email: luw@microsoft.com  
+- Name: Weizhu Chen, Affiliation: Microsoft Corporation, Email: wzchen@microsoft.com  
+- Name: Zeyuan Allen-Zhu, Affiliation: NA, Email: zeyuan@zeyuans.net  
+
+(Note: For some affiliations or emails, the information provided is what was available in the context. If any specific details were missing, it has been noted as NA.)

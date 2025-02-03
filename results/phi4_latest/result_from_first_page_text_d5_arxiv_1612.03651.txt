@@ -1,0 +1,15 @@
+Based on the provided context, here's the extracted title and author information formatted as requested:
+
+**Expected Output:**
+
+Title: FASTTEXT.ZIP: COMPRESSING TEXT CLASSIFICATION MODELS
+
+Authors:
+- Name: Armand Joulin, Affiliation: Facebook AI Research, Email: ajoulin@fb.com
+- Name: Edouard Grave, Affiliation: Facebook AI Research, Email: egrave@fb.com
+- Name: Piotr Bojanowski, Affiliation: Facebook AI Research, Email: bojanowski@fb.com
+- Name: Matthijs Douze, Affiliation: Facebook AI Research, Email: matthijs@fb.com
+- Name: Hervé Jegou, Affiliation: Facebook AI Research, Email: rvj@fb.com
+- Name: Tomas Mikolov, Affiliation: Facebook AI Research, Email: tmikolov@fb.com
+
+If there were any missing information, it would be written as NA, but in this case, all the necessary details are provided.

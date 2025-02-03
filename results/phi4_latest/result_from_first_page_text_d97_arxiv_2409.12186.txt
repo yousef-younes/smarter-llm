@@ -1,0 +1,30 @@
+**Expected Output:**  
+Title: Qwen2.5-Coder Technical Report
+
+Authors:  
+- Name: Jian Yang, Affiliation: Alibaba Group, Email: NA  
+- Name: Zeyu Cui, Affiliation: Alibaba Group, Email: NA  
+- Name: Binyuan Hui, Affiliation: Alibaba Group, Email: NA  
+- Name: Dayiheng Liu, Affiliation: Alibaba Group, Email: NA  
+- Name: Lei Zhang, Affiliation: Alibaba Group, Email: NA  
+- Name: Tianyu Liu, Affiliation: Alibaba Group, Email: NA  
+- Name: Jiajun Zhang, Affiliation: Alibaba Group, Email: NA  
+- Name: Bowen Yu, Affiliation: Alibaba Group, Email: NA  
+- Name: Keming Lu, Affiliation: Alibaba Group, Email: NA  
+- Name: Kai Dang, Affiliation: Alibaba Group, Email: NA  
+- Name: Yang Fan, Affiliation: Alibaba Group, Email: NA  
+- Name: Yichang Zhang, Affiliation: Alibaba Group, Email: NA  
+- Name: An Yang, Affiliation: Alibaba Group, Email: NA  
+- Name: Rui Men, Affiliation: Alibaba Group, Email: NA  
+- Name: Fei Huang, Affiliation: Alibaba Group, Email: NA  
+- Name: Bo Zheng, Affiliation: Alibaba Group, Email: NA  
+- Name: Yibo Miao, Affiliation: Alibaba Group, Email: NA  
+- Name: Xingzhang Ren, Affiliation: Alibaba Group, Email: NA  
+- Name: Xuancheng Ren, Affiliation: Alibaba Group, Email: NA  
+- Name: Jingren Zhou, Affiliation: Alibaba Group, Email: NA  
+- Name: Junyang Lin (Corresponding Author), Affiliation: Alibaba Group, Email: NA  
+- Name: Shanghaoran Quan, Affiliation: Alibaba Group, Email: NA  
+- Name: Yunlong Feng, Affiliation: Alibaba Group, Email: NA  
+- Name: Jiaxi Yang, Affiliation: Alibaba Group, Email: NA  
+
+Note: Only names and affiliations are provided in the context; email addresses are not available.

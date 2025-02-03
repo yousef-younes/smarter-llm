@@ -1,0 +1,12 @@
+**Expected Output:**
+
+Title: SOCIAL IQA: Commonsense Reasoning about Social Interactions
+
+Authors:  
+- Name: Maarten Sap, Affiliation: Allen Institute for Artificial Intelligence, Seattle, WA, USA; Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA, Email: msap@cs.washington.edu  
+- Name: Hannah Rashkin, Affiliation: Allen Institute for Artificial Intelligence, Seattle, WA, USA; Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA, Email: hrashkin@cs.washington.edu  
+- Name: Derek Chen, Affiliation: Allen Institute for Artificial Intelligence, Seattle, WA, USA; Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA, Email: dchen14@cs.washington.edu  
+- Name: Ronan Le Bras, Affiliation: Allen Institute for Artificial Intelligence, Seattle, WA, USA, Email: ronanlb@allenai.org  
+- Name: Yejin Choi, Affiliation: Allen Institute for Artificial Intelligence, Seattle, WA, USA; Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA, Email: yejin@cs.washington.edu  
+
+(Note: The "♦" and "♥" symbols are used in the context to indicate affiliations but do not alter the core information provided above.)

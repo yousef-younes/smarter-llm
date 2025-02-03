@@ -1,0 +1,9 @@
+**Expected Output:**  
+Title: ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning
+
+Authors:  
+- Name: Ahmed Masry, Affiliation: York University, Canada, Email: masry20@yorku.ca  
+- Name: Do Xuan Long, Affiliation: Nanyang Technological University, Singapore; Salesforce Research, Email: xuanlong001@e.ntu  
+- Name: Jia Qing Tan, Affiliation: Nanyang Technological University, Singapore; Salesforce Research, Email: C190022@e.ntu  
+- Name: Shaﬁq Joty, Affiliation: Nanyang Technological University, Singapore; Salesforce Research, Email: srjoty@ntu  
+- Name: Enamul Hoque, Affiliation: York University, Canada; Salesforce Research, Email: enamulh@yorku.ca

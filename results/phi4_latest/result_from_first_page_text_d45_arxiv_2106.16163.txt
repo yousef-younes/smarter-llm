@@ -1,0 +1,17 @@
+**Expected Output:**
+
+Title: THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS
+
+Authors:  
+- Name: Thibault Sellam, Affiliation: Google Research, Email: tsellam@google.com  
+- Name: Steve Yadlowsky, Affiliation: Google Research, Email: yadlowsky@google.com  
+- Name: Ian Tenney, Affiliation: Google Research, Email: iftenney@google.com  
+- Name: Jason Wei, Affiliation: NA, Email: NA  
+- Name: Naomi Saphra, Affiliation: NA, Email: NA  
+- Name: Alexander D’Amour, Affiliation: NA, Email: NA  
+- Name: Tal Linzen, Affiliation: NA, Email: NA  
+- Name: Jasmijn Bastings, Affiliation: NA, Email: NA  
+- Name: Iulia Turc, Affiliation: NA, Email: NA  
+- Name: Jacob Eisenstein, Affiliation: NA, Email: NA  
+- Name: Dipanjan Das, Affiliation: NA, Email: NA  
+- Name: Ellie Pavlick, Affiliation: Google Research, Email: epavlick@google.com  

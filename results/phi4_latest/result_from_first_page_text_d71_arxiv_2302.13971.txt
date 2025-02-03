@@ -1,0 +1,18 @@
+**Title:** LLaMA: Open and Efficient Foundation Language Models
+
+**Authors:**
+
+- Name: Hugo Touvron, Affiliation: Meta AI, Email: NA
+- Name: Thibaut Lavril, Affiliation: Meta AI, Email: NA
+- Name: Gautier Izacard, Affiliation: Meta AI, Email: NA
+- Name: Xavier Martinet, Affiliation: Meta AI, Email: NA
+- Name: Marie-Anne Lachaux, Affiliation: Meta AI, Email: NA
+- Name: Timothee Lacroix, Affiliation: Meta AI, Email: NA
+- Name: Baptiste Rozière, Affiliation: Meta AI, Email: NA
+- Name: Naman Goyal, Affiliation: Meta AI, Email: NA
+- Name: Eric Hambro, Affiliation: Meta AI, Email: NA
+- Name: Faisal Azhar, Affiliation: Meta AI, Email: NA
+- Name: Aurelien Rodriguez, Affiliation: Meta AI, Email: NA
+- Name: Armand Joulin, Affiliation: Meta AI, Email: NA
+- Name: Edouard Grave, Affiliation: Meta AI, Email: NA
+- Name: Guillaume Lample, Affiliation: Meta AI, Email: NA

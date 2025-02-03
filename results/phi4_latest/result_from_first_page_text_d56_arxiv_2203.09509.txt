@@ -1,0 +1,11 @@
+**Expected Output:**
+
+Title: TOXIGEN: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection
+
+Authors:
+- Name: Thomas Hartvigsen, Affiliation: Massachusetts Institute of Technology, Email: tomh@mit.edu
+- Name: Saadia Gabriel, Affiliation: University of Washington, Email: skgabrie@cs.washington.edu
+- Name: Hamid Palangi, Affiliation: Microsoft Research, Email: hpalangi@microsoft.com
+- Name: Maarten Sap, Affiliation: Carnegie Mellon University, Email: maartensap@cmu.edu
+- Name: Dipankar Ray, Affiliation: Microsoft, Email: diray@microsoft.com
+- Name: Ece Kamar, Affiliation: Microsoft, Email: eckamar@microsoft.com

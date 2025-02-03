@@ -1,0 +1,12 @@
+**Expected Output:**
+
+Title: Modeling Context in Referring Expressions
+
+Authors:  
+- Name: Licheng Yu, Affiliation: University of North Carolina at Chapel Hill, Email: licheng@cs.unc.edu  
+- Name: Patrick Poirson, Affiliation: University of North Carolina at Chapel Hill, Email: poirson@cs.unc.edu  
+- Name: Shan Yang, Affiliation: University of North Carolina at Chapel Hill, Email: alexyang@cs.unc.edu  
+- Name: Alexander C. Berg, Affiliation: University of North Carolina at Chapel Hill, Email: aberg@cs.unc.edu  
+- Name: Tamara L. Berg, Affiliation: University of North Carolina at Chapel Hill, Email: tlberg@cs.unc.edu  
+
+(Note: Only email domain is mentioned for Alexander C. Berg due to formatting; it's assumed that the full email follows similar structure as others.)

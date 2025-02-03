@@ -1,0 +1,11 @@
+Based on the provided context, there are no explicit mentions of a paper title or author information directly within the given text. The context does mention "Yi: Open Foundation Models by 01.AI," which could be interpreted as part of the title and author information. However, specific details such as names, affiliations, and emails are not provided.
+
+Therefore, using the format you've requested:
+
+**Expected Output:**
+Title: Yi: Open Foundation Models  
+Authors:  
+- Name: NA, Affiliation: 01.AI, Email: NA  
+- Additional Authors: NA  
+
+Some information is marked as "NA" due to its absence in the context.

@@ -1,0 +1,8 @@
+**Title:** Model Stock: All we need is just a few fine-tuned models
+
+**Authors:**
+- Name: Dong-Hwan Jang⋆, Affiliation: NAVER AI Lab, Email: NA
+- Name: Sangdoo Yun, Affiliation: NAVER AI Lab, Email: NA
+- Name: Dongyoon Han, Affiliation: NAVER AI Lab, Email: NA
+
+(Note: The email addresses and affiliations are derived directly from the context provided. If more detailed information such as email is not available in the context, it is indicated as "NA".)

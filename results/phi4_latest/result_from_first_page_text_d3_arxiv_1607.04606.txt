@@ -1,0 +1,11 @@
+**Expected Output:**
+
+Title: Enriching Word Vectors with Subword Information
+
+Authors:  
+- Name: Piotr Bojanowski, Affiliation: Facebook AI Research, Email: bojanowski@fb.com  
+- Name: Edouard Grave, Affiliation: Facebook AI Research, Email: egrave@fb.com  
+- Name: Armand Joulin, Affiliation: Facebook AI Research, Email: ajoulin@fb.com  
+- Name: Tomas Mikolov, Affiliation: Facebook AI Research, Email: tmikolov@fb.com  
+
+(Note: The title is taken directly from the context provided. Author names and affiliations are listed according to their mention in the context, while emails are included as available. Any missing information is represented with NA.)

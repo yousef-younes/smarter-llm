@@ -1,0 +1,11 @@
+**Expected Output:**
+
+Title: Wikipedia-based Image Text (WIT) Dataset for Multimodal Multilingual Machine Learning
+
+Authors:  
+- Name: Krishna Srinivasan, Affiliation: Google, Email: krishnaps@google.com  
+- Name: Karthik Raman, Affiliation: Google, Email: karthikraman@google.com  
+- Name: Jiecao Chen, Affiliation: Google, Email: chenjiecao@google.com  
+- Name: Michael Bendersky, Affiliation: Google, Email: bemike@google.com  
+- Name: Marc Najork, Affiliation: Google, Email: najork@google.com  
+

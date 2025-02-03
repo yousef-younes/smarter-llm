@@ -1,0 +1,9 @@
+**Expected Output:**
+
+Title: DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter
+
+Authors:
+- Name: Victor SANH, Affiliation: Hugging Face, Email: victor@huggingface.co
+- Name: Lysandre DEBUT, Affiliation: Hugging Force, Email: lysandre@huggingface.co
+- Name: Julien CHAUMOND, Affiliation: Hugging Face, Email: julien@huggingface.co
+- Name: Thomas WOLF, Affiliation: Hugging Face, Email: thomas@huggingface.co

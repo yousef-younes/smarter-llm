@@ -1,0 +1,63 @@
+**Expected Output:**
+
+Title: Evaluating Large Language Models Trained on Code
+
+Authors:
+- Name: Mark Chen, Affiliation: NA, Email: NA
+- Name: Jerry Tworek, Affiliation: NA, Email: NA
+- Name: Heewoo Jun, Affiliation: NA, Email: NA
+- Name: Qiming Yuan, Affiliation: NA, Email: NA
+- Name: Henrique Ponde de Oliveira Pinto, Affiliation: NA, Email: NA
+- Name: Jared Kaplan, Affiliation: NA, Email: NA
+- Name: Harri Edwards, Affiliation: NA, Email: NA
+- Name: Yuri Burda, Affiliation: NA, Email: NA
+- Name: Nicholas Joseph, Affiliation: NA, Email: NA
+- Name: Greg Brockman, Affiliation: NA, Email: NA
+- Name: Alex Ray, Affiliation: NA, Email: NA
+- Name: Raul Puri, Affiliation: NA, Email: NA
+- Name: Gretchen Krueger, Affiliation: NA, Email: NA
+- Name: Michael Petrov, Affiliation: NA, Email: NA
+- Name: Heidy Khlaaf, Affiliation: NA, Email: NA
+- Name: Girish Sastry, Affiliation: NA, Email: NA
+- Name: Pamela Mishkin, Affiliation: NA, Email: NA
+- Name: Brooke Chan, Affiliation: NA, Email: NA
+- Name: Scott Gray, Affiliation: NA, Email: NA
+- Name: Nick Ryder, Affiliation: NA, Email: NA
+- Name: Mikhail Pavlov, Affiliation: NA, Email: NA
+- Name: Alethea Power, Affiliation: NA, Email: NA
+- Name: Lukasz Kaiser, Affiliation: NA, Email: NA
+- Name: Mohammad Bavarian, Affiliation: NA, Email: NA
+- Name: Clemens Winter, Affiliation: NA, Email: NA
+- Name: Philippe Tillet, Affiliation: NA, Email: NA
+- Name: Felipe Petroski Such, Affiliation: NA, Email: NA
+- Name: Dave Cummings, Affiliation: NA, Email: NA
+- Name: Matthias Plappert, Affiliation: NA, Email: NA
+- Name: Fotios Chantzis, Affiliation: NA, Email: NA
+- Name: Elizabeth Barnes, Affiliation: NA, Email: NA
+- Name: Ariel Herbert-Voss, Affiliation: NA, Email: NA
+- Name: William Hebgen Guss, Affiliation: NA, Email: NA
+- Name: Alex Nichol, Affiliation: NA, Email: NA
+- Name: Alex Paino, Affiliation: NA, Email: NA
+- Name: Nikolas Tezak, Affiliation: NA, Email: NA
+- Name: Jie Tang, Affiliation: NA, Email: NA
+- Name: Igor Babuschkin, Affiliation: NA, Email: NA
+- Name: Suchir Balaji, Affiliation: NA, Email: NA
+- Name: Shantanu Jain, Affiliation: NA, Email: NA
+- Name: William Saunders, Affiliation: NA, Email: NA
+- Name: Christopher Hesse, Affiliation: NA, Email: NA
+- Name: Andrew N. Carr, Affiliation: NA, Email: NA
+- Name: Jan Leike, Affiliation: NA, Email: NA
+- Name: Josh Achiam, Affiliation: NA, Email: NA
+- Name: Vedant Misra, Affiliation: NA, Email: NA
+- Name: Evan Morikawa, Affiliation: NA, Email: NA
+- Name: Alec Radford, Affiliation: NA, Email: NA
+- Name: Matthew Knight, Affiliation: NA, Email: NA
+- Name: Miles Brundage, Affiliation: NA, Email: NA
+- Name: Mira Murati, Affiliation: NA, Email: NA
+- Name: Katie Mayer, Affiliation: NA, Email: NA
+- Name: Peter Welinder, Affiliation: NA, Email: NA
+- Name: Bob McGrew, Affiliation: NA, Email: NA
+- Name: Dario Amodei, Affiliation: NA, Email: NA
+- Name: Sam McCandlish, Affiliation: NA, Email: NA
+- Name: Ilya Sutskever, Affiliation: NA, Email: NA
+- Name: Wojciech Zaremba, Affiliation: NA, Email: NA

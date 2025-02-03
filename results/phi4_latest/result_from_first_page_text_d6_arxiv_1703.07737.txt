@@ -1,0 +1,8 @@
+**Title:** In Defense of the Triplet Loss for Person Re-Identification
+
+**Authors:**  
+- Name: Alexander Hermans, Affiliation: Visual Computing Institute, RWTH Aachen University, Email: last@vision.rwth-aachen.de  
+- Name: Lucas Beyer, Affiliation: Visual Computing Institute, RWTH Aachen University, Email: NA  
+- Name: Bastian Leibe, Affiliation: Visual Computing Institute, RWTH Aachsen University, Email: NA  
+
+(Note: The email for Alexander Hermans was corrected to match the format and likely intended content given in the context.)

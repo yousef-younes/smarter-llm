@@ -1,0 +1,9 @@
+**Expected Output:**
+
+Title: A New Dataset for Open Book Question Answering
+
+Authors:  
+- Name: Todor Mihaylov, Affiliation: Heidelberg University and Research Training Group AIPHES, Email: mihaylov@cl.uni-heidelberg.de  
+- Name: Peter Clark, Affiliation: Allen Institute for Artificial Intelligence, Email: peterc@allenai.org  
+- Name: Tushar Khot, Affiliation: Allen Institute for Artificial Intelligence, Email: tushark@allenai.org  
+- Name: Ashish Sabharwal, Affiliation: Allen Institute for Artificial Intelligence, Email: ashishs@allenai.org  

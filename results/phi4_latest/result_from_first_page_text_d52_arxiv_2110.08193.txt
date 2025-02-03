@@ -1,0 +1,15 @@
+**Expected Output:**
+
+Title: BBQ: A Hand-Built Bias Benchmark for Question Answering
+
+Authors:  
+- Name: Alicia Parrish, Affiliations: New York University Dept. of Linguistics, Center for Data Science, Email: alicia.v.parrish@nyu.edu  
+- Name: Angelica Chen, Affiliation: New York University Center for Data Science, Email: NA  
+- Name: Nikita Nangia, Affiliation: New York University Center for Data Science, Email: NA  
+- Name: Vishakh Padmakumar, Affiliation: New York University Center for Data Science, Email: NA  
+- Name: Jason Phang, Affiliation: New York University Center for Data Science, Email: NA  
+- Name: Jana Thompson, Affiliation: New York University Center for Data Science, Email: NA  
+- Name: Phu Mon Htut, Affiliation: New York University Center for Data Science, Email: NA  
+- Name: Samuel R. Bowman, Affiliations: New York University Dept. of Linguistics, Center for Data Science, Dept. of Computer Science, Email: bowman@nyu.edu  
+
+Correspondence Emails: {alicia.v.parrish, bowman}@nyu.edu

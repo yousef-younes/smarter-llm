@@ -1,0 +1,23 @@
+**Expected Output:**
+
+Title: Mistral 7B
+
+Authors:  
+- Name: Albert Q. Jiang, Affiliation: NA, Email: NA  
+- Name: Alexandre Sablayrolles, Affiliation: NA, Email: NA  
+- Name: Arthur Mensch, Affiliation: NA, Email: NA  
+- Name: Chris Bamford, Affiliation: NA, Email: NA  
+- Name: Devendra Singh Chaplot, Affiliation: NA, Email: NA  
+- Name: Diego de las Casas, Affiliation: NA, Email: NA  
+- Name: Florian Bressand, Affiliation: NA, Email: NA  
+- Name: Gianna Lengyel, Affiliation: NA, Email: NA  
+- Name: Guillaume Lample, Affiliation: NA, Email: NA  
+- Name: Lucile Saulnier, Affiliation: NA, Email: NA  
+- Name: Lélio Renard Lavaud, Affiliation: NA, Email: NA  
+- Name: Marie-Anne Lachaux, Affiliation: NA, Email: NA  
+- Name: Pierre Stock, Affiliation: NA, Email: NA  
+- Name: Teven Le Scao, Affiliation: NA, Email: NA  
+- Name: Thibaut Lavril, Affiliation: NA, Email: NA  
+- Name: Thomas Wang, Affiliation: NA, Email: NA  
+- Name: Timothée Lacroix, Affiliation: NA, Email: NA  
+- Name: William El Sayed, Affiliation: NA, Email: NA  

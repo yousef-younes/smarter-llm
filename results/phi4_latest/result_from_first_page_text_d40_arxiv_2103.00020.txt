@@ -1,0 +1,17 @@
+**Title:** Learning Transferable Visual Models From Natural Language Supervision
+
+**Authors:**
+- Name: Alec Radford, Affiliation: NA, Email: NA
+- Name: Jong Wook Kim, Affiliation: NA, Email: NA
+- Name: Chris Hallacy, Affiliation: NA, Email: NA
+- Name: Aditya Ramesh, Affiliation: NA, Email: NA
+- Name: Gabriel Goh, Affiliation: NA, Email: NA
+- Name: Sandhini Agarwal, Affiliation: NA, Email: NA
+- Name: Girish Sastry, Affiliation: NA, Email: NA
+- Name: Amanda Askell, Affiliation: NA, Email: NA
+- Name: Pamela Mishkin, Affiliation: NA, Email: NA
+- Name: Jack Clark, Affiliation: NA, Email: NA
+- Name: Gretchen Krueger, Affiliation: NA, Email: NA
+- Name: Ilya Sutskever, Affiliation: NA, Email: NA
+
+*Note: The context provided does not include affiliations or email addresses for the authors.*

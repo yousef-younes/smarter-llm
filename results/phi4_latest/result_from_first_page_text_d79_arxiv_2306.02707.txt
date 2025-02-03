@@ -1,0 +1,14 @@
+**Expected Output:**
+
+Title: Orca: Progressive Learning from Complex Explanation Traces of GPT-4
+
+Authors:  
+- Name: Subhabrata Mukherjee, Affiliation: Microsoft Research, Email: subhabrata.mukherjee@microsoft.com  
+- Name: Arindam Mitra, Affiliation: Microsoft Research, Email: NA  
+- Name: Ganesh Jawahar, Affiliation: Microsoft Research, Email: NA  
+- Name: Sahaj Agarwal, Affiliation: Microsoft Research, Email: NA  
+- Name: Hamid Palangi, Affiliation: Microsoft Research, Email: NA  
+- Name: Ahmed Awadallah, Affiliation: Microsoft Research, Email: NA  
+
+Co-primary authors: Subhabrata Mukherjee, Arindam Mitra  
+Correspondence to: subhabrata.mukherjee@microsoft.com

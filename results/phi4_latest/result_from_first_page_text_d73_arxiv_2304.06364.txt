@@ -1,0 +1,15 @@
+**Expected Output:**  
+Title: AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models
+
+Authors:  
+- Name: Wanjun Zhong, Affiliation: Microsoft, Email: t-wzhong@microsoft.com  
+- Name: Ruixiang Cui, Affiliation: Microsoft, Email: v-ruicui@microsoft.com  
+- Name: Yiduo Guo, Affiliation: NA, Email: N/A  
+- Name: Yaobo Liang, Affiliation: NA, Email: yaobo.liang@microsoft.com  
+- Name: Shuai Lu, Affiliation: NA, Email: shuailu@microsoft.com  
+- Name: Yanlin Wang, Affiliation: NA, Email: yanlwang@microsoft.com  
+- Name: Amin Saied, Affiliation: NA, Email: Amin.Saied@microsoft.com  
+- Name: Weizhu Chen, Affiliation: NA, Email: wzchen@microsoft.com  
+- Name: Nan Duan, Affiliation: NA, Email: nanduan@microsoft.com  
+
+(Note: Emails are provided where available; affiliations other than Microsoft are marked as NA since they were not specified in the context.)
