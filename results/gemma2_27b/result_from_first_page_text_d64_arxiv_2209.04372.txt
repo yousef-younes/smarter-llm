@@ -1,0 +1,6 @@
+**Expected Output:**
+Title: Pre-training image-language transformers for open-vocabulary tasks 
+Authors:  
+- Name: AJ Piergiovanni, Affiliation: Google Research, Email: N/A  
+- Name: Weicheng Kuo, Affiliation: Google Research, Email: N/A  
+- Name: Anelia Angelova, Affiliation: Google Research, Email: N/A   

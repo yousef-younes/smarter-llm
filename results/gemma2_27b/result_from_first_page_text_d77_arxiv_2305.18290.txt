@@ -1,0 +1,13 @@
+**Title:** Direct Preference Optimization: Your Language Model is Secretly a Reward Model
+
+**Authors:**
+
+* Name: Rafael Rafailov, Affiliation: Stanford University, Email: rafailov@cs.stanford.edu
+* Name: Archit Sharma, Affiliation: Stanford University, Email: architsh@cs.stanford.edu
+* Name: Eric Mitchell, Affiliation: Stanford University, Email: eric.mitchell@cs.stanford.edu
+* Name: Stefano Ermon, Affiliation: Stanford University & CZ Biohub, Email: N/A 
+* Name: Christopher D. Manning, Affiliation: Stanford University, Email: N/A
+* Name: Chelsea Finn, Affiliation: Stanford University, Email: N/A  
+
+
+

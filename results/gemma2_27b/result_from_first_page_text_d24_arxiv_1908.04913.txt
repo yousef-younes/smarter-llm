@@ -1,0 +1,6 @@
+**Expected Output:**
+
+Title: FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age 
+Authors:  
+- Name: Kimmo K¨arkk¨ainen, Affiliation: UCLA, Email: kimmo@cs.ucla.edu  
+- Name: Jungseock Joo, Affiliation: UCLA, Email: jjoo@comm.ucla.edu   

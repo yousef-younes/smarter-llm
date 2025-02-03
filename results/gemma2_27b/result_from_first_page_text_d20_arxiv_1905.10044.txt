@@ -1,0 +1,9 @@
+**Expected Output:**
+Title: BoolQ: Exploring the Surprising Difﬁculty of Natural Yes/No Questions 
+Authors:  
+- Name: Christopher Clark, Affiliation: Paul G. Allen School of CSE, University of Washington, Email: csquared@cs.uw.edu  
+- Name: Kenton Lee, Affiliation: Google AI Language, Email: kentonl@google.com  
+- Name: Ming-Wei Chang, Affiliation: Google AI Language, Email: mingweichang@google.com 
+- Name: Tom Kwiatkowski, Affiliation: Google AI Language, Email: tomkwiat@google.com  
+- Name: Michael Collins, Affiliation: Google AI Language, Email: mjcollins@google.com 
+- Name: Kristina Toutanova, Affiliation: Google AI Language, Email: kristout@google.com   

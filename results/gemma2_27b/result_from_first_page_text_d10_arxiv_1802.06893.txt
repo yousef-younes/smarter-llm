@@ -1,0 +1,8 @@
+**Expected Output:**
+Title: Learning Word Vectors for 157 Languages
+Authors:  
+- Name: Edouard Grave, Affiliation: Facebook AI Research, Email: NA
+- Name: Piotr Bojanowski, Affiliation: Facebook AI Research, Email: NA
+- Name: Prakhar Gupta, Affiliation: Facebook AI Research, EPFL, Email: prakhar.gupta@epfl.ch
+- Name: Armand Joulin, Affiliation: Facebook AI Research, Email: NA
+- Name: Tomas Mikolov, Affiliation: Facebook AI Research, Email: NA 

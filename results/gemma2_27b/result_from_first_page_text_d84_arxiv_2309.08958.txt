@@ -1,0 +1,9 @@
+**Title:** Monolingual or Multilingual Instruction Tuning: Which Makes a Better Alpaca 
+
+**Authors:**  
+- Name: Pinzhen Chen, Affiliation: University of Edinburgh, Email: pchen3@ed.ac.uk
+- Name: Shaoxiong Ji, Affiliation: University of Helsinki, Email: shaoxiong.ji@helsinki.fi
+- Name: Andrey Kutuzov, Affiliation: University of Oslo, Email: N/A 
+- Name: Barry Haddow, Affiliation: University of Edinburgh, Email: N/A
+- Name: Nikolay Bogoychev, Affiliation: University of Edinburgh, Email: N/A
+- Name: Kenneth Heafield, Affiliation: University of Edinburgh, Email: N/A  

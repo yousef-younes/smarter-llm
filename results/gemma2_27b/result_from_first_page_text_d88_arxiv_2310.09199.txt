@@ -1,0 +1,23 @@
+**Title:** PaLI-3 Vision Language Models: Smaller, Faster, Stronger 
+**Authors:**
+ - Name: Xiao Wang, Affiliation: Google Research, Email: NA
+ - Name: Lucas Beyer, Affiliation: Google Research, Email: NA
+ - Name: Xi Chen, Affiliation: Google Research, Email: NA
+ - Name: Paul Voigtlaender, Affiliation: Google DeepMind, Email: NA
+ - Name: Basil Mustafa, Affiliation: Google DeepMind, Email: NA
+ - Name: Piotr Padlewski, Affiliation: Google DeepMind, Email: NA
+ - Name: Daniel Salz, Affiliation: Google Research, Email: NA
+ - Name: Xi Xiong, Affiliation: Google Cloud, Email: NA
+ - Name: Daniel Vlasic, Affiliation: Google Cloud, Email: NA
+ - Name: Keran Rong, Affiliation: Google DeepMind, Email: NA
+ - Name: Tianli Yu, Affiliation: Google Cloud, Email: NA
+ - Name: Daniel Keysers, Affiliation: Google DeepMind, Email: NA
+ - Name: Xiaohua Zhai, Affiliation: Google Research, Email: NA
+ - Name: Alexander Kolesnikov, Affiliation: Google DeepMind, Email: NA
+ - Name: Sebastian Goodman, Affiliation: Google Research, Email: NA
+ - Name: Jialin Wu, Affiliation: Google Research, Email: NA
+ - Name: Ibrahim Alabdulmohsin, Affiliation: Google DeepMind, Email: NA
+ - Name: Filip Pavetic, Affiliation: Google DeepMind, Email: NA
+ - Name: Radu Soricut, Affiliation: Google Research, Email: NA 
+
+

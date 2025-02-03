@@ -1,0 +1,6 @@
+**Expected Output:**
+Title: TallyQA: Answering Complex Counting Questions 
+Authors:  
+ - Name: Manoj Acharya, Affiliation: Chester F. Carlson Center for Imaging Science, Rochester Institute of Technology, Email: ma7583@rit.edu  
+ - Name: Kushal Kaﬂe, Affiliation: Chester F. Carlson Center for Imaging Science, Rochester Institute of Technology, Email: kk6055@rit.edu 
+ - Name: Christopher Kanan, Affiliation: Chester F. Carlson Center for Imaging Science, Rochester Institute of Technology, Email: kanan@rit.edu 

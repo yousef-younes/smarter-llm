@@ -1,0 +1,10 @@
+**Expected Output:**
+
+Title: REALTOXICITYPROMPTS: Evaluating Neural Toxic Degeneration in Language Models 
+Authors:  
+- Name: Samuel Gehman, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington, Email: sgehman@cs.washington.edu
+- Name: Suchin Gururangan, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington, Email: sg01@cs.washington.edu
+- Name: Maarten Sap, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington, Email: msap@cs.washington.edu 
+- Name: Yejin Choi, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington, Email: yejin@cs.washington.edu  
+- Name: Noah A. Smith, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington, Email: nasmith@cs.washington.edu 
+

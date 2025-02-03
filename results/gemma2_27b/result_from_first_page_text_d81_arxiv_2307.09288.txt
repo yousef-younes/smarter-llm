@@ -1,0 +1,90 @@
+**Expected Output:**
+
+Title: Llama 2: Open Foundation and Fine-Tuned Chat Models 
+Authors:  
+- Name: Hugo Touvron, Affiliation: Meta, Email: htouvron@meta.com
+- Name: Louis Martin, Affiliation: Meta, Email: NA
+- Name: Kevin Stone, Affiliation: Meta, Email: NA
+- Name: Peter Albert, Affiliation: Meta, Email: NA
+- Name: Amjad Almahairi, Affiliation: Meta, Email: NA
+- Name: Yasmine Babaei, Affiliation: Meta, Email: NA
+- Name: Nikolay Bashlykov, Affiliation: Meta, Email: NA
+- Name: Soumya Batra, Affiliation: Meta, Email: NA
+- Name: Prajjwal Bhargava, Affiliation: Meta, Email: NA
+- Name: Shruti Bhosale, Affiliation: Meta, Email: NA
+- Name: Dan Bikel, Affiliation: Meta, Email: NA
+- Name: Lukas Blecher, Affiliation: Meta, Email: NA
+- Name: Cristian Canton Ferrer Moya, Affiliation: Meta, Email: NA
+- Name: Guillem Cucurull, Affiliation: Meta, Email: NA
+- Name: David Esiobu, Affiliation: Meta, Email: NA
+- Name: Jude Fernandes, Affiliation: Meta, Email: NA
+- Name: Jeremy Fu, Affiliation: Meta, Email: NA
+- Name: Wenyin Fu, Affiliation: Meta, Email: NA
+
+- Name: Brian Fuller, Affiliation: Meta, Email: NA
+- Name: Cynthia Gao, Affiliation: Meta, Email: NA
+- Name: Vedanuj Goswami, Affiliation: Meta, Email: NA
+- Name: Naman Goyal, Affiliation: Meta, Email: NA
+- Name: Anthony Hartshorn, Affiliation: Meta, Email: NA
+- Name: Saghar Hosseini, Affiliation: Meta, Email: NA
+
+- Name: Rui Hou, Affiliation: Meta, Email: NA
+- Name: Hakan Inan, Affiliation: Meta, Email: NA
+- Name: Marcin Kardas, Affiliation: Meta, Email: NA
+- Name: Viktor Kerkez, Affiliation: Meta, Email: NA
+
+- Name: Madian Khabsa, Affiliation: Meta, Email: NA
+- Name: Isabel Kloumann, Affiliation: Meta, Email: NA
+- Name: Artem Korenev, Affiliation: Meta, Email: NA
+
+- Name: Punit Singh Koura, Affiliation: Meta, Email: NA
+- Name: Marie-Anne Lachaux, Affiliation: Meta, Email: NA
+
+- Name: Thibaut Lavril, Affiliation: Meta, Email: NA
+- Name: Jenya Lee, Affiliation: Meta, Email: NA
+
+- Name: Diana Liskovich, Affiliation: Meta, Email: NA
+- Name: Yinghai Lu, Affiliation: Meta, Email: NA
+- Name: Yuning Mao, Affiliation: Meta, Email: NA
+
+- Name: Xavier Martinet, Affiliation: Meta, Email: NA
+
+- Name: Todor Mihaylov, Affiliation: Meta, Email: NA
+- Name: Pushkar Mishra, Affiliation: Meta, Email: NA
+- Name: Igor Molybog, Affiliation: Meta, Email: NA
+
+- Name: Yixin Nie, Affiliation: Meta, Email: NA
+- Name: Andrew Poulton, Affiliation: Meta, Email: NA
+
+- Name: Jeremy Reizenstein, Affiliation: Meta, Email: NA
+- Name: Rashi Rungta, Affiliation: Meta, Email: NA
+
+- Name: Kalyan Saladi, Affiliation: Meta, Email: NA
+- Name: Alan Schelten, Affiliation: Meta, Email: NA
+
+- Name: Ruan Silva, Affiliation: Meta, Email: NA
+- Name: Eric Michael Smith, Affiliation: Meta, Email: NA
+- Name: Ranjan Subramanian, Affiliation: Meta, Email: NA
+
+- Name: Xiaoqing Ellen Tan, Affiliation: Meta, Email: NA
+- Name: Binh Tang, Affiliation: Meta, Email: NA
+
+- Name: Ross Taylor, Affiliation: Meta, Email: NA
+- Name: Adina Williams, Affiliation: Meta, Email: NA
+- Name: Jian Xiang, Affiliation: Meta, Email: NA
+- Name: Kuan Puxin Xu, Affiliation: Meta, Email: NA
+- Name: Zheng Yan, Affiliation: Meta, Email: NA
+
+- Name: Iliyan Zarov, Affiliation: Meta, Email: NA
+- Name: Yuchen Zhang, Affiliation: Meta, Email: NA
+
+
+- Name: Angela Fan, Affiliation: Meta, Email: NA
+- Name: Melanie Kambadur, Affiliation: Meta, Email: NA
+- Name: Sharan Narang , Affiliation: Meta, Email: NA
+
+- Name: Aurelien Rodriguez, Affiliation: Meta, Email: NA
+- Name: Robert Stojnic , Affiliation: Meta, Email: NA
+- Name: Sergey Edunov , Affiliation: Meta, Email: NA
+ - Name: Thomas Scialom, Affiliation: Meta, Email: tscialom@meta.com 
+

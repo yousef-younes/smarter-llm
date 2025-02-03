@@ -1,0 +1,9 @@
+**Title:** Efﬁcient Few-Shot Learning Without Prompts 
+**Authors:**  
+ - Name: Lewis Tunstall, Affiliation: Hugging Face, Email: firstname@huggingface.com 
+ - Name: Nils Reimers, Affiliation: cohere.ai , Email: info@nils-reimers.de
+ - Name: Unso Eun Seo Jo, Affiliation: Hugging Face, Email: NA
+ - Name: Luke Bates, Affiliation: Ubiquitous Knowledge Processing Lab, Technical University of Darmstadt, Email: bates@ukp.informatik.tu-darmstadt.de
+ - Name: Daniel Korat, Affiliation: Emergent AI Lab, Intel Labs, Email: firstname.lastname@intel.com
+ - Name: Moshe Wasserblat, Affiliation: Emergent AI Lab, Intel Labs, Email: firstname.lastname@intel.com
+ - Name: Oren Pereg, Affiliation: Emergent AI Lab, Intel Labs, Email: firstname.lastname@intel.com 

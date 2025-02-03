@@ -1,0 +1,8 @@
+**Expected Output:**
+
+Title: COMMONSENSEQA: A Question Answering Challenge Targeting Commonsense Knowledge 
+Authors:  
+ - Name: Alon Talmor, Affiliation: School of Computer Science, Tel-Aviv University, Email: alontalmor@mail.tau.ac.il  
+ - Name: Jonathan Herzig, Affiliation: School of Computer Science, Tel-Aviv University, Email: jonathan.herzig@cs.tau.ac.il
+ - Name: Nicholas Lourie, Affiliation: Allen Institute for Artificial Intelligence, Email: nicholasl@allenai.org 
+ - Name: Jonathan Berant, Affiliation: School of Computer Science, Tel-Aviv University and Allen Institute for Artificial Intelligence , Email: joberant@cs.tau.ac.il   

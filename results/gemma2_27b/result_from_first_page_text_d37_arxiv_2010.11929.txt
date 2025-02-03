@@ -1,0 +1,19 @@
+**Expected Output:**
+
+Title: AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE 
+Authors:  
+- Name: Alexey Dosovitskiy, Affiliation: Google Research, Brain Team, Email: adosovitskiy@google.com  
+- Name: Lucas Beyer, Affiliation: Google Research, Brain Team, Email: NA  
+- Name: Alexander Kolesnikov, Affiliation: Google Research, Brain Team, Email: NA
+- Name: Dirk Weissenborn, Affiliation: Google Research, Brain Team, Email: NA
+- Name: Xiaohua Zhai, Affiliation: Google Research, Brain Team, Email: NA 
+- Name: Thomas Unterthiner, Affiliation: NA, Email: NA
+- Name: Mostafa Dehghani, Affiliation: NA, Email: NA
+- Name: Matthias Minderer, Affiliation: NA, Email: NA
+- Name: Georg Heigold, Affiliation: NA, Email: NA
+- Name: Sylvain Gelly, Affiliation: NA, Email: NA
+- Name: Jakob Uszkoreit, Affiliation: NA, Email: NA
+- Name: Neil Houlsby, Affiliation: Google Research, Brain Team, Email: neilhoulsby@google.com 
+
+
+
