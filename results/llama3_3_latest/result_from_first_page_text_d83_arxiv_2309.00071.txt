@@ -1,0 +1,11 @@
+Based on the provided context, here is the extracted title and author information in the requested format:
+
+
+Title: YaRN: Efficient Context Window Extension of Large Language Models  
+Authors:  
+- Name: Bowen Peng, Affiliation: Nous Research, Email: NA  
+- Name: Jeffrey Quesnelle, Affiliation: Nous Research, Email: NA  
+- Name: Honglu Fan, Affiliation: EleutherAI, Email: NA  
+- Name: Enrico Shippole, Affiliation: University of Geneva, Email: NA  
+
+Note: The email addresses are not provided in the context, so I have written NA for all authors. Also, the affiliations and names are extracted based on the available information in the context.

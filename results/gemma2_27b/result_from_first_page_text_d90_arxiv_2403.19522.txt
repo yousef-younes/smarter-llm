@@ -1,6 +1,0 @@
-**Expected Output:**
-Title: Model Stock: All we need is just a few fine-tuned models 
-Authors:  
-- Name: Dong-Hwan Jang, Affiliation: NAVER AI Lab, Email: N/A  
-- Name: Sangdoo Yun, Affiliation: NAVER AI Lab, Email: N/A  
-- Name: Dongyoon Han, Affiliation: NAVER AI Lab, Email: N/A   

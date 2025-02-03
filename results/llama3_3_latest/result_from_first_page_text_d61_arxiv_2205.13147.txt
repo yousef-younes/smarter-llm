@@ -1,0 +1,16 @@
+Based on the provided context, here is the extracted title and author information in the requested format:
+
+**Expected Output:**
+Title: Matryoshka Representation Learning  
+Authors:  
+- Name: Aditya Kusupati, Affiliation: University of Washington, Email: kusupati@cs.washington.edu  
+- Name: Gantavya Bhatt, Affiliation: University of Washington, Email: NA  
+- Name: Aniket Rege, Affiliation: University of Washington, Email: NA  
+- Name: Matthew Wallingford, Affiliation: University of Washington, Email: NA  
+- Name: Aditya Sinha, Affiliation: Google Research, Email: NA  
+- Name: Vivek Ramanujan, Affiliation: University of Washington, Email: NA  
+- Name: William Howard-Snyder, Affiliation: University of Washington, Email: NA  
+- Name: Kaifeng Chen, Affiliation: Google Research, Email: NA  
+- Name: Sham Kakade, Affiliation: Harvard University, Email: NA  
+- Name: Prateek Jain, Affiliation: Google Research, Email: prajain@google.com  
+- Name: Ali Farhadi, Affiliation: University of Washington, Email: ali@cs.washington.edu

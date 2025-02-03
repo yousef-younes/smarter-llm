@@ -1,0 +1,9 @@
+**Expected Output:**
+Title: OPENCHAT: ADVANCING OPEN-SOURCE LANGUAGE MODELS WITH MIXED-QUALITY DATA
+Authors:  
+- Name: Guan Wang, Affiliation: Department of Computer Science and Technology, Tsinghua University, Email: imonenext@gmail.com  
+- Name: Sijie Cheng, Affiliation: Department of Computer Science and Technology, Tsinghua University, Email: csj23@mails.tsinghua.edu.cn  
+- Name: Xianyuan Zhan, Affiliation: Institute for AI Industry Research (AIR), Tsinghua University, Email: NA  
+- Name: Xiangang Li, Affiliation: Institute for AI Industry Research (AIR), Tsinghua University, Email: NA  
+- Name: Sen Song, Affiliation: Laboratory of Brain and Intelligence, Tsinghua University, Email: NA  
+- Name: Yang Liu, Affiliation: Institute for AI Industry Research (AIR), Tsinghua University, Email: NA

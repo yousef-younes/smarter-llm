@@ -1,9 +1,0 @@
-**Expected Output:**
-
-Title: ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning 
-Authors:  
-- Name: Ahmed Masry, Affiliation: York University, Email: masry20@yorku.ca 
-- Name: Do Xuan Long, Affiliation: Nanyang Technological University, Email: xuanlong001@e.ntu.edu.sg
-- Name: Jia Qing Tan, Affiliation: Nanyang Technological University, Email: C190022@e.ntu.edu.sg
-- Name: Shaﬁq Joty, Affiliation: Nanyang Technological University, Salesforce Research, Email: srjoty@ntu.edu.sg
-- Name: Enamul Hoque, Affiliation: York University, Email: enamulh@yorku.ca 

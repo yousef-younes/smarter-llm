@@ -1,6 +1,0 @@
-**Title:** YaRN: Efficient Context Window Extension of Large Language Models 
-**Authors:**  
-- Name: Bowen Peng, Affiliation: Nous Research, Email: NA  
-- Name: Jeffrey Quesnelle, Affiliation: Nous Research, Email: NA 
-- Name: Honglu Fan, Affiliation: EleutherAI, University of Geneva, Email: NA
-- Name: Enrico Shippole, Affiliation: NA, Email: @EnricoShippole

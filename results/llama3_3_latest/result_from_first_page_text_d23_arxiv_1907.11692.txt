@@ -1,0 +1,17 @@
+Based on the provided context, here is the extracted title and author information in the requested format:
+
+**Expected Output:**
+Title: RoBERTa: A Robustly Optimized BERT Pretraining Approach
+Authors:  
+- Name: Yinhan Liu, Affiliation: Facebook AI, Email: yinhanliu@fb.com  
+- Name: Myle Ott, Affiliation: Facebook AI, Email: myleott@fb.com  
+- Name: Naman Goyal, Affiliation: Facebook AI, Email: naman@fb.com  
+- Name: Jingfei Du, Affiliation: Facebook AI, Email: jingfeidu@fb.com  
+- Name: Mandar Joshi, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington, Email: mandar90@cs.washington.edu  
+- Name: Danqi Chen, Affiliation: Facebook AI, Email: danqi@fb.com  
+- Name: Omer Levy, Affiliation: Facebook AI, Email: omerlevy@fb.com  
+- Name: Mike Lewis, Affiliation: Facebook AI, Email: mikelewis@fb.com  
+- Name: Luke Zettlemoyer, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington, Email: lsz@cs.washington.edu  
+- Name: Veselin Stoyanov, Affiliation: Facebook AI, Email: ves@fb.com  
+
+Note that some email addresses are not explicitly mentioned in the context but can be inferred based on the provided pattern. If an email address is not available or cannot be inferred, it would be marked as NA. However, in this case, all authors affiliated with Facebook AI have their email addresses inferred as "@fb.com" and those from the University of Washington as "@cs.washington.edu".

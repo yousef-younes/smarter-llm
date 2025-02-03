@@ -1,0 +1,17 @@
+Based on the provided context, here is the extracted title and author information in the requested format:
+
+
+Title: Training Veriﬁers to Solve Math Word Problems
+Authors:
+- Name: Karl Cobbe, Affiliation: OpenAI, Email: NA
+- Name: Vineet Kosaraju, Affiliation: OpenAI, Email: NA
+- Name: Mohammad Bavarian, Affiliation: OpenAI, Email: NA
+- Name: Mark Chen, Affiliation: OpenAI, Email: NA
+- Name: Heewoo Jun, Affiliation: OpenAI, Email: NA
+- Name: Lukasz Kaiser, Affiliation: OpenAI, Email: NA
+- Name: Matthias Plappert, Affiliation: OpenAI, Email: NA
+- Name: Jerry Tworek, Affiliation: OpenAI, Email: NA
+- Name: Jacob Hilton, Affiliation: OpenAI, Email: NA
+- Name: Reiichiro Nakano, Affiliation: OpenAI, Email: NA
+- Name: Christopher Hesse, Affiliation: OpenAI, Email: NA
+- Name: John Schulman, Affiliation: OpenAI, Email: NA

@@ -1,0 +1,11 @@
+Here is the extracted information in the requested format:
+
+**Expected Output:**
+Title: ROFORMER: ENHANCED TRANSFORMER WITH ROTARY POSITION EMBEDDING
+Authors:  
+- Name: Jianlin Su, Affiliation: Zhuiyi Technology Co., Ltd., Email: bojonesu@wezhuiyi.com  
+- Name: Yu Lu, Affiliation: Zhuiyi Technology Co., Ltd., Email: julianlu@wezhuiyi.com  
+- Name: Shengfeng Pan, Affiliation: Zhuiyi Technology Co., Ltd., Email: nickpan@wezhuiyi.com  
+- Name: Ahmed Murtadha, Affiliation: Zhuiyi Technology Co., Ltd., Email: mengjiayi@wezhuiyi.com  
+- Name: Bo Wen, Affiliation: Zhuiyi Technology Co., Ltd., Email: brucewen@wezhuiyi.com  
+- Name: Yunfeng Liu, Affiliation: Zhuiyi Technology Co., Ltd., Email: glenliu@wezhuiyi.com

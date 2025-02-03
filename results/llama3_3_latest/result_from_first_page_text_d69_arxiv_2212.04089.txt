@@ -1,0 +1,12 @@
+Here is the extracted title and author information in the requested format:
+
+**Expected Output:**
+Title: EDITING MODELS WITH TASK ARITHMETIC
+Authors:  
+- Name: Gabriel Ilharco, Affiliation: University of Washington, Email: NA 
+- Name: Marco Tulio Ribeiro, Affiliation: Microsoft Research, Email: NA 
+- Name: Mitchell Wortsman, Affiliation: University of Washington, Email: NA 
+- Name: Suchin Gururangan, Affiliation: University of Washington, Email: NA 
+- Name: Ludwig Schmidt, Affiliation: University of Washington, Allen Institute for AI, Email: NA 
+- Name: Hannaneh Hajishirzi, Affiliation: University of Washington, Allen Institute for AI, Email: NA 
+- Name: Ali Farhadi, Affiliation: University of Washington, Email: NA

@@ -1,0 +1,10 @@
+Based on the provided context, here is the extracted title and author information in the requested format:
+
+**Expected Output:**
+Title: Modeling Context in Referring Expressions  
+Authors:  
+- Name: Licheng Yu, Affiliation: University of North Carolina at Chapel Hill, Email: licheng@cs.unc.edu  
+- Name: Patrick Poirson, Affiliation: University of North Carolina at Chapel Hill, Email: poirson@cs.unc.edu  
+- Name: Shan Yang, Affiliation: University of North Carolina at Chapel Hill, Email: alexyang@cs.unc.edu  
+- Name: Alexander C. Berg, Affiliation: University of North Carolina at Chapel Hill, Email: aberg@cs.unc.edu  
+- Name: Tamara L. Berg, Affiliation: University of North Carolina at Chapel Hill, Email: tlberg@cs.unc.edu

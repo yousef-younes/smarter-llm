@@ -1,5 +1,3 @@
-
-
 from langchain_community.llms import Ollama
 from langchain_community.document_loaders import TextLoader
 from langchain_core.prompts import ChatPromptTemplate
@@ -10,11 +8,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 from langchain_community.embeddings import OllamaEmbeddings
 from langchain_community.vectorstores import FAISS
-
 import os
-
-
-
 
 
 query="""
@@ -32,7 +26,7 @@ query="""
 
 
 input_folder = "../data/extracted_texts"
-output_folder = "../results/mistral_latest"
+output_folder = "../results/llama3_3_latest" #"mistral_latest" #"../results/llama3_3_latest" 
 
 os.makedirs(output_folder, exist_ok=True)
 
@@ -80,7 +74,7 @@ def main():
         if filename.endswith(".txt"):
     
             input_file = os.path.join(input_folder, filename)
-            model_name = "mistral:latest"
+            model_name =  "llama3.3:latest" #"mistral:latest" phi4:latest	#"gemma2:27b"	
     
             result = handle_file(input_file, model_name)
             

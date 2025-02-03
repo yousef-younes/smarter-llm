@@ -1,0 +1,7 @@
+Based on the provided context, here is the extracted title and author information in the requested format:
+
+Title: Fast Transformer Decoding: One Write-Head is All You Need
+Authors: 
+- Name: Noam Shazeer, Affiliation: Google, Email: noam@google.com 
+
+Note: Since there is only one author mentioned in the context, there is only one entry under "Authors". If more authors were listed, they would be included as additional entries.

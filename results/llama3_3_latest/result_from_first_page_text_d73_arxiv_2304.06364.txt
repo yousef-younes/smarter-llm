@@ -1,0 +1,14 @@
+Here is the extracted title and author information in the requested format:
+
+**Expected Output:**
+Title: AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models
+Authors:
+- Name: Wanjun Zhong, Affiliation: Microsoft, Email: t-wzhong@microsoft.com
+- Name: Ruixiang Cui, Affiliation: Microsoft, Email: v-ruicui@microsoft.com
+- Name: Yiduo Guo, Affiliation: Microsoft, Email: v-yiduoguo@microsoft.com
+- Name: Yaobo Liang, Affiliation: Microsoft, Email: yaobo.liang@microsoft.com
+- Name: Shuai Lu, Affiliation: Microsoft, Email: shuailu@microsoft.com
+- Name: Yanlin Wang, Affiliation: Microsoft, Email: yanlwang@microsoft.com
+- Name: Amin Saied, Affiliation: Microsoft, Email: Amin.Saied@microsoft.com
+- Name: Weizhu Chen, Affiliation: Microsoft, Email: wzchen@microsoft.com
+- Name: Nan Duan, Affiliation: Microsoft, Email: nanduan@microsoft.com

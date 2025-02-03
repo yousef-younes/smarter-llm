@@ -1,0 +1,12 @@
+Based on the provided context, here is the extracted title and author information in the requested format:
+
+
+Title: Efﬁcient Few-Shot Learning Without Prompts
+Authors:
+- Name: Lewis Tunstall, Affiliation: Hugging Face, Email: lewis@huggingface.com
+- Name: Nils Reimers, Affiliation: cohere.ai, Email: nils@nils-reimers.de
+- Name: Unso Eun Seo Jo, Affiliation: Hugging Face, Email: NA
+- Name: Luke Bates, Affiliation: Ubiquitous Knowledge Processing Lab, Technical University of Darmstadt, Email: bates@ukp.informatik.tu-darmstadt.de
+- Name: Daniel Korat, Affiliation: Emergent AI Lab, Intel Labs, Email: daniel.korat@intel.com
+- Name: Moshe Wasserblat, Affiliation: Emergent AI Lab, Intel Labs, Email: moshe.wasserblat@intel.com
+- Name: Oren Pereg, Affiliation: Emergent AI Lab, Intel Labs, Email: oren.pereg@intel.com

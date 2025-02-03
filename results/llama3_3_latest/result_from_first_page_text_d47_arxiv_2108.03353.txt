@@ -1,0 +1,13 @@
+Here is the extracted title and author information in the requested format:
+
+**Expected Output:**
+Title: Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning
+Authors:  
+- Name: Bryan Wang, Affiliation: NA, Email: NA  
+- Name: Gang Li, Affiliation: NA, Email: NA  
+- Name: Xin Zhou, Affiliation: NA, Email: NA  
+- Name: Zhourong Chen, Affiliation: NA, Email: NA  
+- Name: Tovi Grossman, Affiliation: NA, Email: NA  
+- Name: Yang Li, Affiliation: NA, Email: NA  
+
+Note: The affiliation and email information for the authors is not available in the provided context.

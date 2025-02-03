@@ -1,0 +1,3 @@
+ Title: Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks
+   Authors:
+   - Name: Nils Reimers, Affiliation: Ubiquitous Knowledge Processing Lab (UKP-TUDA), Department of Computer Science, Technische Universit¨at Darmstadt, Email: NA (not provided in the context)

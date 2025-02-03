@@ -1,0 +1,11 @@
+Here is the extracted information in the requested format:
+
+Title: ColD Fusion: Collaborative Descent for Distributed Multitask Finetuning
+
+Authors:
+- Name: Shachar Don-Yehiya, Affiliation: IBM Research, Hebrew University of Jerusalem, Email: shachar.don-yehiya@ibm.com
+- Name: Noam Slonim, Affiliation: IBM Research, Email: noams@il.ibm.com
+- Name: Elad Venezian, Affiliation: IBM Research, Email: eladv@il.ibm.com
+- Name: Yoav Katz, Affiliation: IBM Research, Email: katz@il.ibm.com
+- Name: Colin Raffel, Affiliation: UNC Chapel Hill, Email: craffel@gmail.com
+- Name: Leshem Choshen, Affiliation: IBM Research, Email: leshem.choshen@il.ibm.com

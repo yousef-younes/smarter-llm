@@ -1,0 +1,15 @@
+Based on the provided context, here is the extracted title and author information in the requested format:
+
+**Expected Output:**
+Title: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+Authors:  
+- Name: Colin Raffel, Affiliation: Google, Email: craffel@gmail.com  
+- Name: Noam Shazeer, Affiliation: Google, Email: noam@google.com  
+- Name: Adam Roberts, Affiliation: Google, Email: adarob@google.com  
+- Name: Katherine Lee, Affiliation: Google, Email: katherinelee@google.com  
+- Name: Sharan Narang, Affiliation: Google, Email: sharannarang@google.com  
+- Name: Michael Matena, Affiliation: Google, Email: mmatena@google.com  
+- Name: Yanqi Zhou, Affiliation: Google, Email: yanqiz@google.com  
+- Name: Wei Li, Affiliation: Google, Email: mweili@google.com  
+- Name: Peter J. Liu, Affiliation: Google, Email: peterjliu@google.com  
+- Name: Ivan Titov, Affiliation: NA, Email: NA

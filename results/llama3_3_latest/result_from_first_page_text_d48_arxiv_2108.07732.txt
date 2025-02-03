@@ -1,0 +1,18 @@
+Based on the provided context, here is the extracted title and author information in the requested format:
+
+**Expected Output:**
+Title: Program Synthesis with Large Language Models  
+Authors:  
+- Name: Jacob Austin, Affiliation: Google Research, Email: jaaustin@google.com  
+- Name: Augustus Odena, Affiliation: Google Research, Email: augustusodena@google.com  
+- Name: Maxwell Nye, Affiliation: NA, Email: NA  
+- Name: Maarten Bosma, Affiliation: NA, Email: NA  
+- Name: Henryk Michalewski, Affiliation: NA, Email: NA  
+- Name: David Dohan, Affiliation: NA, Email: NA  
+- Name: Ellen Jiang, Affiliation: NA, Email: NA  
+- Name: Carrie Cai, Affiliation: NA, Email: NA  
+- Name: Michael Terry, Affiliation: NA, Email: NA  
+- Name: Quoc Le, Affiliation: Google Research, Email: NA  
+- Name: Charles Sutton, Affiliation: NA, Email: NA  
+
+Note that some information is not available in the provided context, so it is marked as NA.

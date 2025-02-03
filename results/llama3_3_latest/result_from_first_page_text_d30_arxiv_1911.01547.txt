@@ -1,0 +1,6 @@
+**Expected Output:**
+Title: On the Measure of Intelligence  
+Authors:  
+- Name: François Chollet, Affiliation: Google, Inc., Email: fchollet@google.com  
+
+Note: Since there is only one author mentioned in the provided context, the authors section only contains information about that single author. If more authors were listed, they would be included here as well.
