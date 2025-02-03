@@ -1,0 +1,7 @@
+**Expected Output:**
+
+Title: How Can We Effectively Expand the Vocabulary of LLMs with 0.01GB of Target Language Text?
+Authors:  
+- Name: Atsuki Yamaguchi, Affiliation: School of Computer Science, University of Sheffield, Email: ayamaguchi1@sheffield.ac.uk 
+- Name: Aline Villavicencio, Affiliation: School of Computer Science, University of Sheffield & Department of Computer Science, Institute of Data Science and Artificial Intelligence, University of Exeter , Email: a.villavicencio@sheffield.ac.uk 
+- Name: Nikolaos Aletras, Affiliation: School of Computer Science, University of Sheffield, Email: n.aletras@sheffield.ac.uk  

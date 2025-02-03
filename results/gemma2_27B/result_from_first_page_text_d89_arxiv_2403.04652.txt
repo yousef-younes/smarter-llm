@@ -1,0 +1,5 @@
+**Expected Output:**
+
+Title: Yi: Open Foundation Models by 01.AI
+Authors: 
+ - Name: NA, Affiliation: 01.AI, Email: NA 

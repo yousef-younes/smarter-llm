@@ -1,0 +1,32 @@
+**Expected Output:**
+Title: PaLI: A JOINTLY-SCALED MULTILINGUAL LANGUAGE-IMAGE MODEL 
+Authors:  
+- Name: Xi Chen, Affiliation: Google Research, Email: NA  
+- Name: Xiao Wang, Affiliation: Google Research, Email: NA  
+- Name: Soravit Changpinyo, Affiliation: Google Research, Email: NA
+- Name: AJ Piergiovanni, Affiliation: Google Research, Email: NA  
+- Name: Piotr Padlewski, Affiliation: Google Research, Email: NA 
+- Name: Daniel Salz, Affiliation: Google Research, Email: NA
+- Name: Sebastian Goodman, Affiliation: Google Research, Email: NA
+- Name: Adam Grycner, Affiliation: Google Research, Email: NA
+- Name: Basil Mustafa, Affiliation: Google Research, Email: NA  
+- Name: Lucas Beyer, Affiliation: Google Research, Email: NA 
+- Name: Alexander Kolesnikov, Affiliation: Google Research, Email: NA
+- Name: Joan Puigcerver, Affiliation: Google Research, Email: NA
+- Name: Nan Ding, Affiliation: Google Research, Email: NA
+- Name: Keran Rong, Affiliation: Google Research, Email: NA
+- Name: Hassan Akbari, Affiliation: Google Research, Email: NA  
+- Name: Gaurav Mishra, Affiliation: Google Research, Email: NA
+- Name: Linting Xue, Affiliation: Google Research, Email: NA
+- Name: Ashish Thapliyal, Affiliation: Google Research, Email: NA
+- Name: James Bradbury, Affiliation: Google Research, Email: NA  
+- Name: Weicheng Kuo, Affiliation: Google Research, Email: NA
+- Name: Mojtaba Seyedhosseini, Affiliation: Google Research, Email: NA 
+- Name: Chao Jia, Affiliation: Google Research, Email: NA
+- Name: Burcu Karagol Ayan, Affiliation: Google Research, Email: NA  
+- Name: Carlos Riquelme, Affiliation: Google Research, Email: NA  
+- Name: Andreas Steiner, Affiliation: Google Research, Email: NA
+- Name: Anelia Angelova, Affiliation: Google Research, Email: NA 
+- Name: Xiaohua Zhai, Affiliation: Google Research, Email: NA 
+- Name: Neil Houlsby, Affiliation: Google Research, Email: NA  
+- Name: Radu Soricut, Affiliation: Google Research, Email: NA   

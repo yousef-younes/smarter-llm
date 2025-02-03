@@ -1,0 +1,35 @@
+**Expected Output:**
+
+Title: Qwen2.5-Coder Technical Report 
+
+Authors:  
+ - Name: Jian Yang, Affiliation: Qwen Team Alibaba Group, Email: N/A  
+ - Name: Zeyu Cui, Affiliation: Qwen Team Alibaba Group, Email: N/A
+ - Name: Binyuan Hui, Affiliation: Qwen Team Alibaba Group, Email: N/A
+- Name: Dayiheng Liu, Affiliation: Qwen Team Alibaba Group, Email: N/A 
+- Name: Lei Zhang, Affiliation: Qwen Team Alibaba Group, Email: N/A
+- Name: Tianyu Liu, Affiliation: Qwen Team Alibaba Group, Email: N/A
+- Name: Jiajun Zhang, Affiliation: Qwen Team Alibaba Group, Email: N/A
+- Name: Bowen Yu, Affiliation: Qwen Team Alibaba Group, Email: N/A
+- Name: Keming Lu, Affiliation: Qwen Team Alibaba Group, Email: N/A
+- Name: Kai Dang, Affiliation: Qwen Team Alibaba Group, Email: N/A
+
+ - Name: Yang Fan, Affiliation: Qwen Team Alibaba Group, Email: N/A  
+ - Name: Yichang Zhang, Affiliation: Qwen Team Alibaba Group, Email: N/A 
+ - Name: An Yang, Affiliation: Qwen Team Alibaba Group, Email: N/A
+- Name: Rui Men, Affiliation: Qwen Team Alibaba Group, Email: N/A
+
+- Name: Fei Huang, Affiliation: Qwen Team Alibaba Group, Email: N/A
+- Name: Bo Zheng, Affiliation: Qwen Team Alibaba Group, Email: N/A
+- Name: Yibo Miao, Affiliation: Qwen Team Alibaba Group, Email: N/A 
+- Name: Xingzhang Ren, Affiliation: Qwen Team Alibaba Group, Email: N/A
+
+ - Name: Xuancheng Ren, Affiliation: Qwen Team Alibaba Group, Email: N/A
+ - Name: Jingren Zhou, Affiliation: Qwen Team Alibaba Group, Email: N/A
+ - Name: Junyang Lin, Affiliation: Qwen Team Alibaba Group, Email: N/A
+- Name: Shanghaoran Quan, Affiliation:  N/A , Email: N/A 
+
+- Name: Yunlong Feng, Affiliation: N/A , Email: N/A
+
+
+ - Name: Jiaxi Yang, Affiliation: Qwen Team Alibaba Group, Email: N/A

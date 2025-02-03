@@ -74,7 +74,7 @@ def main():
         if filename.endswith(".txt"):
     
             input_file = os.path.join(input_folder, filename)
-            model_name =  "llama3.3:latest" #"mistral:latest" phi4:latest	"gemma2:27b"	
+            model_name =  "llama3.3:latest" #"mistral:latest" phi4:latest	#"gemma2:27b"	
     
             result = handle_file(input_file, model_name)
             

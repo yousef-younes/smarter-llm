@@ -1,0 +1,14 @@
+**Expected Output:**
+
+Title: The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink 
+Authors:  
+- Name: David Patterson, Affiliation: Google, Email: N/A
+- Name: Joseph Gonzalez, Affiliation: Google, Email: N/A
+- Name: Urs Hölzle, Affiliation: Google, Email: N/A
+- Name: Quoc Le, Affiliation: Google, Email: N/A
+- Name: Chen Liang, Affiliation: Google, Email: N/A
+- Name: Lluis-Miquel Munguia, Affiliation: Google, Email: N/A
+- Name: Daniel Rothchild, Affiliation: Google, Email: N/A
+- Name: David So, Affiliation: Google, Email: N/A
+- Name: Maud Texier, Affiliation: Google, Email: N/A
+- Name: Jeff Dean, Affiliation: Google, Email: N/A 

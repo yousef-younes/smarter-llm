@@ -1,0 +1,29 @@
+**Expected Output:**
+Title: Code Llama: Open Foundation Models for Code 
+Authors:  
+- Name: Baptiste Rozière, Affiliation: Meta AI, Email: NA  
+- Name: Jonas Gehring, Affiliation: Meta AI, Email: NA  
+- Name: Fabian Gloeckle, Affiliation: Meta AI, Email: NA  
+- Name: Sten Sootla, Affiliation: Meta AI, Email: NA  
+- Name: Itai Gat, Affiliation: Meta AI, Email: NA 
+- Name: Xiaoqing Ellen Tan, Affiliation: Meta AI, Email: NA 
+- Name: Yossi Adi, Affiliation: Meta AI, Email: NA  
+- Name: Jingyu Liu, Affiliation: Meta AI, Email: NA
+- Name: Romain Sauvestre, Affiliation: Meta AI, Email: NA
+- Name: Tal Remez, Affiliation: Meta AI, Email: NA
+- Name: Jérémy Rapin, Affiliation: Meta AI, Email: NA 
+- Name: Artyom Kozhevnikov, Affiliation: Meta AI, Email: NA 
+- Name: Ivan Evtimov, Affiliation: Meta AI, Email: NA  
+- Name: Joanna Bitton, Affiliation: Meta AI, Email: NA 
+- Name: Manish Bhatt, Affiliation: Meta AI, Email: NA
+- Name: Cristian Canton Ferrer, Affiliation: Meta AI, Email: NA
+- Name: Aaron Grattafiori, Affiliation: Meta AI, Email: NA  
+- Name: Wenhan Xiong, Affiliation: Meta AI, Email: NA 
+- Name: Alexandre Défossez, Affiliation: Meta AI, Email: NA
+- Name: Jade Copet, Affiliation: Meta AI, Email: NA  
+- Name: Faisal Azhar, Affiliation: Meta AI, Email: NA 
+- Name: Hugo Touvron, Affiliation: Meta AI, Email: NA 
+- Name: Louis Martin, Affiliation: Meta AI, Email: NA  
+- Name: Nicolas Usunier, Affiliation: Meta AI, Email: NA
+- Name: Thomas Scialom, Affiliation: Meta AI, Email: NA
+- Name: Gabriel Synnaeve, Affiliation: Meta AI, Email: NA 

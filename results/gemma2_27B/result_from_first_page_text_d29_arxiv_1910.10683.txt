@@ -1,0 +1,15 @@
+**Title:** Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer 
+
+**Authors:**  
+ - Name: Colin Raffel, Affiliation: Google, Mountain View, CA 94043, USA, Email: craffel@gmail.com  
+ - Name: Noam Shazeer, Affiliation: Google, Mountain View, CA 94043, USA, Email: noam@google.com  
+ - Name: Adam Roberts, Affiliation: Google, Mountain View, CA 94043, USA, Email: adarob@google.com
+ - Name: Katherine Lee, Affiliation: Google, Mountain View, CA 94043, USA, Email: katherinelee@google.com
+- Name: Sharan Narang, Affiliation: Google, Mountain View, CA 94043, USA, Email: sharannarang@google.com
+ - Name: Michael Matena, Affiliation: Google, Mountain View, CA 94043, USA, Email: mmatena@google.com  
+ - Name: Yanqi Zhou, Affiliation: Google, Mountain View, CA 94043, USA, Email: yanqiz@google.com 
+ - Name: Wei Li, Affiliation: Google, Mountain View, CA 94043, USA, Email: mweili@google.com
+- Name: Peter J. Liu, Affiliation: Google, Mountain View, CA 94043, USA, Email: peterjliu@google.com  
+
+
+
