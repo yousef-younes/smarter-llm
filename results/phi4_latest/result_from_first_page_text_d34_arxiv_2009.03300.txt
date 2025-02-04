@@ -1,12 +1,51 @@
-**Expected Output:**
+Based on the provided context, there is no explicit title or author information available to extract. The context mainly discusses a new test for measuring text model multitask accuracy and references previous studies by different authors in the field of NLP benchmarks. Here's how we can structure this based on the given data:
 
-Title: MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Zellers et al., 2019",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Huang et al., 2019",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Bisk et al., 2019",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Khashabi et al., 2020",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Wang et al., 2018",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Wang et al., 2019",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Raffel et al., 2019",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
 
-Authors:  
-- Name: Dan Hendrycks, Affiliation: UC Berkeley, Email: NA  
-- Name: Collin Burns, Affiliation: Columbia University, Email: NA  
-- Name: Steven Basart, Affiliation: UChicago, Email: NA  
-- Name: Andy Zou, Affiliation: UC Berkeley, Email: NA  
-- Name: Mantas Mazeika, Affiliation: UIUC, Email: NA  
-- Name: Dawn Song, Affiliation: UC Berkeley, Email: NA  
-- Name: Jacob Steinhardt, Affiliation: UC Berkeley, Email: NA  
+### Explanation:
+- **Title**: There is no specific title mentioned in the context, so it's marked as "NA".
+- **Authors**: The authors are referenced by their last names and years of publication. Since there are no detailed affiliations or email addresses provided, these fields are filled with "NA".
+- **Affiliations and Emails**: Due to the lack of specific affiliation details and email addresses in the context, these are marked as "NA". 
+
+This structured JSON reflects the absence of explicit metadata about the paper's title and author details within the provided text.

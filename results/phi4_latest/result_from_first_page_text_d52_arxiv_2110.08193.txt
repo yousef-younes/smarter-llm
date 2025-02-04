@@ -1,15 +1,47 @@
-**Expected Output:**
-
-Title: BBQ: A Hand-Built Bias Benchmark for Question Answering
-
-Authors:  
-- Name: Alicia Parrish, Affiliations: New York University Dept. of Linguistics, Center for Data Science, Email: alicia.v.parrish@nyu.edu  
-- Name: Angelica Chen, Affiliation: New York University Center for Data Science, Email: NA  
-- Name: Nikita Nangia, Affiliation: New York University Center for Data Science, Email: NA  
-- Name: Vishakh Padmakumar, Affiliation: New York University Center for Data Science, Email: NA  
-- Name: Jason Phang, Affiliation: New York University Center for Data Science, Email: NA  
-- Name: Jana Thompson, Affiliation: New York University Center for Data Science, Email: NA  
-- Name: Phu Mon Htut, Affiliation: New York University Center for Data Science, Email: NA  
-- Name: Samuel R. Bowman, Affiliations: New York University Dept. of Linguistics, Center for Data Science, Dept. of Computer Science, Email: bowman@nyu.edu  
-
-Correspondence Emails: {alicia.v.parrish, bowman}@nyu.edu
+```json
+{
+  "title": "BBQ: A Hand-Built Bias Benchmark for Question Answering",
+  "authors": [
+    {
+      "name": "Alicia Parrish",
+      "affiliations": ["New York University Dept. of Linguistics", "New York University Center for Data Science"],
+      "email": "alicia.v.parrish@nyu.edu"
+    },
+    {
+      "name": "Angelica Chen",
+      "affiliations": ["New York University Center for Data Science"],
+      "email": "NA"
+    },
+    {
+      "name": "Nikita Nangia",
+      "affiliations": ["New York University Center for Data Science"],
+      "email": "NA"
+    },
+    {
+      "name": "Vishakh Padmakumar",
+      "affiliations": ["New York University Center for Data Science"],
+      "email": "NA"
+    },
+    {
+      "name": "Jason Phang",
+      "affiliations": ["New York University Center for Data Science"],
+      "email": "NA"
+    },
+    {
+      "name": "Jana Thompson",
+      "affiliations": ["New York University Center for Data Science"],
+      "email": "NA"
+    },
+    {
+      "name": "Phu Mon Htut",
+      "affiliations": ["New York University Center for Data Science"],
+      "email": "NA"
+    },
+    {
+      "name": "Samuel R. Bowman",
+      "affiliations": ["New York University Dept. of Linguistics", "New York University Center for Data Science", "New York University Dept. of Computer Science"],
+      "email": "bowman@nyu.edu"
+    }
+  ]
+}
+```

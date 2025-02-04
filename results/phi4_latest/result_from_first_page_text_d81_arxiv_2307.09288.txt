@@ -1,67 +1,265 @@
-**Title:** Llama 2: Open Foundation and Fine-Tuned Chat Models
+To extract the required metadata from the provided academic paper context, we need to identify and structure the title and author information. Here's how we can do it:
 
-**Authors:**  
-- Name: Hugo Touvron, Affiliation: Meta, Email: htouvron@meta.com  
-- Name: Louis Martin†, Affiliation: Meta, Email: NA  
-- Name: Kevin Stone†, Affiliation: Meta, Email: NA  
-- Name: Peter Albert Amjad Almahairi, Affiliation: Meta, Email: NA  
-- Name: Yasmine Babaei, Affiliation: Meta, Email: NA  
-- Name: Nikolay Bashlykov, Affiliation: Meta, Email: NA  
-- Name: Soumya Batra, Affiliation: Meta, Email: NA  
-- Name: Prajjwal Bhargava, Affiliation: Meta, Email: NA  
-- Name: Shruti Bhosale, Affiliation: Meta, Email: NA  
-- Name: Dan Bikel, Affiliation: Meta, Email: NA  
-- Name: Lukas Blecher, Affiliation: Meta, Email: NA  
-- Name: Cristian Canton Ferrer Moya, Affiliation: Meta, Email: NA  
-- Name: Chen Guilem Cucurull, Affiliation: Meta, Email: NA  
-- Name: David Esiobu, Affiliation: Meta, Email: NA  
-- Name: Jude Fernandes, Affiliation: Meta, Email: NA  
-- Name: Jeremy Fu, Affiliation: Meta, Email: NA  
-- Name: Wenyin Fu, Affiliation: Meta, Email: NA  
-- Name: Brian Fuller, Affiliation: Meta, Email: NA  
-- Name: Cynthia Gao, Affiliation: Meta, Email: NA  
-- Name: Vedanuj Goswami, Affiliation: Meta, Email: NA  
-- Name: Naman Goyal, Affiliation: Meta, Email: NA  
-- Name: Anthony Hartshorn, Affiliation: Meta, Email: NA  
-- Name: Saghar Hosseini, Affiliation: Meta, Email: NA  
-- Name: Rui Hou, Affiliation: Meta, Email: NA  
-- Name: Hakan Inan, Affiliation: Meta, Email: NA  
-- Name: Marcin Kardas, Affiliation: Meta, Email: NA  
-- Name: Viktor Kerkez, Affiliation: Meta, Email: NA  
-- Name: Madian Khabsa, Affiliation: Meta, Email: NA  
-- Name: Isabel Kloumann, Affiliation: Meta, Email: NA  
-- Name: Artem Korenev, Affiliation: Meta, Email: NA  
-- Name: Punit Singh Koura, Affiliation: Meta, Email: NA  
-- Name: Marie-Anne Lachaux, Affiliation: Meta, Email: NA  
-- Name: Thibaut Lavril, Affiliation: Meta, Email: NA  
-- Name: Jenya Lee, Affiliation: Meta, Email: NA  
-- Name: Diana Liskovich, Affiliation: Meta, Email: NA  
-- Name: Yinghai Lu, Affiliation: Meta, Email: NA  
-- Name: Yuning Mao, Affiliation: Meta, Email: NA  
-- Name: Xavier Martinet, Affiliation: Meta, Email: NA  
-- Name: Todor Mihaylov, Affiliation: Meta, Email: NA  
-- Name: Pushkar Mishra, Affiliation: Meta, Email: NA  
-- Name: Igor Molybog, Affiliation: Meta, Email: NA  
-- Name: Yixin Nie, Affiliation: Meta, Email: NA  
-- Name: Andrew Poulton, Affiliation: Meta, Email: NA  
-- Name: Jeremy Reizenstein, Affiliation: Meta, Email: NA  
-- Name: Rashi Rungta, Affiliation: Meta, Email: NA  
-- Name: Kalyan Saladi, Affiliation: Meta, Email: NA  
-- Name: Alan Schelten, Affiliation: Meta, Email: NA  
-- Name: Ruan Silva, Affiliation: Meta, Email: NA  
-- Name: Eric Michael Smith, Affiliation: Meta, Email: NA  
-- Name: Ranjan Subramanian, Affiliation: Meta, Email: NA  
-- Name: Xiaoqing Ellen Tan, Affiliation: Meta, Email: NA  
-- Name: Binh Tang, Affiliation: Meta, Email: NA  
-- Name: Ross Taylor, Affiliation: Meta, Email: NA  
-- Name: Adina Williams, Affiliation: Meta, Email: NA  
-- Name: Jian Xiang, Affiliation: Meta, Email: NA  
-- Name: Kuan Puxin Xu Zheng Yan Iliyan Zarov Yuchen Zhang, Affiliation: Meta, Email: NA  
-- Name: Angela Fan, Affiliation: Meta, Email: NA  
-- Name: Melanie Kambadur Sharan Narang, Affiliation: Meta, Email: NA  
-- Name: Aurelien Rodriguez, Affiliation: Meta, Email: NA  
-- Name: Robert Stojnic, Affiliation: Meta, Email: NA  
-- Name: Sergey Edunov, Affiliation: Meta, Email: NA  
-- Name: Thomas Scialom∗, Affiliation: Meta, Email: tscialom@meta.com
+### Step-by-Step Extraction
 
-(Note: Emails were provided only for Hugo Touvron and Thomas Scialom as indicated by the context.)
+1. **Title Extraction:**
+   - The title is clearly mentioned after "Abstract" in the text.
+   - Title: "Llama 2: Open Foundation and Fine-Tuned Chat Models"
+
+2. **Author Information Extraction:**
+   - Authors are listed with some additional details such as equal contribution, corresponding authors, and affiliations.
+   - We need to extract each author's name, their affiliations, and email addresses.
+
+3. **Affiliations and Emails:**
+   - The affiliation for all authors is "Meta".
+   - Corresponding authors' emails are provided at the end of the list: `{tscialom, htouvron}@meta.com`.
+
+4. **Handling Missing Information:**
+   - If an author's email is not listed as a corresponding author, it should be marked as "NA".
+
+### Structured JSON Output
+
+```json
+{
+  "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+  "authors": [
+    {
+      "name": "Hugo Touvron",
+      "affiliations": ["Meta"],
+      "email": "tscialom@meta.com"
+    },
+    {
+      "name": "Louis Martin",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Kevin Stone",
+      "affiliations": ["Meta"],
+      "email": "htouvron@meta.com"
+    },
+    {
+      "name": "Peter Albert Amjad Almahairi",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Yasmine Babaei",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Nikolay Bashlykov",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Soumya Batra",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Prajjwal Bhargava",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Shruti Bhosale",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Dan Bikel",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Lukas Blecher",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Cristian Canton Ferrer Moya Chen",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Guillem Cucurull",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "David Esiobu",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Jude Fernandes",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Jeremy Fu",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Wenyin Fu",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Brian Fuller",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Cynthia Gao",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Vedanuj Goswami",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Naman Goyal",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Anthony Hartshorn",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Saghar Hosseini",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Rui Hou",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Hakan Inan",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Marcin Kardas",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Viktor Kerkez",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Madian Khabsa",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Isabel Kloumann",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Artem Komarovskiy",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Artem Komarovskiy",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Artem Komarovskiy",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Madian Khabsa",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Isabel Kloumann",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Artem Komarovskiy",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Jeremy Fu",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Wenyin Fu",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Brian Fuller",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Cynthia Gao",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Vedanuj Goswami",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Naman Goyal",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Anthony Hartshorn",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Saghar Hosseini",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Rui Hou",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Hakan Inan",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Marcin Kardas",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Viktor Kerkez",
+      "affiliations": ["Meta"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+This JSON structure captures the title of the paper and lists each author with their affiliation and email if they are a corresponding author. If not, the email is marked as "NA".

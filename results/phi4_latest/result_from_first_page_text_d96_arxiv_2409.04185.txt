@@ -1,7 +1,34 @@
-**Title:** Residual Stream Analysis with Multi-Layer SAEs
+Based on the provided context, here is the extracted information in the requested JSON format:
 
-**Authors:**  
-- Name: Tim Lawson, Affiliation: School of Engineering Mathematics and Technology, University of Bristol, Email: NA  
-- Name: Lucy Farnik, Affiliation: School of Engineering Mathematics and Technology, University of Bristol, Email: NA  
-- Name: Conor Houghton, Affiliation: School of Engineering Mathematics and Technology, University of Bristol, Email: NA  
-- Name: Laurence Aitchison, Affiliation: School of Engineering Mathematics and Technology, University of Bristol, Email: NA  
+```json
+{
+  "title": "Residual Stream Analysis with Multi-Layer SAEs",
+  "authors": [
+    {
+      "name": "Tim Lawson",
+      "affiliations": ["School of Engineering Mathematics and Technology, University of Bristol, Bristol, UK"],
+      "email": "NA"
+    },
+    {
+      "name": "Lucy Farnik",
+      "affiliations": ["School of Engineering Mathematics and Technology, University of Bristol, Bristol, UK"],
+      "email": "NA"
+    },
+    {
+      "name": "Conor Houghton",
+      "affiliations": ["School of Engineering Mathematics and Technology, University of Bristol, Bristol, UK"],
+      "email": "NA"
+    },
+    {
+      "name": "Laurence Aitchison",
+      "affiliations": ["School of Engineering Mathematics and Technology, University of Bristol, Bristol, UK"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+### Explanation:
+- **Title**: The title was directly extracted from the text provided as it appears before the author list.
+- **Authors**: Each author's name is listed in the context. Their affiliations are inferred to be the same based on their listing together under a single institution, "School of Engineering Mathematics and Technology, University of Bristol, Bristol, UK."
+- **Emails**: Since no email addresses were provided in the context, they have been marked as "NA".

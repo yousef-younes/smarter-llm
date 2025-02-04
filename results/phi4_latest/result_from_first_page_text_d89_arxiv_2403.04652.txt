@@ -1,11 +1,36 @@
-Based on the provided context, there are no explicit mentions of a paper title or author information directly within the given text. The context does mention "Yi: Open Foundation Models by 01.AI," which could be interpreted as part of the title and author information. However, specific details such as names, affiliations, and emails are not provided.
+Based on the provided context, I'll attempt to extract the metadata for the title and author information as per your instructions. Here is the analysis:
 
-Therefore, using the format you've requested:
+### Title Extraction:
+The document provides a section labeled "Abstract" that introduces the Yi model family by 01.AI. This suggests that the paper's title is likely related to this subject.
 
-**Expected Output:**
-Title: Yi: Open Foundation Models  
-Authors:  
-- Name: NA, Affiliation: 01.AI, Email: NA  
-- Additional Authors: NA  
+**Extracted Title:**
+- "Yi: Open Foundation Models by 01.AI"
 
-Some information is marked as "NA" due to its absence in the context.
+### Author Information Extraction:
+From the context, we can identify one main entity associated with this work:
+
+1. **Name:** 
+   - 01.AI
+
+2. **Affiliations:** 
+   - The text does not provide specific affiliations for 01.AI.
+
+3. **Email address:**
+   - No email address is provided in the context.
+
+Given these observations, here's how we can structure the JSON output:
+
+```json
+{
+  "title": "Yi: Open Foundation Models by 01.AI",
+  "authors": [
+    {
+      "name": "01.AI",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+This structured format provides the extracted metadata based on the given context, adhering to your specified constraints and output requirements.

@@ -1,8 +1,0 @@
-**Expected Output:**
-
-Title: Bag of Tricks for Efficient Text Classification
-Authors: 
- - Name: Armand Joulin, Affiliation: Facebook AI Research, Email: ajoulin@fb.com
- - Name: Edouard Grave, Affiliation: Facebook AI Research, Email: erave@fb.com
- - Name: Piotr Bojanowski, Affiliation: Facebook AI Research, Email: bojanowski@fb.com 
- - Name: Tomas Mikolov, Affiliation: Facebook AI Research, Email: tmikolov@fb.com 

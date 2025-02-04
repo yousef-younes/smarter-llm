@@ -10,6 +10,8 @@ from langchain_community.embeddings import OllamaEmbeddings
 from langchain_community.vectorstores import FAISS
 import os
 
+import time
+
 
 query="""
         Extract the title and author information of this paper and produce the result in the following format
@@ -25,8 +27,8 @@ query="""
         """
 
 
-input_folder = "../data/extracted_texts"
-output_folder = "../results/llama3_3_latest" #"mistral_latest" #"../results/llama3_3_latest" 
+input_folder = "../data/arixv/extracted_texts"
+output_folder = "../results/phi4_latest" #"mistral_latest" #"../results/llama3_3_latest" 
 
 os.makedirs(output_folder, exist_ok=True)
 
@@ -70,18 +72,34 @@ def handle_file(input_file,model_name):
     
 
 def main():
+
+    processing_time = 0
+    counter = 0
+    
     for filename in os.listdir(input_folder):
         if filename.endswith(".txt"):
     
             input_file = os.path.join(input_folder, filename)
-            model_name =  "llama3.3:latest" #"mistral:latest" phi4:latest	#"gemma2:27b"	
+            model_name =  "phi4:latest" #"llama3.3:latest" #"mistral:latest"	#"gemma2:27b"	
     
+
+            start_time = time.time()
             result = handle_file(input_file, model_name)
+            end_time = time.time()
+            
+            elapsed_time = end_time - start_time
+
+            processing_time += elapsed_time
+            counter +=1
+
+            
             
             output_path = os.path.join(output_folder, f"result_from_{filename}")
             with open(output_path, "w", encoding="utf-8") as output_file:
                 output_file.write(result)
             print(f"Results saved to: {output_path}")
 
+    print(f"Average Processing time for a file: {processing_time/counter} seconds")
+    
 main()
 print("completed.")

@@ -1,6 +1,0 @@
- Title: Goldfish: Monolingual Language Models for 350 Languages
-   Authors:
-   - Name: Tyler A. Chang, Affiliation: Department of Cognitive Science, University of California San Diego, Email: tachang@ucsd.edu
-   - Name: Catherine Arnett, Affiliation: Department of Linguistics, University of California San Diego, Email: NA (Email is not provided)
-   - Name: Zhuowen Tu, Affiliation: Department of Cognitive Science, University of California San Diego, Email: ztu@ucsd.edu
-   - Name: Benjamin K. Bergen, Affiliation: Department of Cognitive Science, University of California San Diego, Email: bkbergen@ucsd.edu

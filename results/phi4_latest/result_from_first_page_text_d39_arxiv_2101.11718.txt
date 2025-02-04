@@ -1,14 +1,65 @@
-**Expected Output:**
+To extract the required metadata from the provided academic paper context, we will identify and structure the information according to the specified format. Here's a breakdown of how to achieve this:
 
-Title: BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation
+### Extracting Information
 
-Authors:  
-- Name: Jwala Dhamala, Affiliation: Amazon Alexa AI-NU, USA, Email: NA  
-- Name: Satyapriya Krishna, Affiliation: Amazon Alexa AI-NU, USA, Email: NA  
-- Name: Tony Sun, Affiliation: UC Santa Barbara, USA, Email: NA  
-- Name: Yada Pruksachatkun, Affiliation: Amazon Alexa AI-NU, USA, Email: NA  
-- Name: Rahul Gupta, Affiliation: Amazon Alexa AI-NU, USA, Email: NA  
-- Name: Varun Kumar, Affiliation: Amazon Alexa AI-NU, USA, Email: NA  
-- Name: Kai-Wei Chang, Affiliation: Amazon Alexa AI-NU, UCLA, USA, Email: NA  
+1. **Title Extraction:**
+   - The title is explicitly mentioned as "BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation."
 
-Note: The context does not provide specific email addresses or a single author with an "equal contribution" note as separate entries. The provided information is based on the affiliations and names mentioned in the context.
+2. **Author Information Extraction:**
+     - Each author's name, affiliations, and email address (if available) need to be extracted.
+   - Affiliations are provided after each author's name with some authors having multiple affiliations.
+
+3. **Affiliation Mapping:**
+   - Affiliations are listed alongside the authors, often shared among multiple authors.
+
+4. **Email Address:**
+   - The context does not provide email addresses for any of the authors, so we will use "NA" for each author's email.
+
+### Structured JSON Output
+
+Here is how the extracted information can be structured into a JSON format:
+
+```json
+{
+  "title": "BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation",
+  "authors": [
+    {
+      "name": "Jwala Dhamala",
+      "affiliations": ["Amazon Alexa AI-NU", "USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Satyapriya Krishna",
+      "affiliations": ["Amazon Alexa AI-NU", "USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tony Sun",
+      "affiliations": ["UC Santa Barbara", "USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yada Pruksachatkun",
+      "affiliations": ["Amazon Alexa AI-NU", "USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Rahul Gupta",
+      "affiliations": ["Amazon Alexa AI-NU", "USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Varun Kumar",
+      "affiliations": ["Amazon Alexa AI-NU", "USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Kai-Wei Chang",
+      "affiliations": ["Amazon Alexa AI-NU", "UCLA", "USA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+This JSON structure captures the title and detailed author information, adhering to the constraints provided. Each author is associated with their respective affiliations, and missing email addresses are noted as "NA."

@@ -1,17 +1,130 @@
-**Expected Output:**
+To extract metadata from the provided academic context, we need to identify key elements like the title of the paper and author details such as names, affiliations, and email addresses. Let's break it down:
 
-Title: THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS
+### Title Extraction
 
-Authors:  
-- Name: Thibault Sellam, Affiliation: Google Research, Email: tsellam@google.com  
-- Name: Steve Yadlowsky, Affiliation: Google Research, Email: yadlowsky@google.com  
-- Name: Ian Tenney, Affiliation: Google Research, Email: iftenney@google.com  
-- Name: Jason Wei, Affiliation: NA, Email: NA  
-- Name: Naomi Saphra, Affiliation: NA, Email: NA  
-- Name: Alexander D’Amour, Affiliation: NA, Email: NA  
-- Name: Tal Linzen, Affiliation: NA, Email: NA  
-- Name: Jasmijn Bastings, Affiliation: NA, Email: NA  
-- Name: Iulia Turc, Affiliation: NA, Email: NA  
-- Name: Jacob Eisenstein, Affiliation: NA, Email: NA  
-- Name: Dipanjan Das, Affiliation: NA, Email: NA  
-- Name: Ellie Pavlick, Affiliation: Google Research, Email: epavlick@google.com  
+The title is clearly identified in the context:
+- **Title**: "THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS"
+
+### Author Information Extraction
+
+From the provided context, we can identify multiple authors along with their email addresses and affiliations. Here's a structured breakdown:
+
+1. **Thibault Sellam**
+   - Email: `tsellam@google.com`
+   - Affiliation: Google Research
+
+2. **Steve Yadlowsky**
+   - Email: `yadlowsky@google.com`
+   - Affiliation: Google Research
+
+3. **Ian Tenney**
+   - Email: `itenney@google.com`
+   - Affiliation: Google Research
+
+4. **Jason Wei**
+   - Email: NA (not provided)
+   - Affiliation: Google Research
+
+5. **Naomi Saphra**
+   - Email: NA (not provided)
+   - Affiliation: Google Research
+
+6. **Alexander D’Amour**
+   - Email: NA (not provided)
+   - Affiliation: Google Research
+
+7. **Tal Linzen**
+   - Email: NA (not provided)
+   - Affiliation: Google Research
+
+8. **Jasmijn Bastings**
+   - Email: NA (not provided)
+   - Affiliation: Google Research
+
+9. **Iulia Turc**
+   - Email: NA (not provided)
+   - Affiliation: Google Research
+
+10. **Jacob Eisenstein**
+    - Email: NA (not provided)
+    - Affiliation: Google Research
+
+11. **Dipanjan Das**
+    - Email: NA (not provided)
+    - Affiliation: Google Research
+
+12. **Ellie Pavlick**
+    - Email: `epavlick@google.com`
+    - Affiliation: Google Research
+
+### JSON Structured Output
+
+```json
+{
+  "title": "THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS",
+  "authors": [
+    {
+      "name": "Thibault Sellam",
+      "affiliations": ["Google Research"],
+      "email": "tsellam@google.com"
+    },
+    {
+      "name": "Steve Yadlowsky",
+      "affiliations": ["Google Research"],
+      "email": "yadlowsky@google.com"
+    },
+    {
+      "name": "Ian Tenney",
+      "affiliations": ["Google Research"],
+      "email": "itenney@google.com"
+    },
+    {
+      "name": "Jason Wei",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Naomi Saphra",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexander D’Amour",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Tal Linzen",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Jasmijn Bastings",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Iulia Turc",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Jacob Eisenstein",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Dipanjan Das",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Ellie Pavlick",
+      "affiliations": ["Google Research"],
+      "email": "epavlick@google.com"
+    }
+  ]
+}
+```
+
+This JSON output includes the title of the paper and a structured list of authors with their respective details. If any information is missing, it is replaced with "NA".

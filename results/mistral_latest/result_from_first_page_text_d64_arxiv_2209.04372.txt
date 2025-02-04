@@ -1,6 +1,0 @@
- Title: A Pre-training Approach for Vision and Language Transformer Models (The title from the context provided is not explicitly stated, but it can be inferred as "A Pre-training Approach for Vision and Language Transformer Models" based on the first sentence)
-
-Authors:
-- Name: AJ Piergiovanni, Affiliation: Google Research, Email: N/A (as no email is provided for this author)
-- Name: Weicheng Kuo, Affiliation: Google Research, Email: N/A (as no email is provided for this author)
-- Name: Anelia Angelova, Affiliation: Google Research, Email: N/A (as no email is provided for this author)

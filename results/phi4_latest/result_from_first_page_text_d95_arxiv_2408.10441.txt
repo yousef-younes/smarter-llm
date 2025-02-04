@@ -1,9 +1,31 @@
-**Expected Output:**
+Based on the provided context, here is the extracted metadata in JSON format:
 
-Title: Goldfish: Monolingual Language Models for 350 Languages
+```json
+{
+  "title": "Goldfish: Monolingual Language Models for 350 Languages",
+  "authors": [
+    {
+      "name": "Tyler A. Chang",
+      "affiliations": ["Department of Cognitive Science", "Halıcıoğlu Data Science Institute"],
+      "email": "tachang@ucsd.edu"
+    },
+    {
+      "name": "Catherine Arnett",
+      "affiliations": ["Department of Linguistics"],
+      "email": "ccarnett@ucsd.edu"
+    },
+    {
+      "name": "Zhuowen Tu",
+      "affiliations": ["Department of Cognitive Science"],
+      "email": "ztu@ucsd.edu"
+    },
+    {
+      "name": "Benjamin K. Bergen",
+      "affiliations": ["Department of Cognitive Science"],
+      "email": "bkbergen@ucsd.edu"
+    }
+  ]
+}
+```
 
-Authors:
-- Name: Tyler A. Chang, Affiliation: Department of Cognitive Science, Halıcıoğlu Data Science Institute, University of California San Diego, Email: tachang@ucsd.edu
-- Name: Catherine Arnett, Affiliation: Department of Linguistics, University of California San Diego, Email: ccarnett@ucsd.edu
-- Name: Zhuowen Tu, Affiliation: Department of Cognitive Science, Halıcıoğlu Data Science Institute, University of California San Diego, Email: ztu@ucsd.edu
-- Name: Benjamin K. Bergen, Affiliation: Department of Cognitive Science, Halıcıoğlu Data Science Institute, University of California San Diego, Email: bkbergen@ucsd.edu
+This JSON output includes the title of the paper and detailed information about each author, including their name, affiliations, and email addresses as provided in the context. If any piece of information was missing or not found, it would have been represented as "NA". However, all necessary details were available here.

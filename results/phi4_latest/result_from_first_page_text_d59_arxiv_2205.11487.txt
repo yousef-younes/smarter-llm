@@ -1,19 +1,77 @@
-**Title:** Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding
-
-**Authors:**  
-- Name: Chitwan Saharia, Affiliation: Google Research, Brain Team, Email: sahariac@google.com  
-- Name: William Chan, Affiliation: Google Research, Brain Team, Email: williamchan@google.com  
-- Name: Saurabh Saxena, Affiliation: NA, Email: NA  
-- Name: Lala Li, Affiliation: NA, Email: lala@google.com  
-- Name: Jay Whang, Affiliation: NA, Email: jwhang@google.com  
-- Name: Emily Denton, Affiliation: NA, Email: NA  
-- Name: Seyed Kamyar Seyed Ghasemipour, Affiliation: NA, Email: NA  
-- Name: Burcu Karagol Ayan, Affiliation: NA, Email: NA  
-- Name: S. Sara Mahdavi, Affiliation: NA, Email: NA  
-- Name: Rapha Gontijo Lopes, Affiliation: NA, Email: NA  
-- Name: Tim Salimans, Affiliation: NA, Email: NA  
-- Name: Jonathan Ho, Affiliation: Google Research, Brain Team, Email: jonathanho@google.com  
-- Name: David J Fleet, Affiliation: Google Research, Brain Team, Email: davidfleet@google.com  
-- Name: Mohammad Norouzi, Affiliation: Google Research, Brain Team, Email: mnorouzi@google.com  
-
-If some info is not available, write NA.
+```json
+{
+  "title": "Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding",
+  "authors": [
+    {
+      "name": "Chitwan Saharia",
+      "affiliations": ["Google Research, Brain Team", "Toronto, Ontario, Canada"],
+      "email": "sahariac@google.com"
+    },
+    {
+      "name": "William Chan",
+      "affiliations": ["Google Research, Brain Team", "Toronto, Ontario, Canada"],
+      "email": "williamchan@google.com"
+    },
+    {
+      "name": "Saurabh Saxena",
+      "affiliations": ["Google Research, Brain Team", "Toronto, Ontario, Canada"],
+      "email": "NA"
+    },
+    {
+      "name": "Lala Li",
+      "affiliations": ["Google Research, Brain Team", "Toronto, Ontario, Canada"],
+      "email": "lala@google.com"
+    },
+    {
+      "name": "Jay Whang",
+      "affiliations": ["Google Research, Brain Team", "Toronto, Ontario, Canada"],
+      "email": "jwhang@google.com"
+    },
+    {
+      "name": "Emily Denton",
+      "affiliations": ["Google Research, Brain Team", "Toronto, Ontario, Canada"],
+      "email": "NA"
+    },
+    {
+      "name": "Seyed Kamyar Seyed Ghasemipour",
+      "affiliations": ["Google Research, Brain Team", "Toronto, Ontario, Canada"],
+      "email": "NA"
+    },
+    {
+      "name": "Burcu Karagol Ayan",
+      "affiliations": ["Google Research, Brain Team", "Toronto, Ontario, Canada"],
+      "email": "NA"
+    },
+    {
+      "name": "S. Sara Mahdavi",
+      "affiliations": ["Google Research, Brain Team", "Toronto, Ontario, Canada"],
+      "email": "NA"
+    },
+    {
+      "name": "Rapha Gontijo Lopes",
+      "affiliations": ["Google Research, Brain Team", "Toronto, Ontario, Canada"],
+      "email": "NA"
+    },
+    {
+      "name": "Tim Salimans",
+      "affiliations": ["Google Research, Brain Team", "Toronto, Ontario, Canada"],
+      "email": "NA"
+    },
+    {
+      "name": "Jonathan Ho",
+      "affiliations": ["Google Research, Brain Team", "Toronto, Ontario, Canada"],
+      "email": "jonathanho@google.com"
+    },
+    {
+      "name": "David J Fleet",
+      "affiliations": ["Google Research, Brain Team", "Toronto, Ontario, Canada"],
+      "email": "davidfleet@google.com"
+    },
+    {
+      "name": "Mohammad Norouzi",
+      "affiliations": ["Google Research, Brain Team", "Toronto, Ontario, Canada"],
+      "email": "mnorouzi@google.com"
+    }
+  ]
+}
+```

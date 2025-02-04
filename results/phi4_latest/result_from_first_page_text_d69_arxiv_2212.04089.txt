@@ -1,12 +1,46 @@
-**Expected Output:**
+Based on the provided context from the academic paper, here is the extracted metadata in JSON format:
 
-Title: EDITING MODELS WITH TASK ARITHMETIC
+```json
+{
+  "title": "EDITING MODELS WITH TASK ARITHMETIC",
+  "authors": [
+    {
+      "name": "Gabriel Ilharco",
+      "affiliations": ["University of Washington", "Allen Institute for AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Marco Tulio Ribeiro",
+      "affiliations": ["Microsoft Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Mitchell Wortsman",
+      "affiliations": ["University of Washington", "Allen Institute for AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Suchin Gururangan",
+      "affiliations": ["University of Washington", "Allen Institute for AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Ludwig Schmidt",
+      "affiliations": ["University of Washington", "Allen Institute for AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Hannaneh Hajishirzi",
+      "affiliations": ["University of Washington", "Allen Institute for AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Ali Farhadi",
+      "affiliations": ["University of Washington"],
+      "email": "NA"
+    }
+  ]
+}
+```
 
-Authors:  
-- Name: Gabriel Ilharco, Affiliation: University of Washington, Email: NA  
-- Name: Marco Tulio Ribeiro, Affiliation: Microsoft Research, Email: NA  
-- Name: Mitchell Wortsman, Affiliation: University of Washington, Email: NA  
-- Name: Suchin Gururangan, Affiliation: University of Washington, Email: NA  
-- Name: Ludwig Schmidt, Affiliation: University of Washington, Allen Institute for AI, Email: NA  
-- Name: Hannaneh Hajishirzi, Affiliation: University of Washington, Allen Institute for AI, Email: NA  
-- Name: Ali Farhadi, Affiliation: University of Washington, Email: NA
+This structured information includes the title and details about each author, including their names, affiliations, and email addresses (which are marked as "NA" since they were not provided in the context).

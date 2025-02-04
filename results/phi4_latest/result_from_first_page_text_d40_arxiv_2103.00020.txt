@@ -1,17 +1,71 @@
-**Title:** Learning Transferable Visual Models From Natural Language Supervision
+Based on the provided context, here's the extracted information in the required JSON format:
 
-**Authors:**
-- Name: Alec Radford, Affiliation: NA, Email: NA
-- Name: Jong Wook Kim, Affiliation: NA, Email: NA
-- Name: Chris Hallacy, Affiliation: NA, Email: NA
-- Name: Aditya Ramesh, Affiliation: NA, Email: NA
-- Name: Gabriel Goh, Affiliation: NA, Email: NA
-- Name: Sandhini Agarwal, Affiliation: NA, Email: NA
-- Name: Girish Sastry, Affiliation: NA, Email: NA
-- Name: Amanda Askell, Affiliation: NA, Email: NA
-- Name: Pamela Mishkin, Affiliation: NA, Email: NA
-- Name: Jack Clark, Affiliation: NA, Email: NA
-- Name: Gretchen Krueger, Affiliation: NA, Email: NA
-- Name: Ilya Sutskever, Affiliation: NA, Email: NA
+```json
+{
+  "title": "Learning Transferable Visual Models From Natural Language Supervision",
+  "authors": [
+    {
+      "name": "Alec Radford",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Jong Wook Kim",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Chris Hallacy",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Aditya Ramesh",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Gabriel Goh",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Sandhini Agarwal",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Girish Sastry",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Amanda Askell",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Pamela Mishkin",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Jack Clark",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Gretchen Krueger",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Ilya Sutskever",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    }
+  ]
+}
+```
 
-*Note: The context provided does not include affiliations or email addresses for the authors.*
+This JSON structure includes the title of the paper and a list of authors, each with their name, affiliation(s), and email address. Since no specific email addresses or additional affiliations are provided in the context, those fields are marked as "NA". All authors are associated with OpenAI based on the footnote in the context.

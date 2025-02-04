@@ -1,15 +1,52 @@
-**Expected Output:**  
-Title: AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models
-
-Authors:  
-- Name: Wanjun Zhong, Affiliation: Microsoft, Email: t-wzhong@microsoft.com  
-- Name: Ruixiang Cui, Affiliation: Microsoft, Email: v-ruicui@microsoft.com  
-- Name: Yiduo Guo, Affiliation: NA, Email: N/A  
-- Name: Yaobo Liang, Affiliation: NA, Email: yaobo.liang@microsoft.com  
-- Name: Shuai Lu, Affiliation: NA, Email: shuailu@microsoft.com  
-- Name: Yanlin Wang, Affiliation: NA, Email: yanlwang@microsoft.com  
-- Name: Amin Saied, Affiliation: NA, Email: Amin.Saied@microsoft.com  
-- Name: Weizhu Chen, Affiliation: NA, Email: wzchen@microsoft.com  
-- Name: Nan Duan, Affiliation: NA, Email: nanduan@microsoft.com  
-
-(Note: Emails are provided where available; affiliations other than Microsoft are marked as NA since they were not specified in the context.)
+```json
+{
+  "title": "AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models",
+  "authors": [
+    {
+      "name": "Wanjun Zhong",
+      "affiliations": ["Microsoft"],
+      "email": "t-wzhong@microsoft.com"
+    },
+    {
+      "name": "Ruixiang Cui",
+      "affiliations": ["Microsoft"],
+      "email": "v-ruicui@microsoft.com"
+    },
+    {
+      "name": "Yiduo Guo",
+      "affiliations": ["Microsoft"],
+      "email": "NA"
+    },
+    {
+      "name": "Yaobo Liang",
+      "affiliations": ["Microsoft"],
+      "email": "yaobo.liang@microsoft.com"
+    },
+    {
+      "name": "Shuai Lu",
+      "affiliations": ["Microsoft"],
+      "email": "shuailu@microsoft.com"
+    },
+    {
+      "name": "Yanlin Wang",
+      "affiliations": ["Microsoft"],
+      "email": "yanlwang@microsoft.com"
+    },
+    {
+      "name": "Amin Saied",
+      "affiliations": ["Microsoft"],
+      "email": "Amin.Saied@microsoft.com"
+    },
+    {
+      "name": "Weizhu Chen",
+      "affiliations": ["Microsoft"],
+      "email": "wzchen@microsoft.com"
+    },
+    {
+      "name": "Nan Duan",
+      "affiliations": ["Microsoft"],
+      "email": "nanduan@microsoft.com"
+    }
+  ]
+}
+```

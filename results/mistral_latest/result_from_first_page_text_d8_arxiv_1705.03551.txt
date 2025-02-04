@@ -1,7 +1,0 @@
- Title: TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension
-
-   Authors:
-   - Name: Mandar Joshi, Affiliation: Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA, Email: mandar90@cs.washington.edu
-   - Name: Eunsol Choi, Affiliation: Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA, Email: eunsol@cs.washington.edu
-   - Name: Daniel S. Weld, Affiliation: Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA, Email: weld@cs.washington.edu
-   - Name: Luke Zettlemoyer, Affiliation: Allen Institute for Artiﬁcial Intelligence, Seattle, WA, Email: lukez@allenai.org

@@ -1,11 +1,43 @@
-**Title:** Robust Speech Recognition via Large-Scale Weak Supervision
+Based on the provided context from the academic paper, here's the extracted metadata in JSON format:
 
-**Authors:**  
-- Name: Alec Radford, Affiliation: NA, Email: NA  
-- Name: Jong Wook Kim, Affiliation: NA, Email: NA  
-- Name: Tao Xu, Affiliation: NA, Email: NA  
-- Name: Greg Brockman, Affiliation: NA, Email: NA  
-- Name: Christine McLeavey, Affiliation: NA, Email: NA  
-- Name: Ilya Sutskever, Affiliation: NA, Email: NA  
+```json
+{
+  "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+  "authors": [
+    {
+      "name": "Alec Radford",
+      "affiliations": ["1"],
+      "email": "NA"
+    },
+    {
+      "name": "Jong Wook Kim",
+      "affiliations": ["1"],
+      "email": "NA"
+    },
+    {
+      "name": "Tao Xu",
+      "affiliations": ["1"],
+      "email": "NA"
+    },
+    {
+      "name": "Greg Brockman",
+      "affiliations": ["1"],
+      "email": "NA"
+    },
+    {
+      "name": "Christine McLeavey",
+      "affiliations": ["1"],
+      "email": "NA"
+    },
+    {
+      "name": "Ilya Sutskever",
+      "affiliations": ["1"],
+      "email": "NA"
+    }
+  ]
+}
+```
 
-If more specific affiliations or contact information were needed but are not available in the context, they should be marked as NA.
+### Explanation:
+- **Title**: Extracted from the context as "Robust Speech Recognition via Large-Scale Weak Supervision".
+- **Authors**: Listed in order, with each having a single affiliation denoted by "1". No email addresses are provided in the context, so they are marked as "NA".

@@ -1,8 +1,43 @@
-**Title:** Less is More: Parameter-Efficient Selection of Intermediate Tasks for Transfer Learning
+Based on the provided context from the abstract of a research paper, we can extract the following information:
 
-**Authors:**
-- Name: David Schulte, Affiliation: Humboldt University of Berlin, Email: davidsiriusschulte@gmail.com
-- Name: Felix Hamborg, Affiliation: Humboldt University of Berlin, Email: felix.hamborg@hu-berlin.de
-- Name: Alan Akbik, Affiliation: Humboldt University of Berlin, Email: alan.akbik@hu-berlin.de
+### Extracted Information
 
-if some info is not available write NA
+- **Title**: "Less is More: Parameter-Efficient Selection of Intermediate Tasks for Transfer Learning"
+
+- **Authors**:
+  - **David Schulte**
+    - Affiliations: Humboldt University of Berlin
+    - Email: davidsiriusschulte@gmail.com
+  - **Felix Hamborg**
+    - Affiliations: Humboldt University of Berlin
+    - Email: NA (not provided)
+  - **Alan Akbik**
+    - Affiliations: Humboldt University of Berlin
+    - Email: NA (not provided)
+
+### JSON Output
+
+```json
+{
+  "title": "Less is More: Parameter-Efficient Selection of Intermediate Tasks for Transfer Learning",
+  "authors": [
+    {
+      "name": "David Schulte",
+      "affiliations": ["Humboldt University of Berlin"],
+      "email": "davidsiriusschulte@gmail.com"
+    },
+    {
+      "name": "Felix Hamborg",
+      "affiliations": ["Humboldt University of Berlin"],
+      "email": "NA"
+    },
+    {
+      "name": "Alan Akbik",
+      "affiliations": ["Humboldt University of Berlin"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+This structured JSON output includes all available information from the abstract, with placeholders for missing data as specified.

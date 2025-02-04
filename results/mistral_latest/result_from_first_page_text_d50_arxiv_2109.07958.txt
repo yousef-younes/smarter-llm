@@ -1,5 +1,0 @@
- Title: A Benchmark for Measuring Truthfulness in Language Models
-   Authors:
-   - Name: Stephanie Lin, Affiliation: University of Oxford, Email: sylin07@gmail.com
-   - Name: Jacob Hilton, Affiliation: OpenAI, Email: jhilton@openai.com
-   - Name: Owain Evans, Affiliation: University of Oxford, Email: owaine@gmail.com

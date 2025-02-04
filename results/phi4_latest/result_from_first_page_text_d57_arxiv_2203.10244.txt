@@ -1,9 +1,50 @@
-**Expected Output:**  
-Title: ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning
+To extract the metadata from the provided academic paper context, we will follow these steps:
 
-Authors:  
-- Name: Ahmed Masry, Affiliation: York University, Canada, Email: masry20@yorku.ca  
-- Name: Do Xuan Long, Affiliation: Nanyang Technological University, Singapore; Salesforce Research, Email: xuanlong001@e.ntu  
-- Name: Jia Qing Tan, Affiliation: Nanyang Technological University, Singapore; Salesforce Research, Email: C190022@e.ntu  
-- Name: Shaﬁq Joty, Affiliation: Nanyang Technological University, Singapore; Salesforce Research, Email: srjoty@ntu  
-- Name: Enamul Hoque, Affiliation: York University, Canada; Salesforce Research, Email: enamulh@yorku.ca
+1. Identify the title of the paper.
+2. Extract each author's name, affiliations, and email address.
+
+Here is the extracted information in JSON format:
+
+```json
+{
+  "title": "ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning",
+  "authors": [
+    {
+      "name": "Ahmed Masry",
+      "affiliations": ["York University, Canada", "Salesforce Research"],
+      "email": "masry20@yorku.ca"
+    },
+    {
+      "name": "Do Xuan Long",
+      "affiliations": ["Nanyang Technological University, Singapore", "Salesforce Research"],
+      "email": "xuanlong001@e.ntu.edu.sg"
+    },
+    {
+      "name": "Jia Qing Tan",
+      "affiliations": ["Nanyang Technological University, Singapore", "Salesforce Research"],
+      "email": "C190022@e.ntu.edu.sg"
+    },
+    {
+      "name": "Shaﬁq Joty",
+      "affiliations": ["Nanyang Technological University, Singapore", "Salesforce Research"],
+      "email": "srjoty@ntu.edu.sg"
+    },
+    {
+      "name": "Enamul Hoque",
+      "affiliations": ["York University, Canada", "Salesforce Research"],
+      "email": "enamulh@yorku.ca"
+    }
+  ]
+}
+```
+
+### Explanation:
+
+- **Title**: Extracted from the first line of text following the author list.
+- **Authors**: Each author's name is listed before their affiliation symbols (♣, ♠, etc.).
+- **Affiliations**: 
+  - "York University, Canada" and "Salesforce Research" are associated with Ahmed Masry and Enamul Hoque due to their shared email domain.
+  - "Nanyang Technological University, Singapore" and "Salesforce Research" are linked to Do Xuan Long, Jia Qing Tan, and Shaﬁq Joty based on the provided symbols and email domains.
+- **Emails**: Extracted from the text where they appear next to author names. If an author does not have an explicit email listed, it would be "NA", but in this case, all authors have emails provided.
+
+This structured JSON output captures the essential metadata for comparison with any ground truth data.

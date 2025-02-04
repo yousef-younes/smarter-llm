@@ -1,9 +1,0 @@
-Based on the provided context, here is the extracted title and author information:
-
-**Expected Output:**
-Title: COMMONSENSEQA: A Question Answering Challenge Targeting Commonsense Knowledge
-Authors:  
-- Name: Alon Talmor, Affiliation: Tel-Aviv University, Email: alontalmor@mail tau.ac.il 
-- Name: Jonathan Herzig, Affiliation: Tel-Aviv University, Email: jonathan.herzig@cs tau.ac.il 
-- Name: Nicholas Lourie, Affiliation: Allen Institute for Artiﬁcial Intelligence, Email: nicholasl@allenai.org 
-- Name: Jonathan Berant, Affiliation: Tel-Aviv University, Email: joberant@cs tau.ac.il

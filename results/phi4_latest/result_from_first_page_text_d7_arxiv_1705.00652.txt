@@ -1,14 +1,92 @@
-**Expected Output:**
+To extract metadata from the provided academic paper context, we need to identify specific pieces of information: the title, authors' names, affiliations, and email addresses. We'll follow these steps to ensure accurate extraction:
 
-Title: Efficient Natural Language Response Suggestion for Smart Reply
+1. **Title Extraction**: The title is often found at the beginning or end of a paper, typically marked by formatting that separates it from other text. In this case, the title appears before the author list.
 
-Authors:
-- Name: Matthew Henderson, Affiliation: Google, Email: matthen@google.com
-- Name: Ramia Al-Rfou, Affiliation: Google, Email: rmyeid@google.com
-- Name: Brian Strope, Affiliation: Google, Email: bps@google.com
-- Name: Yun-Hsuan Sung, Affiliation: Google, Email: NA
-- Name: László Lukács, Affiliation: Google, Email: NA
-- Name: Ruiqi Guo, Affiliation: Google, Email: NA
-- Name: Sanjiv Kumar, Affiliation: Google, Email: NA
-- Name: Balint Miklos, Affiliation: Google, Email: NA
-- Name: Ray Kurzweil, Affiliation: Google, Email: NA
+2. **Author Information Extraction**:
+   - **Names**: Authors are usually listed in a sequence after the title.
+   - **Affiliations**: These may follow the authors' names or be associated with specific authors using superscript numbers or similar markers.
+   - **Email Addresses**: Typically provided at the end of the author list, often marked by "Corresponding authors:".
+
+3. **Handling Missing Information**: If any information is not present in the context, we will use "NA" as a placeholder.
+
+### Extracted Metadata
+
+#### Title
+The title is clearly stated at the beginning:  
+- **Title**: "Efficient Natural Language Response Suggestion for Smart Reply"
+
+#### Authors and Their Details
+From the context:
+
+- **Authors List**:
+  - MATTHEW HENDERSON
+  - RAMI AL-RFEOU
+  - BRIAN STROPE
+  - YUN-HSUAN SUNG
+  - LÁSZLÓ LUKÁCS
+  - RUIQI GUO
+  - SANJIV KUMAR
+  - BALINT MIKLOS
+  - RAY KURZWEIL
+
+- **Affiliations**: All authors are associated with Google.
+
+- **Email Addresses**:
+  - Corresponding authors: matthen, rmyeid, bps (all at @google.com)
+
+Given this information, we can construct the JSON output:
+
+```json
+{
+  "title": "Efficient Natural Language Response Suggestion for Smart Reply",
+  "authors": [
+    {
+      "name": "MATTHEW HENDERSON",
+      "affiliations": ["Google"],
+      "email": "matthen@google.com"
+    },
+    {
+      "name": "RAMI AL-RFEOU",
+      "affiliations": ["Google"],
+      "email": "rmyeid@google.com"
+    },
+    {
+      "name": "BRIAN STROPE",
+      "affiliations": ["Google"],
+      "email": "bps@google.com"
+    },
+    {
+      "name": "YUN-HSUAN SUNG",
+      "affiliations": ["Google"],
+      "email": "NA"
+    },
+    {
+      "name": "LÁSZLÓ LUKÁCS",
+      "affiliations": ["Google"],
+      "email": "NA"
+    },
+    {
+      "name": "RUIQI GUO",
+      "affiliations": ["Google"],
+      "email": "NA"
+    },
+    {
+      "name": "SANJIV KUMAR",
+      "affiliations": ["Google"],
+      "email": "NA"
+    },
+    {
+      "name": "BALINT MIKLOS",
+      "affiliations": ["Google"],
+      "email": "NA"
+    },
+    {
+      "name": "RAY KURZWEIL",
+      "affiliations": ["Google"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+This JSON structure captures the title and detailed author information, adhering to the constraints provided.

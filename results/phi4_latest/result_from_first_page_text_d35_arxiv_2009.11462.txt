@@ -1,12 +1,32 @@
-**Expected Output:**
-
-Title: REALTOXICITYPROMPTS: Evaluating Neural Toxic Degeneration in Language Models
-
-Authors:  
-- Name: Samuel Gehman, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington, Email: sgehman@cs.washington.edu  
-- Name: Suchin Gururangan, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington and Allen Institute for Artificial Intelligence, Email: sg01@cs.washington.edu  
-- Name: Maarten Sap, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington, Email: msap@cs.washington.edu  
-- Name: Yejin Choi, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington and Allen Institute for Artificial Intelligence, Email: yejin@cs.washington.edu  
-- Name: Noah A. Smith, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington and Allen Institute for Artificial Intelligence, Email: nasmith@cs.washington.edu  
-
-Note: Some authors have dual affiliations with both the University of Washington and the Allen Institute for Artificial Intelligence.
+```json
+{
+  "title": "Evaluating Neural Toxic Degeneration in Language Models",
+  "authors": [
+    {
+      "name": "Samuel Gehman",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "sgehman@cs.washington.edu"
+    },
+    {
+      "name": "Suchin Gururangan",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "sg01@cs.washington.edu"
+    },
+    {
+      "name": "Maarten Sap",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "msap@cs.washington.edu"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "yjejin@cs.washington.edu"
+    },
+    {
+      "name": "Noah A. Smith",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "nasmith@cs.washington.edu"
+    }
+  ]
+}
+```

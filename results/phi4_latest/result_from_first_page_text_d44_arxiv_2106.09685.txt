@@ -1,15 +1,60 @@
-**Expected Output:**
+Based on the provided context from the academic paper excerpt, here is the extracted metadata in the required JSON format:
 
-Title: LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS
+```json
+{
+  "title": "LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS",
+  "authors": [
+    {
+      "name": "Phillip Wallis",
+      "affiliations": ["Microsoft Corporation"],
+      "email": "phwallis@microsoft.com"
+    },
+    {
+      "name": "Yelong Shen",
+      "affiliations": ["Microsoft Corporation", "Carnegie Mellon University"],
+      "email": "yeshe@microsoft.com"
+    },
+    {
+      "name": "Shean Wang",
+      "affiliations": ["Microsoft Corporation"],
+      "email": "swang@microsoft.com"
+    },
+    {
+      "name": "Edward Hu",
+      "affiliations": ["Microsoft Corporation"],
+      "email": "edwardhu@microsoft.com"
+    },
+    {
+      "name": "Yuanzhi Li",
+      "affiliations": ["Microsoft Corporation", "Carnegie Mellon University"],
+      "email": "yuanzhil@andrew.cmu.edu"
+    },
+    {
+      "name": "Lu Wang",
+      "affiliations": ["Microsoft Corporation"],
+      "email": "luw@microsoft.com"
+    },
+    {
+      "name": "Weizhu Chen",
+      "affiliations": ["Microsoft Corporation"],
+      "email": "wzchen@microsoft.com"
+    },
+    {
+      "name": "Zeyuan Allen-Zhu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
 
-Authors:  
-- Name: Phillip Wallis, Affiliation: Microsoft Corporation, Email: phwallis@microsoft.com  
-- Name: Yelong Shen, Affiliation: Microsoft Corporation, Email: yeshe@microsoft.com  
-- Name: Shean Wang, Affiliation: Microsoft Corporation, Email: swang@microsoft.com  
-- Name: Edward Hu, Affiliation: Microsoft Corporation, Email: edwardhu@microsoft.com  
-- Name: Yuanzhi Li, Affiliation: Microsoft Corporation and Carnegie Mellon University, Email: yuanzhil@microsoft.com, yuanzhil@andrew.cmu.edu  
-- Name: Lu Wang, Affiliation: Microsoft Corporation, Email: luw@microsoft.com  
-- Name: Weizhu Chen, Affiliation: Microsoft Corporation, Email: wzchen@microsoft.com  
-- Name: Zeyuan Allen-Zhu, Affiliation: NA, Email: zeyuan@zeyuans.net  
+### Explanation:
 
-(Note: For some affiliations or emails, the information provided is what was available in the context. If any specific details were missing, it has been noted as NA.)
+- **Title**: Directly extracted from the context as "LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS".
+- **Authors**:
+  - Each author's name is taken directly from the list provided.
+  - Affiliations are inferred based on the email domains and any explicit mention in the context. Microsoft Corporation is identified as a common affiliation, and Carnegie Mellon University is mentioned alongside Yuanzhi Li.
+  - Email addresses are extracted from the contact information section.
+- If an author has no explicitly listed affiliations or emails (like Zeyuan Allen-Zhu), "NA" is used as specified.
+
+This structured output ensures all required details are captured and formatted correctly for comparison with any ground truth data.

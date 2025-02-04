@@ -1,6 +1,0 @@
-Here is the extracted title and author information in the requested format:
-
-Title: Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks
-Authors:  
-- Name: Nils Reimers, Affiliation: Ubiquitous Knowledge Processing Lab (UKP-TUDA), Department of Computer Science, Technische Universit¨at Darmstadt, Email: NA
-- Name: Iryna Gurevych, Affiliation: Ubiquitous Knowledge Processing Lab (UKP-TUDA), Department of Computer Science, Technische Universit¨at Darmstadt, Email: NA

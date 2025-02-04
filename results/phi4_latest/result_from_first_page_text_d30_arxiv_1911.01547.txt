@@ -1,9 +1,43 @@
-**Title:** On the Measure of Intelligence
+```json
+{
+  "title": "On the Measure of Intelligence",
+  "authors": [
+    {
+      "name": "François Chollet",
+      "affiliations": ["Google, Inc."],
+      "email": "fchollet@google.com"
+    },
+    {
+      "name": "José Hernández-Orallo",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Julian Togelius",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Christian Szegedy",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Martin Wicke",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
 
-**Authors:**  
-- **Name:** François Chollet, **Affiliation:** Google, Inc., **Email:** fchollet@google.com  
-- Name: NA  
-- Affiliation: NA  
-- Email: NA  
+### Explanation:
 
-If some information is not available, it's marked as NA. In this case, the document only lists one author with complete details.
+- **Title**: Extracted directly from the text as "On the Measure of Intelligence".
+  
+- **Authors**:
+  - **François Chollet**: 
+    - Affiliation: Google, Inc.
+    - Email: fchollet@google.com
+  - **José Hernández-Orallo**, **Julian Togelius**, **Christian Szegedy**, and **Martin Wicke**: 
+    - These authors are mentioned in the context of providing comments on the draft. There is no specific information about their affiliations or email addresses provided, so these fields are marked as "NA".

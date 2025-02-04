@@ -1,12 +1,36 @@
-**Expected Output:**
+Based on the provided context, here is the extracted metadata in JSON format:
 
-Title: SOCIAL IQA: Commonsense Reasoning about Social Interactions
+```json
+{
+  "title": "SOCIAL IQA: Commonsense Reasoning about Social Interactions",
+  "authors": [
+    {
+      "name": "Maarten Sap",
+      "affiliations": ["Allen Institute for Artificial Intelligence", "Paul G. Allen School of Computer Science & Engineering"],
+      "email": "msap@cs.washington.edu"
+    },
+    {
+      "name": "Hannah Rashkin",
+      "affiliations": ["Allen Institute for Artificial Intelligence", "Paul G. Allen School of Computer Science & Engineering"],
+      "email": "hrashkin@cs.washington.edu"
+    },
+    {
+      "name": "Derek Chen",
+      "affiliations": ["Allen Institute for Artificial Intelligence", "Paul G. Allen School of Computer Science & Engineering"],
+      "email": "dchen14@cs.washington.edu"
+    },
+    {
+      "name": "Ronan Le Bras",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "ronanlb@allenai.org"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Allen Institute for Artificial Intelligence", "Paul G. Allen School of Computer Science & Engineering"],
+      "email": "yejin@cs.washington.edu"
+    }
+  ]
+}
+```
 
-Authors:  
-- Name: Maarten Sap, Affiliation: Allen Institute for Artificial Intelligence, Seattle, WA, USA; Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA, Email: msap@cs.washington.edu  
-- Name: Hannah Rashkin, Affiliation: Allen Institute for Artificial Intelligence, Seattle, WA, USA; Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA, Email: hrashkin@cs.washington.edu  
-- Name: Derek Chen, Affiliation: Allen Institute for Artificial Intelligence, Seattle, WA, USA; Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA, Email: dchen14@cs.washington.edu  
-- Name: Ronan Le Bras, Affiliation: Allen Institute for Artificial Intelligence, Seattle, WA, USA, Email: ronanlb@allenai.org  
-- Name: Yejin Choi, Affiliation: Allen Institute for Artificial Intelligence, Seattle, WA, USA; Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA, Email: yejin@cs.washington.edu  
-
-(Note: The "♦" and "♥" symbols are used in the context to indicate affiliations but do not alter the core information provided above.)
+This JSON output includes the title of the paper and detailed information about each author, including their names, affiliations, and email addresses where available. If any specific piece of information is missing, it would be marked as "NA", but in this case, all details are provided within the context.

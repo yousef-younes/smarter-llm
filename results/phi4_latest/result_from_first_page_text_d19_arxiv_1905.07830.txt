@@ -1,10 +1,32 @@
-**Title:** HellaSwag: Can a Machine Really Finish Your Sentence?
-
-**Authors:**  
-- Name: Rowan Zellers, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington, Email: NA  
-- Name: Ari Holtzman, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington; Allen Institute for Artificial Intelligence, Email: NA  
-- Name: Yonatan Bisk, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington; Allen Institute for Artificial Intelligence, Email: NA  
-- Name: Ali Farhadi, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington; Allen Institute for Artificial Intelligence, Email: NA  
-- Name: Yejin Choi, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington; Allen Institute for Artificial Intelligence, Email: NA  
-
-(Note: The context does not provide email addresses or specific titles like Dr., Prof., so they are marked as NA.)
+```json
+{
+  "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+  "authors": [
+    {
+      "name": "Rowan Zellers",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    },
+    {
+      "name": "Ari Holtzman",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    },
+    {
+      "name": "Yonatan Bisk",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    },
+    {
+      "name": "Ali Farhadi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    }
+  ]
+}
+```

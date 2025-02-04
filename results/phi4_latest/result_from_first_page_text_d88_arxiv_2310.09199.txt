@@ -1,25 +1,102 @@
-**Title:** PaLI-3 Vision Language Models: Smaller, Faster, Stronger
-
-**Authors:**
-
-- Name: Xiao Wang⋆, Affiliation: Google Research, Email: NA
-- Name: Lucas Beyer⋆, Affiliation: Google Research, Email: NA
-- Name: Xi Chen⋆, Affiliation: Google Research, Email: NA
-- Name: Paul Voigtlaender, Affiliation: Google DeepMind, Email: NA
-- Name: Basil Mustafa, Affiliation: Google DeepMind, Email: NA
-- Name: Piotr Padlewski, Affiliation: Google DeepMind, Email: NA
-- Name: Daniel Salz, Affiliation: Google Research, Email: NA
-- Name: Xi Xiong, Affiliation: Google Cloud, Email: NA
-- Name: Daniel Vlasic, Affiliation: Google Cloud, Email: NA
-- Name: Keran Rong, Affiliation: Google DeepMind, Email: NA
-- Name: Tianli Yu, Affiliation: Google Cloud, Email: NA
-- Name: Daniel Keysers, Affiliation: Google DeepMind, Email: NA
-- Name: Xiaohua Zhai⋆†, Affiliation: Google Research, Email: NA
-- Name: Alexander Kolesnikov, Affiliation: Google DeepMind, Email: NA
-- Name: Sebastian Goodman, Affiliation: Google Research, Email: NA
-- Name: Jialin Wu, Affiliation: Google Research, Email: NA
-- Name: Ibrahim Alabdulmohsin, Affiliation: Google DeepMind, Email: NA
-- Name: Filip Pavetic, Affiliation: Google DeepMind, Email: NA
-- Name: Radu Soricut†, Affiliation: NA, Email: NA
-
-(Note: Emails and specific contact details are not provided in the context.)
+```json
+{
+  "title": "PaLI-3: Vision Language Models - Smaller, Faster, Stronger",
+  "authors": [
+    {
+      "name": "Xiao Wang",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Lucas Beyer",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Chen",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Paul Voigtlaender",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Basil Mustafa",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Piotr Padlewski",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Salz",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Xiong",
+      "affiliations": ["Google Cloud"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Vlasic",
+      "affiliations": ["Google Cloud"],
+      "email": "NA"
+    },
+    {
+      "name": "Keran Rong",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Tianli Yu",
+      "affiliations": ["Google Cloud"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Keysers",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaohua Zhai",
+      "affiliations": ["Google Research", "corresponding author"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexander Kolesnikov",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Sebastian Goodman",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Jialin Wu",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Ibrahim Alabdulmohsin",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Filip Pavetic",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Radu Soricut",
+      "affiliations": ["corresponding author"],
+      "email": "NA"
+    }
+  ]
+}
+```

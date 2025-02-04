@@ -1,17 +1,67 @@
-**Title:** Training Verifiers to Solve Math Word Problems
-
-**Authors:**  
-- Name: Karl Cobbe, Affiliation: OpenAI, Email: NA  
-- Name: Vineet Kosaraju, Affiliation: OpenAI, Email: NA  
-- Name: Mohammad Bavarian, Affiliation: NA, Email: NA  
-- Name: Mark Chen, Affiliation: NA, Email: NA  
-- Name: Heewoo Jun, Affiliation: NA, Email: NA  
-- Name: Lukasz Kaiser, Affiliation: NA, Email: NA  
-- Name: Matthias Plappert, Affiliation: NA, Email: NA  
-- Name: Jerry Tworek, Affiliation: NA, Email: NA  
-- Name: Jacob Hilton, Affiliation: NA, Email: NA  
-- Name: Reiichiro Nakano, Affiliation: NA, Email: NA  
-- Name: Christopher Hesse, Affiliation: NA, Email: NA  
-- Name: John Schulman, Affiliation: OpenAI, Email: NA  
-
-Note: Where information is not available from the provided context, it is marked as NA.
+```json
+{
+  "title": "Training Verifiers to Solve Math Word Problems",
+  "authors": [
+    {
+      "name": "Karl Cobbe",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Vineet Kosaraju",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Mohammad Bavarian",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Mark Chen",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Heewoo Jun",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Lukasz Kaiser",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Plappert",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Jerry Tworek",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Jacob Hilton",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Reiichiro Nakano",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Christopher Hesse",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "John Schulman",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    }
+  ]
+}
+```

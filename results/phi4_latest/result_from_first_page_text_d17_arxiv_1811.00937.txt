@@ -1,10 +1,38 @@
-**Expected Output:**  
-Title: COMMONSENSEQA: A Question Answering Challenge Targeting Commonsense Knowledge  
+Based on the provided context of the academic paper, we can extract the following metadata:
 
-Authors:  
-- Name: Alon Talmor, Affiliation: School of Computer Science, Tel-Aviv University; Allen Institute for Artificial Intelligence, Email: alontalmor@mail, joberant@cs.tau.ac.il  
-- Name: Jonathan Herzig, Affiliation: School of Computer Science, Tel-Aviv University, Email: jonathan.herzig@cs.tau.ac.il  
-- Name: Nicholas Lourie, Affiliation: Allen Institute for Artificial Intelligence, Email: nicholasl@allenai.org  
-- Name: Jonathan Berant, Affiliation: School of Computer Science, Tel-Aviv University; Allen Institute for Artificial Intelligence, Email: joberant@cs.tau.ac.il  
+```json
+{
+  "title": "COMMONSENSEQA: A Question Answering Challenge Targeting Commonsense Knowledge",
+  "authors": [
+    {
+      "name": "Alon Talmor",
+      "affiliations": ["School of Computer Science, Tel-Aviv University", "Allen Institute for Artificial Intelligence"],
+      "email": "alontalmor@mail"
+    },
+    {
+      "name": "Jonathan Herzig",
+      "affiliations": ["School of Computer Science, Tel-Aviv University"],
+      "email": "jonathan.herzig@cs"
+    },
+    {
+      "name": "Nicholas Lourie",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "nicholasl@allenai.org"
+    },
+    {
+      "name": "Jonathan Berant",
+      "affiliations": ["School of Computer Science, Tel-Aviv University", "Allen Institute for Artificial Intelligence"],
+      "email": "joberant@cs"
+    }
+  ]
+}
+```
 
-(Note: Emails are partial or formatted as per the provided context. They may need correction based on standard email formats.)
+### Explanation:
+- **Title**: Extracted directly from the context as it appears before the author list.
+- **Authors**:
+  - Each author's name is listed in the format: `{name}{superscript}` where superscripts correspond to their affiliations.
+  - Affiliations are mapped based on the numbered superscripts next to each author's name.
+  - Emails are provided after the author list and matched with authors using the same superscripts.
+
+This JSON structure includes all requested details, ensuring any missing information is labeled as "NA" where applicable. In this case, no information was missing for the given context.

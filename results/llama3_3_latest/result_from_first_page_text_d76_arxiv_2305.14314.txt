@@ -1,9 +1,0 @@
-Based on the provided context, here is the extracted title and author information in the requested format:
-
-**Expected Output:**
-Title: QLORA: Efficient Finetuning of Quantized LLMs  
-Authors:  
-- Name: Tim Dettmers, Affiliation: University of Washington, Email: dettmers@cs.washington.edu  
-- Name: Artidoro Pagnoni, Affiliation: University of Washington, Email: artidoro@cs.washington.edu  
-- Name: Ari Holtzman, Affiliation: University of Washington, Email: ahai@cs.washington.edu  
-- Name: Luke Zettlemoyer, Affiliation: University of Washington, Email: lsz@cs.washington.edu

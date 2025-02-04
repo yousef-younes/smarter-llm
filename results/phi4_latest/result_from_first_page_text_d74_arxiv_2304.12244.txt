@@ -1,15 +1,52 @@
-**Expected Output:**
-
-Title: WizardLM: Empowering Large Language Models to Follow Complex Instructions
-
-Authors:  
-- Name: Pu Zhao, Affiliation: Microsoft, Email: puzhao@microsoft.com  
-- Name: Can Xu, Affiliation: Microsoft, Email: caxu@microsoft.com  
-- Name: Qingfeng Sun, Affiliation: Microsoft, Email: qins@microsoft.com  
-- Name: Kai Zheng, Affiliation: Microsoft, Email: zhengkai@microsoft.com  
-- Name: Xiubo Geng, Affiliation: Microsoft, Email: xigeng@microsoft.com  
-- Name: Jiazhan Feng, Affiliation: Peking University, Email: fengjiazhan@pku.edu.cn  
-- Name: Chongyang Tao, Affiliation: Microsoft, Email: chongyang.tao@microsoft.com  
-- Name: Qingwei Lin, Affiliation: Microsoft, Email: qlin@microsoft.com  
-- Name: Daxin Jiang, Affiliation: Microsoft, Email: djiang@microsoft.com  
-
+```json
+{
+  "title": "WizardLM: Empowering Large Language Models to Follow Complex Instructions",
+  "authors": [
+    {
+      "name": "Pu Zhao",
+      "affiliations": ["Microsoft"],
+      "email": "puzhao@microsoft.com"
+    },
+    {
+      "name": "Can Xu",
+      "affiliations": ["Microsoft"],
+      "email": "caxu@microsoft.com"
+    },
+    {
+      "name": "Qingfeng Sun",
+      "affiliations": ["Microsoft"],
+      "email": "qins@microsoft.com"
+    },
+    {
+      "name": "Kai Zheng",
+      "affiliations": ["Microsoft"],
+      "email": "zhengkai@microsoft.com"
+    },
+    {
+      "name": "Xiubo Geng",
+      "affiliations": ["Microsoft"],
+      "email": "xigeng@microsoft.com"
+    },
+    {
+      "name": "Jiazhan Feng",
+      "affiliations": ["Peking University"],
+      "email": "fengjiazhan@pku.edu.cn"
+    },
+    {
+      "name": "Chongyang Tao",
+      "affiliations": ["Microsoft"],
+      "email": "chongyang.tao@microsoft.com"
+    },
+    {
+      "name": "Qingwei Lin",
+      "affiliations": ["Microsoft"],
+      "email": "qlin@microsoft.com"
+    },
+    {
+      "name": "Daxin Jiang",
+      "affiliations": ["Microsoft"],
+      "email": "djiang@microsoft.com"
+    }
+  ]
+}
+```

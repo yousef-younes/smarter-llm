@@ -1,8 +1,0 @@
-Based on the provided context, here is the extracted title and author information:
-
-**Title:** Not explicitly mentioned in the context (assuming it's about Low-Rank Adaptation, or LoRA)
- 
-**Authors:**
-- Name: Not mentioned, Affiliation: Microsoft, Email: NA 
-
-Note that the context does not provide explicit author names or email addresses. The mention of "∗Equal contribution" suggests that there are multiple authors with equal contributions, but their names are not specified. The affiliation is assumed to be Microsoft based on the GitHub repository link provided (`https://github.com/microsoft/LoRA`).

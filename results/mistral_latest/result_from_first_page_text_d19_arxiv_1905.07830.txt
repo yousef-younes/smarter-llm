@@ -1,7 +1,0 @@
- Title: HellaSwag: Can a Machine Really Finish Your Sentence?
-   Authors:
-   - Name: Rowan Zellers, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington, Email: [No email provided in the context]
-   - Name: Ari Holtzman, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington, Email: [No email provided in the context]
-   - Name: Yonatan Bisk, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington, Email: [No email provided in the context]
-   - Name: Ali Farhadi, Affiliation: Allan Institute for Artificial Intelligence, Email: [No email provided in the context]
-   - Name: Yejin Choi, Affiliation: Allan Institute for Artificial Intelligence, Email: [No email provided in the context]

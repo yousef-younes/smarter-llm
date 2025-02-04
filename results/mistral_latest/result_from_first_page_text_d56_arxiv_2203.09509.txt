@@ -1,8 +1,0 @@
- Title: Advances in Toxic Language Detection
-   Authors:
-   - Name: Thomas Hartvigsen, Affiliation: Massachusetts Institute of Technology, Email: toh@mit.edu
-   - Name: Saadia Gabriel, Affiliation: University of Washington, Email: skgabrie@cs.washington.edu
-   - Name: Hamid Palangi, Affiliation: Microsoft Research, Email: hpalangi@microsoft.com
-   - Name: Maarten Sap, Affiliation: Carnegie Mellon University and Allen Institute for AI, Email: maartensap@cmu.edu
-   - Name: Dipankar Ray, Affiliation: Microsoft Research, Email: diray@microsoft.com (assumed from the given email format)
-   - Name: Ece Kamar, Affiliation: Microsoft Research, Email: eckamar@microsoft.com (assumed from the given email format)

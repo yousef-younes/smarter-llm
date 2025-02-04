@@ -1,9 +1,0 @@
-**Expected Output:**
-Title: Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning 
-Authors:  
-- Name: Bryan Wang, Affiliation: University of Toronto, Email: bryanw@dgp.toronto.edu  
-- Name: Zhourong Chen, Affiliation: Google Research, Email: zrchen@google.com  
-- Name: Gang Li, Affiliation: Google Research, Email: leebird@google.com  
-- Name: Tovi Grossman, Affiliation: University of Toronto, Email: tovi@dgp.toronto.edu  
-- Name: Xin Zhou, Affiliation: Google Research, Email: zhouxin@google.com
-- Name: Yang Li, Affiliation: Google Research, Email: liyang@google.com 

@@ -1,6 +1,0 @@
- Title: A new kind of question answering dataset, OpenBookQA
-   Authors:
-   - Name: Todor Mihaylov, Affiliation: Research Training Group AIPHES & Heidelberg University, Germany, Email: mihaylov@cl.uni-heidelberg.de
-   - Name: Peter Clark, Affiliation: Allen Institute for Artificial Intelligence, Seattle, WA, U.S.A., Email: peterc@allenai.org
-   - Name: Tushar Khot, Affiliation: Allen Institute for Artificial Intelligence, Seattle, WA, U.S.A., Email: tushark@allenai.org
-   - Name: Ashish Sabharwal, Affiliation: Allen Institute for Artificial Intelligence, Seattle, WA, U.S.A., Email: ashishs@allenai.org

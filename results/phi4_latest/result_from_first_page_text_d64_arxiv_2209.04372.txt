@@ -1,8 +1,33 @@
-**Expected Output:**
+Based on the provided context from the academic paper:
 
-Title: Pre-training image-language transformers for open-vocabulary tasks
+```json
+{
+  "title": "Pre-training image-language transformers for open-vocabulary tasks",
+  "authors": [
+    {
+      "name": "AJ Piergiovanni",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Weicheng Kuo",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Anelia Angelova",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    }
+  ]
+}
+```
 
-Authors:  
-- Name: AJ Piergiovanni, Affiliation: Google Research, Email: NA  
-- Name: Weicheng Kuo, Affiliation: Google Research, Email: NA  
-- Name: Anelia Angelova, Affiliation: Google Research, Email: NA  
+### Explanation:
+
+- **Title**: The title is directly extracted from the context.
+  
+- **Authors**:
+  - Names are listed before each affiliation in the context.
+  - Affiliation for all authors is "Google Research".
+  - Email addresses are not provided in the context, so they are marked as "NA".

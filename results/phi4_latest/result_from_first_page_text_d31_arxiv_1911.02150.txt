@@ -1,7 +1,27 @@
-**Expected Output:**  
-Title: Fast Transformer Decoding: One Write-Head is All You Need  
+To extract the required metadata from the provided context of an academic paper, we need to carefully parse the information available. Here is the step-by-step extraction process:
 
-Authors:  
-- Name: Noam Shazeer, Affiliation: Google, Email: noam@google.com  
-- Name: NA, Affiliation: NA, Email: NA  
-- Name: NA, Affiliation: NA, Email: NA  
+1. **Title Extraction**: The title of the paper is typically presented before the abstract and often in a prominent format. In this context, the title appears as "Fast Transformer Decoding: One Write-Head is All You Need".
+
+2. **Author Information**:
+   - The author's name is provided as "Noam Shazeer".
+   - Affiliations are mentioned after the author's name, indicated by "Google". Since there is only one affiliation listed for this author, we will include it in a list.
+   - The email address is provided as "noam@google.com".
+
+3. **Missing Information**: In cases where information might be missing (e.g., multiple authors or additional affiliations), we substitute with "NA" to adhere to the constraints.
+
+Based on this extraction process, here is the structured JSON output:
+
+```json
+{
+  "title": "Fast Transformer Decoding: One Write-Head is All You Need",
+  "authors": [
+    {
+      "name": "Noam Shazeer",
+      "affiliations": ["Google"],
+      "email": "noam@google.com"
+    }
+  ]
+}
+```
+
+This JSON output accurately reflects the extracted metadata from the provided context, adhering to the specified format and constraints.

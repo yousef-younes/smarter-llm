@@ -1,18 +1,77 @@
-**Title:** LLaMA: Open and Efficient Foundation Language Models
-
-**Authors:**
-
-- Name: Hugo Touvron, Affiliation: Meta AI, Email: NA
-- Name: Thibaut Lavril, Affiliation: Meta AI, Email: NA
-- Name: Gautier Izacard, Affiliation: Meta AI, Email: NA
-- Name: Xavier Martinet, Affiliation: Meta AI, Email: NA
-- Name: Marie-Anne Lachaux, Affiliation: Meta AI, Email: NA
-- Name: Timothee Lacroix, Affiliation: Meta AI, Email: NA
-- Name: Baptiste Rozière, Affiliation: Meta AI, Email: NA
-- Name: Naman Goyal, Affiliation: Meta AI, Email: NA
-- Name: Eric Hambro, Affiliation: Meta AI, Email: NA
-- Name: Faisal Azhar, Affiliation: Meta AI, Email: NA
-- Name: Aurelien Rodriguez, Affiliation: Meta AI, Email: NA
-- Name: Armand Joulin, Affiliation: Meta AI, Email: NA
-- Name: Edouard Grave, Affiliation: Meta AI, Email: NA
-- Name: Guillaume Lample, Affiliation: Meta AI, Email: NA
+```json
+{
+  "title": "LLaMA: Open and Efficient Foundation Language Models",
+  "authors": [
+    {
+      "name": "Hugo Touvron∗",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Thibaut Lavril∗",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Gautier Izacard∗",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Xavier Martinet",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Marie-Anne Lachaux",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Timothee Lacroix",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Baptiste Rozière",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Naman Goyal",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Eric Hambro",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Faisal Azhar",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Aurelien Rodriguez",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Armand Joulin",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Edouard Grave∗",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Guillaume Lample∗",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    }
+  ]
+}
+```

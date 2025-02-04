@@ -1,3 +1,0 @@
-**Title:** Fast Transformer Decoding: One Write-Head is All You Need 
-**Authors:**  
-- Name: Noam Shazeer, Affiliation: Google, Email: noam@google.com   

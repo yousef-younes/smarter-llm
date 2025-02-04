@@ -1,38 +1,182 @@
-**Title:** PaliGemma: A versatile 3B VLM for transfer
-
-**Authors:**
-- Name: Lucas Beyer, Affiliation: Core team, Email: NA
-- Name: Andreas Steiner, Affiliation: Core team, Email: NA
-- Name: André Susano Pinto, Affiliation: Core team, Email: NA
-- Name: Alexander Kolesnikov, Affiliation: Core team, Email: NA
-- Name: Xiao Wang, Affiliation: Core team, Email: NA
-- Name: Daniel Salz, Affiliation: Core team, Email: NA
-- Name: Maxim Neumann, Affiliation: Core team, Email: NA
-- Name: Ibrahim Alabdulmohsin, Affiliation: Core team, Email: NA
-- Name: Michael Tschannen, Affiliation: Core team, Email: NA
-- Name: Emanuele Bugliarello, Affiliation: Core team, Email: NA
-- Name: Thomas Unterthiner, Affiliation: Core team, Email: NA
-- Name: Daniel Keysers, Affiliation: Core team, Email: NA
-- Name: Skanda Koppula, Affiliation: Core team, Email: NA
-- Name: Fangyu Liu, Affiliation: Core team, Email: NA
-- Name: Adam Grycner, Affiliation: Core team, Email: NA
-- Name: Alexey Gritsenko, Affiliation: Core team, Email: NA
-- Name: Neil Houlsby, Affiliation: Core team, Email: NA
-- Name: Manoj Kumar, Affiliation: Core team, Email: NA
-- Name: Keran Rong, Affiliation: Core team, Email: NA
-- Name: Julian Eisenschlos, Affiliation: Core team, Email: NA
-- Name: Rishabh Kabra, Affiliation: Core team, Email: NA
-- Name: Matthias Bauer, Affiliation: Core team, Email: NA
-- Name: Matko Bošnjak, Affiliation: Core team, Email: NA
-- Name: Xi Chen, Affiliation: Core team, Email: NA
-- Name: Matthias Minderer, Affiliation: Core team, Email: NA
-- Name: Paul Voigtlaender, Affiliation: Core team, Email: NA
-- Name: Ioana Bica, Affiliation: Core team, Email: NA
-- Name: Ivana Balazevic, Affiliation: Core team, Email: NA
-- Name: Joan Puigcerver, Affiliation: Core team, Email: NA
-- Name: Pinelopi Papalampidi, Affiliation: Core team, Email: NA
-- Name: Olivier Henaff, Affiliation: Core team, Email: NA
-- Name: Xi Xiong, Affiliation: Core team, Email: NA
-- Name: Radu Soricut, Affiliation: Core team, Email: NA
-- Name: Jeremiah Harmsen, Affiliation: Core team, Email: NA
-- Name: Xiaohua Zhai, Affiliation: Project lead, Email: NA
+```json
+{
+  "title": "PaliGemma: A versatile 3B VLM for transfer",
+  "authors": [
+    {
+      "name": "Lucas Beyer",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Andreas Steiner",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "André Susano Pinto",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexander Kolesnikov",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiao Wang",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Salz",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Maxim Neumann",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Ibrahim Alabdulmohsin",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Tschannen",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Emanuele Bugliarello",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Thomas Unterthiner",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Keysers",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Skanda Koppula",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Fangyu Liu",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Adam Grycner",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexey Gritsenko",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Neil Houlsby",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Manoj Kumar",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Keran Rong",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Julian Eisenschlos",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Rishabh Kabra",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Bauer",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Matko Bošnjak",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Chen",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Minderer",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Paul Voigtlaender",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Ioana Bica",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Ivana Balazevic",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Joan Puigcerver",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Pinelopi Papalampidi",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Olivier Henaff",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Xiong",
+      "affiliations": ["Core team", "Project lead"],
+      "email": "NA"
+    },
+    {
+      "name": "Radu Soricut",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Jeremiah Harmsen",
+      "affiliations": ["Core team"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaohua Zhai",
+      "affiliations": ["Core team", "Project lead"],
+      "email": "NA"
+    }
+  ]
+}
+```

@@ -1,6 +1,0 @@
-**Title:** Generative Language Models for Paragraph-Level Question Generation 
-
-**Authors:**  
-- Name: Asahi Ushio, Affiliation: Cardiff NLP, School of Computer Science and Informatics, Cardiff University, Email: UshioA@cardiff.ac.uk   
-- Name: Fernando Alva-Manchego, Affiliation: Cardiff NLP, School of Computer Science and Informatics, Cardiff University, Email: AlvaManchegoF@cardiff.ac.uk 
-- Name: Jose Camacho-Collados, Affiliation: Cardiff NLP, School of Computer Science and Informatics, Cardiff University, Email: CamachoColladosJ@cardiff.ac.uk 

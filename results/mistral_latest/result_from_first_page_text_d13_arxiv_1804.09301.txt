@@ -1,7 +1,0 @@
- Title: Gender Bias in Coreference Resolution
-
-   Authors:
-    - Name: Rachel Rudinger, Affiliation: Johns Hopkins University, Email: N/A   (Email is missing)
-    - Name: Jason Naradowsky, Affiliation: Johns Hopkins University, Email: N/A   (Email is missing)
-    - Name: Brian Leonard, Affiliation: Johns Hopkins University, Email: N/A   (Email is missing)
-    - Name: Benjamin Van Durme, Affiliation: Johns Hopkins University, Email: N/A   (Email is missing)

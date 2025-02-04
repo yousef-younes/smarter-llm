@@ -1,8 +1,0 @@
-Based on the provided context, here is the extracted title and author information in the requested format:
-
-**Expected Output:**
-Title: SCICAP: Generating Captions for Scientiﬁc Figures
-Authors:  
-- Name: Ting-Yao (Edward) Hsu, Affiliation: Pennsylvania State University, Email: txh357@psu.edu  
-- Name: C. Lee Giles, Affiliation: Pennsylvania State University, Email: clg20@psu.edu  
-- Name: Ting-Hao ‘Kenneth’ Huang, Affiliation: Pennsylvania State University, Email: txh710@psu.edu

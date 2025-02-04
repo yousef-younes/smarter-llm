@@ -14,21 +14,42 @@ import time
 
 
 query="""
-        Extract the title and author information of this paper and produce the result in the following format
+        You are an expert in **extracting metadata from academic papers**. Your task is to extract the **title** and **author information** from a given research paper.  
         
-        **Expected Output:**
-        Title: Advances in AI Research  
-        Authors:  
-        - Name: Dr. John Doe, Affiliation: XYZ University, Email: johndoe@xyz.edu  
-        - Name: Prof. Jane Smith, Affiliation: XYZ University, Email: N/A  
-        - Name: Dr. Mike Brown, Affiliation: ABC Institute, Email: mikebrown@abc.edu  
+        For each **author**, extract the following details:
+        - **Name**
+        - **Affiliation(s)** (An author may have multiple affiliations)
+        - **Email address**
         
-        if some info is not available write NA
+        ### **Important Constraints:**
+        - If any piece of information is **missing or not found**, return **"NA"** instead of leaving it blank.
+        - Ensure that affiliations are **correctly mapped** to the corresponding author.
+        - The output should be structured in **JSON format** for easy comparison with the ground truth.
+        
+        ### **Expected Output Format:**
+        ```json
+        {
+          "title": "Extracted Paper Title",
+          "authors": [
+            {
+              "name": "Author Name",
+              "affiliations": ["Affiliation 1", "Affiliation 2"],
+              "email": "author@example.com"
+            },
+            {
+              "name": "Another Author",
+              "affiliations": ["Affiliation A"],
+              "email": "NA"
+            }
+          ]
+        }
+        ```
+        Now, extract and return the structured JSON output based on the given research paper text.
         """
 
 
 input_folder = "../data/arixv/extracted_texts"
-output_folder = "../results/phi4_latest" #"mistral_latest" #"../results/llama3_3_latest" 
+output_folder = "../results/phi4_latest_new" #"mistral_latest" #"../results/llama3_3_latest" 
 
 os.makedirs(output_folder, exist_ok=True)
 

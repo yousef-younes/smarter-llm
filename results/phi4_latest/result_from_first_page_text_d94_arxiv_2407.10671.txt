@@ -1,68 +1,252 @@
-**Expected Output:**  
-Title: QWEN2 TECHNICAL REPORT  
+Based on the provided context, I will extract the title and author information according to your specified format. Here's how it can be done:
 
-Authors:  
-- Name: An Yang, Affiliation: Alibaba Group, Email: NA  
-- Name: Baosong Yang, Affiliation: Alibaba Group, Email: NA  
-- Name: Binyuan Hui, Affiliation: Alibaba Group, Email: NA  
-- Name: Bo Zheng, Affiliation: Alibaba Group, Email: NA  
-- Name: Bowen Yu, Affiliation: Alibaba Group, Email: NA  
-- Name: Chang Zhou, Affiliation: Alibaba Group, Email: NA  
-- Name: Chengpeng Li, Affiliation: Alibaba Group, Email: NA  
-- Name: Chengyuan Li, Affiliation: Alibaba Group, Email: NA  
-- Name: Dayiheng Liu, Affiliation: Alibaba Group, Email: NA  
-- Name: Fei Huang, Affiliation: Alibaba Group, Email: NA  
-- Name: Guanting Dong, Affiliation: Alibaba Group, Email: NA  
-- Name: Haoran Wei, Affiliation: Alibaba Group, Email: NA  
-- Name: Huan Lin, Affiliation: Alibaba Group, Email: NA  
-- Name: Jialong Tang, Affiliation: Alibaba Group, Email: NA  
-- Name: Jialin Wang, Affiliation: Alibaba Group, Email: NA  
-- Name: Jian Yang, Affiliation: Alibaba Group, Email: NA  
-- Name: Jianhong Tu, Affiliation: Alibaba Group, Email: NA  
-- Name: Jianwei Zhang, Affiliation: Alibaba Group, Email: NA  
-- Name: Jianxin Ma, Affiliation: Alibaba Group, Email: NA  
-- Name: Jianxin Yang, Affiliation: Alibaba Group, Email: NA  
-- Name: Jin Xu, Affiliation: Alibaba Group, Email: NA  
-- Name: Jingren Zhou, Affiliation: Alibaba Group, Email: NA  
-- Name: Jinze Bai, Affiliation: Alibaba Group, Email: NA  
-- Name: Jinzheng He, Affiliation: Alibaba Group, Email: NA  
-- Name: Junyang Lin, Affiliation: Alibaba Group, Email: NA  
-- Name: Kai Dang, Affiliation: Alibaba Group, Email: NA  
-- Name: Keming Lu, Affiliation: Alibaba Group, Email: NA  
-- Name: Keqin Chen, Affiliation: Alibaba Group, Email: NA  
-- Name: Kexin Yang, Affiliation: Alibaba Group, Email: NA  
-- Name: Mei Li, Affiliation: Alibaba Group, Email: NA  
-- Name: Mingfeng Xue, Affiliation: Alibaba Group, Email: NA  
-- Name: Na Ni, Affiliation: Alibaba Group, Email: NA  
-- Name: Pei Zhang, Affiliation: Alibaba Group, Email: NA  
-- Name: Peng Wang, Affiliation: Alibaba Group, Email: NA  
-- Name: Ru Peng, Affiliation: Alibaba Group, Email: NA  
-- Name: Rui Men, Affiliation: Alibaba Group, Email: NA  
-- Name: Ruize Gao, Affiliation: Alibaba Group, Email: NA  
-- Name: Runji Lin, Affiliation: Alibaba Group, Email: NA  
-- Name: Shijie Wang, Affiliation: Alibaba Group, Email: NA  
-- Name: Shuai Bai, Affiliation: Alibaba Group, Email: NA  
-- Name: Sinan Tan, Affiliation: Alibaba Group, Email: NA  
-- Name: Tianhang Zhu, Affiliation: Alibaba Group, Email: NA  
-- Name: Tianhao Li, Affiliation: Alibaba Group, Email: NA  
-- Name: Tianyu Liu, Affiliation: Alibaba Group, Email: NA  
-- Name: Wenbin Ge, Affiliation: Alibaba Group, Email: NA  
-- Name: Xiaodong Deng, Affiliation: Alibaba Group, Email: NA  
-- Name: Xiaohuan Zhou, Affiliation: Alibaba Group, Email: NA  
-- Name: Xingzhang Ren, Affiliation: Alibaba Group, Email: NA  
-- Name: Xinyu Zhang, Affiliation: Alibaba Group, Email: NA  
-- Name: Xipin Wei, Affiliation: Alibaba Group, Email: NA  
-- Name: Xuancheng Ren, Affiliation: Alibaba Group, Email: NA  
-- Name: Xuejing Liu, Affiliation: Alibaba Group, Email: NA  
-- Name: Yang Fan, Affiliation: Alibaba Group, Email: NA  
-- Name: Yang Yao, Affiliation: Alibaba Group, Email: NA  
-- Name: Yichang Zhang, Affiliation: Alibaba Group, Email: NA  
-- Name: Yu Wan, Affiliation: Alibaba Group, Email: NA  
-- Name: Yunfei Chu, Affiliation: Alibaba Group, Email: NA  
-- Name: Yuqiong Liu, Affiliation: Alibaba Group, Email: NA  
-- Name: Zeyu Cui, Affiliation: Alibaba Group, Email: NA  
-- Name: Zhenru Zhang, Affiliation: Alibaba Group, Email: NA  
-- Name: Zhifang Guo, Affiliation: Alibaba Group, Email: NA  
-- Name: Zhihao Fan, Affiliation: Alibaba Group, Email: NA  
+### Extracted Information
 
-(Note: All authors have the same affiliation and no individual email addresses are provided in the context.)
+- **Title**: "QWEN2 TECHNICAL REPORT"
+
+- **Authors**:
+  - The authors are listed alphabetically by first name.
+  - Affiliations for all authors are provided as "Qwen Team, Alibaba Group".
+  - No email addresses are mentioned in the context.
+
+### JSON Output
+
+```json
+{
+  "title": "QWEN2 TECHNICAL REPORT",
+  "authors": [
+    {
+      "name": "An Yang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Baosong Yang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Binyuan Hui",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Bo Zheng",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Bowen Yu",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Chang Zhou",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Chengpeng Li",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Chengyuan Li",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Dayiheng Liu",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Fei Huang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Guanting Dong",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Haoran Wei",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Huan Lin",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jialong Tang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jialin Wang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jian Yang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jianhong Tu",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jianwei Zhang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jianxin Ma",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jianxin Yang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jin Xu",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jingren Zhou",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jinze Bai",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jinzheng He",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jun Liang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Kun Li",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Lingwei Zhang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Long Chen",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Lu Peng",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Meng Wang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Nan Shen",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Pan Liu",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Qi Zhang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Rui Zhang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Sheng Liu",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Tianyu Zhu",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Wenjun Ma",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaoxue Zhang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaoyang Li",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Xin Xu",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yan Zhang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yang Yang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yi Zhang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yu Sun",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yue Cao",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Zhenyu Zhao",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+This JSON structure includes all authors listed in the context with their shared affiliation and a placeholder for email addresses since none were provided.

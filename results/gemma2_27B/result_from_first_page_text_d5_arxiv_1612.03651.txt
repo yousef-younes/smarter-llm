@@ -1,9 +1,0 @@
-**Title:** FASTTEXT.ZIP: COMPRESSING TEXT CLASSIFICATION MODELS 
-
-**Authors:**  
-- Name: Armand Joulin, Affiliation: Facebook AI Research, Email: ajoulin@fb.com   
-- Name: Edouard Grave, Affiliation: Facebook AI Research, Email: erave@fb.com 
-- Name: Piotr Bojanowski, Affiliation: Facebook AI Research, Email: bojanowski@fb.com  
-- Name: Matthijs Douze, Affiliation: Facebook AI Research, Email: matthijs@fb.com
-- Name: Herv´e J´egou, Affiliation: Facebook AI Research, Email: NA
-- Name: Tomas Mikolov, Affiliation: Facebook AI Research, Email: tmikolov@fb.com 

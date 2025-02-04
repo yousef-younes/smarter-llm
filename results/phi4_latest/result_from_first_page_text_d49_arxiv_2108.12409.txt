@@ -1,8 +1,34 @@
-**Expected Output:**
+Based on the provided context from the academic paper, here's the extracted information in the specified JSON format:
 
-Title: TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION
+```json
+{
+  "title": "TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION",
+  "authors": [
+    {
+      "name": "Oﬁr Press",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Facebook AI Research"],
+      "email": "ofirp@cs.washington.edu"
+    },
+    {
+      "name": "Noah A. Smith",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Mike Lewis",
+      "affiliations": ["Facebook AI Research"],
+      "email": "NA"
+    }
+  ]
+}
+```
 
-Authors:  
-- Name: Oﬁr Press, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington; Facebook AI Research, Email: ofirp@cs.washington.edu  
-- Name: Noah A. Smith, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington; Allen Institute for AI, Email: NA  
-- Name: Mike Lewis, Affiliation: Facebook AI Research, Email: NA  
+### Explanation:
+
+- **Title**: Extracted from the section titled "Published as a conference paper at ICLR 2022".
+- **Authors**:
+  - **Oﬁr Press**: Has two affiliations and an email address.
+  - **Noah A. Smith**: Has two affiliations but no email address provided in the context.
+  - **Mike Lewis**: Has one affiliation with no email address provided.
+
+Each author's details are structured according to the constraints, using "NA" where information is missing.

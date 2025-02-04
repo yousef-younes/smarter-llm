@@ -1,8 +1,0 @@
- Title: FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness
-
-   Authors:
-   - Name: Tri Dao, Affiliation: Department of Computer Science, Stanford University, Email: trid@cs.stanford.edu
-   - Name: Daniel Y. Fu, Affiliation: Department of Computer Science, Stanford University, Email: danfu@cs.stanford.edu
-   - Name: Stefano Ermon, Affiliation: Department of Computer Science, Stanford University, Email: ermon@stanford.edu
-   - Name: Atri Rudra, Affiliation: Department of Computer Science and Engineering, University at Buﬀalo, SUNY, Email: atri@buffalo.edu
-   - Name: Christopher Ré, Affiliation: Department of Computer Science, Stanford University, Email: chrismre@cs.stanford.edu

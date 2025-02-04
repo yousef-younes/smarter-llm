@@ -1,8 +1,0 @@
- Title: Evaluating Large Language Models Trained on Code
-
-   Authors:
-   - Name: Unavailable (Based on the context, it does not appear that any specific author names have been provided)
-   - Affiliation: Unavailable
-   - Email: N/A
-
-   It seems there is no information available about the affiliation or email of the authors in the given context.

@@ -1,13 +1,51 @@
-**Expected Output:**
+Based on the provided context from the abstract of the academic paper, here is the extracted metadata in JSON format:
 
-Title: Scene Text Visual Question Answering
+```json
+{
+  "title": "Scene Text Visual Question Answering",
+  "authors": [
+    {
+      "name": "Ali Furkan Biten",
+      "affiliations": ["Computer Vision Center, UAB, Spain"],
+      "email": "abiten@cvc.uab.es"
+    },
+    {
+      "name": "Rub´en Tito",
+      "affiliations": ["Computer Vision Center, UAB, Spain"],
+      "email": "rperez@cvc.uab.es"
+    },
+    {
+      "name": "Andrés Mafla",
+      "affiliations": ["Computer Vision Center, UAB, Spain"],
+      "email": "amafla@cvc.uab.es"
+    },
+    {
+      "name": "Lluis Gomez",
+      "affiliations": ["Computer Vision Center, UAB, Spain"],
+      "email": "lgomez@cvc.uab.es"
+    },
+    {
+      "name": "Marcáal Rusinol",
+      "affiliations": ["Computer Vision Center, UAB, Spain"],
+      "email": "marcal@cvc.uab.es"
+    },
+    {
+      "name": "Ernest Valveny",
+      "affiliations": ["Computer Vision Center, UAB, Spain"],
+      "email": "dimos@cvc.uab.es"
+    },
+    {
+      "name": "C.V. Jawahar",
+      "affiliations": ["CVIT, IIIT Hyderabad, India"],
+      "email": "NA"
+    },
+    {
+      "name": "Dimosthenis Karatzas",
+      "affiliations": ["Computer Vision Center, UAB, Spain"],
+      "email": "dimos@cvc.uab.es"
+    }
+  ]
+}
+```
 
-Authors:
-- Name: Ali Furkan Biten, Affiliation: Computer Vision Center, UAB, Spain, Email: abiten@cvc.uab.es
-- Name: Rubén Tito, Affiliation: Computer Vision Center, UAB, Spain, Email: rperez@cvc.uab.es
-- Name: Andrés Mafla, Affiliation: Computer Vision Center, UAB, Spain, Email: amafla@cvc.uab.es
-- Name: Lluis Gomez, Affiliation: Computer Vision Center, UAB, Spain, Email: lgomez@cvc.uab.es
-- Name: Marcçal Rusiñol, Affiliation: Computer Vision Center, UAB, Spain, Email: marcal@cvc.uab.es
-- Name: Ernest Valveny, Affiliation: Computer Vision Center, UAB, Spain, Email: NA
-- Name: C.V. Jawahar, Affiliation: CVIT, IIIT Hyderabad, India, Email: NA
-- Name: Dimosthenis Karatzas, Affiliation: Computer Vision Center, UAB, Spain, Email: dimos@cvc.uab.es
+This JSON output captures the title of the paper and details for each author, including their name, affiliation(s), and email address, adhering to the constraints provided.

@@ -1,8 +1,34 @@
-**Expected Output:**
+Based on the provided context from the research paper excerpt, here is the extracted metadata in the specified JSON format:
 
-Title: TruthfulQA: Measuring How Models Mimic Human Falsehoods
+```json
+{
+  "title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+  "authors": [
+    {
+      "name": "Stephanie Lin",
+      "affiliations": ["University of Oxford"],
+      "email": "sylin07@gmail.com"
+    },
+    {
+      "name": "Jacob Hilton",
+      "affiliations": ["OpenAI"],
+      "email": "jhilton@openai.com"
+    },
+    {
+      "name": "Owain Evans",
+      "affiliations": ["University of Oxford"],
+      "email": "owaine@gmail.com"
+    }
+  ]
+}
+```
 
-Authors:  
-- Name: Stephanie Lin, Affiliation: University of Oxford, Email: sylin07@gmail.com  
-- Name: Jacob Hilton, Affiliation: OpenAI, Email: jhilton@openai.com  
-- Name: Owain Evans, Affiliation: University of Oxford, Email: owaine@gmail.com
+### Explanation:
+
+- **Title Extraction**: The title is directly extracted from the context as it appears before the author details.
+- **Author Details**:
+  - Each author's name, affiliation(s), and email address are listed in sequence following their respective names.
+  - Affiliations are mapped based on proximity to each author's name within the text.
+- **Handling Missing Information**: The format ensures that if any information is missing (though none was missing in this context), "NA" would be returned. Here, all necessary details were present.
+
+This structured JSON output matches the expected format and constraints provided.

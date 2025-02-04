@@ -1,13 +1,27 @@
-**Expected Output:**
-
-Title: WINOGRANDE: An Adversarial Winograd Schema Challenge at Scale
-
-Authors:  
-- Name: Keisuke Sakaguchi, Affiliation: Allen Institute for Artificial Intelligence, Email: keisukes@allenai.org  
-- Name: Ronan Le Bras, Affiliation: Allen Institute for Artificial Intelligence, Email: ronanlb@allenai.org  
-- Name: Chandra Bhagavatula, Affiliation: Allen Institute for Artificial Intelligence, Email: chandrab@allenai.org  
-- Name: Yejin Choi, Affiliation: University of Washington, Email: yejinc@allenai.org  
-
-Affiliations:  
-- Allen Institute for Artificial Intelligence  
-- University of Washington
+```json
+{
+  "title": "WINOGRANDE: An Adversarial Winograd Schema Challenge at Scale",
+  "authors": [
+    {
+      "name": "Keisuke Sakaguchi",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "keisukes@allenai.org"
+    },
+    {
+      "name": "Ronan Le Bras",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "ronanlb@allenai.org"
+    },
+    {
+      "name": "Chandra Bhagavatula",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "chandrab@allenai.org"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Allen Institute for Artificial Intelligence", "University of Washington"],
+      "email": "yejinc@allenai.org"
+    }
+  ]
+}
+```

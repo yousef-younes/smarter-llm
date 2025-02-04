@@ -1,7 +1,17 @@
-**Expected Output:**
-
-Title: FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age
-
-Authors:
-- Name: Kimmo Kärkkäinen, Affiliation: UCLA, Email: kimmo@cs.ucla.edu
-- Name: Jungseock Joo, Affiliation: UCLA, Email: jjoo@comm.ucla.edu
+```json
+{
+  "title": "FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age",
+  "authors": [
+    {
+      "name": "Kimmo Kärkkäinen",
+      "affiliations": ["UCLA"],
+      "email": "kimmo@cs.ucla.edu"
+    },
+    {
+      "name": "Jungseock Joo",
+      "affiliations": ["UCLA"],
+      "email": "jjoo@comm.ucla.edu"
+    }
+  ]
+}
+```

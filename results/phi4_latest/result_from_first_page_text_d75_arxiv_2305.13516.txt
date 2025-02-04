@@ -1,20 +1,82 @@
-**Title:** Scaling Speech Technology to 1,000+ Languages
-
-**Authors:**  
-- Name: Vineel Pratap, Affiliation: Meta AI, Email: NA  
-- Name: Andros Tjandra, Affiliation: Meta AI, Email: NA  
-- Name: Bowen Shi, Affiliation: Meta AI, Email: NA  
-- Name: Paden Tomasello, Affiliation: Meta AI, Email: NA  
-- Name: Arun Babu Sayani Kundu∗, Affiliation: Meta AI, Email: NA  
-- Name: Ali Elkahky†, Affiliation: Meta AI, Email: NA  
-- Name: Zhaoheng Ni, Affiliation: Meta AI, Email: NA  
-- Name: Apoorv Vyas, Affiliation: Meta AI, Email: NA  
-- Name: Maryam Fazel-Zarandi, Affiliation: Meta AI, Email: NA  
-- Name: Alexei Baevski‡, Affiliation: Meta AI, Email: NA  
-- Name: Yossi Adi§, Affiliation: Meta AI, Email: NA  
-- Name: Xiaohui Zhang, Affiliation: Meta AI, Email: NA  
-- Name: Wei-Ning Hsu, Affiliation: Meta AI, Email: NA  
-- Name: Alexis Conneau¶, Affiliation: Meta AI, Email: NA  
-- Name: Michael Auli♢, Affiliation: Meta AI, Email: NA  
-
-(* Core team)
+```json
+{
+  "title": "Scaling Speech Technology to 1,000+ Languages",
+  "authors": [
+    {
+      "name": "Vineel Pratap",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Andros Tjandra",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Bowen Shi",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Paden Tomasello",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Arun Babu Sayani Kundu",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Ali Elkahky",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Zhaoheng Ni",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Apoorv Vyas",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Maryam Fazel-Zarandi",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexei Baevski",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Yossi Adi",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaohui Zhang",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Wei-Ning Hsu",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexis Conneau",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Auli",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    }
+  ]
+}
+```

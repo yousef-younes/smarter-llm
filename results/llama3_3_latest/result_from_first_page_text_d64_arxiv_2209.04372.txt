@@ -1,7 +1,0 @@
-Based on the provided context, here is the extracted title and author information in the requested format:
-
-Title: Pre-training image-language transformers for open-vocabulary tasks  
-Authors:  
-- Name: AJ Piergiovanni, Affiliation: Google Research, Email: NA  
-- Name: Weicheng Kuo, Affiliation: Google Research, Email: NA  
-- Name: Anelia Angelova, Affiliation: Google Research, Email: NA

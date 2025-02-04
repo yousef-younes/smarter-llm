@@ -1,8 +1,0 @@
-**Title:** Gender Bias in Coreference Resolution: Evaluation and Debiasing Methods
-
-**Authors:** 
- - Name: Jieyu Zhao, Affiliation: University of California, Los Angeles, Email: jyzhao@cs.ucla.edu  
- - Name: Tianlu Wang, Affiliation: University of Virginia, Email: tw8bc@virginia.edu
- - Name: Mark Yatskar, Affiliation: Allen Institute for Artificial Intelligence, Email: marky@allenai.org
- - Name: Vicente Ordonez, Affiliation: University of Virginia, Email: vicente@virginia.edu 
- - Name: Kai-Wei Chang, Affiliation: University of California, Los Angeles, Email: kwchang@cs.ucla.edu 

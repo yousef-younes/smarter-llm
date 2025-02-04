@@ -1,8 +1,0 @@
-**Expected Output:**
-Title: Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models 
-Authors:  
-- Name: Aarohi Srivastava, Affiliation: NA, Email: N/A
-- Name: Abhinav Rastogi, Affiliation: NA, Email: N/A
-- Name: Abhishek Rao, Affiliation: NA, Email: N/A
-- Name: Abu Awal Md Shoeb, Affiliation: NA, Email: N/A 
-- ... (and so on for all the authors listed) 

@@ -1,9 +1,34 @@
-**Expected Output:**
+```json
+{
+  "title": "Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering",
+  "authors": [
+    {
+      "name": "Todor Mihaylov",
+      "affiliations": ["Research Training Group AIPHES & Heidelberg University, Heidelberg, Germany", "Heidelberg University"],
+      "email": "mihaylov@cl.uni-heidelberg.de"
+    },
+    {
+      "name": "Peter Clark",
+      "affiliations": ["Allen Institute for Artificial Intelligence, Seattle, WA, U.S.A."],
+      "email": "peterc@allenai.org"
+    },
+    {
+      "name": "Tushar Khot",
+      "affiliations": ["Allen Institute for Artificial Intelligence, Seattle, WA, U.S.A."],
+      "email": "tushark@allenai.org"
+    },
+    {
+      "name": "Ashish Sabharwal",
+      "affiliations": ["Allen Institute for Artificial Intelligence, Seattle, WA, U.S.A."],
+      "email": "ashishs@allenai.org"
+    }
+  ]
+}
+```
 
-Title: A New Dataset for Open Book Question Answering
-
-Authors:  
-- Name: Todor Mihaylov, Affiliation: Heidelberg University and Research Training Group AIPHES, Email: mihaylov@cl.uni-heidelberg.de  
-- Name: Peter Clark, Affiliation: Allen Institute for Artificial Intelligence, Email: peterc@allenai.org  
-- Name: Tushar Khot, Affiliation: Allen Institute for Artificial Intelligence, Email: tushark@allenai.org  
-- Name: Ashish Sabharwal, Affiliation: Allen Institute for Artificial Intelligence, Email: ashishs@allenai.org  
+### Explanation:
+- **Title**: Extracted directly from the context.
+- **Authors**:
+  - Each author's name is listed with their affiliations and email address.
+  - Affiliations are mapped correctly based on the symbols (†, ‡) indicating shared affiliations.
+  - Emails are provided for each author where available; otherwise, "NA" would be used if missing. In this case, all authors have emails specified.

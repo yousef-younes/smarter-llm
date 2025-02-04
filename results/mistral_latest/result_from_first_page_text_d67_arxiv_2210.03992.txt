@@ -1,8 +1,0 @@
- Title: Advances in AI Research (The title is not explicitly stated in the provided context)
-
-   Authors:
-
-   - Name: Asahi Ushio, Affiliation: Cardiff NLP, School of Computer Science and Informatics, Cardiff University, UK, Email: [AsahiUshio@cardiff.ac.uk](mailto:AsahiUshio@cardiff.ac.uk)
-   - Name: Fernando Alva-Manchego, Affiliation: Cardiff NLP, School of Computer Science and Informatics, Cardiff University, UK, Email: [FernandoAlvaManchego@cardiff.ac.uk](mailto:FernandoAlvaManchego@cardiff.ac.uk)
-   - Name: Jose Camacho-Collados, Affiliation: Cardiff NLP, School of Computer Science and Informatics, Cardiff University, UK, Email: [JoseCamachoCollados@cardiff.ac.uk](mailto:JoseCamachoCollados@cardiff.ac.uk)
-   (Affiliations and emails were inferred from the provided context)

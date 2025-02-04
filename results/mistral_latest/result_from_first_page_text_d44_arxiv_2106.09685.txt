@@ -1,9 +1,0 @@
- **Expected Output:**
-    Title: Low-Rank Adaptation of Large Language Models
-    Authors:
-    - Name: LORA (It appears to be the name of the authors, as there are no specific names mentioned)
-    - Affiliation: Microsoft Corporation
-    - Email: {edwardhu, yeshe, phwallis, zeyuana, yuanzhil, swang, luw, wzchen}@microsoft.com (There is a group email listed, but no individual emails for specific authors)
-    - Affiliation 2: Carnegie Mellon University (Yuanzhi Li has an affiliation with Carnegie Mellon University)
-    - Email 2: yuanzhil@andrew.cmu.edu (Yuanzhi Li has a separate email address from the group email)
-    - Affiliation 3: NA (There is no other specific affiliation mentioned for any of the authors)

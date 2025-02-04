@@ -1,11 +1,37 @@
-**Expected Output:**
-
-Title: TOXIGEN: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection
-
-Authors:
-- Name: Thomas Hartvigsen, Affiliation: Massachusetts Institute of Technology, Email: tomh@mit.edu
-- Name: Saadia Gabriel, Affiliation: University of Washington, Email: skgabrie@cs.washington.edu
-- Name: Hamid Palangi, Affiliation: Microsoft Research, Email: hpalangi@microsoft.com
-- Name: Maarten Sap, Affiliation: Carnegie Mellon University, Email: maartensap@cmu.edu
-- Name: Dipankar Ray, Affiliation: Microsoft, Email: diray@microsoft.com
-- Name: Ece Kamar, Affiliation: Microsoft, Email: eckamar@microsoft.com
+```json
+{
+  "title": "TOXIGEN: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection",
+  "authors": [
+    {
+      "name": "Thomas Hartvigsen",
+      "affiliations": ["Massachusetts Institute of Technology", "Allen Institute for AI"],
+      "email": "tomh@mit.edu"
+    },
+    {
+      "name": "Saadia Gabriel",
+      "affiliations": ["University of Washington"],
+      "email": "skgabrie@cs.washington.edu"
+    },
+    {
+      "name": "Hamid Palangi",
+      "affiliations": ["Microsoft Research"],
+      "email": "hpalangi@microsoft.com"
+    },
+    {
+      "name": "Maarten Sap",
+      "affiliations": ["Carnegie Mellon University", "Allen Institute for AI"],
+      "email": "maartensap@cmu.edu"
+    },
+    {
+      "name": "Dipankar Ray",
+      "affiliations": ["Microsoft"],
+      "email": "diray@microsoft.com"
+    },
+    {
+      "name": "Ece Kamar",
+      "affiliations": ["Microsoft"],
+      "email": "eckamar@microsoft.com"
+    }
+  ]
+}
+```

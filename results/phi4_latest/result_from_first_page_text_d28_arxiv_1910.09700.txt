@@ -1,11 +1,40 @@
-**Expected Output:**
+To extract metadata from the provided academic paper context, we need to identify key elements such as the title of the paper and detailed information about each author. Below is a structured extraction in JSON format:
 
-Title: Quantifying the Carbon Emissions of Machine Learning
+```json
+{
+  "title": "Quantifying the Carbon Emissions of Machine Learning",
+  "authors": [
+    {
+      "name": "Alexandre Lacoste",
+      "affiliations": ["Element AI"],
+      "email": "allac@elementai.com"
+    },
+    {
+      "name": "Alexandra Luccioni",
+      "affiliations": ["Mila, Université de Montréal"],
+      "email": "luccionis@mila.quebec"
+    },
+    {
+      "name": "Victor Schmidt",
+      "affiliations": ["Mila, Université de Montréal"],
+      "email": "schmidtv@mila.quebec"
+    },
+    {
+      "name": "Thomas Dandres",
+      "affiliations": ["Polytechnique Montréal", "CIRAIG"],
+      "email": "thomas.dandres@polymtl.ca"
+    }
+  ]
+}
+```
 
-Authors:  
-- Name: Alexandre Lacoste, Affiliation: Element AI, Email: allac@elementai.com  
-- Name: Alexandra Luccioni, Affiliation: Mila, Université de Montréal, Email: lucucconis@mila.quebec  
-- Name: Victor Schmidt, Affiliation: Mila, Université de Montréal, Email: schmidtv@mila.quebec  
-- Name: Thomas Dandres, Affiliation: Polytechnique Montréal, CIRAIG, Email: thomas.dandres@polymtl.ca  
+### Explanation:
 
-if some info is not available write NA
+- **Title:** The title is extracted from the line just before the authors' names, "Quantifying the Carbon Emissions of Machine Learning."
+
+- **Authors and Details:**
+  - For each author listed, their name, affiliations, and email are identified.
+  - Affiliations are mapped based on the order they appear in relation to the author's details.
+  - If an email is not provided for an author, "NA" is used as a placeholder.
+
+This JSON structure ensures all required metadata is captured according to the specified format.

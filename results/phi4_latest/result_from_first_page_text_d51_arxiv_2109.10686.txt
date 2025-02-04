@@ -1,17 +1,123 @@
-**Expected Output:**
+To extract the required metadata from the provided academic paper context, we will identify the title of the paper and gather details for each author including their name, affiliations, and email address. Let's proceed with extracting this information:
 
-Title: SCALE EFFICIENTLY: INSIGHTS FROM PRE-TRAINING AND FINE-TUNING TRANSFORMERS
+### Extracted Information
 
-Authors:
-- Name: Yi Tay, Affiliation: Google Research & DeepMind, Email: yitay@google.com
-- Name: Mostafa Dehghani, Affiliation: Google Research & DeepMind, Email: dehghani@google.com
-- Name: Jinfeng Rao, Affiliation: NA, Email: NA
-- Name: William Fedus, Affiliation: NA, Email: NA
-- Name: Samira Abnar, Affiliation: NA, Email: NA
-- Name: Hyung Won Chung, Affiliation: NA, Email: NA
-- Name: Sharan Narang, Affiliation: NA, Email: NA
-- Name: Dani Yogatama, Affiliation: Google Research & DeepMind, Email: NA (†)
-- Name: Ashish Vaswani, Affiliation: Google Research & DeepMind, Email: NA
-- Name: Donald Metzler, Affiliation: Google Research & DeepMind, Email: NA
+1. **Title**: 
+   - The title is clearly mentioned at the start as "SCALE EFFICIENTLY: INSIGHTS FROM PRE-TRAINING AND FINE-TUNING TRANSFORMERS".
 
-(Note: Some information like affiliation and email for certain authors is not available in the provided context.)
+2. **Authors**:
+   - We need to identify each author, their affiliations, and email addresses.
+
+### Detailed Author Extraction
+
+1. **Yi Tay**
+   - **Name**: Yi Tay
+   - **Affiliations**: Google Research & DeepMind
+   - **Email**: yitay@google.com
+
+2. **Mostafa Dehghani**
+   - **Name**: Mostafa Dehghani
+   - **Affiliations**: Google Research & DeepMind
+   - **Email**: dehghani@google.com
+
+3. **Jinfeng Rao**
+   - **Name**: Jinfeng Rao
+   - **Affiliations**: NA (not specified)
+   - **Email**: NA
+
+4. **William Fedus**
+   - **Name**: William Fedus
+   - **Affiliations**: NA (not specified)
+   - **Email**: NA
+
+5. **Samira Abnar**
+   - **Name**: Samira Abnar
+   - **Affiliations**: NA (not specified)
+   - **Email**: NA
+
+6. **Hyung Won Chung**
+   - **Name**: Hyung Won Chung
+   - **Affiliations**: NA (not specified)
+   - **Email**: NA
+
+7. **Sharan Narang**
+   - **Name**: Sharan Narang
+   - **Affiliations**: NA (not specified)
+   - **Email**: NA
+
+8. **Dani Yogatama**
+   - **Name**: Dani Yogatama
+   - **Affiliations**: Google Research & DeepMind
+   - **Email**: NA
+
+9. **Ashish Vaswani**
+   - **Name**: Ashish Vaswani
+   - **Affiliations**: NA (not specified)
+   - **Email**: NA
+
+10. **Donald Metzler**
+    - **Name**: Donald Metzler
+    - **Affiliations**: NA (not specified)
+    - **Email**: NA
+
+### JSON Output
+
+```json
+{
+  "title": "SCALE EFFICIENTLY: INSIGHTS FROM PRE-TRAINING AND FINE-TUNING TRANSFORMERS",
+  "authors": [
+    {
+      "name": "Yi Tay",
+      "affiliations": ["Google Research & DeepMind"],
+      "email": "yitay@google.com"
+    },
+    {
+      "name": "Mostafa Dehghani",
+      "affiliations": ["Google Research & DeepMind"],
+      "email": "dehghani@google.com"
+    },
+    {
+      "name": "Jinfeng Rao",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "William Fedus",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Samira Abnar",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Hyung Won Chung",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sharan Narang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Dani Yogatama",
+      "affiliations": ["Google Research & DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Ashish Vaswani",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Donald Metzler",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+This structured JSON output accurately reflects the extracted metadata based on the given context, adhering to the specified constraints.

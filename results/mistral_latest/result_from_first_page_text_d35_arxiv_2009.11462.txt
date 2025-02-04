@@ -1,7 +1,0 @@
- Title: Evaluating Neural Toxic Degeneration in Language Models
-   Authors:
-   - Name: Samuel Gehman, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington, Email: sgehman@cs.washington.edu
-   - Name: Suchin Gururangan, Affiliation: Allen Institute for Artiﬁcial Intelligence, Email: N/A
-   - Name: Maarten Sap, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington, Email: msap@cs.washington.edu
-   - Name: Yejin Choi, Affiliation: Allen Institute for Artiﬁcial Intelligence, Email: N/A
-   - Name: Noah A. Smith, Affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington, Email: nasmith@cs.washington.edu

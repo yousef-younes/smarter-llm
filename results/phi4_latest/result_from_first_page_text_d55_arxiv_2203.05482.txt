@@ -1,16 +1,57 @@
-**Expected Output:**
-
-Title: Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time
-
-Authors:
-- Name: Mitchell Wortsman, Affiliation: University of Washington, Email: mitchnw@uw.edu
-- Name: Gabriel Ilharco, Affiliation: University of Washington, Email: NA
-- Name: Samir Yitzhak Gadre, Affiliation: Columbia University, Email: NA
-- Name: Rebecca Roelofs, Affiliation: Meta AI Research, Email: NA
-- Name: Raphael Gontijo-Lopes, Affiliation: Meta AI Research, Email: NA
-- Name: Ari S. Mörcos, Affiliation: Google Research, Brain Team, Email: NA
-- Name: Hongseok Namkoong, Affiliation: Columbia University, Email: NA
-- Name: Ali Farhadi, Affiliation: University of Washington, Email: NA
-- Name: Yair Carmon, Affiliation: Tel Aviv University, Email: NA
-- Name: Simon Kornblith, Correspondence to: mitchnw@uw.edu, Affiliation: NA, Email: NA
-- Name: Ludwig Schmidt, Affiliation: University of Washington, Email: NA
+```json
+{
+  "title": "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time",
+  "authors": [
+    {
+      "name": "Mitchell Wortsman",
+      "affiliations": ["1 University of Washington", "2 Columbia University"],
+      "email": "mitchnw@uw.edu"
+    },
+    {
+      "name": "Gabriel Ilharco",
+      "affiliations": ["1 University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Samir Yitzhak Gadre",
+      "affiliations": ["2 Columbia University"],
+      "email": "NA"
+    },
+    {
+      "name": "Rebecca Roelofs",
+      "affiliations": ["3 Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Raphael Gontijo-Lopes",
+      "affiliations": ["3 Google Research, Brain Team", "4 Meta AI Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Ari S. Morcos",
+      "affiliations": ["4 Meta AI Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Hongseok Namkoong",
+      "affiliations": ["2 Columbia University"],
+      "email": "NA"
+    },
+    {
+      "name": "Ali Farhadi",
+      "affiliations": ["1 University of Washington", "5 Tel Aviv University"],
+      "email": "NA"
+    },
+    {
+      "name": "Yair Carmon",
+      "affiliations": ["5 Tel Aviv University"],
+      "email": "mitchnw@uw.edu"
+    },
+    {
+      "name": "Simon Kornblith",
+      "affiliations": ["3 Google Research, Brain Team"],
+      "email": "mitchnw@uw.edu"
+    }
+  ]
+}
+```

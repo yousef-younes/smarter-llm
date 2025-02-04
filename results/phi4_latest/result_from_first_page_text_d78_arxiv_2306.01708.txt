@@ -1,12 +1,32 @@
-**Expected Output:**
-
-Title: TIES-MERGING: Resolving Interference When Merging Models
-
-Authors:  
-- Name: Prateek Yadav, Affiliation: University of North Carolina at Chapel Hill, Email: praty@cs.unc.edu  
-- Name: Derek Tam, Affiliation: University of North Carolina at Chapel Hill, Email: NA  
-- Name: Leshem Choshen, Affiliation: IBM Research, MIT, Email: leshm.choshen@ibm.com  
-- Name: Colin Raffel, Affiliation: University of North Carolina at Chapel Hill, Email: craffel@cs.unc.edu  
-- Name: Mohit Bansal, Affiliation: University of North Carolina at Chapel Hill, Email: mbansal@cs.unc.edu  
-
-(Note: The email for Derek Tam is not provided in the context.)
+```json
+{
+  "title": "TIES-MERGING: Resolving Interference When Merging Models",
+  "authors": [
+    {
+      "name": "Prateek Yadav",
+      "affiliations": ["University of North Carolina at Chapel Hill"],
+      "email": "NA"
+    },
+    {
+      "name": "Derek Tam",
+      "affiliations": ["University of North Carolina at Chapel Hill"],
+      "email": "NA"
+    },
+    {
+      "name": "Leshem Choshen",
+      "affiliations": ["IBM Research", "MIT"],
+      "email": "leshem.choshen@ibm.com"
+    },
+    {
+      "name": "Colin Raffel",
+      "affiliations": ["University of North Carolina at Chapel Hill"],
+      "email": "NA"
+    },
+    {
+      "name": "Mohit Bansal",
+      "affiliations": ["University of North Carolina at Chapel Hill"],
+      "email": "NA"
+    }
+  ]
+}
+```

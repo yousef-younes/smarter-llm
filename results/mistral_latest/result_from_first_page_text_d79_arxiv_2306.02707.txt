@@ -1,8 +1,0 @@
- Title: Advances in AI Research with Orca: Progressive Learning from Complex Explanation Traces of GPT-4
-   Authors:
-   - Name: Subhabrata Mukherjee, Affiliation: Microsoft Research, Email: subhabrata.mukherjee@microsoft.com
-   - Name: Arindam Mitra, Affiliation: Microsoft Research, Email: NA (as it is not provided in the context)
-   - Name: Ganesh Jawahar, Affiliation: Microsoft Research, Email: NA (as it is not provided in the context)
-   - Name: Sahaj Agarwal, Affiliation: Microsoft Research, Email: NA (as it is not provided in the context)
-   - Name: Hamid Palangi, Affiliation: Microsoft Research, Email: NA (as it is not provided in the context)
-   - Name: Ahmed Awadallah, Affiliation: Microsoft Research, Email: NA (as it is not provided in the context)

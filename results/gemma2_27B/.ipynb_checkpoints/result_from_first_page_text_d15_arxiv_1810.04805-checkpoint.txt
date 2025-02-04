@@ -1,7 +1,0 @@
-**Expected Output:**
-Title: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding 
-Authors:  
- - Name: Jacob Devlin, Affiliation: Google AI Language, Email: jacobdevlin@google.com  
- - Name: Ming-Wei Chang, Affiliation: Google AI Language, Email: mingweichang@google.com  
- - Name: Kenton Lee, Affiliation: Google AI Language, Email: kentonl@google.com  
- - Name: Kristina Toutanova, Affiliation: Google AI Language, Email: kristout@google.com   

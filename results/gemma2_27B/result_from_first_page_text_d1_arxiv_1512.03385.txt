@@ -1,8 +1,0 @@
-**Expected Output:**
-
-Title: Deep Residual Learning for Image Recognition 
-Authors:  
-- Name: Kaiming He, Affiliation: Microsoft Research, Email: kahe@microsoft.com 
-- Name: Xiangyu Zhang, Affiliation: Microsoft Research, Email: v-xiangz@microsoft.com
-- Name: Shaoqing Ren, Affiliation: Microsoft Research, Email: v-shren@microsoft.com  
-- Name: Jian Sun, Affiliation: Microsoft Research, Email: jiansun@microsoft.com 

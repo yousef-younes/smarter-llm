@@ -1,9 +1,0 @@
-Here is the extracted title and author information in the requested format:
-
-**Expected Output:**
-Title: Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering
-Authors:  
-- Name: Todor Mihaylov, Affiliation: Research Training Group AIPHES & Heidelberg University, Email: mihaylov@cl.uni-heidelberg.de  
-- Name: Peter Clark, Affiliation: Allen Institute for Artiﬁcial Intelligence, Email: peterc@allenai.org  
-- Name: Tushar Khot, Affiliation: Allen Institute for Artiﬁcial Intelligence, Email: tushark@allenai.org  
-- Name: Ashish Sabharwal, Affiliation: Allen Institute for Artiﬁcial Intelligence, Email: ashishs@allenai.org

@@ -1,18 +1,73 @@
-**Expected Output:**
+```json
+{
+  "title": "Program Synthesis with Large Language Models",
+  "authors": [
+    {
+      "name": "Jacob Austin*",
+      "affiliations": ["Google Research"],
+      "email": "jaaustin@google.com"
+    },
+    {
+      "name": "Augustus Odena*",
+      "affiliations": ["Google Research"],
+      "email": "augustusodena@google.com"
+    },
+    {
+      "name": "Maxwell Nye†",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Maarten Bosma",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Henryk Michalewski",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "David Dohan",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ellen Jiang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Carrie Cai",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Terry",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Quoc Le",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Charles Sutton",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    }
+  ]
+}
+```
 
-Title: Program Synthesis with Large Language Models
+### Explanation:
 
-Authors:
-- Name: Jacob Austin*, Affiliation: Google Research, Email: jaaustin@google.com
-- Name: Augustus Odena*, Affiliation: Google Research, Email: augustusodena@google.com
-- Name: Maxwell Nye† Maarten Bosma, Affiliation: NA, Email: NA
-- Name: Henryk Michalewski, Affiliation: NA, Email: NA
-- Name: David Dohan, Affiliation: NA, Email: NA
-- Name: Ellen Jiang, Affiliation: NA, Email: NA
-- Name: Carrie Cai, Affiliation: NA, Email: NA
-- Name: Michael Terry, Affiliation: NA, Email: NA
-- Name: Quoc Le, Affiliation: NA, Email: NA
-- Name: Charles Sutton, Affiliation: NA, Email: NA
+- **Title**: Extracted directly from the context provided as "Program Synthesis with Large Language Models".
+  
+- **Authors**:
+  - Each author's name is listed in the context.
+  - Affiliations are mapped based on available information. For authors marked with an asterisk (*), they are associated with Google Research. The other authors do not have explicit affiliations mentioned, so "NA" is used.
+  - Email addresses are provided for Jacob Austin and Augustus Odena. Other authors do not have email addresses listed, hence "NA" is used.
 
-* denotes equal contribution  
-† affiliation not specified in the context provided.
+This structured JSON format allows easy comparison with any ground truth data you might have.

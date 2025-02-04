@@ -1,9 +1,25 @@
-**Expected Output:**
+Based on the provided context, here is the extracted metadata in JSON format:
 
-Title: Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks
+```json
+{
+  "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+  "authors": [
+    {
+      "name": "Nils Reimers",
+      "affiliations": ["Ubiquitous Knowledge Processing Lab (UKP-TUDA)", "Department of Computer Science, Technische Universität Darmstadt"],
+      "email": "NA"
+    },
+    {
+      "name": "Iryna Gurevych",
+      "affiliations": ["Ubiquitous Knowledge Processing Lab (UKP-TUDA)", "Department of Computer Science, Technische Universität Darmstadt"],
+      "email": "NA"
+    }
+  ]
+}
+```
 
-Authors:  
-- Name: Nils Reimers, Affiliation: Ubiquitous Knowledge Processing Lab (UKP-TUDA), Department of Computer Science, Technische Universität Darmstadt, Email: NA  
-- Name: Iryna Gurevych, Affiliation: Ubiquitous Knowledge Processing Lab (UKP-TUDA), Department of Computer Science, Technische Universität Darmstadt, Email: NA  
-
-**Note:** The email addresses are not provided in the context.
+Explanation:
+- The **title** is extracted from the section labeled "1 Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks".
+- The **authors** are listed as "Nils Reimers and Iryna Gurevych" under their respective affiliations.
+- Both authors share the same affiliations, which are provided in the context following their names.
+- No email addresses are mentioned for either author, so "NA" is used.

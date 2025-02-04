@@ -1,11 +1,36 @@
-**Expected Output:**
+Based on the provided context from the academic paper, here is the extracted metadata in JSON format:
 
-Title: YaRN: Efficient Context Window Extension of Large Language Models
+```json
+{
+  "title": "YaRN: Efficient Context Window Extension of Large Language Models",
+  "authors": [
+    {
+      "name": "Bowen Peng",
+      "affiliations": ["Nous Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Jeffrey Quesnelle",
+      "affiliations": ["Nous Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Honglu Fan",
+      "affiliations": ["EleutherAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Enrico Shippole",
+      "affiliations": ["University of Geneva"],
+      "email": "NA"
+    }
+  ]
+}
+```
 
-Authors:  
-- Name: Bowen Peng, Affiliation: Nous Research, Email: NA  
-- Name: Jeffrey Quesnelle, Affiliation: Nous Research, Email: NA  
-- Name: Honglu Fan, Affiliation: EleutherAI, Email: NA  
-- Name: Enrico Shippole, Affiliation: University of Geneva, Email: NA  
-
-(Note: The email addresses are not provided in the context and thus marked as NA.)
+### Explanation:
+- **Title**: Extracted directly from the context.
+- **Authors**:
+  - Each author is listed with their respective name and affiliation(s).
+  - No email addresses are provided in the context, so they are marked as "NA".
+- **Affiliations**: Correctly mapped based on the list following each author's name.

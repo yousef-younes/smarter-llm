@@ -1,9 +1,0 @@
- Title: Editing Models with Task Arithmetic
-   Authors:
-   - Name: Gabriel Ilharco, Affiliation: University of Washington, Email: NA (not provided in the context)
-   - Name: Marco Tulio Ribeiro, Affiliation: Microsoft Research, Email: NA (not provided in the context)
-   - Name: Mitchell Wortsman, Affiliation: University of Washington, Email: NA (not provided in the context)
-   - Name: Suchin Gururangan, Affiliation: University of Washington, Email: NA (not provided in the context)
-   - Name: Ludwig Schmidt, Affiliation: University of Washington and Allen Institute for AI, Email: NA (not provided in the context)
-   - Name: Hannaneh Hajishirzi, Affiliation: University of Washington and Allen Institute for AI, Email: NA (not provided in the context)
-   - Name: Ali Farhadi, Affiliation: University of Washington, Email: NA (not provided in the context)

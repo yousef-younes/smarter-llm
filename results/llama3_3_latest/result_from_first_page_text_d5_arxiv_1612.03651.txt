@@ -1,9 +1,0 @@
-Based on the provided context, here is the extracted title and author information:
-
-
-Title: NA 
-Authors:  
-- Name: NA, Affiliation: Facebook Research, Email: NA 
-
-
-Note: The title of the paper is not explicitly mentioned in the provided context. Also, there is no information about the authors' names or email addresses. However, it can be inferred that the paper is affiliated with Facebook Research, as indicated by the link to the fastText library on GitHub (https://github.com/facebookresearch/fastText).

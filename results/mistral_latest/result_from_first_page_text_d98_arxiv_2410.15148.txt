@@ -1,6 +1,0 @@
- Title: Less is More: Parameter-Efficient Selection of Intermediate Tasks for Transfer Learning
-
-   Authors:
-   - Name: David Schulte, Affiliation: Humboldt University of Berlin, Email: davidsiriusschulte@gmail.com
-   - Name: Felix Hamborg, Affiliation: Humboldt University of Berlin, Email: {felix.hamborg}@hu-berlin.de (No last name provided)
-   - Name: Alan Akbik, Affiliation: Humboldt University of Berlin, Email: alan.akbik@hu-berlin.de

@@ -1,10 +1,45 @@
-**Title:** PIQA: Reasoning about Physical Commonsense in Natural Language
+To extract metadata from the provided context of the academic paper, we will identify the title and author information, adhering to the specified format and constraints.
 
-**Authors:**  
-- Name: Yonatan Bisk, Affiliation: Allen Institute for Artificial Intelligence, Microsoft Research AI, Carnegie Mellon University, Paul G. Allen School for Computer Science and Engineering, University of Washington, Email: NA  
-- Name: Rowan Zellers, Affiliation: Allen Institute for Artificial Intelligence, Paul G. Allen School for Computer Science and Engineering, University of Washington, Email: NA  
-- Name: Ronan Le Bras, Affiliation: Allen Institute for Artificial Intelligence, Email: NA  
-- Name: Jianfeng Gao, Affiliation: Microsoft Research AI, Email: NA  
-- Name: Yejin Choi, Affiliation: Allen Institute for Artificial Intelligence, Paul G. Allen School for Computer Science and Engineering, University of Washington, Email: NA  
+### Extracted Metadata
 
-If some info is not available, write NA.
+```json
+{
+  "title": "PIQA: Reasoning about Physical Commonsense in Natural Language",
+  "authors": [
+    {
+      "name": "Yonatan Bisk",
+      "affiliations": ["Allen Institute for Artificial Intelligence", "Microsoft Research AI", "Carnegie Mellon University", "Paul G. Allen School for Computer Science and Engineering, University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Rowan Zellers",
+      "affiliations": ["Allen Institute for Artificial Intelligence", "Paul G. Allen School for Computer Science and Engineering, University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Ronan Le Bras",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    },
+    {
+      "name": "Jianfeng Gao",
+      "affiliations": ["Microsoft Research AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Allen Institute for Artificial Intelligence", "Paul G. Allen School for Computer Science and Engineering, University of Washington"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+### Explanation
+
+- **Title**: Extracted directly from the context as "PIQA: Reasoning about Physical Commonsense in Natural Language".
+- **Authors and Affiliations**:
+  - Each author's name is listed with their respective affiliations. An author may be associated with multiple institutions.
+  - Since no email addresses are provided, all entries for emails are set to "NA" as per the constraints.
+
+This structured JSON output follows the specified format and constraints, ensuring clarity and completeness where possible.

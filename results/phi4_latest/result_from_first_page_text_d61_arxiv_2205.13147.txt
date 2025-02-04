@@ -1,18 +1,62 @@
-**Expected Output:**
-
-Title: Matryoshka Representation Learning
-
-Authors:  
-- Name: Aditya Kusupati, Affiliation: University of Washington, Email: kusupati@cs.washington.edu  
-- Name: Gantavya Bhatt, Affiliation: University of Washington, Email: NA  
-- Name: Aniket Rege, Affiliation: University of Washington, Email: NA  
-- Name: Matthew Wallingford, Affiliation: University of Washington, Email: NA  
-- Name: Aditya Sinha, Affiliation: Google Research, Email: prajain@google.com  
-- Name: Vivek Ramanujan, Affiliation: University of Washington, Email: NA  
-- Name: William Howard-Snyder, Affiliation: University of Washington, Email: NA  
-- Name: Kaifeng Chen, Affiliation: Google Research, Email: NA  
-- Name: Sham Kakade, Affiliation: Harvard University, Email: NA  
-- Name: Prateek Jain, Affiliation: Google Research, Email: prajain@google.com  
-- Name: Ali Farhadi, Affiliation: University of Washington, Email: ali@cs.washington.edu  
-
-Note: Emails are provided when available.
+```json
+{
+  "title": "Matryoshka Representation Learning",
+  "authors": [
+    {
+      "name": "Aditya Kusupati",
+      "affiliations": ["University of Washington", "Google Research"],
+      "email": "kusupati@cs.washington.edu"
+    },
+    {
+      "name": "Gantavya Bhatt",
+      "affiliations": ["University of Washington", "Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Aniket Rege",
+      "affiliations": ["University of Washington", "Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthew Wallingford",
+      "affiliations": ["University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Aditya Sinha",
+      "affiliations": ["Google Research"],
+      "email": "prajain@google.com"
+    },
+    {
+      "name": "Vivek Ramanujan",
+      "affiliations": ["University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "William Howard-Snyder",
+      "affiliations": ["University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Kaifeng Chen",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Sham Kakade",
+      "affiliations": ["Harvard University"],
+      "email": "NA"
+    },
+    {
+      "name": "Prateek Jain",
+      "affiliations": ["Google Research"],
+      "email": "prajain@google.com"
+    },
+    {
+      "name": "Ali Farhadi",
+      "affiliations": ["University of Washington"],
+      "email": "ali@cs.washington.edu"
+    }
+  ]
+}
+```
