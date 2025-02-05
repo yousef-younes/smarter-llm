@@ -1,0 +1,25 @@
+{
+  "title": "Quantifying the Carbon Emissions of Machine Learning",
+  "authors": [
+    {
+      "name": "Alexandre Lacoste",
+      "affiliations": ["Element AI"],
+      "email": "allac@elementai.com"
+    },
+    {
+      "name": "Alexandra Luccioni",
+      "affiliations": ["Mila, Université de Montréal"],
+      "email": "luccionis@mila.quebec"
+    },
+    {
+      "name": "Victor Schmidt",
+      "affiliations": ["Mila, Université de Montréal"],
+      "email": "schmidtv@mila.quebec"
+    },
+    {
+      "name": "Thomas Dandres",
+      "affiliations": ["Polytechnique Montréal, CIRAIG"],
+      "email": "thomas.dandres@polymtl.ca"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "title": "LLaMA: Open and Efficient Foundation Language Models",
+  "authors": [
+    {
+      "name": "Hugo Touvron",
+      "affiliations": ["Meta AI"],
+      "email": "htouvron@meta.com"
+    },
+    {
+      "name": "Thibaut Lavril",
+      "affiliations": ["Meta AI"],
+      "email": "thibautlav@meta.com"
+    },
+    {
+      "name": "Gautier Izacard",
+      "affiliations": ["Meta AI"],
+      "email": "gizacard@meta.com"
+    },
+    {
+      "name": "Xavier Martinet",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Marie-Anne Lachaux",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Timothee Lacroix",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Baptiste Rozière",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Naman Goyal",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Eric Hambro",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Faisal Azhar",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Aurelien Rodriguez",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Armand Joulin",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Edouard Grave",
+      "affiliations": ["Meta AI"],
+      "email": "egrave@meta.com"
+    },
+    {
+      "name": "Guillaume Lample",
+      "affiliations": ["Meta AI"],
+      "email": "glample@meta.com"
+    }
+  ]
+}

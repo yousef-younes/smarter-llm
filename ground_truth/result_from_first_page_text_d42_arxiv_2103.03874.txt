@@ -1,0 +1,45 @@
+{
+  "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
+  "authors": [
+    {
+      "name": "Dan Hendrycks",
+      "affiliations": ["UC Berkeley"],
+      "email": "NA"
+    },
+    {
+      "name": "Collin Burns",
+      "affiliations": ["UC Berkeley"],
+      "email": "NA"
+    },
+    {
+      "name": "Saurav Kadavath",
+      "affiliations": ["UC Berkeley"],
+      "email": "NA"
+    },
+    {
+      "name": "Akul Arora",
+      "affiliations": ["UC Berkeley"],
+      "email": "NA"
+    },
+    {
+      "name": "Steven Basart",
+      "affiliations": ["UChicago"],
+      "email": "NA"
+    },
+    {
+      "name": "Eric Tang",
+      "affiliations": ["UC Berkeley"],
+      "email": "NA"
+    },
+    {
+      "name": "Dawn Song",
+      "affiliations": ["UC Berkeley"],
+      "email": "NA"
+    },
+    {
+      "name": "Jacob Steinhardt",
+      "affiliations": ["UC Berkeley"],
+      "email": "NA"
+    }
+  ]
+}

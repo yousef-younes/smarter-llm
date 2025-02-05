@@ -1,0 +1,65 @@
+{
+  "title": "AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE",
+  "authors": [
+    {
+      "name": "Alexey Dosovitskiy",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "adosovitskiy@google.com"
+    },
+    {
+      "name": "Lucas Beyer",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexander Kolesnikov",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Dirk Weissenborn",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaohua Zhai",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Thomas Unterthiner",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Mostafa Dehghani",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Minderer",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Georg Heigold",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Sylvain Gelly",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Jakob Uszkoreit",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Neil Houlsby",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "neilhoulsby@google.com"
+    }
+  ]
+}

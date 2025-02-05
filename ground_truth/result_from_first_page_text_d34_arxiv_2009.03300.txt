@@ -1,0 +1,40 @@
+{
+  "title": "MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING",
+  "authors": [
+    {
+      "name": "Dan Hendrycks",
+      "affiliations": ["UC Berkeley"],
+      "email": "NA"
+    },
+    {
+      "name": "Collin Burns",
+      "affiliations": ["Columbia University"],
+      "email": "NA"
+    },
+    {
+      "name": "Steven Basart",
+      "affiliations": ["UChicago"],
+      "email": "NA"
+    },
+    {
+      "name": "Andy Zou",
+      "affiliations": ["UC Berkeley"],
+      "email": "NA"
+    },
+    {
+      "name": "Mantas Mazeika",
+      "affiliations": ["UIUC"],
+      "email": "NA"
+    },
+    {
+      "name": "Dawn Song",
+      "affiliations": ["UC Berkeley"],
+      "email": "NA"
+    },
+    {
+      "name": "Jacob Steinhardt",
+      "affiliations": ["UC Berkeley"],
+      "email": "NA"
+    }
+  ]
+}

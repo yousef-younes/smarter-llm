@@ -1,0 +1,28 @@
+{
+  "title": "WINOGRANDE: An Adversarial Winograd Schema Challenge at Scale",
+  "authors": [
+    {
+      "name": "Keisuke Sakaguchi",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "keisukes@allenai.org"
+    },
+    {
+      "name": "Ronan Le Bras",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "ronanlb@allenai.org"
+    },
+    {
+      "name": "Chandra Bhagavatula",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "chandrab@allenai.org"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": [
+        "Allen Institute for Artificial Intelligence",
+        "University of Washington"
+      ],
+      "email": "yejinc@allenai.org"
+    }
+  ]
+}

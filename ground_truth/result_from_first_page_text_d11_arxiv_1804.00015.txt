@@ -1,0 +1,65 @@
+{
+  "title": "ESPnet: End-to-End Speech Processing Toolkit",
+  "authors": [
+    {
+      "name": "Shinji Watanabe",
+      "affiliations": ["Johns Hopkins University"],
+      "email": "shinjiw@jhu.edu"
+    },
+    {
+      "name": "Takaaki Hori",
+      "affiliations": ["Mitsubishi Electric Research Laboratories"],
+      "email": "NA"
+    },
+    {
+      "name": "Shigeki Karita",
+      "affiliations": ["NTT Communication Science Laboratories"],
+      "email": "NA"
+    },
+    {
+      "name": "Tomoki Hayashi",
+      "affiliations": ["Nagoya University"],
+      "email": "NA"
+    },
+    {
+      "name": "Jiro Nishitoba",
+      "affiliations": ["Retrieva, Inc."],
+      "email": "NA"
+    },
+    {
+      "name": "Yuya Unno",
+      "affiliations": ["Preferred Networks, Inc."],
+      "email": "NA"
+    },
+    {
+      "name": "Nelson Enrique Yalta Soplin",
+      "affiliations": ["Waseda University"],
+      "email": "NA"
+    },
+    {
+      "name": "Jahn Heymann",
+      "affiliations": ["Paderborn University"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthew Wiesner",
+      "affiliations": ["Johns Hopkins University"],
+      "email": "NA"
+    },
+    {
+      "name": "Nanxin Chen",
+      "affiliations": ["Johns Hopkins University"],
+      "email": "NA"
+    },
+    {
+      "name": "Adithya Renduchintala",
+      "affiliations": ["Johns Hopkins University"],
+      "email": "NA"
+    },
+    {
+      "name": "Tsubasa Ochiai",
+      "affiliations": ["Doshisha University"],
+      "email": "NA"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "title": "Qwen2.5-Coder Technical Report",
+  "authors": [
+    {
+      "name": "Binyuan Hui",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jian Yang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Zeyu Cui",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jiaxi Yang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Dayiheng Liu",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Lei Zhang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Tianyu Liu",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jiajun Zhang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Bowen Yu",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Keming Lu",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Kai Dang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yang Fan",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yichang Zhang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "An Yang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Rui Men",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Fei Huang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Bo Zheng",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yibo Miao",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Shanghaoran Quan",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yunlong Feng",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Xingzhang Ren",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Xuancheng Ren",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jingren Zhou",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Junyang Lin",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    }
+  ]
+}

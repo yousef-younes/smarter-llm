@@ -1,0 +1,85 @@
+{
+  "title": "Scaling Speech Technology to 1,000+ Languages",
+  "authors": [
+    {
+      "name": "Vineel Pratap",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Andros Tjandra",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Bowen Shi",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Paden Tomasello",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Arun Babu",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Sayani Kundu",
+      "affiliations": ["JPMorgan Chase"],
+      "email": "NA"
+    },
+    {
+      "name": "Ali Elkahky",
+      "affiliations": ["Apple"],
+      "email": "NA"
+    },
+    {
+      "name": "Zhaoheng Ni",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Apoorv Vyas",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Maryam Fazel-Zarandi",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexei Baevski",
+      "affiliations": ["Character.AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Yossi Adi",
+      "affiliations": ["Meta AI", "Hebrew University of Jerusalem"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaohui Zhang",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Wei-Ning Hsu",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexis Conneau",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Auli",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    }
+  ]
+}
