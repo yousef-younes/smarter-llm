@@ -1,0 +1,141 @@
+2
+2
+0
+2
+
+y
+a
+M
+3
+2
+
+]
+
+V
+C
+.
+s
+c
+[
+
+1
+v
+7
+8
+4
+1
+1
+.
+5
+0
+2
+2
+:
+v
+i
+X
+r
+a
+
+Photorealistic Text-to-Image Diffusion Models
+with Deep Language Understanding
+
+Chitwan Saharia∗, William Chan∗, Saurabh Saxena†, Lala Li†, Jay Whang†,
+Emily Denton, Seyed Kamyar Seyed Ghasemipour, Burcu Karagol Ayan,
+S. Sara Mahdavi, Rapha Gontijo Lopes, Tim Salimans,
+Jonathan Ho†, David J Fleet†, Mohammad Norouzi∗
+
+{sahariac,williamchan,mnorouzi}@google.com
+{srbs,lala,jwhang,jonathanho,davidfleet}@google.com
+
+Google Research, Brain Team
+Toronto, Ontario, Canada
+
+Abstract
+
+We present Imagen, a text-to-image diffusion model with an unprecedented degree
+of photorealism and a deep level of language understanding. Imagen builds on
+the power of large transformer language models in understanding text and hinges
+on the strength of diffusion models in high-ﬁdelity image generation. Our key
+discovery is that generic large language models (e.g. T5), pretrained on text-only
+corpora, are surprisingly effective at encoding text for image synthesis: increasing
+the size of the language model in Imagen boosts both sample ﬁdelity and image-
+text alignment much more than increasing the size of the image diffusion model.
+Imagen achieves a new state-of-the-art FID score of 7.27 on the COCO dataset,
+without ever training on COCO, and human raters ﬁnd Imagen samples to be on par
+with the COCO data itself in image-text alignment. To assess text-to-image models
+in greater depth, we introduce DrawBench, a comprehensive and challenging
+benchmark for text-to-image models. With DrawBench, we compare Imagen with
+recent methods including VQ-GAN+CLIP, Latent Diffusion Models, GLIDE and
+DALL-E 2, and ﬁnd that human raters prefer Imagen over other models in side-by-
+side comparisons, both in terms of sample quality and image-text alignment. See
+imagen.research.google for an overview of the results.
+
+1
+
+Introduction
+
+Multimodal learning has come into prominence recently, with text-to-image synthesis [53, 12, 57]
+and image-text contrastive learning [49, 31, 74] at the forefront. These models have transformed
+the research community and captured widespread public attention with creative image generation
+[22, 54] and editing applications [21, 41, 34]. To pursue this research direction further, we introduce
+Imagen, a text-to-image diffusion model that combines the power of transformer language models
+(LMs) [15, 52] with high-ﬁdelity diffusion models [28, 29, 16, 41] to deliver an unprecedented
+degree of photorealism and a deep level of language understanding in text-to-image synthesis. In
+contrast to prior work that uses only image-text data for model training [e.g., 53, 41], the key ﬁnding
+behind Imagen is that text embeddings from large LMs [52, 15], pretrained on text-only corpora, are
+remarkably effective for text-to-image synthesis. See Fig. 1 for select samples.
+
+Imagen comprises a frozen T5-XXL [52] encoder to map input text into a sequence of embeddings
+and a 64×64 image diffusion model, followed by two super-resolution diffusion models for generating
+
+∗Equal contribution.
+†Core contribution.
+
+ 
+ 
+ 
+ 
+ 
+ 
+Sprouts in the shape of text ‘Imagen’ coming out of a
+fairytale book.
+
+A photo of a Shiba Inu dog with a backpack riding a
+bike. It is wearing sunglasses and a beach hat.
+
+A high contrast portrait of a very happy fuzzy panda
+dressed as a chef in a high end kitchen making dough.
+There is a painting of ﬂowers on the wall behind him.
+
+Teddy bears swimming at the Olympics 400m Butter-
+ﬂy event.
+
+A cute corgi lives in a house made out of sushi.
+
+A cute sloth holding a small treasure chest. A bright
+golden glow is coming from the chest.
+
+A brain riding a rocketship heading towards the moon.
+
+A dragon fruit wearing karate belt in the snow.
+
+A strawberry mug ﬁlled with white sesame seeds. The
+mug is ﬂoating in a dark chocolate sea.
+
+Figure 1: Select 1024 × 1024 Imagen samples for various text inputs. We only include photorealistic
+images in this ﬁgure and leave artistic content to the Appendix, since generating photorealistic images
+is more challenging from a technical point of view. Figs. A.1 to A.3 show more samples.
+
+2
+
+256×256 and 1024×1024 images (see Fig. A.4). All diffusion models are conditioned on the text
+embedding sequence and use classiﬁer-free guidance [27]. Imagen relies on new sampling techniques
+to allow usage of large guidance weights without sample quality degradation observed in prior work,
+resulting in images with higher ﬁdelity and better image-text alignment than previously possible.
+
+While conceptually simple and easy to train, Imagen yields surprisingly strong results. Imagen
+outperforms other methods on COCO [36] with zero-shot FID-30K of 7.27, signiﬁcantly outper-
+forming prior work such as GLIDE [41] (at 12.4) and the concurrent work of DALL-E 2 [54] (at
+10.4). Our zero-shot FID score is also better than state-of-the-art models trained on COCO, e.g.,
+Make-A-Scene [22] (at 7.6). Additionally, human raters indicate that generated samples from Im

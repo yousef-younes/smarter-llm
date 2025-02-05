@@ -1,0 +1,162 @@
+4
+2
+0
+2
+
+t
+c
+O
+0
+1
+
+]
+
+V
+C
+.
+s
+c
+[
+
+2
+v
+6
+2
+7
+7
+0
+.
+7
+0
+4
+2
+:
+v
+i
+X
+r
+a
+
+July 2024
+
+PaliGemma: A versatile 3B VLM for transfer
+Lucas Beyer*,†, Andreas Steiner*, André Susano Pinto*, Alexander Kolesnikov*, Xiao Wang*, Daniel Salz,
+Maxim Neumann, Ibrahim Alabdulmohsin, Michael Tschannen, Emanuele Bugliarello, Thomas Unterthiner,
+Daniel Keysers, Skanda Koppula, Fangyu Liu, Adam Grycner, Alexey Gritsenko, Neil Houlsby, Manoj Kumar,
+Keran Rong, Julian Eisenschlos, Rishabh Kabra, Matthias Bauer, Matko Bošnjak, Xi Chen, Matthias Minderer,
+Paul Voigtlaender, Ioana Bica, Ivana Balazevic, Joan Puigcerver, Pinelopi Papalampidi, Olivier Henaff, Xi
+Xiong, Radu Soricut, Jeremiah Harmsen and Xiaohua Zhai*,†
+*Core team, †Project lead
+
+PaliGemma is an open Vision-Language Model (VLM) that is based on the SigLIP-So400m vision encoder
+and the Gemma-2B language model. It is trained to be a versatile and broadly knowledgeable base
+model that is effective to transfer. It achieves strong performance on a wide variety of open-world tasks.
+We evaluate PaliGemma on almost 40 diverse tasks including standard VLM benchmarks, but also more
+specialized tasks such as remote-sensing and segmentation.
+
+1. Introduction
+
+PaliGemma is an open model, continuing the line
+of PaLI vision-language models in a combination
+with the Gemma family of language models.
+
+PaLI
+
+is a series of state-of-the-art vision-
+language models, starting with the first PaLI [23]
+showing promising scaling results up to 17 B,
+using classification pretrained ViT [131] and
+mT5 [126] language model. PaLI-X [24] and
+PaLM-E [36] then pushed this further, combin-
+ing ViT-22 B [29] and a 32 B UL2 [104] language
+model or the 540 B PaLM [28] language model,
+respectively, and getting further increased perfor-
+mance on vision-language tasks, albeit saturating
+performance on standard image classification and
+retrieval tasks. Finally, PaLI-3 [25] demonstrates
+that through better pretraining with SigLIP [133]
+and more careful multimodal data curation, a 2 B
+vision and 3 B language model (i.e. a 5 B vision-
+language model) matches the 10x larger PaLI-X
+and 100x larger PaLM-E across most benchmarks.
+
+PaliGemma continues this trend, combining the
+400 M SigLIP and the 2 B Gemma models [82]
+into a sub-3 B VLM that still maintains perfor-
+mance comparable to PaLI-X, PaLM-E, and PaLI-3.
+
+Gemma [82] is a family of auto-regressive
+decoder-only open large language models built
+from the same research and technology used to
+create the Gemini [7] models. The models come
+in different sizes (2 B, 7 B), both pretrained and
+
+instruction fine-tuned. PaliGemma uses the 2 B
+pretrained version.
+
+The main goal of our work is to provide a
+versatile base VLM. Hence, we show that it
+reaches state-of-the-art results not only on stan-
+dard COCO captions, VQAv2, InfographicVQA
+and others, but also on more exotic Remote-
+Sensing VQA, TallyVQA, several video caption-
+ing and QA tasks, as well as referring expression
+segmentation (see full task list in Appendix B).
+
+2. Related work
+
+Over the course of the past few years, vision-
+language models have gained considerable im-
+portance in computer vision. The first generation,
+spearheaded by CLIP [94] and ALIGN [49] by
+scaling up ConVIRT [135] and VirTex [32], is
+an extension of large-scale classification pretrain-
+ing [55, 131], to leverage all data from the web
+without the need for onerous human labeling, re-
+placing a fixed and large set of classes by a caption
+embedding instead. The caption embeddings are
+mostly obtained using language encoders (sim-
+ilar to BERT [33]) and allow to open up the
+vocabulary of classification and retrieval tasks.
+The second generation, akin to T5 [95] in lan-
+guage, is a unification of captioning and question-
+answering tasks via generative encoder-decoder
+modeling [27, 111, 120, 138], often backed
+by the progress in generative language models.
+
+Corresponding author(s): lbeyer,xzhai@google.com
+© 2024 Google DeepMind. All rights reserved
+
+ 
+ 
+ 
+ 
+ 
+ 
+PaliGemma: A versatile 3B VLM for transfer
+
+Figure 1 | PaliGemma’s architecture: a SigLIP image encoder feeds into a Gemma decoder LM.
+
+These were then further scaled up by, among oth-
+ers, Flamingo [6], BLIP-2 [62] and, PaLI [23]. Fi-
+nally, most recent works [7, 70, 87, 113] perform
+an additional “instruction tuning” step that is in-
+tended to make the raw model more user-friendly.
+In addition to building systems, several recent
+more systematic studies [59, 81, 107] aim to find
+out what really matters in VLMs. PaliGemma is an
+open base VLM without instruction tuning, and
+this report answers a few more questions regard-
+ing what matters. More discussion in Appendix A.
+
+3. Model
+
+In this
+section we present details about
+PaliGemma’s architecture and training. Several
+of our decisions are further ablated in Section 5.
+
+At a high level, PaliGemma is a VLM, taking as
+input one or more images, and a textual descrip-
+tion of the task (the prompt or question, which
+we often refer to as the prefi

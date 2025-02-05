@@ -1,0 +1,170 @@
+TOXIGEN: A Large-Scale Machine-Generated Dataset for Adversarial
+and Implicit Hate Speech Detection
+
+Warning: this paper discusses and contains content that can be offensive or upsetting.
+
+Thomas Hartvigsen♠ Saadia Gabriel♥ Hamid Palangi♣ Maarten Sap(cid:78)(cid:77)
+Dipankar Ray♦ Ece Kamar♣
+
+♠Massachusetts Institute of Technology
+
+♥University of Washington
+
+♣Microsoft Research
+♦Microsoft
+tomh@mit.edu, skgabrie@cs.washington.edu, hpalangi@microsoft.com, maartensap@cmu.edu
+
+(cid:77)Carnegie Mellon University
+
+(cid:78)Allen Institute for AI
+
+2
+2
+0
+2
+
+l
+u
+J
+
+4
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+4
+v
+9
+0
+5
+9
+0
+.
+3
+0
+2
+2
+:
+v
+i
+X
+r
+a
+
+{diray,eckamar}@microsoft.com
+
+Abstract
+
+Toxic language detection systems often falsely
+ﬂag text that contains minority group men-
+tions as toxic, as those groups are often the
+targets of online hate. Such over-reliance on
+spurious correlations also causes systems to
+struggle with detecting implicitly toxic lan-
+guage. To help mitigate these issues, we cre-
+ate TOXIGEN, a new large-scale and machine-
+generated dataset of 274k toxic and benign
+statements about 13 minority groups. We de-
+velop a demonstration-based prompting frame-
+work and an adversarial classiﬁer-in-the-loop
+decoding method to generate subtly toxic and
+benign text with a massive pretrained language
+model (Brown et al., 2020). Controlling ma-
+chine generation in this way allows TOXIGEN
+to cover implicitly toxic text at a larger scale,
+and about more demographic groups, than pre-
+vious resources of human-written text. We
+conduct a human evaluation on a challeng-
+ing subset of TOXIGEN and ﬁnd that annota-
+tors struggle to distinguish machine-generated
+text from human-written language. We also
+ﬁnd that 94.5% of toxic examples are labeled
+as hate speech by human annotators. Using
+three publicly-available datasets, we show that
+ﬁnetuning a toxicity classiﬁer on our data im-
+proves its performance on human-written data
+substantially. We also demonstrate that TOXI-
+GEN can be used to ﬁght machine-generated
+toxicity as ﬁnetuning improves the classiﬁer
+signiﬁcantly on our evaluation subset. Our
+code and data can be found at https://
+github.com/microsoft/ToxiGen.
+
+1
+
+Introduction
+
+Toxic language detectors often over-rely on minor-
+ity identity mentions1 when ﬂagging a statement
+as toxic, without considering the deeper seman-
+tic meaning of the statement (Dixon et al., 2018;
+
+1In this work, we use “minority” to refer to social and
+demographic groups that are frequently the targets of oppres-
+sion, discrimination, or prejudice (RWJF, 2017), from a U.S.
+socio-cultural perspective.
+
+Röttger et al., 2021). This can lead to severe under-
+detection of subtle hate (e.g., “They have been bred
+to be good at sports and entertainment, but not
+much else”; Figure 1) and over-detection of benign
+statements (e.g., “child abuse is wrong, racism
+is wrong, sexism is wrong”; Figure 1).
+Impor-
+tantly, such biases in toxicity detection risk further
+marginalizing or censoring minority groups (Yasin,
+2018; Sap et al., 2019; Dias Oliva et al., 2020; Are,
+2020; Díaz and Hecht-Felella, 2021).
+
+We introduce TOXIGEN, a large-scale machine-
+generated dataset of 274,186 toxic and benign state-
+ments. To create this dataset, we leverage the
+massive pretrained language model GPT-3 (Brown
+et al., 2020), which is known to produce close-
+to-human-like text (Clark et al., 2021; Dou et al.,
+2021) but also easily generates socially biased and
+toxic content (Sheng et al., 2019; Gehman et al.,
+2020). While such human-like bias and toxicity
+poses real threats, we use this undesirable behavior
+in models like GPT-3 to improve existing toxic lan-
+guage classiﬁers, providing a path forward for miti-
+gating systemic bias. Created using demonstration-
+based prompting and pretrained toxicity classiﬁers,
+TOXIGEN covers over 135k toxic and 135k benign
+statements about 13 minority identity groups (e.g.,
+African Americans, women, LGBTQ+ folks, etc.).
+Using this machine generated approach has two
+advantages over scraping posts from the web as
+done by previous work (e.g., Davidson et al., 2017;
+Founta et al., 2018; Zampieri et al., 2019). First,
+it allows us to limit spurious identity-toxicity cor-
+relations (Dixon et al., 2018; Zhou et al., 2021)
+by generating equal numbers of toxic/benign state-
+ments for each demographic group, including those
+that are often overlooked in toxic language corpora
+(e.g., Native Americans). Second, machine genera-
+tion and careful prompting enables us to generate
+implicit toxicity (i.e., without swearwords or slurs),
+which is by deﬁnition hard to detect or ﬁnd and thus
+often missing in toxic language corpora (Wiegand
+
+ 
+ 
+ 
+ 
+ 
+ 
+), AI2 Delphi (
+
+), Open AI content ﬁlter
+Figure 1: Examples of statements that fool Google’s Perspective API (
+(
+). Five statements are benign, but mention minorities and so classiﬁers
+ﬁnd them hateful. Five are toxic sentences, but the classiﬁers ﬁnd them neutral. ALICE attacks these classiﬁers to
+generate a large-scale, implicit, and bal

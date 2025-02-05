@@ -1,0 +1,140 @@
+ESPnet: End-to-End Speech Processing Toolkit
+
+Shinji Watanabe1, Takaaki Hori2, Shigeki Karita3, Tomoki Hayashi4, Jiro Nishitoba5, Yuya Unno6,
+Nelson Enrique Yalta Soplin7, Jahn Heymann8, Matthew Wiesner1, Nanxin Chen1, Adithya
+Renduchintala1, Tsubasa Ochiai9,
+
+1Johns Hopkins University, 2Mitsubishi Electric Research Laboratories, 3NTT Communication
+Science Laboratories, 4Nagoya University, 5Retrieva, Inc., 6Preferred Networks, Inc., 7Waseda
+University, 8Paderborn University, 9Doshisha University
+shinjiw@jhu.edu
+
+8
+1
+0
+2
+
+r
+a
+
+M
+0
+3
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+5
+1
+0
+0
+0
+.
+4
+0
+8
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+This paper introduces a new open source platform for end-to-
+end speech processing named ESPnet. ESPnet mainly focuses
+on end-to-end automatic speech recognition (ASR), and adopts
+widely-used dynamic neural network toolkits, Chainer and Py-
+Torch, as a main deep learning engine. ESPnet also follows
+the Kaldi ASR toolkit style for data processing, feature extrac-
+tion/format, and recipes to provide a complete setup for speech
+recognition and other speech processing experiments. This pa-
+per explains a major architecture of this software platform, sev-
+eral important functionalities, which differentiate ESPnet from
+other open source ASR toolkits, and experimental results with
+major ASR benchmarks.
+Index Terms: speech recognition, open source software, end-
+to-end, dynamical neural network, Kaldi
+
+1. Introduction
+
+Automatic speech recognition (ASR) becomes a mature tech-
+nology with a lot of research and development efforts mainly in
+speech processing communities. Especially, these efforts have
+been driven by popular products including Google voice search,
+Amazon Alexa, and Apple Siri and open source activities in-
+cluding Kaldi [1], HTK [2], Sphinx [3], Julius [4], RASR [5]
+in addition to general research activities. These open source
+toolkits include feature extraction, acoustic modeling based on
+a hidden Markov model (HMM), Gaussian mixture model, and
+deep neural network (DNN), and decoding1, and these enable
+us to use a full set of state-of-the-art ASR research and devel-
+opment achievement.
+
+This paper describes a new open source toolkit named ESP-
+net (End-to-end speech processing toolkit), which aims to pro-
+vide a neural end-to-end platform for ASR and other speech
+processing. Unlike the above open source tools based on hy-
+brid DNN/HMM architecutres [7], ESPnet provides a single
+neural network architecture to perform speech recognition in an
+end-to-end manner. ESPnet adopts widely-used dynamic neural
+network toolkits, Chainer [8] and PyTorch [9], as a main deep
+learning engine. ESPnet also follows the style of Kaldi ASR
+toolkit [1] for data processing, feature extraction/format, and
+recipes to provide a complete setup for speech recognition and
+other speech processing experiments.
+
+ESPnet fully utilizes beneﬁts of two major end-to-end ASR
+implementations based on both connectionist temporal classiﬁ-
+cation (CTC) [10, 11, 12] and attention-based encoder-decoder
+
+1Language modeling is often performed by external language model
+
+toolkits, for example SRILM [6]
+
+network [13, 14, 15, 16]. Attention-based methods use an atten-
+tion mechanism to perform alignment between acoustic frames
+and recognized symbols, while CTC uses Markov assumptions
+to efﬁciently solve sequential problems by dynamic program-
+ming. ESPnet adopts hybrid CTC/attention end-to-end ASR
+[17], which effectively utilizes the advantages of both archi-
+tectures in training and decoding. During training, we employ
+the multiobjective learning framework to improve robustness on
+irregular alignments and achieve fast convergence. During de-
+coding, we perform joint decoding by combining both attention-
+based and CTC scores in a one-pass beam search algorithm to
+further eliminate irregular alignments.
+
+In addition to the above basic architecture, ESPnet sup-
+ports a number of end-to-end ASR techniques including a fu-
+sion of recurrent neural network language model (RNNLM)
+[17], fast CTC computation by using the warp CTC library [12],
+many variations of attention methods. With these state-of-the-
+art end-to-end ASR techniques, ESPnet also provides a num-
+ber of recipes for major ASR benchmarks including Wall Street
+Journal (WSJ) [18], Librispeech [19], TED-LIUM [20], Cor-
+pus of Spontaneous Japanese (CSJ) [21], AMI [22], HKUST
+Mandarin CTS [23], VoxForge [24], CHiME-4/5 [25, 26], etc.
+Thus, ESPnet provides publicly available state-of-the-art end-
+to-end ASR setups, which aim to accelerate the development of
+this emergent ﬁeld. This paper describes its basic architecture,
+functionalities, and benchmark results. Note that several bench-
+marks including HKUST and CSJ score comparable/superior
+performance to the state-of-the-art hybrid DNN/HMM systems
+based on lattice-free maximum mutual information training
+[27].
+
+2. Related studies
+
+This section mainly focuses on the comparison of ESPnet with
+publicly available toolkits within an end-to-end ASR frame-
+work. We 

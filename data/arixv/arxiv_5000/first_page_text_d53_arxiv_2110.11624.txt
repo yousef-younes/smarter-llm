@@ -1,0 +1,169 @@
+SCICAP: Generating Captions for Scientiﬁc Figures
+
+Ting-Yao (Edward) Hsu, C. Lee Giles, Ting-Hao ‘Kenneth’ Huang
+Pennsylvania State University
+University Park, PA, USA
+{txh357, clg20, txh710}@psu.edu
+
+1
+2
+0
+2
+
+t
+c
+O
+5
+2
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+4
+2
+6
+1
+1
+.
+0
+1
+1
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Researchers use ﬁgures to communicate rich,
+complex information in scientiﬁc papers. The
+captions of these ﬁgures are critical to convey-
+ing effective messages. However, low-quality
+ﬁgure captions commonly occur in scientiﬁc
+articles and may decrease understanding.
+In
+this paper, we propose an end-to-end neural
+framework to automatically generate informa-
+tive, high-quality captions for scientiﬁc ﬁgures.
+To this end, we introduce SCICAP,1 a large-
+scale ﬁgure-caption dataset based on computer
+science arXiv papers published between 2010
+and 2020. After pre-processing – including
+ﬁgure-type classiﬁcation, sub-ﬁgure identiﬁca-
+tion, text normalization, and caption text selec-
+tion – SCICAP contained more than two mil-
+lion ﬁgures extracted from over 290,000 pa-
+pers. We then established baseline models that
+caption graph plots, the dominant (19.2%) ﬁg-
+ure type. The experimental results showed
+both opportunities and steep challenges of gen-
+erating captions for scientiﬁc ﬁgures.
+
+1
+
+Introduction
+
+Researchers use ﬁgures to explain complex con-
+cepts or show critical results. In scholarly articles,
+ﬁgure captions are critical to get the message across
+effectively. Ones that are too generic (e.g., “Re-
+sults of Experiment A.”) or poorly written (e.g.,
+“Relations between X and Y.”) represent missed op-
+portunities to explain scientiﬁc narratives to read-
+ers. Unfortunately, such low-quality captions still
+occur in published scientiﬁc articles. This paper
+aims to develop automatic ﬁgure-captioning mod-
+els that generate high-quality captions for ﬁgures
+and charts in scientiﬁc papers (Figure 1).
+
+Our motivation is two-fold. First, we aim to help
+researchers write better captions for the ﬁgures and
+charts in their papers. Automatic caption models
+trained on informative, high-quality captions can
+
+Figure 1: The ﬁgure captioning model takes a scientiﬁc
+ﬁgure (e.g., a graph plot) as input and generate captions
+that describes the ﬁgure.
+
+suggest better captions. Second, the proposed tech-
+nology can make scientiﬁc charts and ﬁgures more
+accessible to blind or visually impaired readers. Re-
+searchers have developed technologies to assist the
+blind to navigate graphical content, such as data
+visualization charts (Swaminathan et al., 2014),
+printed physical maps (Swaminathan et al., 2016),
+3D chemical diagrams (Bernareggi et al., 2019),
+and images on social media (Wu et al., 2017; Salis-
+bury et al., 2017). However, only a few prior works
+focused on scientiﬁc ﬁgures. An image-captioning
+model specialized for scientiﬁc ﬁgures can improve
+the narration of scientiﬁc articles for the blind even
+when the original caption is unhelpful.
+
+To this end, we introduce SCICAP, a large-scale
+image-captioning dataset that contains real-world
+scientiﬁc ﬁgures and captions. SCICAP was con-
+structed using computer science papers collected
+and released by arXiv. With pre-processing com-
+plete – including ﬁgure-type classiﬁcation, sub-
+ﬁgure identiﬁcation, text normalization, and cap-
+tion text selection – SCICAP contained more than
+two million ﬁgures extracted from over 290,000
+papers. We then established baseline models that
+caption graph plots, the dominant (19.2%) ﬁgure
+type. The experimental results showed both excit-
+ing opportunities and steep challenges of generat-
+ing captions for scientiﬁc ﬁgures.
+
+2 Related Work
+
+1SCICAP is available at: https://github.com/
+
+tingyaohsu/SciCap
+
+One of the few prior works attempting to caption
+scientiﬁc ﬁgures was by Chen et al. (2019a; 2019b;
+
+ 
+ 
+ 
+ 
+ 
+ 
+2020). They created FigCAP, a caption-ﬁgure pair
+corpus where the ﬁgures are synthesized, and used
+an LSTM model with an attention mechanism to
+produce captions. FigCAP was built on research
+that aimed to analyze ﬁgure content automatically,
+including Figure-Seer (Siegel et al., 2016), Fig-
+ureQA (Kahou et al., 2017), and DVQA (Kaﬂe
+et al., 2018). DVQA and FigureQA were both
+made using synthetic ﬁgures; FigureSeer contained
+over 60,000 ﬁgures across seven ﬁgure types ex-
+tracted from research papers. Meanwhile, Qian et
+al. (2020) proposed a set of “caption units” (such
+as Title, Label Name, Min/Max, etc.)
+that are
+important to include in a caption of scientiﬁc ﬁg-
+ures; they created a model, FigJAM, to produce
+such units (Qian et al., 2021). Also relevant is
+the “data-to-caption” work, which takes a chart’s
+source data table and metadata as input to generate
+a caption (Obeid and Hoque, 2020; Spreaﬁco and
+Carenini, 2020). These models generate captions
+based on data tables, not the ﬁgures.
+
+Differences Between Synthetic and Real-World
+Captions. Most prior work has tried to generate
+captions for scientiﬁc ﬁgures using synthetic im-
+ages and texts (Chen et al., 2019a,b, 20

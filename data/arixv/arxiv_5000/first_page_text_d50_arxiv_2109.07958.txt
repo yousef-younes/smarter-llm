@@ -1,0 +1,177 @@
+TruthfulQA: Measuring How Models Mimic Human Falsehoods
+
+Stephanie Lin
+University of Oxford
+sylin07@gmail.com
+
+Jacob Hilton
+OpenAI
+jhilton@openai.com
+
+Owain Evans
+University of Oxford
+owaine@gmail.com
+
+2
+2
+0
+2
+
+y
+a
+M
+8
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+8
+5
+9
+7
+0
+.
+9
+0
+1
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+We propose a benchmark to measure whether
+a language model is truthful in generating an-
+swers to questions. The benchmark comprises
+817 questions that span 38 categories, includ-
+ing health,
+law, ﬁnance and politics. We
+crafted questions that some humans would an-
+swer falsely due to a false belief or miscon-
+ception. To perform well, models must avoid
+generating false answers learned from imitat-
+ing human texts. We tested GPT-3, GPT-Neo/J,
+GPT-2 and a T5-based model. The best model
+was truthful on 58% of questions, while hu-
+man performance was 94%. Models generated
+many false answers that mimic popular mis-
+conceptions and have the potential to deceive
+humans. The largest models were generally
+the least truthful. This contrasts with other
+NLP tasks, where performance improves with
+model size. However, this result is expected if
+false answers are learned from the training dis-
+tribution. We suggest that scaling up models
+alone is less promising for improving truthful-
+ness than ﬁne-tuning using training objectives
+other than imitation of text from the web.
+
+“The enemy of
+
+truth is blind acceptance.”
+–Anonymous
+
+1
+
+Introduction
+
+There is growing interest in using language models
+to generate text for practical applications. Large
+companies are deploying their own models (Raffel
+et al., 2019; Fedus et al., 2021), and hundreds of
+organizations are deploying GPT-3 via APIs from
+OpenAI and other ﬁrms (OpenAI, 2020; Wolf et al.,
+2020; CohereAI, 2021; OpenAI, 2021). While re-
+cent language models are impressively ﬂuent, they
+have a tendency to generate false statements. These
+range from subtle inaccuracies to wild hallucina-
+tions (Shuster et al., 2021; Zhou et al., 2021; Kr-
+ishna et al., 2021). This leads to three concerns:
+
+1. Accidental misuse. Due to lack of rigorous
+testing, deployed models make false state-
+ments to users. This could lead to deception
+and distrust (Tamkin et al., 2021).
+
+2. Blocking positive applications. In applica-
+tions like medical or legal advice, there are
+high standards for factual accuracy. Even if
+models have relevant knowledge, people may
+avoid deploying them without clear evidence
+they are reliably truthful.
+
+3. Malicious misuse.
+
+If models can generate
+plausible false statements in ways that are
+not easily identiﬁable, they could be used to
+deceive humans via disinformation or fraud
+(Zellers et al., 2019; Schuster et al., 2019).
+By contrast, models that are reliably truthful
+would be harder to deploy for deceptive uses.
+
+To address these concerns, it is valuable to quan-
+tify how truthful models are. In particular: How
+likely are models to make false statements across a
+range of contexts and questions? Better measure-
+ment will help in producing more truthful models
+and in understanding the risks of deceptive models.
+This raises a basic question: Why do language
+models generate false statements? One possible
+cause is that the model has not learned the training
+distribution well enough. When asked the question,
+“What is 1241 × 123?”, GPT-3 outputs “14812”.
+GPT-3 fails to reliably generalize from its train-
+ing data about multiplication (Brown et al., 2020).
+Another possible cause (which doesn’t apply to
+multiplication) is that the model’s training objec-
+tive actually incentivizes a false answer. We call
+such false answers imitative falsehoods. For GPT-3
+a false answer is an imitative falsehood if it has
+high likelihood on GPT-3’s training distribution.
+Figure 1 illustrates questions from TruthfulQA that
+we think cause imitative falsehoods.
+
+TruthfulQA is a benchmark made up of ques-
+tions designed to cause imitative falsehoods. One
+
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1: TruthfulQA questions with answers from GPT-3-175B with default prompt. Examples illustrate
+false answers from GPT-3 that mimic human falsehoods and misconceptions. TruthfulQA contains 38 categories
+and models are not shown category labels. For true answers to these questions and similar examples from GPT-J,
+see Appendix A.
+
+reason to focus on imitative falsehoods is that
+they are less likely to be covered by existing
+question-answering benchmarks (Clark et al., 2018;
+Kwiatkowski et al., 2019; Joshi et al., 2017;
+Hendrycks et al., 2020). Another reason is that
+scaling laws suggest that scaling up models will re-
+duce perplexity on the training distribution (Kaplan
+et al., 2020). This will decrease the rate of false-
+hoods that arise from not learning the distribution
+well enough (such as the multiplication example).
+Yet this should increase the rate of imitative false-
+hoods, a phenomenon we call “inverse scaling”.
+Imitative falsehoods pose a problem for language
+models that is not solved merely by scaling up.
+
+1.1 Contributions
+
+Benchmark. TruthfulQ

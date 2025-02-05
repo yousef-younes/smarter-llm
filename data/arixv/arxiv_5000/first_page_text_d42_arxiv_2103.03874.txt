@@ -1,0 +1,215 @@
+1
+2
+0
+2
+
+v
+o
+N
+8
+
+]
+
+G
+L
+.
+s
+c
+[
+
+2
+v
+4
+7
+8
+3
+0
+.
+3
+0
+1
+2
+:
+v
+i
+X
+r
+a
+
+Measuring Mathematical Problem Solving With the
+MATH Dataset
+
+Dan Hendrycks
+UC Berkeley
+
+Collin Burns
+UC Berkeley
+
+Saurav Kadavath
+UC Berkeley
+
+Akul Arora
+UC Berkeley
+
+Steven Basart
+UChicago
+
+Eric Tang
+UC Berkeley
+
+Dawn Song
+UC Berkeley
+
+Jacob Steinhardt
+UC Berkeley
+
+Abstract
+
+Many intellectual endeavors require mathematical problem solving, but this skill
+remains beyond the capabilities of computers. To measure this ability in machine
+learning models, we introduce MATH, a new dataset of 12,500 challenging
+competition mathematics problems. Each problem in MATH has a full step-by-step
+solution which can be used to teach models to generate answer derivations and
+explanations. To facilitate future research and increase accuracy on MATH, we
+also contribute a large auxiliary pretraining dataset which helps teach models the
+fundamentals of mathematics. Even though we are able to increase accuracy on
+MATH, our results show that accuracy remains relatively low, even with enormous
+Transformer models. Moreover, we ﬁnd that simply increasing budgets and model
+parameter counts will be impractical for achieving strong mathematical reasoning
+if scaling trends continue. While scaling Transformers is automatically solving
+most other text-based tasks, scaling is not currently solving MATH. To have more
+traction on mathematical problem solving we will likely need new algorithmic
+advancements from the broader research community.
+
+1
+
+Introduction
+
+Mathematics is a highly effective tool in many intellectual endeavors. It enables us to count and
+quantify objects, and it can be relied upon because it is consistent and based on logic. Mathematics
+pervades the sciences and can be used to model planetary orbits, atomic motion, signal frequencies,
+and much more. These phenomena can be encoded with mathematics precisely and concisely. This
+has even led some to describe mathematics as being “unreasonably effective” (Wigner, 1960). These
+observations speak to the broad reach and domain-generality of mathematics.
+
+In machine learning, mathematics is a valuable testbed for problem-solving ability: the ability to
+analyze a problem, pick out good heuristics from a large set of possibilities, and chain them together
+to produce an answer. This contrasts with plug-and-chug calculations, a skill which ML models
+can already exhibit (Henighan et al., 2020). Visual or linguistic reasoning may involve limited
+problem-solving ability for tasks such as image classiﬁcation, but unlike math this is not the focus of
+these domains.
+
+To measure the problem-solving ability of machine learning models, we introduce the MATH dataset,
+which consists of 12, 500 problems from high school math competitions. Given a problem from
+MATH, machine learning models generate a sequence, such as $\frac{2}{3}$, that encodes
+the ﬁnal answer. These answers are unique after normalization, allowing MATH to be scored with
+exact match rather than with heuristic metrics such as BLEU. In addition, MATH problems are
+tagged by difﬁculty from 1 to 5, and span seven subjects including geometry, where diagrams
+can be speciﬁed in text with the Asymptote language. This enables a ﬁne-grained assessment of
+
+35th Conference on Neural Information Processing Systems (NeurIPS 2021) Track on Datasets and Benchmarks.
+
+ 
+ 
+ 
+ 
+ 
+ 
+Metamath Theorem Proving
+
+2 ∈ N =⇒ ∃m ∈ N : n = 2m + 1.
+
+n ∈ N ∧ n+1
+GPT-f ’s generated proof:
+|- ((N e. NN0 /\ ((N + 1)/2) e.
+
+NN0) -> ((N - 1) / 2) e. NN0)
+
+|- (N e. NN0 -> N e. CC)
+|- 1 e. CC
+|- ((N e. CC /\ 1 e. CC) ->
+
+(N - 1) e. CC )
+...
+DeepMind Mathematics Dataset
+Divide 1136975704 by -142121963.
+A: -8
+Let k(u) = u**2+u-4. Find k(0).
+A: -4
+Sort 2, 4, 0, 6.
+A: 0, 2, 4, 6
+Solve 4 - 4 - 4 = 188*m for m.
+A: -1/47
+
+(cid:1) = 6
+
+MATH Dataset (Ours)
+Problem: Tom has a red marble, a green marble,
+a blue marble, and three identical yellow marbles.
+How many different groups of two marbles can
+Tom choose?
+Solution: There are two cases here: either Tom
+chooses two yellow marbles (1 result), or he
+chooses two marbles of different colors ((cid:0)4
+results). The total number of distinct pairs of
+marbles Tom can choose is 1 + 6 = 7 .
+Problem: The equation x2 + 2x = i has two
+complex solutions. Determine the product of their
+real parts.
+Solution: Complete the square by adding 1 to
+each side. Then (x + 1)2 = 1 + i = e
+2, so
+√
+4
+x + 1 = ±e
+2. The desired product is then
+√
+(cid:1) 4
+(cid:0)−1 + cos (cid:0) π
+2(cid:1) (cid:0)−1 − cos (cid:0) π
+2(cid:1) = 1 −
+8
+√
+√
+1 −
+2
+2
+
+(1+cos( π
+2
+
+cos2 (cid:0) π
+
+2 = 1 −
+
+√
+(cid:1) 4
+
+(cid:1) √
+
+2 =
+
+4 ))
+
+√
+
+iπ
+4
+
+iπ
+8
+
+8
+
+2
+
+8
+
+.
+
+Figure 1: Previous work is based on formal theorem provers or straightforward plug-and-chug
+problems. Our dataset, MATH, has competition mathematics problems with step-by-step solutions
+written in LATEX and natural language. Models are tasked with generating tokens to construct the ﬁnal
+(boxed) answer.
+
+mathematical problem-solving ability across

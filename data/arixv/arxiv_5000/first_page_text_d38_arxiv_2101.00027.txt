@@ -1,0 +1,193 @@
+0
+2
+0
+2
+c
+e
+D
+1
+3
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+7
+2
+0
+0
+0
+.
+1
+0
+1
+2
+:
+v
+i
+X
+r
+a
+
+The Pile: An 800GB Dataset of Diverse Text for Language Modeling
+
+Leo Gao
+
+Stella Biderman
+
+Sid Black
+
+Laurence Golding
+
+Travis Hoppe
+
+Charles Foster
+
+Jason Phang
+
+Horace He
+
+Anish Thite
+
+Noa Nabeshima
+
+Shawn Presser
+
+Connor Leahy
+
+EleutherAI
+contact@eleuther.ai
+
+Abstract
+
+Recent work has demonstrated that increased
+training dataset diversity improves general
+cross-domain knowledge and downstream gen-
+eralization capability for large-scale language
+models. With this in mind, we present the
+Pile: an 825 GiB English text corpus tar-
+geted at training large-scale language mod-
+els. The Pile is constructed from 22 diverse
+high-quality subsets—both existing and newly
+constructed—many of which derive from aca-
+demic or professional sources. Our evalua-
+tion of the untuned performance of GPT-2 and
+GPT-3 on the Pile shows that these models
+struggle on many of its components, such as
+academic writing. Conversely, models trained
+on the Pile improve signiﬁcantly over both
+Raw CC and CC-100 on all components of the
+Pile, while improving performance on down-
+stream evaluations. Through an in-depth ex-
+ploratory analysis, we document potentially
+concerning aspects of the data for prospective
+users. We make publicly available the code
+used in its construction.1
+
+1
+
+Introduction
+
+Recent breakthroughs in general-purpose language
+modeling have demonstrated the effectiveness of
+training massive models on large text corpora for
+downstream applications (Radford et al., 2019;
+Shoeybi et al., 2019; Raffel et al., 2019; Rosset,
+2019; Brown et al., 2020; Lepikhin et al., 2020). As
+the ﬁeld continues to scale up language model train-
+ing, the demand for high-quality massive text data
+will continue to grow (Kaplan et al., 2020).
+
+The growing need for data in language modeling
+has caused most existing large-scale language mod-
+els to turn to the Common Crawl for most or all of
+their data (Brown et al., 2020; Raffel et al., 2019).
+While training on the Common Crawl has been
+effective, recent work has shown that dataset di-
+
+1https://pile.eleuther.ai/
+
+1
+
+versity leads to better downstream generalization
+capability (Rosset, 2019). Additionally, large-scale
+language models have been shown to effectively
+acquire knowledge in a novel domain with only
+relatively small amounts of training data from that
+domain (Rosset, 2019; Brown et al., 2020; Carlini
+et al., 2020). These results suggest that by mix-
+ing together a large number of smaller, high qual-
+ity, diverse datasets, we can improve the general
+cross-domain knowledge and downstream general-
+ization capabilities of the model compared to mod-
+els trained on only a handful of data sources.
+
+To address this need, we introduce the Pile: a
+825.18 GiB English text dataset designed for train-
+ing large scale language models. The Pile is com-
+posed of 22 diverse and high-quality datasets, in-
+cluding both established natural language process-
+ing datasets and several newly introduced ones.
+In addition to its utility in training large language
+models, the Pile can also serve as a broad-coverage
+benchmark for cross-domain knowledge and gener-
+alization ability of language models.
+
+We introduce new datasets derived from the fol-
+lowing sources: PubMed Central, ArXiv, GitHub,
+the FreeLaw Project, Stack Exchange, the US
+Patent and Trademark Ofﬁce, PubMed, Ubuntu
+IRC, HackerNews, YouTube, PhilPapers, and NIH
+ExPorter. We also introduce OpenWebText2 and
+BookCorpus2, which are extensions of the original
+OpenWebText (Gokaslan and Cohen, 2019) and
+BookCorpus (Zhu et al., 2015; Kobayashi, 2018)
+datasets, respectively.
+
+In addition, we incorporate several existing high-
+quality datasets: Books3 (Presser, 2020), Project
+Gutenberg (PG-19) (Rae et al., 2019), Open-
+Subtitles (Tiedemann, 2016), English Wikipedia,
+DM Mathematics (Saxton et al., 2019), EuroParl
+(Koehn, 2005), and the Enron Emails corpus (Klimt
+and Yang, 2004). To supplement these, we also in-
+
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1: Treemap of Pile components by effective size.
+
+troduce a new ﬁltered subset of Common Crawl,
+Pile-CC, with improved extraction quality.
+
+1.1 Contributions
+
+The core contributions of this paper are:
+
+Through our analyses, we conﬁrm that the Pile is
+signiﬁcantly distinct from pure Common Crawl
+data. Additionally, our evaluations show that the
+existing GPT-2 and GPT-3 models perform poorly
+on many components of the Pile, and that models
+trained on the Pile signiﬁcantly outperform both
+raw and ﬁltered Common Crawl models. To com-
+plement the performance evaluations, we also per-
+form an exploratory analysis of the text within the
+Pile to provide a detailed picture of the data. We
+hope that our extensive documentation of the con-
+struction and characteristics of the Pile will help
+researchers make informed decisions about poten-
+tial downstream applications.
+
+Finally, we make publicly available the preprocess-
+ing code for the constituent datasets of the Pile and
+the c

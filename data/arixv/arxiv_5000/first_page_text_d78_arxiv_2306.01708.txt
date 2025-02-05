@@ -1,0 +1,129 @@
+3
+2
+0
+2
+
+t
+c
+O
+7
+2
+
+]
+
+G
+L
+.
+s
+c
+[
+
+2
+v
+8
+0
+7
+1
+0
+.
+6
+0
+3
+2
+:
+v
+i
+X
+r
+a
+
+TIES-MERGING: Resolving Interference When
+Merging Models
+
+Prateek Yadav1 Derek Tam1
+Leshem Choshen2,3 Colin Raffel1 Mohit Bansal1
+
+1 University of North Carolina at Chapel Hill
+
+2 IBM Research
+
+3 MIT
+
+leshem.choshen@ibm.com
+{praty,dtredsox,craffel,mbansal}@cs.unc.edu
+
+Abstract
+
+Transfer learning – i.e., further fine-tuning a pre-trained model on a downstream
+task – can confer significant advantages, including improved downstream perfor-
+mance, faster convergence, and better sample efficiency. These advantages have
+led to a proliferation of task-specific fine-tuned models, which typically can only
+perform a single task and do not benefit from one another. Recently, model merging
+techniques have emerged as a solution to combine multiple task-specific models
+into a single multitask model without performing additional training. However,
+existing merging methods often ignore the interference between parameters of
+different models, resulting in large performance drops when merging multiple
+models. In this paper, we demonstrate that prior merging techniques inadvertently
+lose valuable information due to two major sources of interference: (a) interfer-
+ence due to redundant parameter values and (b) disagreement on the sign of a
+given parameter’s values across models. To address this, we propose our method,
+TRIM, ELECT SIGN & MERGE (TIES-MERGING), which introduces three novel
+steps when merging models: (1) resetting parameters that only changed a small
+amount during fine-tuning, (2) resolving sign conflicts, and (3) merging only the
+parameters that are in alignment with the final agreed-upon sign. We find that
+TIES-MERGING outperforms several existing methods in diverse settings covering
+a range of modalities, domains, number of tasks, model sizes, architectures, and
+fine-tuning settings. We further analyze the impact of different types of interference
+on model parameters, and highlight the importance of resolving sign interference.1
+
+1
+
+Introduction
+
+Pre-trained models (PTMs) have become widespread in many real-world applications [91, 6]. Using
+PTMs typically involves fine-tuning them to specialize on a specific task [69, 12], which can lead to
+improved performance with less task-specific labeled data. These benefits have resulted in the release
+of thousands of finetuned checkpoints [81] derived from popular PTMs such as ViT [14] for vision
+and T5 [58] for language. However, having a separate fine-tuned model for each task has various
+drawbacks: (1) for each new application, a separate model has to be stored and deployed [17, 89], and
+(2) models trained in isolation cannot leverage information from related tasks to improve in-domain
+performance or out-of-domain generalization [66, 58, 75]. Multitask learning [66, 57] could address
+these concerns but requires costly training and simultaneous access to all tasks [17]. Moreover, it can
+be complex and resource-intensive to determine how best to mix datasets to ensure that multitask
+training is beneficial for all tasks [55, 54, 80, 52, 2, 17].
+
+1Our code is available at https://github.com/prateeky2806/ties-merging
+
+37th Conference on Neural Information Processing Systems (NeurIPS 2023).
+
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1: A depiction of the steps involved in TIES-MERGING. We visualize each parameter in
+a model as a square. The arrows depict the update (task vector, τ ) to a parameter produced by
+fine-tuning on different tasks (coded by colors), with direction denoting sign and length denoting
+magnitude. We first trim the task vector values based on their magnitude, then we elect the sign for
+each parameter (γm, green vector containing +1 or −1) by resolving sign conflicts. Finally, we pick
+only the values that align with the elected sign and take their mean as the final parameter value.
+
+Recently, a growing body of research has focused on model merging [40]. One application of merging
+involves combining multiple task-specific models into a single multitask model without performing
+additional training. Previous works merge models by summing the individual model weights with
+different weighting schemes, either via a simple average [9, 28, 83], via more sophisticated means
+that incorporate parameter importance [45] or account for permutation invariances [1, 31, 70, 74, 42].
+Combining fine-tuned models in this way can be seen as adding together task vectors [29] that are
+computed by subtracting the pre-trained model’s parameter values from those of the fine-tuned model.
+
+While weighted averaging of model parameters has
+proven effective for merging, all of these methods
+ignore the possibility that values may interfere across
+models, thereby harming the performance of the
+merged model. In this paper, we first demonstrate
+that interference can stem from two major causes
+(see Fig. 2), both of which can reduce parameter
+magnitudes in the merged model and eliminate sub-
+tle distinctions among values: (1) INTERFERENCE
+FR

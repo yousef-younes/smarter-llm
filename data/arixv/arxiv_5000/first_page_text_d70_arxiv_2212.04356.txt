@@ -1,0 +1,152 @@
+Robust Speech Recognition via Large-Scale Weak Supervision
+
+2
+2
+0
+2
+
+c
+e
+D
+6
+
+]
+S
+A
+.
+s
+s
+e
+e
+[
+
+1
+v
+6
+5
+3
+4
+0
+.
+2
+1
+2
+2
+:
+v
+i
+X
+r
+a
+
+Alec Radford * 1 Jong Wook Kim * 1 Tao Xu 1 Greg Brockman 1 Christine McLeavey 1 Ilya Sutskever 1
+
+Abstract
+
+We study the capabilities of speech processing
+systems trained simply to predict large amounts of
+transcripts of audio on the internet. When scaled
+to 680,000 hours of multilingual and multitask
+supervision, the resulting models generalize well
+to standard benchmarks and are often competitive
+with prior fully supervised results but in a zero-
+shot transfer setting without the need for any ﬁne-
+tuning. When compared to humans, the models
+approach their accuracy and robustness. We are
+releasing models and inference code to serve as
+a foundation for further work on robust speech
+processing.
+
+1. Introduction
+
+Progress in speech recognition has been energized by the
+development of unsupervised pre-training techniques exem-
+pliﬁed by Wav2Vec 2.0 (Baevski et al., 2020). Since these
+methods learn directly from raw audio without the need for
+human labels, they can productively use large datasets of un-
+labeled speech and have been quickly scaled up to 1,000,000
+hours of training data (Zhang et al., 2021), far more than the
+1,000 or so hours typical of an academic supervised dataset.
+When ﬁne-tuned on standard benchmarks, this approach
+has improved the state of the art, especially in a low-data
+setting.
+
+These pre-trained audio encoders learn high-quality repre-
+sentations of speech, but because they are purely unsuper-
+vised they lack an equivalently performant decoder mapping
+those representations to usable outputs, necessitating a ﬁne-
+tuning stage in order to actually perform a task such as
+speech recognition1. This unfortunately limits their use-
+fulness and impact as ﬁne-tuning can still be a complex
+process requiring a skilled practitioner. There is an addi-
+tional risk with requiring ﬁne-tuning. Machine learning
+
+*Equal contribution 1OpenAI, San Francisco, CA 94110, USA.
+Correspondence to: Alec Radford <alec@openai.com>, Jong
+Wook Kim <jongwook@openai.com>.
+
+1Baevski et al. (2021) is an exciting exception - having devel-
+
+oped a fully unsupervised speech recognition system
+
+methods are exceedingly adept at ﬁnding patterns within a
+training dataset which boost performance on held-out data
+from the same dataset. However, some of these patterns are
+brittle and spurious and don’t generalize to other datasets
+and distributions. In a particularly disturbing example, Rad-
+ford et al. (2021) documented a 9.2% increase in object
+classiﬁcation accuracy when ﬁne-tuning a computer vision
+model on the ImageNet dataset (Russakovsky et al., 2015)
+without observing any improvement in average accuracy
+when classifying the same objects on seven other natural
+image datasets. A model that achieves “superhuman” per-
+formance when trained on a dataset can still make many
+basic errors when evaluated on another, possibly precisely
+because it is exploiting those dataset-speciﬁc quirks that
+humans are oblivious to (Geirhos et al., 2020).
+
+This suggests that while unsupervised pre-training has im-
+proved the quality of audio encoders dramatically, the lack
+of an equivalently high-quality pre-trained decoder, com-
+bined with a recommended protocol of dataset-speciﬁc ﬁne-
+tuning, is a crucial weakness which limits their usefulness
+and robustness. The goal of a speech recognition system
+should be to work reliably “out of the box” in a broad range
+of environments without requiring supervised ﬁne-tuning of
+a decoder for every deployment distribution.
+
+As demonstrated by Narayanan et al. (2018), Likhomanenko
+et al. (2020), and Chan et al. (2021) speech recognition sys-
+tems that are pre-trained in a supervised fashion across many
+datasets/domains exhibit higher robustness and generalize
+much more effectively to held-out datasets than models
+trained on a single source. These works achieve this by
+combining as many existing high-quality speech recogni-
+tion datasets as possible. However, there is still only a
+moderate amount of this data easily available. SpeechStew
+(Chan et al., 2021) mixes together 7 pre-existing datasets
+totalling 5,140 hours of supervision. While not insigniﬁ-
+cant, this is still tiny compared to the previously mentioned
+1,000,000 hours of unlabeled speech data utilized in Zhang
+et al. (2021).
+
+Recognizing the limiting size of existing high-quality super-
+vised datasets, recent efforts have created larger datasets for
+speech recognition. By relaxing the requirement of gold-
+standard human-validated transcripts, Chen et al. (2021) and
+Galvez et al. (2021) make use of sophisticated automated
+
+ 
+ 
+ 
+ 
+ 
+ 
+Robust Speech Recognition via Large-Scale Weak Supervision
+
+2
+
+pipelines to scale weakly supervised speech recognition
+to 10,000 and 30,000 hours of noisier training data. This
+trade-off between quality and quantity is often the right
+call. Although understudied so far for speech recog

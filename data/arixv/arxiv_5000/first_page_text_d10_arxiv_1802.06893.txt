@@ -1,0 +1,146 @@
+Learning Word Vectors for 157 Languages
+
+Edouard Grave1,∗ Piotr Bojanowski1,∗ Prakhar Gupta1,2 Armand Joulin1 Tomas Mikolov1
+
+1Facebook AI Research
+
+2EPFL
+
+8
+1
+0
+2
+
+r
+a
+
+M
+8
+2
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+3
+9
+8
+6
+0
+.
+2
+0
+8
+1
+:
+v
+i
+X
+r
+a
+
+{egrave,bojanowski,ajoulin,tmikolov}@fb.com, prakhar.gupta@epfl.ch
+Abstract
+Distributed word representations, or word vectors, have recently been applied to many tasks in natural language processing, leading
+to state-of-the-art performance. A key ingredient to the successful application of these representations is to train them on very large
+corpora, and use these pre-trained models in downstream tasks.
+In this paper, we describe how we trained such high quality word
+representations for 157 languages. We used two sources of data to train these models: the free online encyclopedia Wikipedia and data
+from the common crawl project. We also introduce three new word analogy datasets to evaluate these word vectors, for French, Hindi
+and Polish. Finally, we evaluate our pre-trained word vectors on 10 languages for which evaluation datasets exists, showing very strong
+performance compared to previous models.
+
+Keywords: word vectors, word analogies, fasttext
+
+1.
+
+Introduction
+
+are available at https://fasttext.cc.
+
+Distributed word representations, also known as word vec-
+tors, have been widely used in natural language processing,
+leading to state of the art results for many tasks. Publicly
+available models, which are pre-trained on large amounts of
+data, have become a standard tool for many NLP applica-
+tions, but are mostly available for English. While different
+techniques have been proposed to learn such representa-
+tions (Collobert and Weston, 2008; Mikolov et al., 2013b;
+Pennington et al., 2014), all rely on the distributional hy-
+pothesis – the idea that the meaning of a word is captured
+by the contexts in which it appears. Thus, the quality of
+word vectors directly depends on the amount and quality of
+data they were trained on.
+A common source of data to learn word representations,
+available in many languages, is the online encyclopedia
+Wikipedia (Al-Rfou et al., 2013). This provides high qual-
+ity data which is comparable across languages. Unfortu-
+nately, for many languages, the size of Wikipedia is rel-
+atively small, and often not enough to learn high quality
+word vectors with wide coverage. An alternative source
+of large scale text data is the web and resources such as
+the common crawl. While they provide noisier data than
+Wikipedia articles, they come in larger amounts and with a
+broader coverage.
+In this work, we contribute high quality word vectors
+trained on Wikipedia and the Common Crawl corpus, as
+well as three new word analogy datasets. We collected
+training corpora for 157 languages, using Wikipedia and
+Common Crawl. We describe in details the procedure for
+splitting the data by language and pre-processing it in Sec-
+tion 2. Using this data, we trained word vectors using
+an extension of the fastText model with subword informa-
+tion (Bojanowski et al., 2017), as described in Section 3. In
+Section 4, we introduce three new word analogy datasets
+for French, Hindi and Polish and evaluate our word rep-
+resentations on word analogy tasks. Overall, we evaluate
+our word vectors on 10 languages: Czech, German, Span-
+ish, Finnish, French, Hindi, Italian, Polish, Portuguese and
+Chinese. Our models for 157 languages other than English
+
+the Google News dataset
+
+Related work.
+In previous work, word vectors pre-
+trained on large text
+corpora have been released
+alongside open source implementation of word em-
+English word vectors trained on
+bedding models.
+a part of
+(100B tokens)
+were published with word2vec (Mikolov et al., 2013b).
+Pennington et al. (2014) released GloVe models trained
+on Wikipedia, Gigaword and Common Crawl (840B to-
+kens). A notable effort is the work of Al-Rfou et al. (2013),
+in which word vectors have been trained for 100 languages
+using Wikipedia data.
+
+2. Training Data
+We train our word vectors using datasets composed of a
+mixture of Wikipedia and Common Crawl.
+
+2.1. Wikipedia
+Wikipedia is the largest free online encyclopedia, available
+in more than 200 different languages. Because the articles
+are curated, the corresponding text is of high quality, mak-
+ing Wikipedia a great resource for (multilingual) natural
+language processing. It has been applied to many different
+tasks, such as information extraction (Wu and Weld, 2010),
+or word sense disambiguation (Mihalcea, 2007). We down-
+loaded the XML Wikipedia dumps from September 11,
+2017. The ﬁrst preprocessing step is to extract the text con-
+tent from the XML dumps. For this purpose, we used a
+modiﬁed version of the wikifil.pl script1 from Matt
+Mahoney.
+Even if Wikipedia is available for more than 200 languages,
+many dumps are relatively small in size (compared to the
+English one). As an example, some widely spoken lan-
+guages such as Hindi, have relatively small Wikipedia data
+(39 millions tokens). Overall, 28 la

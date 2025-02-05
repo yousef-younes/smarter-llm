@@ -1,0 +1,134 @@
+3
+2
+0
+2
+
+y
+a
+M
+2
+2
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+6
+1
+5
+3
+1
+.
+5
+0
+3
+2
+:
+v
+i
+X
+r
+a
+
+Scaling Speech Technology to 1,000+ Languages
+
+Vineel Pratap♢ Andros Tjandra♢ Bowen Shi♢
+
+Paden Tomasello Arun Babu Sayani Kundu∗ Ali Elkahky†
+
+Zhaoheng Ni Apoorv Vyas Maryam Fazel-Zarandi Alexei Baevski‡
+
+Yossi Adi§ Xiaohui Zhang Wei-Ning Hsu Alexis Conneau¶
+
+Michael Auli♢
+
+Meta AI
+
+♢ core team
+
+Abstract
+
+Expanding the language coverage of speech technology has the potential to im-
+prove access to information for many more people. However, current speech
+technology is restricted to about one hundred languages which is a small frac-
+tion of the over 7,000 languages spoken around the world. The Massively Mul-
+tilingual Speech (MMS) project increases the number of supported languages
+by 10-40x, depending on the task. The main ingredients are a new dataset
+based on readings of publicly available religious texts and effectively leverag-
+ing self-supervised learning. We built pre-trained wav2vec 2.0 models covering
+1,406 languages, a single multilingual automatic speech recognition model for
+1,107 languages, speech synthesis models for the same number of languages, as
+well as a language identification model for 4,017 languages. Experiments show
+that our multilingual speech recognition model more than halves the word er-
+ror rate of Whisper on 54 languages of the FLEURS benchmark while being
+trained on a small fraction of the labeled data. The MMS models are available at
+https://github.com/pytorch/fairseq/tree/master/examples/mms.
+
+1
+
+Introduction
+
+Speech technology has made much progress over the past decade [Chan et al., 2015, Graves et al.,
+2006, Baevski et al., 2020b, Radford et al., 2022] and has been integrated into many consumer
+products, such as home assistants and smartphones. Despite this progress, speech technology is still
+absent for the vast majority of the over 7,000 languages spoken around the world [Lewis et al., 2016].
+Moreover, many of these languages are at risk of disappearing by the end of this century and the
+narrow language coverage of current technology may contribute to this trend [Bromham et al., 2021].
+
+Speech models have traditionally been built by training models on large amounts of labeled training
+data which is only available for a small number of languages. More recently, self-supervised speech
+representations have dramatically lowered the amount of labeled data required to build speech
+systems [van den Oord et al., 2018, Schneider et al., 2019, Baevski et al., 2020b]. But despite this
+
+∗JPMorgan Chase. Work done while at Meta AI.
+†Apple. Work done while at Meta AI.
+‡Character.AI. Work done while at Meta AI.
+§Meta AI & Hebrew University of Jerusalem.
+¶Open AI. Work done while at Meta AI.
+
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1: Illustration of where the languages supported by MMS are spoken around the world:
+MMS models support speech-to-text and text-to-speech for 1,107 languages as well as language
+identification for 4,017 languages.
+
+progress, prominent recent work still only supports about 100 languages [Radford et al., 2022, Zhang
+et al., 2023a].
+
+To address this, we build a new dataset comprising a moderate amount of labeled data for 1,107
+languages and another dataset of unlabeled speech in 3,809 languages (§3). We leverage this data to
+pre-train wav2vec 2.0 models supporting several times more languages than any known prior work
+(§4) and then fine-tune these models to build a multilingual speech recognition model supporting
+1,107 languages (§5), language identification models for 4,017 languages (§6) and text-to-speech
+models for 1,107 languages (§7).
+
+The Massively Multilingual Speech (MMS) project aims to expand speech technology to many more
+people and we hope that it can be a small contribution to preserving the languages diversity of this
+world. Figure 1 illustrates the location where the languages supported in this work are spoken and
+which tasks we cover for each language.
+
+2 Related Work
+
+Multilingual Speech Datasets. Current multilingual speech datasets with transcriptions are drawn
+from a variety of domains, including Wikipedia [Ardila et al., 2020, Conneau et al., 2022], political
+speech [Wang et al., 2021], audiobooks [Pratap et al., 2020c] to name a few. They are limited to
+about 100 languages with some datasets only containing data for European languages [Wang et al.,
+2021, Pratap et al., 2020c]. Multilingual datasets without transcriptions include VoxLingua107 [Valk
+and Alumäe, 2020] spanning data in 107 languages, or VoxPopuli [Wang et al., 2021] which contains
+large amounts of unlabeled data for European languages. Leong et al. [2022] covers 56 low-resource
+languages and 428 hours of data.
+
+Compared to prior work utilizing read versions of the New Testament Black [2019], MMS covers
+many more languages (58% more for MMS-lab and over five times more for MMS-unlab) and our
+alignments are of much higher quality which leads to better models as we show in §3.3.1. We also
+use the resulting data to train self-su

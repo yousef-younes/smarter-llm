@@ -1,0 +1,120 @@
+2
+2
+0
+2
+
+n
+u
+J
+
+3
+2
+
+]
+
+G
+L
+.
+s
+c
+[
+
+2
+v
+5
+3
+1
+4
+1
+.
+5
+0
+2
+2
+:
+v
+i
+X
+r
+a
+
+FlashAttention: Fast and Memory-Eﬃcient Exact Attention
+with IO-Awareness
+
+Tri Dao†, Daniel Y. Fu†, Stefano Ermon†, Atri Rudra‡, and Christopher Ré†
+
+†Department of Computer Science, Stanford University
+‡Department of Computer Science and Engineering, University at Buﬀalo, SUNY
+{trid,danfu}@cs.stanford.edu, ermon@stanford.edu, atri@buffalo.edu,
+chrismre@cs.stanford.edu
+
+June 24, 2022
+
+Abstract
+
+Transformers are slow and memory-hungry on long sequences, since the time and memory complexity
+of self-attention are quadratic in sequence length. Approximate attention methods have attempted
+to address this problem by trading oﬀ model quality to reduce the compute complexity, but often do
+not achieve wall-clock speedup. We argue that a missing principle is making attention algorithms IO-
+aware—accounting for reads and writes between levels of GPU memory. We propose FlashAttention,
+an IO-aware exact attention algorithm that uses tiling to reduce the number of memory reads/writes
+between GPU high bandwidth memory (HBM) and GPU on-chip SRAM. We analyze the IO complexity
+of FlashAttention, showing that it requires fewer HBM accesses than standard attention, and is
+optimal for a range of SRAM sizes. We also extend FlashAttention to block-sparse attention, yielding
+an approximate attention algorithm that is faster than any existing approximate attention method.
+FlashAttention trains Transformers faster than existing baselines: 15% end-to-end wall-clock speedup
+on BERT-large (seq. length 512) compared to the MLPerf 1.1 training speed record, 3× speedup on
+GPT-2 (seq. length 1K), and 2.4× speedup on long-range arena (seq. length 1K-4K). FlashAttention
+and block-sparse FlashAttention enable longer context in Transformers, yielding higher quality models
+(0.7 better perplexity on GPT-2 and 6.4 points of lift on long-document classiﬁcation) and entirely new
+capabilities: the ﬁrst Transformers to achieve better-than-chance performance on the Path-X challenge
+(seq. length 16K, 61.4% accuracy) and Path-256 (seq. length 64K, 63.1% accuracy).
+
+1
+
+Introduction
+
+Transformer models [82] have emerged as the most widely used architecture in applications such as natural
+language processing and image classiﬁcation. Transformers have grown larger [5] and deeper [83], but
+equipping them with longer context remains diﬃcult [80], since the self-attention module at their heart
+has time and memory complexity quadratic in sequence length. An important question is whether making
+attention faster and more memory-eﬃcient can help Transformer models address their runtime and memory
+challenges for long sequences.
+
+Many approximate attention methods have aimed to reduce the compute and memory requirements of
+attention. These methods range from sparse-approximation [51, 74] to low-rank approximation [12, 50, 84],
+and their combinations [3, 9, 92]. Although these methods reduce the compute requirements to linear or
+near-linear in sequence length, many of them do not display wall-clock speedup against standard attention
+and have not gained wide adoption. One main reason is that they focus on FLOP reduction (which may not
+correlate with wall-clock speed) and tend to ignore overheads from memory access (IO).
+
+In this paper, we argue that a missing principle is making attention algorithms IO-aware [1]—that is,
+carefully accounting for reads and writes to diﬀerent levels of fast and slow memory (e.g., between fast GPU
+on-chip SRAM and relatively slow GPU high bandwidth memory, or HBM [45], Figure 1 left). On modern
+
+1
+
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1: Left: FlashAttention uses tiling to prevent materialization of the large 𝑁 × 𝑁 attention matrix
+(dotted box) on (relatively) slow GPU HBM. In the outer loop (red arrows), FlashAttention loops through
+blocks of the K and V matrices and loads them to fast on-chip SRAM. In each block, FlashAttention
+loops over blocks of Q matrix (blue arrows), loading them to SRAM, and writing the output of the attention
+computation back to HBM. Right: Speedup over the PyTorch implementation of attention on GPT-2.
+FlashAttention does not read and write the large 𝑁 × 𝑁 attention matrix to HBM, resulting in an 7.6×
+speedup on the attention computation.
+
+GPUs, compute speed has out-paced memory speed [61, 62, 63], and most operations in Transformers are
+bottlenecked by memory accesses [43]. IO-aware algorithms have been critical for similar memory-bound
+operations, when reading and writing data can account for a large portion of the runtime—such as database
+joins [71], image processing [70], numerical linear algebra [4], and more [40, 85]. However, common Python
+interfaces to deep learning such as PyTorch and Tensorﬂow do not allow ﬁne-grained control of memory
+access.
+
+We propose FlashAttention, a new attention algorithm that computes exact attention with far fewer
+memory accesses. Our main goal is to avoid reading and writing the attention matrix to and from HBM.
+This 

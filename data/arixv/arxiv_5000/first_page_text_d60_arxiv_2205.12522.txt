@@ -1,0 +1,159 @@
+Crossmodal-3600: A Massively Multilingual
+Multimodal Evaluation Dataset
+
+Ashish V. Thapliyal, Jordi Pont-Tuset, Xi Chen, Radu Soricut
+Google Research
+{asht,jponttuset,chillxichen,rsoricut}@google.com
+
+2
+2
+0
+2
+
+t
+c
+O
+0
+1
+
+]
+
+V
+C
+.
+s
+c
+[
+
+2
+v
+2
+2
+5
+2
+1
+.
+5
+0
+2
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Research in massively multilingual image cap-
+tioning has been severely hampered by a lack
+of high-quality evaluation datasets. In this pa-
+per we present the Crossmodal-3600 dataset
+(XM3600 in short), a geographically-diverse
+set of 3600 images annotated with human-
+generated reference captions in 36 languages.
+The images were selected from across the
+world, covering regions where the 36 lan-
+guages are spoken, and annotated with cap-
+tions that achieve consistency in terms of style
+across all languages, while avoiding annota-
+tion artifacts due to direct translation. We
+apply this benchmark to model selection for
+massively multilingual image captioning mod-
+els, and show strong correlation results with
+human evaluations when using XM3600 as
+golden references for automatic metrics.
+
+1
+
+Introduction
+
+Image captioning is the task of automatically gen-
+erating a ﬂuent natural language description for a
+given image. This task is important for enabling ac-
+cessibility for visually impaired users, and is a core
+task in multimodal research encompassing both vi-
+sion and language modeling. However, datasets for
+this task are primarily available in English (Young
+et al., 2014; Chen et al., 2015; Krishna et al., 2017;
+Sharma et al., 2018; Pont-Tuset et al., 2020). Be-
+yond English, there are a few datasets such as
+Multi30K with captions in German (Elliott et al.,
+2016), French (Elliott et al., 2017) and Czech (Bar-
+rault et al., 2018), but they are limited to only a
+few languages that cover a small fraction of the
+world’s population, while featuring images that
+severely under-represent the richness and diversity
+of cultures from across the globe. These aspects
+have hindered research on image captioning for a
+wide variety of languages, and directly hamper de-
+ploying accessibility solutions for a large potential
+audience around the world.
+
+Creating large training and evaluation datasets in
+multiple languages is a resource-intensive endeavor.
+Recent works (Thapliyal and Soricut, 2020) have
+shown that it is feasible to build multilingual image
+captioning models trained on machine-translated
+data (with English captions as the starting point).
+This work also shows that the effectiveness of some
+of the most reliable automatic metrics for image
+captioning, such as CIDEr1 (Vedantam et al., 2015)
+is severely diminished when applied to translated
+evaluation sets, resulting in poorer agreement with
+human evaluations compared to the English case.
+As such, the current situation is that trustworthy
+model evaluation can only be based on extensive
+and expensive human evaluations. However, such
+evaluations cannot usually be replicated across dif-
+ferent research efforts, and therefore do not offer a
+fast and robust mechanism for model hill-climbing
+and comparison of multiple lines of research.
+
+The proposed XM3600 image captioning evalua-
+tion dataset provides a robust benchmark for multi-
+lingual image captioning, and can be reliably used
+to compare research contributions in this emerg-
+ing ﬁeld. Our contributions are as follows: (i)
+for human caption annotations, we have devised a
+protocol that allows annotators for a speciﬁc tar-
+get language to produce image captions in a style
+that is consistent across languages; this protocol
+results in image-caption annotations that are free
+of direct translation artefacts, an issue that has
+plagued Machine Translation research for many
+years and is now well understood (Freitag et al.,
+2020); (ii) for image selection, we have devised
+an algorithmic approach to sample a set of 3600
+geographically-diverse images from the Open Im-
+ages Dataset (Kuznetsova et al., 2020), aimed at
+creating a representative set of images from across
+the world; (iii) for the resulting XM3600 bench-
+
+1"measures the similarity of a generated sentence against
+a set of ground truth sentences written by humans." quoted
+from (Vedantam et al., 2015).
+
+ 
+ 
+ 
+ 
+ 
+ 
+Source: Porsche Museum, Stuttgart by Brian Solis.
+
+Figure 1: Sample captions in three different languages (out of 36 – see full list of captions in Appendix A),
+showcasing the creation of annotations that are consistent in style across languages, while being free of direct-
+translation artefacts (e.g. the Spanish “number 42” or the Thai “convertibles” would not be possible when directly
+translating from the English versions).
+
+mark, we empirically measure its ability to rank
+image captioning model variations, and show that
+it provides high levels of agreement with human
+judgements, therefore validating its usefulness as
+a benchmark and alleviating the need for human
+judgement in the future.
+
+Fig. 1 shows a few sample captions for an image
+in XM3600 that exemplify point (i) above, and 

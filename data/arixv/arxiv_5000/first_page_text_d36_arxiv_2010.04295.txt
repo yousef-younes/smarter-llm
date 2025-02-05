@@ -1,0 +1,164 @@
+Widget Captioning: Generating Natural Language Description for Mobile
+User Interface Elements
+
+Yang Li∗, Gang Li∗, Luheng He, Jingjie Zheng, Hong Li†, Zhiwei Guan
+Google Research, Mountain View, CA 94043, USA
+Georgia Tech, Atlanta, GA 30332, USA†
+{liyang, leebird, luheng, jingjiezheng, zguan}@google.com
+
+0
+2
+0
+2
+
+t
+c
+O
+8
+
+]
+
+G
+L
+.
+s
+c
+[
+
+1
+v
+5
+9
+2
+4
+0
+.
+0
+1
+0
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Natural language descriptions of user interface
+(UI) elements such as alternative text are cru-
+cial for accessibility and language-based inter-
+action in general. Yet, these descriptions are
+constantly missing in mobile UIs. We pro-
+pose widget captioning, a novel task for auto-
+matically generating language descriptions for
+UI elements from multimodal input including
+both the image and the structural representa-
+tions of user interfaces. We collected a large-
+scale dataset for widget captioning with crowd-
+sourcing. Our dataset contains 162,859 lan-
+guage phrases created by human workers for
+annotating 61,285 UI elements across 21,750
+unique UI screens. We thoroughly analyze the
+dataset, and train and evaluate a set of deep
+model conﬁgurations to investigate how each
+feature modality as well as the choice of learn-
+ing strategies impact the quality of predicted
+captions. The task formulation and the dataset
+as well as our benchmark models contribute a
+solid basis for this novel multimodal caption-
+ing task that connects language and user inter-
+faces.
+
+1
+
+Introduction
+
+Mobile apps come with a rich and diverse set of
+design styles, which are often more graphical and
+unconventional compared to traditional desktop ap-
+plications. Language descriptions of user interface
+(UI) elements—that we refer to as widget captions—
+are a precondition for many aspects of mobile UI
+usability. For example, accessibility services such
+as screen readers, e.g., Talkback (2019), rely on
+widget captions to make UI elements accessible to
+visually impaired users via text-to-speech technolo-
+gies. Importantly, widget captions are an enabler
+for many language-based interaction capabilities
+
+∗ Equal contribution
+† Participated in the project during an internship at Google
+
+Research.
+
+Figure 1: Widget captioning is a task to generate lan-
+guage descriptions for UI elements that miss captions,
+given multimodal input of UI structures and screenshot
+images. These captions are crucial for accessibility and
+language-based interaction in general.
+
+such as voice commands and general screen under-
+standing efforts.
+
+However, a signiﬁcant portion of mobile apps
+today lack widget captions in their user interfaces,
+which have stood out as a primary issue for mo-
+bile accessibility (Ross et al., 2018, 2017). More
+than half of image-based elements have missing
+captions (Ross et al., 2018). Beyond image-based
+ones, our analysis of a UI corpus here showed that
+a wide range of elements have missing captions.
+Existing tools for examining and ﬁxing missing
+captions (AccessibilityScanner, 2019; AndroidLint,
+2019; Zhang et al., 2018, 2017; Choo et al., 2019)
+require developers to manually compose a language
+description for each element, which imposes a sub-
+stantial overhead on developers.
+
+We propose widget captioning, a novel task to
+automatically generate captions for UI elements1
+based on their visual appearance, structural proper-
+ties and context (see Figure 1). This task is analo-
+gous to image captioning that generates language
+descriptions for images, e.g., Xu et al. (2015);
+Lin et al. (2014). However, widget captioning
+
+1We use widgets and elements interchangeably.
+
+View Hierarchy Structures play songadd a new playlistModelWidget CaptionsElement PixelsMobile UI  
+ 
+ 
+ 
+ 
+ 
+raises several unique challenges. User interfaces
+are highly structural while traditional image cap-
+tioning mostly focus on raw image pixels. Wid-
+get captioning is concerned with describing indi-
+vidual elements in the UI rather than the entire
+UI screen, while the entire screen provides useful
+contextual information for widget captioning. We
+target language generation for a broad set of UI
+elements, rather than only image-based ones. As
+we will show in our data analysis, many non-image
+elements also suffer the lack of captions. These
+challenges give rise to several interesting modeling
+questions such as how to combine both structural
+and image input and how to effectively represent
+each modality.
+
+We start by processing and analyzing a mo-
+bile UI corpus. We then create a large dataset
+for widget captioning by asking crowd workers
+to annotate a collection of UI elements in the cor-
+pus. Based on this dataset, we train and evaluate
+a set of model conﬁgurations to investigate how
+each feature modality and the choice of learning
+strategies would impact caption generation qual-
+ity. Our champion model that is based on a Trans-
+former (Vaswani et al., 2017) to encode structural
+information and a ResNet (He et al., 2015) for im-
+age input is able to produce accurate captions for
+UI elements based o

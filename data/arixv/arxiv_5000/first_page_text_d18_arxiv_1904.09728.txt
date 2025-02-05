@@ -1,0 +1,149 @@
+SOCIAL IQA: Commonsense Reasoning about Social Interactions
+
+Maarten Sap(cid:63) ♦♥ Hannah Rashkin(cid:63) ♦♥ Derek Chen♥ Ronan Le Bras♦ Yejin Choi♦♥
+♦Allen Institute for Artiﬁcial Intelligence, Seattle, WA, USA
+♥Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA
+{msap,hrashkin,dchen14,yejin}@cs.washington.edu
+{ronanlb}@allenai.org
+
+9
+1
+0
+2
+
+p
+e
+S
+9
+
+]
+L
+C
+.
+s
+c
+[
+
+3
+v
+8
+2
+7
+9
+0
+.
+4
+0
+9
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+We introduce SOCIAL IQA,
+the ﬁrst large-
+scale benchmark for commonsense reasoning
+about social situations. SOCIAL IQA contains
+38,000 multiple choice questions for prob-
+ing emotional and social intelligence in a va-
+riety of everyday situations (e.g., Q: “Jor-
+dan wanted to tell Tracy a secret, so Jor-
+dan leaned towards Tracy. Why did Jordan
+do this?” A: “Make sure no one else could
+hear”). Through crowdsourcing, we collect
+commonsense questions along with correct
+and incorrect answers about social interac-
+tions, using a new framework that mitigates
+stylistic artifacts in incorrect answers by ask-
+ing workers to provide the right answer to a
+different but related question. Empirical re-
+sults show that our benchmark is challenging
+for existing question-answering models based
+on pretrained language models, compared to
+human performance (>20% gap). Notably,
+we further establish SOCIAL IQA as a re-
+source for transfer learning of commonsense
+knowledge, achieving state-of-the-art perfor-
+mance on multiple commonsense reasoning
+tasks (Winograd Schemas, COPA).
+
+1
+
+Introduction
+
+Social and emotional intelligence enables humans
+to reason about the mental states of others and
+their likely actions (Ganaie and Mudasir, 2015).
+For example, when someone spills food all over
+the ﬂoor, we can infer that they will likely want to
+clean up the mess, rather than taste the food off the
+ﬂoor or run around in the mess (Figure 1, middle).
+This example illustrates how Theory of Mind, i.e.,
+the ability to reason about the implied emotions
+and behavior of others, enables humans to nav-
+igate social situations ranging from simple con-
+versations with friends to complex negotiations in
+courtrooms (Apperly, 2010).
+
+(cid:63) Both authors contributed equally.
+
+Figure 1: Three context-question-answers triples from
+SOCIAL IQA, along with the type of reasoning required
+to answer them. In the top example, humans can triv-
+ially infer that Tracy pressed upon Austin because there
+was no room in the elevator. Similarly, in the bottom
+example, commonsense tells us that people typically
+root for the hero, not the villain.
+
+While humans trivially acquire and develop
+such social reasoning skills (Moore, 2013), this
+is still a challenge for machine learning models,
+in part due to the lack of large-scale resources
+to train and evaluate modern AI systems’ social
+and emotional intelligence. Although recent ad-
+vances in pretraining large language models have
+yielded promising improvements on several com-
+monsense inference tasks, these models still strug-
+gle to reason about social situations, as shown
+in this and previous work (Davis and Marcus,
+
+REASONINGABOUTWHATHAPPENSNEXT(a)taste the food(b)mop up ✔(c)run around in the messWhat will Alex want to do next?AAlex spilled the food she just prepared all over the floor and it made a huge mess.QREASONINGABOUTEMOTIONALREACTIONS(a)sorry for the villain(b)hopeful that Robin will succeed ✔(c)like Robin should loseHow would others feel afterwards?In the school play, Robin played a hero in the struggle to the death with the angry villain.AQREASONINGABOUTMOTIVATIONWhy did Tracy do this?Tracy had accidentally pressed upon Austin in the small elevator and it was awkward.(a)get very close to Austin(b)squeeze into the elevator ✔(c)get flirty with AustinAQ 
+ 
+ 
+ 
+ 
+ 
+2015; Nematzadeh et al., 2018; Talmor et al.,
+2019). This is partly due to language models being
+trained on written text corpora, where reporting
+bias of knowledge limits the scope of common-
+sense knowledge that can be learned (Gordon and
+Van Durme, 2013; Lucy and Gauthier, 2017).
+
+In this work, we introduce Social Intelligence
+QA (SOCIAL IQA), the ﬁrst large-scale resource
+to learn and measure social and emotional intel-
+ligence in computational models.1 SOCIAL IQA
+contains 38k multiple choice questions regard-
+ing the pragmatic implications of everyday, social
+events (see Figure 1). To collect this data, we de-
+sign a crowdsourcing framework to gather con-
+texts and questions that explicitly address social
+commonsense reasoning. Additionally, by com-
+bining handwritten negative answers with adver-
+sarial question-switched answers (Section 3.3), we
+minimize annotation artifacts that can arise from
+crowdsourcing incorrect answers (Schwartz et al.,
+2017; Gururangan et al., 2018).
+
+This dataset remains challenging for AI sys-
+tems, with our best performing baseline reaching
+64.5% (BERT-large), signiﬁcantly lower than hu-
+man performance. We further establish SOCIAL
+IQA as a resource that enables transfer learning
+for othe

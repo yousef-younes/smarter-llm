@@ -1,0 +1,155 @@
+Pre-training image-language transformers for open-vocabulary tasks
+
+AJ Piergiovanni
+Google Research
+
+Weicheng Kuo
+Google Research
+
+Anelia Angelova
+Google Research
+
+2
+2
+0
+2
+
+p
+e
+S
+9
+
+]
+
+V
+C
+.
+s
+c
+[
+
+1
+v
+2
+7
+3
+4
+0
+.
+9
+0
+2
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+We present a pre-training approach for vision and lan-
+guage transformer models, which is based on a mixture of
+diverse tasks. We explore both the use of image-text cap-
+tioning data in pre-training, which does not need additional
+supervision, as well as object-aware strategies to pre-train
+the model. We evaluate the method on a number of text-
+generative vision+language tasks, such as Visual Question
+Answering, visual entailment and captioning, and demon-
+strate large gains over standard pre-training methods.
+
+1. Introduction
+
+Using vision and text transformers jointly to learn vision
+language interactions is an important problem, with appli-
+cations ranging from captioning, retrieval, Visual Question
+Answering (VQA), and others. Training these models is an
+open area of research, where one major unknown is what
+pre-training mechanisms to use. Existing works, such as
+CLIP or ALIGN [5, 10], use large-scale web-based datasets
+of image-text pairs, and apply contrastive loss during pre-
+training. This data is unlabeled and often noisy, and the col-
+lected text descriptions refer to prominent objects in the im-
+age. Using additionally labeled data, which provides valu-
+able semantic information, has been under-explored. For
+example, OpenImages [6] contains image-level and local-
+ization (box-level) labels. This data provides less noisy la-
+beling for a large variety of objects in images, and can yield
+cleaner signals and better data efﬁciency during training.
+
+A closely coupled question is what kind of pre-training
+tasks are most suitable for image-text transformer models.
+Some approaches use versions of the contrastive loss, as
+mentioned above [5, 10], which is a powerful technique
+but less suitable for text-generative problems such as image
+captioning or open-vocabulary VQA. Other approaches bor-
+row losses from the text domain applied to image-language,
+such as captioning [12] or masking losses, e.g., MLM [8].
+These methods can be widely applied as they do not require
+extra supervision, but might be inefﬁcient or even inade-
+quate at extracting semantic information. Some of these
+have been extended to focus on objects, typically by using
+
+off-the-shelf object detection [7, 8, 16], which clearly limits
+applicability to a small set of categories.
+
+Furthermore, for VQA tasks, most prior works focus
+on a classiﬁcation problem, using a limited set of answers
+(e.g., 3000 for VQA2.0) or by a ﬁxed set of pre-deﬁned
+outputs. However, a generalized system will be able to
+output free-form text for any question. Similarly, caption-
+ing tasks are open-vocabulary by deﬁnition. We focus on
+these vision-language tasks in the open-vocabulary setting,
+although they are more challenging. This lets us investi-
+gate the impact of different pre-training tasks for the entire
+model, by evaluating the generated text.
+
+We propose a pre-training approach as a mixture of va-
+riety of pre-training tasks, on both VQA and captioning.
+We ﬁnd that combining multiple cross-modal and language-
+based object-aware tasks is beneﬁcial. Our results show
+large improvements over previous pre-training methods.
+
+2. Related Works
+
+Standard methods for image-text models use an image
+encoder to obtain vision features, then a Transformer [15] to
+process the combined image and language tokens [3, 8, 17].
+We use a similar architecture. Where we differ from the pre-
+vious works is in the diversity of the pre-training sources.
+Rather than using large image-text data [5,10] or pre-trained
+object detectors [7, 8, 16], we use image-text tasks gener-
+ated from image or box level labels. We work with open-
+vocabulary text generation, which is harder.
+3. Model
+
+In this work, we build an image-language transformer
+model which uses both an image and a text sequence in-
+put and outputs a generated text sequence. We use this
+model for a number of vision language tasks, speciﬁ-
+cally VQA, visual entailment and captioning, and, as men-
+tioned, with free-form open-vocabulary generated text out-
+puts. Our model follows the standard encoder-decoder
+transformer style. We use convolutional layers to extract
+image patches [14] and use those as the vision tokens. We
+use a T5 [11] model to obtain text features from the lan-
+guage model and to generate the output text. The model
+
+ 
+ 
+ 
+ 
+ 
+ 
+is trained to generate text using a cross-entropy loss. Our
+model is derived from T5-base and has 330M parameters.
+
+4. Pre-training Approach
+
+We focus on creating pre-training tasks and using a
+collection of tasks in a ‘pre-training mixture’. The tasks
+are diverse in several dimensions: 1) amount of supervi-
+sion/labels and accompanying noise and 2) the task the
+model is trying to solve. We consider two types of tasks:
+Cross-Modal Image-Text pre-traini

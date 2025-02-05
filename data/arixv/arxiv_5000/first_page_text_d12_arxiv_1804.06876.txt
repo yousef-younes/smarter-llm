@@ -1,0 +1,170 @@
+Gender Bias in Coreference Resolution:
+Evaluation and Debiasing Methods
+
+Jieyu Zhao§
+
+Tianlu Wang†
+
+Mark Yatskar‡
+
+Vicente Ordonez†
+
+Kai-Wei Chang§
+
+§University of California, Los Angeles
+† University of Virginia
+
+{jyzhao, kwchang}@cs.ucla.edu
+
+{tw8bc, vicente}@virginia.edu
+
+‡Allen Institute for Artiﬁcial Intelligence
+
+marky@allenai.org
+
+8
+1
+0
+2
+
+r
+p
+A
+8
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+6
+7
+8
+6
+0
+.
+4
+0
+8
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+We introduce a new benchmark, WinoBias, for
+coreference resolution focused on gender bias.
+Our corpus contains Winograd-schema style
+sentences with entities corresponding to peo-
+ple referred by their occupation (e.g. the nurse,
+the doctor, the carpenter). We demonstrate
+that a rule-based, a feature-rich, and a neu-
+ral coreference system all link gendered pro-
+nouns to pro-stereotypical entities with higher
+accuracy than anti-stereotypical entities, by
+an average difference of 21.1 in F1 score.
+Finally, we demonstrate a data-augmentation
+approach that,
+in combination with exist-
+ing word-embedding debiasing techniques, re-
+moves the bias demonstrated by these sys-
+tems in WinoBias without signiﬁcantly affect-
+ing their performance on existing coreference
+benchmark datasets. Our dataset and code are
+avialable at http://winobias.org.
+
+1
+
+Introduction
+
+Coreference resolution is a task aimed at identify-
+ing phrases (mentions) referring to the same entity.
+Various approaches, including rule-based (Raghu-
+nathan et al., 2010), feature-based (Durrett and
+Klein, 2013; Peng et al., 2015a), and neural-
+network based (Clark and Manning, 2016; Lee
+et al., 2017) have been proposed. While signiﬁ-
+cant advances have been made, systems carry the
+risk of relying on societal stereotypes present in
+training data that could signiﬁcantly impact their
+performance for some demographic groups.
+
+In this work, we test the hypothesis that co-
+reference systems exhibit gender bias by creating
+a new challenge corpus, WinoBias.This dataset
+follows the winograd format (Hirst, 1981; Rah-
+man and Ng, 2012; Peng et al., 2015b), and con-
+tains references to people using a vocabulary of
+40 occupations.
+It contains two types of chal-
+lenge sentences that require linking gendered pro-
+
+Figure 1: Pairs of gender balanced co-reference tests in
+the WinoBias dataset. Male and female entities are marked in
+solid blue and dashed orange, respectively. For each exam-
+ple, the gender of the pronominal reference is irrelevant for
+the co-reference decision. Systems must be able to make cor-
+rect linking predictions in pro-stereotypical scenarios (solid
+purple lines) and anti-stereotypical scenarios (dashed purple
+lines) equally well to pass the test. Importantly, stereotypi-
+cal occupations are considered based on US Department of
+Labor statistics.
+
+nouns to either male or female stereotypical occu-
+pations (see the illustrative examples in Figure 1).
+None of the examples can be disambiguated by
+the gender of the pronoun but this cue can poten-
+tially distract the model. We consider a system
+to be gender biased if it links pronouns to occu-
+pations dominated by the gender of the pronoun
+(pro-stereotyped condition) more accurately than
+occupations not dominated by the gender of the
+pronoun (anti-stereotyped condition). The corpus
+can be used to certify a system has gender bias.1
+
+We use three different systems as prototypi-
+the Stanford Deterministic Coref-
+the
+
+cal examples:
+erence System (Raghunathan et al., 2010),
+
+1Note that the counter argument (i.e., systems are gender
+
+bias free) may not hold.
+
+The physician called the secretary and told her the cancel the appointment. The secretary called the physician and told him about a new patient. The secretary called the physician and told her about a new patient.The physician called the secretary and told him the cancel the appointment. Type 2The physician hired the secretary because she was highly recommended.The physician hired the secretary because he was highly recommended.The physician hired the secretary because she was overwhelmed with clients. Type 1The physician hired the secretary because he was overwhelmed with clients.  
+ 
+ 
+ 
+ 
+ 
+Berkeley Coreference Resolution System (Durrett
+and Klein, 2013) and the current best published
+system: the UW End-to-end Neural Coreference
+Resolution System (Lee et al., 2017). Despite
+qualitatively different approaches, all systems ex-
+hibit gender bias, showing an average difference in
+performance between pro-stereotypical and anti-
+stereotyped conditions of 21.1 in F1 score. Finally
+we show that given sufﬁciently strong alternative
+cues, systems can ignore their bias.
+
+In order to study the source of this bias, we
+analyze the training corpus used by these sys-
+tems, Ontonotes 5.0 (Weischedel et al., 2012).2
+Our analysis shows that female entities are signif-
+icantly underrepresented in this corpus. To reduce
+the impact of such dataset bias, we propose to gen-
+erate an auxiliary dataset where all male entities
+are replaced by female entities, and vi

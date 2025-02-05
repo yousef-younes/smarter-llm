@@ -1,0 +1,196 @@
+FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age
+
+Kimmo K¨arkk¨ainen
+UCLA
+kimmo@cs.ucla.edu
+
+Jungseock Joo
+UCLA
+jjoo@comm.ucla.edu
+
+9
+1
+0
+2
+
+g
+u
+A
+4
+1
+
+]
+
+V
+C
+.
+s
+c
+[
+
+1
+v
+3
+1
+9
+4
+0
+.
+8
+0
+9
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Existing public face datasets are strongly biased toward
+Caucasian faces, and other races (e.g., Latino) are sig-
+niﬁcantly underrepresented. This can lead to inconsistent
+model accuracy, limit the applicability of face analytic sys-
+tems to non-White race groups, and adversely affect re-
+search ﬁndings based on such skewed data. To mitigate
+the race bias in these datasets, we construct a novel face
+image dataset, containing 108,501 images, with an empha-
+sis of balanced race composition in the dataset. We deﬁne
+7 race groups: White, Black, Indian, East Asian, Southeast
+Asian, Middle East, and Latino. Images were collected from
+the YFCC-100M Flickr dataset and labeled with race, gen-
+der, and age groups. Evaluations were performed on exist-
+ing face attribute datasets as well as novel image datasets
+to measure generalization performance. We ﬁnd that the
+model trained from our dataset is substantially more accu-
+rate on novel datasets and the accuracy is consistent be-
+tween race and gender groups. The dataset will be released
+via {https://github.com/joojs/fairface}.
+
+1. Introduction
+
+To date, numerous large scale face image datasets [22,
+31, 13, 69, 37, 24, 41, 68, 15, 27, 46, 8, 39] have been pro-
+posed and fostered research and development for automated
+face detection [35, 21], alignment [66, 44], recognition [57,
+49], generation [67, 5, 26, 58], modiﬁcation [3, 32, 19], and
+attribute classiﬁcation [31, 37]. These systems have been
+successfully translated into many areas including security,
+medicine, education, and social sciences.
+
+Despite the sheer amount of available data, existing pub-
+lic face datasets are strongly biased toward Caucasian faces,
+and other races (e.g., Latino) are signiﬁcantly underrep-
+resented. A recent study shows that most existing large
+scale face databases are biased towards “lighter skin” faces
+(around 80%), e.g., White, compared to “darker” faces, e.g.,
+Black [39]. This means the model may not apply to some
+subpopulations and its results may not be compared across
+different groups without calibration. Biased data will pro-
+
+duce biased models trained from it. This will raise ethical
+concerns about fairness of automated systems, which has
+emerged as a critical topic of study in the recent machine
+learning and AI literature [17, 11].
+
+For example, several commercial computer vision sys-
+tems (Microsoft, IBM, Face++) have been criticized due to
+their asymmetric accuracy across sub-demographics in re-
+cent studies [7, 42]. These studies found that the commer-
+cial face gender classiﬁcation systems all perform better on
+male and on light faces. This can be caused by the biases
+in their training data. Various unwanted biases in image
+datasets can easily occur due to biased selection, capture,
+and negative sets [60]. Most public large scale face datasets
+have been collected from popular online media – newspa-
+pers, Wikipedia, or webs search– and these platforms are
+more frequently used by or showing White people.
+
+To mitigate the race bias in the existing face datasets, we
+propose a novel face dataset with an emphasis of balanced
+race composition. Our dataset contains 108,501 facial
+images collected primarily from the YFCC-100M Flickr
+dataset [59], which can be freely shared for a research pur-
+pose, and also includes examples from other sources such
+as Twitter and online newspaper outlets. We deﬁne 7 race
+groups: White, Black, Indian, East Asian, Southeast Asian,
+Middle East, and Latino. Our dataset is well-balanced on
+these 7 groups (See Figure 3 and 2)
+
+Our paper make three main contributions. First, we em-
+prically show that existing face attribute datasets and mod-
+els learned from them do not generalize well to unseen
+data in which more non-White faces are present. Second,
+we show that our new dataset perform better on the novel
+data, not only on average, but also across racial groups, i.e.
+more consistent. Third, to the best of our knowledge, our
+dataset is the ﬁrst large scale face attribute dataset in the
+wild which includes Latino and Middle Eastern and differ-
+entiates East Asian and South East Asian. Computer vision
+has been rapidly transferred into other ﬁelds such as eco-
+nomics or social sciences, where researchers want to ana-
+lyze different demographics using image data. The inclu-
+sion of major racial groups, which have been missing in
+existing datasets, therefore signiﬁcantly enlarges the appli-
+
+1
+
+ 
+ 
+ 
+ 
+ 
+ 
+Table 1: Statistics of Face Attribute Datasets
+
+Name
+
+Source
+
+# of
+faces
+
+In-the-
+wild?
+
+Age Gender
+
+White*
+W ME
+
+Race Annotation
+Ind-
+Bla-
+ian
+ck
+
+Asian*
+SE
+E
+
+Lat-
+ino
+
+Balan-
+ced?
+
+PPB [7]
+
+MORPH [45]
+PubFig [31]
+IMDB-WIKI [46]
+FotW [13]
+CACD [10]
+DiF [39]
+
+†CelebA [37]
+
+LFW+ [16]
+
+†LFWA+ [37]
+
+†UTKFace [75]
+
+FairFace (Ours)

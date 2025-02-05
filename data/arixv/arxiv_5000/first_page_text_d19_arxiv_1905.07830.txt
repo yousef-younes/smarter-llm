@@ -1,0 +1,144 @@
+HellaSwag: Can a Machine Really Finish Your Sentence?
+
+Rowan Zellers♠ Ari Holtzman♠ Yonatan Bisk♠ Ali Farhadi♠♥ Yejin Choi♠♥
+♠Paul G. Allen School of Computer Science & Engineering, University of Washington
+♥Allen Institute for Artiﬁcial Intelligence
+https://rowanzellers.com/hellaswag
+
+9
+1
+0
+2
+
+y
+a
+M
+9
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+0
+3
+8
+7
+0
+.
+5
+0
+9
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Recent work by Zellers et al. (2018) intro-
+duced a new task of commonsense natural lan-
+guage inference: given an event description
+such as “A woman sits at a piano,” a machine
+must select the most likely followup: “She
+sets her ﬁngers on the keys.” With the intro-
+duction of BERT (Devlin et al., 2018), near
+human-level performance was reached. Does
+this mean that machines can perform human
+level commonsense inference?
+
+In this paper, we show that commonsense in-
+ference still proves diﬃcult for even state-
+of-the-art models, by presenting HellaSwag,
+a new challenge dataset. Though its ques-
+tions are trivial for humans (ą95% accuracy),
+state-of-the-art models struggle (ă48%). We
+achieve this via Adversarial Filtering (AF), a
+data collection paradigm wherein a series of
+discriminators iteratively select an adversarial
+set of machine-generated wrong answers. AF
+proves to be surprisingly robust. The key in-
+sight is to scale up the length and complex-
+ity of the dataset examples towards a critical
+‘Goldilocks’ zone wherein generated text is
+ridiculous to humans, yet often misclassiﬁed
+by state-of-the-art models.
+
+Our construction of HellaSwag, and its result-
+ing diﬃculty, sheds light on the inner work-
+ings of deep pretrained models. More broadly,
+it suggests a new path forward for NLP re-
+search, in which benchmarks co-evolve with
+the evolving state-of-the-art in an adversarial
+way, so as to present ever-harder challenges.
+
+1
+
+Introduction
+
+Imagine a woman chasing a dog around outside,
+trying to give it a bath. What might happen next?
+Humans can read a narrative like this, shown in
+Figure 1, and connect it to a rich model of the
+world: the dog is currently dry and not soapy, and
+it actively doesn’t want to be bathed. Thus, one
+
+1
+
+Figure 1: Models like BERT struggle to ﬁnish the sen-
+tences in HellaSwag, even when they come from the
+same distribution as the training set. While the wrong
+endings are on-topic, with words that relate to the con-
+text, humans consistently judge their meanings to be
+either incorrect or implausible. For example, option A
+of the WikiHow passage suggests that a driver should
+stop at a red light for no more than two seconds.
+
+plausible next event is option C—that she’ll get
+the dog wet and it will run away again.
+
+When the SWAG dataset was ﬁrst announced
+(Zellers et al., 2018), this new task of common-
+sense natural language inference seemed trivial
+for humans (88%) and yet challenging for then-
+state-of-the-art models (ă60%), including ELMo
+(Peters et al., 2018). However, BERT (Devlin
+et al., 2018) soon reached over 86%, almost
+human-level performance. One news article on
+this development was headlined “ﬁnally, a ma-
+chine that can ﬁnish your sentence.”1
+
+In this paper, we investigate the following ques-
+tion: How well do deep pretrained models, like
+
+1A New York Times article at https://nyti.ms/2DycutY.
+
+A woman is outside with a bucket and a dog. The dog is running around trying to avoid a bath. She…A.rinses the bucket off with soap and blow dry the dog’s head.B.uses a hose to keep it from getting soapy.C.gets the dog wet, then it runs away again.D.gets into a bath tub with the dog.Come to a complete halt at a stop sign or red light. At a stop sign, come to a complete halt for about 2 seconds or until vehicles that arrived before you clear the intersection. If you're stopped at a red light, proceed when the light has turned green. …A.Stop for no more than two seconds, or until the light turns yellow. A red light in front of you indicates that you should stop.B.After you come to a complete stop, turn off your turn signal. Allow vehicles to move in different directions before moving onto the sidewalk.C.Stay out of the oncoming traﬃc. People coming in from behind may elect to stay left or right.D.If the intersection has a white stripe in your lane, stop before this line. Wait until all traﬃc has cleared before crossing the intersection.OpenAIGPTHow to determine who has right of way. easy!???+Adversarial Filtering+Adversarial Filtering 
+ 
+ 
+ 
+ 
+ 
+BERT, perform at commonsense natural language
+inference (NLI)? Our surprising conclusion is
+that the underlying task remains unsolved.
+In-
+deed, we ﬁnd that deep models such as BERT do
+not demonstrate robust commonsense reasonining
+ability by themselves. Instead, they operate more
+like rapid surface learners for a particular dataset.
+Their strong performance on SWAG is dependent
+on the ﬁnetuning process, wherein they largely
+learn to pick up on dataset-speciﬁc distributional
+biases. When the distribution of language shifts
+slightly, performance drops drastically – even if
+the d

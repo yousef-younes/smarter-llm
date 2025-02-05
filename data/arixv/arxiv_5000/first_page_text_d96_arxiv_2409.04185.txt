@@ -1,0 +1,182 @@
+4
+2
+0
+2
+
+t
+c
+O
+7
+
+]
+
+G
+L
+.
+s
+c
+[
+
+2
+v
+5
+8
+1
+4
+0
+.
+9
+0
+4
+2
+:
+v
+i
+X
+r
+a
+
+Residual Stream Analysis with Multi-Layer SAEs
+
+Tim Lawson∗ Lucy Farnik Conor Houghton Laurence Aitchison
+School of Engineering Mathematics and Technology
+University of Bristol
+Bristol, UK
+
+Abstract
+
+Sparse autoencoders (SAEs) are a promising approach to interpreting the internal
+representations of transformer language models. However, SAEs are usually trained
+separately on each transformer layer, making it difficult to use them to study how
+information flows across layers. To solve this problem, we introduce the multi-layer
+SAE (MLSAE): a single SAE trained on the residual stream activation vectors
+from every transformer layer. Given that the residual stream is understood to
+preserve information across layers, we expected MLSAE latents to ‘switch on’
+at a token position and remain active at later layers. Interestingly, we find that
+individual latents are often active at a single layer for a given token or prompt, but
+this layer may differ for different tokens or prompts. We quantify these phenomena
+by defining a distribution over layers and considering its variance. We find that the
+variance of the distributions of latent activations over layers is about two orders
+of magnitude greater when aggregating over tokens compared with a single token.
+For larger underlying models, the degree to which latents are active at multiple
+layers increases, which is consistent with the fact that the residual stream activation
+vectors at adjacent layers become more similar. Finally, we relax the assumption
+that the residual stream basis is the same at every layer by applying pre-trained
+tuned-lens transformations, but our findings remain qualitatively similar. Our
+results represent a new approach to understanding how representations change as
+they flow through transformers. We release our code to train and analyze MLSAEs
+at https://github.com/tim-lawson/mlsae.
+
+1
+
+Introduction
+
+Sparse autoencoders (SAEs) learn interpretable directions or ‘features’ in the representation spaces
+of language models (Elhage et al., 2022; Cunningham et al., 2023; Bricken et al., 2023). Typically,
+SAEs are trained on the activation vectors from a single model layer (Gao et al., 2024; Templeton
+et al., 2024; Lieberum et al., 2024). This approach illuminates the representations within a layer.
+However, Olah (2024); Templeton et al. (2024) believe that models may encode meaningful concepts
+by simultaneous activations in multiple layers, which SAEs trained at a single layer do not address.
+Furthermore, it is not straightforward to automatically identify correspondences between features
+from SAEs trained at different layers, which may complicate circuit analysis (e.g. He et al., 2024).
+
+To solve this problem, we take inspiration from the residual stream perspective, which states that
+transformers (Vaswani et al., 2017) selectively write information to and read information from token
+positions with self-attention and MLP layers (Elhage et al., 2021; Ferrando et al., 2024). The results
+of subsequent circuit analyses, like the explanation of the indirect object identification task presented
+by Wang et al. (2022), support this viewpoint and cause us to expect the activation vectors at adjacent
+layers in the residual stream to be relatively similar (Lad et al., 2024).
+
+∗Correspondence to tim.lawson@bristol.ac.uk.
+
+Preprint. Under review.
+
+ 
+ 
+ 
+ 
+ 
+ 
+y
+t
+i
+r
+a
+l
+i
+
+m
+i
+S
+e
+n
+i
+s
+o
+C
+n
+a
+e
+
+M
+
+1
+
+0.8
+
+0.6
+
+0.4
+
+0.2
+
+0
+
+Pythia-70m
+Pythia-410m
+Pythia-1.4b
+
+Pythia-160m
+Pythia-1b
+Pythia-2.8b
+
+0
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+Relative Layer
+
+0.6
+
+0.7
+
+0.8
+
+0.9
+
+1
+
+Figure 1: The mean cosine similarities between the residual stream activation vectors at adjacent
+layers of transformers, over 10 million tokens from the test set. To compare transformers with
+different numbers of layers, we divide the lower of each pair of adjacent layers by the number of
+pairs. This ‘relative layer’ is the x-axis of the plot. We subtract the dataset mean from the activation
+vectors at each layer before computing cosine similarities to control for changes in the norm between
+layers (Heimersheim & Turner, 2023), which we demonstrate in Figure 4.
+
+To capture the structure shared between layers in the residual stream, we introduce the multi-layer
+SAE (MLSAE): a single SAE trained on the residual stream activation vectors from every layer of
+a transformer language model. Importantly, the autoencoder itself has a single hidden layer – it is
+multi-layer only in the sense that it is trained on activations from multiple layers of the underlying
+transformer. In particular, we consider the activation vectors from each layer as separate training
+examples, which is equivalent to training a single SAE at each layer individually but with the
+parameters tied across layers. We briefly discuss alternative methods in Section 5.
+
+We show that multi-layer SAEs achieve comparable reconstruction error and downstream loss to
+single-layer SAEs

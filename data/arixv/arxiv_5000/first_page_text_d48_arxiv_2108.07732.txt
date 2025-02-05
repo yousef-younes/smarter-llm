@@ -1,0 +1,127 @@
+1
+2
+0
+2
+
+g
+u
+A
+6
+1
+
+]
+L
+P
+.
+s
+c
+[
+
+1
+v
+2
+3
+7
+7
+0
+.
+8
+0
+1
+2
+:
+v
+i
+X
+r
+a
+
+Program Synthesis with Large Language Models
+
+Jacob Austin*
+
+Augustus Odena*
+
+Maxwell Nye† Maarten Bosma
+
+Henryk Michalewski
+
+David Dohan
+
+Ellen Jiang
+
+Carrie Cai
+
+Michael Terry
+
+Quoc Le
+
+Charles Sutton
+
+Google Research
+* denotes equal contribution
+jaaustin@google.com, augustusodena@google.com
+
+Abstract
+
+This paper explores the limits of the current generation of large language models for program synthesis in
+general purpose programming languages. We evaluate a collection of such models (with between 244M
+and 137B parameters) on two new benchmarks, MBPP and MathQA-Python, in both the few-shot and
+ﬁne-tuning regimes. Our benchmarks are designed to measure the ability of these models to synthesize
+short Python programs from natural language descriptions. The Mostly Basic Programming Problems
+(MBPP) dataset contains 974 programming tasks, designed to be solvable by entry-level programmers.
+The MathQA-Python dataset, a Python version of the MathQA benchmark, contains 23914 problems that
+evaluate the ability of the models to synthesize code from more complex text. On both datasets, we ﬁnd
+that synthesis performance scales log-linearly with model size. Our largest models, even without ﬁnetuning
+on a code dataset, can synthesize solutions to 59.6% of the problems from MBPP using few-shot learning
+with a well-designed prompt. Fine-tuning on a held-out portion of the dataset improves performance by
+about 10 percentage points across most model sizes. On the MathQA-Python dataset, the largest ﬁne-tuned
+model achieves 83.8% accuracy. Going further, we study the model’s ability to engage in dialog about
+code, incorporating human feedback to improve its solutions. We ﬁnd that natural language feedback from
+a human halves the error rate compared to the model’s initial prediction. Additionally, we conduct an error
+analysis to shed light on where these models fall short and what types of programs are most difﬁcult to
+generate. Finally, we explore the semantic grounding of these models by ﬁne-tuning them to predict the
+results of program execution. We ﬁnd that even our best models are generally unable to predict the output
+of a program given a speciﬁc input.
+
+1 Introduction
+
+Program synthesis is a longstanding goal of artiﬁcial intelligence research [Manna and Waldinger, 1971, Waldinger
+et al., 1969, Summers, 1977, Shaw et al., 1975, Pnueli and Rosner, 1989, Manna and Waldinger, 1975], dating as far
+back as the 1940s and 50s [Copeland, 2012, Backus et al., 1957]. There has been a recent resurgence of interest in
+techniques (both symbolic and ‘neuro-symbolic’) for synthesizing programs [Balog et al., 2017, Devlin et al., 2017,
+Ellis et al., 2018, 2020, Odena et al., 2020], but these techniques have largely been applied to restricted domain-speciﬁc
+languages (DSLs) [Gulwani, 2011] or to languages that are more fully featured but that nevertheless are designed
+speciﬁcally with synthesis in mind [Odena and Sutton, 2020]. Modern general-purpose languages like Python or
+C++ have mostly been out-of-reach as targets. This is unfortunate, because it materially restricts the set of possible
+downstream applications. Synthesis methods that target problems across domains in general purpose languages have
+the potential to enable new tools that beneﬁt the workﬂows of both novice and expert programmers.
+
+Two emerging themes from the research literature point to a possible new approach for this problem (for a more detailed
+review, see Section 8). First, large language models have shown impressive new abilities to generate natural language
+
+†Max is afﬁliated with MIT, but did this work while interning at Google Research.
+
+1
+
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1: Example programs synthesized (few-shot) by our largest model. The prompt is shown in purple, and the
+model’s response in blue. The prompt also typically contains several few-shot examples in the same format, which are
+not shown here.
+
+text [Brown et al., 2020, Raffel et al., 2019] and to solve a rapidly expanding set of modeling and reasoning tasks
+[Devlin et al., 2019, big-bench collaboration, 2021]. Second, over the past decade, machine learning approaches have
+been applied to source code text to yield a variety of new tools to support software engineering [Allamanis et al., 2018a].
+This work has included pre-trained deep models such as CuBERT [Kanade et al., 2020], CodeBERT [Feng et al., 2020],
+PyMT5 [Clement et al., 2020], code2vec [Alon et al., 2019], and other T5 models trained on code [Mastropaolo et al.,
+2021].
+
+Combining these two themes raises the question of whether large language models for natural language can be brought
+to bear to synthesize code in a general-purpose language. Such models emit code in ‘token-space’, and so it is not
+necessary to explicitly encode the grammar of the underlying language—they learn it from data. Furthermore, these
+models can be trained on large quantities of code, so they can learn ab

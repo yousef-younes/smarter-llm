@@ -1,0 +1,132 @@
+4
+2
+0
+2
+
+t
+c
+O
+5
+2
+
+]
+
+C
+D
+.
+s
+c
+[
+
+2
+v
+6
+6
+0
+0
+0
+.
+7
+0
+4
+2
+:
+v
+i
+X
+r
+a
+
+COMPRESS THEN SERVE: SERVING THOUSANDS OF
+LORA ADAPTERS WITH LITTLE OVERHEAD
+
+Rickard Brüel Gabrielsson1
+
+Jiacheng Zhu1 Onkar Bhardwaj2
+
+Leshem Choshen1,2
+
+Kristjan Greenewald2
+
+Mikhail Yurochkin2
+
+Justin Solomon1
+
+1MIT CSAIL, 2MIT-IBM Watson AI Lab
+
+ABSTRACT
+
+Fine-tuning large language models (LLMs) with low-rank adaptations (LoRAs)
+has become common practice, often yielding numerous copies of the same LLM
+differing only in their LoRA updates. This paradigm presents challenges for sys-
+tems that serve real-time responses to queries that each involve a different LoRA.
+Prior works optimize the design of such systems but still require continuous load-
+ing and offloading of LoRAs, as it is infeasible to store thousands of LoRAs in
+GPU memory. To mitigate this issue, we investigate the efficacy of model com-
+pression when serving LoRAs. We propose a method for joint compression of
+LoRAs into a shared basis paired with LoRA-specific scaling matrices. We ex-
+tend our algorithm to learn clusters of LoRAs that are more amenable to joint
+compression, allowing it to scale gracefully to large LoRA collections. Our ex-
+periments with up to 500 LoRAs demonstrate that compressed LoRAs preserve
+performance while offering major throughput gains in realistic serving scenarios
+with over a thousand LoRAs, maintaining 80% of the throughput of serving a
+single LoRA.
+
+1
+
+INTRODUCTION
+
+The myriad uses for foundation models (FMs) have led to a proliferation of specialized models, each
+fine-tuned to perform a downstream task. To avoid fine-tuning foundation models with billions of
+parameters, more parameter-efficient fine-tuning (PEFT) algorithms were proposed. An especially
+successful PEFT method is low-rank adaptation (LoRA) (Hu et al., 2021), which learns low-rank
+additive changes to neural network matrices. Because of the low-rank parameterization, these ma-
+trices (called adapter weights) contain orders-of-magnitude fewer parameters than the base model.
+Still, LoRA can achieve performance on par with full fine-tuning (Hu et al., 2021).
+
+LoRA’s popularity has triggered a growing need to serve large collections of LoRA adapters at
+scale. For example, proprietary and open-source LLM providers offer fine-tuning services (OpenAI,
+2024; TogetherAI, 2024; Predibase, 2024) with user bases likely in thousands or even hundreds of
+thousands. As each user wants to use their own fine-tuned version of the LLM, simply serving a
+dedicated fine-tuned LLM per user becomes infeasible. To this end, S-LoRA (Sheng et al., 2023)
+considers a system where only the base LLM is placed on an inference server and individual LoRA
+adapters are switched as needed at inference time. S-LoRA optimizes the system’s inner workings
+via custom CUDA kernels and memory management to increase the throughput when serving multi-
+ple LoRAs. Such multi-LoRA system design has also been adopted in vLLM (Kwon et al., 2023), a
+state-of-the-art LLM serving engine. Despite the optimized system design, serving LoRAs still has
+a fundamental limitation: when the number of adapters is large, they need to be constantly loaded
+and offloaded from GPU memory to accommodate incoming requests, degrading throughput.
+
+The problem of accommodating multiple LoRA adapters is also apparent when placing LLMs on
+edge devices, where smaller LLMs are fine-tuned for various tasks and the adapters are swapped
+depending on the task at hand (Gunter et al., 2024). In this case, the amount of adapters is smaller,
+e.g., a few dozen (Gunter et al., 2024), but the memory constraints are also tighter due to the limited
+capacity of edge devices.
+
+1
+
+ 
+ 
+ 
+ 
+ 
+ 
+In this work, we consider the problem of compressing a collection of LoRAs. We have two key
+objectives: (1) preserving the performance of the original LoRAs and (2) improving the throughput
+of serving many LoRAs. We formulate LoRA compression as a reconstruction problem, where the
+goal is to approximate the original adapters via collections of matrices of a smaller total size. We
+investigate an approach based on compressing LoRAs jointly by finding a shared basis and LoRA-
+specific scaling matrices, and propose a joint diagonalization-based algorithm (JD). To improve
+reconstruction error for large numbers of LoRAs while keeping the number of parameters in check,
+we propose a clustering approach where each cluster is compressed independently using the joint
+diagonalization algorithm. Our clustering algorithm is based on alternating between optimizing the
+cluster assignments and the per-cluster reconstruction error.
+
+We showcase the benefits of joint compression in
+Figure 1. We chose JD configurations that match the
+constraints. When serving up to 64 unique LoRAs
+we use JD without clustering and for 128 or more,
+we pick the number of clusters to match the perfor-
+mance of compressed and original LoRAs. In each
+case, the GPU memory footprint of the compressed
+and original LoRAs is 

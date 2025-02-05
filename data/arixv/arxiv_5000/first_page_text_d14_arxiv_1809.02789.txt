@@ -1,0 +1,173 @@
+Can a Suit of Armor Conduct Electricity?
+A New Dataset for Open Book Question Answering
+
+Todor Mihaylov‡ and Peter Clark† and Tushar Khot† and Ashish Sabharwal†
+
+† Allen Institute for Artiﬁcial Intelligence, Seattle, WA, U.S.A.
+‡ Research Training Group AIPHES & Heidelberg University, Heidelberg, Germany
+{peterc,tushark,ashishs}@allenai.org, mihaylov@cl.uni-heidelberg.de
+
+Abstract
+
+We present a new kind of question answering
+dataset, OpenBookQA, modeled after open
+book exams for assessing human understand-
+ing of a subject. The open book that comes
+with our questions is a set of 1326 elementary
+level science facts. Roughly 6000 questions
+probe an understanding of these facts and their
+application to novel situations. This requires
+combining an open book fact (e.g., metals con-
+duct electricity) with broad common knowl-
+edge (e.g., a suit of armor is made of metal) ob-
+tained from other sources. While existing QA
+datasets over documents or knowledge bases,
+being generally self-contained, focus on lin-
+guistic understanding, OpenBookQA probes a
+deeper understanding of both the topic—in the
+context of common knowledge—and the lan-
+guage it is expressed in. Human performance
+on OpenBookQA is close to 92%, but many
+state-of-the-art pre-trained QA methods per-
+form surprisingly poorly, worse than several
+simple neural baselines we develop. Our or-
+acle experiments designed to circumvent the
+knowledge retrieval bottleneck demonstrate
+the value of both the open book and additional
+facts. We leave it as a challenge to solve the
+retrieval problem in this multi-hop setting and
+to close the large gap to human performance.
+
+1
+
+Introduction
+
+Open book exams are a common mechanism
+for assessing human understanding of a subject,
+where test takers are allowed free access to a rel-
+evant book, study guide, or class notes when an-
+swering questions. In this context, the goal is not
+to evaluate memorization but a deeper understand-
+ing of the material and its application to new situa-
+tions (Jenkins, 1995; Landsberger, 1996). The ap-
+plication, in turn, often requires combining a fact
+in the book (e.g., metals conduct electricity) with
+additional common knowledge the test taker is ex-
+
+Question:
+Which of these would let the most heat travel through?
+A) a new pair of jeans.
+B) a steel spoon in a cafeteria.
+C) a cotton candy at a store.
+D) a calvin klein cotton hat.
+
+Science Fact:
+Metal is a thermal conductor.
+
+Common Knowledge:
+Steel is made of metal.
+Heat travels through a thermal conductor.
+
+Figure 1: An example for a question with a given set
+of choices and supporting facts.
+
+pected to have acquired by this stage (e.g., a suit
+of armor is made of metal).
+
+Motivated by this setting, we present a new kind
+of question answering dataset, OpenBookQA,1
+that consists of two parts: Q, a set of 5957
+multiple-choice questions, and F, a set of 1326 di-
+verse facts about elementary level science. F has
+three key characteristics of an ‘open book’: (a) it
+forms the basis for generating Q; (b) it has been
+deemed central to scientiﬁc explanations (Jansen
+et al., 2018); and (c) by itself, F is generally in-
+sufﬁcient to answer questions in Q. Faced with a
+question q ∈ Q, a student or system S is expected
+retrieve a relevant fact f ∈ F, and appeal to their
+own common knowledge, KS, when applying f to
+answer q.
+
+Figure 1 provides an example. Here, metals are
+thermal conductors is a core scientiﬁc fact avail-
+able in F. One way to apply this fact to decide
+whether a steel spoon would let the most heat
+travel through is to appeal to common knowledge
+that steel is metallic and heat travels through ther-
+mal conductors. In general, the expected common
+knowledge is relatively simple (taxonomic facts,
+
+1The dataset and the code for the models are available at
+
+http://data.allenai.org/OpenBookQA.
+
+8
+1
+0
+2
+
+p
+e
+S
+8
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+9
+8
+7
+2
+0
+.
+9
+0
+8
+1
+:
+v
+i
+X
+r
+a
+
+ 
+ 
+ 
+ 
+ 
+ 
+deﬁnitions, object properties, etc.); the difﬁculty
+lies in identifying it and meaningfully combining
+it with a core fact from F to answer the question.
+OpenBookQA questions are challenging as they
+require multi-hop reasoning with partial context
+provided by F.
+Speciﬁcally, unlike existing
+datasets for reading comprehension (RC), answer-
+ing questions on the back of a textbook (TQA),2
+as well as question answering over structured
+knowledge-bases (KBQA), the open book F that
+comes with OpenBookQA is not self-contained.
+A successful system must therefore go beyond
+the typical challenges such as paraphrase match-
+ing and coreference resolution, without beneﬁting
+from the canonicalized and complete information
+in KBQA.
+
+Generating interesting open book questions is
+a difﬁcult task. We used a multi-stage process
+starting with F, using crowd-sourcing to generate
+(noisy) questions based on F that probe novel sit-
+uations, using an automatic ﬁlter to ensure hard-
+ness for retrieval and association based systems,
+using a crowd ﬁlter to ensure answerability by a
+lay person, and further

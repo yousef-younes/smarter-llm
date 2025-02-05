@@ -1,0 +1,159 @@
+1
+2
+0
+2
+
+g
+u
+A
+7
+
+]
+
+C
+H
+.
+s
+c
+[
+
+1
+v
+3
+5
+3
+3
+0
+.
+8
+0
+1
+2
+:
+v
+i
+X
+r
+a
+
+Screen2Words: Automatic Mobile UI Summarization with
+Multimodal Learning
+
+Bryan Wang∗
+University of Toronto
+Toronto, ON, Canada
+bryanw@dgp.toronto.edu
+
+Zhourong Chen
+Google Research
+Mountain View, CA, USA
+zrchen@google.com
+
+Gang Li
+Google Research
+Mountain View, CA, USA
+leebird@google.com
+
+Tovi Grossman
+University of Toronto
+Toronto, ON, Canada
+tovi@dgp.toronto.edu
+
+Xin Zhou
+Google Research
+Mountain View, CA, USA
+zhouxin@google.com
+
+Yang Li
+Google Research
+Mountain View, CA, USA
+liyang@google.com
+
+Figure 1: Screen2Words is a novel approach to automatically encapsulates essential information of a UI screen into a coherent
+language phrase. We collected the first large-scale screen summarization dataset, consisting of human annotations for 22,417
+Android UI screens. We developed a set of deep learning models based on the dataset, leveraging the multi-modal data that
+a mobile screen carries. Our evaluation shows that our approach outperforms the heuristics baseline and is able to generate
+accurate summaries.
+
+ABSTRACT
+Mobile User Interface Summarization generates succinct language
+descriptions of mobile screens for conveying important contents
+and functionalities of the screen, which can be useful for many
+language-based application scenarios. We present Screen2Words, a
+novel screen summarization approach that automatically encapsu-
+lates essential information of a UI screen into a coherent language
+phrase. Summarizing mobile screens requires a holistic understand-
+ing of the multi-modal data of mobile UIs, including text, image,
+structures as well as UI semantics, motivating our multi-modal
+learning approach. We collected and analyzed a large-scale screen
+summarization dataset annotated by human workers. Our dataset
+contains more than 112k language summarization across ∼22k
+unique UI screens. We then experimented with a set of deep models
+
+∗This work was completed while the author was an intern at Google Research.
+
+Permission to make digital or hard copies of part or all of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for third-party components of this work must be honored.
+For all other uses, contact the owner/author(s).
+UIST ’21, October 10–14, 2021, Virtual Event, USA
+© 2021 Copyright held by the owner/author(s).
+ACM ISBN 978-1-4503-8635-7/21/10.
+https://doi.org/10.1145/3472749.3474765
+
+with different configurations. Our evaluation of these models with
+both automatic accuracy metrics and human rating shows that our
+approach can generate high-quality summaries for mobile screens.
+We demonstrate potential use cases of Screen2Words and open-
+source our dataset and model to lay the foundations for further
+bridging language and user interfaces.
+
+CCS CONCEPTS
+• Human-centered computing → Human computer interac-
+tion (HCI).
+
+KEYWORDS
+Mobile UI summarization, screen understanding, deep learning,
+language-based UI, dataset.
+
+ACM Reference Format:
+Bryan Wang, Gang Li, Xin Zhou, Zhourong Chen, Tovi Grossman, and Yang
+Li. 2021. Screen2Words: Automatic Mobile UI Summarization with Mul-
+timodal Learning. In The 34th Annual ACM Symposium on User Interface
+Software and Technology (UIST ’21), October 10–14, 2021, Virtual Event, USA.
+ACM, New York, NY, USA, 13 pages. https://doi.org/10.1145/3472749.3474765
+
+ 
+ 
+ 
+ 
+ 
+ 
+UIST ’21, October 10–14, 2021, Virtual Event, USA
+
+Bryan Wang, Gang Li, Xin Zhou, Zhourong Chen, Tovi Grossman, and Yang Li
+
+1 INTRODUCTION
+A mobile user interface screen often contains a rich set of graphical
+components from which a user can fulfill one or multiple func-
+tionalities. A succinct language description about a UI screen is
+useful for many language-based application scenarios. For exam-
+ple, a screen summary allows both conversational agents and end
+users to easily grasp the purpose and the state of a screen when ac-
+complishing mobile tasks via language [25, 26]. A screen summary
+can be announced to help screen reader users quickly establish a
+mental model of an unknown mobile UI without waiting for the
+screen readers to scan through each element. [19, 37]. More broadly,
+representing a UI screen in language, which is highly flexible and
+versatile, opens many opportunities for combining the strengths of
+the two communication mediums. However, screen summaries are
+largely nonexistent in existing applications. It is difficult to com-
+pose these summaries manually because user interfaces are highly
+diverse and dynamic. As such, we focus on automatic screen sum-
+marization, a task that generates compact yet informative language
+representation from semantic understanding of UI screens.
+
+Automatic screen summarization, while similar to image caption-
+ing [47] and text summarization [31], is unique in that it requires
+a holistic understanding of the 

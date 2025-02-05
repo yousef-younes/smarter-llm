@@ -1,0 +1,170 @@
+4
+2
+0
+2
+
+g
+u
+A
+9
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+1
+4
+4
+0
+1
+.
+8
+0
+4
+2
+:
+v
+i
+X
+r
+a
+
+Goldfish: Monolingual Language Models for 350 Languages
+
+Tyler A. Chang1,2, Catherine Arnett3, Zhuowen Tu1, Benjamin K. Bergen1
+1Department of Cognitive Science
+2Halıcıo˘glu Data Science Institute
+3Department of Linguistics
+University of California San Diego
+{tachang, ccarnett, ztu, bkbergen}@ucsd.edu
+
+Abstract
+
+For many low-resource languages, the only
+available language models are large multilin-
+gual models trained on many languages simul-
+taneously. However, using FLORES perplex-
+ity as a metric, we find that these models per-
+form worse than bigrams for many languages
+(e.g. 24% of languages in XGLM 4.5B; 43%
+in BLOOM 7.1B). To facilitate research that
+focuses on low-resource languages, we pre-
+train and release Goldfish, a suite of monolin-
+gual autoregressive Transformer language mod-
+els up to 125M parameters for 350 languages.
+The Goldfish reach lower FLORES perplexities
+than BLOOM, XGLM, and MaLA-500 on 98
+of 204 FLORES languages, despite each Gold-
+fish model being over 10× smaller. However,
+the Goldfish significantly underperform larger
+multilingual models on reasoning benchmarks,
+suggesting that for low-resource languages,
+multilinguality primarily improves general rea-
+soning abilities rather than basic text genera-
+tion. We release models trained on 5MB (350
+languages), 10MB (288 languages), 100MB
+(166 languages), and 1GB (83 languages) of
+text data where available. The Goldfish models
+are available as baselines, fine-tuning sources,
+or augmentations to existing models in low-
+resource NLP research, and they are further
+useful for crosslinguistic studies requiring max-
+imally comparable models across languages.
+
+1
+
+Introduction
+
+Language modeling research in low-resource lan-
+guages often relies on large multilingual models
+trained on many languages simultaneously (Con-
+neau et al., 2020; Adelani et al., 2021b; Ebrahimi
+et al., 2022; Lin et al., 2022; Hangya et al., 2022;
+Imani et al., 2023). For many low-resource lan-
+guages, a dedicated model optimized for that lan-
+guage does not exist. This lack of dedicated mod-
+els hinders comparability of results across mod-
+els and languages (Bandarkar et al., 2024), and
+
+it contributes to model under-performance in low-
+resource languages (Wu and Dredze, 2020; Blasi
+et al., 2022). These barriers to research in low-
+resource languages are likely to exacerbate existing
+inequities across language communities in NLP
+research (Bender, 2011; Joshi et al., 2020).
+
+To address this lack of available models, we in-
+troduce Goldfish, a suite of over 1000 monolingual
+language models for 350 diverse languages.1 The
+models reach lower perplexities than XGLM (Lin
+et al., 2022), BLOOM 7.1B (Scao et al., 2022), and
+MaLA-500 (Lin et al., 2024) on 98 out of 204 FLO-
+RES languages, despite each Goldfish model being
+over 10× smaller. The Goldfish also outperform
+simple bigram models, which are surprisingly com-
+petitive with larger models for low-resource lan-
+guages (e.g. lower perplexities than BLOOM 7.1B
+on 43% of its languages; §4). However, despite bet-
+ter perplexities, the Goldfish underperform larger
+multilingual models on reasoning benchmarks, sug-
+gesting that multilingual pre-training may bene-
+fit abstract reasoning capabilities over more basic
+grammatical text generation (§5).
+
+Finally, to enable comparisons across languages,
+we release monolingual models trained on compa-
+rable dataset sizes for all languages: 5MB, 10MB,
+100MB, and 1GB when available, after accounting
+for the fact that languages require different num-
+bers of UTF-8 bytes to encode comparable con-
+tent (Arnett et al., 2024). These Goldfish serve as
+baselines, allowing results in diverse languages to
+be situated relative to comparable models. They
+can also be used as source models for fine-tuning
+or to enhance larger multilingual models in areas
+where those models fall short (§4). Models and
+code are available at https://huggingface.co/
+goldfish-models.
+
+1The name refers to shared qualities between our models
+and goldfish (Carassius auratus); they are small, there are
+many of them, and they are known for their poor memories
+(perhaps inaccurately; Carey, 2024).
+
+ 
+ 
+ 
+ 
+ 
+ 
+Data size Model output
+
+5MB
+
+10MB
+
+100MB
+
+1GB
+
+“Goldfish are a few years of the
+most of the most of the most...”
+“Goldfish are a great way to the
+best way to the best way...”
+“Goldfish are a great way to get
+your fish in the wild.”
+“Goldfish are a species of fish
+that are found in the sea.”
+
+Figure 1: Left: Map of the 350 languages for which Goldfish models are available, using coordinates from Glottolog
+(Hammarström et al., 2023). Right: Sample model outputs completing the prompt “Goldfish are” for the
+eng_latn (English) model for each dataset size, using sampling temperature zero. Grammatical text generation
+begins to emerge in the 100MB-dataset model (available for 166 languages), but the lower-resource models still
+achieve better perplexities than p

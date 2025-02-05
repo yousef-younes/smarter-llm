@@ -1,0 +1,246 @@
+6
+1
+0
+2
+
+g
+u
+A
+9
+
+]
+L
+C
+.
+s
+c
+[
+
+3
+v
+9
+5
+7
+1
+0
+.
+7
+0
+6
+1
+:
+v
+i
+X
+r
+a
+
+Bag of Tricks for Efﬁcient Text Classiﬁcation
+
+Armand Joulin
+
+Edouard Grave
+
+Piotr Bojanowski
+
+Tomas Mikolov
+
+Facebook AI Research
+{ajoulin,egrave,bojanowski,tmikolov}@fb.com
+
+Abstract
+
+This paper explores a simple and efﬁcient
+Our ex-
+baseline for text classiﬁcation.
+periments show that our
+text classi-
+fast
+ﬁer fastText is often on par with deep
+learning classiﬁers in terms of accuracy, and
+many orders of magnitude faster for training
+and evaluation. We can train fastText on
+more than one billion words in less than ten
+minutes using a standard multicore CPU, and
+classify half a million sentences among 312K
+classes in less than a minute.
+
+In this work, we explore ways to scale these
+baselines to very large corpus with a large output
+space, in the context of text classiﬁcation. Inspired
+by the recent work in efﬁcient word representation
+learning (Mikolov et al., 2013; Levy et al., 2015),
+we show that linear models with a rank constraint
+and a fast loss approximation can train on a billion
+words within ten minutes, while achieving perfor-
+mance on par with the state-of-the-art. We evalu-
+ate the quality of our approach fastText1 on two
+different tasks, namely tag prediction and sentiment
+analysis.
+
+1 Introduction
+
+2 Model architecture
+
+Text classiﬁcation is an important task in Natural
+Language Processing with many applications, such
+as web search, information retrieval, ranking and
+classiﬁcation (Deerwester et al., 1990;
+document
+Pang and Lee, 2008).
+Recently, models based
+on neural networks have become increasingly
+popular
+Zhang and LeCun, 2015;
+Conneau et al., 2016). While these models achieve
+very good performance in practice, they tend to be
+relatively slow both at train and test time, limiting
+their use on very large datasets.
+
+(Kim, 2014;
+
+linear
+
+classiﬁers
+
+Meanwhile,
+
+strong baselines
+
+of-
+are
+text
+for
+ten considered as
+(Joachims, 1998;
+problems
+classiﬁcation
+Fan et al., 2008).
+McCallum and Nigam, 1998;
+Despite their simplicity,
+they often obtain state-
+of-the-art performances if the right features are
+used (Wang and Manning, 2012).
+They also
+have the potential
+to scale to very large cor-
+pus (Agarwal et al., 2014).
+
+A simple and efﬁcient baseline for
+sentence
+classiﬁcation is to represent sentences as bag of
+words (BoW) and train a linear classiﬁer, e.g., a
+logistic regression or an SVM (Joachims, 1998;
+Fan et al., 2008). However,
+linear classiﬁers do
+not share parameters among features and classes.
+This possibly limits their generalization in the
+context of large output space where some classes
+have very few examples.
+Common solutions
+to this problem are to factorize the linear clas-
+(Schutze, 1992;
+siﬁer
+Mikolov et al., 2013)
+use multilayer
+neural
+(Collobert and Weston, 2008;
+networks
+Zhang et al., 2015).
+
+into low rank matrices
+
+or
+
+to
+
+Figure 1 shows a simple linear model with rank
+constraint. The ﬁrst weight matrix A is a look-up
+table over the words. The word representations are
+then averaged into a text representation, which is in
+turn fed to a linear classiﬁer. The text representa-
+
+1https://github.com/facebookresearch/fastText
+
+ 
+ 
+ 
+ 
+ 
+ 
+output
+
+hidden
+
+x1
+
+x2
+
+. . .
+
+xN −1
+
+xN
+
+Figure 1: Model architecture of fastText for a sentence with
+N ngram features x1, . . . , xN . The features are embedded and
+averaged to form the hidden variable.
+
+tion is an hidden variable which can be potentially
+be reused. This architecture is similar to the cbow
+model of Mikolov et al. (2013), where the middle
+word is replaced by a label. We use the softmax
+function f to compute the probability distribution
+over the predeﬁned classes. For a set of N doc-
+uments, this leads to minimizing the negative log-
+likelihood over the classes:
+
+−
+
+1
+N
+
+N
+
+X
+n=1
+
+yn log(f (BAxn)),
+
+where xn is the normalized bag of features of the n-
+th document, yn the label, A and B the weight matri-
+ces. This model is trained asynchronously on mul-
+tiple CPUs using stochastic gradient descent and a
+linearly decaying learning rate.
+
+2.1 Hierarchical softmax
+
+When the number of classes is large, computing the
+linear classiﬁer is computationally expensive. More
+precisely, the computational complexity is O(kh)
+where k is the number of classes and h the di-
+mension of the text representation. In order to im-
+prove our running time, we use a hierarchical soft-
+max (Goodman, 2001) based on the Huffman cod-
+ing tree (Mikolov et al., 2013). During training, the
+computational complexity drops to O(h log2(k)).
+
+The hierarchical softmax is also advantageous at
+test time when searching for the most likely class.
+Each node is associated with a probability that is the
+probability of the path from the root to that node. If
+the node is at depth l + 1 with parents n1, . . . , nl, its
+probability is
+
+P (nl+1) =
+
+l
+
+Y
+i=1
+
+P (ni).
+
+This means that the probability of a node is always
+lower than the one of its parent. Exploring the tree
+with a depth ﬁrst search and tracking the maximu

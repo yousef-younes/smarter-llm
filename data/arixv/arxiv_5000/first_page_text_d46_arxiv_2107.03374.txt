@@ -1,0 +1,151 @@
+1
+2
+0
+2
+
+l
+u
+J
+
+4
+1
+
+]
+
+G
+L
+.
+s
+c
+[
+
+2
+v
+4
+7
+3
+3
+0
+.
+7
+0
+1
+2
+:
+v
+i
+X
+r
+a
+
+Evaluating Large Language Models Trained on Code
+
+Mark Chen * 1 Jerry Tworek * 1 Heewoo Jun * 1 Qiming Yuan * 1 Henrique Ponde de Oliveira Pinto * 1
+Jared Kaplan * 2 Harri Edwards 1 Yuri Burda 1 Nicholas Joseph 2 Greg Brockman 1 Alex Ray 1 Raul Puri 1
+Gretchen Krueger 1 Michael Petrov 1 Heidy Khlaaf 3 Girish Sastry 1 Pamela Mishkin 1 Brooke Chan 1
+Scott Gray 1 Nick Ryder 1 Mikhail Pavlov 1 Alethea Power 1 Lukasz Kaiser 1 Mohammad Bavarian 1
+Clemens Winter 1 Philippe Tillet 1 Felipe Petroski Such 1 Dave Cummings 1 Matthias Plappert 1
+Fotios Chantzis 1 Elizabeth Barnes 1 Ariel Herbert-Voss 1 William Hebgen Guss 1 Alex Nichol 1 Alex Paino 1
+Nikolas Tezak 1 Jie Tang 1 Igor Babuschkin 1 Suchir Balaji 1 Shantanu Jain 1 William Saunders 1
+Christopher Hesse 1 Andrew N. Carr 1 Jan Leike 1 Josh Achiam 1 Vedant Misra 1 Evan Morikawa 1
+Alec Radford 1 Matthew Knight 1 Miles Brundage 1 Mira Murati 1 Katie Mayer 1 Peter Welinder 1
+Bob McGrew 1 Dario Amodei 2 Sam McCandlish 2 Ilya Sutskever 1 Wojciech Zaremba 1
+
+Abstract
+
+1. Introduction
+
+We introduce Codex, a GPT language model ﬁne-
+tuned on publicly available code from GitHub,
+and study its Python code-writing capabilities.
+A distinct production version of Codex powers
+GitHub Copilot. On HumanEval, a new evalua-
+tion set we release to measure functional correct-
+ness for synthesizing programs from docstrings,
+our model solves 28.8% of the problems, while
+GPT-3 solves 0% and GPT-J solves 11.4%. Fur-
+thermore, we ﬁnd that repeated sampling from the
+model is a surprisingly effective strategy for pro-
+ducing working solutions to difﬁcult prompts. Us-
+ing this method, we solve 70.2% of our problems
+with 100 samples per problem. Careful investiga-
+tion of our model reveals its limitations, including
+difﬁculty with docstrings describing long chains
+of operations and with binding operations to vari-
+ables. Finally, we discuss the potential broader
+impacts of deploying powerful code generation
+technologies, covering safety, security, and eco-
+nomics.
+
+*Equal contribution
+1OpenAI, San Francisco, California, USA.
+2Anthropic AI, San Francisco, California, USA. Work per-
+
+formed while at OpenAI.
+
+3Zipline, South San Francisco, California, USA. Work per-
+
+formed while at OpenAI.
+
+Correspondence to: Mark Chen <mark@openai.com>,
+Jun <hee-
+
+Jerry Tworek <jt@openai.com>, Heewoo
+woo@openai.com>, Qiming Yuan <qiming@openai.com>.
+
+Scalable sequence prediction models (Graves, 2014;
+Vaswani et al., 2017; Child et al., 2019) have become a
+general-purpose method for generation and representation
+learning in many domains, including natural language pro-
+cessing (Mikolov et al., 2013; Sutskever et al., 2014; Dai &
+Le, 2015; Peters et al., 2018; Radford et al., 2018; Devlin
+et al., 2018), computer vision (Van Oord et al., 2016; Menick
+& Kalchbrenner, 2018; Chen et al., 2020; Bao et al., 2021),
+audio and speech processing (Oord et al., 2016; 2018; Dhari-
+wal et al., 2020; Baevski et al., 2020), biology (Alley et al.,
+2019; Rives et al., 2021), and even across multiple modali-
+ties (Das et al., 2017; Lu et al., 2019; Ramesh et al., 2021;
+Zellers et al., 2021). More recently, language models have
+also fueled progress towards the longstanding challenge
+of program synthesis (Simon, 1963; Manna & Waldinger,
+1971), spurred by the presence of code in large datasets
+(Husain et al., 2019; Gao et al., 2020) and the resulting pro-
+gramming capabilities of language models trained on these
+datasets (Wang & Komatsuzaki, 2021). Popular language
+modeling objectives like masked language modeling (Devlin
+et al., 2018) and span prediction (Raffel et al., 2020) have
+also been adapted to train their programming counterparts
+CodeBERT (Feng et al., 2020) and PyMT5 (Clement et al.,
+2020).
+
+Similarly, our early investigation of GPT-3 (Brown et al.,
+2020) revealed that it could generate simple programs from
+Python docstrings. While rudimentary, this capability was
+exciting because GPT-3 was not explicitly trained for code
+generation. Given the considerable success of large lan-
+guage models in other modalities and the abundance of
+publicly available code, we hypothesized that a specialized
+GPT model, called Codex, could excel at a variety of coding
+tasks. This paper describes several early Codex models,
+whose descendants power GitHub Copilot and the Codex
+models in the OpenAI API.
+
+ 
+ 
+ 
+ 
+ 
+ 
+Evaluating Large Language Models Trained on Code
+
+generate at least one correct function for 77.5% of the prob-
+lems. This result suggests that accurate code samples can
+be selected via heuristic ranking instead of fully evaluating
+each sample, the latter of which may not be possible or prac-
+tical in deployment. Indeed, we ﬁnd that the sample with
+highest mean log-probability passes unit tests for 44.5% of
+the problems.
+
+We conclude by discussing the limitations and potential
+broader impacts of these Codex models and of increasingly
+powerful code generating mod

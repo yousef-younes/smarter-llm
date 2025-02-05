@@ -1,0 +1,95 @@
+The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink
+David Patterson1,2, Joseph Gonzalez2, Urs Hölzle1, Quoc Le1, Chen Liang1, Lluis-Miquel Munguia1,
+Daniel Rothchild2, David So1, Maud Texier1, and Jeff Dean1
+
+Abstract: Machine Learning (ML) workloads have rapidly grown in importance, but raised concerns
+about their carbon footprint. Four best practices can reduce ML training energy by up to 100x and CO2
+emissions up to 1000x. By following best practices, overall ML energy use (across research,
+development, and production) held steady at <15% of Google’s total energy use for the past three years.
+If the whole ML field were to adopt best practices, total carbon emissions from training would reduce.
+Hence, we recommend that ML papers include emissions explicitly to foster competition on more than
+just model quality. Estimates of emissions in papers that omitted them have been off 100x–100,000x, so
+publishing emissions has the added benefit of ensuring accurate accounting. Given the importance of
+climate change, we must get the numbers right to make certain that we work on its biggest challenges.
+
+Keywords/Index terms: I.2.6.g Machine learning < I.2.6 Learning < I.2 Artificial Intelligence
+< I Computing Methodologies, I.2.7 Natural Language Processing < I.2 Artificial Intelligence
+< I Computing Methodologies, B.9 Power Management < B Hardware, C.1.3.i Neural nets
+< C.1.3 Other Architecture Styles < C.1 Processor Architectures < C Computer Systems Organization,
+C.4 Performance of Systems < C Computer Systems Organization
+
+1. Introduction
+
+Over the past few years, a growing number of papers have highlighted the carbon emissions of machine
+learning (ML) workloads. While this work has been instrumental in rightfully elevating the discussion
+around carbon emissions in ML, some studies significantly overestimated actual emissions, which in turn
+led to worrisome extrapolations [1,2]:
+
+The answers are grim: Training such a model would cost US$100 billion and would produce as
+much carbon emissions as New York City does in a month.
+
+Recent work highlights the complexities and nuances associated with carbon accounting for ML and
+more broadly computing workloads [3, 4, 5]. In this paper, we
+
+● Describe four practices that reduce the energy usage and carbon emissions of ML workloads by
+
+orders of magnitude relative to traditional choices;
+
+● Show that these practices help keep ML under 15% of Google’s total energy use for the past
+
+three years; and
+
+● Explain why published faulty estimates and extrapolations are 100x–100,000x higher than the
+
+real carbon footprints.
+
+Responsible AI is a broad topic; we focus on a single issue that has received much attention from the
+
+ML community and public: carbon emissions from ML training. Emissions can be classified as
+
+● Operational, the energy cost of operating the ML hardware including datacenter overheads, or
+
+● Lifecycle, which additionally includes the embedded carbon emitted during the manufacturing of
+
+all components involved, from chips to datacenter buildings.
+
+Like prior work we focus on operational emissions; estimating lifecycle emissions is a larger, future study.
+
+We identified best practices that can reduce energy by up to 100x and carbon emissions by up to
+
+1000x compared to following orthodox choices (“4Ms”):
+
+1 Google
+2 University of California, Berkeley
+
+1
+
+1. Model. Selecting efficient ML model architectures while advancing ML quality, such as sparse
+
+models versus dense modes, can reduce computation by factors of ~5–10.
+
+2. Machine. Using processors optimized for ML training such as TPUs or recent GPUs (e.g., V100
+or A100), versus general-purpose processors, can improve performance/Watt by factors of 2–5.
+
+3. Mechanization. Computing in the Cloud rather than on premise improves datacenter energy
+
+efficiency3, reducing energy costs by a factor of 1.4–2.
+
+4. Map. Moreover, Cloud computing lets ML practitioners pick the location with the cleanest energy4,
+
+further reducing the gross carbon footprint by factors of 5–105.
+
+Figure 1. Reduction in gross CO2 emissions since 2017 from applying best practices (Section 3).
+They show large end-to-end improvements, broken down into the 4Ms. Gross CO2 emissions here
+excludes Google's carbon neutral and 100% renewable energy credits, and reflect Google's 24/7
+CFE methodology [5].
+
+Figure 1 illustrates how four good choices together reduce energy consumption by 83x and CO2
+emissions by 747x over four years while maintaining the same quality. The original modeled estimate
+
+3 The Cloud uses custom warehouses designed for energy efficiency, whereas on-premise datacenters are
+inefficiently located in smaller, older spaces intended for other purposes. HPC datacenters are efficient, but can’t
+enable shifting to green locations.
+4 Most data transmission power is for the network equipment of the Internet even when idle [3]. In comparison,
+shipping photons over fiber optics is relatively trivial.
+5 Using a carbon-

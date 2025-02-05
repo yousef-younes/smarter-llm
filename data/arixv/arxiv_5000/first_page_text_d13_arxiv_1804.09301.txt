@@ -1,0 +1,177 @@
+Gender Bias in Coreference Resolution
+
+Rachel Rudinger, Jason Naradowsky, Brian Leonard, and Benjamin Van Durme
+Johns Hopkins University
+
+8
+1
+0
+2
+
+r
+p
+A
+5
+2
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+1
+0
+3
+9
+0
+.
+4
+0
+8
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+We present an empirical study of gender bias
+in coreference resolution systems. We ﬁrst in-
+troduce a novel, Winograd schema-style set of
+minimal pair sentences that differ only by pro-
+noun gender. With these Winogender schemas,
+we evaluate and conﬁrm systematic gender
+bias in three publicly-available coreference
+resolution systems, and correlate this bias with
+real-world and textual gender statistics.
+
+1
+
+Introduction
+
+There is a classic riddle: A man and his son get
+into a terrible car crash. The father dies, and the
+boy is badly injured. In the hospital, the surgeon
+looks at the patient and exclaims, “I can’t operate
+on this boy, he’s my son!” How can this be?
+
+That a majority of people are reportedly unable
+to solve this riddle1 is taken as evidence of un-
+derlying implicit gender bias (Wapman and Belle,
+2014): many ﬁrst-time listeners have difﬁculty as-
+signing both the role of “mother” and “surgeon” to
+the same entity.
+
+As the riddle reveals, the task of coreference
+resolution in English is tightly bound with ques-
+tions of gender, for humans and automated sys-
+tems alike (see Figure 1). As awareness grows
+of the ways in which data-driven AI technolo-
+gies may acquire and amplify human-like biases
+(Caliskan et al., 2017; Barocas and Selbst, 2016;
+Hovy and Spruit, 2016), this work investigates
+how gender biases manifest in coreference reso-
+lution systems.
+
+There are many ways one could approach this
+question; here we focus on gender bias with re-
+spect to occupations, for which we have corre-
+sponding U.S. employment statistics. Our ap-
+in
+proach is to construct a challenge dataset
+
+1The surgeon is the boy’s mother.
+
+Figure 1: Stanford CoreNLP rule-based coreference
+system resolves a male and neutral pronoun as coref-
+erent with “The surgeon,” but does not for the corre-
+sponding female pronoun.
+
+the style of Winograd schemas, wherein a pro-
+noun must be resolved to one of two previously-
+mentioned entities in a sentence designed to be
+easy for humans to interpret, but challenging for
+data-driven systems (Levesque et al., 2011).
+In
+our setting, one of these mentions is a person
+referred to by their occupation; by varying only
+the pronoun’s gender, we are able to test the im-
+pact of gender on resolution. With these “Wino-
+gender schemas,” we demonstrate the presence
+of systematic gender bias in multiple publicly-
+available coreference resolution systems, and that
+occupation-speciﬁc bias is correlated with em-
+ployment statistics. We release these test sen-
+tences to the public.2
+
+In our experiments, we represent gender as a
+categorical variable with either two or three possi-
+ble values: female, male, and (in some cases) neu-
+tral. These choices reﬂect limitations of the textual
+and real-world datasets we use.
+
+2 Coreference Systems
+
+In this work, we evaluate three publicly-
+available off-the-shelf coreference resolution sys-
+tems, representing three different machine learn-
+ing paradigms: rule-based systems, feature-driven
+
+2https://github.com/rudinger/
+
+winogender-schemas
+
+ 
+ 
+ 
+ 
+ 
+ 
+statistical systems, and neural systems.
+
+Rule-based In the absence of large-scale data
+for training coreference models, early systems re-
+lied heavily on expert knowledge. A frequently
+used example of this is the Stanford multi-pass
+sieve system (Lee et al., 2011). A deterministic
+system, the sieve consists of multiple rule-based
+models which are applied in succession, from
+highest-precision to lowest. Gender is among the
+set of mention attributes identiﬁed in the very ﬁrst
+stage of the sieve, making this information avail-
+able throughout the system.
+
+Statistical Statistical methods, often with mil-
+lions of parameters, ultimately surpassed the per-
+formance of rule-based systems on shared task
+data (Durrett and Klein, 2013; Bj¨orkelund and
+Kuhn, 2014). The system of Durrett and Klein
+(2013) replaced hand-written rules with simple
+feature templates. Combinations of these features
+implicitly capture linguistic phenomena useful for
+resolving antecedents, but they may also uninten-
+tionally capture bias in the data. For instance, for
+occupations which are not frequently found in the
+data, an occupation+pronoun feature can be highly
+informative, and the overly conﬁdent model can
+exhibit strong bias when applied to a new domain.
+
+Neural The move to deep neural models led to
+more powerful antecedent scoring functions, and
+the subsequent learned feature combinations re-
+sulted in new state-of-the-art performance (Wise-
+man et al., 2015; Clark and Manning, 2016b).
+Global inference over these models further im-
+proved performance (Wiseman et al., 2016; Clark
+and Manning, 2016a), but from the perspective
+of potential bias, the information available to the
+model is largely the same as in the statistical mod-
+e

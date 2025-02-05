@@ -1,0 +1,128 @@
+2
+2
+0
+2
+
+n
+a
+J
+
+0
+3
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+6
+8
+6
+0
+1
+.
+9
+0
+1
+2
+:
+v
+i
+X
+r
+a
+
+Preprint
+
+SCALE EFFICIENTLY: INSIGHTS FROM PRE-TRAINING
+AND FINE-TUNING TRANSFORMERS
+
+Yi Tay∗, Mostafa Dehghani∗, Jinfeng Rao, William Fedus, Samira Abnar, Hyung Won Chung,
+Sharan Narang, Dani Yogatama†, Ashish Vaswani, Donald Metzler
+Google Research & DeepMind†
+{yitay,dehghani}@google.com
+
+ABSTRACT
+
+There remain many open questions pertaining to the scaling behaviour of Trans-
+former architectures. These scaling decisions and ﬁndings can be critical, as
+training runs often come with an associated computational cost which have both
+ﬁnancial and/or environmental impact. The goal of this paper is to present scaling
+insights from pretraining and ﬁnetuning Transformers. While Kaplan et al. (2020)
+presents a comprehensive study of the scaling behaviour of Transformer language
+models, the scope is only on the upstream (pretraining) loss. Therefore, it is still
+unclear if these set of ﬁndings transfer to downstream task within the context of
+the pretrain-ﬁnetune paradigm. The key ﬁndings of this paper are as follows: (1)
+we show that aside from only the model size, model shape matters for downstream
+ﬁne-tuning, (2) scaling protocols operate differently at different compute regions,
+(3) widely adopted T5-base and T5-large sizes are Pareto-inefﬁcient. To this end,
+we present improved scaling protocols whereby our redesigned models achieve
+similar downstream ﬁne-tuning quality while having 50% fewer parameters and
+training 40% faster compared to the widely adopted T5-base model. We publicly
+release over 100 pretrained checkpoints of different T5 conﬁgurations to facilitate
+future research and analysis.
+
+1
+
+INTRODUCTION
+
+Training Transformers incurs both ﬁnancial and environmental costs (Schwartz et al., 2019; Patterson
+et al., 2021). To this end, researchers and practitioners often have to work around ﬁxed compute
+budgets and ﬁgure out the best ways to train their models. In lieu of the rising computation demand
+for training state-of-the-art Transformer (Vaswani et al., 2017; Devlin et al., 2018; Raffel et al., 2019;
+Brown et al., 2020; Fedus et al., 2021) models, the goal of this paper is to present insights and
+lessons from scaling Transformers and making them efﬁcient and effective for transfer learning on
+downstream tasks.
+
+Despite the insights offered in scaling laws research (Kaplan et al., 2020; Hernandez et al., 2021)
+there remain unresolved questions: Should one follow ﬁxed scaling ratios? If not, should one scale by
+depth? Or by width? Will scaling experiments on upstream pre-training generalize for downstream
+transfer? Do scaling protocols for small models generalize to larger models? Are scaling behaviours
+similar in all compute regions? We hope the insights presented in this paper can be useful to both
+practitioners and researchers in informing their scaling decisions.
+
+Neural scaling laws (Kaplan et al., 2020) is a common resource that many look to for advice on
+scaling Transformer architectures. However, this paper limited its scope to an exhaustive study of
+upstream cross entropy on language modeling tasks. It is furthermore unclear if ﬁndings from (Kaplan
+et al., 2020) will transfer to downstream applications. Speciﬁcally, Kaplan et al. (2020) proposed that
+the performance of a Transformer language model strongly depends on model size and only weakly
+on its shape. They also argue that many model conﬁgurations with the same number of parameters
+perform similarly regardless of architectural details. Our work empirically conﬁrms this on upstream
+training but ﬁnds a distinct discrepancy when considering practical downstream performance – a key
+insight that we believe is highly important.
+
+∗Equal contribution
+
+1
+
+ 
+ 
+ 
+ 
+ 
+ 
+Preprint
+
+To this end, we conduct extensive experiments involving pre-training and ﬁne-tuning over 200
+transformer conﬁgurations ranging from 5M to 30B parameters. To the best of our knowledge, this is
+the largest empirical study of practical scaling of transformer to date that considers both upstream
+and practical downstream transfer. While there have been many proposed scaling protocols for
+ConvNets (Tan and Le, 2019; Bello et al., 2021), there is still limited advice on scaling of transformer
+architectures, apart from (Kaplan et al., 2020; Li et al., 2020). Hence, the key goal of this paper is to
+distill our experiences and insights with scaling Transformer architectures and share them with the
+broader community.
+
+Contributions The overall ﬁndings and insights of the paper can be summarized as follows:
+
+• We ﬁnd that scaling laws may differ in upstream and downstream setups. Speciﬁcally,
+contrary to Kaplan et al. (2020), we ﬁnd that downstream performance strongly depends
+on shape and not only on model size. Hence, pretraining performance may not necessarily
+transfer to downstream applications. (Figure 1).
+
+• Our ﬁndings show that pre-training perplexity can often be a deceiving indicator of down-
+stream qual

@@ -1,0 +1,196 @@
+Monolingual or Multilingual Instruction Tuning:
+Which Makes a Better Alpaca
+
+Pinzhen Chen1,*
+Andrey Kutuzov3
+1University of Edinburgh
+
+Shaoxiong Ji2,*
+Barry Haddow1
+2University of Helsinki
+
+Nikolay Bogoychev1
+Kenneth Heafield1
+
+3University of Oslo
+
+4
+2
+0
+2
+
+n
+a
+J
+
+1
+3
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+8
+5
+9
+8
+0
+.
+9
+0
+3
+2
+:
+v
+i
+X
+r
+a
+
+pchen3@ed.ac.uk
+
+shaoxiong.ji@helsinki.fi
+
+Abstract
+
+Foundational large language models (LLMs)
+can be instruction-tuned to perform open-
+domain question answering, facilitating appli-
+cations like chat assistants. While such efforts
+are often carried out in a single language, we
+empirically analyze cost-efficient strategies for
+multilingual scenarios. Our study employs the
+Alpaca dataset and machine translations of it to
+form multilingual data, which is then used to
+tune LLMs through either low-rank adaptation
+or full-parameter training. Under a controlled
+computation budget, comparisons show that
+multilingual tuning is on par or better than tun-
+ing a model for each language. Furthermore,
+multilingual tuning with downsampled data can
+be as powerful and more robust. Our findings
+serve as a guide for expanding language sup-
+port through instruction tuning.
+
+1
+
+Introduction
+
+Language capacity has attracted much attention
+in pre-trained language models. Some pioneer-
+ing works focused on a single language (Peters
+et al., 2018; Devlin et al., 2019), while later
+works aim to cover multiple languages (Conneau
+et al., 2020; Liu et al., 2020).
+In the recent
+blossom of open-source LLMs, English-centric
+ones include GPT-2, LLaMA, and Pythia (Radford
+et al., 2019; Touvron et al., 2023; Biderman et al.,
+2023), and multilingual ones are represented by
+BLOOM (Scao et al., 2022). Multilingual models
+seem attractive when considering operational costs,
+cross-lingual transfer, and low-resource languages
+(Artetxe and Schwenk, 2019; Wu and Dredze,
+2020), yet English-centric models can possess good
+multilingual transferability (Ye et al., 2023).
+
+Instruction tuning makes LLMs follow and re-
+spond to inputs (Sanh et al., 2022; Wei et al., 2022).
+
+With multilingual instruction data becoming fea-
+sible and available, this paper compares monolin-
+gual and multilingual instruction tuning applied to
+English-centric and multilingual LLMs to search
+for the optimal strategy to support multiple lan-
+guages. Unlike prior works on multilingual multi-
+NLP-task tuning (Mishra et al., 2022; Muennighoff
+et al., 2023), we focus on open-ended question an-
+swering under language generation.
+
+Our data setting combines two low-cost prac-
+tices: self-instruct, which distils data from a pow-
+erful LLM (Wang et al., 2023; Taori et al., 2023)
+and the idea of leveraging machine translation to
+create multilingual datasets (Muennighoff et al.,
+2023). We fine-tune several decoder LLMs with
+either full-parameter fine-tuning (FFT) or low-rank
+adaptation (LoRA, Hu et al., 2022) with different
+language combinations. Our experiments feature a
+fixed computation budget to offer practical insights.
+It is shown that multilingual tuning is preferred to
+monolingual tuning for each language under LoRA,
+but the results are mixed under FFT. English-tuned
+LLMs are not well-versed in responding in other
+languages, whereas a downsampled multilingual
+tuning scheme proposed by us is more robust. Fi-
+nally, we examine our model performance on un-
+seen languages and various LLMs of roughly the
+same size.
+
+2 Methodology
+
+2.1
+
+Instruction data
+
+We use the Alpaca dataset as a seed to create a mul-
+tilingual instruction-response dataset. We used the
+cleaned version with 52K instances1 and machine-
+translated it into eight languages: Bulgarian, Czech,
+Chinese, German, Finnish, French, Russian, and
+Spanish, using open-source translation systems.2
+
+*Equal contribution. Our code,
+
+training data, and
+test data will be at https://github.com/hplt-project/
+monolingual-multilingual-instruction-tuning.
+
+1https://github.com/gururise/alpacadatacleaned
+2https://github.com/browsermt/
+
+bergamot-translator
+
+ 
+ 
+ 
+ 
+ 
+ 
+2.2 Budget-controlled instruction tuning
+
+For monolingual tuning, we tune LLMs for each
+language separately, whereas for multilingual tun-
+ing, we merge and shuffle the data in all languages.
+This allows for resource-controlled comparisons be-
+tween monolingual and multilingual tuning, where
+a fixed (and equal for each language) computation
+budget is allocated to support all languages of in-
+terest. Experimental resource usage is described as
+follows:
+
+1) Let CAlpaca denote the cost of monolingual
+Alpaca fine-tuning for a single language, then
+it costs N×CAlpaca to tune individual models
+to support N languages.
+
+2) Multilingual
+
+instruction tuning will cost
+N×CAlpaca too, as it trains on data available in
+all N languages in one go.
+
+We can fairly compare LLMs trained via 1) and
+2) for any language. In addition, we propose to
+benchmark two budget-saving options which cost
+the same CAlpaca as a monolingual Alpaca:
+
+3) As a simple baseline, we use an English-tuned
+
+mo

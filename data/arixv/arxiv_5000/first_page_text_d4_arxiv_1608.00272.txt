@@ -1,0 +1,130 @@
+6
+1
+0
+2
+
+g
+u
+A
+0
+1
+
+]
+
+V
+C
+.
+s
+c
+[
+
+3
+v
+2
+7
+2
+0
+0
+.
+8
+0
+6
+1
+:
+v
+i
+X
+r
+a
+
+Modeling Context in Referring Expressions
+
+Licheng Yu, Patrick Poirson, Shan Yang, Alexander C. Berg, Tamara L. Berg
+
+Department of Computer Science,
+University of North Carolina at Chapel Hill
+{licheng,poirson,alexyang,aberg,tlberg}@cs.unc.edu
+
+Abstract. Humans refer to objects in their environments all the time,
+especially in dialogue with other people. We explore generating and com-
+prehending natural language referring expressions for objects in images.
+In particular, we focus on incorporating better measures of visual con-
+text into referring expression models and ﬁnd that visual comparison to
+other objects within an image helps improve performance signiﬁcantly.
+We also develop methods to tie the language generation process together,
+so that we generate expressions for all objects of a particular category
+jointly. Evaluation on three recent datasets - RefCOCO, RefCOCO+,
+and RefCOCOg1, shows the advantages of our methods for both refer-
+ring expression generation and comprehension.
+
+Keywords: language, language and vision, generation, referring expres-
+sion generation
+
+1 Introduction
+
+In this paper, we look at the dual-tasks of generating and comprehending nat-
+ural language expressions referring to particular objects within an image. Re-
+ferring to objects is a natural and common experience. For example, one often
+uses referring expressions in everyday speech to indicate a particular person or
+object to a co-observer, e.g., “the man in the red hat” or “the book on the ta-
+ble”. Computational models to generate and comprehend such expressions would
+have applicability to human-computer interactions, especially for agents such as
+robots, interacting with humans in the physical world.
+
+Successful models will have to connect both recognition of visual attributes of
+objects and eﬀective natural language generation to compose useful expressions
+for dialogue. A broader version of this latter goal was considered in 1975 by
+Paul Grice who introduced maxims describing cooperative conversation between
+people [11]. These maxims, called the Gricean Maxims, describe a set of rational
+principles for natural language dialogue interactions. The 4 maxims are: quality
+(try to be truthful), quantity (make your contribution as informative as you can,
+giving as much information as is needed but no more), relevance (be relevant
+and pertinent to the discussion), and manner (be as clear, brief, and orderly as
+possible, avoiding obscurity and ambiguity).
+
+1 Datasets and toolbox can be downloaded from https://github.com/lichengunc/refer
+
+ 
+ 
+ 
+ 
+ 
+ 
+2
+
+Licheng et al.
+
+Fig. 1. Example referring expressions for the giraﬀe outlined in green from three re-
+ferring expression datasets (described in Sec 4).
+
+For the purpose of referring to objects in complex real world scenes these
+maxims suggest that a well formed expression should be informative, succinct,
+and unambiguous. The last point is especially necessary for referring to objects
+in the real world since we often ﬁnd multiple objects of a particular category
+situated together in a scene. For example, consider the image in Fig. 1 which
+contains three giraﬀes. We should not refer to the target (outlined in green) as
+“the spotted giraﬀe” since all of the giraﬀes are spotted and this would create
+an ambiguous reference. More reasonably we should refer to the target as “the
+giraﬀe with lowered head” to diﬀerentiate this giraﬀe from the other two.
+
+The task of referring expression generation (REG) has been studied since the
+1970s [40,22,30,7], with most work focused on studying particular aspects of the
+problem in some relatively constrained datasets. Recent approaches have pushed
+this work toword more realistic scenarios. Kazemzadeh et al [19] introduced the
+ﬁrst large-scale dataset of referring expressions for objects in real-world natural
+images, collected in a two-player game. This dataset was originally collected on
+top of the 20,000 image ImageCleft dataset, but has recently been extended
+to images from the MSCOCO collection. We make use of the RefCOCO and
+RefCOCO+ datasets in our work along with another recently collected referring
+expression dataset, released by Google, denoted in our paper as RefCOCOg [26].
+The most relevant work to ours is Mao et al [26] which introduced the ﬁrst
+deep learning approach to REG. In this model, the authors use a Convolutional
+Neural Network (CNN) [36] model pre-trained on ImageNet [34] to extract visual
+features from a bounding box around the target object and from the entire image.
+They use these features plus 5 features encoding the target object location and
+size as input to a Long Short-term Memory (LSTM) [10] network that generates
+expressions. Additionally, they apply the same model to the inverse problem
+of referring expression comprehension where the input is a natural language
+expression and the goal is to localize the referred object in the image.
+
+Similar to th

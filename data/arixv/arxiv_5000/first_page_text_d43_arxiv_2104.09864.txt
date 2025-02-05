@@ -1,0 +1,133 @@
+3
+2
+0
+2
+
+v
+o
+N
+8
+
+]
+L
+C
+.
+s
+c
+[
+
+5
+v
+4
+6
+8
+9
+0
+.
+4
+0
+1
+2
+:
+v
+i
+X
+r
+a
+
+ROFORMER: ENHANCED TRANSFORMER WITH ROTARY
+POSITION EMBEDDING
+
+Jianlin Su
+Zhuiyi Technology Co., Ltd.
+Shenzhen
+bojonesu@wezhuiyi.com
+
+Yu Lu
+Zhuiyi Technology Co., Ltd.
+Shenzhen
+julianlu@wezhuiyi.com
+
+Shengfeng Pan
+Zhuiyi Technology Co., Ltd.
+Shenzhen
+nickpan@wezhuiyi.com
+
+Ahmed Murtadha
+Zhuiyi Technology Co., Ltd.
+Shenzhen
+mengjiayi@wezhuiyi.com
+
+Bo Wen
+Zhuiyi Technology Co., Ltd.
+Shenzhen
+brucewen@wezhuiyi.com
+
+Yunfeng Liu
+Zhuiyi Technology Co., Ltd.
+Shenzhen
+glenliu@wezhuiyi.com
+
+November 9, 2023
+
+ABSTRACT
+
+Position encoding recently has shown effective in the transformer architecture. It enables valuable
+supervision for dependency modeling between elements at different positions of the sequence. In
+this paper, we first investigate various methods to integrate positional information into the learning
+process of transformer-based language models. Then, we propose a novel method named Rotary
+Position Embedding(RoPE) to effectively leverage the positional information. Specifically, the
+proposed RoPE encodes the absolute position with a rotation matrix and meanwhile incorporates
+the explicit relative position dependency in self-attention formulation. Notably, RoPE enables
+valuable properties, including the flexibility of sequence length, decaying inter-token dependency
+with increasing relative distances, and the capability of equipping the linear self-attention with
+relative position encoding. Finally, we evaluate the enhanced transformer with rotary position
+embedding, also called RoFormer, on various long text classification benchmark datasets. Our
+experiments show that it consistently overcomes its alternatives. Furthermore, we provide a theoretical
+analysis to explain some experimental results. RoFormer is already integrated into Huggingface:
+https://huggingface.co/docs/transformers/model_doc/roformer.
+
+Keywords Pre-trained Language Models · Position Information Encoding · Pre-training · Natural Language Processing.
+
+1
+
+Introduction
+
+The sequential order of words is of great value to natural language understanding. Recurrent neural networks (RRNs)
+based models encode tokens’ order by recursively computing a hidden state along the time dimension. Convolution
+neural networks (CNNs) based models (CNNs) Gehring et al. [2017] were typically considered position-agnostic, but
+recent work Islam et al. [2020] has shown that the commonly used padding operation can implicitly learn position
+information. Recently, the pre-trained language models (PLMs), which were built upon the transformer Vaswani et al.
+[2017], have achieved the state-of-the-art performance of various natural language processing (NLP) tasks, including
+context representation learning Devlin et al. [2019], machine translation Vaswani et al. [2017], and language modeling
+Radford et al. [2019], to name a few. Unlike, RRNs and CNNs-based models, PLMs utilize the self-attention mechanism
+to semantically capture the contextual representation of a given corpus. As a consequence, PLMs achieve a significant
+improvement in terms of parallelization over RNNs and improve the modeling ability of longer intra-token relations
+compared to CNNs1.
+
+1A stack of multiple CNN layers can also capture longer intra-token relation, here we only consider single layer setting.
+
+ 
+ 
+ 
+ 
+ 
+ 
+RoFormer
+
+It is noteworthy that the self-attention architecture of the current PLMs has shown to be position-agnostic Yun et al.
+[2020]. Following this claim, various approaches have been proposed to encode the position information into the
+learning process. On one side, generated absolute position encoding through a pre-defined function Vaswani et al.
+[2017] was added to the contextual representations, while a trainable absolute position encoding Gehring et al. [2017],
+Devlin et al. [2019], Lan et al. [2020], Clark et al. [2020], Radford et al. [2019], Radford and Narasimhan [2018]. On
+the other side, the previous work Parikh et al. [2016], Shaw et al. [2018], Huang et al. [2018], Dai et al. [2019], Yang
+et al. [2019], Raffel et al. [2020], Ke et al. [2020], He et al. [2020], Huang et al. [2020] focuses on relative position
+encoding, which typically encodes the relative position information into the attention mechanism. In addition to these
+approaches, the authors of Liu et al. [2020] have proposed to model the dependency of position encoding from the
+perspective of Neural ODE Chen et al. [2018a], and the authors of Wang et al. [2020] have proposed to model the
+position information in complex space. Despite the effectiveness of these approaches, they commonly add the position
+information to the context representation and thus render them unsuitable for the linear self-attention architecture.
+
+In this paper, we introduce a novel method, namely Rotary Position Embedding(RoPE), to leverage the positional
+information into the learning process of PLMS. Specifically, RoPE encodes the absolute position with a rotation matrix
+a

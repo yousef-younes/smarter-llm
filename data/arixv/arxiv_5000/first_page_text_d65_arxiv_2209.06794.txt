@@ -1,0 +1,121 @@
+3
+2
+0
+2
+
+n
+u
+J
+
+5
+
+]
+
+V
+C
+.
+s
+c
+[
+
+4
+v
+4
+9
+7
+6
+0
+.
+9
+0
+2
+2
+:
+v
+i
+X
+r
+a
+
+Published as a conference paper at ICLR 2023
+
+PALI: A JOINTLY-SCALED MULTILINGUAL
+LANGUAGE-IMAGE MODEL
+
+Xi Chen, Xiao Wang, Soravit Changpinyo, AJ Piergiovanni, Piotr Padlewski
+Daniel Salz, Sebastian Goodman, Adam Grycner, Basil Mustafa, Lucas Beyer
+Alexander Kolesnikov, Joan Puigcerver, Nan Ding, Keran Rong, Hassan Akbari
+Gaurav Mishra, Linting Xue, Ashish Thapliyal, James Bradbury, Weicheng Kuo
+Mojtaba Seyedhosseini, Chao Jia, Burcu Karagol Ayan, Carlos Riquelme
+Andreas Steiner, Anelia Angelova, Xiaohua Zhai, Neil Houlsby, Radu Soricut
+Google Research∗
+
+ABSTRACT
+
+Effective scaling and a flexible task interface enable large language models to excel
+at many tasks. We present PaLI (Pathways Language and Image model), a model
+that extends this approach to the joint modeling of language and vision. PaLI
+generates text based on visual and textual inputs, and with this interface performs
+many vision, language, and multimodal tasks, in many languages. To train PaLI,
+we make use of large pre-trained encoder-decoder language models and Vision
+Transformers (ViTs). This allows us to capitalize on their existing capabilities
+and leverage the substantial cost of training them. We find that joint scaling of
+the vision and language components is important. Since existing Transformers for
+language are much larger than their vision counterparts, we train a large, 4-billion
+parameter ViT (ViT-e) to quantify the benefits from even larger-capacity vision
+models. To train PaLI, we create a large multilingual mix of pre-training tasks,
+based on a new image-text training set containing 10B images and texts in over
+100 languages. PaLI achieves state-of-the-art in multiple vision and language tasks
+(such as captioning, visual question-answering, scene-text understanding), while
+retaining a simple, modular, and scalable design.
+
+1
+
+INTRODUCTION
+
+Increasing neural network capacity has been a successful trend in the modeling of language and
+vision tasks. On the language side, models such as T5 (Raffel et al., 2020), GPT-3 (Brown et al.,
+2020), Megatron-Turing (Shoeybi et al., 2019), GLaM (Du et al., 2022), Chinchilla (Hoffmann et al.,
+2022), and PaLM (Chowdhery et al., 2022) have shown significant advantages from training large
+Transformers on large amounts text data. On the vision side, CNNs (Mahajan et al., 2018; Huang
+et al., 2019; Kolesnikov et al., 2020), Vision Transformers (Dosovitskiy et al., 2021), and other
+models (Tolstikhin et al., 2021; Riquelme et al., 2021) have seen similar benefits from scale (Zhai
+et al., 2022a), albeit to a lesser extent than in language. Language-and-vision modeling has followed
+a similar trend, e.g., SimVLM (Wang et al., 2021), Florence (Yuan et al., 2021), CoCa (Yu et al.,
+2022), GIT (Wang et al., 2022a), BEiT-3 (Wang et al., 2022c), and Flamingo (Alayrac et al., 2022).
+
+We introduce PaLI, a model that performs image-only, language-only, and image+language tasks
+across many languages, using a single “image-and-text to text” interface. A key characteristic of
+PaLI is a more balanced parameter share between the language and vision components, with more
+capacity to the vision backbone yielding large gains in performance. Another key ingredient to PaLI
+is the reuse of large unimodal backbones for language and vision modeling, in order to transfer
+existing capabilities and reduce training cost. On the language side, we reuse the 13B-parameter
+model mT5-XXL (Xue et al., 2021), which already packages language understanding and generation
+capabilities. We show that these capabilities are maintained and extended into a multimodal setting.
+On the vision side, in addition to reusing the 2B-parameter ViT-G model (Zhai et al., 2022a), we
+
+∗Correspondence: pali-communications@google.com
+
+1
+
+ 
+ 
+ 
+ 
+ 
+ 
+Published as a conference paper at ICLR 2023
+
+train a 4B-parameter model, which we call ViT-e (“enormous”). ViT-e achieves good performance on
+image-only tasks, such as 90.9% ImageNet fine-tuning, and 84.9% on ObjectNet (Barbu et al., 2019).
+
+We find benefits from jointly scaling both the vision and the language components, with vision
+providing a better return on investment (accuracy improvement per parameter/FLOP). As a result,
+the capacity of our largest PaLI model, PaLI-17B, is distributed relatively equitably between the two
+modalities, with the ViT-e component accounting for about 25% of the total parameter count. This
+is not always the case for prior work in large-capacity vision and language modeling (Wang et al.,
+2022a; Alayrac et al., 2022), due to the prior scale mismatch between vision and language backbones.
+We enable knowledge-sharing between multiple image and/or language tasks by casting them into a
+generalized VQA-like task. We frame all tasks using an “image+query to answer” modeling interface,
+in which both the query and answer are expressed as text tokens. This allows PaLI to capitalize on
+transfer learning across tasks

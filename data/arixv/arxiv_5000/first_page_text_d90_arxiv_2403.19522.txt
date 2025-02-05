@@ -1,0 +1,134 @@
+4
+2
+0
+2
+
+r
+a
+
+M
+8
+2
+
+]
+
+G
+L
+.
+s
+c
+[
+
+1
+v
+2
+2
+5
+9
+1
+.
+3
+0
+4
+2
+:
+v
+i
+X
+r
+a
+
+Model Stock: All we need is just a few fine-tuned
+models
+
+Dong-Hwan Jang⋆, Sangdoo Yun, and Dongyoon Han
+
+NAVER AI Lab
+
+Abstract. This paper introduces an efficient fine-tuning method for
+large pre-trained models, offering strong in-distribution (ID) and out-of-
+distribution (OOD) performance. Breaking away from traditional prac-
+tices that need a multitude of fine-tuned models for averaging, our ap-
+proach employs significantly fewer models to achieve final weights yet
+yield superior accuracy. Drawing from key insights in the weight space
+of fine-tuned weights, we uncover a strong link between the performance
+and proximity to the center of weight space. Based on this, we introduce
+a method that approximates a center-close weight using only two fine-
+tuned models, applicable during or after training. Our innovative layer-
+wise weight averaging technique surpasses state-of-the-art model meth-
+ods such as Model Soup, utilizing only two fine-tuned models. This strat-
+egy can be aptly coined Model Stock, highlighting its reliance on selecting
+a minimal number of models to draw a more optimized-averaged model.
+We demonstrate the efficacy of Model Stock with fine-tuned models based
+upon pre-trained CLIP architectures, achieving remarkable performance
+on both ID and OOD tasks on the standard benchmarks, all while barely
+bringing extra computational demands. Our code and pre-trained models
+are available at https://github.com/naver-ai/model-stock.
+
+1
+
+Introduction
+
+Pre-train/fine-tune paradigm [15, 19, 29, 32, 33] has proven to be a strong frame-
+work for training models to reach state-of-the-art performance. This approach,
+especially pivotal in fine-tuning pre-trained models, involves models acquiring
+general knowledge during pre-training and task-specific knowledge during fine-
+tuning. How we perform a fine-tuning stage is crucial, affecting task performance
+and robustness against distribution shifts.
+
+Recent advancements, notably Model Soup [32], which merges weights from
+multiple fine-tuned models trained under different training setups, have shown
+impressive performance without increasing inference costs. This method is be-
+lieved to be effective because these models often reside in the same loss basin,
+and their merging results in a lower and flat loss basin. However, Model Soup’s
+requirement for multiple fine-tuned models (more than dozens) raises concerns
+
+⋆ Work done during an internship at NAVER AI Lab.
+Correspondence to Sangdoo Yun and Dongyoon Han.
+
+ 
+ 
+ 
+ 
+ 
+ 
+2
+
+Jang et al.
+
+Fig. 1: Model Stock vs. Model Soup. Model Stock consistently enjoys improved
+accuracy on ImageNet (x-axis) and distribution shift benchmarks (y-axis) against indi-
+vidual fine-tuned models (gray circles). We plot WiSE-FT [33] curves to each fine-tuned
+model, highlighting Model Stock’s better performance on distribution shifts compared
+to Model Soup [32]. Note that Model Stock has much smaller computational costs
+than Model Soups (24× smaller), i.e., Model Stock requires two fine-tuning procedures,
+whereas Model Soups are leveraging 48 various fine-tuned models in this experiment.
+
+about efficiency and practicality in general scenarios where the models need to
+be prepared from scratch. Thus, our question is: Is there an efficient way to
+achieve an effective merged weight from very few fine-tuned models?
+
+We initially explore the dynamics of fine-tuned weights under the simplest
+scenario: varying the random seeds while maintaining the other training setups.
+It reveals that the fine-tuned weights with different random seeds reside on a very
+thin shell layer-wise during and after training. We then delve into the impact of
+a model-soup-like weight averaging approach. Our findings show that the closer
+proximity of the averaged weights correlates with improved In-Distribution (ID)
+and Out-Of-Distribution (OOD) performance.
+
+Building upon the findings, we propose a novel approach of fine-tuning method
+coined Model Stock, analogous to chicken stock in cooking, distinguishing it
+from what Model Soup intended. Now, the answer to our question is indeed affir-
+mative: Model Stock approximates the merged weight using just a few fine-tuned
+models, leveraging the weight space’s geometric properties and a pre-trained
+model’s anchoring effect. This strategy offers a more computationally efficient
+alternative to the labor-intensive averaging of fine-tuned models, streamlining
+the process while enhancing model performance. Fig. 1 illustrates our brief com-
+parison of Model Stock vs. Model Soup [32]. We reproduce the Model Soup
+experiments1 based on the CLIP ViT-B/32 initialization by fine-tuning 48 mod-
+els with various hyper-parameters, which is defined as zero-shot initialization
+
+1 We follow the standard grid hyper-parameter sweep [32], fine-tuning for 10 epochs.
+Our results align with those presented in Fig. D.1 (right) of the original paper [32].
+
+6468727680ImageNet accura

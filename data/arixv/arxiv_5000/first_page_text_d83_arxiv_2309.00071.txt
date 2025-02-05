@@ -1,0 +1,138 @@
+YaRN: Efficient Context Window Extension of Large
+Language Models
+
+Bowen Peng1∗
+
+Jeffrey Quesnelle1†
+
+Honglu Fan23
+
+Enrico Shippole‡
+
+1Nous Research
+
+2EleutherAI
+
+3University of Geneva
+
+Abstract
+
+Rotary Position Embeddings (RoPE) have been shown to effectively encode posi-
+tional information in transformer-based language models. However, these models
+fail to generalize past the sequence length they were trained on. We present YaRN
+(Yet another RoPE extensioN method), a compute-efficient method to extend the
+context window of such models, requiring 10x less tokens and 2.5x less training
+steps than previous methods. Using YaRN, we show that LLaMA models can
+effectively utilize and extrapolate to context lengths much longer than their original
+pre-training would allow, while also surpassing previous the state-of-the-art at
+context window extension. In addition, we demonstrate that YaRN exhibits the
+capability to extrapolate beyond the limited context of a fine-tuning dataset. The
+models fine-tuned using YaRN has been made available and reproduced online up
+to 128k context length at https://github.com/jquesnelle/yarn.
+
+3
+2
+0
+2
+
+v
+o
+N
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+1
+7
+0
+0
+0
+.
+9
+0
+3
+2
+:
+v
+i
+X
+r
+a
+
+Figure 1: Sliding window perplexity (S = 256) of ten 128k Proof-pile documents truncated to evaluation
+context window size
+
+∗Reddit: /u/bloc97 GitHub: bloc97
+†Reddit: /u/emozilla X: @theemozilla GitHub: jquesnelle
+‡X: @EnricoShippole GitHub: conceptofmind
+
+Preprint. Under review.
+
+020000400006000080000100000120000Context Window2.22.42.62.83.03.23.43.63.8Perplexity (lower is better)CodeLlama-13b-hfYarn-Llama-2-13b-64kYarn-Llama-2-13b-128ktogethercomputer/LLaMA-2-7B-32KCodeLlama-7b-hfYarn-Llama-2-7b-64kYarn-Llama-2-7b-128k 
+ 
+ 
+ 
+ 
+ 
+1
+
+Introduction
+
+Transformer-based Large Language Models[40] (LLMs) have become the near-ubiquitous choice for
+many natural language processing (NLP) tasks where long-range abilities such as in-context learning
+(ICL) has been crucial. In performing the NLP tasks, the maximal length of the sequences (the
+context window) determined by its training processes has been one of the major limits of a pretrained
+LLM. Being able to dynamically extend the context window via a small amount of fine-tuning (or
+without fine-tuning) has become more and more desirable. To this end, the position encodings of
+transformers are the center of the discussions.
+
+The original Transformer architecture used an absolute sinusoidal position encoding, which was later
+improved to a learnable absolute position encoding [15]. Since then, relative positional encoding
+schemes [32] have further increased the performance of Transformers. Currently, the most popular
+relative positional encodings are T5 Relative Bias [30], RoPE [34], XPos [35], and ALiBi [27].
+
+One reoccurring limitation with positional encodings is the inability to generalize past the context
+window seen during training. While some methods such as ALiBi are able to do limited generalization,
+none are able to generalize to sequences significantly longer than their pre-trained length [22].
+
+Some works have been done to overcome such limitation. [9] and concurrently [21] proposed to
+extend the context length by slightly modifying RoPE via Position Interpolation (PI) and fine-tuning
+on a small amount of data. As an alternative, [6] proposed the "NTK-aware" interpolation by
+taking the loss of high frequency into account. Since then, two improvements of the "NTK-aware"
+interpolation have been proposed, with different emphasis:
+
+• the "Dynamic NTK" interpolation method [14] for pre-trained models without fine-tuning.
+• the "NTK-by-parts" interpolation method [7] which performs the best when fine-tuned on a
+
+small amount of longer-context data.
+
+The "NTK-aware" interpolation and the "Dynamic NTK" interpolation have already seen their
+presence in the open-source models such as Code Llama [31] (using "NTK-aware" interpolation) and
+Qwen 7B [2] (using "Dynamic NTK").
+
+In this paper, in addition to making a complete account of the previous unpublished works on the
+"NTK-aware", the "Dynamic NTK" and the "NTK-by-part" interpolations, we present YaRN (Yet
+another RoPE extensioN method), an improved method to efficiently extend the context window
+of models trained with Rotary Position Embeddings (RoPE) including the LLaMA [38], the GPT-
+NeoX [5], and the PaLM [10] families of models.
+
+YaRN reaches state-of-the-art performances in context window extensions after fine-tuning on less
+than ∼0.1% of the original pre-training data. In the meantime, by combining with the inference-time
+technique called Dynamic Scaling, the Dynamic-YaRN allows for more than 2x context window
+extension without any fine-tuning.
+
+2 Background and Related Work
+
+2.1 Rotary Position Embeddings
+
+The basis of our work is the Rotary Position Embedding (RoPE) introduced in [34]. We work on
+a hidden layer where the set of hidden neurons are denoted by D. Given a sequence of vectors
+x1, · · · , xL ∈ R|D|, following the not

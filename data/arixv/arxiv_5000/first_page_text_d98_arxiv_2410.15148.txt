@@ -1,0 +1,164 @@
+Less is More: Parameter-Efficient Selection
+of Intermediate Tasks for Transfer Learning
+
+David Schulte, Felix Hamborg, Alan Akbik
+Humboldt University of Berlin
+davidsiriusschulte@gmail.com
+{felix.hamborg, alan.akbik}@hu-berlin.de
+
+4
+2
+0
+2
+
+t
+c
+O
+9
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+8
+4
+1
+5
+1
+.
+0
+1
+4
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Intermediate task transfer learning can greatly
+improve model performance. If, for example,
+one has little training data for emotion detec-
+tion, first fine-tuning a language model on a
+sentiment classification dataset may improve
+performance strongly. But which task to choose
+for transfer learning? Prior methods produc-
+ing useful task rankings are infeasible for large
+source pools, as they require forward passes
+through all source language models. We over-
+come this by introducing Embedding Space
+Maps (ESMs), light-weight neural networks
+that approximate the effect of fine-tuning a lan-
+guage model. We conduct the largest study on
+NLP task transferability and task selection with
+12k source-target pairs. We find that apply-
+ing ESMs on a prior method reduces execution
+time and disk space usage by factors of 10 and
+278, respectively, while retaining high selection
+performance (avg. regret@5 score of 2.95).
+
+1
+
+Introduction
+
+The current default approach for supervised learn-
+ing in NLP involves directly fine-tuning a pre-
+trained transformer using labeled data of the target
+task. However, prior work showed that in some
+cases it is beneficial to perform two consecutive
+fine-tunings in a row: first, on an intermediate task,
+and then on the target task (Phang et al., 2018; Vu
+et al., 2020). This may be particularly effective
+when little training data exists for the target task,
+while much exists for the intermediate task.
+
+However, whether and how much performance
+is gained with intermediate task transfer learning
+heavily depends on the chosen intermediate task.
+Worse, finding the best intermediate task for a
+given target task is a non-trivial problem given the
+large amount of labeled datasets that exist for NLP.
+For instance, the HuggingFace Hub alone contains
+more than 160k datasets and 700k models. This
+renders an exhaustive search for the best possible
+
+intermediary task infeasible. The problem of find-
+ing promising intermediate tasks for a target task
+is called intermediate task selection.1
+
+Prior work investigates approaches for finding
+suitable intermediate tasks given a source trans-
+former LM and a target task (Achille et al., 2019;
+Bassignana et al., 2022; Li et al., 2020; Nguyen
+et al., 2020; Tran et al., 2019; Vu et al., 2020).
+These approaches rely on the local availability of
+(large) source models or a space-intense represen-
+tation of source datasets. Methods also require
+resource-intensive computation for each source-
+target pair (Poth et al., 2021; You et al., 2021b).
+Thus, most approaches are infeasible in real-world
+scenarios, i.e., with large source pools and con-
+strained resources. While the large pool of avail-
+able models and datasets is a valuable resource,
+user cannot optimally utilize it (You et al., 2021b).
+This paper makes two contributions. First, we
+propose Embedding Space Maps (ESMs), linear
+transformations of the embedding space, to be used
+in combination with LogME (You et al., 2021a), a
+source selection method that achieves high selec-
+tion performance but suffers from its dependency
+on forward passes through each source model. We
+overcome this by approximating the embeddings of
+fine-tuned language models with ESMs. The result-
+ing source selection method ESM-LogME reduces
+execution time by a factor of 10 and disk space
+usage by a factor of 278, and thus enables efficient
+source selection also on large source pools.
+
+Second, we compare the performance of ESM-
+LogME to prior methods in the to date largest study
+on transferability across NLP tasks with more than
+1.5k source datasets from HuggingFace Hub and
+8 target datasets across several task types and lan-
+guages. The results show that ESM-LogME is the
+
+1In contrast, source selection includes ranking source mod-
+els of any kind, e.g., not only intermediate tasks (already
+fine-tuned language models), but also only pre-trained mod-
+els.
+
+ 
+ 
+ 
+ 
+ 
+ 
+best-performing source selection method that is
+feasible in real-world scenarios. We release source
+code and all resources under the Apache 2 license.
+Our Python package also allows to share and find
+ESMs to facilitate efficient source selection among
+researchers and practitioners. The repository is
+available at: https://github.com/davidschulte/hf-
+dataset-selector
+
+2 Related Work
+
+Transfer learning is a common paradigm in NLP.
+With BERT, Devlin et al. (2019) propose encoders
+that are trained on a large corpus and then fine-
+tuned on individual target tasks. Phang et al. (2018)
+show that language models can benefit from adding
+an intermediate fine-tuning step. This procedure is
+called intermediate task transfer learning. One of
+its challenges is finding the right intermedia

@@ -1,0 +1,156 @@
+3
+2
+0
+2
+
+p
+e
+S
+9
+1
+
+]
+
+G
+L
+.
+s
+c
+[
+
+4
+v
+3
+8
+6
+0
+1
+.
+0
+1
+9
+1
+:
+v
+i
+X
+r
+a
+
+Journal of Machine Learning Research 21 (2020) 1-67
+
+Submitted 1/20; Revised 6/20; Published 6/20
+
+Exploring the Limits of Transfer Learning with a Unified
+Text-to-Text Transformer
+
+Colin Raffel∗
+Noam Shazeer∗
+Adam Roberts∗
+Katherine Lee∗
+
+Sharan Narang
+
+Michael Matena
+
+Yanqi Zhou
+
+Wei Li
+
+Peter J. Liu
+
+Google, Mountain View, CA 94043, USA
+
+Editor: Ivan Titov
+
+craffel@gmail.com
+
+noam@google.com
+
+adarob@google.com
+
+katherinelee@google.com
+
+sharannarang@google.com
+
+mmatena@google.com
+
+yanqiz@google.com
+
+mweili@google.com
+
+peterjliu@google.com
+
+Abstract
+Transfer learning, where a model is first pre-trained on a data-rich task before being fine-
+tuned on a downstream task, has emerged as a powerful technique in natural language
+processing (NLP). The effectiveness of transfer learning has given rise to a diversity of
+approaches, methodology, and practice. In this paper, we explore the landscape of transfer
+learning techniques for NLP by introducing a unified framework that converts all text-based
+language problems into a text-to-text format. Our systematic study compares pre-training
+objectives, architectures, unlabeled data sets, transfer approaches, and other factors on
+dozens of language understanding tasks. By combining the insights from our exploration
+with scale and our new “Colossal Clean Crawled Corpus”, we achieve state-of-the-art results
+on many benchmarks covering summarization, question answering, text classification, and
+more. To facilitate future work on transfer learning for NLP, we release our data set,
+pre-trained models, and code.1
+
+Keywords:
+based models, deep learning
+
+transfer learning, natural language processing, multi-task learning, attention-
+
+1. Introduction
+
+Training a machine learning model to perform natural language processing (NLP) tasks
+often requires that the model can process text in a way that is amenable to downstream
+learning. This can be loosely viewed as developing general-purpose knowledge that allows
+the model to “understand” text. This knowledge can range from low-level (e.g. the spelling
+
+∗. Equal contribution. A description of each author’s contribution is available in Appendix A. Correspondence
+
+to craffel@gmail.com.
+
+1. https://github.com/google-research/text-to-text-transfer-transformer
+
+©2020 Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei
+Li, and Peter J. Liu.
+
+License: CC-BY 4.0, see https://creativecommons.org/licenses/by/4.0/. Attribution requirements are provided at
+http://jmlr.org/papers/v21/20-074.html.
+
+ 
+ 
+ 
+ 
+ 
+ 
+Raffel, Shazeer, Roberts, Lee, Narang, Matena, Zhou, Li and Liu
+
+or meaning of words) to high-level (e.g. that a tuba is too large to fit in most backpacks).
+In modern machine learning practice, providing this knowledge is rarely done explicitly;
+instead, it is often learned as part of an auxiliary task. For example, a historically common
+approach is to use word vectors (Mikolov et al., 2013b,a; Pennington et al., 2014) to map
+word identities to a continuous representation where, ideally, similar words map to similar
+vectors. These vectors are often learned through an objective that, for example, encourages
+co-occurring words to be positioned nearby in the continuous space (Mikolov et al., 2013b).
+Recently, it has become increasingly common to pre-train the entire model on a data-rich
+task. Ideally, this pre-training causes the model to develop general-purpose abilities and
+knowledge that can then be transferred to downstream tasks. In applications of transfer
+learning to computer vision (Oquab et al., 2014; Jia et al., 2014; Huh et al., 2016; Yosinski
+et al., 2014), pre-training is typically done via supervised learning on a large labeled data set
+like ImageNet (Russakovsky et al., 2015; Deng et al., 2009). In contrast, modern techniques
+for transfer learning in NLP often pre-train using unsupervised learning on unlabeled data.
+This approach has recently been used to obtain state-of-the-art results in many of the most
+common NLP benchmarks (Devlin et al., 2018; Yang et al., 2019; Dong et al., 2019; Liu
+et al., 2019c; Lan et al., 2019). Beyond its empirical strength, unsupervised pre-training
+for NLP is particularly attractive because unlabeled text data is available en masse thanks
+to the Internet—for example, the Common Crawl project2 produces about 20TB of text
+data extracted from web pages each month. This is a natural fit for neural networks, which
+have been shown to exhibit remarkable scalability, i.e. it is often possible to achieve better
+performance simply by training a larger model on a larger data set (Hestness et al., 2017;
+Shazeer et al., 2017; Jozefowicz et al., 2016; Mahajan et al., 2018; Radford et al., 2019;
+Shazeer et al., 2018; Huang et al., 2018b; Keskar et al., 2019a).
+
+This synergy has resulted in a great deal of recent work developing transfer learning
+methodology for NLP, which has produced a wi

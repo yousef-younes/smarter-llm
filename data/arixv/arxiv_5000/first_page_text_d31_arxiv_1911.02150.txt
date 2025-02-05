@@ -1,0 +1,155 @@
+9
+1
+0
+2
+
+v
+o
+N
+6
+
+]
+E
+N
+.
+s
+c
+[
+
+1
+v
+0
+5
+1
+2
+0
+.
+1
+1
+9
+1
+:
+v
+i
+X
+r
+a
+
+Fast Transformer Decoding: One Write-Head is All
+You Need
+
+Noam Shazeer
+Google
+noam@google.com
+
+November 7, 2019
+
+Abstract
+
+Multi-head attention layers, as used in the Transformer neural sequence model, are a powerful alter-
+native to RNNs for moving information across and between sequences. While training these layers is
+generally fast and simple, due to parallelizability across the length of the sequence, incremental inference
+(where such paralleization is impossible) is often slow, due to the memory-bandwidth cost of repeatedly
+loading the large "keys" and "values" tensors. We propose a variant called multi-query attention, where
+the keys and values are shared across all of the diﬀerent attention "heads", greatly reducing the size of
+these tensors and hence the memory bandwidth requirements of incremental decoding. We verify exper-
+imentally that the resulting models can indeed be much faster to decode, and incur only minor quality
+degradation from the baseline.
+
+1
+
+Introduction
+
+The Transformer neural sequence model [Vaswani et al., 2017] has emerged as a popular alternative to
+recurrent sequence models. Transformer relies on attention layers to communicate information between
+and across sequences. One major challenge with Transformer is the speed of incremental inference. As we
+will discuss, the speed of incremental Transformer inference on modern computing hardware is limited by
+the memory bandwidth necessary to reload the large "keys" and "values" tensors which encode the state
+of the attention layers. In the following sections, we will review the multi-head-attention layers used by
+Transformer, provide a performance analysis, and propose an architectural variation (multi-query attention)
+which greatly improves inference speed with only minor quality degradation.
+
+2 Background: Neural Attention
+
+Neural Attention, introduced by [Bahdanau et al., 2014], is a powerful tool for manipulating variable-length
+representations. A neural attention function takes a single query-vector q and a set of m diﬀerent (key-vector,
+value-vector) pairs (represented by the matrices K and V ), and produces an output vector y. The output y
+is computed as a weighted sum of the diﬀerent value vectors, where the weights are derived by comparing
+the query to the keys.
+
+2.1 Dot-Product Attention
+
+The following code describes a common formulation, where the weights are computed as the softmax of the
+dot-products of the query with the diﬀerent keys.
+
+1
+
+ 
+ 
+ 
+ 
+ 
+ 
+d e f Do tP r o ductAttentio n ( q , K, V ) :
+
+" " " Dot−Product A t t e n t i o n on one quer y .
+Args :
+
+q : a v e c t o r with sha pe [ k ]
+K: a ma tr ix with sha pe [m, k ]
+V: a ma tr ix with sha pe [m, v ]
+
+Retur ns :
+
+y : a v e c t o r with sha pe [ v ]
+
+" " "
+l o g i t s = t f . einsum ( " k , mk−>m" , q , K)
+w e i g h t s = t f . so ftma x ( l o g i t s )
+r e t u r n t f . einsum ( "m, mv−>v " , weig hts , V)
+
+Our code samples use einsum notation, as deﬁned in TensorFlow and numpy, for generalized contractions
+between tensors of arbitrary dimension. In this notation, an equation names the dimensions of the input and
+output Tensors. The computation is numerically equivalent to broadcasting each input to have the union of
+all dimensions, multiplying component-wise, and summing across all dimensions not in the desired output
+shape.
+
+2.2 Multi-head Attention
+
+The "Transformer" seuqence-to-sequence model [Vaswani et al., 2017] uses h diﬀerent attention layers (heads)
+in parallel, which the authors refer to as "Multi-head attention". The query vectors for the h diﬀerent layers
+are derived from h diﬀerent learned linear projections Pq of an input vector x. Similarly, the keys and
+values are derived from h diﬀerent learned linear projections Pk, Pv of a collection M of m diﬀerent input
+vectors. The outputs of the h layers are themselves passed through diﬀerent learned linear projections Po,
+then summed. For simplicity, we give the input and output vectors identical dimensionality d. The The
+computation can be expressed as follows:
+
+d e f M u l t i h e a d A t t e n t i o n (
+
+x , M, P_q, P_k, P_v, P_o ) :
+
+" " " Multi−head A t t e n t i o n on one quer y .
+Args :
+
+x : a v e c t o r with sha pe [ d ]
+M: a ma tr ix with sha pe [m, d ]
+P_q: a t e n s o r with sha pe [ h , d , k ]
+P_k: a t e n s o r with sha pe [ h , d , k ]
+P_v: a t e n s o r with sha pe [ h , d , v ]
+P_o : a t e n s o r with sha pe [ h , d , v ]
+
+Retur ns :
+
+y : a v e c t o r with sha pe [ d ]
+
+" " "
+q = t f . einsum ( " d , hdk−>hk " , x , P_q)
+K = t f . einsum ( "md, hdk−>hmk" , M, P_k)
+V = t f . einsum ( "md, hdv−>hmv" , M, P_v)
+l o g i t s = t f . einsum ( " hk , hmk−>hm" , q , K)
+w e i g h t s = t f . so ftma x ( l o g i t s )
+o = t f . einsum ( "hm, hmv−>hv " , weig hts , V)
+y = t f . einsum ( " hv , hdv−>d " , o , P_o)
+r e t u r n y
+
+Note: [Vaswani et al., 2017] include a constant scaling factor on the logits. We omit this in ou

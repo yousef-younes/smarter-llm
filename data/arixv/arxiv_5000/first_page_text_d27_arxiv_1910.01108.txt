@@ -1,0 +1,134 @@
+0
+2
+0
+2
+
+r
+a
+
+M
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+4
+v
+8
+0
+1
+1
+0
+.
+0
+1
+9
+1
+:
+v
+i
+X
+r
+a
+
+DistilBERT, a distilled version of BERT: smaller,
+faster, cheaper and lighter
+
+Victor SANH, Lysandre DEBUT, Julien CHAUMOND, Thomas WOLF
+Hugging Face
+{victor,lysandre,julien,thomas}@huggingface.co
+
+Abstract
+
+As Transfer Learning from large-scale pre-trained models becomes more prevalent
+in Natural Language Processing (NLP), operating these large models in on-the-
+edge and/or under constrained computational training or inference budgets remains
+challenging. In this work, we propose a method to pre-train a smaller general-
+purpose language representation model, called DistilBERT, which can then be ﬁne-
+tuned with good performances on a wide range of tasks like its larger counterparts.
+While most prior work investigated the use of distillation for building task-speciﬁc
+models, we leverage knowledge distillation during the pre-training phase and show
+that it is possible to reduce the size of a BERT model by 40%, while retaining 97%
+of its language understanding capabilities and being 60% faster. To leverage the
+inductive biases learned by larger models during pre-training, we introduce a triple
+loss combining language modeling, distillation and cosine-distance losses. Our
+smaller, faster and lighter model is cheaper to pre-train and we demonstrate its
+capabilities for on-device computations in a proof-of-concept experiment and a
+comparative on-device study.
+
+1
+
+Introduction
+
+The last two years have seen the rise
+of Transfer Learning approaches in
+Natural Language Processing (NLP)
+with large-scale pre-trained language
+models becoming a basic tool in
+many NLP tasks [Devlin et al., 2018,
+Radford et al., 2019, Liu et al., 2019].
+While these models lead to signiﬁ-
+cant improvement, they often have
+several hundred million parameters
+and current research1 on pre-trained
+models indicates that training even
+larger models still leads to better per-
+formances on downstream tasks.
+
+Figure 1: Parameter counts of several recently released
+pretrained language models.
+
+The trend toward bigger models
+raises several concerns. First is the
+environmental cost of exponentially scaling these models’ computational requirements as mentioned
+in Schwartz et al. [2019], Strubell et al. [2019]. Second, while operating these models on-device
+in real-time has the potential to enable novel and interesting language processing applications, the
+growing computational and memory requirements of these models may hamper wide adoption.
+
+1See for instance the recently released MegatronLM (https://nv-adlr.github.io/MegatronLM)
+
+EMC^2: 5th Edition Co-located with NeurIPS’19
+
+ 
+ 
+ 
+ 
+ 
+ 
+In this paper, we show that it is possible to reach similar performances on many downstream-tasks
+using much smaller language models pre-trained with knowledge distillation, resulting in models
+that are lighter and faster at inference time, while also requiring a smaller computational training
+budget. Our general-purpose pre-trained models can be ﬁne-tuned with good performances on several
+downstream tasks, keeping the ﬂexibility of larger models. We also show that our compressed models
+are small enough to run on the edge, e.g. on mobile devices.
+
+Using a triple loss, we show that a 40% smaller Transformer (Vaswani et al. [2017]) pre-trained
+through distillation via the supervision of a bigger Transformer language model can achieve similar
+performance on a variety of downstream tasks, while being 60% faster at inference time. Further
+ablation studies indicate that all the components of the triple loss are important for best performances.
+We have made the trained weights available along with the training code in the Transformers2
+library from HuggingFace [Wolf et al., 2019].
+
+2 Knowledge distillation
+
+Knowledge distillation [Bucila et al., 2006, Hinton et al., 2015] is a compression technique in which
+a compact model - the student - is trained to reproduce the behaviour of a larger model - the teacher -
+or an ensemble of models.
+
+In supervised learning, a classiﬁcation model is generally trained to predict an instance class by
+maximizing the estimated probability of gold labels. A standard training objective thus involves
+minimizing the cross-entropy between the model’s predicted distribution and the one-hot empirical
+distribution of training labels. A model performing well on the training set will predict an output
+distribution with high probability on the correct class and with near-zero probabilities on other
+classes. But some of these "near-zero" probabilities are larger than others and reﬂect, in part, the
+generalization capabilities of the model and how well it will perform on the test set3.
+
+Training loss The student is trained with a distillation loss over the soft target probabilities of
+the teacher: Lce = (cid:80)
+i ti ∗ log(si) where ti (resp. si) is a probability estimated by the teacher
+(resp. the student). This objective results in a rich training signal by leveraging the full teacher

@@ -1,0 +1,124 @@
+4
+2
+0
+2
+
+r
+a
+
+M
+6
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+5
+3
+2
+1
+1
+.
+9
+0
+3
+2
+:
+v
+i
+X
+r
+a
+
+Published as a conference paper at ICLR 2024
+
+OPENCHAT: ADVANCING OPEN-SOURCE LANGUAGE
+MODELS WITH MIXED-QUALITY DATA
+
+Guan Wang1,2∗, Sijie Cheng1,3,5∗, Xianyuan Zhan3,4, Xiangang Li5, Sen Song2 (cid:66), Yang Liu1,3,4 (cid:66)
+1Department of Computer Science and Technology, Tsinghua University
+2Laboratory of Brain and Intelligence, Tsinghua University
+3Institute for AI Industry Research (AIR), Tsinghua University
+4Shanghai Artificial Intelligence Laboratory 501.AI
+imonenext@gmail.com, csj23@mails.tsinghua.edu.cn
+
+ABSTRACT
+
+Nowadays, open-source large language models like LLaMA have emerged. Re-
+cent developments have incorporated supervised fine-tuning (SFT) and reinforce-
+ment learning fine-tuning (RLFT) to align these models with human goals. How-
+ever, SFT methods treat all training data with mixed quality equally, while RLFT
+methods require high-quality pairwise or ranking-based preference data. In this
+study, we present a novel framework, named OpenChat, to advance open-source
+language models with mixed-quality data. Specifically, we consider the general
+SFT training data, consisting of a small amount of expert data mixed with a large
+proportion of sub-optimal data, without any preference labels. We propose the
+C(onditioned)-RLFT, which regards different data sources as coarse-grained re-
+ward labels and learns a class-conditioned policy to leverage complementary data
+quality information. Interestingly, the optimal policy in C-RLFT can be easily
+solved through single-stage, RL-free supervised learning, which is lightweight and
+avoids costly human preference labeling. Through extensive experiments on three
+standard benchmarks, our openchat-13b fine-tuned with C-RLFT achieves the
+highest average performance among all 13b open-source language models. More-
+over, we use AGIEval to validate the model generalization performance, in which
+only openchat-13b surpasses the base model. Finally, we conduct a series of
+analyses to shed light on the effectiveness and robustness of OpenChat. Our code,
+data, and models are publicly available at https://github.com/imoneoi/openchat
+and https://huggingface.co/openchat.
+
+1
+
+INTRODUCTION
+
+Recently, there have been notable advancements in Large Language Models (LLMs), such as GPT-
+4 (OpenAI, 2023) and Chinchilla (Hoffmann et al., 2022), demonstrating impressive performance
+in various downstream natural language processing (NLP) tasks (Zhao et al., 2023). Despite the
+remarkable success of GPT-4, the specific techniques employed in its development remain shrouded
+in mystery. To gain a deeper understanding of the underlying technical aspects and to promote
+the widespread adoption of LLMs, a series of open-source base language models have emerged,
+especially LLaMA (Touvron et al., 2023a) and Llama 2 (Touvron et al., 2023b). Building upon the
+released base language models, there are typically two methods to align these base models to specific
+abilities, including supervised fine-tuning (SFT) and reinforcement learning fine-tuning (RLFT).
+
+The first line of methods (Chiang et al., 2023; Taori et al., 2023) use SFT to enhance instruction
+following abilities. Most existing methods primarily focus on designing SFT datasets. Some stud-
+ies (Chiang et al., 2023; Geng et al., 2023) collect user-shared conversations as well as human
+feedback datasets from the public web, while others (Xu et al., 2023a; Ding et al., 2023) develop
+frameworks for automatically gathering extensive open-domain instructions spanning various diffi-
+culty levels. However, these constructed SFT datasets are generally mixed with limited expert data
+
+∗Equal contribution
+
+1
+
+ 
+ 
+ 
+ 
+ 
+ 
+Published as a conference paper at ICLR 2024
+
+Figure 1: Our proposed framework OpenChat with Conditioned-RLFT to advance the open-source
+language model fine-tuning with mixed-quality data, comparing to previous supervised fine-tuning
+(SFT) method and reinforcement learning fine-tuning (RLFT) method. MLE and RL denote maxi-
+mum likelihood estimates and reinforcement learning, respectively.
+
+and a large proportion of sub-optimal data due to the high cost of human labor and API requests.
+Naturally, it is not advisable to indiscriminately feed all these mixed conversations to the base model,
+as the low-quality data are likely to negatively impact learning (Zhou et al., 2023; Xu et al., 2022).
+However, this is largely neglected in previous methods, which often treat all training data equally.
+
+To allow LLMs to go beyond modeling the training data distribution, recent LLMs (OpenAI,
+2023; Touvron et al., 2023b) adopt RLFT to align better with the human desired behaviors, es-
+pecially API-based models. The well-known reinforcement learning from human feedback (RLHF)
+method (Ouyang et al., 2022; Christiano et al., 2017; Bai et al., 2022b) first collects plenty of high-
+quality preference feedback from human annotators to fit one or multiple reward models (typically
+al

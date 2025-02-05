@@ -1,0 +1,277 @@
+Yi: Open Foundation Models by 01.AI
+
+01.AI
+
+Code: https://github.com/01-ai/Yi
+Model: https://huggingface.co/01-ai
+
+Abstract
+
+We introduce the Yi model family, a series of language and multimodal models that
+demonstrate strong multi-dimensional capabilities. The Yi model family is based
+on 6B and 34B pretrained language models, then we extend them to chat models,
+200K long context models, depth-upscaled models, and vision-language models.
+Our base models achieve strong performance on a wide range of benchmarks like
+MMLU, and our finetuned chat models deliver strong human preference rate on
+major evaluation platforms like AlpacaEval and Chatbot Arena. Building upon our
+scalable super-computing infrastructure and the classical transformer architecture,
+we attribute the performance of Yi models primarily to its data quality resulting
+from our data-engineering efforts. For pretraining, we construct 3.1 trillion tokens
+of English and Chinese corpora using a cascaded data deduplication and quality
+filtering pipeline. For finetuning, we polish a small scale (less than 10K) instruction
+dataset over multiple iterations such that every single instance has been verified
+directly by our machine learning engineers. For vision-language, we combine
+the chat language model with a vision transformer encoder and train the model
+to align visual representations to the semantic space of the language model. We
+further extend the context length to 200K through lightweight continual pretraining
+and demonstrate strong needle-in-a-haystack retrieval performance. We show that
+extending the depth of the pretrained checkpoint through continual pretraining
+further improves performance. We believe that given our current results, continuing
+to scale up model parameters using thoroughly optimized data will lead to even
+stronger frontier models.
+
+5
+2
+0
+2
+
+n
+a
+J
+
+1
+2
+
+]
+L
+C
+.
+s
+c
+[
+
+3
+v
+2
+5
+6
+4
+0
+.
+3
+0
+4
+2
+:
+v
+i
+X
+r
+a
+
+ 
+ 
+ 
+ 
+ 
+ 
+Contents
+
+1 Introduction
+
+2 Pretraining
+
+2.1 Data Processing .
+
+2.2 Tokenization .
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+2.3 Model Architecture .
+
+3 Finetuning
+
+3.1 Data Preprocessing .
+
+3.2 Training Method .
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+4 Infrastructure
+
+5 Safety
+
+6 Evaluations
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6.1 Base Model Performance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6.1.1 Main Results .
+
+6.1.2 Discussions .
+
+.
+
+.
+
+.
+
+.
+
+.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6.1.3
+
+In-Context Learning Study . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6.2 Chat Model Performance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6.2.1 Automatic Evaluations . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6.2.2 Human Evaluations .
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+7 Capability Extension
+
+7.1 Long Context Modeling .
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+7.2 Vision-Language .
+
+7.3 Depth Upscaling .
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+8 Final Discussions
+
+A Author List and Contributions
+
+3
+
+4
+
+4
+
+5
+
+6
+
+6
+
+6
+
+7
+
+7
+
+9
+
+9
+
+9
+
+9
+
+10
+
+11
+
+12
+
+12
+
+12
+
+14
+
+14
+
+15
+
+16
+
+18
+
+19
+
+2
+
+1
+
+Introduction
+
+Recent breakthroughs in large language models have revolutionized the whole field of artificial intel-
+ligence and potentially radiate across the entire human society. Our vision for large language models
+is to make them the next generation computational platform and empower the whole community with
+significantly amplified intelligence. As a step towards this mission, we present the Yi model series,
+6B and 34B language models pretrained from scratch on 3.1T highly-engineered large amount of
+data, and finetuned on a small but meticulously polished alignment data. Due to the data quality
+resulting from our substantial engineering efforts, which we will detail in the upcoming sections, Yi
+achieves near GPT-3.5 benchmark scores and human preferences.
+
+In designing the Yi model series, we are mostly concerned on the following dimensions regarding
+model scale, data scale, and data quality: (1). when choosing model scale, the desiderata is to have
+small enough model that is feasible for inference on consumer-grade hardware like the RTX 4090
+where the bounding factor is its limited 24G memory, yet still large enough with complex reasoning
+and emergent abilities. This is why we found 34B gives a nice performance-cost balance; (2). since
+34B is smaller than the conventional 70B used by Chinchilla [30] and LLaMA [77], we increase the
+pretrain data scale to 3.1T tokens to compensate for the decre

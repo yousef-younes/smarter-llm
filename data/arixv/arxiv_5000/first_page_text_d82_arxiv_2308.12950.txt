@@ -1,0 +1,121 @@
+4
+2
+0
+2
+
+n
+a
+J
+
+1
+3
+
+]
+L
+C
+.
+s
+c
+[
+
+3
+v
+0
+5
+9
+2
+1
+.
+8
+0
+3
+2
+:
+v
+i
+X
+r
+a
+
+Code Llama: Open Foundation Models for Code
+
+Baptiste Rozière†, Jonas Gehring†, Fabian Gloeckle†,∗, Sten Sootla†, Itai Gat, Xiaoqing
+Ellen Tan, Yossi Adi⋄, Jingyu Liu, Romain Sauvestre, Tal Remez, Jérémy Rapin, Artyom
+Kozhevnikov, Ivan Evtimov, Joanna Bitton, Manish Bhatt, Cristian Canton Ferrer, Aaron
+Grattafiori, Wenhan Xiong, Alexandre Défossez, Jade Copet, Faisal Azhar, Hugo Touvron,
+Louis Martin, Nicolas Usunier, Thomas Scialom, Gabriel Synnaeve†
+
+Meta AI
+
+Abstract
+
+We release Code Llama, a family of large language models for code based on Llama 2
+providing state-of-the-art performance among open models, infilling capabilities, support
+for large input contexts, and zero-shot instruction following ability for programming tasks.
+foundation models
+We provide multiple flavors to cover a wide range of applications:
+(Code Llama), Python specializations (Code Llama - Python), and instruction-following
+models (Code Llama - Instruct) with 7B, 13B, 34B, and 70B parameters each. These
+models are trained on sequences of 16k tokens and show improvements on inputs with
+up to 100k tokens. The 7B, 13B and 70B Code Llama and Code Llama - Instruct
+variants support infilling based on surrounding content. Code Llama reaches state-of-the-art
+performance among open models on several code benchmarks, with scores of up to 67%
+and 65% on HumanEval and MBPP, respectively. Notably, Code Llama - Python 7B
+outperforms Llama 2 70B on HumanEval and MBPP, and all our models outperform every
+other publicly available model on MultiPL-E. We release Code Llama under a permissive
+license that allows for both research and commercial use.1
+
+1 Introduction
+
+Large language models (LLMs) power a rapidly increasing number of applications, having reached a proficiency
+in natural language that allows them to be commanded and prompted to perform a variety of tasks (OpenAI,
+2023; Touvron et al., 2023b). By utilizing large, in-domain datasets, their efficacy can be greatly improved
+for applications that require a combination of both natural and domain-specific language and understanding
+of specialized terminology. By training on domain-specific datasets, they have proved effective more broadly
+on applications that require advanced natural language understanding. A prominent use-case is the formal
+interaction with computer systems, such as program synthesis from natural language specifications, code
+completion, debugging, and generating documentation (for a survey, see Xu & Zhu, 2022, also see Section 5).
+In this work, we present Code Llama, a family of LLMs for code generation and infilling derived from
+Llama 2 (Touvron et al., 2023b) and released under the same custom permissive license. We provide inference
+code for both completion and infilling models in the accompanying repository.1 Our approach is based on
+gradually specializing and increasing the capabilities of Llama 2 models by applying a cascade of training
+and fine-tuning steps (Figure 2):
+
+• Code-training from foundation models. While most LLMs for code generation such as AlphaCode
+(Li et al., 2022), InCoder (Fried et al., 2023) or StarCoder (Li et al., 2023) are trained on code only,
+Codex (Chen et al., 2021) was fine-tuned from a general language model. We also start from a foundation
+model (Llama 2, Touvron et al., 2023b) pretrained on general-purpose text and code data. Our comparison
+(Section 3.4.1) shows that initializing our model with Llama 2 outperforms the same architecture trained
+on code only for a given budget.
+
+1https://github.com/facebookresearch/codellama
+†: Core contributors. ∗: Meta AI, CERMICS École des Ponts ParisTech. ⋄: Meta AI & Hebrew University of Jerusalem
+
+1
+
+ 
+ 
+ 
+ 
+ 
+ 
+Prompt: In Bash, how do I list all text files in the current directory (excluding subdirectories) that have been modified in the
+last month
+
+Response: You can use the ‘find‘ command in Bash to list all text files in the current directory (excluding subdirectories) that
+have been modified in the last month. The command would be:
+
+find . -maxdepth 1 -type f -mtime -30 -name "*.txt"
+
+Here’s a breakdown of the command:
+* ‘.‘ specifies the current directory.
+* ‘-maxdepth 1‘ tells ‘find‘ to only search the current directory and not any subdirectories.
+* ‘-type f‘ tells ‘find‘ to only search for files (not directories or other types of files).
+* ‘-mtime -30‘ tells ‘find‘ to only search for files that have been modified in the last 30 days.
+* ‘-name "*.txt"‘ tells ‘find‘ to only search for files with the ‘.txt‘ extension.
+Note that the ‘-mtime‘ option uses the number of days since the file was last modified, so ‘-mtime -30‘ means "modified in the
+last 30 days". If you want to search for files modified in the last month, you can use the ‘-mtime -30‘ option.
+
+Figure 1: Example of response of Code Llama - Instruct (34B) when queried for a specific shell command.
+
+• Infilling. Autoregressive training and fine-tuning of LLMs is suitabl

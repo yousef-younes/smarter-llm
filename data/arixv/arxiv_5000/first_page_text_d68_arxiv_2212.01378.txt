@@ -1,0 +1,186 @@
+ColD Fusion: Collaborative Descent for Distributed Multitask Finetuning
+
+Shachar Don-Yehiya
+IBM Research
+Hebrew University of Jerusalem
+shachar.don-yehiya@ibm.com
+
+Noam Slonim
+IBM Research
+noams@il.ibm.com
+
+Abstract
+
+Elad Venezian
+IBM Research
+eladv@il.ibm.com
+
+Yoav Katz
+IBM Research
+katz@il.ibm.com
+
+Colin Raffel
+UNC Chapel Hill
+craffel@gmail.com
+
+Leshem Choshen
+IBM Research
+leshem.choshen@il.ibm.com
+
+3
+2
+0
+2
+
+p
+e
+S
+3
+1
+
+]
+
+G
+L
+.
+s
+c
+[
+
+2
+v
+8
+7
+3
+1
+0
+.
+2
+1
+2
+2
+:
+v
+i
+X
+r
+a
+
+We propose a new paradigm to continually
+evolve pretrained models, denoted ColD Fu-
+sion. It provides the benefits of multitask learn-
+ing but leverages distributed computation with
+limited communication and eliminates the need
+for shared data. Consequentially, ColD Fusion
+can give rise to a synergistic loop, where fine-
+tuned models can be recycled to continually im-
+prove the pretrained model they are based upon.
+We show that ColD Fusion yields comparable
+benefits to multitask training by producing a
+model that (a) attains strong performance on
+all of the datasets it was trained on; and (b) is
+a better starting point for finetuning on unseen
+datasets. We show that ColD Fusion outper-
+forms RoBERTa and even previous multitask
+models. Specifically, when training and test-
+ing on 35 diverse datasets, ColD Fusion-based
+model outperforms RoBERTa by 2.33 points
+on average without any changes to the architec-
+ture.1
+
+1
+
+Introduction
+
+Over the last few years, pretrained language models
+are changing the landscape of NLP, where finetun-
+ing a pretrained model typically yields state-of-
+the-art performance on a diverse set of NLP tasks
+(Chen et al., 2022). Consequently, improving a
+pretrained model has the potential to boost every
+model finetuned on it. However, pretraining is of-
+ten so computationally expensive that practitioners
+rarely seek to pretrain new models from scratch.
+
+In contrast, finetuning is usually dramatically
+cheaper, allowing a given pretrained model to be
+finetuned many times; e.g., there are thousands
+of finetuned BERT variants on the Hugging Face
+Hub2. Motivated by this, we study if and how fine-
+tuned models can be “recycled” to create a better
+
+1We release the final model as well as iterations and seeds
+
+here: https://huggingface.co/ibm/ColD-Fusion
+
+2https://huggingface.co/models?search=bert
+
+Figure 1: Schematic of ColD Fusion. Each iteration
+starts from a base model. Then, each contributor down-
+loads the model from a centralized “Repository” and
+finetunes it on their dataset. Next, each contributor
+uploads the finetuned model weights back to the Repos-
+itory. After that, the Repository fuses all models into
+a single model by averaging their weights. Finally,
+the Repository replaces the base model with the fused
+model and the process repeats.
+
+pretrained model (c.f., Raffel, 2021). To avoid con-
+fusion, henceforth we refer to any starting point for
+finetuning a base model and only the vanilla model
+as the pretrained model.
+
+To recycle models, we take inspiration from mul-
+titask learning (§2). In multitask learning the pre-
+trained model is finetuned over multiple datasets
+at once, which was shown to create a better base
+model than the original pretrained model (Aribandi
+et al., 2021; Aghajanyan et al., 2021a; Sanh et al.,
+2021; Chung et al., 2022). Given the availability
+of many finetuned models, our aim is to obtain the
+benefits of multitask learning by mixing multiple
+models rather than multiple datasets (c.f. §2.3).
+
+To achieve that, we suggest the following itera-
+tive approach (§3): In each iteration, contributors
+finetune the most up-to-date base model (which is
+presumably also the most performant) on their task,
+and share the fine-tuned model with the rest of the
+community. Then, those contributed models are
+fused together, by simply averaging their param-
+eters (Choshen et al., 2022b), to create the base
+
+BasemodelFinetuned modelsFusedmodelUploadedmodels 
+ 
+ 
+ 
+ 
+ 
+model for the next iteration. We call this method
+Collaborative Descent Fusion, or ColD Fusion.
+
+et al., 2021; Aghajanyan et al., 2021a; Sanh et al.,
+2021; Chung et al., 2022).
+
+ColD Fusion fits the common finetuning
+paradigm, where each contributor finetunes for
+their own benefit and does not share their data.
+However, by merely requiring the finetuned model
+to be shared, the finetuning step can be recast as a
+training step for the collective’s benefit. In doing
+so, our method allows reusing compute and data
+consumed by practitioners and researchers to the
+benefit of the entire community.
+
+Our experimental results indicate that our ap-
+proach of combining finetuned models not only
+produces a better base model but also allows this
+base model to keep evolving. Instead of pretraining
+or multitasking on a predefined amount of data, we
+suggest accumulating finetuned models to contin-
+uously improve the model. Our method is hence
+limited only by the amount of finetuned models that
+are shared by the entire community. We discuss
+limitations in (§9).
+
+We show

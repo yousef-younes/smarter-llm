@@ -1,0 +1,183 @@
+BoolQ: Exploring the Surprising Difﬁculty of Natural Yes/No Questions
+
+Christopher Clark∗1, Kenton Lee†, Ming-Wei Chang†, Tom Kwiatkowski†
+
+Michael Collins †2, Kristina Toutanova†
+
+∗Paul G. Allen School of CSE, University of Washington
+csquared@cs.uw.edu
+
+†Google AI Language
+{kentonl, mingweichang, tomkwiat, mjcollins, kristout}@google.com
+
+9
+1
+0
+2
+
+y
+a
+M
+4
+2
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+4
+4
+0
+0
+1
+.
+5
+0
+9
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+In this paper we study yes/no questions that are
+naturally occurring — meaning that they are
+generated in unprompted and unconstrained
+settings. We build a reading comprehension
+dataset, BoolQ, of such questions, and show
+that they are unexpectedly challenging. They
+often query for complex, non-factoid informa-
+tion, and require difﬁcult entailment-like infer-
+ence to solve. We also explore the effective-
+ness of a range of transfer learning baselines.
+We ﬁnd that transferring from entailment data
+is more effective than transferring from para-
+phrase or extractive QA data, and that it, sur-
+prisingly, continues to be very beneﬁcial even
+when starting from massive pre-trained lan-
+guage models such as BERT. Our best method
+trains BERT on MultiNLI and then re-trains it
+on our train set. It achieves 80.4% accuracy
+compared to 90% accuracy of human anno-
+tators (and 62% majority-baseline), leaving a
+signiﬁcant gap for future work.
+
+1 Introduction
+
+Understanding what facts can be inferred to be true
+or false from text is an essential part of natural
+language understanding. In many cases, these in-
+ferences can go well beyond what is immediately
+stated in the text. For example, a simple sentence
+like “Hanna Huyskova won the gold medal for Be-
+larus in freestyle skiing.” implies that (1) Belarus
+is a country, (2) Hanna Huyskova is an athlete, (3)
+Belarus won at least one Olympic event, (4) the
+USA did not win the freestyle skiing event, and so
+on.
+
+To test a model’s ability to make these kinds of
+inferences, previous work in natural language in-
+
+1Work completed while interning at Google.
+2Also afﬁliated with Columbia University, work done at
+
+Google.
+
+Q: Has the UK been hit by a hurricane?
+P:
+
+The Great Storm of 1987 was a violent extratropical
+cyclone which caused casualties in England, France
+and the Channel Islands . . .
+Yes. [An example event is given.]
+
+A:
+
+Q: Does France have a Prime Minister and a President?
+P:
+. . . The extent to which those decisions lie with the
+Prime Minister or President depends upon . . .
+Yes. [Both are mentioned, so it can be inferred both
+exist.]
+
+A:
+
+Q: Have the San Jose Sharks won a Stanley Cup?
+P:
+
+. . . The Sharks have advanced to the Stanley Cup ﬁ-
+nals once, losing to the Pittsburgh Penguins in 2016
+. . .
+No. [They were in the ﬁnals once, and lost.]
+
+A:
+
+Figure 1: Example yes/no questions from the BoolQ
+dataset. Each example consists of a question (Q), an
+excerpt from a passage (P), and an answer (A) with an
+explanation added for clarity.
+
+ference (NLI) proposed the task of labeling candi-
+date statements as being entailed or contradicted
+by a given passage. However, in practice, gen-
+erating candidate statements that test for complex
+inferential abilities is challenging. For instance,
+evidence suggests (Gururangan et al., 2018; Jia
+and Liang, 2017; McCoy et al., 2019) that simply
+asking human annotators to write candidate state-
+ments will result in examples that typically only
+require surface-level reasoning.
+
+In this paper we propose an alternative: we test
+models on their ability to answer naturally occur-
+ring yes/no questions. That is, questions that were
+authored by people who were not prompted to
+write particular kinds of questions, including even
+being required to write yes/no questions, and who
+did not know the answer to the question they were
+asking. Figure 1 contains some examples from our
+dataset. We ﬁnd such questions often query for
+
+ 
+ 
+ 
+ 
+ 
+ 
+non-factoid information, and that human annota-
+tors need to apply a wide range of inferential abili-
+ties when answering them. As a result, they can be
+used to construct highly inferential reading com-
+prehension datasets that have the added beneﬁt of
+being directly related to the practical end-task of
+answering user yes/no questions.
+
+Yes/No questions do appear as a subset of some
+existing datasets (Reddy et al., 2018; Choi et al.,
+2018; Yang et al., 2018). However, these datasets
+are primarily intended to test other aspects of
+question answering (QA), such as conversational
+QA or multi-step reasoning, and do not contain
+naturally occurring questions.
+
+We follow the data collection method used
+by Natural Questions (NQ) (Kwiatkowski et al.,
+2019) to gather 16,000 naturally occurring yes/no
+questions into a dataset we call BoolQ (for
+Boolean Questions). Each question is paired with
+a paragraph from Wikipedia that an independent
+annotator has marked as containing the answer.
+The task is then to take a question and passage as
+input, and to return “yes” or “no” as output. Fig-
+ure 1 contains some examples

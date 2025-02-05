@@ -1,0 +1,152 @@
+How Can We Effectively Expand the Vocabulary of LLMs
+with 0.01GB of Target Language Text?
+
+Atsuki Yamaguchi1, Aline Villavicencio1,2 and Nikolaos Aletras1
+1School of Computer Science, University of Sheffield, United Kingdom
+2Department of Computer Science, Institute of Data Science and Artificial Intelligence,
+University of Exeter, United Kingdom
+{ayamaguchi1,a.villavicencio,n.aletras}@sheffield.ac.uk
+
+4
+2
+0
+2
+
+p
+e
+S
+6
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+7
+7
+4
+1
+1
+.
+6
+0
+4
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+Large language models (LLMs) have shown
+remarkable capabilities in many languages be-
+yond English. Yet, LLMs require more infer-
+ence steps when generating non-English text
+due to their reliance on English-centric tok-
+enizers and vocabulary, resulting in higher us-
+age costs to non-English speakers. Vocabu-
+lary expansion with target language tokens is
+a widely used cross-lingual vocabulary adap-
+tation approach to remedy this issue. Despite
+its effectiveness in inference speedup, previ-
+ous work on vocabulary expansion has focused
+on high-resource settings assuming access to
+a substantial amount of target language data
+to effectively initialize the embeddings of the
+new tokens and adapt the LLM to the target
+language. However, vocabulary expansion in
+low-resource settings has yet to be explored.
+In this paper, we investigate vocabulary expan-
+sion in low-resource settings by considering
+embedding initialization methods and contin-
+ual pre-training strategies. Through extensive
+experiments across typologically diverse lan-
+guages, tasks and models, we establish a set of
+strategies to perform vocabulary expansion for
+faster inference, maintaining competitive down-
+stream performance to baselines with only 30K
+sentences (∼0.01GB text data) from the target
+language.1
+
+1
+
+Introduction
+
+Large language models (LLMs) have strong ca-
+pabilities in English and other languages (Ope-
+nAI, 2023; Touvron et al., 2023; Jiang et al., 2023;
+Groeneveld et al., 2024). Yet, processing non-
+English texts with LLMs is challenging. They suf-
+fer from tokenization overfragmentation2 and thus
+require more inference steps due to the reliance on
+English-centric tokenizers and vocabulary, result-
+
+1Our code and models are available on GitHub.
+2See Appendix E.1 for a quantitative analysis.
+
+Figure 1: We explore various adaptation strategies for
+cross-lingual vocabulary expansion (
+) that allow infer-
+ence speedups while retaining competitive performance
+to the source models in low-resource settings.
+
+ing in higher utility costs for non-English speak-
+ers (Ahia et al., 2023; Petrov et al., 2023).
+
+Cross-lingual vocabulary adaptation (CVA) via
+vocabulary expansion has been proposed to adapt
+LLMs (including their tokenizers) to specific target
+languages. Vocabulary expansion approaches ex-
+tend the vocabulary of a source model with tokens
+from a target language, followed by continual pre-
+training on target language data. A wide range of
+language-specific LLMs derived from an English-
+centric LLM such as Llama2 (Touvron et al., 2023)
+have been made available following this approach,
+including Chinese (Cui et al., 2023), Tamil (Bal-
+achandran, 2023), Portuguese (Larcher et al., 2023),
+and Japanese (Fujii et al., 2024) models, inter alia.
+Vocabulary expansion improves inference speed
+but often assumes access to a substantial amount
+of target language data for adaptation. For exam-
+ple, Chinese and Tamil LLaMAs make use of 20
+and 12GB of target language text, respectively (Cui
+et al., 2023; Balachandran, 2023). Given the guar-
+anteed large number of model updates in high-
+
+3Language adaptive pre-trainingText data30K sentencesSource tokenizerSource LLMLlama2 (7B)  Llama3 (8B) Gemma2 (9B)2Initialize embedding & LM head for new tokensSourceTargetRandom FOCUS Mean MergeAlignInitialization methods⚙1Build adapted tokenizer(1)Training procedure(2)Training objective(3)Sequence length⚙Source tokenizerAdapted tokenizerInputAdapted LLMOutputAdapted tokenizerFaster inference✅ 🚀✅ 💥Competitive performance to Source LLM⚙ Parameters consideredTraining methodsNew tokens⚙Training🔥Source LLMEmbeddingLM headAdapted LLM⚙ 
+ 
+ 
+ 
+ 
+ 
+resource settings, the embeddings of new tokens are
+often simply randomly initialized, followed by the
+standard continual pre-training with a causal lan-
+guage modeling (CLM) objective (Cui et al., 2023;
+Balachandran, 2023; Larcher et al., 2023; Choi
+et al., 2024). However, it is not clear how effec-
+tive this approach to vocabulary expansion is in
+low-resource settings.
+
+In this paper, we seek to (i) answer if this widely
+used adaptation approach under high-resource set-
+tings is as effective in low-resource settings; and
+(ii) identify the best possible vocabulary expansion
+strategies for language adaptation in low-resource
+settings, maintaining similar performance to the
+source models with faster inference (Figure 1). Our
+key contributions are as follows:
+
+• We present the first systematic study of vocab-
+ulary expansion-based adaptation of genera-
+t

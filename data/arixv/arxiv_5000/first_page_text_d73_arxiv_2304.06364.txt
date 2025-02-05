@@ -1,0 +1,117 @@
+3
+2
+0
+2
+
+p
+e
+S
+8
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+4
+6
+3
+6
+0
+.
+4
+0
+3
+2
+:
+v
+i
+X
+r
+a
+
+AGIEval: A Human-Centric Benchmark for
+Evaluating Foundation Models
+
+Wanjun Zhong∗, Ruixiang Cui∗, Yiduo Guo, Yaobo Liang, Shuai Lu, Yanlin Wang
+Amin Saied, Weizhu Chen and Nan Duan
+Microsoft
+{t-wzhong, v-ruicui, v-yiduoguo, yaobo.liang, shuailu}@microsoft.com
+{yanlwang, Amin.Saied, wzchen, nanduan}@microsoft.com
+
+Abstract
+
+Evaluating the general abilities of foundation models to tackle human-level tasks is
+a vital aspect of their development and application in the pursuit of Artificial Gen-
+eral Intelligence (AGI). Traditional benchmarks, which rely on artificial datasets,
+may not accurately represent human-level capabilities. In this paper, we introduce
+AGIEval, a novel benchmark specifically designed to assess foundation model in
+the context of human-centric standardized exams, such as college entrance exams,
+law school admission tests, math competitions, and lawyer qualification tests. We
+evaluate several state-of-the-art foundation models, including GPT-4, ChatGPT,
+and Text-Davinci-003, using this benchmark. Impressively, GPT-4 surpasses aver-
+age human performance on SAT, LSAT, and math competitions, attaining a 95%
+accuracy rate on the SAT Math test and a 92.5% accuracy on the English test
+of the Chinese national college entrance exam. This demonstrates the extraordi-
+nary performance of contemporary foundation models. In contrast, we also find
+that GPT-4 is less proficient in tasks that require complex reasoning or specific
+domain knowledge. Our comprehensive analyses of model capabilities (understand-
+ing, knowledge, reasoning, and calculation) reveal these models’ strengths and
+limitations, providing valuable insights into future directions for enhancing their
+general capabilities. By concentrating on tasks pertinent to human cognition and
+decision-making, our benchmark delivers a more meaningful and robust evaluation
+of foundation models’ performance in real-world scenarios2.
+
+1
+
+Introduction
+
+In recent years, large foundation models, such as the latest large language models (LLMs) ChatGPT3
+and GPT-4 (OpenAI, 2023), have exhibited remarkable versatility and adaptability, with plethora of
+applications spanning various domains as a decision-making assistant, from processing daily events
+to assisting in specialized fields such as law, medicine, and finance. With these advancements, AI
+systems are inching closer to achieving Artificial General Intelligence (AGI). As these AI systems
+continue to evolve and become more integrated into our daily lives, it is essential to effectively assess
+their general abilities in handling human-centric tasks, identify potential shortcomings, and ensure
+that they can handle complex, human-centric tasks effectively. Moreover, evaluating their reasoning
+abilities is also crucial to ensure their reliability and trustworthiness across diverse settings.
+
+Traditional benchmarks for evaluating foundation models often fall short in providing an accurate
+assessment of their general abilities in handling human-level tasks. This is primarily due to the use
+
+∗indicates equal contribution. Yaobo Liang and Nan Duan are the corresponding authors.
+2The data, code, and all model outputs are released in https://github.com/ruixiangcui/AGIEval
+3https://chat.openai.com/chat
+
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1: The performance of foundation models (Text-Davinci-003, ChatGPT, and GPT-4) was
+evaluated on several human-centric exams under zero-shot learning with a Chain-of-Thought (CoT)
+prompting setting. Human performance (avg.) refers to the average performance of all test takers,
+while human performance (top) refers to the performance of the top 1% of test takers, except for the
+lawyer qualification test which uses the top 10%. Our results show that, compared to the averaged
+human performance, GPT-4 achieves better scores on the SAT, LSAT, and math competitions.
+
+of artificial datasets and a lack of emphasis on real-world tasks that require human-like cognitive
+capabilities. Moreover, these benchmarks often focus on tasks that do not truly represent the
+complexities and nuances of real-world human cognition and decision-making, leading to a skewed
+evaluation of models’ capabilities and limiting their ability to provide meaningful insights into the
+models’ real-world applicability. Consequently, there is a growing need for a more human-centric
+benchmark that allows for a robust evaluation of foundation model in the context of tasks that are
+relevant to human reasoning and problem-solving.
+
+In this paper, we introduce a human-centric benchmark AGIEval specifically designed to evaluate
+the general abilities of foundation models in tasks pertinent to human cognition and problem-solving.
+This benchmark is derived from official, public, and high-standard admission and qualification
+exams intended for general human test-takers, such as general college admission tests (e.g., Chinese
+College Entrance Exam (Gaokao) and American SAT), law sch

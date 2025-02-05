@@ -1,0 +1,170 @@
+PIQA: Reasoning about Physical Commonsense in Natural Language
+
+Yonatan Bisk1,2,3,4
+
+Rowan Zellers1,4
+1Allen Institute for Artiﬁcial Intelligence
+
+Ronan Le Bras1
+2Microsoft Research AI
+
+Jianfeng Gao2
+
+Yejin Choi1,4
+
+3Carnegie Mellon University
+
+4Paul G. Allen School for Computer Science and Engineering, University of Washington
+http://yonatanbisk.com/piqa
+
+9
+1
+0
+2
+
+v
+o
+N
+6
+2
+
+]
+L
+C
+.
+s
+c
+[
+
+1
+v
+1
+4
+6
+1
+1
+.
+1
+1
+9
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+To apply eyeshadow without a brush, should I use a cotton
+swab or a toothpick? Questions requiring this kind of phys-
+ical commonsense pose a challenge to today’s natural lan-
+guage understanding systems. While recent pretrained mod-
+els (such as BERT) have made progress on question answer-
+ing over more abstract domains – such as news articles and
+encyclopedia entries, where text is plentiful – in more physi-
+cal domains, text is inherently limited due to reporting bias.
+Can AI systems learn to reliably answer physical common-
+sense questions without experiencing the physical world?
+In this paper, we introduce the task of physical commonsense
+reasoning and a corresponding benchmark dataset Physical
+Interaction: Question Answering or PIQA
+. Though hu-
+mans ﬁnd the dataset easy (95% accuracy), large pretrained
+models struggle (∼77%). We provide analysis about the di-
+mensions of knowledge that existing models lack, which of-
+fers signiﬁcant opportunities for future research.
+
+Introduction
+Before children learn language, they already start forming
+categories and concepts based on the physical properties of
+objects around them (Hespos and Spelke 2004). This model
+of the world grows richer as they learn to speak, but al-
+ready captures physical commonsense knowledge about ev-
+eryday objects: their physical properties, affordances, and
+how they can be manipulated. This knowledge is critical
+for day-to-day human life, including tasks such as problem
+solving (what can I use as a pillow when camping?) and
+expressing needs and desires (bring me a harder pillow).
+Likewise, we hypothesize that modeling physical common-
+sense knowledge is a major challenge on the road to true AI-
+completeness, including robots that interact with the world
+and understand natural language.
+
+Much of physical commonsense can be expressed in lan-
+guage, as the versatility of everyday objects and common
+concepts eludes other label schemes. However, due to is-
+sues of reporting bias, these commonsense properties - facts
+like ‘it is a bad idea to apply eyeshadow with a toothpick’
+are rarely directly reported. Although much recent progress
+
+Copyright c(cid:13) 2020, Association for the Advancement of Artiﬁcial
+Intelligence (www.aaai.org). All rights reserved.
+
+Figure 1: PIQA : Given a physical goal expressed in nat-
+ural language, like ‘to separate egg whites...,’ a model must
+choose the most sensible solution. Our dataset tests the abil-
+ity of natural language understanding models to link text to
+a robust intuitive-physics model of the world. Here, humans
+easily pick answer a) because separating the egg requires
+pulling the yolk out, while machines are easily fooled.
+
+has been made in Natural Language Processing through
+a shift towards large-scale pretrained representations from
+unlabeled text (Radford et al. 2018; Devlin et al. 2019;
+Liu et al. 2019), the bulk of the success of this paradigm
+has been on core abstract tasks and domains. State-of-the-
+art models can reliably answer questions given an encyclo-
+pedia article (Rajpurkar et al. 2016) or recognize named en-
+tities (Tjong Kim Sang and De Meulder 2003), but it is not
+clear whether they can robustly answer questions that re-
+quire physical commonsense knowledge.
+
+To study this question and begin bridging the represen-
+tational gap, we introduce Physical Interaction: Question
+Answering, or PIQA
+to evaluate language represen-
+tations on their knowledge of physical commonsense. We
+focus on everyday situations with a preference for atypi-
+cal solutions. Our dataset is inspired by instructables.com,
+which provides users with instructions on how to build, craft,
+
+a.Squeezethe water bottle and press it against the yolk. Release, which creates suction and lifts the yolk.To separate egg whites from the yolkusing a water bottle, you should…b.Placethe water bottle and press it against the yolk. Keep pushing,which creates suction and lifts the yolk.???a! 
+ 
+ 
+ 
+ 
+ 
+a. Shape, Material, and Purpose
+
+b. Commonsense Convenience
+
+[Goal] Make an outdoor pillow
+[Sol1] Blow into a tin can and tie with rubber band
+[Sol2] Blow into a trash bag and tie with rubber band
+
+[Goal] To make a hard shelled taco,
+[Sol1] put seasoned beef, cheese, and lettuce onto the hard
+
+shell.
+
+[Sol2] put seasoned beef, cheese, and lettuce into the hard
+
+shell.
+
+(cid:56)
+(cid:52)
+
+(cid:56)
+
+(cid:52)
+
+[Goal] How do I ﬁnd something I lost on the carpet?
+[Sol1] Put a solid seal on the end of your vacuum and turn it
+
+(cid:56)
+
+on.
+
+[Sol2] Put a hair net on the end of your vacuum and turn it on. (cid

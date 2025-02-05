@@ -1,0 +1,150 @@
+Preprint.
+
+PALI-3 VISION LANGUAGE MODELS:
+SMALLER, FASTER, STRONGER
+
+1 Xiao Wang⋆
+
+2 Lucas Beyer⋆
+
+Xi Chen⋆
+Paul Voigtlaender1 Basil Mustafa2
+Piotr Padlewski2 Daniel Salz1 Xi Xiong3 Daniel Vlasic3
+Keran Rong2 Tianli Yu3 Daniel Keysers2 Xiaohua Zhai⋆†
+2
+1Google Research 2Google DeepMind
+
+2 Alexander Kolesnikov2
+Sebastian Goodman1
+
+3Google Cloud
+
+Jialin Wu1
+
+Ibrahim Alabdulmohsin2
+
+Filip Pavetic2
+
+Radu Soricut†
+1
+
+3
+2
+0
+2
+
+t
+c
+O
+7
+1
+
+]
+
+V
+C
+.
+s
+c
+[
+
+2
+v
+9
+9
+1
+9
+0
+.
+0
+1
+3
+2
+:
+v
+i
+X
+r
+a
+
+ABSTRACT
+
+This paper presents PaLI-3, a smaller, faster, and stronger vision language model
+(VLM) that compares favorably to similar models that are 10x larger. As part of
+arriving at this strong performance, we compare Vision Transformer (ViT) mod-
+els pretrained using classification objectives to contrastively (SigLIP) pretrained
+ones. We find that, while slightly underperforming on standard image classifica-
+tion benchmarks, SigLIP-based PaLI shows superior performance across various
+multimodal benchmarks, especially on localization and visually-situated text un-
+derstanding. We scale the SigLIP image encoder up to 2 billion parameters, and
+achieves a new state-of-the-art on multilingual cross-modal retrieval. We hope
+that PaLI-3, at only 5B parameters, rekindles research on fundamental pieces of
+complex VLMs, and could fuel a new generation of scaled-up models.
+
+1
+
+INTRODUCTION
+
+The scaling of vision-language models (VLM) to tens and even hundreds of billions of parame-
+ters (Chen et al., 2023b; Alayrac et al., 2022; Chen et al., 2023a; Driess et al., 2023) has shown
+ever-increasing performance. Meanwhile, models at a smaller scale remain critical, as they are more
+practical to train and serve, more environmentally-friendly, and support faster research cycles for
+model design.
+
+In the spirit of focusing on smaller-scale modeling, we present PaLI-3, the third-generation family
+of PaLI (Chen et al., 2023b) models. Using a pretrained backbone with only 5B total parameters,
+we refine the training recipe and achieve competitive and new state-of-the-art (SOTA) results on
+various VLM benchmarks. Our new recipe has three main components: contrastive pretraining of
+image encoder on web-scale image-text data (Zhai et al., 2023), an improved dataset mixture for
+PaLI multimodal training, and training at higher resolutions.
+
+PaLI-3 achieves new SOTA results on tasks that require visually-situated text understanding and
+object localization, including eight visually-situated text understanding tasks and the referring ex-
+pression segmentation task on RefCOCO (Yu et al., 2016), along with strong performance on a
+wide range of classical vision tasks. As part of this work, we also introduce a SOTA multilingual
+contrastive vision model scaled to 2B parameters, obtained using the recently-introduced SigLIP
+recipe (Zhai et al., 2023). Additionally, we perform focused ablation studies to compare the classifi-
+cation pretrained Vision Transformer (ViT) backbones (Dosovitskiy et al., 2021) with contrastively
+pretrained ones (SigLIP). This further confirms the viability of pretraining visual encoders on noisy
+web-scale image-text data, as a preferable alternative to training on classification-style data.
+
+Our contributions are summarized as follows:
+
+⋆Core contributors, †Project leads
+
+1
+
+ 
+ 
+ 
+ 
+ 
+ 
+Preprint.
+
+1. We compare classification pretrained ViT models (Dosovitskiy et al., 2021) to contrastively
+pretrained SigLIP models using the PaLI framework (Chen et al., 2023b). We find that the
+contrastively pretrained models work significantly better for visually-situated text under-
+standing tasks and localization tasks.
+
+2. Our model achieves SOTA performance on 10+ diverse vision-language benchmarks while
+being 10x smaller in size compared to the current SOTA model Chen et al. (2023a). For
+understanding visually-situated text, the improvement is by a particularly large margin.
+3. Despite not pretraining on any video data, our model achieves new SOTA on several video
+
+QA benchmarks, indicative of powerful generalization abilities.
+
+4. We introduce the 2 billion parameter (ViT-G) multilingual SigLIP model trained on We-
+bLI (Chen et al., 2023b), which sets a new state-of-the-art on the multilingual cross-modal
+retrieval benchmark Thapliyal et al. (2022) across 36 languages.
+
+2 RELATED WORK
+
+Recent large vision language models (VLMs) use pretrained image encoders as part of the larger
+model, some pretrain it with supervised classification (PaLI (Chen et al., 2023b), PaLI-X (Chen
+et al., 2023a), PaLM-E (Driess et al., 2023)), some use pretrained CLIP encoders (BLIPv2 (Li
+et al., 2023), CrossTVR (Dai et al., 2023), ChatBridge (Zhao et al., 2023)) and some with custom
+multimodal pretraining (Flamingo (Alayrac et al., 2022), BEiT3 (Wang et al., 2022b), CoCa (Yu
+et al., 2022), SimVLM (Wang et al., 2021b)). In this paper we compare two dominant ways to
+pretrain image encoders using the PaLI framework: classification pretraining using large weakly
+labeled 

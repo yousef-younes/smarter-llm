@@ -1,0 +1,161 @@
+Sigmoid Loss for Language Image Pre-Training
+
+Xiaohua Zhai(cid:63) Basil Mustafa Alexander Kolesnikov Lucas Beyer(cid:63)
+Google DeepMind, Z¨urich, Switzerland
+{xzhai, basilm, akolesnikov, lbeyer}@google.com
+
+Abstract
+
+We propose a simple pairwise Sigmoid loss
+for
+Language-Image Pre-training (SigLIP). Unlike standard
+contrastive learning with softmax normalization, the sig-
+moid loss operates solely on image-text pairs and does not
+require a global view of the pairwise similarities for nor-
+malization. The sigmoid loss simultaneously allows fur-
+ther scaling up the batch size, while also performing bet-
+ter at smaller batch sizes. Combined with Locked-image
+Tuning, with only four TPUv4 chips, we train a SigLiT
+model that achieves 84.5% ImageNet zero-shot accuracy
+in two days. The disentanglement of the batch size from
+the loss further allows us to study the impact of exam-
+ples vs pairs and negative to positive ratio. Finally, we
+push the batch size to the extreme, up to one million, and
+ﬁnd that the beneﬁts of growing batch size quickly dimin-
+ish, with a more reasonable batch size of 32 k being suf-
+ﬁcient. We release our models at https://github.
+com/google-research/big_vision and hope our
+research motivates further explorations in improving the
+quality and efﬁciency of language-image pre-training.
+
+1. Introduction
+
+Contrastive pre-training using weak supervision from
+image-text pairs found on the web is becoming the go-to
+method for obtaining generic computer vision backbones,
+slowly replacing pre-training on large labelled multi-class
+datasets. The high-level idea is to simultaneously learn
+an aligned representation space for images and texts using
+paired data. Seminal works CLIP [36] and ALIGN [23] es-
+tablished the viability of this approach at a large scale, and
+following their success, many large image-text datasets be-
+came available privately [59, 13, 21, 49] and publicly [40,
+6, 15, 7, 41].
+
+The standard recipe to pre-train such models leverages
+the image-text contrastive objective. It aligns the image and
+
+(cid:63)equal contribution
+
+Table 1: SigLiT and SigLIP results. Sigmoid loss is mem-
+ory efﬁcient, allows larger batch sizes (BS) that unlocks
+language image pre-training with a small number of chips.
+SigLiT model with a frozen public
+B/8 checkpoint [42],
+trained on the LiT image-text dataset [59] using four TPU-
+v4 chips for one day, achieves 79.7% 0-shot accuracy on
+ImageNet. The same setup with a g/14 checkpoint [58]
+leads to 84.5% accuracy, trained for two days. With a pub-
+lic unlocked
+B/16 image checkpoint [42], trained on the
+WebLI dataset [13], SigLIP achieves 71.0% 0-shot accu-
+racy using 16 TPU-v4 chips for three days. The last two
+rows show results with randomly initialized models.
+
+Image Text
+
+BS #TPUv4 Days
+
+INet-0
+
+SigLiT
+SigLiT
+
+SigLIP
+SigLIP
+SigLIP
+
+B/8
+g/14
+
+B/16
+B/16
+B/16
+
+L∗
+L
+
+32 k
+20 k
+
+4
+4
+
+1
+2
+
+79.8
+84.5
+
+16 k
+32 k
+32 k
+
+B
+B
+B
+∗ We use a variant of the L model with 12 layers.
+
+71.0
+72.1
+73.4
+
+16
+32
+32
+
+3
+2
+5
+
+text embeddings for matching (positive) image-text pairs
+while making sure that unrelated (negative) image-text pairs
+are dissimilar in the embedding space. This is achieved via a
+batch-level softmax-based contrastive loss, applied twice to
+normalize the pairwise similarity scores across all images,
+then all texts. A naive implementation of the softmax is
+numerically unstable; it is usually stabilized by subtracting
+the maximum input value before applying the softmax [18],
+which requires another pass over the full batch.
+
+In this paper, we propose a simpler alternative: the sig-
+moid loss. It does not require any operation across the full
+batch and hence greatly simpliﬁes the distributed loss im-
+plementation and boosts efﬁciency. Additionally, it con-
+ceptually decouples the batch size from the deﬁnition of
+the task. We compare the proposed sigmoid loss with the
+standard softmax loss across multiple setups.
+In partic-
+ular, we investigate sigmoid-based loss with two promi-
+
+1
+
+nent approaches for image-text learning: CLIP [36] and
+LiT [59], which we call sigmoid language image pre-
+training (SigLIP) and sigmoid LiT (SigLiT), respectively.
+We ﬁnd that the sigmoid loss performs signiﬁcantly better
+than the softmax loss when the batch size is smaller than
+16 k. As the train batch size grows, the gap closes. Impor-
+tantly, the sigmoid loss is symmetric, requires just a single
+pass, and a typical implementation requires less memory
+than the softmax loss. This enables successful training of a
+SigLiT model at a batch size of one million. However, we
+ﬁnd that the performance saturates with growing batch size,
+both for softmax and sigmoid. The good news is that a rea-
+sonable batch size, i.e. 32 k, is sufﬁcient for image-text pre-
+training. This conclusion also holds for multilingual SigLIP
+training on over 100 languages.
+
+In Table 1, we present setups for image-text pre-training
+that require a moderate amount of TPUv4 chips for training.
+SigLiT is surprisingly efﬁcient, 

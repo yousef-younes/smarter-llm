@@ -1,0 +1,170 @@
+9
+1
+0
+2
+
+t
+c
+O
+6
+1
+
+]
+
+V
+C
+.
+s
+c
+[
+
+2
+v
+8
+4
+6
+3
+1
+.
+5
+0
+9
+1
+:
+v
+i
+X
+r
+a
+
+Scene Text Visual Question Answering
+
+Ali Furkan Biten∗,1 Rub`en Tito∗,1 Andres Maﬂa∗,1
+
+Lluis Gomez1
+
+Marc¸al Rusi˜nol1
+
+Ernest Valveny1 C.V. Jawahar2 Dimosthenis Karatzas1
+
+1Computer Vision Center, UAB, Spain
+
+2CVIT, IIIT Hyderabad, India
+
+{abiten, rperez, amafla, lgomez, marcal, dimos}@cvc.uab.es
+
+Abstract
+
+Current visual question answering datasets do not con-
+sider the rich semantic information conveyed by text within
+an image. In this work, we present a new dataset, ST-VQA,
+that aims to highlight the importance of exploiting high-
+level semantic information present in images as textual cues
+in the Visual Question Answering process. We use this
+dataset to deﬁne a series of tasks of increasing difﬁculty for
+which reading the scene text in the context provided by the
+visual information is necessary to reason and generate an
+appropriate answer. We propose a new evaluation metric
+for these tasks to account both for reasoning errors as well
+as shortcomings of the text recognition module. In addition
+we put forward a series of baseline methods, which provide
+further insight to the newly released dataset, and set the
+scene for further research.
+
+1. Introduction
+
+Textual content in man-made environments conveys im-
+portant high-level semantic information that is explicit and
+not available in any other form in the scene. Interpreting
+written information in man-made environments is essential
+in order to perform most everyday tasks like making a pur-
+chase, using public transportation, ﬁnding a place in the
+city, getting an appointment, or checking whether a store
+is open or not, to mention just a few.
+
+Text is present in about 50% of the images in large-scale
+datasets such as MS Common Objects in Context [53] and
+the percentage goes up sharply in urban environments. It
+is thus fundamental to design models that take advantage
+of these explicit cues. Ensuring that scene text is properly
+accounted for is not a marginal research problem, but quite
+central for holistic scene interpretation models.
+
+The research community on reading systems has made
+signiﬁcant advances over the past decade [26, 15]. The
+
+∗Equal contribution.
+
+Q: What is the price of the ba-
+nanas per kg?
+A: $11.98
+
+Q: What does the red sign
+say?
+A: Stop
+
+Q: Where is this train going?
+A: To New York
+A: New York
+
+Q: What is the exit number on
+the street sign?
+A: 2
+A: Exit 2
+
+Figure 1. Recognising and interpreting textual content is essential
+for scene understanding. In the Scene Text Visual Question An-
+swering (ST-VQA) dataset leveraging textual information in the
+image is the only way to solve the QA task.
+
+current state of the art in scene text understanding allows
+endowing computer vision systems with basic reading ca-
+pacity, although the community has not yet exploited this
+towards solving higher level problems.
+
+At the same time, current Visual Question Answering
+(VQA) datasets and models present serious limitations as
+a result of ignoring scene text content, with disappointing
+results on questions that require scene text understanding.
+We therefore consider it is timely to bring together these
+two research lines in the VQA domain. To move towards
+more human like reasoning, we contemplate that grounding
+question answering both on the visual and the textual in-
+
+ 
+ 
+ 
+ 
+ 
+ 
+formation is necessary. Integrating the textual modality in
+existing VQA pipelines is not trivial. On one hand, spot-
+ting relevant textual information in the scene requires per-
+forming complex reasoning about positions, colors, objects
+and semantics, to localise, recognise and eventually inter-
+pret the recognised text in the context of the visual content,
+or any other contextual information available. On the other
+hand, current VQA models work mostly on the principle of
+classical [44] and operant (instrumental) conditioning [51].
+Such models, display important dataset biases [23] as well
+as failures in counting [9, 1], comparing and identifying at-
+tributes. These limitations make current models unsuitable
+to directly integrate scene text information which is often
+orthogonal and uncorrelated to the visual statistics of the
+image.
+
+To this end, in this work we propose a new dataset, called
+Scene Text Visual Question Answering (ST-VQA) where the
+questions and answers are attained in a way that questions
+can only be answered based on the text present in the image.
+We consciously draw the majority (85.5%) of ST-VQA im-
+ages from datasets that have generic question/answer pairs
+that can be combined with ST-VQA to establish a more
+generic, holistic VQA task. Some sample images and ques-
+tions from the collected dataset are shown in Figure 1.
+
+Additionally, we introduce three tasks of increasing dif-
+ﬁculty that simulate different degrees of availability of con-
+textual information. Finally, we deﬁne a new evaluation
+metric to better discern the models’ answering ability, that
+employs the Levenshtein distanc

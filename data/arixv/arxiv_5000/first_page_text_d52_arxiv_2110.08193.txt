@@ -1,0 +1,193 @@
+BBQ: A Hand-Built Bias Benchmark for Question Answering
+
+Alicia Parrish,1 Angelica Chen,2 Nikita Nangia,2 Vishakh Padmakumar,2
+Jason Phang,2 Jana Thompson,2 Phu Mon Htut,2 Samuel R. Bowman1,2,3
+
+1New York University
+Dept. of Linguistics
+
+2New York University
+Center for Data Science
+
+3New York University
+Dept. of Computer Science
+
+Correspondence: {alicia.v.parrish, bowman}@nyu.edu
+
+Abstract
+
+It is well documented that NLP models learn
+social biases, but little work has been done
+on how these biases manifest in model out-
+puts for applied tasks like question answer-
+ing (QA). We introduce the Bias Benchmark
+for QA (BBQ), a dataset of question sets con-
+structed by the authors that highlight attested
+social biases against people belonging to pro-
+tected classes along nine social dimensions rel-
+evant for U.S. English-speaking contexts. Our
+task evaluates model responses at two levels:
+(i) given an under-informative context, we test
+how strongly responses reﬂect social biases,
+and (ii) given an adequately informative con-
+text, we test whether the model’s biases over-
+ride a correct answer choice. We ﬁnd that mod-
+els often rely on stereotypes when the context
+is under-informative, meaning the model’s out-
+puts consistently reproduce harmful biases in
+this setting. Though models are more accurate
+when the context provides an informative an-
+swer, they still rely on stereotypes and average
+up to 3.4 percentage points higher accuracy
+when the correct answer aligns with a social
+bias than when it conﬂicts, with this difference
+widening to over 5 points on examples target-
+ing gender for most models tested.
+
+Figure 1: Examples in BBQ come in sets of 4, created
+by varying the two contexts options in (A), ambiguous
+context only or ambiguous + disambiguated context,
+with the two question types in (B), negative question or
+non-negative question. We then repeat this with “Chris-
+tian” and “Muslim” switched. The correct answers for
+this set are shown in (C). Each example is presented as
+a multiple-choice question with three choices. In this
+case, all questions have the options “The Christian”,
+“The Muslim”, and “Unknown”.
+
+1
+
+Introduction
+
+Large language models (LMs) learn social biases
+present in the world, and the increased use of
+these systems across different contexts increases
+the cases where these biases can lead to harm. LMs
+have been found to reproduce social biases in down-
+stream tasks such as language generation (Sheng
+et al., 2019) and coreference resolution (Rudinger
+et al., 2018). The use of these models in real-world
+applications therefore risks harming marginalized
+individuals and groups. However, little work has
+been done to understand how these biases manifest
+in the outputs of question-answering (QA) models.
+To assess these biases in model outputs, we mea-
+sure biases against a range of social categories and
+
+also measure in which contexts these impacts are
+most likely to be exhibited.
+
+There are many, often conﬂicting, ways bias is
+deﬁned in NLP (Blodgett et al., 2020); we focus on
+stereotyping behavior and build on the deﬁnition
+and treatment of bias in QA from Li et al. (2020),
+who have shown that the marginal probabilities a
+model associates with different answer options are
+related to positive or negative associations with dif-
+ferent gender and racial identities. However, it has
+not yet been shown how these differences manifest
+in discrete model outputs, as differences in likeli-
+hoods will not always correspond to a difference
+in the model’s categorical prediction, and whether
+those manifestations are tied to identiﬁable biases
+
+2
+2
+0
+2
+
+r
+a
+
+M
+6
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+3
+9
+1
+8
+0
+.
+0
+1
+1
+2
+:
+v
+i
+X
+r
+a
+
+A Christian and a Muslim were both seen fleeing from the scene of the crime right after the bomb exploded.Both men were interviewed by the police shortly after and the Christian man confessed to the crime.Ambiguous contextDisambiguated contextUnknownWho likely planted the bomb?Who was likely running for cover?Negative questionNon-negative questionUnknownThe ChristianThe Muslim(A) Contexts(B) Questions(C) Correct       answers 
+ 
+ 
+ 
+ 
+ 
+Category
+
+Ambiguous context
+
+Disambiguated context
+
+Negative Q.
+
+Non-neg. Q.
+
+Attested bias
+
+The 78-YEAR-OLD was eagerly greeting every-
+one, but the 22-YEAR-OLD held back because
+they could not remember some members’ names.
+
+Who was
+forgetful?
+
+Who was not
+forgetful?
+
+Age
+
+Disability
+status
+
+Gender
+identity
+
+all
+
+78-YEAR-OLD ,
+
+the ﬁrst book club meeting,
+
+the
+At
+new members met the two organizers – one
+and the other a
+was a
+22-YEAR-OLD .
+On that day, two people came into the lawyer’s
+ofﬁce, one CARRYING A STACK OF PAPERS
+and the other maneuvering his WHEELCHAIR
+through the door.
+After the ﬁrst day of middle school math, a
+GIRL and a BOY stayed after class to talk to
+the teacher.
+
+Nationality At the computer store the other day, I over-
+heard a conversation between an ICELANDIC
+guy and a GUINEAN guy.
+Working on a group project for my chemistry
+class, I was paired w

@@ -1,0 +1,304 @@
+Technical Report
+
+Qwen2.5-Coder Technical Report
+
+Jian Yang* Zeyu Cui*
+
+Binyuan Hui*
+Dayiheng Liu Lei Zhang Tianyu Liu Jiajun Zhang Bowen Yu Keming Lu
+Kai Dang Yang Fan Yichang Zhang An Yang Rui Men Fei Huang
+Bo Zheng Yibo Miao
+Xingzhang Ren Xuancheng Ren Jingren Zhou Junyang Lin†
+Qwen Team Alibaba Group
+
+Shanghaoran Quan Yunlong Feng
+
+Jiaxi Yang*
+
+https://hf.co/Qwen/Qwen2.5-Coder-32B-Instruct
+https://github.com/QwenLM/Qwen2.5-Coder
+
+Abstract
+
+In this report, we introduce the Qwen2.5-Coder series, a significant up-
+grade from its predecessor, CodeQwen1.5. This series includes six models:
+Qwen2.5-Coder-(0.5B/1.5B/3B/7B/14B/32B). As a code-specific model,
+Qwen2.5-Coder is built upon the Qwen2.5 architecture and continues pre-
+trained on a vast corpus of over 5.5 trillion tokens. Through meticulous
+data cleaning, scalable synthetic data generation, and balanced data mix-
+ing, Qwen2.5-Coder demonstrates impressive code generation capabilities
+while retaining general and math skills. These models have been evaluated
+on a wide range of code-related tasks, achieving state-of-the-art (SOTA)
+performance across more than 10 benchmarks, including code generation,
+completion, reasoning, and repair, consistently outperforming larger mod-
+els of the same model size. We believe that the release of the Qwen2.5-Coder
+series will advance research in code intelligence and, with its permissive
+licensing, support wider adoption by developers in real-world applications.
+
+4
+2
+0
+2
+
+v
+o
+N
+2
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+3
+v
+6
+8
+1
+2
+1
+.
+9
+0
+4
+2
+:
+v
+i
+X
+r
+a
+
+∗Equal core contribution, †Corresponding author
+
+1
+
+92.788.479.378.190.289.281.273.331.427.922.621.365.962.954.350.538.336.329.829.473.772.959.451.183.475.163.550.658.451.946.245.686.383.874.973.568.957.421.716.892.186.834.665.837.671.489.254.284.469.1..lavEnamuH.....PPBMLiveCodeBench.......McEvalBigCodeBench......AiderCRUXEval-O...BIRD-SQL....sulPlavE..anerAedoCQwen2.5-Coder-32B-InstructDeepSeek-Coder-V2-InstructDeepSeek-Coder-33B-InstructCodeStral-22BGPT-4o-202408061Qwen2.5-Coder-32B 
+ 
+ 
+ 
+ 
+ 
+Technical Report
+
+Contents
+
+1 Introduction
+
+2 Model Architecture
+
+3 Pre-training
+
+3.1 Pretraining Data .
+
+.
+
+.
+
+.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+3.1.1 Data Composition .
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+3.1.2 Data Mixture .
+.
+
+3.2 Training Policy .
+
+.
+
+.
+
+.
+
+. . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+3.2.1
+
+File-Level Pretraining . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+3.2.2 Repo-Level Pretraining . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+4 Post-training
+
+4.1 A Recipe for Instruction Data . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+4.2 Training Policy .
+
+.
+
+.
+
+.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5 Decontamination
+
+6 Evaluation on Base Models
+.
+6.1 Code Generation .
+.
+6.2 Code Completion .
+
+.
+.
+
+6.3 Code Reasoning .
+
+6.4 Math Reasoning .
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6.5 General Natural Language . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6.6 Long-Context Evaluation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+7 Evaluation on Instruct Models
+
+7.1 Code Generation .
+.
+7.2 Code Reasoning .
+
+7.3 Code Editing .
+
+7.4 Text-to-SQL .
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+.
+
+.
+
+.
+
+.
+.
+
+.
+
+.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+7.5 Math Reasoning and General Natural Language . . . . . . . . . . . . . . . .
+
+7.6 Table Understanding .
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+8 Discussion: Scaling is All You Need
+
+9 Conclusion
+
+2
+
+3
+
+3
+
+4
+
+4
+
+5
+
+6
+6
+
+6
+
+7
+
+7
+
+7
+
+9
+
+9
+
+10
+10
+11
+
+14
+
+15
+
+15
+
+16
+
+16
+18
+22
+
+23
+
+25
+
+27
+
+27
+
+28
+
+28
+
+Technical Report
+
+Introduction
+
+1
+With the rapid development of large language models (LLMs) (Brown, 2020; Achiam et al.,
+2023; Touvron et al., 2023; Dubey et al., 2024; Jiang et al., 2023; Bai et al., 2023; Yang et al., 2024;
+Anthropic, 2024; OpenAI, 2024), code-specific language models have garnered significant
+attention in the community. Built upon pre-trained LLMs, code LLMs such as the StarCoder
+series (Li et al., 2023; Lozhkov et al., 2024), CodeLlama series (Roziere et al., 2023), DeepSeek-
+Coder series (Guo et al., 2024a), CodeQwen1.5 (Qwen, 2024), and CodeStral (MistralAI,
+2024), have demonstrated superior performance in coding evaluations (Chen et al., 2021;
+Austin et al., 2021; Cassano et al., 2022; Jain et al., 2024; Liu et al., 2024a; Li et al., 2024b; Guo
+et al., 2024b; Wu et al., 2024b). H

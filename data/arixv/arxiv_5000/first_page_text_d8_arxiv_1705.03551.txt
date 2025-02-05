@@ -1,0 +1,228 @@
+TriviaQA: A Large Scale Distantly Supervised Challenge Dataset
+for Reading Comprehension
+
+Mandar Joshi†
+
+Eunsol Choi†
+
+Daniel S. Weld†
+
+Luke Zettlemoyer†‡
+
+† Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA
+{mandar90, eunsol, weld, lsz}@cs.washington.edu
+
+‡ Allen Institute for Artiﬁcial Intelligence, Seattle, WA
+lukez@allenai.org
+
+7
+1
+0
+2
+
+y
+a
+M
+3
+1
+
+]
+L
+C
+.
+s
+c
+[
+
+2
+v
+1
+5
+5
+3
+0
+.
+5
+0
+7
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+We present TriviaQA, a challenging
+reading comprehension dataset contain-
+ing over 650K question-answer-evidence
+triples. TriviaQA includes 95K question-
+answer pairs authored by trivia enthusi-
+asts and independently gathered evidence
+documents, six per question on average,
+that provide high quality distant super-
+vision for answering the questions. We
+show that, in comparison to other recently
+introduced large-scale datasets, TriviaQA
+(1) has relatively complex, compositional
+questions, (2) has considerable syntactic
+and lexical variability between questions
+and corresponding answer-evidence sen-
+tences, and (3) requires more cross sen-
+tence reasoning to ﬁnd answers. We also
+present two baseline algorithms: a feature-
+based classiﬁer and a state-of-the-art neu-
+ral network, that performs well on SQuAD
+reading comprehension. Neither approach
+comes close to human performance (23%
+and 40% vs. 80%), suggesting that Trivi-
+aQA is a challenging testbed that is worth
+signiﬁcant future study.1
+
+1
+
+Introduction
+
+Reading comprehension (RC) systems aim to an-
+swer any question that could be posed against the
+facts in some reference text. This goal is challeng-
+ing for a number of reasons: (1) the questions can
+be complex (e.g. have highly compositional se-
+mantics), (2) ﬁnding the correct answer can re-
+quire complex reasoning (e.g.
+combining facts
+from multiple sentences or background knowl-
+edge) and (3) individual facts can be difﬁcult to
+
+1Data
+
+and code
+washington.edu/triviaqa/
+
+available
+
+at http://nlp.cs.
+
+Question: The Dodecanese Campaign of WWII that
+was an attempt by the Allied forces to capture islands in
+the Aegean Sea was the inspiration for which acclaimed
+1961 commando ﬁlm?
+Answer: The Guns of Navarone
+Excerpt: The Dodecanese Campaign of World War II
+was an attempt by Allied forces to capture the Italian-
+held Dodecanese islands in the Aegean Sea following
+the surrender of Italy in September 1943, and use them
+as bases against the German-controlled Balkans. The
+failed campaign, and in particular the Battle of Leros,
+inspired the 1957 novel The Guns of Navarone and
+the successful 1961 movie of the same name.
+
+Question: American Callan Pinckney’s eponymously
+named system became a best-selling (1980s-2000s)
+book/video franchise in what genre?
+Answer: Fitness
+Excerpt: Callan Pinckney was an American ﬁtness pro-
+fessional. She achieved unprecedented success with her
+Callanetics exercises. Her 9 books all became inter-
+national best-sellers and the video series that followed
+went on to sell over 6 million copies. Pinckney’s ﬁrst
+video release ”Callanetics: 10 Years Younger In 10
+Hours” outsold every other ﬁtness video in the US.
+
+Figure 1: Question-answer pairs with sample ex-
+cerpts from evidence documents from TriviaQA
+exhibiting lexical and syntactic variability, and re-
+quiring reasoning from multiple sentences.
+
+recover from text (e.g. due to lexical and syntactic
+variation). Figure 1 shows examples of all these
+phenomena. This paper presents TriviaQA, a new
+reading comprehension dataset designed to simul-
+taneously test all of these challenges.
+
+Recently, signiﬁcant progress has been made
+by introducing large new reading comprehension
+datasets that primarily focus on one of the chal-
+lenges listed above, for example by crowdsourc-
+ing the gathering of question answer pairs (Ra-
+jpurkar et al., 2016) or using cloze-style sentences
+instead of questions (Hermann et al., 2015; Onishi
+et al., 2016) (see Table 1 for more examples). In
+general, system performance has improved rapidly
+as each resource is released. The best models of-
+
+ 
+ 
+ 
+ 
+ 
+ 
+Dataset
+
+TriviaQA
+
+SQuAD (Rajpurkar et al., 2016)
+MS Marco (Nguyen et al., 2016)
+NewsQA(Trischler et al., 2016)
+WikiQA (Yang et al., 2016)
+TREC (Voorhees and Tice, 2000)
+
+Large scale
+
+(cid:51)
+
+(cid:51)
+(cid:51)
+(cid:51)
+(cid:55)
+(cid:55)
+
+Freeform
+Answer
+(cid:51)
+
+(cid:51)
+(cid:51)
+(cid:51)
+(cid:55)
+(cid:51)
+
+Well formed
+
+(cid:51)
+
+(cid:51)
+(cid:55)
+(cid:51)
+(cid:55)
+(cid:51)
+
+Independent of
+Evidence
+(cid:51)
+
+Varied
+Evidence
+(cid:51)
+
+(cid:55)
+(cid:51)
+(cid:55)*
+(cid:51)
+(cid:51)
+
+(cid:55)
+(cid:51)
+(cid:55)
+(cid:55)
+(cid:51)
+
+Table 1: Comparison of TriviaQA with existing QA datasets. Our dataset is unique in that it is natu-
+rally occurring, well-formed questions collected independent of the evidences. *NewsQA uses evidence
+articles indirectly by using only article summaries.
+
+ten achieve near-human performance levels within
+months or a year, fueling a continual need to build
+ever more difﬁcult datasets. We argue tha
