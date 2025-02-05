@@ -1,0 +1,50 @@
+ {
+      "title": "Efﬁcient Natural Language Response Suggestion for Smart Reply",
+      "authors": [
+        {
+          "name": "Matthew Hendererson",
+          "affiliations": ["Google"],
+          "email": "matthen@google.com"
+        },
+        {
+          "name": "Ramie A-R Fou",
+          "affiliations": ["Google"],
+          "email": "rmyeid@google.com"
+        },
+        {
+          "name": "Brian Strope",
+          "affiliations": ["Google"],
+          "email": "bps@google.com"
+        },
+        {
+          "name": "Yun-Hsuan Sun",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "L'aszl´Oluk´acs",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Ruiqi Guo",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Sanjiv Kumar",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Balint Miklos",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Ray Kurzweil",
+          "affiliations": ["Google"],
+          "email": "NA"
+        }
+      ]
+    }

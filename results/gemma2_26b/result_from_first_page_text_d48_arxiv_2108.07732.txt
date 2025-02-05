@@ -1,0 +1,62 @@
+```json
+{
+  "title": "Program Synthesis with Large Language Models",
+  "authors": [
+    {
+      "name": "Jacob Austin",
+      "affiliations": ["Google Research"],
+      "email": "jaaustin@google.com"
+    },
+    {
+      "name": "Augustus Odena",
+      "affiliations": ["Google Research"],
+      "email": "augustusodena@google.com"
+    },
+    {
+      "name": "Maxwell Nye",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Maarten Bosma",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Henryk Michalewski",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "David Dohan",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ellen Jiang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Carrie Cai",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Terry",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Quoc Le",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Charles Sutton",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```

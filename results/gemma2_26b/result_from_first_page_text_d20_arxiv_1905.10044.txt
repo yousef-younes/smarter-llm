@@ -1,0 +1,38 @@
+```json
+{
+  "title": "BoolQ: Exploring the Surprising Difﬁculty of Natural Yes/No Questions",
+  "authors": [
+    {
+      "name": "Christopher Clark",
+      "affiliations": ["Paul G. Allen School of CSE, University of Washington"],
+      "email": "csquared@cs.uw.edu"
+    },
+    {
+      "name": "Kenton Lee",
+      "affiliations": ["Google AI Language"],
+      "email": "NA"
+    },
+    {
+      "name": "Ming-Wei Chang",
+      "affiliations": ["Google AI Language"],
+      "email": "NA"
+    },
+    {
+      "name": "Tom Kwiatkowski",
+      "affiliations": ["Google AI Language"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Collins",
+      "affiliations": ["Google AI Language"],
+      "email": "NA"
+    },
+    {
+      "name": "Kristina Toutanova",
+      "affiliations": ["Google AI Language"],
+      "email": "NA"
+    }
+  ]
+}
+
+```

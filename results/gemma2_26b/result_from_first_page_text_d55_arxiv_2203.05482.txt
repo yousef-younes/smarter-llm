@@ -1,0 +1,62 @@
+```json
+{
+  "title": "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time",
+  "authors": [
+    {
+      "name": "Mitchell Wortsman",
+      "affiliations": ["University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Gabriel Ilharco",
+      "affiliations": ["University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Samir Yitzhak Gadre",
+      "affiliations": ["Columbia University"],
+      "email": "NA"
+    },
+    {
+      "name": "Rebecca Roelofs",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Raphael Gontijo-Lopes",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Ari S. Morcos",
+      "affiliations": ["Meta AI Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Hongseok Namkoong",
+      "affiliations": ["Columbia University"],
+      "email": "NA"
+    },
+    {
+      "name": "Ali Farhadi",
+      "affiliations": ["University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Yair Carmon",
+      "affiliations": ["Tel Aviv University"],
+      "email": "NA"
+    },
+    {
+      "name": "Simon Kornblith",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Ludwig Schmidt",
+      "affiliations": ["University of Washington"],
+      "email": "NA"
+    }
+  ]
+}
+```

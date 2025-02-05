@@ -1,0 +1,48 @@
+```json
+{
+  "title": "Attention Is All You Need",
+  "authors": [
+    {
+      "name": "Ashish Vaswani",
+      "affiliations": ["Google Brain"],
+      "email": "avaswani@google.com"
+    },
+    {
+      "name": "Noam Shazeer",
+      "affiliations": ["Google Brain"],
+      "email": "noam@google.com"
+    },
+    {
+      "name": "Niki Parmar",
+      "affiliations": ["Google Research"],
+      "email": "nikip@google.com"
+    },
+    {
+      "name": "Jakob Uszkoreit",
+      "affiliations": ["Google Research"],
+      "email": "usz@google.com"
+    },
+    {
+      "name": "Llion Jones",
+      "affiliations": ["Google Research"],
+      "email": "llion@google.com"
+    },
+    {
+      "name": "Aidan N. Gomez",
+      "affiliations": ["University of Toronto"],
+      "email": "aidan@cs.toronto.edu"
+    },
+    {
+      "name": "Łukasz Kaiser",
+      "affiliations": ["Google Brain"],
+      "email": "lukaszkaiser@google.com"
+    },
+    {
+      "name": "Illia Polosukhin",
+      "affiliations": ["NA"],
+      "email": "illia.polosukhin@gmail.com"
+    }
+  ]
+}
+
+```

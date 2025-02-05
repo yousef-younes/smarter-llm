@@ -1,0 +1,27 @@
+ ```json
+    {
+      "title": "A Simple Pairwise Sigmoid Loss for Language-Image Pre-Training (SigLIP)",
+      "authors": [
+        {
+          "name": "Xiaohua Zhai",
+          "affiliations": ["Google DeepMind, Zurich, Switzerland"],
+          "email": "[xzhai@google.com](mailto:xzhai@google.com)"
+        },
+        {
+          "name": "Basil Mustafa",
+          "affiliations": ["Google DeepMind, Zurich, Switzerland"],
+          "email": "[basilm@google.com](mailto:basilm@google.com)"
+        },
+        {
+          "name": "Alexander Kolesnikov",
+          "affiliations": ["Google DeepMind, Zurich, Switzerland"],
+          "email": "[akolesnikov@google.com](mailto:akolesnikov@google.com)"
+        },
+        {
+          "name": "Lucas Beyer",
+          "affiliations": ["Google DeepMind, Zurich, Switzerland"],
+          "email": "[lbeyer@google.com](mailto:lbeyer@google.com)"
+        }
+      ]
+    }
+   ```

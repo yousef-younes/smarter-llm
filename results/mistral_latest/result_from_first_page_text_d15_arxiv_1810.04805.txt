@@ -1,0 +1,27 @@
+ ```json
+   {
+     "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+     "authors": [
+       {
+         "name": "Jacob Devlin",
+         "affiliations": ["Google AI Language"],
+         "email": "jacobdevlin@google.com"
+       },
+       {
+         "name": "Ming-Wei Chang",
+         "affiliations": ["Google AI Language"],
+         "email": "mingweichang@google.com"
+       },
+       {
+         "name": "Kenton Lee",
+         "affiliations": ["Google AI Language"],
+         "email": "kentonl@google.com"
+       },
+       {
+         "name": "Kristina Toutanova",
+         "affiliations": ["Google AI Language"],
+         "email": "kristout@google.com"
+       }
+     ]
+   }
+   ```

@@ -1,0 +1,85 @@
+ {
+     "title": "PaLI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",
+     "authors": [
+       {
+         "name": "Xiao Wang⋆",
+         "affiliations": ["Google Research"],
+         "email": "NA"
+       },
+       {
+         "name": "Lucas Beyer⋆",
+         "affiliations": ["Google DeepMind"],
+         "email": "NA"
+       },
+       {
+         "name": "Xi Chen⋆",
+         "affiliations": ["Google Research"],
+         "email": "NA"
+       },
+       {
+         "name": "Paul Voigtlaender",
+         "affiliations": ["Basil Mustafa2"],
+         "email": "NA"
+       },
+       {
+         "name": "Basil Mustafa",
+         "affiliations": ["Google Research"],
+         "email": "NA"
+       },
+       {
+                   "name": "Piotr Padlewski2",
+          "affiliations": ["Google DeepMind"],
+          "email": "NA"
+       },
+       {
+                   "name": "Daniel Salz1",
+          "affiliations": ["Xi Xiong3"],
+          "email": "NA"
+       },
+       {
+                   "name": "Daniel Vlasic3",
+          "affiliations": ["Google Cloud"],
+          "email": "NA"
+       },
+       {
+                   "name": "Keran Rong2",
+          "affiliations": ["Google DeepMind"],
+          "email": "NA"
+       },
+       {
+                   "name": "Tianli Yu3",
+          "affiliations": ["Google Cloud"],
+          "email": "NA"
+       },
+       {
+                   "name": "Daniel Keysers2",
+          "affiliations": ["Xiaohua Zhai⋆†", "Google DeepMind"],
+          "email": "NA"
+       },
+       {
+                   "name": "Xiaohua Zhai⋆†",
+          "affiliations": ["Xi Xiong3"],
+          "email": "NA"
+       },
+       {
+                   "name": "Alexander Kolesnikov2",
+          "affiliations": ["Google DeepMind"],
+          "email": "NA"
+       },
+       {
+                   "name": "Sebastian Goodman1",
+          "affiliations": ["Jialin Wu1"],
+          "email": "NA"
+       },
+       {
+                   "name": "Ibrahim Alabdulghani",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+       },
+       {
+                   "name": "Jialin Wu1",
+          "affiliations": ["Sebastian Goodman1"],
+          "email": "NA"
+       }
+     ]
+   }

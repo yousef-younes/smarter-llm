@@ -1,0 +1,15 @@
+ {
+     "title": "On the Measure of Intelligence",
+     "authors": [
+       {
+         "name": "Franc¸ois Chollet",
+         "affiliations": ["Google, Inc."],
+         "email": "fchollet@google.com"
+       },
+       {
+         "name": "NA",
+         "affiliations": [],
+         "email": "NA"
+       }
+     ]
+   }

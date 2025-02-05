@@ -1,0 +1,22 @@
+```json
+    {
+      "title": "In Defense of the Triplet Loss for Person Re-Identiﬁcation",
+      "authors": [
+        {
+          "name": "Alexander Hermans",
+          "affiliations": ["Visual Computing Institute", "RWTH Aachen University"],
+          "email": "last@vision.rwth-aachen.org"
+        },
+        {
+          "name": "Lucas Beyer",
+          "affiliations": ["Visual Computing Institute", "RWTH Aachen University"],
+          "email": "NA"
+        },
+        {
+          "name": "Bastian Leibe",
+          "affiliations": ["Visual Computing Institute", "RWTH Aachen University"],
+          "email": "NA"
+        }
+      ]
+    }
+```

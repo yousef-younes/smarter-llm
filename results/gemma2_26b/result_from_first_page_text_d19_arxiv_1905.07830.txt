@@ -1,0 +1,32 @@
+```json
+{
+  "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+  "authors": [
+    {
+      "name": "Rowan Zellers",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Ari Holtzman",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Yonatan Bisk",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Ali Farhadi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    }
+  ]
+}
+```

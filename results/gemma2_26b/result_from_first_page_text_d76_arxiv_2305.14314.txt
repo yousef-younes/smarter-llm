@@ -1,0 +1,27 @@
+```json
+{
+  "title": "QLORA: Efficient Finetuning of Quantized LLMs",
+  "authors": [
+    {
+      "name": "Tim Dettmers",
+      "affiliations": ["University of Washington"],
+      "email": "dettmers@cs.washington.edu"
+    },
+    {
+      "name": "Artidoro Pagnoni",
+      "affiliations": ["University of Washington"],
+      "email": "artidoro@cs.washington.edu"
+    },
+    {
+      "name": "Ari Holtzman",
+      "affiliations": ["University of Washington"],
+      "email": "ahai@cs.washington.edu"
+    },
+    {
+      "name": "Luke Zettlemoyer",
+      "affiliations": ["University of Washington"],
+      "email": "lsz@cs.washington.edu"
+    }
+  ]
+}
+```

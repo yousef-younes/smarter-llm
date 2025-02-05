@@ -1,0 +1,181 @@
+```json
+{
+  "title": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models",
+  "authors": [
+    {
+      "name": "Aarohi Srivastava",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Abhinav Rastogi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Abhishek Rao",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Abu Awal Md Shoeb",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Abubakar Abid",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Adam Fisch",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Adam R. Brown",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Adam Santoro",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Aditya Gupta",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Adrià Garriga-Alonso",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Agnieszka Kluska",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Aitor Lewkowycz",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Akshat Agarwal",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Alethea Power",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Alex Ray",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Alex Warstadt",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexander W. Kocurek",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ali Safaya",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ali Tazarv",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Alice Xiang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Alicia Parrish",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Allen Nie",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Aman Hussain",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Amanda Askell",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Amanda S. Casari",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Andy Shih",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+
+    {
+      "name": "Ari Stern",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+
+    {
+      "name": "Ben L. Blum-Smith",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    
+    {
+      "name": "Blake Richards",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+
+    {
+      "name": "Brian Lester",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+  
+    {
+      "name": "Catherine Olsson",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+
+   {
+      "name": "Chris H. Lin",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+  
+    {
+      "name": "Connor Leahy",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+
+   
+  ]
+}
+```

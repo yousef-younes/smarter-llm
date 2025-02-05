@@ -1,0 +1,37 @@
+ ```json
+   {
+     "title": "A Comparative Study on Cost-Efficient Strategies for Multilingual Instruction Tuning in Foundational Large Language Models",
+     "authors": [
+       {
+         "name": "Pinzhen Chen",
+         "affiliations": ["University of Edinburgh"],
+         "email": "pchen3@ed.ac.uk"
+       },
+       {
+         "name": "Shaoxiong Ji",
+         "affiliations": ["University of Helsinki"],
+         "email": "shaoxiong.ji@helsinki.fi"
+       },
+       {
+         "name": "Andrey Kutuzov",
+         "affiliations": ["University of Oslo"],
+         "email": "NA"
+       },
+       {
+         "name": "Nikolay Bogoychev",
+         "affiliations": ["University of Edinburgh"],
+         "email": "NA"
+       },
+       {
+         "name": "Barry Haddow",
+         "affiliations": ["University of Edinburgh"],
+         "email": "NA"
+       },
+       {
+         "name": "Kenneth Heafield",
+         "affiliations": ["University of Edinburgh"],
+         "email": "NA"
+       }
+     ]
+   }
+   ```

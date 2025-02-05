@@ -1,0 +1,42 @@
+```json
+{
+  "title": "COMPRESS THEN SERVE: SERVING THOUSANDS OF LORA ADAPTERS WITH LITTLE OVERHEAD",
+  "authors": [
+    {
+      "name": "Rickard Brüel Gabrielsson",
+      "affiliations": ["MIT CSAIL"],
+      "email": "NA"
+    },
+    {
+      "name": "Jiacheng Zhu",
+      "affiliations": ["MIT CSAIL"],
+      "email": "NA"
+    },
+    {
+      "name": "Onkar Bhardwaj",
+      "affiliations": ["MIT-IBM Watson AI Lab"],
+      "email": "NA"
+    },
+    {
+      "name": "Leshem Choshen",
+      "affiliations": ["MIT CSAIL", "MIT-IBM Watson AI Lab"],
+      "email": "NA"
+    },
+    {
+      "name": "Kristjan Greenewald",
+      "affiliations": ["MIT-IBM Watson AI Lab"],
+      "email": "NA"
+    },
+    {
+      "name": "Mikhail Yurochkin",
+      "affiliations": ["MIT-IBM Watson AI Lab"],
+      "email": "NA"
+    },
+    {
+      "name": "Justin Solomon",
+      "affiliations": ["MIT CSAIL"],
+      "email": "NA"
+    }
+  ]
+}
+```

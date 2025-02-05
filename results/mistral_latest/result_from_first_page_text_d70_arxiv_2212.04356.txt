@@ -1,0 +1,35 @@
+ {
+     "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+     "authors": [
+       {
+         "name": "Alec Radford",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Jong Wook Kim",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Tao Xu",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Greg Brockman",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Christine McLeavey",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Ilya Sutskever",
+         "affiliations": ["NA"],
+         "email": "NA"
+       }
+     ]
+   }

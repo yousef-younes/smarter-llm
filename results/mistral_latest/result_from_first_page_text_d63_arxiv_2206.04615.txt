@@ -1,0 +1,24 @@
+ Due to the provided context not containing a specific research paper text, I cannot extract the title or author information as requested. However, here is an example of how the expected output might look based on the structure provided:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Eleanor Hagerman",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Elizabeth Barnes",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Etc.", // Continue this pattern for each author in the context
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```

@@ -1,0 +1,37 @@
+ ```json
+   {
+     "title": "Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning",
+     "authors": [
+       {
+         "name": "Bryan Wang",
+         "affiliations": ["University of Toronto", "Toronto, ON, Canada", "bryanw@dgp.toronto.edu"],
+         "email": "NA"
+       },
+       {
+         "name": "Zhourong Chen",
+         "affiliations": ["Google Research", "Mountain View, CA, USA", "zrchen@google.com"],
+         "email": "NA"
+       },
+       {
+         "name": "Gang Li",
+         "affiliations": ["Google Research", "Mountain View, CA, USA", "leebird@google.com"],
+         "email": "NA"
+       },
+       {
+         "name": "Tovi Grossman",
+         "affiliations": ["University of Toronto", "Toronto, ON, Canada", "tovi@dgp.toronto.edu"],
+         "email": "NA"
+       },
+       {
+         "name": "Xin Zhou",
+         "affiliations": ["Google Research", "Mountain View, CA, USA", "zhouxin@google.com"],
+         "email": "NA"
+       },
+       {
+         "name": "Yang Li",
+         "affiliations": ["Google Research", "Mountain View, CA, USA", "liyang@google.com"],
+         "email": "NA"
+       }
+     ]
+   }
+   ```

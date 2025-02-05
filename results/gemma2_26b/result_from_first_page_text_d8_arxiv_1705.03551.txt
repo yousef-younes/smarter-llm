@@ -1,0 +1,27 @@
+```json
+{
+  "title": "TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension",
+  "authors": [
+    {
+      "name": "Mandar Joshi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, Univ. of Washington"],
+      "email": "mandar90@cs.washington.edu"
+    },
+    {
+      "name": "Eunsol Choi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, Univ. of Washington"],
+      "email": "eunsol@cs.washington.edu"
+    },
+    {
+      "name": "Daniel S. Weld",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, Univ. of Washington"],
+      "email": "weld@cs.washington.edu"
+    },
+    {
+      "name": "Luke Zettlemoyer",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, Univ. of Washington", "Allen Institute for Artiﬁcial Intelligence"],
+      "email": "lsz@allenai.org"
+    }
+  ]
+}
+```

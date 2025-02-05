@@ -1,0 +1,25 @@
+ {
+      "title": "Crossmodal-3600: A Massively Multilingual Multimodal Evaluation Dataset",
+      "authors": [
+        {
+          "name": "Ashish V. Thapliyal",
+          "affiliations": ["Google Research"],
+          "email": "[asht@google.com](mailto:asht@google.com)"
+        },
+        {
+          "name": "Jordi Pont-Tuset",
+          "affiliations": ["Google Research"],
+          "email": "[jponttuset@google.com](mailto:jponttuset@google.com)"
+        },
+        {
+          "name": "Xi Chen",
+          "affiliations": ["Google Research"],
+          "email": "[chillxichen@google.com](mailto:chillxichen@google.com)"
+        },
+        {
+          "name": "Radu Soricut",
+          "affiliations": ["Google Research"],
+          "email": "[rsoricut@google.com](mailto:rsoricut@google.com)"
+        }
+      ]
+    }

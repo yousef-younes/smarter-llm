@@ -1,0 +1,95 @@
+ {
+      "title": "PALI: A JOINTLY-SCALED MULTILINGUAL LANGUAGE-IMAGE MODEL",
+      "authors": [
+        {
+          "name": "Xi Chen",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Xiao Wang",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Soravit Changpinyo",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "AJ Piergiovanni",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Piotr Padlewski",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Daniel Salz",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Sebastian Goodman",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Adam Grycner",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Basil Mustafa",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Lucas Beyer",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Alexander Kolesnikov",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Joan Puigcerver",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Nan Ding",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Keran Rong",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Hassan Akbari",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Gaurav Mishra",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Linting Xue",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "NA",
+          "affiliations": [],
+          "email": "NA"
+        }
+      ]
+    }

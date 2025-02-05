@@ -1,0 +1,175 @@
+ {
+      "title": "PaliGemma: A versatile 3B VLM for transfer",
+      "authors": [
+        {
+          "name": "Lucas Beyer",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Andreas Steiner",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "André Susano Pinto",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Alexander Kolesnikov",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Xiao Wang",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Daniel Salz",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Maxim Neumann",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Ibrahim Alabdulmohsin",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Michael Tschannen",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Emanuele Bugliarello",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Thomas Unterthiner",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Daniel Keysers",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Skanda Koppula",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Fangyu Liu",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Adam Grycner",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Alexey Gritsenko",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Neil Houlsby",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Manoj Kumar",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Keran Rong",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Julian Eisenschlos",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Rishabh Kabra",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Matthias Bauer",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Matko Bošnjak",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Xi Chen",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Matthias Minderer",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Paul Voigtlaender",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Ioana Bica",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Ivana Balazevic",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Joan Puigcerver",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Pinelopi Papalampidi",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Olivier Henaff",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Xi Xiong",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Radu Soricut",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Julian Schmidt",
+          "affiliations": ["NA"],
+          "email": "julian.schmidt@informatik.uni-leipzig.de"
+        }
+      ]
+      Assistant: The authors of the paper titled "An End-to-End Analysis and Comparison of Convolutional Neural Networks for Text Classification in Legal Domain" are Julian Schmidt, Julian Alabdulmohsin, Michael Tschannen, Ibrahim Alabdulmohsin, Thomas Unterthiner, Daniel Salz, Emanuele Bugliarello, and a total of 28 other authors. However, the provided list does not include all the authors mentioned in the paper. It is recommended to double-check with the original source for the complete author list.

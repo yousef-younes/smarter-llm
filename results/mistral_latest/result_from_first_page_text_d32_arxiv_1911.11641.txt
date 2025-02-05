@@ -1,0 +1,30 @@
+ {
+      "title": "PIQA: Physical Interaction: Question Answering",
+      "authors": [
+        {
+          "name": "Yonatan Bisk",
+          "affiliations": ["Allen Institute for Artificial Intelligence", "Microsoft Research AI", "Carnegie Mellon University", "Paul G. Allen School for Computer Science and Engineering, University of Washington"],
+          "email": "yonatanbisk@example.com"
+        },
+        {
+          "name": "Rowan Zellers",
+          "affiliations": ["Allen Institute for Artificial Intelligence", "Paul G. Allen School for Computer Science and Engineering, University of Washington"],
+          "email": "rowanzellers@example.com"
+        },
+        {
+          "name": "Ronan Le Bras",
+          "affiliations": ["Allen Institute for Artificial Intelligence"],
+          "email": "NA"
+        },
+        {
+          "name": "Jianfeng Gao",
+          "affiliations": ["Microsoft Research AI", "Paul G. Allen School for Computer Science and Engineering, University of Washington"],
+          "email": "NA"
+        },
+        {
+          "name": "Yejin Choi",
+          "affiliations": ["Allen Institute for Artificial Intelligence", "Paul G. Allen School for Computer Science and Engineering, University of Washington"],
+          "email": "NA"
+        }
+      ]
+    }

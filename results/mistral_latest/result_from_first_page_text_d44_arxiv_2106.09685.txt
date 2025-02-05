@@ -1,0 +1,50 @@
+ {
+     "title": "Low-Rank Adaptation of Large Language Models",
+     "authors": [
+       {
+         "name": "LORA: LOW-RANK ADAPTATION OF LARGE LAN-GUAGE MODELS",
+         "affiliations": ["Microsoft Corporation"],
+         "email": "NA"
+       },
+       {
+         "name": "Phillip Wallis",
+         "affiliations": ["Microsoft Corporation"],
+         "email": "phwallis@microsoft.com"
+       },
+       {
+         "name": "Yelong Shen∗",
+         "affiliations": ["Microsoft Corporation"],
+         "email": "NA"
+       },
+       {
+         "name": "Shean Wang",
+         "affiliations": ["Microsoft Corporation"],
+         "email": "swang@microsoft.com"
+       },
+       {
+         "name": "Edward Hu∗",
+         "affiliations": ["Microsoft Corporation"],
+         "email": "edwardhu@microsoft.com"
+       },
+       {
+         "name": "Yuanzhi Li",
+         "affiliations": ["Microsoft Corporation", "CMU"],
+         "email": "yuanzhil@andrew.cmu.edu"
+       },
+       {
+         "name": "Lu Wang",
+         "affiliations": ["Microsoft Corporation"],
+         "email": "NA"
+       },
+       {
+         "name": "Weizhu Chen",
+         "affiliations": ["Microsoft Corporation"],
+         "email": "NA"
+       },
+       {
+         "name": "Zeyuan Allen-Zhu",
+         "affiliations": ["Microsoft Corporation"],
+         "email": "NA"
+       }
+     ]
+   }

@@ -1,0 +1,32 @@
+```json
+{
+  "title": "Learning Word Vectors for 157 Languages",
+  "authors": [
+    {
+      "name": "Edouard Grave",
+      "affiliations": ["Facebook AI Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Piotr Bojanowski",
+      "affiliations": ["Facebook AI Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Prakhar Gupta",
+      "affiliations": ["Facebook AI Research", "EPFL"],
+      "email": "prakhar.gupta@epfl.ch"
+    },
+    {
+      "name": "Armand Joulin",
+      "affiliations": ["Facebook AI Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Tomas Mikolov",
+      "affiliations": ["Facebook AI Research"],
+      "email": "NA"
+    }
+  ]
+}
+```

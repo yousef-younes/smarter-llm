@@ -1,0 +1,27 @@
+```json
+{
+  "title": "Sigmoid Loss for Language Image Pre-Training",
+  "authors": [
+    {
+      "name": "Xiaohua Zhai",
+      "affiliations": ["Google DeepMind"],
+      "email": "xzhai@google.com"
+    },
+    {
+      "name": "Basil Mustafa",
+      "affiliations": ["Google DeepMind"],
+      "email": "basilm@google.com"
+    },
+    {
+      "name": "Alexander Kolesnikov",
+      "affiliations": ["Google DeepMind"],
+      "email": "akolesnikov@google.com"
+    },
+    {
+      "name": "Lucas Beyer",
+      "affiliations": ["Google DeepMind"],
+      "email": "lbeyer@google.com"
+    }
+  ]
+}
+```

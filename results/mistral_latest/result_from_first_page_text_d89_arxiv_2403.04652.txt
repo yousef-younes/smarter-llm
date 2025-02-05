@@ -1,0 +1,15 @@
+ {
+     "title": "Introduction of Yi Model Family",
+     "authors": [
+       {
+         "name": "NA",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Yi",
+         "affiliations": ["01.AI"],
+         "email": "NA"
+       }
+     ]
+   }

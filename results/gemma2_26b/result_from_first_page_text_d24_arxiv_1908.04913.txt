@@ -1,0 +1,17 @@
+```json
+{
+  "title": "FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age",
+  "authors": [
+    {
+      "name": "Kimmo K¨arkk¨ainen",
+      "affiliations": ["UCLA"],
+      "email": "kimmo@cs.ucla.edu"
+    },
+    {
+      "name": "Jungseock Joo",
+      "affiliations": ["UCLA"],
+      "email": "jjoo@comm.ucla.edu"
+    }
+  ]
+}
+```

@@ -1,0 +1,32 @@
+```json
+{
+  "title": "Modeling Context in Referring Expressions",
+  "authors": [
+    {
+      "name": "Licheng Yu",
+      "affiliations": ["Department of Computer Science, University of North Carolina at Chapel Hill"],
+      "email": "NA"
+    },
+    {
+      "name": "Patrick Poirson",
+      "affiliations": ["Department of Computer Science, University of North Carolina at Chapel Hill"],
+      "email": "NA"
+    },
+    {
+      "name": "Shan Yang",
+      "affiliations": ["Department of Computer Science, University of North Carolina at Chapel Hill"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexander C. Berg",
+      "affiliations": ["Department of Computer Science, University of North Carolina at Chapel Hill"],
+      "email": "NA"
+    },
+    {
+      "name": "Tamara L. Berg",
+      "affiliations": ["Department of Computer Science, University of North Carolina at Chapel Hill"],
+      "email": "NA"
+    }
+  ]
+}
+```

@@ -1,0 +1,47 @@
+```json
+{
+  "title": "Scene Text Visual Question Answering",
+  "authors": [
+    {
+      "name": "Ali Furkan Biten",
+      "affiliations": ["Computer Vision Center, UAB, Spain"],
+      "email": "NA"
+    },
+    {
+      "name": "Rubén Tito",
+      "affiliations": ["Computer Vision Center, UAB, Spain"],
+      "email": "NA"
+    },
+    {
+      "name": "Andres Maﬂa",
+      "affiliations": ["Computer Vision Center, UAB, Spain"],
+      "email": "NA"
+    },
+    {
+      "name": "Lluis Gomez",
+      "affiliations": ["Computer Vision Center, UAB, Spain"],
+      "email": "NA"
+    },
+    {
+      "name": "Marc¸al Rusi˜nol",
+      "affiliations": ["Computer Vision Center, UAB, Spain"],
+      "email": "NA"
+    },
+    {
+      "name": "Ernest Valveny",
+      "affiliations": ["Computer Vision Center, UAB, Spain"],
+      "email": "NA"
+    },
+    {
+      "name": "C.V. Jawahar",
+      "affiliations": ["CVIT, IIIT Hyderabad, India"],
+      "email": "NA"
+    },
+    {
+      "name": "Dimosthenis Karatzas",
+      "affiliations": ["Computer Vision Center, UAB, Spain"],
+      "email": "NA"
+    }
+  ]
+}
+```

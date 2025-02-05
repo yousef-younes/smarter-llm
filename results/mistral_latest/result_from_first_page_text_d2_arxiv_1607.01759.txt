@@ -1,0 +1,25 @@
+ {
+      "title": "Bag of Tricks for Efficient Text Classification",
+      "authors": [
+        {
+          "name": "Armand Joulin",
+          "affiliations": ["Facebook AI Research"],
+          "email": "ajoulin@fb.com"
+        },
+        {
+          "name": "Edouard Grave",
+          "affiliations": ["Facebook AI Research"],
+          "email": "egrave@fb.com"
+        },
+        {
+          "name": "Piotr Bojanowski",
+          "affiliations": ["Facebook AI Research"],
+          "email": "bojanowski@fb.com"
+        },
+        {
+          "name": "Tomas Mikolov",
+          "affiliations": ["Facebook AI Research"],
+          "email": "tmikolov@fb.com"
+        }
+      ]
+    }

@@ -1,0 +1,32 @@
+```json
+{
+  "title": "REALTOXICITYPROMPTS: Evaluating Neural Toxic Degeneration in Language Models",
+  "authors": [
+    {
+      "name": "Samuel Gehman",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Suchin Gururangan",
+      "affiliations": ["Allen Institute for Artiﬁcial Intelligence", "Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Maarten Sap",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Noah A. Smith",
+      "affiliations": ["Allen Institute for Artiﬁcial Intelligence", "Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+      "email": "NA"
+    }
+  ]
+}
+```

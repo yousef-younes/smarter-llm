@@ -1,0 +1,30 @@
+ {
+      "title": "Evaluating Neural Toxic Degeneration in Language Models",
+      "authors": [
+        {
+          "name": "Samuel Gehman",
+          "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+          "email": "sgehman@cs.washington.edu"
+        },
+        {
+          "name": "Suchin Gururangan",
+          "affiliations": ["Allen Institute for Artiﬁcial Intelligence", "Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+          "email": "sg01@cs.washington.edu"
+        },
+        {
+          "name": "Maarten Sap",
+          "affiliations": ["Allen Institute for Artiﬁcial Intelligence", "Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+          "email": "msap@cs.washington.edu"
+        },
+        {
+          "name": "Yejin Choi",
+          "affiliations": ["Allen Institute for Artiﬁcial Intelligence", "Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+          "email": "yejin@cs.washington.edu"
+        },
+        {
+          "name": "Noah A. Smith",
+          "affiliations": ["Allen Institute for Artiﬁcial Intelligence", "Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+          "email": "nasmith@cs.washington.edu"
+        }
+      ]
+    }
