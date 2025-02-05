@@ -1,0 +1,118 @@
+```json
+{
+  "title": "Codex: A General-Purpose Code Generation Model",
+  "authors": [
+    {
+      "name": "Mark Chen",
+      "affiliations": ["OpenAI"],
+      "email": "mark@openai.com"
+    },
+    {
+      "name": "Jerry Tworek",
+      "affiliations": ["OpenAI"],
+      "email": "jt@openai.com"
+    },
+    {
+      "name": "Heewoo Jun",
+      "affiliations": ["OpenAI"],
+      "email": "hee-woo@openai.com"
+    },
+    {
+      "name": "Qiming Yuan",
+      "affiliations": ["OpenAI"],
+      "email": "qiming@openai.com"
+    },
+    {
+      "name": "Henrique Ponde de Oliveira Pinto",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Jared Kaplan",
+      "affiliations": ["Anthropic AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Harri Edwards",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Yuri Burda",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Nicholas Joseph",
+      "affiliations": ["Anthropic AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Greg Brockman",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Alex Ray",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Raul Puri",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Gretchen Krueger",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Petrov",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Heidy Khlaaf",
+      "affiliations": ["Zipline"],
+      "email": "NA"
+    },
+    {
+      "name": "Girish Sastry",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Pamela Mishkin",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Brooke Chan",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Scott Gray",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexandr Andoni",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Ilya Sutskever",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Wojciech Zaremba",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    }
+
+  ]
+}
+```

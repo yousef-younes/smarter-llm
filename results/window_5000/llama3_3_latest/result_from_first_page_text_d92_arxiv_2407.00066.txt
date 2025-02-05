@@ -1,0 +1,46 @@
+Based on the provided context, I'll extract the metadata from the academic paper. Here's the extracted information in JSON format:
+
+```json
+{
+  "title": "COMPRESS THEN SERVE: SERVING THOUSANDS OF LORA ADAPTERS WITH LITTLE OVERHEAD",
+  "authors": [
+    {
+      "name": "Rickard Brüel Gabrielsson",
+      "affiliations": ["MIT CSAIL"],
+      "email": "NA"
+    },
+    {
+      "name": "Jiacheng Zhu",
+      "affiliations": ["MIT CSAIL"],
+      "email": "NA"
+    },
+    {
+      "name": "Onkar Bhardwaj",
+      "affiliations": ["MIT-IBM Watson AI Lab"],
+      "email": "NA"
+    },
+    {
+      "name": "Leshem Choshen",
+      "affiliations": ["MIT CSAIL", "MIT-IBM Watson AI Lab"],
+      "email": "NA"
+    },
+    {
+      "name": "Kristjan Greenewald",
+      "affiliations": ["MIT-IBM Watson AI Lab"],
+      "email": "NA"
+    },
+    {
+      "name": "Mikhail Yurochkin",
+      "affiliations": ["MIT-IBM Watson AI Lab"],
+      "email": "NA"
+    },
+    {
+      "name": "Justin Solomon",
+      "affiliations": ["MIT CSAIL"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that the email addresses are not provided in the given context, so I've filled them with "NA" as per the constraints. Also, the affiliations are correctly mapped to the corresponding authors based on the superscript numbers in the author list.

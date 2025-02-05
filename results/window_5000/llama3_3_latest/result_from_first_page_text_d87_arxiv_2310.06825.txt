@@ -1,0 +1,18 @@
+Based on the provided context, I will attempt to extract the required metadata. However, please note that the context does not explicitly mention author names, affiliations, or email addresses.
+
+Here is the extracted metadata in the expected JSON format:
+
+```json
+{
+  "title": "Mistral 7B",
+  "authors": [
+    {
+      "name": "NA",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Since the context does not provide any information about the authors, I have filled in "NA" for all fields. If more information were available, I would be happy to try and extract it.

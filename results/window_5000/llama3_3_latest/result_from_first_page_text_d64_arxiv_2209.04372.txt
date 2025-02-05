@@ -1,0 +1,26 @@
+Based on the provided context, here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "Pre-training approach for vision and language transformer models",
+  "authors": [
+    {
+      "name": "AJ Piergiovanni",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Weicheng Kuo",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Anelia Angelova",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that the title is not explicitly mentioned in the provided context, but it can be inferred from the abstract section. Also, the email addresses are not provided in the context, so they are returned as "NA".

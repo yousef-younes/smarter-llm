@@ -1,0 +1,41 @@
+Here is the extracted metadata in the required JSON format:
+
+```json
+{
+  "title": "Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning",
+  "authors": [
+    {
+      "name": "Bryan Wang",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Gang Li",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xin Zhou",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Zhourong Chen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tovi Grossman",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yang Li",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note: The affiliation for Bryan Wang is listed as "Google Research" because the text mentions that "This work was completed while the author was an intern at Google Research." However, it does not explicitly state the affiliations for the other authors. Similarly, email addresses are not provided for any of the authors in the given context.

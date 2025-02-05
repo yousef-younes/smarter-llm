@@ -1,0 +1,27 @@
+```json
+{
+  "title": "Goldfish: Monolingual Language Models for 350 Languages",
+  "authors": [
+    {
+      "name": "Tyler A. Chang",
+      "affiliations": ["Department of Cognitive Science", "Halıcıoğlu Data Science Institute"],
+      "email": "tachang@ucsd.edu"
+    },
+    {
+      "name": "Catherine Arnett",
+      "affiliations": ["Department of Linguistics"],
+      "email": "ccarnett@ucsd.edu"
+    },
+    {
+      "name": "Zhuowen Tu",
+      "affiliations": ["Department of Cognitive Science"],
+      "email": "ztu@ucsd.edu"
+    },
+    {
+      "name": "Benjamin K. Bergen",
+      "affiliations": ["Department of Cognitive Science"],
+      "email": "bkbergen@ucsd.edu"
+    }
+  ]
+}
+```

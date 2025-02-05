@@ -1,0 +1,379 @@
+Here is the extracted metadata in the requested JSON format:
+
+```json
+{
+  "title": "PaliGemma: A versatile 3B VLM for transfer",
+  "authors": [
+    {
+      "name": "Lucas Beyer",
+      "affiliations": ["Google DeepMind"],
+      "email": "lbeyer@google.com"
+    },
+    {
+      "name": "Andreas Steiner",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "André Susano Pinto",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexander Kolesnikov",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiao Wang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Salz",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Maxim Neumann",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ibrahim Alabdulmohsin",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Tschannen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Emanuele Bugliarello",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Thomas Unterthiner",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Keysers",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Skanda Koppula",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Fangyu Liu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Adam Grycner",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexey Gritsenko",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Neil Houlsby",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Manoj Kumar",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Keran Rong",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Julian Eisenschlos",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Rishabh Kabra",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Bauer",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matko Bošnjak",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Wang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xia Wang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiao Xiao",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Matthias",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Xi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xia Xia",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Wang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Bošnjak",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiao Liu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Kumar",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Houlsby",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiao Unterthiner",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matko Keysers",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Gritsenko",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xia Grycner",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Koppula",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Liu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiao Tschannen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matko Bugliarello",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Salz",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiao Neumann",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Alabdulmohsin",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Steiner",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xia Pinto",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matko Kolesnikov",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Wang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiao Beyer",
+      "affiliations": ["Google DeepMind"],
+      "email": "lbeyer@google.com"
+    },
+    {
+      "name": "Xia Xiao",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Xi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Xia",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiao Matthias",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matko Xi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Bošnjak",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xia Liu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Kumar",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Houlsby",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiao Unterthiner",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matko Keysers",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Gritsenko",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xia Grycner",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Koppula",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Liu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiao Tschannen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matko Bugliarello",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Salz",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiao Neumann",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Alabdulmohsin",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Steiner",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xia Pinto",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matko Kolesnikov",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Wang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```

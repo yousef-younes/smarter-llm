@@ -1,0 +1,37 @@
+```json
+{
+  "title": "Monolingual or Multilingual Instruction Tuning: Which Makes a Better Alpaca",
+  "authors": [
+    {
+      "name": "Pinzhen Chen",
+      "affiliations": ["University of Edinburgh"],
+      "email": "pchen3@ed.ac.uk"
+    },
+    {
+      "name": "Andrey Kutuzov",
+      "affiliations": ["University of Oslo"],
+      "email": "NA"
+    },
+    {
+      "name": "Shaoxiong Ji",
+      "affiliations": ["University of Helsinki"],
+      "email": "shaoxiong.ji@helsinki.fi"
+    },
+    {
+      "name": "Barry Haddow",
+      "affiliations": ["University of Edinburgh"],
+      "email": "NA"
+    },
+    {
+      "name": "Nikolay Bogoychev",
+      "affiliations": ["University of Edinburgh"],
+      "email": "NA"
+    },
+    {
+      "name": "Kenneth Heafield",
+      "affiliations": ["University of Edinburgh"],
+      "email": "NA"
+    }
+  ]
+}
+```

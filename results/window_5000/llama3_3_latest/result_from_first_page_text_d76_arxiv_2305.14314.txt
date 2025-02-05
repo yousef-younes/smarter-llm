@@ -1,0 +1,40 @@
+To extract the required metadata from the provided academic paper context, we'll follow the guidelines and constraints given. Here's how the information can be extracted and formatted into the requested JSON structure:
+
+1. **Title Extraction**: The title of the paper is "QLORA: Efficient Finetuning of Quantized LLMs".
+
+2. **Author Information Extraction**:
+   - **Name**: There are four authors mentioned: Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, and Luke Zettlemoyer.
+   - **Affiliation(s)**: All authors are affiliated with the University of Washington.
+   - **Email address**: Email addresses for the authors are provided as {dettmers, artidoro, ahai, lsz}@cs.washington.edu, which correspond to Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, and Luke Zettlemoyer, respectively.
+
+Given these details, the structured JSON output would be:
+
+```json
+{
+  "title": "QLORA: Efficient Finetuning of Quantized LLMs",
+  "authors": [
+    {
+      "name": "Tim Dettmers",
+      "affiliations": ["University of Washington"],
+      "email": "dettmers@cs.washington.edu"
+    },
+    {
+      "name": "Artidoro Pagnoni",
+      "affiliations": ["University of Washington"],
+      "email": "artidoro@cs.washington.edu"
+    },
+    {
+      "name": "Ari Holtzman",
+      "affiliations": ["University of Washington"],
+      "email": "ahai@cs.washington.edu"
+    },
+    {
+      "name": "Luke Zettlemoyer",
+      "affiliations": ["University of Washington"],
+      "email": "lsz@cs.washington.edu"
+    }
+  ]
+}
+```
+
+This output adheres to the specified format, correctly mapping affiliations and email addresses to each author, with no missing information.

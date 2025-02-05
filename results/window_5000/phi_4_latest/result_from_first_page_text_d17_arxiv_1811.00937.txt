@@ -1,0 +1,52 @@
+Based on the provided context from the academic paper, here's how we can structure the extracted metadata in the required JSON format:
+
+```json
+{
+  "title": "COMMONSENSEQA: A Question Answering Challenge Targeting Commonsense Knowledge",
+  "authors": [
+    {
+      "name": "Alon Talmor",
+      "affiliations": ["School of Computer Science, Tel-Aviv University", "Allen Institute for Artificial Intelligence"],
+      "email": "alontalmor@mail.tau.ac.il"
+    },
+    {
+      "name": "Jonathan Herzig",
+      "affiliations": ["School of Computer Science, Tel-Aviv University"],
+      "email": "jonathan.herzig@cs.tau.ac.il"
+    },
+    {
+      "name": "Nicholas Lourie",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "nicholasl@allenai.org"
+    },
+    {
+      "name": "Jonathan Berant",
+      "affiliations": ["School of Computer Science, Tel-Aviv University", "Allen Institute for Artificial Intelligence"],
+      "email": "joberant@cs.tau.ac.il"
+    }
+  ]
+}
+```
+
+### Explanation:
+
+- **Title**: Extracted directly from the paper's title.
+  
+- **Authors**:
+  - **Alon Talmor**: 
+    - Affiliations: Both listed affiliations are included.
+    - Email: Derived from the context provided.
+
+  - **Jonathan Herzig**:
+    - Affiliation: Listed as part of Tel-Aviv University.
+    - Email: Extracted from the context.
+
+  - **Nicholas Lourie**:
+    - Affiliation: Associated with the Allen Institute for Artificial Intelligence.
+    - Email: Extracted from the context.
+
+  - **Jonathan Berant**:
+    - Affiliations: Both listed affiliations are included.
+    - Email: Derived from the context provided.
+
+- For any missing information, "NA" would be used if applicable. However, in this case, all required details were available within the provided text.

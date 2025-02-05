@@ -1,0 +1,12 @@
+```json
+{
+  "title": "On the Measure of Intelligence",
+  "authors": [
+    {
+      "name": "Fran\u00e7ois Chollet",
+      "affiliations": ["Google, Inc."],
+      "email": "fchollet@google.com"
+    }
+  ]
+}
+```

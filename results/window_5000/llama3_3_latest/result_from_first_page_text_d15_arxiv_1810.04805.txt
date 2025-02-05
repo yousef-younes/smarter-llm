@@ -1,0 +1,31 @@
+Based on the provided context, I will extract the metadata from the academic paper. Here is the extracted information in JSON format:
+
+```json
+{
+  "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+  "authors": [
+    {
+      "name": "Jacob Devlin",
+      "affiliations": ["Google AI Language"],
+      "email": "jacobdevlin@google.com"
+    },
+    {
+      "name": "Ming-Wei Chang",
+      "affiliations": ["Google AI Language"],
+      "email": "mingweichang@google.com"
+    },
+    {
+      "name": "Kenton Lee",
+      "affiliations": ["Google AI Language"],
+      "email": "kentonl@google.com"
+    },
+    {
+      "name": "Kristina Toutanova",
+      "affiliations": ["Google AI Language"],
+      "email": "kristout@google.com"
+    }
+  ]
+}
+```
+
+Note that I was able to extract the title, author names, affiliations, and email addresses from the provided context. If any piece of information were missing or not found, I would have returned "NA" instead of leaving it blank.

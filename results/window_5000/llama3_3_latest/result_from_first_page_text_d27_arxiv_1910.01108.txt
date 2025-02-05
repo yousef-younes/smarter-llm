@@ -1,0 +1,33 @@
+To extract the metadata as requested, we look at the provided context which appears to be the beginning of a research paper. The title of the paper is "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter" and it is authored by Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf, all of whom are affiliated with Hugging Face.
+
+Given this information, here's how we can structure the metadata in JSON format as requested:
+
+```json
+{
+  "title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+  "authors": [
+    {
+      "name": "Victor Sanh",
+      "affiliations": ["Hugging Face"],
+      "email": "victor@huggingface.co"
+    },
+    {
+      "name": "Lysandre Debut",
+      "affiliations": ["Hugging Face"],
+      "email": "lysandre@huggingface.co"
+    },
+    {
+      "name": "Julien Chaumond",
+      "affiliations": ["Hugging Face"],
+      "email": "julien@huggingface.co"
+    },
+    {
+      "name": "Thomas Wolf",
+      "affiliations": ["Hugging Face"],
+      "email": "thomas@huggingface.co"
+    }
+  ]
+}
+```
+
+This JSON object includes the title of the paper and details about each author, including their name, affiliation (which is Hugging Face for all authors), and email address. The email addresses are directly taken from the provided context where it mentions "{victor,lysandre,julien,thomas}@huggingface.co".

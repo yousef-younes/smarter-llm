@@ -1,0 +1,45 @@
+To accomplish this task, we need to carefully read through the provided context and identify the title of the paper and the details of its authors.
+
+Upon reviewing the given text, we notice that the title of the paper is mentioned as "Robust Speech Recognition via Large-Scale Weak Supervision." The authors listed are Alec Radford, Jong Wook Kim, Tao Xu, Greg Brockman, Christine McLeavey, and Ilya Sutskever. However, their affiliations and email addresses are not provided in the given context.
+
+Given these details, we can construct the JSON output as follows:
+
+```json
+{
+  "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+  "authors": [
+    {
+      "name": "Alec Radford",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jong Wook Kim",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tao Xu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Greg Brockman",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Christine McLeavey",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ilya Sutskever",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+This JSON output reflects the extracted title and author information from the given research paper context, adhering to the specified constraints and format requirements.

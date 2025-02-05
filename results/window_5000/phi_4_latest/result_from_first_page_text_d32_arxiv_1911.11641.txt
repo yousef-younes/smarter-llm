@@ -1,0 +1,41 @@
+```json
+{
+  "title": "PIQA: Reasoning about Physical Commonsense in Natural Language",
+  "authors": [
+    {
+      "name": "Yonatan Bisk",
+      "affiliations": ["Allen Institute for Artificial Intelligence", "Microsoft Research AI", "Carnegie Mellon University", "Paul G. Allen School for Computer Science and Engineering, University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Rowan Zellers",
+      "affiliations": ["Allen Institute for Artificial Intelligence", "Paul G. Allen School for Computer Science and Engineering, University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Ronan Le Bras",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    },
+    {
+      "name": "Jianfeng Gao",
+      "affiliations": ["Microsoft Research AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Allen Institute for Artificial Intelligence", "Paul G. Allen School for Computer Science and Engineering, University of Washington"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+### Explanation:
+- **Title**: Extracted from the section before the author list.
+- **Authors**:
+  - Each author's name is listed in sequence after the title.
+  - Affiliations are mapped based on numeric identifiers following each author. For example, "1" corresponds to "Allen Institute for Artificial Intelligence".
+  - Email addresses are not provided in the context, so "NA" is used for all authors.
+
+This structured JSON output captures the required metadata from the academic paper as specified.

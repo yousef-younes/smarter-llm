@@ -1,0 +1,33 @@
+Based on the provided context, I will attempt to extract the metadata. Unfortunately, the text does not contain explicit author information, affiliations, or email addresses. However, it does mention some names in the citations.
+
+Here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Joulin",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Mikolov",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Wang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Manning",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that the title is not explicitly mentioned in the provided context, and the authors' names are only found in the citations. The affiliations and email addresses are not available in the text. Therefore, I have returned "NA" for these fields.

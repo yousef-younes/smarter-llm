@@ -1,0 +1,56 @@
+Based on the provided context, here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models",
+  "authors": [
+    {
+      "name": "Wanjun Zhong",
+      "affiliations": ["Microsoft"],
+      "email": "t-wzhong@microsoft.com"
+    },
+    {
+      "name": "Ruixiang Cui",
+      "affiliations": ["Microsoft"],
+      "email": "v-ruicui@microsoft.com"
+    },
+    {
+      "name": "Yiduo Guo",
+      "affiliations": ["Microsoft"],
+      "email": "NA"
+    },
+    {
+      "name": "Yaobo Liang",
+      "affiliations": ["Microsoft"],
+      "email": "yaobo.liang@microsoft.com"
+    },
+    {
+      "name": "Shuai Lu",
+      "affiliations": ["Microsoft"],
+      "email": "shuailu@microsoft.com"
+    },
+    {
+      "name": "Yanlin Wang",
+      "affiliations": ["Microsoft"],
+      "email": "yanlwang@microsoft.com"
+    },
+    {
+      "name": "Amin Saied",
+      "affiliations": ["Microsoft"],
+      "email": "amin.saied@microsoft.com"
+    },
+    {
+      "name": "Weizhu Chen",
+      "affiliations": ["Microsoft"],
+      "email": "wzchen@microsoft.com"
+    },
+    {
+      "name": "Nan Duan",
+      "affiliations": ["Microsoft"],
+      "email": "nanduan@microsoft.com"
+    }
+  ]
+}
+```
+
+This JSON output includes the paper's title and details for each author, including their name, affiliation(s), and email address. If an email is not provided in the context, it is marked as "NA".

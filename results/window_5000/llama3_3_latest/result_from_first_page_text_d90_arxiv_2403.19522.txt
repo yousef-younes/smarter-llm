@@ -1,0 +1,30 @@
+To address the task of extracting metadata from the provided academic paper context, we will follow the specified format for output. Given that some details such as email addresses are not mentioned in the context, they will be marked as "NA" according to the instructions.
+
+```json
+{
+  "title": "Model Stock",
+  "authors": [
+    {
+      "name": "Jang et al.",
+      "affiliations": ["NAVER AI Lab"],
+      "email": "NA"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "affiliations": ["NAVER AI Lab"],
+      "email": "NA"
+    },
+    {
+      "name": "Dongyoon Han",
+      "affiliations": ["NAVER AI Lab"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+This extraction focuses on the information directly available in the context:
+- The title is inferred as "Model Stock" based on the content.
+- Authors mentioned include Jang et al. (implying a group of authors but not specifying each), and specifically Sangdoo Yun and Dongyoon Han, who are noted for correspondence.
+- Affiliations are primarily tied to NAVER AI Lab, as indicated by the context.
+- Email addresses are not provided in the context, so they are marked as "NA".

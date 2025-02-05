@@ -1,0 +1,34 @@
+ Based on the provided context, I cannot directly extract the title or author information as there is no research paper text provided for analysis. However, I can provide an example of how to structure the output if we had the necessary data.
+
+```json
+{
+  "title": "Modeling Context in Referring Expressions",
+  "authors": [
+    {
+      "name": "Licheng Yu",
+      "affiliations": ["Department of Computer Science, University of North Carolina at Chapel Hill"],
+      "email": "licheny@unc.edu"
+    },
+    {
+      "name": "Patrick Poirson",
+      "affiliations": ["Department of Computer Science, University of North Carolina at Chapel Hill"],
+      "email": "poirson@cs.unc.edu"
+    },
+    {
+      "name": "Shan Yang",
+      "affiliations": ["Department of Computer Science, University of North Carolina at Chapel Hill"],
+      "email": "shanyang@cs.unc.edu"
+    },
+    {
+      "name": "Alexander C. Berg",
+      "affiliations": ["Department of Computer Science, University of North Carolina at Chapel Hill"],
+      "email": "aberg@cs.unc.edu"
+    },
+    {
+      "name": "Tamara L. Berg",
+      "affiliations": ["Department of Computer Science, University of North Carolina at Chapel Hill"],
+      "email": "tlberg@cs.unc.edu"
+    }
+  ]
+}
+```

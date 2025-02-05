@@ -1,0 +1,37 @@
+Based on the provided context, here's how we can structure the metadata extraction in JSON format:
+
+```json
+{
+  "title": "Gender Bias in Coreference Resolution",
+  "authors": [
+    {
+      "name": "Rachel Rudinger",
+      "affiliations": ["Johns Hopkins University"],
+      "email": "NA"
+    },
+    {
+      "name": "Jason Naradowsky",
+      "affiliations": ["Johns Hopkins University"],
+      "email": "NA"
+    },
+    {
+      "name": "Brian Leonard",
+      "affiliations": ["Johns Hopkins University"],
+      "email": "NA"
+    },
+    {
+      "name": "Benjamin Van Durme",
+      "affiliations": ["Johns Hopkins University"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+### Explanation:
+
+- **Title**: Extracted directly as "Gender Bias in Coreference Resolution".
+- **Authors and Affiliations**: All authors are listed under the affiliation "Johns Hopkins University".
+- **Email Addresses**: Not provided in the context, so marked as "NA". 
+
+This structure follows the constraints and format specified.

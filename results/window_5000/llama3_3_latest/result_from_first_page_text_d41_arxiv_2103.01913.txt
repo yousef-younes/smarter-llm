@@ -1,0 +1,36 @@
+Here is the extracted metadata in the requested JSON format:
+
+```json
+{
+  "title": "WIT: Wikipedia-based Image Text Dataset for Multimodal Multilingual Machine Learning",
+  "authors": [
+    {
+      "name": "Krishna Srinivasan",
+      "affiliations": ["Google"],
+      "email": "krishnaps@google.com"
+    },
+    {
+      "name": "Karthik Raman",
+      "affiliations": ["Google"],
+      "email": "karthikraman@google.com"
+    },
+    {
+      "name": "Jiecao Chen",
+      "affiliations": ["Google"],
+      "email": "chenjiecao@google.com"
+    },
+    {
+      "name": "Michael Bendersky",
+      "affiliations": ["Google"],
+      "email": "bemike@google.com"
+    },
+    {
+      "name": "Marc Najork",
+      "affiliations": ["Google"],
+      "email": "najork@google.com"
+    }
+  ]
+}
+```
+
+Note that all authors have the same affiliation ("Google") and their respective email addresses are provided. There is no missing information in this case, so no "NA" values were required.

@@ -1,0 +1,123 @@
+Based on the provided context, I will extract the metadata from the academic paper. Here is the extracted information in JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "LeCun et al.",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Krizhevsky et al.",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "He et al.",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Wang et al.",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Carion et al.",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Ramachandran et al.",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Mahajan et al.",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Xie et al.",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Kolesnikov et al.",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Vaswani et al.",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Devlin et al.",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Brown et al.",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Lepikhin et al.",
+      "affiliations": "NA",
+      "email": "NA"
+    }
+  ]
+}
+```
+
+However, since there is not enough information in the text about the authors of this specific paper and their affiliations, I must note that a more accurate answer would be:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "NA",
+      "affiliations": "NA",
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Or even better, considering the mention of "google-research" in the text:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "NA",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+But please note that this information is still not enough to accurately identify the authors of the paper. 
+
+Also, based on my analysis of similar papers and common authorship practices in the field, I found another possibility for title which could be: 
+
+```json
+{
+  "title": "Vision Transformer (ViT)",
+  "authors": [
+    {
+      "name": "NA",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+However, without more information about the authors and their affiliations, I must emphasize that any attempt to provide a more detailed answer would be speculative.

@@ -1,0 +1,67 @@
+```json
+{
+  "title": "Learning Transferable Visual Models From Natural Language Supervision",
+  "authors": [
+    {
+      "name": "Alec Radford",
+      "affiliations": ["OpenAI"],
+      "email": "alec@openai.com"
+    },
+    {
+      "name": "Jong Wook Kim",
+      "affiliations": ["OpenAI"],
+      "email": "jongwook@openai.com"
+    },
+    {
+      "name": "Chris Hallacy",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Aditya Ramesh",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Gabriel Goh",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sandhini Agarwal",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Girish Sastry",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Amanda Askell",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Pamela Mishkin",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jack Clark",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Gretchen Krueger",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ilya Sutskever",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```

@@ -1,0 +1,41 @@
+Here is the extracted metadata in the required JSON format:
+
+```json
+{
+  "title": "OPENCHAT: ADVANCING OPEN-SOURCE LANGUAGE MODELS WITH MIXED-QUALITY DATA",
+  "authors": [
+    {
+      "name": "Guan Wang",
+      "affiliations": ["Department of Computer Science and Technology, Tsinghua University", "Laboratory of Brain and Intelligence, Tsinghua University"],
+      "email": "imonenext@gmail.com"
+    },
+    {
+      "name": "Sijie Cheng",
+      "affiliations": ["Department of Computer Science and Technology, Tsinghua University", "Institute for AI Industry Research (AIR), Tsinghua University", "Shanghai Artificial Intelligence Laboratory 501.AI"],
+      "email": "csj23@mails.tsinghua.edu.cn"
+    },
+    {
+      "name": "Xianyuan Zhan",
+      "affiliations": ["Institute for AI Industry Research (AIR), Tsinghua University", "Shanghai Artificial Intelligence Laboratory 501.AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiangang Li",
+      "affiliations": ["Institute for AI Industry Research (AIR), Tsinghua University"],
+      "email": "NA"
+    },
+    {
+      "name": "Sen Song",
+      "affiliations": ["Laboratory of Brain and Intelligence, Tsinghua University"],
+      "email": "NA"
+    },
+    {
+      "name": "Yang Liu",
+      "affiliations": ["Department of Computer Science and Technology, Tsinghua University", "Institute for AI Industry Research (AIR), Tsinghua University", "Shanghai Artificial Intelligence Laboratory 501.AI"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note: Since the email addresses for most authors are not provided in the text, I have filled them with "NA" as per the instructions. Also, the affiliations have been carefully mapped to the corresponding authors based on the information given in the paper.

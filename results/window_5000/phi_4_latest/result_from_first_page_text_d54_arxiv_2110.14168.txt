@@ -1,0 +1,78 @@
+To extract the metadata from the provided academic paper context, we need to identify and structure the title of the paper along with details about each author, including their name, affiliations, and email address. If any information is missing, "NA" will be used.
+
+Here's how the structured JSON output should look based on the given context:
+
+```json
+{
+  "title": "Training Verifiers to Solve Math Word Problems",
+  "authors": [
+    {
+      "name": "Karl Cobbe",
+      "affiliations": ["OpenAI"],
+      "email": "karl@openai.com"
+    },
+    {
+      "name": "Vineet Kosaraju",
+      "affiliations": ["OpenAI"],
+      "email": "vineet@openai.com"
+    },
+    {
+      "name": "Mohammad Bavarian",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Mark Chen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Heewoo Jun",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Lukasz Kaiser",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Plappert",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jerry Tworek",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jacob Hilton",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Reiichiro Nakano",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Christopher Hesse",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "John Schulman",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+### Explanation:
+- **Title**: Extracted directly from the heading "Training Verifiers to Solve Math Word Problems".
+- **Authors**:
+  - Names and email addresses are explicitly listed in the context.
+  - Affiliations: Only Karl Cobbe, Vineet Kosaraju, and John Schulman have affiliations mentioned as "OpenAI". Others do not have specific affiliations provided, so they are marked as "NA".
+- If any information is missing (such as email or affiliation for some authors), it is replaced with "NA" to adhere to the constraints.

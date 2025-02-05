@@ -1,0 +1,160 @@
+To fulfill your request, I will process the provided context to extract the title and author information as per your instructions.
+
+### Extracted Information:
+
+- **Title**: Scaling Speech Technology to 1,000+ Languages
+- **Authors**:
+  - Vineel Pratap: 
+    - **Name**: Vineel Pratap
+    - **Affiliations**: Meta AI
+    - **Email**: NA
+  - Andros Tjandra: 
+    - **Name**: Andros Tjandra
+    - **Affiliations**: Meta AI
+    - **Email**: NA
+  - Bowen Shi: 
+    - **Name**: Bowen Shi
+    - **Affiliations**: Meta AI
+    - **Email**: NA
+  - Paden Tomasello: 
+    - **Name**: Paden Tomasello
+    - **Affiliations**: NA
+    - **Email**: NA
+  - Arun Babu: 
+    - **Name**: Arun Babu
+    - **Affiliations**: NA
+    - **Email**: NA
+  - Sayani Kundu: 
+    - **Name**: Sayani Kundu
+    - **Affiliations**: JPMorgan Chase, Meta AI
+    - **Email**: NA
+  - Ali Elkahky: 
+    - **Name**: Ali Elkahky
+    - **Affiliations**: Apple, Meta AI
+    - **Email**: NA
+  - Zhaoheng Ni: 
+    - **Name**: Zhaoheng Ni
+    - **Affiliations**: NA
+    - **Email**: NA
+  - Apoorv Vyas: 
+    - **Name**: Apoorv Vyas
+    - **Affiliations**: NA
+    - **Email**: NA
+  - Maryam Fazel-Zarandi: 
+    - **Name**: Maryam Fazel-Zarandi
+    - **Affiliations**: NA
+    - **Email**: NA
+  - Alexei Baevski: 
+    - **Name**: Alexei Baevski
+    - **Affiliations**: Character.AI, Meta AI
+    - **Email**: NA
+  - Yossi Adi: 
+    - **Name**: Yossi Adi
+    - **Affiliations**: Meta AI, Hebrew University of Jerusalem
+    - **Email**: NA
+  - Xiaohui Zhang: 
+    - **Name**: Xiaohui Zhang
+    - **Affiliations**: NA
+    - **Email**: NA
+  - Wei-Ning Hsu: 
+    - **Name**: Wei-Ning Hsu
+    - **Affiliations**: NA
+    - **Email**: NA
+  - Alexis Conneau: 
+    - **Name**: Alexis Conneau
+    - **Affiliations**: Open AI, Meta AI
+    - **Email**: NA
+  - Michael Auli: 
+    - **Name**: Michael Auli
+    - **Affiliations**: Meta AI
+    - **Email**: NA
+
+### JSON Output:
+
+```json
+{
+  "title": "Scaling Speech Technology to 1,000+ Languages",
+  "authors": [
+    {
+      "name": "Vineel Pratap",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Andros Tjandra",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Bowen Shi",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Paden Tomasello",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Arun Babu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sayani Kundu",
+      "affiliations": ["JPMorgan Chase", "Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Ali Elkahky",
+      "affiliations": ["Apple", "Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Zhaoheng Ni",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Apoorv Vyas",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Maryam Fazel-Zarandi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexei Baevski",
+      "affiliations": ["Character.AI", "Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Yossi Adi",
+      "affiliations": ["Meta AI", "Hebrew University of Jerusalem"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaohui Zhang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Wei-Ning Hsu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexis Conneau",
+      "affiliations": ["Open AI", "Meta AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Auli",
+      "affiliations": ["Meta AI"],
+      "email": "NA"
+    }
+  ]
+}
+```

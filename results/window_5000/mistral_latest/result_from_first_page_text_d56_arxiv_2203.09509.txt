@@ -1,0 +1,37 @@
+ ```json
+   {
+     "title": "TOXIGEN: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection",
+     "authors": [
+       {
+         "name": "Thomas Hartvigsen",
+         "affiliations": ["Massachusetts Institute of Technology"],
+         "email": "tomh@mit.edu"
+       },
+       {
+         "name": "Saadia Gabriel♥",
+         "affiliations": ["University of Washington"],
+         "email": "skgabrie@cs.washington.edu"
+       },
+       {
+         "name": "Hamid Palangi♣",
+         "affiliations": ["Microsoft Research"],
+         "email": "hpalangi@microsoft.com"
+       },
+       {
+         "name": "Maarten Sap(cid:78)(cid:77)",
+         "affiliations": ["Carnegie Mellon University", "Allen Institute for AI"],
+         "email": "maartensap@cmu.edu"
+       },
+       {
+         "name": "Dipankar Ray♦",
+         "affiliations": ["Microsoft"],
+         "email": "NA"
+       },
+       {
+         "name": "Ece Kamar♣",
+         "affiliations": ["Microsoft"],
+         "email": "NA"
+       }
+     ]
+   }
+   ```

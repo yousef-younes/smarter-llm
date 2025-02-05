@@ -1,0 +1,37 @@
+Based on the provided context from the academic paper, here is the extracted metadata in the specified JSON format:
+
+```json
+{
+  "title": "Bag of Tricks for Efficient Text Classification",
+  "authors": [
+    {
+      "name": "Armand Joulin",
+      "affiliations": ["Facebook AI Research"],
+      "email": "ajoulin@fb.com"
+    },
+    {
+      "name": "Edouard Grave",
+      "affiliations": ["Facebook AI Research"],
+      "email": "egrave@fb.com"
+    },
+    {
+      "name": "Piotr Bojanowski",
+      "affiliations": ["Facebook AI Research"],
+      "email": "bojanowski@fb.com"
+    },
+    {
+      "name": "Tomas Mikolov",
+      "affiliations": ["Facebook AI Research"],
+      "email": "tmikolov@fb.com"
+    }
+  ]
+}
+```
+
+### Explanation:
+
+- **Title**: The title of the paper is explicitly mentioned as "Bag of Tricks for Efficient Text Classification".
+- **Authors**:
+  - Each author's name, affiliation, and email are listed at the end of the abstract section.
+  - All authors share the same affiliation: "Facebook AI Research".
+  - Email addresses are provided in the format `{initials}@fb.com`. If an email was not found, it would be noted as "NA", but all emails were present.

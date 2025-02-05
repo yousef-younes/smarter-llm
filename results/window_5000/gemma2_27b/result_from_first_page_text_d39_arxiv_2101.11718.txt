@@ -1,0 +1,42 @@
+```json
+{
+  "title": "BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation",
+  "authors": [
+    {
+      "name": "Jwala Dhamala",
+      "affiliations": ["Amazon Alexa AI-NU"],
+      "email": "NA"
+    },
+    {
+      "name": "Satyapriya Krishna",
+      "affiliations": ["Amazon Alexa AI-NU"],
+      "email": "NA"
+    },
+    {
+      "name": "Tony Sun",
+      "affiliations": ["UC Santa Barbara"],
+      "email": "NA"
+    },
+    {
+      "name": "Yada Pruksachatkun",
+      "affiliations": ["Amazon Alexa AI-NU"],
+      "email": "NA"
+    },
+    {
+      "name": "Rahul Gupta",
+      "affiliations": ["Amazon Alexa AI-NU"],
+      "email": "NA"
+    },
+    {
+      "name": "Varun Kumar",
+      "affiliations": ["Amazon Alexa AI-NU"],
+      "email": "NA"
+    },
+    {
+      "name": "Kai-Wei Chang",
+      "affiliations": ["Amazon Alexa AI-NU", "UCLA"],
+      "email": "NA"
+    }
+  ]
+}
+```

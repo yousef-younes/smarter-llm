@@ -1,0 +1,37 @@
+ ```json
+   {
+     "title": "Qwen2.5-Coder Technical Report",
+     "authors": [
+       {
+         "name": "Jian Yang* Zeyu Cui*",
+         "affiliations": ["Alibaba Group"],
+         "email": "NA"
+       },
+       {
+         "name": "Binyuan Hui*",
+         "affiliations": ["Alibaba Group"],
+         "email": "NA"
+       },
+       {
+         "name": "Dayiheng Liu Lei Zhang Tianyu Liu Jiajun Zhang Bowen Yu Keming Lu",
+         "affiliations": ["Alibaba Group"],
+         "email": "NA"
+       },
+       {
+         "name": "Kai Dang Yang Fan Yichang Zhang An Yang Rui Men Fei Huang Bo Zheng Yibo Miao Xingzhang Ren Xuancheng Ren Jingren Zhou Junyang Lin",
+         "affiliations": ["Alibaba Group"],
+         "email": "NA"
+       },
+       {
+         "name": "Shanghaoran Quan Yunlong Feng",
+         "affiliations": ["Alibaba Group"],
+         "email": "NA"
+       },
+       {
+         "name": "Jiaxi Yang*",
+         "affiliations": ["Alibaba Group"],
+         "email": "NA"
+       }
+     ]
+   }
+   ```

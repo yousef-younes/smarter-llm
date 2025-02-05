@@ -1,0 +1,51 @@
+Based on the provided context, I will extract the metadata from the academic paper. Here is the extracted information in JSON format:
+
+```json
+{
+  "title": "BBQ: A Hand-Built Bias Benchmark for Question Answering",
+  "authors": [
+    {
+      "name": "Alicia Parrish",
+      "affiliations": ["New York University Dept. of Linguistics", "New York University Center for Data Science"],
+      "email": "alicia.v.parrish@nyu.edu"
+    },
+    {
+      "name": "Angelica Chen",
+      "affiliations": ["New York University Center for Data Science"],
+      "email": "NA"
+    },
+    {
+      "name": "Nikita Nangia",
+      "affiliations": ["New York University Center for Data Science"],
+      "email": "NA"
+    },
+    {
+      "name": "Vishakh Padmakumar",
+      "affiliations": ["New York University Center for Data Science"],
+      "email": "NA"
+    },
+    {
+      "name": "Jason Phang",
+      "affiliations": ["New York University Center for Data Science"],
+      "email": "NA"
+    },
+    {
+      "name": "Jana Thompson",
+      "affiliations": ["New York University Center for Data Science"],
+      "email": "NA"
+    },
+    {
+      "name": "Phu Mon Htut",
+      "affiliations": ["New York University Center for Data Science"],
+      "email": "NA"
+    },
+    {
+      "name": "Samuel R. Bowman",
+      "affiliations": ["New York University Dept. of Linguistics", "New York University Center for Data Science", "New York University Dept. of Computer Science"],
+      "email": "bowman@nyu.edu"
+    }
+  ]
+}
+```
+
+Note that I've only extracted the information available in the provided context, and returned "NA" for email addresses that were not found. Also, I've correctly mapped affiliations to the corresponding authors based on the context.

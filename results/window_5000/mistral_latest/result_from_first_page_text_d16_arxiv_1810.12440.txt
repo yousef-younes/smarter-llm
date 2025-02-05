@@ -1,0 +1,20 @@
+ {
+     "title": "TallyQA: Answering Complex Counting Questions",
+     "authors": [
+       {
+         "name": "Manoj Acharya",
+         "affiliations": ["Rochester Institute of Technology"],
+         "email": "ma7583@rit.edu"
+       },
+       {
+         "name": "Kushal Kaﬂe",
+         "affiliations": ["Rochester Institute of Technology"],
+         "email": "kk6055@rit.edu"
+       },
+       {
+         "name": "Christopher Kanan",
+         "affiliations": ["Rochester Institute of Technology"],
+         "email": "kanan@rit.edu"
+       }
+     ]
+   }

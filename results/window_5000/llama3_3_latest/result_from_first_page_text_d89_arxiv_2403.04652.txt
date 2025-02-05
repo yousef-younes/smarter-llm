@@ -1,0 +1,20 @@
+Based on the provided context, I was unable to find any relevant information about the title or author details such as name, affiliation(s), or email address. 
+
+Here is the extracted metadata in the expected JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "NA",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+However, I found a mention of "Yi: Open Foundation Models by 01.AI" and "Author List and Contributions" which might be related to the title and authors, but there's not enough information to accurately extract the required details. 
+
+If more context or information is provided, I'd be happy to try again.

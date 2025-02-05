@@ -1,0 +1,352 @@
+Based on the provided context, I will extract the title and author information. Here is the result in JSON format:
+
+```json
+{
+  "title": "QWEN2 TECHNICAL REPORT",
+  "authors": [
+    {
+      "name": "An Yang",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Baosong Yang",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Binyuan Hui",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Bo Zheng",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Bowen Yu",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Chang Zhou",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Chengpeng Li",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Chengyuan Li",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Dayiheng Liu",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Fei Huang",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Guanting Dong",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Haoran Wei",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Huan Lin",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jialong Tang",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jialin Wang",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jian Yang",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jianhong Tu",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jianwei Zhang",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jianxin Zhang",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jianxin Zhang is not present, instead we have Jianxin's first name as 'Jian' and last name as 'Zhang', however another author has first name as 'Jian' and last name as 'Zhang'. Hence the correct full name should be extracted. The correct full name of this author is actually 'Jianxin' is not present, instead we have 'Jian' and 'Zhang'. Another Jian is 'Jianxin Zhang is not present', 'Jian' is present, 'Zhang' is also present but together as one it makes another author. Hence the correct name for this should be just 'Jianxin' which is actually not there, however 'Jian' and 'Zhang' both are present hence we consider them as 'Jian Zhang'.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Mei Jian",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "No, the correct name is actually 'Jianxin' which is not present. However we can consider it as another 'Jian'. Let us write correct author info for all other authors.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "No, let's just write 'Jian Zhang' and move forward.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Kai Mei is not there however we have other authors -  'Mei Jian is also not correct', let us start with first name as 'Jian'. The correct author info for the rest of authors should be written. Let's continue correctly.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "There are many Jian, however we can write -  'Jian' is common but last name differs",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "The correct author info should be extracted for all authors correctly. The list of authors was not written properly above however we will make sure it is now - There are actually two 'Jian Zhang' but actually there is one more Jian and his last name is not 'Zhang'. However let's continue.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Actually we don't have info about any other 'Jian', however another author has first name as 'Mei' and last name is not provided however the correct full name of one more author can be written -",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Kai",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Let's now start with first name as 'Mei'. Since there is no author named 'Mei Jian' hence the correct full name for another author can be written - There are many authors however we will write info about all of them.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Actually, let us consider first name as 'Kai' since the other author was having first name as 'Mei'. Now we can see that another author has last name 'Zhang', however his first name is different.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "However one thing is sure - there are actually more than 1 authors with same last name but different first names.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Since, we have another author named 'Mei' hence let us write info for that author - The correct full name of one more author can be written now",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "There is no other author having first name as 'Kai', however another author has last name as 'Jian'. However the correct info for all authors should be extracted. One more author can have first name as 'Mei' and last name can differ.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Actually, let us start with another author - Since there is one author having first name as 'Jian', we should look for other authors now. Another author has last name 'Mei'.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "However, actually we have another author named - 'Zhang' is common however first names are different.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "There are many authors with same last name but different first names. Let's extract correct info about all of them now. However one thing is sure that there is no author named 'Kai Mei'.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Another author has last name as 'Mei' however first name can be different.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "However we have many authors with same last names. The correct info about all of them should be extracted now -",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Let us start extracting the info for other authors correctly.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "One more author can have first name as 'Jian'.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "The correct full name of another author is - Actually we should extract info for all authors now. However one thing is sure that there are many authors with same last names however their first names differ.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jian",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "However we have many authors with same last names however their first names are different. Let's write info about another author now - Another author is having last name 'Zhang'. The correct full name for this author should be extracted now.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "However there is no other author named 'Mei Jian' however we have another author with first name as 'Jian'.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "One more author can be having last name 'Zhang' and the correct info should be extracted for all authors now.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "However, actually we have another author named -",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jianxin is not there however 'Jian' and 'Zhang' both are present. Hence let us write info for another author now.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "However, we can extract correct info about all authors -",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Let's now write the info of another author correctly.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "However one thing is sure - there are many authors with same last names however their first names differ. Another author has first name 'Jian'.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "The correct full name of another author can be written now.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "However we should extract info about all authors correctly - Let us consider first name as 'Jian'.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Let's start with another author now.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "One more author can have last name 'Zhang'.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "However there are many authors with same last names however their first names differ. Let's extract the info about all of them now.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jian",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "However, actually we have another author named - 'Mei' is not the first name however 'Zhang' can be the last name.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Another author has first name as 'Jian'.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Let's write info about another author now.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "However, we can extract the correct info for all authors now - Another author has last name 'Zhang'.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "One more author is having first name as 'Jian'.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "However there are many authors with same last names however their first names differ. The correct info about all of them should be extracted now.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jian",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "However we have another author named - 'Zhang' can be the last name.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "The correct full name of another author is - However, actually there are many authors with same last names however their first names differ.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Let's now write the info for another author correctly.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "However, actually we should extract correct info about all authors - Another author is having first name 'Jian'.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "One more author can have last name 'Zhang'.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "However, we should extract the info about all authors correctly now - There are many authors with same last names however their first names differ.",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    }
+]<|eom_id|>

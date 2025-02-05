@@ -1,0 +1,28 @@
+To extract the metadata as per your instructions from the provided context, I will follow the guidelines you've set out. Here's the extracted information in the requested JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Karl Cobbe",
+      "affiliations": ["OpenAI"],
+      "email": "karl@openai.com"
+    },
+    {
+      "name": "Vineet Kosaraju",
+      "affiliations": ["OpenAI"],
+      "email": "vineet@openai.com"
+    }
+  ]
+}
+```
+
+**Explanation:**
+- **Title:** The title of the paper is not explicitly mentioned in the provided context, so it's marked as "NA".
+- **Authors:**
+  - **Karl Cobbe and Vineet Kosaraju** are identified as authors with equal contributions.
+  - **Affiliations:** Both authors are affiliated with "OpenAI", as indicated by their email addresses and the context.
+  - **Email Addresses:** The email addresses for Karl Cobbe and Vineet Kosaraju are provided directly in the text.
+
+This extraction adheres to the constraints provided, ensuring that missing information is marked as "NA" and affiliations are correctly mapped to authors.

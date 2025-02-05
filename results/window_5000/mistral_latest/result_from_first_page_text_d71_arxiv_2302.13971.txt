@@ -1,0 +1,70 @@
+ {
+     "title": "LLaMA: Open and Efﬁcient Foundation Language Models",
+     "authors": [
+       {
+         "name": "Hugo Touvron",
+         "affiliations": ["Meta AI"],
+         "email": "htouvron@meta.com"
+       },
+       {
+         "name": "Thibaut Lavril",
+         "affiliations": ["Meta AI"],
+         "email": "thibautlav@meta.com"
+       },
+       {
+         "name": "Gautier Izacard",
+         "affiliations": ["Meta AI"],
+         "email": "gizacard@meta.com"
+       },
+       {
+         "name": "Marie-Anne Lachaux",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Timothee Lacroix",
+         "affiliations": ["Meta AI"],
+         "email": "timotheelacroix@meta.com"
+       },
+       {
+                 "name": "Baptiste Rozière",
+                 "affiliations": ["Meta AI"],
+                 "email": "baptisteroziere@meta.com"
+               },
+               {
+                 "name": "Naman Goyal",
+                 "affiliations": ["NA"],
+                 "email": "NA"
+               },
+               {
+                 "name": "Eric Hambro",
+                 "affiliations": ["Meta AI"],
+                 "email": "erichambro@meta.com"
+               },
+               {
+                 "name": "Faisal Azhar",
+                 "affiliations": ["Meta AI"],
+                 "email": "faisalazhar@meta.com"
+               },
+               {
+                 "name": "Aurelien Rodriguez",
+                 "affiliations": ["Meta AI"],
+                 "email": "aurelienrodriguez@meta.com"
+               },
+               {
+                 "name": "Armand Joulin",
+                 "affiliations": ["Meta AI"],
+                 "email": "armandjoulin@meta.com"
+               },
+               {
+                 "name": "Edouard Grave",
+                 "affiliations": ["Meta AI"],
+                 "email": "egrave@meta.com"
+               },
+               {
+                 "name": "Guillaume Lample",
+                 "affiliations": ["Meta AI"],
+                 "email": "glample@meta.com"
+               }
+     ]
+   }

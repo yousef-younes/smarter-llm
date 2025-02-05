@@ -1,0 +1,31 @@
+Based on the provided context, I will extract the metadata from the academic paper. Here is the extracted information in JSON format:
+
+```json
+{
+  "title": "Quantifying Carbon Emissions in Neural Network Training",
+  "authors": [
+    {
+      "name": "Alexandre Lacoste",
+      "affiliations": ["Element AI"],
+      "email": "allac@elementai.com"
+    },
+    {
+      "name": "Alexandra Luccioni",
+      "affiliations": ["Mila, Université de Montréal"],
+      "email": "luccionis@mila.quebec"
+    },
+    {
+      "name": "Victor Schmidt",
+      "affiliations": ["Mila, Université de Montréal"],
+      "email": "schmidtv@mila.quebec"
+    },
+    {
+      "name": "Thomas Dandres",
+      "affiliations": ["Polytechnique Montréal, CIRAIG"],
+      "email": "thomas.dandres@polymtl.ca"
+    }
+  ]
+}
+```
+
+Note that all the required information is present in the provided context, so there are no "NA" values in the output. Let me know if you need further assistance!

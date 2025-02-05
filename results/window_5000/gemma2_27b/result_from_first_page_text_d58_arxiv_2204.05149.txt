@@ -1,0 +1,58 @@
+```json
+{
+  "title": "The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink",
+  "authors": [
+    {
+      "name": "David Patterson",
+      "affiliations": ["Google", "University of California, Berkeley"],
+      "email": "NA"
+    },
+    {
+      "name": "Joseph Gonzalez",
+      "affiliations": ["University of California, Berkeley"],
+      "email": "NA"
+    },
+    {
+      "name": "Urs Hölzle",
+      "affiliations": ["Google"],
+      "email": "NA"
+    },
+    {
+      "name": "Quoc Le",
+      "affiliations": ["Google"],
+      "email": "NA"
+    },
+    {
+      "name": "Chen Liang",
+      "affiliations": ["Google"],
+      "email": "NA"
+    },
+    {
+      "name": "Lluis-Miquel Munguia",
+      "affiliations": ["Google"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Rothchild",
+      "affiliations": ["University of California, Berkeley"],
+      "email": "NA"
+    },
+    {
+      "name": "David So",
+      "affiliations": ["Google"],
+      "email": "NA"
+    },
+    {
+      "name": "Maud Texier",
+      "affiliations": ["Google"],
+      "email": "NA"
+    },
+    {
+      "name": "Jeff Dean",
+      "affiliations": ["Google"],
+      "email": "NA"
+    }
+  ]
+}
+
+```

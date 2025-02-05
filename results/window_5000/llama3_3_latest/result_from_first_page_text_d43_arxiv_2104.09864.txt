@@ -1,0 +1,39 @@
+Here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "ROFORMER: ENHANCED TRANSFORMER WITH ROTARY POSITION EMBEDDING",
+  "authors": [
+    {
+      "name": "Jianlin Su",
+      "affiliations": ["Zhuiyi Technology Co., Ltd."],
+      "email": "bojonesu@wezhuiyi.com"
+    },
+    {
+      "name": "Yu Lu",
+      "affiliations": ["Zhuiyi Technology Co., Ltd."],
+      "email": "julianlu@wezhuiyi.com"
+    },
+    {
+      "name": "Shengfeng Pan",
+      "affiliations": ["Zhuiyi Technology Co., Ltd."],
+      "email": "nickpan@wezhuiyi.com"
+    },
+    {
+      "name": "Ahmed Murtadha",
+      "affiliations": ["Zhuiyi Technology Co., Ltd."],
+      "email": "mengjiayi@wezhuiyi.com"
+    },
+    {
+      "name": "Bo Wen",
+      "affiliations": ["Zhuiyi Technology Co., Ltd."],
+      "email": "brucewen@wezhuiyi.com"
+    },
+    {
+      "name": "Yunfeng Liu",
+      "affiliations": ["Zhuiyi Technology Co., Ltd."],
+      "email": "glenliu@wezhuiyi.com"
+    }
+  ]
+}
+```

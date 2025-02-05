@@ -1,0 +1,27 @@
+```json
+{
+  "title": "Efficient Linear Models for Text Classification",
+  "authors": [
+    {
+      "name": "Joulin, Armand",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Grave, Edouard",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Bojanowski, Piotr",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Mikolov, Tomas",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```

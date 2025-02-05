@@ -1,0 +1,32 @@
+```json
+{
+  "title": "Pre-training image-language transformers for open-vocabulary tasks",
+  "authors": [
+    {
+      "name": "AJ Piergiovanni",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Weicheng Kuo",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Anelia Angelova",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+**Explanation:**
+
+- **Title:** The title is extracted directly from the section that starts with "Abstract."
+  
+- **Authors and Affiliations:** Each author's name and their affiliation ("Google Research") are listed under the "Related Works" section.
+
+- **Email Addresses:** Since no email addresses are provided in the context, they are marked as "NA."
+
+This structured JSON output provides a clear and organized representation of the extracted metadata.

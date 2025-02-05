@@ -1,0 +1,18 @@
+Based on the provided context, I will attempt to extract the metadata. However, please note that the context does not contain explicit author information, affiliations, or email addresses.
+
+Here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "NA",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+The context mentions some references with author names, such as "Raffel et al.", "Fedus et al.", "Zellers et al.", and others. However, it does not provide a clear title for the paper or detailed author information, including affiliations and email addresses. Therefore, I have returned "NA" for all fields.

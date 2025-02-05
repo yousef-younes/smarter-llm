@@ -1,0 +1,12 @@
+```json
+{
+  "title": "Fast Transformer Decoding: One Write-Head is All You Need",
+  "authors": [
+    {
+      "name": "Noam Shazeer",
+      "affiliations": ["Google"],
+      "email": "noam@google.com"
+    }
+  ]
+}
+```

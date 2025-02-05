@@ -1,0 +1,24 @@
+Based on the provided context from the research paper, I will attempt to extract the required metadata. However, it's important to note that the context does not contain explicit information about the title or author details. Therefore, we will have to rely on what is available.
+
+### Extracted Information:
+
+1. **Title**: The title of the work is mentioned in the context as "Open Foundation Models by 01.AI". This seems to be the most relevant title extracted from the context.
+
+2. **Authors**: The context does not provide specific author names, affiliations, or email addresses. Therefore, these details will be marked as "NA".
+
+### Structured JSON Output:
+
+```json
+{
+  "title": "Open Foundation Models by 01.AI",
+  "authors": [
+    {
+      "name": "NA",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+This output reflects the constraints and instructions given, acknowledging that some information is missing from the provided context.

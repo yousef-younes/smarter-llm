@@ -1,0 +1,20 @@
+ {
+     "title": "Effective Expansion of Vocabulary for LLMs in Low-Resource Settings",
+     "authors": [
+       {
+         "name": "Atsuki Yamaguchi",
+         "affiliations": ["School of Computer Science, University of Sheffield, United Kingdom"],
+         "email": "ayamaguchi1@sheffield.ac.uk"
+       },
+       {
+         "name": "Aline Villavicencio",
+         "affiliations": ["Department of Computer Science, Institute of Data Science and Artificial Intelligence, University of Exeter, United Kingdom"],
+         "email": "a.villavicencio@exeter.ac.uk"
+       },
+       {
+         "name": "Nikolaos Aletras",
+         "affiliations": ["School of Computer Science, University of Sheffield, United Kingdom"],
+         "email": "n.aletras@sheffield.ac.uk"
+       }
+     ]
+   }

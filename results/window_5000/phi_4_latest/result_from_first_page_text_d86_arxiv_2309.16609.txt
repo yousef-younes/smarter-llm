@@ -1,0 +1,198 @@
+To extract metadata from the provided academic paper context, we need to identify the title and author information. The context includes a description of models and a list of authors with corresponding email information for one author.
+
+### Step-by-Step Extraction:
+
+1. **Title Identification:**
+   - The abstract section typically follows immediately after the title in an academic paper.
+   - In this context, there is no explicit title provided before the "ABSTRACT" line. Thus, we will return "NA" for the title as it's not available.
+
+2. **Authors Extraction:**
+   - The list of authors is provided under the heading "QWEN TECHNICAL REPORT."
+   - Each author is listed by name, and there is a correspondence email mentioned at the end of the section.
+   - Affiliations are not explicitly listed for each author in the provided context. Therefore, we will mark affiliations as "NA."
+
+3. **Email Extraction:**
+   - Only one email address is given: `ericzhou.zc@alibaba-inc.com`.
+   - This email is associated with correspondence, which typically belongs to a lead or corresponding author. However, without explicit mapping, we can only associate it with the first author listed.
+
+### JSON Structured Output:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Jinze Bai",
+      "affiliations": ["NA"],
+      "email": "ericzhou.zc@alibaba-inc.com"
+    },
+    {
+      "name": "Shuai Bai",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yunfei Chu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Zeyu Cui",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Kai Dang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaodong Deng",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yang Fan",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Wenbin Ge",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yu Han",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Fei Huang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Binyuan Hui",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Luo Ji",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Peng Wang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Shijie Wang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Wei Wang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Shengguang Wu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Benfeng Xu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jin Xu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "An Yang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Hao Yang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jian Yang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Shusheng Yang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yang Yao",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Bowen Yu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Hongyi Yuan",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Zheng Yuan",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jianwei Zhang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xingxuan Zhang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yichang Zhang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Zhenru Zhang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Chang Zhou",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jingren Zhou",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaohuan Zhou",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tianhang Zhu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+This JSON structure captures the available information while adhering to the constraints provided.

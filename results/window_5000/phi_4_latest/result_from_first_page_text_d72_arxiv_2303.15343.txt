@@ -1,0 +1,40 @@
+To extract metadata from the provided academic paper snippet, we need to identify the title and author information as specified. Here's how the extracted data is structured:
+
+```json
+{
+  "title": "Sigmoid Loss for Language Image Pre-Training",
+  "authors": [
+    {
+      "name": "Xiaohua Zhai",
+      "affiliations": ["Google", "DeepMind, Zürich, Switzerland"],
+      "email": "xzhai@google.com"
+    },
+    {
+      "name": "Basil Mustafa",
+      "affiliations": ["Google", "DeepMind, Zürich, Switzerland"],
+      "email": "basilm@google.com"
+    },
+    {
+      "name": "Alexander Kolesnikov",
+      "affiliations": ["Google", "DeepMind, Zürich, Switzerland"],
+      "email": "akolesnikov@google.com"
+    },
+    {
+      "name": "Lucas Beyer",
+      "affiliations": ["Google", "DeepMind, Zürich, Switzerland"],
+      "email": "lbeyer@google.com"
+    }
+  ]
+}
+```
+
+### Explanation:
+
+- **Title**: The title is explicitly mentioned as "Sigmoid Loss for Language Image Pre-Training".
+  
+- **Authors**:
+  - Each author's name is listed before the affiliation and email information.
+  - All authors share the same affiliations: "Google" and "DeepMind, Zürich, Switzerland".
+  - Emails are provided in a specific format at the end of the snippet.
+
+This structured JSON output ensures that all required metadata is captured accurately.

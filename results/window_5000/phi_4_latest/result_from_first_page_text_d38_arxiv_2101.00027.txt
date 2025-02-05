@@ -1,0 +1,75 @@
+Based on the provided context, we need to extract metadata from an academic paper titled "The Pile: An 800GB Dataset of Diverse Text for Language Modeling." Here's the extraction in the required JSON format:
+
+```json
+{
+  "title": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
+  "authors": [
+    {
+      "name": "Leo Gao",
+      "affiliations": ["EleutherAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Stella Biderman",
+      "affiliations": ["EleutherAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Sid Black",
+      "affiliations": ["EleutherAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Laurence Golding",
+      "affiliations": ["EleutherAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Travis Hoppe",
+      "affiliations": ["EleutherAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Charles Foster",
+      "affiliations": ["EleutherAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Jason Phang",
+      "affiliations": ["EleutherAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Horace He",
+      "affiliations": ["EleutherAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Anish Thite",
+      "affiliations": ["EleutherAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Noa Nabeshima",
+      "affiliations": ["EleutherAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Shawn Presser",
+      "affiliations": ["EleutherAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Connor Leahy",
+      "affiliations": ["EleutherAI"],
+      "email": "contact@eleuther.ai"
+    }
+  ]
+}
+```
+
+### Explanation:
+- **Title**: Extracted directly from the context.
+- **Authors**: All authors listed in the context are included.
+- **Affiliations**: Each author is associated with "EleutherAI" as no specific affiliations beyond this were provided.
+- **Emails**: Only one email address ("contact@eleuther.ai") was mentioned, and it's attributed to Connor Leahy. For others, "NA" is used as per the instructions.

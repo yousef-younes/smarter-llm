@@ -1,0 +1,41 @@
+Here is the extracted metadata in the required JSON format:
+
+```json
+{
+  "title": "Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements",
+  "authors": [
+    {
+      "name": "Yang Li",
+      "affiliations": ["Google Research, Mountain View, CA 94043, USA"],
+      "email": "liyang@google.com"
+    },
+    {
+      "name": "Gang Li",
+      "affiliations": ["Google Research, Mountain View, CA 94043, USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Luheng He",
+      "affiliations": ["Google Research, Mountain View, CA 94043, USA"],
+      "email": "luheng@google.com"
+    },
+    {
+      "name": "Jingjie Zheng",
+      "affiliations": ["Google Research, Mountain View, CA 94043, USA"],
+      "email": "jingjiezheng@google.com"
+    },
+    {
+      "name": "Hong Li",
+      "affiliations": ["Georgia Tech, Atlanta, GA 30332, USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Zhiwei Guan",
+      "affiliations": ["Google Research, Mountain View, CA 94043, USA"],
+      "email": "zguan@google.com"
+    }
+  ]
+}
+```
+
+Note that I was only able to find email addresses for some of the authors (Yang Li, Luheng He, Jingjie Zheng, and Zhiwei Guan), so the others have "NA" as their email address. Also, Hong Li's affiliation is listed as Georgia Tech, as indicated by the footnote in the original text.

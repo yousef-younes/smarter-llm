@@ -1,0 +1,21 @@
+ I'm unable to extract a specific research paper from the context provided as it does not contain a complete paper with title, authors, affiliations, and email addresses. However, I can show you how the extracted information would be formatted in the requested JSON structure if the context contained the necessary details.
+
+Here is an example of the expected output based on hypothetical data:
+
+```json
+{
+  "title": "Research Paper Title",
+  "authors": [
+    {
+      "name": "Author Name 1",
+      "affiliations": ["Affiliation 1"],
+      "email": "author1@example.com"
+    },
+    {
+      "name": "Author Name 2",
+      "affiliations": ["Affiliation 2"],
+      "email": "author2@example.com"
+    }
+  ]
+}
+```

@@ -1,0 +1,98 @@
+```json
+{
+  "title": "Mistral 7B",
+  "authors": [
+    {
+      "name": "Albert Q. Jiang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexandre Sablayrolles",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Arthur Mensch",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Chris Bamford",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Devendra Singh Chaplot",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Diego de las Casas",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Florian Bressand",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Gianna Lengyel",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Guillaume Lample",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Lucile Saulnier",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Lélio Renard Lavaud",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Marie-Anne Lachaux",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Pierre Stock",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Teven Le Scao",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Thibaut Lavril",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Thomas Wang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Timothée Lacroix",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "William El Sayed",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+
+```

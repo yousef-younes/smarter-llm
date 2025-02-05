@@ -1,0 +1,66 @@
+Here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "Program Synthesis with Large Language Models",
+  "authors": [
+    {
+      "name": "Jacob Austin",
+      "affiliations": ["Google Research"],
+      "email": "jaaustin@google.com"
+    },
+    {
+      "name": "Augustus Odena",
+      "affiliations": ["Google Research"],
+      "email": "augustusodena@google.com"
+    },
+    {
+      "name": "Maxwell Nye",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Maarten Bosma",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Henryk Michalewski",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "David Dohan",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Ellen Jiang",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Carrie Cai",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Terry",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Quoc Le",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Charles Sutton",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that I've used "NA" for affiliations and email addresses that are not mentioned in the provided context. Also, since Maxwell Nye has a different symbol (†) next to his name, I've assumed he might be affiliated with a different institution, but since it's not specified, I've marked his affiliation as "NA".

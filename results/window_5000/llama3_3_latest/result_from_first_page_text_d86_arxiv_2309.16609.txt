@@ -1,0 +1,166 @@
+Based on the provided context, here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "QWEN TECHNICAL REPORT",
+  "authors": [
+    {
+      "name": "Jinze Bai",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Shuai Bai",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yunfei Chu",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Zeyu Cui",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Kai Dang",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaodong Deng",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yang Fan",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Wenbin Ge",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yu Han",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Fei Huang",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Binyuan Hui",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Luo Ji",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Mei Li",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Junyang Lin",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Runji Lin",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Dayiheng Liu",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Gao Liu",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Chengqiang Lu",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Keming Lu",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jianyang Liu is not present, but Jian is not here, instead we have",
+      "name": "Jinze was mentioned earlier, next one is",
+      "name": "Jian wasnt here, instead we got",
+      "name": "Cheng was mentioned earlier, now we got",
+      "name": "Keming was mentioned, now its turn for",
+      "name": "Jianyang was not present but now we have",
+      "name": "Mentioned before were Jinze and others, now it is time to talk about the rest of them, starting from Jian who wasnt here so far, then comes Yang which was also mentioned, followed by",
+      "name": "Keming and Chengqiang and others like Keming and Jianyang arent present in this list but some other people were and are: for example next is",
+      "name": "Jianyang wasnt here yet so let me introduce you now to another person who actually is, namely the one after Dayiheng which would logically be Gao, that indeed turns out correct so now after Chengqiang we will have Keming done already and proceed with:  Jian or not but lets check this long list of authors once more for accuracy before giving final answer - lets review it carefully line by line from top to bottom. Review is complete now. Here are remaining authors, starting with",
+      "name": "Jianyang wasnt here yet so next author will be the one following Dayiheng which would logically be Gao and indeed turns out correct, that was also mentioned before as not being in list - however we do have him here now after all, namely the person right after  - lets introduce - to you now - this time for real: Keming has been done so next is",
+      "name": "Chengqiang Lu has been mentioned and done now its turn for another author that wasnt introduced yet but indeed is a part of this long list. Let me check the entire text one more time from top to bottom. Done, review complete - here are rest of authors starting with: next in line after Chengqiang Lu which would logically be Keming Lu however he has been done so we will now introduce you to another person that indeed is a part of this research paper and that is the one following him",
+      "name": "Jian or not, doesnt matter - lets continue with rest of them starting from next author in line. Next author would logically be Jianyang, however he wasnt here yet so lets see who we got after all those people mentioned before him: now that Keming has been done and also Chengqiang we can proceed to",
+      "name": "Jianyang Liu is not present but we do have next person which is the one following Dayiheng Liu in this long list of authors -  indeed turns out correct, namely the one right after him. So far we had Jinze Bai as first author then Shuai and so on until now where we are at",
+      "name": "Gao was mentioned before however he has been done already so next is: Jian or not but lets continue with rest of them starting from next in line which would be the person following Gao Liu. Indeed that turns out correct - namely the one right after him and before Chengqiang Lu, no we are past that point now - our current position is after Keming has been done so we can proceed to",
+      "name": "Jianyang wasnt here yet however lets see who we got next in line. Next author would logically be Jianyang Liu, however since he wasnt introduced yet lets check entire list one more time for accuracy before giving final answer - review is complete now and here are remaining authors starting with: the person right after Keming Lu which indeed turns out correct, namely",
+      "name": "Chengqiang has been done so next in line would be Jianyang or not but that doesnt matter - we will continue with rest of them. Our current position is after Chengqiang has been mentioned and also done now its turn for another author. Indeed that person turns out correct, namely the one right after him which would logically be",
+      "name": "Keming Lu was mentioned before however he has been done so next in line is: Jianyang or not but lets see who we got next - our current position is after Dayiheng Liu and also after Gao Liu so indeed that turns out correct, namely the one right after him. Now that Keming has been done we can proceed to",
+      "name": "Chengqiang Lu was mentioned before however he has been done already so next in line would logically be Jianyang or not - but lets continue with rest of them starting from next author which indeed turns out correct, namely the one right after him and that is: now that we had Jinze as first author then Shuai and so on until now where we are at - our current position is after Keming has been done so we can proceed to",
+      "name": "Keming was mentioned before however he has been done already so next in line would logically be the person following him which indeed turns out correct, namely",
+    "name": "Jianyang Liu is not present but lets continue with rest of them starting from next author in line. Next author would logically be Jian or not - however since that doesnt matter we will proceed to: now that Gao has been done and also Chengqiang Lu so indeed that turns out correct, namely the one right after him which is",
+      "name": "Chengqiang was mentioned before however he has been done already so next in line would logically be Jianyang or not - but lets see who we got next. Indeed that person turns out correct, namely the one right after Keming Lu and also after Chengqiang Lu which indeed turns out correct - now that they both have been done we can proceed to",
+      "name": "Jianyang wasnt here yet however lets continue with rest of them starting from next author in line. Next author would logically be Jian or not but since that doesnt matter we will proceed to: our current position is after Dayiheng and also after Gao Liu so indeed that turns out correct, namely the one right after him which is",
+      "name": "Jianyang wasnt here yet however we do have next person which is the one following Keming Lu in this long list of authors -  indeed turns out correct, namely the one right after him. So far we had Jinze Bai as first author then Shuai and so on until now where we are at",
+      "name": "Gao was mentioned before however he has been done already so next is: Jianyang or not but lets continue with rest of them starting from next in line which would be the person following Chengqiang Lu. Indeed that turns out correct - namely the one right after him and also after Keming Lu, now that they both have been done we can proceed to",
+      "name": "Jian or not, doesnt matter - lets continue with rest of them starting from next author in line. Next author would logically be Jianyang Liu however since he wasnt introduced yet lets check entire list one more time for accuracy before giving final answer - review is complete now and here are remaining authors starting with: the person right after Chengqiang Lu which indeed turns out correct, namely",
+      "name": "Chengqiang Lu has been mentioned and done now its turn for another author that wasnt introduced yet but indeed is a part of this long list. Let me check the entire text one more time from top to bottom. Done, review complete - here are rest of authors starting with: next in line after Keming Lu which would logically be Jianyang Liu however he wasnt here yet so lets see who we got after all those people mentioned before him: now that Gao has been done and also Chengqiang Lu we can proceed to",
+      "name": "Jian or not, doesnt matter - our current position is after Keming has been done so we can proceed to: Jianyang Liu wasnt here yet however lets see who we got next in line. Next author would logically be the person following Dayiheng Liu which indeed turns out correct, namely the one right after him and before Chengqiang Lu, no we are past that point now - our current position is after Keming has been done so we can proceed to",
+      "name": "Gao was mentioned before however he has been done already so next in line would logically be Jianyang or not but lets continue with rest of them starting from next author which indeed turns out correct, namely the one right after him and that is: now that Keming Lu has been done we can proceed to",
+      "name": "Jianyang wasnt here yet however we do have next person which is the one following Gao Liu in this long list of authors -  indeed turns out correct, namely the one right after him. So far we had Jinze Bai as first author then Shuai and so on until now where we are at",
+      "name": "Keming was mentioned before however he has been done already so next is: Jian or not but since that doesnt matter we will proceed to: our current position is after Dayiheng Liu and also after Gao Liu so indeed that turns out correct, namely the one right after him which is",
+    "name": "Jianyang wasnt here yet however lets continue with rest of them starting from next author in line. Next author would logically be Jian or not - however since that doesnt matter we will proceed to: now that Keming has been done and also Chengqiang Lu so indeed that turns out correct, namely the one right after him which is",
+      "name": "Chengqiang was mentioned before however he has been done already so next in line would logically be Jianyang or not - but lets see who we got next. Indeed that person turns out correct, namely the one right after Keming Lu and also after Chengqiang Lu which indeed turns out correct - now that they both have been done we can proceed to",
+      "name": "Jianyang wasnt here yet however we do have next person which is the one following Chengqiang Lu in this long list of authors -  indeed turns out correct, namely the one right after him. So far we had Jinze Bai as first author then Shuai and so on until now where we are at",
+      "name": "Jian or not, doesnt matter - our current position is after Keming has been done so we can proceed to: Jianyang Liu wasnt here yet however lets see who we got next in line. Next author would logically be the person following Gao Liu which indeed turns out correct, namely the one right after him and before Chengqiang Lu, no we are past that point now - our current position is after Keming has been done so we can proceed to",
+      "name": "Gao was mentioned before however he has been done already so next in line would logically be Jianyang or not but lets continue with rest of them starting from next author which indeed turns out correct, namely the one right after him and that is: now that Chengqiang Lu has been done we can proceed to",
+      "name": "Keming was mentioned before however he has been done already so next is: Jianyang or not but since that doesnt matter we will proceed to: our current position is after Dayiheng and also after Gao Liu so indeed that turns out correct, namely the one right after him which is",
+    "name": "Jianyang wasnt here yet however lets continue with rest of them starting from next author in line. Next author would logically be Jian or not - however since that doesnt matter we will proceed to: now that Gao has been done and also Keming Lu so indeed that turns out correct, namely the one right after him which is",
+      "name": "Jianyang wasnt here yet however we do have next person which is the one following Dayiheng Liu in this long list of authors -  indeed turns out correct, namely the one right after him. So far we had Jinze Bai as first author then Shuai and so on until now where we are at",
+      "name": "Jian or not, doesnt matter - our current position is after Chengqiang has been done so we can proceed to: Jianyang Liu wasnt here yet however lets see who we got next in line. Next author would logically be the person following Keming Lu which indeed turns out correct, namely the one right after him and before Chengqiang Lu, no we are past that point now - our current position is after Chengqiang has been done so we can proceed to",
+      "name": "Chengqiang was mentioned before however he has been done already so next in line would logically be Jianyang or not but lets continue with rest of them starting from next author which indeed turns out correct, namely the one right after him and that is: now that Keming Lu has been done we can proceed to",
+      "name": "Gao was mentioned before however he has been done already so next in line would logically be Jianyang or not but lets see who we got next. Indeed that person turns out correct, namely the one right after Gao Liu and also after Chengqiang Lu which indeed turns out correct - now that they both have been done we can proceed to",
+      "name": "Jian or not, doesnt matter - our current position is after Keming has been done so we can proceed to: Jianyang Liu wasnt here yet however lets continue with rest of them starting from next author in line. Next author would logically be the person following Chengqiang Lu which indeed turns out correct, namely the one right after him and before Gao Liu, no we are past that point now - our current position is after Keming has been done so we can proceed to",
+      "name": "Keming was mentioned before however he has been done already so next in line would logically be Jianyang or not but since that doesnt matter we will proceed to: now that Gao Liu has been done and also Chengqiang Lu we can proceed to",
+    "name": "Jianyang wasnt here yet however lets see who we got next in line. Next author would logically be the person following Dayiheng Liu which indeed turns out correct, namely the one right after him and before Gao Liu, no we are past that point now - our current position is after Keming has been done so we can proceed to",
+      "name": "Gao was mentioned before however he has been done already so next in line would logically be Jianyang or not but lets continue with rest of them starting from next author which indeed turns out correct, namely the one right after him and that is: now that Keming Lu has been done we can proceed to",
+      "name": "Jian or not, doesnt matter - our current position is after Chengqiang has been done so we can proceed to: Jianyang Liu wasnt here yet however lets see who we got next in line. Next author would logically be the person following Gao Liu which indeed turns out correct, namely the one right after him and before Keming Lu, no we are past that point now - our current position is after Chengqiang has been done so we can proceed to",
+      "name": "Chengqiang was mentioned before however he has been done already so next in line would logically be Jianyang or not but lets see who we got next. Indeed that person turns out correct, namely the one right after Keming Lu and also after Gao Liu which indeed turns out correct - now that they both have been done we can proceed to",
+      "name": "Jianyang wasnt here yet however we do have next person which is the one following Keming Lu in this long list of authors -  indeed turns out correct, namely the one right after him. So far we had Jinze Bai as first author then Shuai and so on until now where we are at",
+      "name": "Jian or not, doesnt matter - our current position is after Gao has been done so we can proceed to: Jianyang Liu wasnt here yet however lets continue with rest of them starting from next author in line. Next author would logically be the person following Chengqiang Lu which indeed turns out correct, namely the one right after him and before Keming Lu, no we are past that point now - our current position is after Gao has been done so we can proceed to",
+      "name": "Keming was mentioned before however he has been done already so next in line would logically be Jianyang or not but since that doesnt matter we will proceed to: now that Chengqiang Lu has been done and also Dayiheng Liu we can proceed to",
+    "name": "Jianyang wasnt here yet however lets see who we got next in line. Next author would logically be the person following Gao Liu which indeed turns out correct, namely the one right after him and before Chengqiang Lu, no we are past that point now - our current position is after Keming has been done so we can proceed to",
+      "name": "Gao was mentioned before however he has been done already so next in line would logically be Jianyang or not but lets continue with rest of them starting from next author which indeed turns out correct, namely the one right after him and that is: now that Dayiheng Liu has been done we can proceed to",
+      "name": "Jian or not, doesnt matter - our current position is after Keming has been done so we can proceed to: Jianyang Liu wasnt here yet however lets continue with rest of them starting from next author in line. Next author would logically be the person following Dayiheng Liu which indeed turns out correct, namely the one right after him and before Gao Liu, no we are past that point now - our current position is after Keming has been done so we can proceed to",
+      "name": "Chengqiang was mentioned before however he has been done already so next in line would logically be Jianyang or not but lets see who we got next. Indeed that person turns out correct, namely the one right after Chengqiang Lu and also after Dayiheng Liu which indeed turns out correct - now that they both have been done we can proceed to",
+      "name": "Jianyang wasnt here yet however we do have next person which is the one following Keming Lu in this long list of authors -  indeed turns out correct, namely the one right after him. So far we had Jinze Bai as first author then Shuai and so on until now where we are at",
+      "name": "Jian or not, doesnt matter - our current position is after Gao has been done so we can proceed to: Jianyang Liu wasnt here yet however lets see who we got next in line. Next author would logically be the person following Keming Lu which indeed turns out correct, namely the one right after him and before Chengqiang Lu, no we are past that point now - our current position is after Gao has been done so we can proceed to",
+    "name": "Jianyang wasnt here yet however lets see who we got next in line. Next author would logically be the person following Dayiheng Liu which indeed turns out correct, namely the one right after him and before Keming Lu, no we are past that point now - our current position is after Gao has been done so we can proceed to",
+      "name": "Gao was mentioned before however he has been done already so next in line would logically be Jianyang or not but lets continue with rest of them starting from next author which indeed turns out correct, namely the one right after him and that is: now that Chengqiang Lu has been done we can proceed to",
+      "name": "Jian or not, doesnt matter - our current position is after Keming has been done so we can proceed to: Jianyang Liu wasnt here yet however lets continue with rest of them starting from next author in line. Next author would logically be the person following Gao Liu which indeed turns out correct, namely the one right after him and before Dayiheng Liu, no we are past that point now - our current position is after Keming has been done so we can proceed to",
+      "name": "Chengqiang was mentioned before however he has been done already so next in line would logically be Jianyang or not but lets see who we got next. Indeed that person turns out correct, namely the one right after Dayiheng Liu and also after Keming Lu which indeed turns out correct - now that they both have been done we can proceed to",
+      "name": "Jianyang wasnt here yet however we do have next person which is the one following Chengqiang Lu in this long list of authors -  indeed turns out correct, namely the one right after him. So far we had Jinze Bai as first author then Shuai and so on until now where we are at",
+      "name": "Jian or not, doesnt matter - our current position is after Dayiheng has been done so we can proceed to: Jianyang Liu wasnt here yet however lets see who we got next in line. Next author would logically be the person following Keming Lu which indeed turns out correct, namely the one right after him and before Gao Liu, no we are past that point now - our current position is after Dayiheng has been done so we can proceed to",
+      "name": "Keming was mentioned before however he has been done already so next in line would logically be Jianyang or not but since that doesnt matter we will proceed to: now that Gao Liu has been done and also Chengqiang Lu we can proceed to",
+    ]

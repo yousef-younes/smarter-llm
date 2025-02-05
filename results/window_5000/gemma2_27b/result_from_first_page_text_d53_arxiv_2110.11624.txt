@@ -1,0 +1,22 @@
+```json
+{
+  "title": "SCICAP: Generating Captions for Scientific Figures",
+  "authors": [
+    {
+      "name": "Ting-Yao (Edward) Hsu",
+      "affiliations": ["Pennsylvania State University"],
+      "email": "txh357@psu.edu"
+    },
+    {
+      "name": "C. Lee Giles",
+      "affiliations": ["Pennsylvania State University"],
+      "email": "clg20@psu.edu"
+    },
+    {
+      "name": "Ting-Hao 'Kenneth' Huang",
+      "affiliations": ["Pennsylvania State University"],
+      "email": "txh710@psu.edu"
+    }
+  ]
+}
+```

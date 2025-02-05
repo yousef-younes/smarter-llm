@@ -1,0 +1,38 @@
+```json
+{
+  "title": "MultiBERTs: A Bootstrap Approach for Evaluating Pre-trained Language Models",
+  "authors": [
+    {
+      "name": "Ari Holtzman",
+      "affiliations": ["Google AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Max Sajdak",
+      "affiliations": ["Google AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Rosanne Liu",
+      "affiliations": ["Google AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Thao Nguyen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Eric Wallace",
+      "affiliations": ["Google AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Peter West",
+      "affiliations": ["Google AI"],
+      "email": "NA"
+    }
+  ]
+}
+
+```

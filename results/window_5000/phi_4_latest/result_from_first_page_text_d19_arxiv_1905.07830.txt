@@ -1,0 +1,53 @@
+Based on the provided context from the academic paper, here is the extracted metadata in the required JSON format:
+
+```json
+{
+  "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+  "authors": [
+    {
+      "name": "Rowan Zellers",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    },
+    {
+      "name": "Ari Holtzman",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    },
+    {
+      "name": "Yonatan Bisk",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    },
+    {
+      "name": "Ali Farhadi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+### Explanation:
+
+- **Title**: The title is clearly stated at the beginning and end of the context: "HellaSwag: Can a Machine Really Finish Your Sentence?"
+  
+- **Authors**: The authors are listed with their names followed by their affiliations:
+  - Rowan Zellers
+  - Ari Holtzman
+  - Yonatan Bisk
+  - Ali Farhadi
+  - Yejin Choi
+
+- **Affiliations**: Each author is associated with two affiliations:
+  - Paul G. Allen School of Computer Science & Engineering, University of Washington
+  - Allen Institute for Artificial Intelligence
+
+- **Email Addresses**: The context does not provide any email addresses, so "NA" is used for each author.
+
+This structured JSON format allows easy comparison and analysis of the metadata extracted from the academic paper.

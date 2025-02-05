@@ -1,0 +1,27 @@
+```json
+{
+  "title": "Fast Transformer Decoding: One Write-Head is All You Need",
+  "authors": [
+    {
+      "name": "Noam Shazeer",
+      "affiliations": ["Google"],
+      "email": "noam@google.com"
+    }
+  ]
+}
+```
+
+**Explanation:**
+
+1. **Title Extraction:** The title of the paper is explicitly mentioned at the end of the context as "Fast Transformer Decoding: One Write-Head is All You Need".
+
+2. **Author Information:**
+   - **Name:** The author's name provided in the context is "Noam Shazeer".
+   - **Affiliation(s):** The affiliation given for Noam Shazeer is "Google".
+   - **Email address:** The email address listed is "noam@google.com".
+
+3. **Constraints Handling:**
+   - All required fields are present, so there's no need to use "NA" for missing information.
+   - Affiliations are correctly mapped to the corresponding author as only one affiliation is mentioned.
+
+This structured JSON output aligns with the expected format and constraints provided in the task description.

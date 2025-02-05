@@ -1,0 +1,103 @@
+```json
+{
+  "title": "PaLI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",
+  "authors": [
+    {
+      "name": "Xiao Wang",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Lucas Beyer",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Chen",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Paul Voigtlaender",
+      "affiliations": ["1"],
+      "email": "NA"
+    },
+    {
+      "name": "Basil Mustafa",
+      "affiliations": ["2"],
+      "email": "NA"
+    },
+    {
+      "name": "Piotr Padlewski",
+      "affiliations": ["2"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Salz",
+      "affiliations": ["1"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Xiong",
+      "affiliations": ["3"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Vlasic",
+      "affiliations": ["3"],
+      "email": "NA"
+    },
+    {
+      "name": "Keran Rong",
+      "affiliations": ["2"],
+      "email": "NA"
+    },
+    {
+      "name": "Tianli Yu",
+      "affiliations": ["3"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Keysers",
+      "affiliations": ["2"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaohua Zhai",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexander Kolesnikov",
+      "affiliations": ["2"],
+      "email": "NA"
+    },
+    {
+      "name": "Sebastian Goodman",
+      "affiliations": ["1"],
+      "email": "NA"
+    },
+    {
+      "name": "Jialin Wu",
+      "affiliations": ["1"],
+      "email": "NA"
+    },
+    {
+      "name": "Ibrahim Alabdulmohsin",
+      "affiliations": ["2"],
+      "email": "NA"
+    },
+    {
+      "name": "Filip Pavetic",
+      "affiliations": ["2"],
+      "email": "NA"
+    },
+    {
+      "name": "Radu Soricut",
+      "affiliations": [],
+      "email": "NA"
+    }
+  ]
+}
+
+```

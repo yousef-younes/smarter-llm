@@ -1,0 +1,39 @@
+```json
+{
+  "title": "TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION",
+  "authors": [
+    {
+      "name": "Oﬁr Press",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Facebook AI Research"],
+      "email": "ofirp@cs.washington.edu"
+    },
+    {
+      "name": "Noah A. Smith",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Mike Lewis",
+      "affiliations": ["Facebook AI Research"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+### Explanation:
+
+- **Title Extraction**: The title is extracted from the section labeled "TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION".
+  
+- **Authors and Affiliations**:
+  - **Oﬁr Press**: 
+    - Affiliations are mapped as "Paul G. Allen School of Computer Science & Engineering, University of Washington" and "Facebook AI Research".
+    - Email is provided: "ofirp@cs.washington.edu".
+  
+  - **Noah A. Smith**:
+    - Affiliations are mapped as "Paul G. Allen School of Computer Science & Engineering, University of Washington" and "Allen Institute for AI".
+    - No email address is provided, so it's marked as "NA".
+  
+  - **Mike Lewis**:
+    - Affiliation is mapped to "Facebook AI Research".
+    - No email address is provided, so it's marked as "NA".

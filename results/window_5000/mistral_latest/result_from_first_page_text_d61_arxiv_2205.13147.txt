@@ -1,0 +1,60 @@
+ {
+     "title": "Learned Representation with Adaptive Scaling (MRL)",
+     "authors": [
+       {
+         "name": "Aditya Kusupati",
+         "affiliations": ["University of Washington"],
+         "email": "{kusupati,ali}@cs.washington.edu"
+       },
+       {
+         "name": "Gantavya Bhatt",
+         "affiliations": ["University of Washington"],
+         "email": "NA"
+       },
+       {
+         "name": "Aniket Rege",
+         "affiliations": ["University of Washington"],
+         "email": "NA"
+       },
+       {
+         "name": "Matthew Wallingford",
+         "affiliations": ["University of Washington"],
+         "email": "NA"
+       },
+       {
+         "name": "Aditya Sinha",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Vivek Ramanujan",
+         "affiliations": ["University of Washington"],
+         "email": "NA"
+       },
+       {
+         "name": "William Howard-Snyder",
+         "affiliations": ["University of Washington"],
+         "email": "NA"
+       },
+       {
+         "name": "Kaifeng Chen",
+         "affiliations": ["RAIVNLab/MRL"],
+         "email": "NA"
+       },
+       {
+         "name": "Sham Kakade",
+         "affiliations": ["Harvard University"],
+         "email": "NA"
+       },
+       {
+         "name": "Prateek Jain",
+         "affiliations": ["Google Research"],
+         "email": "prajain@google.com"
+       },
+       {
+         "name": "Ali Farhadi",
+         "affiliations": ["University of Washington"],
+         "email": "{kusupati,ali}@cs.washington.edu"
+       }
+     ]
+   }

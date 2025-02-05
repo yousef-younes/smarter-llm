@@ -1,0 +1,60 @@
+To extract metadata from the provided academic paper context, let's identify the title and author information. Here is how we can structure the extracted data in JSON format:
+
+```json
+{
+  "title": "LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS",
+  "authors": [
+    {
+      "name": "Phillip Wallis",
+      "affiliations": ["Microsoft Corporation"],
+      "email": "phwallis@microsoft.com"
+    },
+    {
+      "name": "Yelong Shen",
+      "affiliations": ["Microsoft Corporation", "Carnegie Mellon University"],
+      "email": "yeshe@microsoft.com"
+    },
+    {
+      "name": "Shean Wang",
+      "affiliations": ["Microsoft Corporation"],
+      "email": "swang@microsoft.com"
+    },
+    {
+      "name": "Edward Hu",
+      "affiliations": ["Microsoft Corporation", "Carnegie Mellon University"],
+      "email": "edwardhu@microsoft.com"
+    },
+    {
+      "name": "Yuanzhi Li",
+      "affiliations": ["Microsoft Corporation", "Carnegie Mellon University"],
+      "email": "yuanzhil@microsoft.com"
+    },
+    {
+      "name": "Lu Wang",
+      "affiliations": ["Microsoft Corporation"],
+      "email": "luw@microsoft.com"
+    },
+    {
+      "name": "Weizhu Chen",
+      "affiliations": ["Microsoft Corporation"],
+      "email": "wzchen@microsoft.com"
+    },
+    {
+      "name": "Zeyuan Allen-Zhu",
+      "affiliations": ["NA"],  // No affiliation provided in the context
+      "email": "NA"           // No email provided in the context
+    }
+  ]
+}
+```
+
+### Explanation:
+
+- **Title**: Extracted directly as "LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS".
+  
+- **Authors and Affiliations**:
+  - Each author's name is listed, followed by their affiliations and email addresses.
+  - Affiliations are based on the text provided. When an author has multiple affiliations or emails, they are both included.
+  - For Zeyuan Allen-Zhu, no affiliation or email was mentioned in the context, so "NA" is used.
+
+This structured JSON format provides a clear and organized representation of the paper's metadata.

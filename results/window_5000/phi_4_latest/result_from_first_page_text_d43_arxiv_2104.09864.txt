@@ -1,0 +1,51 @@
+To extract metadata from the provided academic paper context, we need to identify key information sections such as the title of the paper and details about each author. Here's a breakdown of how this can be done:
+
+1. **Title Extraction:**
+   - The title is generally located at the beginning or end of the header section in an abstract.
+   - In this case, "ROFORMER: ENHANCED TRANSFORMER WITH ROTARY POSITION EMBEDDING" appears before the list of authors and after the keywords.
+
+2. **Authors Information Extraction:**
+   - Each author's name is followed by their affiliation and email address in the provided text.
+   - The consistent format across all entries helps map each author to their respective details correctly.
+
+Here is how this information can be structured into JSON:
+
+```json
+{
+  "title": "ROFORMER: ENHANCED TRANSFORMER WITH ROTARY POSITION EMBEDDING",
+  "authors": [
+    {
+      "name": "Jianlin Su",
+      "affiliations": ["Zhuiyi Technology Co., Ltd.", "Shenzhen"],
+      "email": "bojonesu@wezhuiyi.com"
+    },
+    {
+      "name": "Yu Lu",
+      "affiliations": ["Zhuiyi Technology Co., Ltd.", "Shenzhen"],
+      "email": "julianlu@wezhuiyi.com"
+    },
+    {
+      "name": "Shengfeng Pan",
+      "affiliations": ["Zhuiyi Technology Co., Ltd.", "Shenzhen"],
+      "email": "nickpan@wezhuiyi.com"
+    },
+    {
+      "name": "Ahmed Murtadha",
+      "affiliations": ["Zhuiyi Technology Co., Ltd.", "Shenzhen"],
+      "email": "mengjiayi@wezhuiyi.com"
+    },
+    {
+      "name": "Bo Wen",
+      "affiliations": ["Zhuiyi Technology Co., Ltd.", "Shenzhen"],
+      "email": "brucewen@wezhuiyi.com"
+    },
+    {
+      "name": "Yunfeng Liu",
+      "affiliations": ["Zhuiyi Technology Co., Ltd.", "Shenzhen"],
+      "email": "glenliu@wezhuiyi.com"
+    }
+  ]
+}
+```
+
+This JSON structure captures the title and details about each author, fulfilling the requirement to extract metadata from the paper with proper mapping of affiliations and emails. If any information was missing, we would return "NA" as specified in the constraints.

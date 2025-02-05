@@ -1,0 +1,26 @@
+Based on the provided context, here is the extracted metadata in the expected JSON format:
+
+```json
+{
+  "title": "SCICAP: Generating Captions for Scientiﬁc Figures",
+  "authors": [
+    {
+      "name": "Ting-Yao (Edward) Hsu",
+      "affiliations": ["Pennsylvania State University"],
+      "email": "txh357@psu.edu"
+    },
+    {
+      "name": "C. Lee Giles",
+      "affiliations": ["Pennsylvania State University"],
+      "email": "clg20@psu.edu"
+    },
+    {
+      "name": "Ting-Hao 'Kenneth' Huang",
+      "affiliations": ["Pennsylvania State University"],
+      "email": "txh710@psu.edu"
+    }
+  ]
+}
+```
+
+Note that I was able to extract the title, author names, affiliations, and email addresses from the provided context. If any piece of information were missing or not found, I would have returned "NA" as per the constraints.

@@ -1,0 +1,36 @@
+Based on the provided context, here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "H. Touvron",
+      "affiliations": ["Meta"],
+      "email": "htouvron@meta.com"
+    },
+    {
+      "name": "Thibaut Lav",
+      "affiliations": ["Meta"],
+      "email": "thibautlav@meta.com"
+    },
+    {
+      "name": "G. Izacard",
+      "affiliations": ["Meta"],
+      "email": "gizacard@meta.com"
+    },
+    {
+      "name": "E. Grave",
+      "affiliations": ["Meta"],
+      "email": "egrave@meta.com"
+    },
+    {
+      "name": "G. Lample",
+      "affiliations": ["Meta"],
+      "email": "glample@meta.com"
+    }
+  ]
+}
+```
+
+Note that the title of the paper is not explicitly mentioned in the provided context, so I have marked it as "NA". The authors' names and email addresses are extracted from the text, and their affiliations are assumed to be "Meta" based on the email domain. If any additional information were available, it could potentially alter these assumptions.

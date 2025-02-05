@@ -1,0 +1,77 @@
+To extract the required metadata from the provided context of an academic paper, we'll focus on identifying the title and details about each author. Here's how to proceed:
+
+1. **Identify the Title**: The title is typically at the beginning of the document or prominently displayed in a structured format.
+
+2. **Extract Author Information**:
+   - Identify each author by their name.
+   - Extract any affiliations listed for each author.
+   - Extract email addresses if provided, ensuring they are linked to the correct author.
+
+3. **Structure the Data**: Organize this information into a JSON format as specified.
+
+Given the context:
+
+- **Title Extraction**:
+  - The title is "Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning."
+
+- **Author Information Extraction**:
+  - Bryan Wang
+    - Affiliation: University of Toronto, Toronto, ON, Canada
+    - Email: bryanw@dgp.toronto.edu
+  - Zhourong Chen
+    - Affiliation: Google Research, Mountain View, CA, USA
+    - Email: zrchen@google.com
+  - Gang Li
+    - Affiliation: Google Research, Mountain View, CA, USA
+    - Email: leebird@google.com
+  - Tovi Grossman
+    - Affiliation: University of Toronto, Toronto, ON, Canada
+    - Email: tovi@dgp.toronto.edu
+  - Xin Zhou
+    - Affiliation: Google Research, Mountain View, CA, USA
+    - Email: zhouxin@google.com
+  - Yang Li
+    - Affiliation: Google Research, Mountain View, CA, USA
+    - Email: liyang@google.com
+
+Now, let's structure this information into the expected JSON format:
+
+```json
+{
+  "title": "Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning",
+  "authors": [
+    {
+      "name": "Bryan Wang",
+      "affiliations": ["University of Toronto", "Toronto, ON, Canada"],
+      "email": "bryanw@dgp.toronto.edu"
+    },
+    {
+      "name": "Zhourong Chen",
+      "affiliations": ["Google Research", "Mountain View, CA, USA"],
+      "email": "zrchen@google.com"
+    },
+    {
+      "name": "Gang Li",
+      "affiliations": ["Google Research", "Mountain View, CA, USA"],
+      "email": "leebird@google.com"
+    },
+    {
+      "name": "Tovi Grossman",
+      "affiliations": ["University of Toronto", "Toronto, ON, Canada"],
+      "email": "tovi@dgp.toronto.edu"
+    },
+    {
+      "name": "Xin Zhou",
+      "affiliations": ["Google Research", "Mountain View, CA, USA"],
+      "email": "zhouxin@google.com"
+    },
+    {
+      "name": "Yang Li",
+      "affiliations": ["Google Research", "Mountain View, CA, USA"],
+      "email": "liyang@google.com"
+    }
+  ]
+}
+```
+
+This JSON output accurately reflects the extracted metadata from the provided context.

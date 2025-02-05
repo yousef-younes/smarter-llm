@@ -1,0 +1,77 @@
+To accomplish this task, I will carefully examine the provided context to identify the necessary information for extracting metadata from the academic paper.
+
+Given the context:
+``` 
+Mandar Joshi†
+Eunsol Choi†
+Daniel S. Weld†
+Luke Zettlemoyer†‡
+† Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA
+{mandar90, eunsol, weld, lsz}@cs.washington.edu
+‡ Allen Institute for Artiﬁcial Intelligence, Seattle, WA
+lukez@allenai.org
+
+Abstract
+We present TriviaQA, a challenging
+reading comprehension dataset contain-
+ing over 650K question-answer-evidence
+triples. 
+...
+```
+And the title which can be inferred from the abstract and the content provided:
+``` 
+TriviaQA: A Large Scale Distantly Supervised Challenge Dataset
+for Reading Comprehension
+```
+
+Now, let's extract the metadata as per your request:
+
+- **Title**: TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension
+
+- **Authors**:
+  - **Mandar Joshi**:
+    - **Name**: Mandar Joshi
+    - **Affiliations**: [Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA]
+    - **Email**: mandar90@cs.washington.edu
+  - **Eunsol Choi**:
+    - **Name**: Eunsol Choi
+    - **Affiliations**: [Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA]
+    - **Email**: eunsol@cs.washington.edu
+  - **Daniel S. Weld**:
+    - **Name**: Daniel S. Weld
+    - **Affiliations**: [Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA]
+    - **Email**: weld@cs.washington.edu
+  - **Luke Zettlemoyer**:
+    - **Name**: Luke Zettlemoyer
+    - **Affiliations**: [Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA, Allen Institute for Artificial Intelligence, Seattle, WA]
+    - **Email**: lukez@allenai.org
+
+Therefore, the extracted metadata in JSON format is:
+
+```json
+{
+  "title": "TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension",
+  "authors": [
+    {
+      "name": "Mandar Joshi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA"],
+      "email": "mandar90@cs.washington.edu"
+    },
+    {
+      "name": "Eunsol Choi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA"],
+      "email": "eunsol@cs.washington.edu"
+    },
+    {
+      "name": "Daniel S. Weld",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA"],
+      "email": "weld@cs.washington.edu"
+    },
+    {
+      "name": "Luke Zettlemoyer",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA", "Allen Institute for Artificial Intelligence, Seattle, WA"],
+      "email": "lukez@allenai.org"
+    }
+  ]
+}
+```

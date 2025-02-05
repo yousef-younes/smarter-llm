@@ -1,0 +1,40 @@
+ {
+      "title": "Efﬁcient Few-Shot Learning Without Prompts",
+      "authors": [
+        {
+          "name": "Lewis Tunstall",
+          "affiliations": ["Hugging Face"],
+          "email": "firstname@huggingface.com"
+        },
+        {
+          "name": "Nils Reimers",
+          "affiliations": ["cohere.ai"],
+          "email": "info@nils-reimers.de"
+        },
+        {
+          "name": "Unso Eun Seo Jo",
+          "affiliations": ["Hugging Face"],
+          "email": "NA"
+        },
+        {
+          "name": "Luke Bates",
+          "affiliations": ["Ubiquitous Knowledge Processing Lab, Technical University of Darmstadt"],
+          "email": "bates@ukp.informatik.tu-darmstadt.de"
+        },
+        {
+          "name": "Daniel Korat",
+          "affiliations": ["Emergent AI Lab, Intel Labs"],
+          "email": "NA"
+        },
+        {
+          "name": "Moshe Wasserblat",
+          "affiliations": ["Emergent AI Lab, Intel Labs"],
+          "email": "NA"
+        },
+        {
+          "name": "Oren Pereg",
+          "affiliations": ["Emergent AI Lab, Intel Labs"],
+          "email": "NA"
+        }
+      ]
+    }

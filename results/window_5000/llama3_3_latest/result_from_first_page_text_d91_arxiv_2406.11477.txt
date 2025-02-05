@@ -1,0 +1,61 @@
+Based on the provided context, here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Ahia et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Touvron et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jiang et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Groeneveld et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Petrov et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Cui et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Balachandran",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Larcher et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Fujii et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "OpenAI",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that the title and most of the author information (including affiliations and email addresses) are not provided in the given context, so they are marked as "NA" accordingly.

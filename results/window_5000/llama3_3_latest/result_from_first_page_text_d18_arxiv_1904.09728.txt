@@ -1,0 +1,61 @@
+To fulfill your request, I will carefully extract the required metadata from the provided context.
+
+### Extracted Metadata:
+
+- **Title**: The title of the paper is not explicitly mentioned in the provided context. Therefore, it will be listed as "NA".
+- **Authors**:
+  - **Maarten Sap**:
+    - **Name**: Maarten Sap
+    - **Affiliations**: ["Allen Institute for Artificial Intelligence, Seattle, WA, USA", "Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA"]
+    - **Email**: msap@cs.washington.edu
+  - **Hannah Rashkin**:
+    - **Name**: Hannah Rashkin
+    - **Affiliations**: ["Allen Institute for Artificial Intelligence, Seattle, WA, USA", "Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA"]
+    - **Email**: hrashkin@cs.washington.edu
+  - **Derek Chen**:
+    - **Name**: Derek Chen
+    - **Affiliations**: ["Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA"]
+    - **Email**: dchen14@cs.washington.edu
+  - **Ronan Le Bras**:
+    - **Name**: Ronan Le Bras
+    - **Affiliations**: ["Allen Institute for Artificial Intelligence, Seattle, WA, USA"]
+    - **Email**: ronanlb@allenai.org
+  - **Yejin Choi**:
+    - **Name**: Yejin Choi
+    - **Affiliations**: ["Allen Institute for Artificial Intelligence, Seattle, WA, USA", "Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA"]
+    - **Email**: yejin@cs.washington.edu
+
+### JSON Output:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Maarten Sap",
+      "affiliations": ["Allen Institute for Artificial Intelligence, Seattle, WA, USA", "Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA"],
+      "email": "msap@cs.washington.edu"
+    },
+    {
+      "name": "Hannah Rashkin",
+      "affiliations": ["Allen Institute for Artificial Intelligence, Seattle, WA, USA", "Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA"],
+      "email": "hrashkin@cs.washington.edu"
+    },
+    {
+      "name": "Derek Chen",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA"],
+      "email": "dchen14@cs.washington.edu"
+    },
+    {
+      "name": "Ronan Le Bras",
+      "affiliations": ["Allen Institute for Artificial Intelligence, Seattle, WA, USA"],
+      "email": "ronanlb@allenai.org"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Allen Institute for Artificial Intelligence, Seattle, WA, USA", "Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA"],
+      "email": "yejin@cs.washington.edu"
+    }
+  ]
+}
+```

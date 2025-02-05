@@ -1,0 +1,25 @@
+ {
+      "title": "YaRN: Efficient Context Window Extension of Large Language Models",
+      "authors": [
+        {
+          "name": "Bowen Peng",
+          "affiliations": ["Nous Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Jeffrey Quesnelle",
+          "affiliations": ["Nous Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Honglu Fan",
+          "affiliations": ["EleutherAI", "University of Geneva"],
+          "email": "NA"
+        },
+        {
+          "name": "Enrico Shippole",
+          "affiliations": ["University of Geneva"],
+          "email": "NA"
+        }
+      ]
+    }

@@ -1,0 +1,38 @@
+```json
+{
+  "title": "Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements",
+  "authors": [
+    {
+      "name": "Yang Li",
+      "affiliations": ["Google Research"],
+      "email": "liyang@google.com"
+    },
+    {
+      "name": "Gang Li",
+      "affiliations": ["Google Research"],
+      "email": "leebird@google.com"
+    },
+    {
+      "name": "Luheng He",
+      "affiliations": ["Google Research"],
+      "email": "luheng@google.com"
+    },
+    {
+      "name": "Jingjie Zheng",
+      "affiliations": ["Google Research"],
+      "email": "jingjiezheng@google.com"
+    },
+    {
+      "name": "Hong Li",
+      "affiliations": ["Georgia Tech"],
+      "email": "NA"
+    },
+    {
+      "name": "Zhiwei Guan",
+      "affiliations": ["Google Research"],
+      "email": "zguan@google.com"
+    }
+  ]
+}
+
+```

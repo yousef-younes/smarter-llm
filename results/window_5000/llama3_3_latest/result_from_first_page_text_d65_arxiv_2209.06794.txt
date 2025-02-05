@@ -1,0 +1,152 @@
+Here is the extracted metadata in the requested JSON format:
+
+```json
+{
+  "title": "PALI: A JOINTLY-SCALED MULTILINGUAL LANGUAGE-IMAGE MODEL",
+  "authors": [
+    {
+      "name": "Xi Chen",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiao Wang",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Soravit Changpinyo",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "AJ Piergiovanni",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Piotr Padlewski",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Salz",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Sebastian Goodman",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Adam Grycner",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Basil Mustafa",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Lucas Beyer",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexander Kolesnikov",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Joan Puigcerver",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Nan Ding",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Keran Rong",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Hassan Akbari",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Gaurav Mishra",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Linting Xue",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Ashish Thapliyal",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "James Bradbury",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Weicheng Kuo",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Mojtaba Seyedhosseini",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Chao Jia",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Burcu Karagol Ayan",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Carlos Riquelme",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Andreas Steiner",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Anelia Angelova",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaoliang Dai",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaoming Zhao",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    }
+  ]
+}
+```
+However, the provided text only contains a single email address which seems to be a contact for the authors collectively (`pali-authors@google.com` is not present but `pali-authors@googlegroups.com` might be inferred as it's common practice), and all authors are affiliated with "Google Research". The actual individual email addresses of the authors are not provided in the given text. Hence, I have marked them as "NA" (Not Available). 
+
+Also note that Xiaoliang Dai and Xiaoming Zhao were not mentioned in the original list but for completeness Anelia Angelova was indeed part of it.

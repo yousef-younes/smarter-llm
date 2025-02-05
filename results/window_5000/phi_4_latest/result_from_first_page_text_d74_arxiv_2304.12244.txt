@@ -1,0 +1,52 @@
+```json
+{
+  "title": "WizardLM: Empowering Large Language Models to Follow Complex Instructions",
+  "authors": [
+    {
+      "name": "Pu Zhao",
+      "affiliations": ["Microsoft"],
+      "email": "puzhao@microsoft.com"
+    },
+    {
+      "name": "Can Xu",
+      "affiliations": ["Microsoft"],
+      "email": "caxu@microsoft.com"
+    },
+    {
+      "name": "Qingfeng Sun",
+      "affiliations": ["Microsoft"],
+      "email": "qins@microsoft.com"
+    },
+    {
+      "name": "Kai Zheng",
+      "affiliations": ["Microsoft"],
+      "email": "zhengkai@microsoft.com"
+    },
+    {
+      "name": "Xiubo Geng",
+      "affiliations": ["Microsoft"],
+      "email": "xigeng@microsoft.com"
+    },
+    {
+      "name": "Jiazhan Feng",
+      "affiliations": ["Peking University"],
+      "email": "fengjiazhan@pku.edu.cn"
+    },
+    {
+      "name": "Chongyang Tao",
+      "affiliations": ["Microsoft"],
+      "email": "chongyang.tao@microsoft.com"
+    },
+    {
+      "name": "Qingwei Lin",
+      "affiliations": ["Microsoft"],
+      "email": "qlin@microsoft.com"
+    },
+    {
+      "name": "Daxin Jiang",
+      "affiliations": ["Microsoft"],
+      "email": "djiang@microsoft.com"
+    }
+  ]
+}
+```

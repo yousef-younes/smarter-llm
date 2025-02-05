@@ -1,0 +1,37 @@
+ Based on the provided context, I cannot directly extract the required information as it does not contain a full research paper text. However, I can provide an example of how to structure the extracted data assuming the text contains the following information:
+
+Title: "Generative Language Models for Paragraph-Level Question Generation"
+Authors:
+1. Name: Asahi Ushio
+   Affiliations: ["Cardiff NLP", "School of Computer Science and Informatics", "Cardiff University", "UK"]
+   Email: AsahiUshio@cardiff.ac.uk
+2. Name: Fernando Alva-Manchego
+   Affiliations: ["Cardiff NLP", "School of Computer Science and Informatics", "Cardiff University", "UK"]
+   Email: FernandoAlvaManchego@cardiff.ac.uk
+3. Name: Jose Camacho-Collados
+   Affiliations: ["Cardiff NLP", "School of Computer Science and Informatics", "Cardiff University", "UK"]
+   Email: JoseCamachoCollados@cardiff.ac.uk
+
+JSON output:
+```json
+{
+  "title": "Generative Language Models for Paragraph-Level Question Generation",
+  "authors": [
+    {
+      "name": "Asahi Ushio",
+      "affiliations": ["Cardiff NLP", "School of Computer Science and Informatics", "Cardiff University", "UK"],
+      "email": "AsahiUshio@cardiff.ac.uk"
+    },
+    {
+      "name": "Fernando Alva-Manchego",
+      "affiliations": ["Cardiff NLP", "School of Computer Science and Informatics", "Cardiff University", "UK"],
+      "email": "FernandoAlvaManchego@cardiff.ac.uk"
+    },
+    {
+      "name": "Jose Camacho-Collados",
+      "affiliations": ["Cardiff NLP", "School of Computer Science and Informatics", "Cardiff University", "UK"],
+      "email": "JoseCamachoCollados@cardiff.ac.uk"
+    }
+  ]
+}
+```

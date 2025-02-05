@@ -1,0 +1,16 @@
+Based on the provided context, I will attempt to extract the metadata from the academic paper. Here is the extracted information in JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Licheng et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that the title of the paper is not explicitly mentioned in the provided context, and there is no information about the authors' affiliations or email addresses. Therefore, I have returned "NA" for these fields. The author's name is listed as "Licheng et al.", indicating that there are multiple authors, but their individual names are not specified.

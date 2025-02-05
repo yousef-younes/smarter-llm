@@ -1,0 +1,183 @@
+```json
+{
+  "title": "PaliGemma: A versatile 3B VLM for transfer",
+  "authors": [
+    {
+      "name": "Lucas Beyer",
+      "affiliations": ["Google DeepMind"],
+      "email": "lbeyer@google.com"
+    },
+    {
+      "name": "Andreas Steiner",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "André Susano Pinto",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexander Kolesnikov",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiao Wang",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Salz",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Maxim Neumann",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Ibrahim Alabdulmohsin",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Tschannen",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Emanuele Bugliarello",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Thomas Unterthiner",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Keysers",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Skanda Koppula",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Fangyu Liu",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Adam Grycner",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexey Gritsenko",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Neil Houlsby",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Manoj Kumar",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Keran Rong",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Julian Eisenschlos",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Rishabh Kabra",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Bauer",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Neumann",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiao Wang",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Keysers",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Skanda Koppula",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Fangyu Liu",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Adam Grycner",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexey Gritsenko",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Neil Houlsby",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Manoj Kumar",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Keran Rong",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Julian Eisenschlos",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Rishabh Kabra",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaoxiao Wang",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    }
+  ]
+}
+```
+Note: In this context, I've assumed all authors belong to Google DeepMind based on the provided information and email addresses given in the text. Any missing details are filled with "NA" as per the instruction.

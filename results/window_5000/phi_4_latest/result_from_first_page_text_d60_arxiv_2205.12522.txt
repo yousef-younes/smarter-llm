@@ -1,0 +1,59 @@
+To extract the required metadata from the provided context of an academic paper, we need to identify specific components: the title of the paper and details about each author including their name, affiliations, and email address.
+
+### Extracted Information:
+
+1. **Title**: The title is generally found near the beginning of a research paper abstract or introduction section. In this case:
+   - "Crossmodal-3600: A Massively Multilingual Multimodal Evaluation Dataset"
+
+2. **Authors**:
+   - From the context, we have four authors listed with their details.
+
+### Author Details:
+
+1. **Ashish V. Thapliyal**
+   - Affiliation: Google Research
+   - Email: asht@google.com
+
+2. **Jordi Pont-Tuset**
+   - Affiliation: Google Research
+   - Email: jponttuset@google.com
+
+3. **Xi Chen**
+   - Affiliation: Google Research
+   - Email: chillxichen@google.com
+
+4. **Radu Soricut**
+   - Affiliation: Google Research
+   - Email: rsoricut@google.com
+
+### JSON Structured Output:
+
+```json
+{
+  "title": "Crossmodal-3600: A Massively Multilingual Multimodal Evaluation Dataset",
+  "authors": [
+    {
+      "name": "Ashish V. Thapliyal",
+      "affiliations": ["Google Research"],
+      "email": "asht@google.com"
+    },
+    {
+      "name": "Jordi Pont-Tuset",
+      "affiliations": ["Google Research"],
+      "email": "jponttuset@google.com"
+    },
+    {
+      "name": "Xi Chen",
+      "affiliations": ["Google Research"],
+      "email": "chillxichen@google.com"
+    },
+    {
+      "name": "Radu Soricut",
+      "affiliations": ["Google Research"],
+      "email": "rsoricut@google.com"
+    }
+  ]
+}
+```
+
+This JSON output captures the title and detailed author information as per the provided context, ensuring that all extracted data is structured for easy comparison with any ground truth.

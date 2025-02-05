@@ -1,0 +1,46 @@
+Based on the provided context, here is the extracted metadata in the required JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Chen et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Dosovitskiy et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Alayrac et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Driess et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Zhai et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yu et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Thapliyal et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that the title of the paper is not explicitly mentioned in the provided context, and the authors' names are given in an et al. format, which typically indicates that there are multiple authors but only the first author's name is listed. Additionally, no affiliations or email addresses are provided for any of the authors. Therefore, "NA" is used to indicate missing information.

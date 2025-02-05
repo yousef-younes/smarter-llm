@@ -1,0 +1,29 @@
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Equal contribution",
+      "affiliations": ["OpenAI, San Francisco, CA 94110, USA"],
+      "email": "alec@openai.com"
+    },
+    {
+      "name": "Equal contribution",
+      "affiliations": ["OpenAI, San Francisco, CA 94110, USA"],
+      "email": "jongwook@openai.com"
+    }
+  ]
+}
+```
+
+### Explanation:
+
+1. **Title**: The title is not explicitly mentioned in the context provided, so it is marked as "NA".
+
+2. **Authors**:
+   - There are two authors listed under "Equal contribution" with affiliations at OpenAI.
+   - Correspondence emails are provided for both authors: `alec@openai.com` and `jongwook@openai.com`.
+
+3. **Affiliations**: Both authors share the same affiliation, which is OpenAI in San Francisco.
+
+4. **Missing Information**: Since no other author details or additional affiliations are mentioned, "NA" is used where information is absent.

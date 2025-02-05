@@ -1,0 +1,27 @@
+ ```json
+   {
+     "title": "DistilBERT: A Smaller, Faster, Cheaper, and Lighter BERT",
+     "authors": [
+       {
+         "name": "Victor SANH",
+         "affiliations": ["@huggingface.co"],
+         "email": "[victor,lysandre,julien,thomas]@huggingface.co"
+       },
+       {
+         "name": "Lysandre DEBUT",
+         "affiliations": ["@huggingface.co"],
+         "email": "[victor,lysandre,julien,thomas]@huggingface.co"
+       },
+       {
+         "name": "Julien CHAUMOND",
+         "affiliations": ["@huggingface.co"],
+         "email": "[victor,lysandre,julien,thomas]@huggingface.co"
+       },
+       {
+         "name": "Thomas WOLF",
+         "affiliations": ["@huggingface.co"],
+         "email": "[victor,lysandre,julien,thomas]@huggingface.co"
+       }
+     ]
+   }
+   ```

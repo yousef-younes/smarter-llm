@@ -1,0 +1,32 @@
+```json
+{
+  "title": "SOCIAL IQA: Commonsense Reasoning about Social Interactions",
+  "authors": [
+    {
+      "name": "Maarten Sap",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    },
+    {
+      "name": "Hannah Rashkin",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    },
+    {
+      "name": "Derek Chen",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering"],
+      "email": "NA"
+    },
+    {
+      "name": "Ronan Le Bras",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering"],
+      "email": "NA"
+    }
+  ]
+}
+```

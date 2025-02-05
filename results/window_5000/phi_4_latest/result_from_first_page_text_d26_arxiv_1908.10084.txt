@@ -1,0 +1,28 @@
+Based on the provided context from the research paper, here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+  "authors": [
+    {
+      "name": "Nils Reimers",
+      "affiliations": ["Ubiquitous Knowledge Processing Lab (UKP-TUDA)", "Department of Computer Science, Technische Universität Darmstadt"],
+      "email": "NA"
+    },
+    {
+      "name": "Iryna Gurevych",
+      "affiliations": ["Ubiquitous Knowledge Processing Lab (UKP-TUDA)", "Department of Computer Science, Technische Universität Darmstadt"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+### Explanation:
+- **Title**: Extracted from the repeated title in the context.
+- **Authors**:
+  - **Nils Reimers**: Affiliations and name are provided. Email is not available, so it's marked as "NA".
+  - **Iryna Gurevych**: Similarly, affiliations and name are given with email information missing.
+- The affiliations for both authors are the same, based on the context provided.
+
+This JSON structure adheres to the constraints and expected output format specified.

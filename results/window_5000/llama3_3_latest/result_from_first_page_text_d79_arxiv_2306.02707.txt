@@ -1,0 +1,68 @@
+To extract the metadata from the provided academic paper text and structure it in the requested JSON format, I will follow the instructions carefully. Here is the extracted information:
+
+- **Title**: The title of the paper is "Orca: Progressive Learning from Complex Explanation Traces of GPT-4".
+- **Authors**:
+  - **Subhabrata Mukherjee**:
+    - **Name**: Subhabrata Mukherjee
+    - **Affiliations**: Microsoft Research
+    - **Email**: subhabrata.mukherjee@microsoft.com
+  - **Arindam Mitra**:
+    - **Name**: Arindam Mitra
+    - **Affiliations**: Microsoft Research
+    - **Email**: NA (since the email address is not provided for this author)
+  - **Ganesh Jawahar**:
+    - **Name**: Ganesh Jawahar
+    - **Affiliations**: Microsoft Research
+    - **Email**: NA
+  - **Sahaj Agarwal**:
+    - **Name**: Sahaj Agarwal
+    - **Affiliations**: Microsoft Research
+    - **Email**: NA
+  - **Hamid Palangi**:
+    - **Name**: Hamid Palangi
+    - **Affiliations**: Microsoft Research
+    - **Email**: NA
+  - **Ahmed Awadallah**:
+    - **Name**: Ahmed Awadallah
+    - **Affiliations**: Microsoft Research
+    - **Email**: NA
+
+Given the constraints and the expected output format, here is the structured JSON output:
+
+```json
+{
+  "title": "Orca: Progressive Learning from Complex Explanation Traces of GPT-4",
+  "authors": [
+    {
+      "name": "Subhabrata Mukherjee",
+      "affiliations": ["Microsoft Research"],
+      "email": "subhabrata.mukherjee@microsoft.com"
+    },
+    {
+      "name": "Arindam Mitra",
+      "affiliations": ["Microsoft Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Ganesh Jawahar",
+      "affiliations": ["Microsoft Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Sahaj Agarwal",
+      "affiliations": ["Microsoft Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Hamid Palangi",
+      "affiliations": ["Microsoft Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Ahmed Awadallah",
+      "affiliations": ["Microsoft Research"],
+      "email": "NA"
+    }
+  ]
+}
+```

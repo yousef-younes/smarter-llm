@@ -1,0 +1,70 @@
+ {
+     "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+     "authors": [
+       {
+         "name": "Lianmin Zheng",
+         "affiliations": ["UC Berkeley"],
+         "email": "NA"
+       },
+       {
+         "name": "Wei-Lin Chiang",
+         "affiliations": ["UC Berkeley"],
+         "email": "NA"
+       },
+       {
+         "name": "Ying Sheng",
+         "affiliations": ["Stanford"],
+         "email": "NA"
+       },
+       {
+         "name": "Siyuan Zhuang",
+         "affiliations": ["UC Berkeley"],
+         "email": "NA"
+       },
+       {
+         "name": "Zhanghao Wu",
+         "affiliations": ["UC Berkeley"],
+         "email": "NA"
+       },
+       {
+         "name": "Yonghao Zhuang",
+         "affiliations": ["Carnegie Mellon University"],
+         "email": "NA"
+       },
+       {
+         "name": "Zi Lin",
+         "affiliations": ["UC San Diego"],
+         "email": "NA"
+       },
+       {
+         "name": "Zhuohan Li",
+         "affiliations": ["UC Berkeley"],
+         "email": "NA"
+       },
+       {
+         "name": "Dacheng Li",
+         "affiliations": ["UC Berkeley, 3 Carnegie Mellon University"],
+         "email": "NA"
+       },
+       {
+         "name": "Eric P. Xing",
+         "affiliations": ["Carnegie Mellon University, 5 MBZUAI"],
+         "email": "NA"
+       },
+       {
+         "name": "Hao Zhang",
+         "affiliations": ["UC Berkeley, 2 UC San Diego"],
+         "email": "NA"
+       },
+       {
+         "name": "Joseph E. Gonzalez",
+         "affiliations": ["UC Berkeley"],
+         "email": "NA"
+       },
+       {
+         "name": "Ion Stoica",
+         "affiliations": ["UC Berkeley"],
+         "email": "NA"
+       }
+     ]
+   }

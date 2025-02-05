@@ -1,0 +1,16 @@
+Based on the provided context, here is the extracted metadata in the required JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "NA",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that since the provided context does not contain any information about the title, author names, affiliations, or email addresses, all fields are filled with "NA" as per the given constraints.

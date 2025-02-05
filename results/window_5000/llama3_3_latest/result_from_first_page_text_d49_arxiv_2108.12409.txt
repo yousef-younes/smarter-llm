@@ -1,0 +1,26 @@
+To fulfill your request, I will carefully extract the required metadata from the provided academic paper context. Here's the extracted information in the specified JSON format:
+
+```json
+{
+  "title": "TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION",
+  "authors": [
+    {
+      "name": "Oﬁr Press",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Facebook AI Research"],
+      "email": "ofirp@cs.washington.edu"
+    },
+    {
+      "name": "Noah A. Smith",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Mike Lewis",
+      "affiliations": ["Facebook AI Research"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Please note that the email address for Noah A. Smith and Mike Lewis is not provided in the given context, so it is marked as "NA" according to the instructions.

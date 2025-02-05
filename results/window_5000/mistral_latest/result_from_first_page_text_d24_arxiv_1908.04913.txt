@@ -1,0 +1,17 @@
+ ```json
+   {
+     "title": "A Balanced Face Attribute Dataset for Fair Representation",
+     "authors": [
+       {
+         "name": "Kimmo K\"arkk\"ainen",
+         "affiliations": ["UCLA"],
+         "email": "kimmo@cs.ucla.edu"
+       },
+       {
+         "name": "Jungseock Joo",
+         "affiliations": ["UCLA"],
+         "email": "jjoo@comm.ucla.edu"
+       }
+     ]
+   }
+   ```

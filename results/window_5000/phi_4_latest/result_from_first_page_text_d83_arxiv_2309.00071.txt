@@ -1,0 +1,66 @@
+To extract metadata from the provided research paper context, we need to identify the title of the paper and details about each author. Let's break down the information step-by-step:
+
+### Title Extraction
+
+The abstract section begins with a description of the work, which is titled "YaRN: Efficient Context Window Extension of Large Language Models."
+
+### Author Information Extraction
+
+From the context provided:
+
+1. **Bowen Peng**
+   - Affiliations: Nous Research
+   - Email: Not explicitly mentioned in the provided text.
+
+2. **Jeffrey Quesnelle**
+   - Affiliations: Nous Research
+   - Email: Not explicitly mentioned, but a Reddit handle and GitHub username are given:
+     - Reddit: /u/bloc97
+     - GitHub: bloc97
+
+3. **Honglu Fan**
+   - Affiliations: EleutherAI
+   - Email: Not provided.
+
+4. **Enrico Shippole**
+   - Affiliations: University of Geneva
+   - Contact details:
+     - Reddit: /u/emozilla
+     - X (Twitter): @theemozilla
+     - GitHub: jquesnelle
+
+Given the constraints, if any detail is missing, we return "NA."
+
+### JSON Output
+
+Here's the structured JSON output based on the extracted information:
+
+```json
+{
+  "title": "YaRN: Efficient Context Window Extension of Large Language Models",
+  "authors": [
+    {
+      "name": "Bowen Peng",
+      "affiliations": ["Nous Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Jeffrey Quesnelle",
+      "affiliations": ["Nous Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Honglu Fan",
+      "affiliations": ["EleutherAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Enrico Shippole",
+      "affiliations": ["University of Geneva"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+This JSON structure captures the title and author details as specified, with missing information noted as "NA."

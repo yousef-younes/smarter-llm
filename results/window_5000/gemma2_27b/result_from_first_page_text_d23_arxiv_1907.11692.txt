@@ -1,0 +1,57 @@
+```json
+{
+  "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+  "authors": [
+    {
+      "name": "Yinhan Liu",
+      "affiliations": ["Facebook AI"],
+      "email": "yinhanliu@fb.com"
+    },
+    {
+      "name": "Myle Ott",
+      "affiliations": ["Facebook AI"],
+      "email": "myleott@fb.com"
+    },
+    {
+      "name": "Naman Goyal",
+      "affiliations": ["Facebook AI"],
+      "email": "naman@fb.com"
+    },
+    {
+      "name": "Jingfei Du",
+      "affiliations": ["Facebook AI"],
+      "email": "jingfeidu@fb.com"
+    },
+    {
+      "name": "Mandar Joshi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, WA"],
+      "email": "mandar90@cs.washington.edu"
+    },
+    {
+      "name": "Danqi Chen",
+      "affiliations": ["Facebook AI"],
+      "email": "danqi@fb.com"
+    },
+    {
+      "name": "Omer Levy",
+      "affiliations": ["Facebook AI"],
+      "email": "omerlevy@fb.com"
+    },
+    {
+      "name": "Mike Lewis",
+      "affiliations": ["Facebook AI"],
+      "email": "mikelewis@fb.com"
+    },
+    {
+      "name": "Luke Zettlemoyer",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, WA"],
+      "email": "lsz@cs.washington.edu"
+    },
+    {
+      "name": "Veselin Stoyanov",
+      "affiliations": ["Facebook AI"],
+      "email": "ves@fb.com"
+    }
+  ]
+}
+```

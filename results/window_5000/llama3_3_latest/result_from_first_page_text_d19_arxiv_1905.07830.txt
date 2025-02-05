@@ -1,0 +1,36 @@
+Based on the provided context, I will extract the metadata from the academic paper. Here is the extracted information in the expected JSON format:
+
+```json
+{
+  "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+  "authors": [
+    {
+      "name": "Rowan Zellers",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Ari Holtzman",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Yonatan Bisk",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Ali Farhadi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artiﬁcial Intelligence"],
+      "email": "NA"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artiﬁcial Intelligence"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that the email addresses are not provided in the given context, so I have filled them with "NA" as per the constraints. Also, the affiliations are correctly mapped to the corresponding authors based on the provided information.

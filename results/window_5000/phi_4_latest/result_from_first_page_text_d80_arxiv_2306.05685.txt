@@ -1,0 +1,88 @@
+To extract metadata from the provided academic paper context, I will identify the title and author information as follows:
+
+### Extracted Information
+
+1. **Title**: 
+   - "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena"
+
+2. **Authors and Affiliations**:
+   - Each author is listed along with their respective affiliations.
+
+Here's the structured JSON output based on the extracted data:
+
+```json
+{
+  "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+  "authors": [
+    {
+      "name": "Lianmin Zheng",
+      "affiliations": ["UC Berkeley"],
+      "email": "NA"
+    },
+    {
+      "name": "Wei-Lin Chiang",
+      "affiliations": ["UC Berkeley"],
+      "email": "NA"
+    },
+    {
+      "name": "Ying Sheng",
+      "affiliations": ["Stanford"],
+      "email": "NA"
+    },
+    {
+      "name": "Siyuan Zhuang",
+      "affiliations": ["UC Berkeley"],
+      "email": "NA"
+    },
+    {
+      "name": "Zhanghao Wu",
+      "affiliations": ["UC Berkeley"],
+      "email": "NA"
+    },
+    {
+      "name": "Yonghao Zhuang",
+      "affiliations": ["Carnegie Mellon University"],
+      "email": "NA"
+    },
+    {
+      "name": "Zi Lin",
+      "affiliations": ["UC San Diego"],
+      "email": "NA"
+    },
+    {
+      "name": "Zhuohan Li",
+      "affiliations": ["UC Berkeley"],
+      "email": "NA"
+    },
+    {
+      "name": "Dacheng Li",
+      "affiliations": ["MBZUAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Eric P. Xing",
+      "affiliations": ["MBZUAI", "UC San Diego"],
+      "email": "NA"
+    },
+    {
+      "name": "Hao Zhang",
+      "affiliations": ["UC San Diego"],
+      "email": "NA"
+    },
+    {
+      "name": "Joseph E. Gonzalez",
+      "affiliations": ["UC Berkeley"],
+      "email": "NA"
+    },
+    {
+      "name": "Ion Stoica",
+      "affiliations": ["UC Berkeley"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+### Notes:
+- The email addresses are not provided in the context, so they are marked as "NA".
+- Each author is associated with their respective affiliations based on the provided list.

@@ -1,0 +1,58 @@
+Based on the provided context, I will attempt to extract the required metadata. However, please note that the context does not contain explicit author information, affiliations, or email addresses.
+
+Here is the extracted metadata in the expected JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Achille et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Bassignana et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Li et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Nguyen et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tran et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Vu et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Poth et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "You et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Phang et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that the title is not explicitly mentioned in the context, and author information is only available in the form of citations (e.g., "Achille et al."). Affiliations and email addresses are not present in the context. Therefore, most fields contain "NA" to indicate missing or unavailable information.

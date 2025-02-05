@@ -1,0 +1,45 @@
+ {
+      "title": "BBQ: A Hand-Built Bias Benchmark for Question Answering",
+      "authors": [
+        {
+          "name": "Alicia Parrish",
+          "affiliations": ["New York University, Dept. of Linguistics", "New York University, Center for Data Science"],
+          "email": "alicia.v.parrish@nyu.edu"
+        },
+        {
+          "name": "Angelica Chen",
+          "affiliations": ["New York University, Center for Data Science"],
+          "email": "NA"
+        },
+        {
+          "name": "Nikita Nangia",
+          "affiliations": ["New York University, Center for Data Science"],
+          "email": "NA"
+        },
+        {
+          "name": "Vishakh Padmakumar",
+          "affiliations": ["New York University, Center for Data Science"],
+          "email": "NA"
+        },
+        {
+          "name": "Jason Phang",
+          "affiliations": ["New York University, Center for Data Science"],
+          "email": "NA"
+        },
+        {
+          "name": "Jana Thompson",
+          "affiliations": ["New York University, Center for Data Science"],
+          "email": "NA"
+        },
+        {
+          "name": "Phu Mon Htut",
+          "affiliations": ["New York University, Center for Data Science"],
+          "email": "NA"
+        },
+        {
+          "name": "Samuel R. Bowman",
+          "affiliations": ["New York University, Dept. of Linguistics", "New York University, Center for Data Science", "New York University, Dept. of Computer Science"],
+          "email": "bowman@nyu.edu"
+        }
+      ]
+    }

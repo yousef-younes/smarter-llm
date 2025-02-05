@@ -1,0 +1,90 @@
+To extract the metadata from the provided academic paper context, we'll follow these steps:
+
+1. **Identify the Title**: Locate the title within the text. It's usually emphasized or appears before author information.
+
+2. **Extract Author Information**:
+   - Identify each author's name.
+   - Determine their affiliations and email addresses if available.
+   - Ensure that multiple affiliations are correctly associated with authors when applicable.
+
+3. **Format the Output**: Structure the extracted data in JSON format as specified, ensuring to use "NA" where information is missing.
+
+Here's the structured JSON output based on the provided context:
+
+```json
+{
+  "title": "AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE",
+  "authors": [
+    {
+      "name": "Alexey Dosovitskiy",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "adosovitskiy@google.com"
+    },
+    {
+      "name": "Lucas Beyer",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexander Kolesnikov",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Dirk Weissenborn",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaohua Zhai",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Thomas Unterthiner",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Mostafa Dehghani",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Minderer",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Georg Heigold",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Sylvain Gelly",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Jakob Uszkoreit",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Neil Houlsby",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "neilhoulsby@google.com"
+    }
+  ]
+}
+```
+
+### Explanation:
+
+- **Title**: Extracted from the repeated text before author details.
+  
+- **Authors and Affiliations**:
+  - All authors are affiliated with "Google Research, Brain Team".
+  - Email addresses are provided for Alexey Dosovitskiy and Neil Houlsby. Other authors do not have email information available in the context.
+
+- **Handling Missing Information**: For missing emails or any other details, "NA" is used as specified.

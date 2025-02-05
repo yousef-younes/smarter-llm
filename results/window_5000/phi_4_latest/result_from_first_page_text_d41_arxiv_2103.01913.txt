@@ -1,0 +1,38 @@
+To extract metadata from the provided academic paper context, I'll identify the title and author details such as names, affiliations, and email addresses. Here is the extracted information in the required JSON format:
+
+```json
+{
+  "title": "Wikipedia-based Image Text Dataset for Multimodal Multilingual Machine Learning",
+  "authors": [
+    {
+      "name": "Krishna Srinivasan",
+      "affiliations": ["Google"],
+      "email": "krishnaps@google.com"
+    },
+    {
+      "name": "Karthik Raman",
+      "affiliations": ["Google"],
+      "email": "karthikraman@google.com"
+    },
+    {
+      "name": "Jiecao Chen",
+      "affiliations": ["Google"],
+      "email": "chenjiecao@google.com"
+    },
+    {
+      "name": "Michael Bendersky",
+      "affiliations": ["Google"],
+      "email": "bemike@google.com"
+    },
+    {
+      "name": "Marc Najork",
+      "affiliations": ["Google"],
+      "email": "najork@google.com"
+    }
+  ]
+}
+```
+
+### Explanation:
+- **Title**: Extracted directly from the context.
+- **Authors**: Each author is listed with their name, affiliation ("Google" for all authors), and email address provided in the context. If any information was missing (e.g., an email or affiliation not specified for a particular author), "NA" would be used instead, but here all details are present.

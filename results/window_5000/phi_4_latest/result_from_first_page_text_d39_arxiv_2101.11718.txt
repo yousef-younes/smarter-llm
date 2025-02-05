@@ -1,0 +1,68 @@
+To extract the requested metadata from the academic paper context provided, we need to identify specific elements: the title of the paper, and details about each author, including their name, affiliations, and email address.
+
+### Extracted Information:
+
+1. **Title**: The title is explicitly mentioned in both the text and under the ACM Reference Format section. It is "BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation."
+
+2. **Authors**: We find a list of authors along with some additional details:
+   - Jwala Dhamala
+   - Satyapriya Krishna
+   - Tony Sun (marked as equal contribution)
+   - Yada Pruksachatkun
+   - Rahul Gupta
+   - Varun Kumar
+   - Kai-Wei Chang
+
+3. **Affiliations**:
+   - Each author is associated with "Amazon Alexa AI-NU, USA", except for Tony Sun and Kai-Wei Chang, who also have additional affiliations.
+     - Tony Sun: "UC Santa Barbara" and "UCLA"
+     - Kai-Wei Chang: "UCLA"
+
+4. **Email Addresses**: No email addresses are provided in the context.
+
+### Structured JSON Output:
+
+```json
+{
+  "title": "BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation",
+  "authors": [
+    {
+      "name": "Jwala Dhamala",
+      "affiliations": ["Amazon Alexa AI-NU, USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Satyapriya Krishna",
+      "affiliations": ["Amazon Alexa AI-NU, USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tony Sun",
+      "affiliations": ["UC Santa Barbara", "UCLA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yada Pruksachatkun",
+      "affiliations": ["Amazon Alexa AI-NU, USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Rahul Gupta",
+      "affiliations": ["Amazon Alexa AI-NU, USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Varun Kumar",
+      "affiliations": ["Amazon Alexa AI-NU, USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Kai-Wei Chang",
+      "affiliations": ["UCLA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+This JSON structure provides a clear and concise representation of the extracted metadata as per the constraints and requirements given.

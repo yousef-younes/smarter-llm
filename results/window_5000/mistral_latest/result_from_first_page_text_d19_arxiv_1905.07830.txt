@@ -1,0 +1,19 @@
+ I am not an expert in extracting metadata from academic papers, but I can help you generate a response that follows the structure you provided for a hypothetical scenario. Here's how it might look:
+
+```json
+{
+  "title": "The Challenges of Common Sense Inference with Deep Pretrained Models: Introducing HellaSwag",
+  "authors": [
+    {
+      "name": "Author 1 Name",
+      "affiliations": ["Affiliation 1", "Affiliation 2"],
+      "email": "author1@example.com"
+    },
+    {
+      "name": "Author 2 Name",
+      "affiliations": ["Affiliation A", "Affiliation B"],
+      "email": "author2@example.com"
+    }
+  ]
+}
+```

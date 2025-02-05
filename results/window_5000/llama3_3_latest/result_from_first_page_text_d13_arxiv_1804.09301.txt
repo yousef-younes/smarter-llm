@@ -1,0 +1,61 @@
+Based on the provided context, here is the extracted metadata in the expected JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Wapman",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Belle",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Caliskan",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Barocas",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Selbst",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Hovy",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Spruit",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Levesque",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Lee",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Rudinger",
+      "affiliations": "NA",
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that the title is not explicitly mentioned in the provided context, and author affiliations and email addresses are also not available. Therefore, these fields are filled with "NA" as per the constraints.

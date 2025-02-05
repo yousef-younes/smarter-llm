@@ -1,0 +1,162 @@
+```json
+{
+  "title": "Language Models are Few-Shot Learners",
+  "authors": [
+    {
+      "name": "Tom B. Brown",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Benjamin Mann",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Nick Ryder",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Melanie Subbiah",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Jared Kaplan",
+      "affiliations": ["Johns Hopkins University, OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Prafulla Dhariwal",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Arvind Neelakantan",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Pranav Shyam",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Girish Sastry",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Amanda Askell",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Sandhini Agarwal",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Ariel Herbert-Voss",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Gretchen Krueger",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Tom Henighan",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Rewon Child",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Aditya Ramesh",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel M. Ziegler",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Jeffrey Wu",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Clemens Winter",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Christopher Hesse",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Mark Chen",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Eric Sigler",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Mateusz Litwin",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Scott Gray",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Benjamin Chess",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Jack Clark",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Christopher Berner",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Sam McCandlish",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Alec Radford",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Ilya Sutskever",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Dario Amodei",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    }
+  ]
+}
+```

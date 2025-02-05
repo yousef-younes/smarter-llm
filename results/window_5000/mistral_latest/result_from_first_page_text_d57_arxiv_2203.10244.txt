@@ -1,0 +1,34 @@
+ Based on the provided context, there is no specific research paper text given to extract metadata from. However, I can provide an example of how to structure the extracted information from the author names and affiliations in the context.
+
+   ```json
+   {
+     "title": "ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning",
+     "authors": [
+       {
+         "name": "Ahmed Masry",
+         "affiliations": ["York University, Canada"],
+         "email": "masry2@yorku.ca" // Inferred from masry2@yorku.ca in the context
+       },
+       {
+         "name": "Do Xuan Long",
+         "affiliations": ["Nanyang Technological University, Singapore"],
+         "email": "xuanlong001@e.ntu.edu.sg" // Inferred from xuanlong001@e.ntu.edu.sg in the context
+       },
+       {
+         "name": "Jia Qing Tan",
+         "affiliations": ["Nanyang Technological University, Singapore"],
+         "email": "C190022@e.ntu.edu.sg" // Inferred from C190022@e.ntu.edu.sg in the context
+       },
+       {
+         "name": "Shaﬁq Joty",
+         "affiliations": ["Nanyang Technological University, Singapore"],
+         "email": "srjoty@ntu.edu.sg" // Inferred from srjoty@ntu.edu.sg in the context
+       },
+       {
+         "name": "Enamul Hoque",
+         "affiliations": ["York University, Canada"],
+         "email": "NA" // No email address was provided for this author
+       }
+     ]
+   }
+   ```

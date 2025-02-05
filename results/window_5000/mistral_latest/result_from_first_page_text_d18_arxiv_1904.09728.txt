@@ -1,0 +1,34 @@
+ Based on the provided context, here's an example of how the metadata could be extracted for this specific academic paper:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Maarten Sap",
+      "affiliations": ["Allen Institute for Artificial Intelligence, Seattle, WA, USA"],
+      "email": "{msap}@cs.washington.edu"
+    },
+    {
+      "name": "Hannah Rashkin",
+      "affiliations": ["Allen Institute for Artificial Intelligence, Seattle, WA, USA"],
+      "email": "{hrashkin}@cs.washington.edu"
+    },
+    {
+      "name": "Derek Chen",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, Seattle, WA, USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ronan Le Bras",
+      "affiliations": ["Allen Institute for Artificial Intelligence, Seattle, WA, USA"],
+      "email": "{ronanlb}@allenai.org"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Allen Institute for Artificial Intelligence, Seattle, WA, USA"],
+      "email": "NA"
+    }
+  ]
+}
+```

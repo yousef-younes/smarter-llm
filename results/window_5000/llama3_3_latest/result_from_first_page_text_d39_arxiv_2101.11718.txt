@@ -1,0 +1,46 @@
+Here is the extracted metadata in the required JSON format:
+
+```json
+{
+  "title": "BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation",
+  "authors": [
+    {
+      "name": "Jwala Dhamala",
+      "affiliations": ["Amazon Alexa AI-NU", "USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tony Sun",
+      "affiliations": ["UC Santa Barbara", "USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Satyapriya Krishna",
+      "affiliations": ["Amazon Alexa AI-NU", "USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yada Pruksachatkun",
+      "affiliations": ["Amazon Alexa AI-NU", "USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Rahul Gupta",
+      "affiliations": ["Amazon Alexa AI-NU", "USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Varun Kumar",
+      "affiliations": ["Amazon Alexa AI-NU", "USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Kai-Wei Chang",
+      "affiliations": ["Amazon Alexa AI-NU", "UCLA", "USA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that the email addresses are not provided in the given text, so they are all marked as "NA". Also, the affiliations include both the organization and the country, as per the given text.

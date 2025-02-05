@@ -1,0 +1,16 @@
+Based on the provided context, here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "NA",
+      "affiliations": ["Microsoft"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that the title and author names are not explicitly mentioned in the provided context. The affiliation "Microsoft" is inferred from the GitHub repository URL (`https://github.com/microsoft/LoRA`) mentioned in the text, but it's not a direct mention of an author's affiliation. Since no email addresses or explicit author names are found, they are returned as "NA".

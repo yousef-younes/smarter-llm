@@ -1,0 +1,52 @@
+ ```json
+    {
+      "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+      "authors": [
+        {
+          "name": "Colin Raffel",
+          "affiliations": ["Google, Mountain View, CA 94043, USA"],
+          "email": "craffel@gmail.com"
+        },
+        {
+          "name": "Noam Shazeer",
+          "affiliations": ["Google, Mountain View, CA 94043, USA"],
+          "email": "noam@google.com"
+        },
+        {
+          "name": "Adam Roberts",
+          "affiliations": ["Google, Mountain View, CA 94043, USA"],
+          "email": "adarob@google.com"
+        },
+        {
+          "name": "Katherine Lee",
+          "affiliations": ["Google, Mountain View, CA 94043, USA"],
+          "email": "katherinelee@google.com"
+        },
+        {
+          "name": "Sharan Narang",
+          "affiliations": ["Google, Mountain View, CA 94043, USA"],
+          "email": "sharannarang@google.com"
+        },
+        {
+          "name": "Michael Matena",
+          "affiliations": ["Google, Mountain View, CA 94043, USA"],
+          "email": "mmatena@google.com"
+        },
+        {
+          "name": "Yanqi Zhou",
+          "affiliations": ["Google, Mountain View, CA 94043, USA"],
+          "email": "yanqiz@google.com"
+        },
+        {
+          "name": "Wei Li",
+          "affiliations": ["Google, Mountain View, CA 94043, USA"],
+          "email": "mweili@google.com"
+        },
+        {
+          "name": "Peter J. Liu",
+          "affiliations": ["Google, Mountain View, CA 94043, USA"],
+          "email": "peterjliu@google.com"
+        }
+      ]
+    }
+   ```

@@ -1,0 +1,87 @@
+ ```json
+    {
+      "title": "PaLI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",
+      "authors": [
+        {
+          "name": "Xiao Wang",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Lucas Beyer",
+          "affiliations": ["Google DeepMind"],
+          "email": "NA"
+        },
+        {
+          "name": "Xi Chen",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Paul Voigtlaender",
+          "affiliations": ["Basil Mustafa"],
+          "email": "NA"
+        },
+        {
+          "name": "Piotr Padlewski",
+          "affiliations": ["Daniel Salz"],
+          "email": "NA"
+        },
+        {
+          "name": "Daniel Salz",
+          "affiliations": ["Xi Xiong"],
+          "email": "NA"
+        },
+        {
+          "name": "Daniel Vlasic",
+          "affiliations": ["Google Cloud"],
+          "email": "NA"
+        },
+        {
+          "name": "Keran Rong",
+          "affiliations": ["Tianli Yu"],
+          "email": "NA"
+        },
+        {
+          "name": "Tianli Yu",
+          "affiliations": ["Daniel Keysers"],
+          "email": "NA"
+        },
+        {
+          "name": "Xiaohua Zhai",
+          "affiliations": ["NA"],
+          "email": "NA"
+        },
+        {
+          "name": "Alexander Kolesnikov",
+          "affiliations": ["Google DeepMind"],
+          "email": "NA"
+        },
+        {
+          "name": "Sebastian Goodman",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Jialin Wu",
+          "affiliations": ["Google Cloud"],
+          "email": "NA"
+        },
+        {
+          "name": "Ibrahim Alabdulmohsin",
+          "affiliations": ["Google DeepMind"],
+          "email": "NA"
+        },
+        {
+          "name": "Filip Pavetic",
+          "affiliations": ["Google DeepMind"],
+          "email": "NA"
+        },
+        {
+          "name": "NA",
+          "affiliations": ["Project leads"],
+          "email": "NA"
+        }
+      ]
+    }
+   ```

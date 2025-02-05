@@ -1,0 +1,27 @@
+To extract the metadata from the provided academic paper text, we'll follow the guidelines and constraints specified.
+
+1. **Title Extraction**: The title of the paper is "Fast Transformer Decoding: One Write-Head is All You Need".
+
+2. **Author Information Extraction**:
+   - **Name**: Noam Shazeer
+   - **Affiliation(s)**: Google
+   - **Email address**: noam@google.com
+
+Given that there's only one author mentioned in the text, we will create a JSON object with this information.
+
+### Extracted Metadata in JSON Format:
+
+```json
+{
+  "title": "Fast Transformer Decoding: One Write-Head is All You Need",
+  "authors": [
+    {
+      "name": "Noam Shazeer",
+      "affiliations": ["Google"],
+      "email": "noam@google.com"
+    }
+  ]
+}
+```
+
+This JSON object adheres to the expected output format, providing the title of the paper and detailed information about the author, including name, affiliation, and email address.

@@ -1,0 +1,113 @@
+```json
+{
+  "title": "PaliGemma: A versatile 3B VLM for transfer",
+  "authors": [
+    {
+      "name": "Lucas Beyer",
+      "affiliations": ["Google DeepMind"],
+      "email": "lbeyer@google.com"
+    },
+    {
+      "name": "Andreas Steiner",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "André Susano Pinto",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexander Kolesnikov",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiao Wang",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Salz",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Maxim Neumann",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Ibrahim Alabdulmohsin",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Tschannen",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Emanuele Bugliarello",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Thomas Unterthiner",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Keysers",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Skanda Koppula",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Fangyu Liu",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Adam Grycner",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexey Gritsenko",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Neil Houlsby",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Manoj Kumar",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Keran Rong",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaoxiao Guo",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaofeng Yang",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    }
+
+  ]
+}
+```

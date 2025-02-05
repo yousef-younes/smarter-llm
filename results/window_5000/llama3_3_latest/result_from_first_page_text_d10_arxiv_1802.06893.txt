@@ -1,0 +1,36 @@
+Based on the provided context, I will attempt to extract the metadata. Here is the extracted information in the expected JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "egrave",
+      "affiliations": ["NA"],
+      "email": "egrave@fb.com"
+    },
+    {
+      "name": "bojanowski",
+      "affiliations": ["NA"],
+      "email": "bojanowski@fb.com"
+    },
+    {
+      "name": "ajoulin",
+      "affiliations": ["NA"],
+      "email": "ajoulin@fb.com"
+    },
+    {
+      "name": "tmikolov",
+      "affiliations": ["NA"],
+      "email": "tmikolov@fb.com"
+    },
+    {
+      "name": "prakhar.gupta",
+      "affiliations": ["epfl.ch"],
+      "email": "prakhar.gupta@epfl.ch"
+    }
+  ]
+}
+```
+
+Please note that I was unable to find the title of the paper in the provided context, so I returned "NA" for the title. Additionally, the affiliations for most authors were not explicitly mentioned, so I also returned "NA" for those. However, one author's affiliation ("epfl.ch") could be inferred from their email address.

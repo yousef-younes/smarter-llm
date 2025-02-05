@@ -1,0 +1,39 @@
+```json
+{
+  "title": "Orca: Progressive Learning from Complex Explanation Traces of GPT-4",
+  "authors": [
+    {
+      "name": "Subhabrata Mukherjee",
+      "affiliations": ["Microsoft Research"],
+      "email": "subhabrata.mukherjee@microsoft.com"
+    },
+    {
+      "name": "Arindam Mitra",
+      "affiliations": ["Microsoft Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Ganesh Jawahar",
+      "affiliations": ["Microsoft Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Sahaj Agarwal",
+      "affiliations": ["Microsoft Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Hamid Palangi",
+      "affiliations": ["Microsoft Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Ahmed Awadallah",
+      "affiliations": ["Microsoft Research"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+This JSON output includes the title of the paper and details for each author, such as their name, affiliations, and email address (if provided). Affiliations are correctly mapped to all authors mentioned under Microsoft Research. If an email or any other information is not available, "NA" is used as specified.

@@ -1,0 +1,41 @@
+```json
+{
+  "title": "SCICAP: Generating Captions for Scientific Figures",
+  "authors": [
+    {
+      "name": "Ting-Yao (Edward) Hsu",
+      "affiliations": ["Pennsylvania State University"],
+      "email": "txh357@psu.edu"
+    },
+    {
+      "name": "C. Lee Giles",
+      "affiliations": ["Pennsylvania State University"],
+      "email": "clg20@psu.edu"
+    },
+    {
+      "name": "Ting-Hao ‘Kenneth’ Huang",
+      "affiliations": ["Pennsylvania State University"],
+      "email": "txh710@psu.edu"
+    }
+  ]
+}
+```
+
+### Explanation:
+
+- **Title**: The title is explicitly mentioned at the beginning of the context as "SCICAP: Generating Captions for Scientific Figures".
+  
+- **Authors**:
+  - **Ting-Yao (Edward) Hsu**: 
+    - Affiliation: Pennsylvania State University
+    - Email: txh357@psu.edu
+  
+  - **C. Lee Giles**: 
+    - Affiliation: Pennsylvania State University
+    - Email: clg20@psu.edu
+
+  - **Ting-Hao ‘Kenneth’ Huang**:
+    - Affiliation: Pennsylvania State University
+    - Email: txh710@psu.edu
+
+Each author is associated with the same affiliation, and their email addresses are provided in the context. All required information was present, so no "NA" placeholders were necessary for this case.

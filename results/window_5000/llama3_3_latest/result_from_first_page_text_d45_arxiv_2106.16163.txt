@@ -1,0 +1,124 @@
+To fulfill your request, I will carefully extract the necessary information from the provided academic paper context.
+
+### Extracted Information:
+
+- **Title**: THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS
+- **Authors**:
+  1. **Thibault Sellam**
+     - **Name**: Thibault Sellam
+     - **Affiliations**: Google Research
+     - **Email**: tsellam@google.com
+  2. **Steve Yadlowsky**
+     - **Name**: Steve Yadlowsky
+     - **Affiliations**: Google Research
+     - **Email**: yadlowsky@google.com
+  3. **Ian Tenney**
+     - **Name**: Ian Tenney
+     - **Affiliations**: Google Research
+     - **Email**: iftenney@google.com
+  4. **Jason Wei**
+     - **Name**: Jason Wei
+     - **Affiliations**: NA (Only mentioned as "Google AI resident" which is not a direct affiliation but rather an additional detail)
+     - **Email**: NA
+  5. **Naomi Saphra**
+     - **Name**: Naomi Saphra
+     - **Affiliations**: NA (Only mentioned as doing work during an internship at Google, which is not a direct affiliation but rather an additional detail)
+     - **Email**: NA
+  6. **Alexander D’Amour**
+     - **Name**: Alexander D’Amour
+     - **Affiliations**: NA
+     - **Email**: NA
+  7. **Tal Linzen**
+     - **Name**: Tal Linzen
+     - **Affiliations**: NA
+     - **Email**: NA
+  8. **Jasmijn Bastings**
+     - **Name**: Jasmijn Bastings
+     - **Affiliations**: NA
+     - **Email**: NA
+  9. **Iulia Turc**
+     - **Name**: Iulia Turc
+     - **Affiliations**: NA
+     - **Email**: NA
+  10. **Jacob Eisenstein**
+      - **Name**: Jacob Eisenstein
+      - **Affiliations**: NA
+      - **Email**: NA
+  11. **Dipanjan Das**
+      - **Name**: Dipanjan Das
+      - **Affiliations**: NA
+      - **Email**: NA
+  12. **Ellie Pavlick**
+      - **Name**: Ellie Pavlick
+      - **Affiliations**: Google Research
+      - **Email**: epavlick@google.com
+
+### Structured JSON Output:
+
+```json
+{
+  "title": "THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS",
+  "authors": [
+    {
+      "name": "Thibault Sellam",
+      "affiliations": ["Google Research"],
+      "email": "tsellam@google.com"
+    },
+    {
+      "name": "Steve Yadlowsky",
+      "affiliations": ["Google Research"],
+      "email": "yadlowsky@google.com"
+    },
+    {
+      "name": "Ian Tenney",
+      "affiliations": ["Google Research"],
+      "email": "iftenney@google.com"
+    },
+    {
+      "name": "Jason Wei",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Naomi Saphra",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexander D’Amour",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tal Linzen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jasmijn Bastings",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Iulia Turc",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jacob Eisenstein",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Dipanjan Das",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ellie Pavlick",
+      "affiliations": ["Google Research"],
+      "email": "epavlick@google.com"
+    }
+  ]
+}
+```

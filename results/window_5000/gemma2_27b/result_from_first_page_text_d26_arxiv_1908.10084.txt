@@ -1,0 +1,17 @@
+```json
+{
+  "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+  "authors": [
+    {
+      "name": "Nils Reimers",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Iryna Gurevych",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```

@@ -1,0 +1,70 @@
+ {
+     "title": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
+     "authors": [
+       {
+         "name": "Leo Gao",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Stella Biderman",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Sid Black",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Laurence Golding",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Travis Hoppe",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Charles Foster",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Jason Phang",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Horace He",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Anish Thite",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Noa Nabeshima",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Shawn Presser",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Connor Leahy",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "EleutherAI",
+         "affiliations": ["NA"],
+         "email": "contact@eleuther.ai"
+       }
+     ]
+   }

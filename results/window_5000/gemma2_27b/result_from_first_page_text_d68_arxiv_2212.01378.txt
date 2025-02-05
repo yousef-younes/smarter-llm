@@ -1,0 +1,38 @@
+```json
+{
+  "title": "ColD Fusion: Collaborative Descent for Distributed Multitask Finetuning",
+  "authors": [
+    {
+      "name": "Shachar Don-Yehiya",
+      "affiliations": ["IBM Research", "Hebrew University of Jerusalem"],
+      "email": "shachar.don-yehiya@ibm.com"
+    },
+    {
+      "name": "Noam Slonim",
+      "affiliations": ["IBM Research"],
+      "email": "noams@il.ibm.com"
+    },
+    {
+      "name": "Elad Venezian",
+      "affiliations": ["IBM Research"],
+      "email": "eladv@il.ibm.com"
+    },
+    {
+      "name": "Yoav Katz",
+      "affiliations": ["IBM Research"],
+      "email": "katz@il.ibm.com"
+    },
+    {
+      "name": "Colin Raffel",
+      "affiliations": ["UNC Chapel Hill"],
+      "email": "craffel@gmail.com"
+    },
+    {
+      "name": "Leshem Choshen",
+      "affiliations": ["IBM Research"],
+      "email": "leshem.choshen@il.ibm.com"
+    }
+  ]
+}
+
+```

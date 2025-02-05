@@ -1,0 +1,20 @@
+ {
+      "title": "A Pre-training Approach for Vision and Language Transformer Models",
+      "authors": [
+        {
+          "name": "AJ Piergiovanni",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Weicheng Kuo",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        },
+        {
+          "name": "Anelia Angelova",
+          "affiliations": ["Google Research"],
+          "email": "NA"
+        }
+      ]
+    }

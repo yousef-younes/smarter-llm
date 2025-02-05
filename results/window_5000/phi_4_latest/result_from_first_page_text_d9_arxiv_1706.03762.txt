@@ -1,0 +1,58 @@
+Based on the provided context from the academic paper, here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "Attention Is All You Need",
+  "authors": [
+    {
+      "name": "Ashish Vaswani",
+      "affiliations": ["Google Brain"],
+      "email": "avaswani@google.com"
+    },
+    {
+      "name": "Noam Shazeer",
+      "affiliations": ["Google Brain"],
+      "email": "noam@google.com"
+    },
+    {
+      "name": "Niki Parmar",
+      "affiliations": ["Google Research"],
+      "email": "nikip@google.com"
+    },
+    {
+      "name": "Jakob Uszkoreit",
+      "affiliations": ["Google Research"],
+      "email": "usz@google.com"
+    },
+    {
+      "name": "Llion Jones",
+      "affiliations": ["Google Research"],
+      "email": "llion@google.com"
+    },
+    {
+      "name": "Aidan N. Gomez",
+      "affiliations": ["University of Toronto", "Google Brain†"],
+      "email": "aidan@cs.toronto.edu"
+    },
+    {
+      "name": "Łukasz Kaiser",
+      "affiliations": ["Google Brain"],
+      "email": "lukaszkaiser@google.com"
+    },
+    {
+      "name": "Illia Polosukhin",
+      "affiliations": ["Google Research‡"],
+      "email": "illia.polosukhin@gmail.com"
+    }
+  ]
+}
+```
+
+### Explanation:
+
+- **Title**: Extracted directly from the provided context.
+- **Authors**: Each author is listed with their name, affiliations, and email address. Affiliations are mapped based on the context information:
+  - `Google Brain` for those explicitly mentioned as such.
+  - `Google Research` for authors marked with ‡.
+  - `University of Toronto` and `Google Brain†` for Aidan N. Gomez, due to the specific note about work performed at both places.
+- **Emails**: Provided where available; otherwise, "NA" is used if not explicitly mentioned (none were missing here).

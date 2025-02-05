@@ -1,0 +1,62 @@
+To extract the metadata from the academic paper provided in the context, we will focus on identifying the title of the paper and the details for each author mentioned. Here's how this can be done:
+
+1. **Title Extraction**: The title is explicitly mentioned at the beginning of the context:
+   - Title: "TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension"
+
+2. **Authors and their Details**:
+   - The authors are listed with names, affiliations, and email addresses.
+
+Here's how we map this information:
+
+- **Mandar Joshi**
+  - Affiliation: Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA
+  - Email: mandar90@cs.washington.edu
+
+- **Eunsol Choi**
+  - Affiliation: Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA
+  - Email: eunsol@cs.washington.edu
+
+- **Daniel S. Weld**
+  - Affiliation: Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA
+  - Email: weld@cs.washington.edu
+
+- **Luke Zettlemoyer**
+  - Affiliations:
+    - Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA
+    - Allen Institute for Artificial Intelligence, Seattle, WA
+  - Email: lsz@allenai.org
+
+Now, let's structure this information into the expected JSON format:
+
+```json
+{
+  "title": "TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension",
+  "authors": [
+    {
+      "name": "Mandar Joshi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA"],
+      "email": "mandar90@cs.washington.edu"
+    },
+    {
+      "name": "Eunsol Choi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA"],
+      "email": "eunsol@cs.washington.edu"
+    },
+    {
+      "name": "Daniel S. Weld",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA"],
+      "email": "weld@cs.washington.edu"
+    },
+    {
+      "name": "Luke Zettlemoyer",
+      "affiliations": [
+        "Paul G. Allen School of Computer Science & Engineering, Univ. of Washington, Seattle, WA",
+        "Allen Institute for Artificial Intelligence, Seattle, WA"
+      ],
+      "email": "lsz@allenai.org"
+    }
+  ]
+}
+```
+
+This JSON output includes the title of the paper and detailed information about each author, as extracted from the context. If any piece of information were missing or not found, we would have used "NA" in place of that data. However, all necessary details are present here.

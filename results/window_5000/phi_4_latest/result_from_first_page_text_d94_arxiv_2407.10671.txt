@@ -1,0 +1,226 @@
+To extract metadata from the provided context of an academic paper, we need to focus on identifying the title and author information. Here is how this can be done:
+
+### Title Extraction
+
+The title is explicitly mentioned at the start of the report:
+- **Title**: "QWEN2 TECHNICAL REPORT"
+
+### Author Information Extraction
+
+From the context, we have a list of authors followed by their affiliation. The text mentions: 
+- **Affiliation**: "Qwen Team, Alibaba Group"
+
+Each author is listed alphabetically by first name, and they all share the same affiliation.
+
+### Email Addresses
+
+The provided context does not include any email addresses for the authors. Therefore, we will mark each as "NA".
+
+### Structured JSON Output
+
+Here's how the extracted information can be structured in JSON format:
+
+```json
+{
+  "title": "QWEN2 TECHNICAL REPORT",
+  "authors": [
+    {
+      "name": "An Yang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Baosong Yang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Binyuan Hui",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Bo Zheng",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Bowen Yu",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Chang Zhou",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Chengpeng Li",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Chengyuan Li",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Dayiheng Liu",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Fei Huang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Guanting Dong",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Haoran Wei",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Huan Lin",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jiaxiang Li",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jianfeng Chen",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Junwei Ma",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Kaiyu Yan",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Lian Chen",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Mengya Li",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Nan Du",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Ping Li",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Pengfei Zhang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Qi Li",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Qingyuan Zhang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Rui Li",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Shuang Li",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Shaowen Ding",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Shenghui Li",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Songtao Hu",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Tianyu Liu",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Weilin Wang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiao Huang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaoyu Zou",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Xuefeng Li",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yan Yan",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yinghui Liu",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yu Wang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yuanxin Guo",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Zhe Wang",
+      "affiliations": ["Qwen Team, Alibaba Group"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+This JSON output accurately reflects the extracted title and author information based on the given context.

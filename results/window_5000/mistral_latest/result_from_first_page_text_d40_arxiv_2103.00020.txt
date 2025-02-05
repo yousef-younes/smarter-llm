@@ -1,0 +1,67 @@
+ ```json
+    {
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "authors": [
+        {
+          "name": "Alec Radford",
+          "affiliations": ["OpenAI, San Francisco, CA 94110, USA"],
+          "email": "<alec@openai.com>"
+        },
+        {
+          "name": "Jong Wook Kim",
+          "affiliations": ["OpenAI, San Francisco, CA 94110, USA"],
+          "email": "<jongwook@openai.com>"
+        },
+        {
+          "name": "Chris Hallacy",
+          "affiliations": ["OpenAI, San Francisco, CA 94110, USA"],
+          "email": "NA"
+        },
+        {
+          "name": "Aditya Ramesh",
+          "affiliations": ["OpenAI, San Francisco, CA 94110, USA"],
+          "email": "NA"
+        },
+        {
+          "name": "Gabriel Goh",
+          "affiliations": ["OpenAI, San Francisco, CA 94110, USA"],
+          "email": "NA"
+        },
+        {
+          "name": "Sandhini Agarwal",
+          "affiliations": ["OpenAI, San Francisco, CA 94110, USA"],
+          "email": "NA"
+        },
+        {
+          "name": "Girish Sastry",
+          "affiliations": ["OpenAI, San Francisco, CA 94110, USA"],
+          "email": "NA"
+        },
+        {
+          "name": "Amanda Askell",
+          "affiliations": ["OpenAI, San Francisco, CA 94110, USA"],
+          "email": "NA"
+        },
+        {
+          "name": "Pamela Mishkin",
+          "affiliations": ["OpenAI, San Francisco, CA 94110, USA"],
+          "email": "NA"
+        },
+        {
+          "name": "Jack Clark",
+          "affiliations": ["OpenAI, San Francisco, CA 94110, USA"],
+          "email": "NA"
+        },
+        {
+          "name": "Gretchen Krueger",
+          "affiliations": ["OpenAI, San Francisco, CA 94110, USA"],
+          "email": "NA"
+        },
+        {
+          "name": "Ilya Sutskever",
+          "affiliations": ["OpenAI, San Francisco, CA 94110, USA"],
+          "email": "NA"
+        }
+      ]
+    }
+   ```

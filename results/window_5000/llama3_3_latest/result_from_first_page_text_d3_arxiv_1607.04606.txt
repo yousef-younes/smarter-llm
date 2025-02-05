@@ -1,0 +1,31 @@
+Based on the provided context, I will extract the title and author information. Here is the extracted metadata in the expected JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Piotr Bojanowski",
+      "affiliations": ["Facebook AI Research"],
+      "email": "bojanowski@fb.com"
+    },
+    {
+      "name": "Edouard Grave",
+      "affiliations": ["Facebook AI Research"],
+      "email": "egrave@fb.com"
+    },
+    {
+      "name": "Armand Joulin",
+      "affiliations": ["Facebook AI Research"],
+      "email": "ajoulin@fb.com"
+    },
+    {
+      "name": "Tomas Mikolov",
+      "affiliations": ["Facebook AI Research"],
+      "email": "tmikolov@fb.com"
+    }
+  ]
+}
+```
+
+Note that the title of the paper is not explicitly mentioned in the provided context, so I returned "NA" for the title. The author information, including names, affiliations, and email addresses, was extracted from the text. Let me know if you have any further questions!

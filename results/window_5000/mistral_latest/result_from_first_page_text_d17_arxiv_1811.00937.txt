@@ -1,0 +1,1 @@
+ Based on the provided context, there is no research paper text given to extract metadata from. The context only provides information about a question answering dataset called COMMONSENSEQA that focuses on commonsense knowledge, not on extracting metadata from academic papers. Therefore, I cannot generate the expected output format you have specified.

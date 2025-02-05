@@ -1,0 +1,35 @@
+To extract the metadata as requested, I'll follow the provided context to identify the title, authors, their affiliations, and email addresses.
+
+### Extracted Metadata:
+
+- **Title:** Unfortunately, the title of the paper is not explicitly mentioned in the provided context. Therefore, it will be marked as "NA".
+- **Authors:**
+  - The names of the authors are not fully specified in the given text, except for mentions of contributions and correspondence emails which imply authorship but do not provide full names. Given this, we can identify two contributors based on email addresses provided:
+    - Alec
+    - Jongwook
+  - **Affiliations:** Both authors are affiliated with "OpenAI, San Francisco, CA 94110, USA."
+  - **Email Addresses:**
+    - Alec: alec@openai.com
+    - Jongwook: jongwook@openai.com
+
+Given the constraints and the format required for the output:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Alec",
+      "affiliations": ["OpenAI, San Francisco, CA 94110, USA"],
+      "email": "alec@openai.com"
+    },
+    {
+      "name": "Jongwook",
+      "affiliations": ["OpenAI, San Francisco, CA 94110, USA"],
+      "email": "jongwook@openai.com"
+    }
+  ]
+}
+```
+
+This structured output adheres to the expected format while accounting for missing information as per the instructions.

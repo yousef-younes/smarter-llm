@@ -1,0 +1,31 @@
+Here's the extracted metadata in the requested JSON format:
+
+```json
+{
+  "title": "Residual Stream Analysis with Multi-Layer SAEs",
+  "authors": [
+    {
+      "name": "Tim Lawson",
+      "affiliations": ["School of Engineering Mathematics and Technology, University of Bristol"],
+      "email": "tim.lawson@bristol.ac.uk"
+    },
+    {
+      "name": "Lucy Farnik",
+      "affiliations": ["School of Engineering Mathematics and Technology, University of Bristol"],
+      "email": "NA"
+    },
+    {
+      "name": "Conor Houghton",
+      "affiliations": ["School of Engineering Mathematics and Technology, University of Bristol"],
+      "email": "NA"
+    },
+    {
+      "name": "Laurence Aitchison",
+      "affiliations": ["School of Engineering Mathematics and Technology, University of Bristol"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note: The email address for Tim Lawson is provided in the context as `tim.lawson@bristol.ac.uk`, but the email addresses for the other authors are not mentioned, so they are marked as "NA". Similarly, all authors are affiliated with the School of Engineering Mathematics and Technology at the University of Bristol, as per the given context.

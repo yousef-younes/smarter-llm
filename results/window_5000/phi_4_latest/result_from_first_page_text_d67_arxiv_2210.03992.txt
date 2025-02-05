@@ -1,0 +1,32 @@
+To extract metadata from the provided academic paper context, I will follow the specified instructions to structure the information in a JSON format. Here is how it can be done:
+
+```json
+{
+  "title": "Generative Language Models for Paragraph-Level Question Generation",
+  "authors": [
+    {
+      "name": "Asahi Ushio",
+      "affiliations": ["Cardiff NLP, School of Computer Science and Informatics, Cardiff University, UK"],
+      "email": "UshioA@cardiff.ac.uk"
+    },
+    {
+      "name": "Fernando Alva-Manchego",
+      "affiliations": ["Cardiff NLP, School of Computer Science and Informatics, Cardiff University, UK"],
+      "email": "AlvaManchegoF@cardiff.ac.uk"
+    },
+    {
+      "name": "Jose Camacho-Collados",
+      "affiliations": ["Cardiff NLP, School of Computer Science and Informatics, Cardiff University, UK"],
+      "email": "CamachoColladosJ@cardiff.ac.uk"
+    }
+  ]
+}
+```
+
+### Explanation:
+- **Title**: The title is clearly provided in the context.
+- **Authors**:
+  - Each author's name is listed alongside their affiliation(s) and email address.
+  - All authors share the same affiliation, "Cardiff NLP, School of Computer Science and Informatics, Cardiff University, UK".
+  - Email addresses are included as specified in the text following each author's name. If an email were missing, it would be replaced with `"NA"`.
+- The output is structured according to the expected JSON format for clarity and ease of comparison.

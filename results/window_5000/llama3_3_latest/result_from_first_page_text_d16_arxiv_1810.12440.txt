@@ -1,0 +1,26 @@
+Based on the provided context, here is the extracted metadata in the expected JSON format:
+
+```json
+{
+  "title": "TallyQA: Answering Complex Counting Questions",
+  "authors": [
+    {
+      "name": "Manoj Acharya",
+      "affiliations": ["Chester F. Carlson Center for Imaging Science", "Rochester Institute of Technology"],
+      "email": "ma7583@rit.edu"
+    },
+    {
+      "name": "Kushal Kaﬂe",
+      "affiliations": ["Chester F. Carlson Center for Imaging Science", "Rochester Institute of Technology"],
+      "email": "kk6055@rit.edu"
+    },
+    {
+      "name": "Christopher Kanan",
+      "affiliations": ["Chester F. Carlson Center for Imaging Science", "Rochester Institute of Technology"],
+      "email": "kanan@rit.edu"
+    }
+  ]
+}
+```
+
+Note that I've extracted the title and author information as per the provided context, and structured it in the expected JSON format. If any piece of information was missing or not found, I would have returned "NA" instead, but in this case, all required details were available.

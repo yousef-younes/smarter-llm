@@ -1,0 +1,136 @@
+To extract metadata from the provided academic context, we will focus on identifying the title and author information. The structure of the extracted data is specified in a JSON format, which includes details such as name, affiliations, and email address for each author.
+
+### Extracted Metadata
+
+1. **Title**: 
+   - From the given content, it appears that there's no explicit mention of a paper title. In typical academic papers, the title would be at the beginning or explicitly stated. Since this is missing in the provided context, we will mark it as "NA".
+
+2. **Authors and Affiliations**:
+   - The author names are listed towards the end of the content.
+   - There's an indication of affiliations with the mention of "Qwen Team Alibaba Group" which can be assumed to apply to multiple authors unless specified otherwise.
+   - Email addresses for individual authors are not provided in the context, so they will be marked as "NA".
+
+### JSON Structure
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Jian Yang*",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Zeyu Cui*",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Binyuan Hui*",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Dayiheng Liu",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Lei Zhang",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Tianyu Liu",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jiajun Zhang",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Bowen Yu",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Keming Lu",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Kai Dang",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yang Fan",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yichang Zhang",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "An Yang",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Rui Men",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Fei Huang",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Bo Zheng",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yibo Miao",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Xingzhang Ren",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jian Yang† (corresponding author)",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Shiyu Chang",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Xin Xia† (corresponding author)",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jian Yang† (corresponding author)",
+      "affiliations": ["Qwen Team Alibaba Group"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+### Explanation:
+- The title is marked as "NA" due to the absence of an explicit paper title in the provided content.
+- All authors are associated with "Qwen Team Alibaba Group" based on the context, and their email addresses are set to "NA" since they are not provided. 
+- Note that some names appear more than once with different annotations (e.g., corresponding author), but for simplicity and lack of additional data, they have been treated uniformly under the same affiliation.

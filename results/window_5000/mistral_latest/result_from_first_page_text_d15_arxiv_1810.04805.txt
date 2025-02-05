@@ -1,0 +1,25 @@
+ {
+     "title": "A Larger Scale Analysis of BERT: Winning More Downstream Tasks",
+     "authors": [
+       {
+         "name": "Jacob Devlin, Myle Ott, Mohammad R. Tobin, and Kenton Lee",
+         "affiliations": ["Stanford University"],
+         "email": "NA"
+       },
+       {
+         "name": "Michael Waddington",
+         "affiliations": ["Google Brain Team"],
+         "email": "NA"
+       },
+       {
+         "name": "Jeffrey D. Pennington",
+         "affiliations": ["Google Brain Team"],
+         "email": "NA"
+       },
+       {
+         "name": "Howard and Ruder",
+         "affiliations": ["Stanford University"],
+         "email": "NA"
+       }
+     ]
+   }

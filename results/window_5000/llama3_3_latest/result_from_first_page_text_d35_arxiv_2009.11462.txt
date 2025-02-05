@@ -1,0 +1,34 @@
+Here is the extracted metadata in the requested JSON format:
+
+```json
+{
+  "title": "REALTOXICITYPROMPTS: Evaluating Neural Toxic Degeneration in Language Models",
+  "authors": [
+    {
+      "name": "Samuel Gehman",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+      "email": "sgehman@cs.washington.edu"
+    },
+    {
+      "name": "Suchin Gururangan",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artiﬁcial Intelligence"],
+      "email": "sg01@cs.washington.edu"
+    },
+    {
+      "name": "Maarten Sap",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+      "email": "msap@cs.washington.edu"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artiﬁcial Intelligence"],
+      "email": "yejin@cs.washington.edu"
+    },
+    {
+      "name": "Noah A. Smith",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artiﬁcial Intelligence"],
+      "email": "nasmith@cs.washington.edu"
+    }
+  ]
+}
+```

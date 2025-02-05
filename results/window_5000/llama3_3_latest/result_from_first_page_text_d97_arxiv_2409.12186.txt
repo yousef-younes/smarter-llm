@@ -1,0 +1,131 @@
+Based on the provided context, here is the extracted metadata in the requested JSON format:
+
+```json
+{
+  "title": "Qwen2.5-Coder Technical Report",
+  "authors": [
+    {
+      "name": "Jian Yang",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Zeyu Cui",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Binyuan Hui",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Dayiheng Liu",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Lei Zhang",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Tianyu Liu",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jiajun Zhang",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Bowen Yu",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Keming Lu",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Kai Dang",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yang Fan",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yichang Zhang",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "An Yang",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Rui Men",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Fei Huang",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Bo Zheng",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yibo Miao",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Xingzhang Ren",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Xuancheng Ren",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jingren Zhou",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Junyang Lin",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Shanghaoran Quan",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Yunlong Feng",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    },
+    {
+      "name": "Jiaxi Yang",
+      "affiliations": ["Alibaba Group"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that the email addresses for all authors are listed as "NA" since they are not provided in the given context. Also, the affiliation for all authors is assumed to be "Alibaba Group" based on the text, but this might not be accurate if some authors have different affiliations not mentioned in the context.

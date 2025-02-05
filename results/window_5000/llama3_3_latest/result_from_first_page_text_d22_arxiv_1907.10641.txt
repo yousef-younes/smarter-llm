@@ -1,0 +1,31 @@
+Based on the provided context, here is the extracted metadata in the expected JSON format:
+
+```json
+{
+  "title": "WINOGRANDE: An Adversarial Winograd Schema Challenge at Scale",
+  "authors": [
+    {
+      "name": "Keisuke Sakaguchi",
+      "affiliations": ["Allen Institute for Artiﬁcial Intelligence"],
+      "email": "keisukes@allenai.org"
+    },
+    {
+      "name": "Ronan Le Bras",
+      "affiliations": ["Allen Institute for Artiﬁcial Intelligence"],
+      "email": "ronanlb@allenai.org"
+    },
+    {
+      "name": "Chandra Bhagavatula",
+      "affiliations": ["Allen Institute for Artiﬁcial Intelligence"],
+      "email": "chandrab@allenai.org"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Allen Institute for Artiﬁcial Intelligence", "University of Washington"],
+      "email": "yejinc@allenai.org"
+    }
+  ]
+}
+```
+
+Note that all authors have an email address mentioned in the context, so there is no need to use "NA" for any author's email. Also, Yejin Choi has two affiliations: Allen Institute for Artificial Intelligence and University of Washington.

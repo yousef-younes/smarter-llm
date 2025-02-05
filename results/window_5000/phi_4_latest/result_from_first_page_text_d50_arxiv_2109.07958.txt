@@ -1,0 +1,33 @@
+Based on the provided context of the academic paper titled "TruthfulQA: Measuring How Models Mimic Human Falsehoods," here is the extracted metadata in the required JSON format:
+
+```json
+{
+  "title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+  "authors": [
+    {
+      "name": "Stephanie Lin",
+      "affiliations": ["University of Oxford"],
+      "email": "sylin07@gmail.com"
+    },
+    {
+      "name": "Jacob Hilton",
+      "affiliations": ["OpenAI"],
+      "email": "jhilton@openai.com"
+    },
+    {
+      "name": "Owain Evans",
+      "affiliations": ["University of Oxford"],
+      "email": "owaine@gmail.com"
+    }
+  ]
+}
+```
+
+### Explanation:
+- **Title**: The title is directly taken from the context.
+- **Authors**:
+  - **Stephanie Lin**: Affiliated with University of Oxford, email provided.
+  - **Jacob Hilton**: Affiliated with OpenAI, email provided.
+  - **Owain Evans**: Affiliated with University of Oxford, email provided.
+
+All required fields are filled according to the information available in the context. If any data were missing, "NA" would be used as per the instructions.

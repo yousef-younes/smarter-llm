@@ -1,0 +1,102 @@
+ ```json
+   {
+     "title": "Evaluating Large Language Models Trained on Code",
+     "authors": [
+       {
+         "name": "Mark Chen",
+         "affiliations": ["OpenAI, San Francisco, California, USA"],
+         "email": "<mark@openai.com>"
+       },
+       {
+         "name": "Jerry Tworek",
+         "affiliations": ["OpenAI, San Francisco, California, USA"],
+         "email": "<jt@openai.com>"
+       },
+       {
+         "name": "Heewoo Jun",
+         "affiliations": ["OpenAI, San Francisco, California, USA"],
+         "email": "<woo@openai.com>"
+       },
+       {
+         "name": "Qiming Yuan",
+         "affiliations": ["OpenAI, San Francisco, California, USA"],
+         "email": "<qiming@openai.com>"
+       },
+       {
+         "name": "Nicholas Joseph",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "Greg Brockman",
+         "affiliations": ["OpenAI, San Francisco, California, USA"],
+         "email": "NA"
+       },
+       {
+         "name": "Alex Ray",
+         "affiliations": ["OpenAI, San Francisco, California, USA"],
+         "email": "NA"
+       },
+       {
+         "name": "Raul Puri",
+         "affiliations": ["OpenAI, San Francisco, California, USA"],
+         "email": "NA"
+       },
+       {
+         "name": "Gretchen Krueger",
+         "affiliations": ["OpenAI, San Francisco, California, USA"],
+         "email": "NA"
+       },
+       {
+         "name": "Michael Petrov",
+         "affiliations": ["OpenAI, San Francisco, California, USA"],
+         "email": "NA"
+       },
+       {
+         "name": "Heidy Khlaaf",
+         "affiliations": ["Zipline, South San Francisco, California, USA. Work performed while at OpenAI."],
+         "email": "NA"
+       },
+       {
+         "name": "Girish Sastry",
+         "affiliations": ["Anthropic AI, San Francisco, California, USA. Work performed while at OpenAI."],
+         "email": "NA"
+       },
+       {
+         "name": "Pamela Mishkin",
+         "affiliations": ["OpenAI, San Francisco, California, USA"],
+         "email": "NA"
+       },
+       {
+         "name": "Brooke Chan",
+         "affiliations": ["OpenAI, San Francisco, California, USA"],
+         "email": "NA"
+       },
+       {
+         "name": "Scott Gray",
+         "affiliations": ["OpenAI, San Francisco, California, USA"],
+         "email": "NA"
+       },
+       {
+         "name": "Nick Ryder",
+         "affiliations": ["OpenAI, San Francisco, California, USA"],
+         "email": "NA"
+       },
+       {
+         "name": "Mikhail Pavlov",
+         "affiliations": ["OpenAI, San Francisco, California, USA"],
+         "email": "NA"
+       },
+       {
+         "name": "NA",
+         "affiliations": ["NA"],
+         "email": "NA"
+       },
+       {
+         "name": "NA",
+         "affiliations": ["NA"],
+         "email": "NA"
+       }
+     ]
+   }
+   ```

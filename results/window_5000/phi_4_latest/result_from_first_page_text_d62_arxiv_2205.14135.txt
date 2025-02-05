@@ -1,0 +1,42 @@
+Based on the provided context from the academic paper, here is the extracted information in the required JSON format:
+
+```json
+{
+  "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+  "authors": [
+    {
+      "name": "Tri Dao",
+      "affiliations": ["Department of Computer Science, Stanford University"],
+      "email": "trid@cs.stanford.edu"
+    },
+    {
+      "name": "Daniel Y. Fu",
+      "affiliations": ["Department of Computer Science, Stanford University"],
+      "email": "danfu@cs.stanford.edu"
+    },
+    {
+      "name": "Stefano Ermon",
+      "affiliations": ["Department of Computer Science, Stanford University"],
+      "email": "ermon@stanford.edu"
+    },
+    {
+      "name": "Atri Rudra",
+      "affiliations": ["Department of Computer Science and Engineering, University at Buffalo, SUNY"],
+      "email": "atri@buffalo.edu"
+    },
+    {
+      "name": "Christopher Ré",
+      "affiliations": ["Department of Computer Science, Stanford University"],
+      "email": "chrismre@cs.stanford.edu"
+    }
+  ]
+}
+```
+
+### Explanation:
+
+- **Title**: Extracted directly from the section after the authors and affiliations.
+- **Authors**:
+  - Each author's name is listed along with their respective affiliation(s).
+  - Email addresses are extracted where available; if not, "NA" would be used. In this case, all emails were provided in the context.
+- **Affiliations**: Mapped correctly to each author based on the information given below their names.

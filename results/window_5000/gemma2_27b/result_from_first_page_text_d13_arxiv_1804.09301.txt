@@ -1,0 +1,27 @@
+```json
+{
+  "title": "Gender Bias in Coreference Resolution",
+  "authors": [
+    {
+      "name": "Rachel Rudinger",
+      "affiliations": ["Johns Hopkins University"],
+      "email": "NA"
+    },
+    {
+      "name": "Jason Naradowsky",
+      "affiliations": ["Johns Hopkins University"],
+      "email": "NA"
+    },
+    {
+      "name": "Brian Leonard",
+      "affiliations": ["Johns Hopkins University"],
+      "email": "NA"
+    },
+    {
+      "name": "Benjamin Van Durme",
+      "affiliations": ["Johns Hopkins University"],
+      "email": "NA"
+    }
+  ]
+}
+```

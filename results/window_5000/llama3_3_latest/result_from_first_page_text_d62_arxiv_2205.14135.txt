@@ -1,0 +1,34 @@
+Here's the extracted metadata in JSON format:
+
+```json
+{
+  "title": "FlashAttention: Fast and Memory-Eﬃcient Exact Attention with IO-Awareness",
+  "authors": [
+    {
+      "name": "Tri Dao",
+      "affiliations": ["Department of Computer Science, Stanford University"],
+      "email": "trid@cs.stanford.edu"
+    },
+    {
+      "name": "Daniel Y. Fu",
+      "affiliations": ["Department of Computer Science, Stanford University"],
+      "email": "danfu@cs.stanford.edu"
+    },
+    {
+      "name": "Stefano Ermon",
+      "affiliations": ["Department of Computer Science, Stanford University"],
+      "email": "ermon@stanford.edu"
+    },
+    {
+      "name": "Atri Rudra",
+      "affiliations": ["Department of Computer Science and Engineering, University at Buﬀalo, SUNY"],
+      "email": "atri@buffalo.edu"
+    },
+    {
+      "name": "Christopher Ré",
+      "affiliations": ["Department of Computer Science, Stanford University"],
+      "email": "chrismre@cs.stanford.edu"
+    }
+  ]
+}
+```

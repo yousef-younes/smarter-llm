@@ -1,0 +1,127 @@
+To extract the metadata from the provided academic paper context, we will follow the instructions carefully.
+
+### Extracting Title
+The title of the paper can be identified as "Model soups: averaging weights of multiple ﬁne-tuned models improves accuracy without increasing inference time".
+
+### Extracting Author Information
+For each author, we need to extract their name, affiliations, and email address if available.
+
+1. **Mitchell Wortsman**:
+   - Name: Mitchell Wortsman
+   - Affiliations: University of Washington
+   - Email: mitchnw@uw.edu (found in the correspondence section)
+
+2. **Gabriel Ilharco**:
+   - Name: Gabriel Ilharco
+   - Affiliations: University of Washington
+   - Email: NA (not found in the provided context)
+
+3. **Samir Yitzhak Gadre**:
+   - Name: Samir Yitzhak Gadre
+   - Affiliations: Columbia University
+   - Email: NA (not found in the provided context)
+
+4. **Rebecca Roelofs**:
+   - Name: Rebecca Roelofs
+   - Affiliations: Google Research, Brain Team
+   - Email: NA (not found in the provided context)
+
+5. **Raphael Gontijo-Lopes**:
+   - Name: Raphael Gontijo-Lopes
+   - Affiliations: Google Research, Brain Team
+   - Email: NA (not found in the provided context)
+
+6. **Ari S. Morcos**:
+   - Name: Ari S. Morcos
+   - Affiliations: Meta AI Research
+   - Email: NA (not found in the provided context)
+
+7. **Hongseok Namkoong**:
+   - Name: Hongseok Namkoong
+   - Affiliations: Columbia University
+   - Email: NA (not found in the provided context)
+
+8. **Ali Farhadi**:
+   - Name: Ali Farhadi
+   - Affiliations: University of Washington
+   - Email: NA (not found in the provided context)
+
+9. **Yair Carmon**:
+   - Name: Yair Carmon
+   - Affiliations: Tel Aviv University
+   - Email: NA (not found in the provided context)
+
+10. **Simon Kornblith**:
+    - Name: Simon Kornblith
+    - Affiliations: Google Research, Brain Team
+    - Email: NA (not found in the provided context)
+
+11. **Ludwig Schmidt**:
+    - Name: Ludwig Schmidt
+    - Affiliations: University of Washington
+    - Email: NA (not found in the provided context)
+
+### Structured JSON Output
+
+```json
+{
+  "title": "Model soups: averaging weights of multiple ﬁne-tuned models improves accuracy without increasing inference time",
+  "authors": [
+    {
+      "name": "Mitchell Wortsman",
+      "affiliations": ["University of Washington"],
+      "email": "mitchnw@uw.edu"
+    },
+    {
+      "name": "Gabriel Ilharco",
+      "affiliations": ["University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Samir Yitzhak Gadre",
+      "affiliations": ["Columbia University"],
+      "email": "NA"
+    },
+    {
+      "name": "Rebecca Roelofs",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Raphael Gontijo-Lopes",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Ari S. Morcos",
+      "affiliations": ["Meta AI Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Hongseok Namkoong",
+      "affiliations": ["Columbia University"],
+      "email": "NA"
+    },
+    {
+      "name": "Ali Farhadi",
+      "affiliations": ["University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Yair Carmon",
+      "affiliations": ["Tel Aviv University"],
+      "email": "NA"
+    },
+    {
+      "name": "Simon Kornblith",
+      "affiliations": ["Google Research, Brain Team"],
+      "email": "NA"
+    },
+    {
+      "name": "Ludwig Schmidt",
+      "affiliations": ["University of Washington"],
+      "email": "NA"
+    }
+  ]
+}
+```

@@ -1,0 +1,44 @@
+To extract metadata from the provided academic context, we need to identify the title of the paper and details about each author. Here is how you can structure this information in a JSON format:
+
+```json
+{
+  "title": "ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning",
+  "authors": [
+    {
+      "name": "Ahmed Masry",
+      "affiliations": ["York University, Canada"],
+      "email": "masry20@yorku.ca"
+    },
+    {
+      "name": "Do Xuan Long",
+      "affiliations": ["Nanyang Technological University, Singapore", "Salesforce Research"],
+      "email": "xuanlong001@e.ntu.edu.sg"
+    },
+    {
+      "name": "Jia Qing Tan",
+      "affiliations": ["Nanyang Technological University, Singapore"],
+      "email": "C190022@e.ntu.edu.sg"
+    },
+    {
+      "name": "Shaﬁq Joty",
+      "affiliations": ["Salesforce Research"],
+      "email": "srjoty@ntu.edu.sg"
+    },
+    {
+      "name": "Enamul Hoque",
+      "affiliations": ["York University, Canada"],
+      "email": "enamulh@yorku.ca"
+    }
+  ]
+}
+```
+
+### Explanation:
+- **Title:** Extracted from the context as "ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning".
+  
+- **Authors and Affiliations:**
+  - Each author's name, affiliation(s), and email address are extracted directly from the provided text.
+  - Multiple affiliations for an author are captured in a list.
+  - If an author does not have an email listed (which is not applicable here as all authors have emails), "NA" would be used.
+
+This structured output follows your requirements, providing a clear and organized representation of the paper's metadata.

@@ -1,0 +1,32 @@
+```json
+{
+  "title": "TIES-MERGING: Resolving Interference When Merging Models",
+  "authors": [
+    {
+      "name": "Prateek Yadav",
+      "affiliations": ["University of North Carolina at Chapel Hill"],
+      "email": "NA"
+    },
+    {
+      "name": "Derek Tam",
+      "affiliations": ["University of North Carolina at Chapel Hill"],
+      "email": "NA"
+    },
+    {
+      "name": "Leshem Choshen",
+      "affiliations": ["IBM Research", "MIT"],
+      "email": "leshem.choshen@ibm.com"
+    },
+    {
+      "name": "Colin Raffel",
+      "affiliations": ["University of North Carolina at Chapel Hill"],
+      "email": "NA"
+    },
+    {
+      "name": "Mohit Bansal",
+      "affiliations": ["University of North Carolina at Chapel Hill"],
+      "email": "NA"
+    }
+  ]
+}
+```

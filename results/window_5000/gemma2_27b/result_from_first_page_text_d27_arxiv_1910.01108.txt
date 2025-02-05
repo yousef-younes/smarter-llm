@@ -1,0 +1,27 @@
+```json
+{
+  "title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+  "authors": [
+    {
+      "name": "Victor SANH",
+      "affiliations": ["Hugging Face"],
+      "email": "victor@huggingface.co"
+    },
+    {
+      "name": "Lysandre DEBUT",
+      "affiliations": ["Hugging Face"],
+      "email": "lysandre@huggingface.co"
+    },
+    {
+      "name": "Julien CHAUMOND",
+      "affiliations": ["Hugging Face"],
+      "email": "julien@huggingface.co"
+    },
+    {
+      "name": "Thomas WOLF",
+      "affiliations": ["Hugging Face"],
+      "email": "thomas@huggingface.co"
+    }
+  ]
+}
+```

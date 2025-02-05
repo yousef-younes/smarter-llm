@@ -1,0 +1,19 @@
+ {
+      "title": "An End-to-End Neural Framework for Automatically Generating Informative, High-Quality Captions for Scientific Figures",
+      "authors": [
+        {
+          "name": "Ting-Yao (Edward) Hsu",
+          "affiliations": ["Pennsylvania State University"],
+          "email": "[txh357@psu.edu](mailto:txh357@psu.edu)"
+        },
+        {
+          "name": "C. Lee Giles",
+          "affiliations": ["Pennsylvania State University"],
+          "email": "[clg20@psu.edu](mailto:clg20@psu.edu)"
+        },
+        {
+          "name": "Ting-Hao ‘Kenneth’ Huang",
+          "affiliations": ["Pennsylvania State University"],
+          "email": "[txh710@psu.edu](mailto:txh710@psu.edu)"}
+      ]
+    }

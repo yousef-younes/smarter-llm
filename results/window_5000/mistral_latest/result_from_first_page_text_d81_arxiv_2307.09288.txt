@@ -1,0 +1,51 @@
+ {
+      "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "authors": [
+        {
+          "name": "Hugo Touvron",
+          "affiliations": ["GenAI, Meta"],
+          "email": "hugo.touvron@meta.com"
+        },
+        {
+          "name": "Louis Martin",
+          "affiliations": ["GenAI, Meta"],
+          "email": "louis.martin@meta.com"
+        },
+        {
+          "name": "Kevin Stone",
+          "affiliations": ["GenAI, Meta"],
+          "email": "kevin.stone@meta.com"
+        },
+        {
+          "name": "Peter Albert",
+          "affiliations": ["GenAI, Meta"],
+          "email": "NA"
+        },
+        {
+          "name": "Amjad Almahairi",
+          "affiliations": ["GenAI, Meta"],
+          "email": "NA"
+        },
+        {
+          "name": "Yasmine Babaei",
+          "affiliations": ["GenAI, Meta"],
+          "email": "NA"
+        },
+        {
+          "name": "Nikolay Bashlykov",
+          "affiliations": ["GenAI, Meta"],
+          "email": "NA"
+        },
+        {
+          "name": "Soumya Batra",
+          "affiliations": ["GenAI, Meta"],
+          "email": "NA"
+        },
+        {
+          "name": "Prajjwal Bhargava",
+          "affiliations": ["GenAI, Meta"],
+          "email": "NA"
+        },
+        ... (Repeat the structure for all authors in the paper)
+      ]
+    }

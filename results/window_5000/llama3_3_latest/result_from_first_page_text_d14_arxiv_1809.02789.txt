@@ -1,0 +1,26 @@
+Based on the provided context, here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Jenkins",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Landsberger",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Jansen",
+      "affiliations": "NA",
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that the title of the paper is not explicitly mentioned in the provided context, and the authors' affiliations and email addresses are also not available. Therefore, these fields are filled with "NA" as per the constraints.

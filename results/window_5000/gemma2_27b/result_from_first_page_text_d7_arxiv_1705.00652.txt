@@ -1,0 +1,22 @@
+```json
+{
+  "title": "Efficient Natural Language Response Suggestion for Smart Reply",
+  "authors": [
+    {
+      "name": "Matthew Henderson",
+      "affiliations": ["NA"],
+      "email": "matthen@google.com"
+    },
+    {
+      "name": "Ilya Polosukhin",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Bryan Stinar",
+      "affiliations": ["NA"],
+      "email": "bps@google.com"
+    }
+  ]
+}
+```

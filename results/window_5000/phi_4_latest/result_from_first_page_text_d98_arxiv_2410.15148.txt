@@ -1,0 +1,22 @@
+```json
+{
+  "title": "Less is More: Parameter-Efficient Selection of Intermediate Tasks for Transfer Learning",
+  "authors": [
+    {
+      "name": "David Schulte",
+      "affiliations": ["Humboldt University of Berlin"],
+      "email": "davidsiriusschulte@gmail.com"
+    },
+    {
+      "name": "Felix Hamborg",
+      "affiliations": ["Humboldt University of Berlin"],
+      "email": "NA"
+    },
+    {
+      "name": "Alan Akbik",
+      "affiliations": ["Humboldt University of Berlin"],
+      "email": "NA"
+    }
+  ]
+}
+```

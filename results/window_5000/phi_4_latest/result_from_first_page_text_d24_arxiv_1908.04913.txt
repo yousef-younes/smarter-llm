@@ -1,0 +1,45 @@
+To extract metadata from the provided context of an academic paper, let's follow these steps:
+
+1. **Identify the Title**: 
+   - The title is typically found at the beginning or near the abstract section. In this context, the title is "FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age".
+
+2. **Extract Author Information**:
+   - Authors are listed with their names followed by affiliations in parentheses.
+   - Each author may have an email address provided after their name.
+
+3. **Structure the JSON Output**:
+
+```json
+{
+  "title": "FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age",
+  "authors": [
+    {
+      "name": "Kimmo Kärkkäinen",
+      "affiliations": ["UCLA"],
+      "email": "kimmo@cs.ucla.edu"
+    },
+    {
+      "name": "Jungseock Joo",
+      "affiliations": ["UCLA"],
+      "email": "jjoo@comm.ucla.edu"
+    }
+  ]
+}
+```
+
+### Explanation:
+
+- **Title**: Extracted directly from the context as it is clearly stated.
+  
+- **Authors**:
+  - **Kimmo Kärkkäinen**:
+    - Name: Kimmo Kärkkäinen
+    - Affiliation: UCLA (inferred from the affiliation provided after the name)
+    - Email: kimmo@cs.ucla.edu
+
+  - **Jungseock Joo**:
+    - Name: Jungseock Joo
+    - Affiliation: UCLA (inferred from the affiliation provided after the name)
+    - Email: jjoo@comm.ucla.edu
+
+This structured JSON output provides a clear and organized representation of the extracted metadata.

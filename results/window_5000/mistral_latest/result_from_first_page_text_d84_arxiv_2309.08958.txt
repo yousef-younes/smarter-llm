@@ -1,0 +1,30 @@
+ {
+      "title": "Comparing Monolingual and Multilingual Instruction Tuning Applied to English-Centric and Multilingual LLMs",
+      "authors": [
+        {
+          "name": "Pinzhen Chen",
+          "affiliations": ["University of Edinburgh"],
+          "email": "pchen3@ed.ac.uk"
+        },
+        {
+          "name": "Shaoxiong Ji",
+          "affiliations": ["University of Helsinki"],
+          "email": "shaoxiong.ji@helsinki.fi"
+        },
+        {
+          "name": "Andrey Kutuzov",
+          "affiliations": ["University of Oslo"],
+          "email": "NA"
+        },
+        {
+          "name": "Nikolay Bogoychev",
+          "affiliations": ["University of Oslo"],
+          "email": "NA"
+        },
+        {
+          "name": "Kenneth Heafield",
+          "affiliations": ["University of Edinburgh"],
+          "email": "NA"
+        }
+      ]
+    }
