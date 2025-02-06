@@ -1,137 +1,2256 @@
-To extract metadata from an academic paper provided in the context, we need to carefully analyze the input for relevant sections. The goal is to identify the title of the paper and author information. However, based on the given context, it appears that only a list of authors is available without any explicit mention of affiliations or email addresses.
-
-### Steps to Extract Metadata:
-
-1. **Identify the Title:**
-   - In typical academic papers, titles are prominently displayed at the beginning.
-   - In this case, the title "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models" is mentioned right before the list of authors.
-
-2. **Extract Author Information:**
-   - The context provides a long list of author names without additional details such as affiliations or email addresses.
-   - For each author, we will extract the name and fill in "NA" for both affiliations and email since this information is not provided.
-
-3. **Structure the Output in JSON Format:**
-   - We'll create a JSON structure with the extracted title and an array of authors, each containing their name and placeholders for missing information (affiliations and email).
-
-### JSON Structure:
-
-```json
 {
-  "title": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models",
+  "title": "Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models",
   "authors": [
     {
-      "name": "Lin, Blake",
+      "name": "Aarohi Srivastava",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Howald, Bryan",
+      "name": "Abhinav Rastogi",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Orinion, Cameron",
+      "name": "Abhishek Rao",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Diao, Cameron",
+      "name": "Abu Awal Md Shoeb",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Dour, Catherine",
+      "name": "Abubakar Abid",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Stinson, Cedrick",
+      "name": "Adam Fisch",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Argueta, César Ferri",
+      "name": "Adam R. Brown",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Ramírez, Chandan Singh",
+      "name": "Adam Santoro",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Rathkopf, Charles",
+      "name": "Aditya Gupta",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Meng, Chenlin",
+      "name": "Adrià Garriga-Alonso",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Baral, Chitta",
+      "name": "Agnieszka Kluska",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Wu, Chiyu",
+      "name": "Aitor Lewkowycz",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Callison-Burch, Chris",
+      "name": "Akshat Agarwal",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Waites, Chris",
+      "name": "Alethea Power",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Voigt, Christian",
+      "name": "Alex Ray",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Manning, Christopher D.",
+      "name": "Alex Warstadt",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Potts, Christopher",
+      "name": "Alexander W. Kocurek",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Potts, Christopher",
+      "name": "Ali Safaya",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Potts, Christopher",
+      "name": "Ali Tazarv",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Potts, Christopher",
+      "name": "Alice Xiang",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Potts, Christopher",
+      "name": "Alicia Parrish",
       "affiliations": ["NA"],
       "email": "NA"
     },
     {
-      "name": "Potts, Christopher",
+      "name": "Allen Nie",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Aman Hussain",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Amanda Askell",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Amanda Dsouza",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ambrose Slone",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ameet Rahane",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Anantharaman S. Iyer",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Anders Andreassen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Andrea Madotto",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Andrea Santilli",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Andreas Stuhlmüller",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Andrew Dai",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Andrew La",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Andrew Lampinen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Andy Zou",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Angela Jiang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Angelica Chen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+
+    {
+      "name": "Anh Vuong",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Animesh Gupta",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Anna Gottardi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Antonio Norelli",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Anu Venkatesh",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Arash Gholamidavoodi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Arfa Tabassum",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Arul Menezes",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Arun Kirubarajan",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Asher Mullokandov",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ashish Sabharwal",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Austin Herrick",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Avia Efrat",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Aykut Erdem",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ayla Karakaş",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "B. Ryan Roberts",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Bao Sheng Loe",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Barret Zoph",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Bartłomiej Bojanowski",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Batuhan Özyurt",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Behnam Hedayatnia",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Behnam Neyshabur",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Benjamin Inden",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Benno Stein",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Berk Ekmekci",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Bill Yuchen Lin",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Blake Howald",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Bryan Orinion",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Cameron Diao",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Cameron Dour",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Catherine Stinson",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Cedrick Argueta",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "César Ferri Ramírez",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Chandan Singh",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Charles Rathkopf",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Chenlin Meng",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Chitta Baral",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Chiyu Wu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Chris Callison-Burch",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Chris Waites",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Christian Voigt",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Christopher D. Manning",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Christopher Potts",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Cindy Ramirez",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Clara E. Rivera",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Clemencia Siro",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Colin Raffel",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Courtney Ashcraft",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Cristina Garbacea",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Damien Sileo",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Dan Garrette",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Dan Hendrycks",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Dan Kilman",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Dan Roth",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Freeman",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Khashabi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Levy",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Moseguí González",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Danielle Perszyk",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Danny Hernandez",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Danqi Chen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Daphne Ippolito",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Dar Gilboa",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "David Dohan",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "David Drakard",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "David Jurgens",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Debajyoti Datta",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Deep Ganguli",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Denis Emelin",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Denis Kleyko",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Deniz Yuret",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Derek Chen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Derek Tam",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Dieuwke Hupkes",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Diganta Misra",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Dilyar Buzan",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Dimitri Coelho Mollo",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Diyi Yang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Dong-Ho Lee",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Dylan Schrader",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ekaterina Shutova",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ekin Dogus Cubuk",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Elad Segal",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Eleanor Hagerman",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Elizabeth Barnes",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Elizabeth Donoway",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ellie Pavlick",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Emanuele Rodola",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Emma Lam",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Eric Chu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Eric Tang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Erkut Erdem",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ernie Chang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ethan A. Chi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ethan Dyer",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ethan Jerzak",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ethan Kim",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Eunice Engefu Manyasi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Evgenii Zheltonozhskii",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Fanyue Xia",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Fatemeh Siar",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Fernando Martínez-Plumed",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Francesca Happé",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Francois Chollet",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Frieda Rong",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Gaurav Mishra",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Genta Indra Winata",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Gerard de Melo",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Germán Kruszewski",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Giambattista Parascandolo",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Giorgio Mariani",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Gloria Wang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Gonzalo Jaimovitch-López",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Gregor Betz",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Guy Gur-Ari",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Hana Galijasevic",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Hannah Kim",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Hannah Rashkin",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Hannaneh Hajishirzi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Harsh Mehta",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Hayden Bogar",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Henry Shevlin",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Hinrich Schütze",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Hiromu Yakura",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Hongming Zhang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Hugh Mee Wong",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ian Ng",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Isaac Noble",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jaap Jumelet",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jack Geissinger",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jackson Kernion",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jacob Hilton",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jaehoon Lee",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jaime Fernández Fisac",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "James B. Simon",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "James Koppel",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "James Zheng",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "James Zou",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jan Kocoń",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jana Thompson",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Janelle Wingfield",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jared Kaplan",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jarema Radom",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jascha Sohl-Dickstein",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jason Phang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jason Wei",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jason Yosinski",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jekaterina Novikova",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jelle Bosscher",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jennifer Marsh",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jeremy Kim",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jeroen Taal",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jesse Engel",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jesujoba Alabi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jiacheng Xu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jiaming Song",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jillian Tang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Joan Waweru",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "John Burden",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "John Miller",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "John U. Balis",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jonathan Batchelder",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jonathan Berant",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jörg Frohberg",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jos Rozen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jose Hernandez-Orallo",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Joseph Boudeman",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Joseph Guerr",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Joseph Jones",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Joshua B. Tenenbaum",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Joshua S. Rule",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Joyce Chua",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Kamil Kanclerz",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Karen Livescu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Karl Krauth",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Karthik Gopalakrishnan",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Katerina Ignatyeva",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Katja Markert",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Kaustubh D. Dhole",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Kevin Gimpel",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Kevin Omondi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Kory Mathewson",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Kristen Chiafullo",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ksenia Shkaruta",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Kumar Shridhar",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Kyle McDonell",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Kyle Richardson",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Laria Reynolds",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Leo Gao",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Li Zhang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Liam Dugan",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Lianhui Qin",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Lidia Contreras-Ochando",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Louis-Philippe Morency",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Luca Moschella",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Lucas Lam",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Lucy Noble",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ludwig Schmidt",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Luheng He",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Luis Oliveros Colón",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Luke Metz",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Lütfi Kerem Şenel",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Maarten Bosma",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Maarten Sap",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Maartje ter Hoeve",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Maheen Farooqi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Manaal Faruqui",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Mantas Mazeika",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Marco Baturan",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Marco Marelli",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Marco Maru",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Maria Jose Ramírez Quintana",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Marie Tolkiehn",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Mario Giulianelli",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Martha Lewis",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Martin Potthast",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthew L. Leavitt",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Matthias Hagen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Mátyás Schubert",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Medina Orduna Baitemirova",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Melody Arnaud",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Melvin McElrath",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael A. Yee",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Cohen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Gu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Ivanitskiy",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Starritt",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Strube",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Michał Swędrowski",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Michele Bevilacqua",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Michihiro Yasunaga",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Mihir Kale",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Mike Cain",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Mimee Xu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Mirac Suzgun",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Mitch Walker",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Mo Tiwari",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Mohit Bansal",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Moin Aminnaseri",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Mor Geva",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Mozhdeh Gheini",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Mukund Varma T",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Nanyun Peng",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Nathan A. Chi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Nayeon Lee",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Neta Gur-Ari Krakover",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Nicholas Cameron",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Nicholas Roberts",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Nick Doiron",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Nicole Martinez",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Nikita Nangia",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Niklas Deckers",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Niklas Muennighoff",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Nitish Shirish Keskar",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Niveditha S. Iyer",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Noah Constant",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Noah Fiedel",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Nuan Wen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Oliver Zhang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Omar Agha",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Omar Elbaghdadi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Omer Levy",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Owain Evans",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Pablo Antonio Moreno Casares",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Parth Doshi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Pascale Fung",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Paul Pu Liang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Paul Vicol",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Pegah Alipoormolabashi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Peiyuan Liao",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Percy Liang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Peter Chang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Peter Eckersley",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Phu Mon Htut",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Pinyu Hwang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Piotr Miłkowski",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Piyush Patil",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Pouya Pezeshkpour",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Priti Oli",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Qiaozhu Mei",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Qing Lyu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Qinlang Chen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Rabin Banjade",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Rachel Etta Rudolph",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Raefer Gabriel",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Rahel Habacker",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ramon Risco",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Raphaël Millière",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Rhythm Garg",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Richard Barnes",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Rif A. Saurous",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Riku Arakawa",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Robbe Raymaekers",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Robert Frank",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Rohan Sikand",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Roman Novak",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Roman Sitelew",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ronan LeBras",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Rosanne Liu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Rowan Jacobs",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Rui Zhang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ruslan Salakhutdinov",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ryan Chi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ryan Lee",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ryan Stovall",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ryan Teehan",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Rylan Yang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sahib Singh",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Saif M. Mohammad",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sajant Anand",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sam Dillavou",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sam Shleifer",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sam Wiseman",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Samuel Gruetter",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Samuel R. Bowman",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Samuel S. Schoenholz",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sanghyun Han",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sanjeev Kwatra",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sarah A. Rous",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sarik Ghazarian",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sayan Ghosh",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sean Casey",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sebastian Bischoff",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sebastian Gehrmann",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sebastian Schuster",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sepideh Sadeghi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Shadi Hamdan",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sharon Zhou",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Shashank Srivastava",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sherry Shi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Shikhar Singh",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Shima Asaadi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Shixiang Shane Gu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Shubh Pachchigar",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Shubham Toshniwal",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Shyam Upadhyay",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Shyamolima (Shammie) Debnath",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Siamak Shakeri",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Simon Thormeyer",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Simone Melzi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Siva Reddy",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sneha Priscilla Makini",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Soo-Hwan Lee",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Spencer Torene",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sriharsha Hatwar",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Stanislas Dehaene",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Stefan Divic",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Stefano Ermon",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Stella Biderman",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Stephanie Lin",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Stephen Prasad",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Steven T. Piantadosi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Stuart M. Shieber",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Summer Misherghi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Svetlana Kiritchenko",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Swaroop Mishra",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tal Linzen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tal Schuster",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tao Li",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tao Yu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tariq Ali",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tatsu Hashimoto",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Te-Lin Wu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Théo Desbordes",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Theodore Rothschild",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Thomas Phan",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tianle Wang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tiberius Nkinyili",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Timo Schick",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Timofei Kornev",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Titus Tunduny",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tobias Gerstenberg",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Trenton Chang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Trishala Neeraj",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tushar Khot",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tyler Shultz",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Uri Shaham",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Vedant Misra",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Vera Demberg",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Victoria Nyamai",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Vikas Raunak",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Vinay Ramasesh",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Vinay Uday Prabhu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Vishakh Padmakumar",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Vivek Srikumar",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "William Fedus",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "William Saunders",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "William Zhang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Wout Vossen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiang Ren",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaoyu Tong",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xinran Zhao",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xinyi Wu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xudong Shen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yadollah Yaghoobzadeh",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yair Lakretz",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yangqiu Song",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yasaman Bahri",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yichi Yang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yiding Hao",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yifu Chen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yonatan Belinkov",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yu Hou",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yufang Hou",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yuntao Bai",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Zachary Seid",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Zhuoye Zhao",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Zijian Wang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Zijie J. Wang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Zirui Wang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ziyi Wu",
       "affiliations": ["NA"],
       "email": "NA"
     }
-    // Continue this pattern for all authors listed in the context
   ]
 }
-```
-
-**Note:** The JSON structure continues similarly for each author listed. Due to space constraints, not all authors are shown here, but you would continue adding entries following the same format until all authors from the list are included.
