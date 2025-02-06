@@ -1,0 +1,43 @@
+d96
+email in the foot note, I added into the ground truth
+d95
+Multiple institute in a single university (not extrated by the model)
+d94
+No email address is there and large number of authors with one affiliation
+d93
+the email for the crossponding author is in footnote and I add it. 
+d89
+No author and no email
+d88
+additional feature of role is added we can skip it
+d87
+Affiliation is there but as a word art, so may be tricky to extract (Mistral Paper)
+d86
+One email is there in the footnote but will be tricky to link with appropriate author, done in file
+d83
+No email 
+d81
+email in the footnote
+d79
+email in the footnote
+d75
+affiliation information in the footnotes
+d66
+need to look into that pattern........firstname.lastname@intel.com
+d62
+Paper is different, author names are there but the affiliations are there in other section.
+d63 is not done missing.....
+I will add it today(06.02.2025)
+d58
+footnotes
+d34
+look at llm output
+d6
+last@vision.rwth-aachen.org............but I added the email address
+
+##################################################################################
+1) Prompt Affect
+Two prompt and their comparsion
+
+2) Overall Evaluation by feature wise.
+
