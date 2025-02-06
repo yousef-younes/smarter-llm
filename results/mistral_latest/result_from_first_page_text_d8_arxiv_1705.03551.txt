@@ -1,1 +1,0 @@
- I'm unable to extract information from plain text. The provided context doesn't contain any research paper text for me to analyze and extract metadata. If you have a specific research paper text or if you could provide a similar example with the necessary details, I would be able to help by structuring the output in JSON format as per your requirements.

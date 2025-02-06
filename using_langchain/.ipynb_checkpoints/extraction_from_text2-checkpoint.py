@@ -48,8 +48,8 @@ query="""
         """
 
 
-input_folder = "../data/arixv/extracted_texts"
-output_folder = "../results/phi4_latest_new" #"mistral_latest" #"../results/llama3_3_latest" 
+input_folder = "../data/arixv/arxiv_5000" #extracted_texts"
+output_folder = "../results/window_5000/mistral_latest"
 
 os.makedirs(output_folder, exist_ok=True)
 
@@ -101,8 +101,7 @@ def main():
         if filename.endswith(".txt"):
     
             input_file = os.path.join(input_folder, filename)
-            model_name =  "phi4:latest" #"llama3.3:latest" #"mistral:latest"	#"gemma2:27b"	
-    
+            model_name = "mistral:latest" #"gemma2:27b" #"llama3.3:latest" #"phi4:latest" 	
 
             start_time = time.time()
             result = handle_file(input_file, model_name)

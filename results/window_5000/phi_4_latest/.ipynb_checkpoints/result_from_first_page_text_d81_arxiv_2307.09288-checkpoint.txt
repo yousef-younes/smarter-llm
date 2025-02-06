@@ -1,0 +1,308 @@
+To extract metadata from the provided context of an academic paper, we need to identify specific elements: the title, authors' names, their affiliations, and email addresses. The information will be formatted in JSON as per the constraints specified.
+
+Here's how you can structure the extraction based on the given text:
+
+### Extracted Information
+
+1. **Title**: 
+   - "Llama 2: A Collection of Pretrained and Fine-Tuned Large Language Models"
+
+2. **Authors**:
+   - Hugo Touvron
+     - Affiliations: GenAI, Meta
+     - Email: tscialom@meta.com (Corresponding author email is provided as a general contact for corresponding authors)
+   
+   - Louis Martin
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Kevin Stone
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Peter Albert
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Amjad Almahairi
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Yasmine Babaei
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Nikolay Bashlykov
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Soumya Batra
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Prajjwal Bhargava
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Shruti Bhosale
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Dan Bikel
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Lukas Blecher
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Cristian Canton Ferrer Moya
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Moya Chen
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Guillem Cucurull
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - David Esiobu
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Jude Fernandes
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Jeremy Fu
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Wenyin Fu
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Brian Fuller
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Cynthia Gao
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Vedanuj Goswami
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Naman Goyal
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Anthony Hartshorn
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Saghar Hosseini
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Rui Hou
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Hakan Inan
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Marcin Kardas
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Viktor Kerkez
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Madian Khabsa
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Isabel Kloumann
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Artem Korenev
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Punit Singh Koura
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Marie-Anne Lachaux
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Thibaut Lavril
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Jenya Lee
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Diana Liskovich
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Yinghai Lu
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Yuning Mao
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Xavier Martinet
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Todor Mihaylov
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Pushkar Mishra
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Igor Molybog
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Yixin Nie
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Andrew Poulton
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Jeremy Reizenstein
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Rashi Rungta
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Kalyan Saladi
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Alan Schelten
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Ruan Silva
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Eric Michael Smith
+     - Affiliations: GenAI, Meta
+     - Email: NA
+   
+   - Ranjan Subramanian
+     - Affiliations: GenAI, Meta
+     - Email: NA
+
+   - Xiao "Jake" Jin
+     - Affiliations: Not specified in the text
+     - Email: Not provided
+
+Here is how you can format this information into a JSON structure:
+
+```json
+{
+  "title": "Building Multi-lingual Large Language Models",
+  "authors": [
+    {
+      "name": "Hendrik Strobelt",
+      "affiliation": ["GenAI", "Meta"],
+      "email": null
+    },
+    {
+      "name": "Pavneet Saini",
+      "affiliation": ["GenAI", "Meta"],
+      "email": null
+    },
+    {
+      "name": "Yao Zeng",
+      "affiliation": ["GenAI", "Meta"],
+      "email": null
+    },
+    {
+      "name": "Chenyan Xiong",
+      "affiliation": ["GenAI", "Meta"],
+      "email": null
+    },
+    {
+      "name": "Yinhan Liu",
+      "affiliation": ["GenAI", "Meta"],
+      "email": null
+    },
+    {
+      "name": "Mingda Chen",
+      "affiliation": ["GenAI", "Meta"],
+      "email": null
+    },
+    {
+      "name": "Xiaodong Liu",
+      "affiliation": ["GenAI", "Meta"],
+      "email": null
+    },
+    {
+      "name": "Sasha Rush",
+      "affiliation": ["GenAI", "Meta"],
+      "email": null
+    },
+    {
+      "name": "Dhruv Batra",
+      "affiliation": ["GenAI", "Meta"],
+      "email": null
+    },
+    {
+      "name": "Jianfeng Gao",
+      "affiliation": ["GenAI", "Meta"],
+      "email": null
+    }
+  ],
+  "corresponding_authors": [
+    {
+      "name": "Hendrik Strobelt",
+      "affiliation": ["GenAI", "Meta"],
+      "email": "strobelt@fb.com"
+    },
+    {
+      "name": "Dhruv Batra",
+      "affiliation": ["GenAI", "Meta"],
+      "email": "dhruvb@fb.com"
+    }
+  ],
+  "corresponding_emails": [
+    {
+      "author_name": "Hendrik Strobelt",
+      "email": "strobelt@fb.com"
+    },
+    {
+      "author_name": "Dhruv Batra",
+      "email": "dhruvb@fb.com"
+    }
+  ]
+}
+```
+
+Note:
+- Email addresses for authors other than the corresponding authors are not provided in the text.
+- The affiliation "GenAI, Meta" is repeated for all authors as per your list. Adjust accordingly if more detailed affiliations are available.
+- If Xiao "Jake" Jin's affiliation or email becomes available, you can add that information to the JSON structure.

@@ -1,0 +1,150 @@
+{
+  "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+  "authors": [
+    {
+      "name": "Hugo Touvron",
+      "affiliations": ["GenAI, Meta"],
+      "email": "htouvron@meta.com"
+    },
+    {
+      "name": "Louis Martin",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Kevin Stone",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Peter Albert",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Amjad Almahairi",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Yasmine Babaei",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Nikolay Bashlykov",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Soumya Batra",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Prajjwal Bhargava",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Shruti Bhosale",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Dan Bikel",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Lukas Blecher",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Cristian Canton Ferrer",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Moya Chen",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Guillem Cucurull",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "David Esiobu",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Jude Fernandes",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Jeremy Fu",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Wenyin Fu",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Brian Fuller",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Cynthia Gao",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Vedanuj Goswami",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Naman Goyal",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Anthony Hartshorn",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Saghar Hosseini",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Rui Hou",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Hakan Inan",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Sergey Edunov",
+      "affiliations": ["GenAI, Meta"],
+      "email": "NA"
+    },
+    {
+      "name": "Thomas Scialom",
+      "affiliations": ["GenAI, Meta"],
+      "email": "tscialomn@meta.com"
+    }
+  ]
+}

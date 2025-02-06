@@ -1,0 +1,6 @@
+{
+  "title": "Yi: Open Foundation Models by 01.AI",
+  "authors": [],
+  "affiliations": ["01.AI"],
+  "email": "NA"
+}

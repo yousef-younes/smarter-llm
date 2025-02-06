@@ -1,0 +1,31 @@
+{
+  "title": "COMMONSENSEQA: A Question Answering Challenge Targeting Commonsense Knowledge",
+  "authors": [
+    {
+      "name": "Alon Talmor",
+      "affiliations": [
+        "School of Computer Science, Tel-Aviv University",
+        "Allen Institute for Artificial Intelligence"
+      ],
+      "email": "alontalmor@mail.tau.ac.il"
+    },
+    {
+      "name": "Jonathan Herzig",
+      "affiliations": ["School of Computer Science, Tel-Aviv University"],
+      "email": "jonathan.herzig@cs.tau.ac.il"
+    },
+    {
+      "name": "Nicholas Lourie",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "nicholasl@allenai.org"
+    },
+    {
+      "name": "Jonathan Berant",
+      "affiliations": [
+        "School of Computer Science, Tel-Aviv University",
+        "Allen Institute for Artificial Intelligence"
+      ],
+      "email": "joberant@cs.tau.ac.il"
+    }
+  ]
+}

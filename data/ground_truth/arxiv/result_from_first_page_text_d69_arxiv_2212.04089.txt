@@ -1,0 +1,40 @@
+{
+  "title": "EDITING MODELS WITH TASK ARITHMETIC",
+  "authors": [
+    {
+      "name": "Gabriel Ilharco",
+      "affiliations": ["University of Washington"],
+      "email": "gamaga@cs.washington.edu"
+    },
+    {
+      "name": "Marco Tulio Ribeiro",
+      "affiliations": ["Microsoft Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Mitchell Wortsman",
+      "affiliations": ["University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Suchin Gururangan",
+      "affiliations": ["University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Ludwig Schmidt",
+      "affiliations": ["University of Washington", "Allen Institute for AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Hannaneh Hajishirzi",
+      "affiliations": ["University of Washington", "Allen Institute for AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Ali Farhadi",
+      "affiliations": ["University of Washington"],
+      "email": "NA"
+    }
+  ]
+}

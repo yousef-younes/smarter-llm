@@ -1,0 +1,65 @@
+{
+  "title": "THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS",
+  "authors": [
+    {
+      "name": "Thibault Sellam",
+      "affiliations": ["Google Research"],
+      "email": "tsellam@google.com"
+    },
+    {
+      "name": "Steve Yadlowsky",
+      "affiliations": ["Google Research"],
+      "email": "yadlowsky@google.com"
+    },
+    {
+      "name": "Ian Tenney",
+      "affiliations": ["Google Research"],
+      "email": "iftenney@google.com"
+    },
+    {
+      "name": "Jason Wei",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Naomi Saphra",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexander D’Amour",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Tal Linzen",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Jasmijn Bastings",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Iulia Turc",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Jacob Eisenstein",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Dipanjan Das",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Ellie Pavlick",
+      "affiliations": ["Google Research"],
+      "email": "epavlick@google.com"
+    }
+  ]
+}

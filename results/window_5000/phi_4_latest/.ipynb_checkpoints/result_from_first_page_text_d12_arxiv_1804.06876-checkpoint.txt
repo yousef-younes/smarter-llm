@@ -1,0 +1,36 @@
+Based on the provided context from the academic paper, here is the extracted metadata in the specified JSON format:
+
+```json
+{
+  "title": "Gender Bias in Coreference Resolution: Evaluation and Debiasing Methods",
+  "authors": [
+    {
+      "name": "Jieyu Zhao",
+      "affiliations": ["University of California, Los Angeles"],
+      "email": "jyzhao@cs.ucla.edu"
+    },
+    {
+      "name": "Tianlu Wang",
+      "affiliations": ["University of Virginia"],
+      "email": "tw8bc@virginia.edu"
+    },
+    {
+      "name": "Mark Yatskar",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "marky@allenai.org"
+    },
+    {
+      "name": "Vicente Ordonez",
+      "affiliations": ["University of Virginia"],
+      "email": "vicente@virginia.edu"
+    },
+    {
+      "name": "Kai-Wei Chang",
+      "affiliations": ["University of California, Los Angeles"],
+      "email": "kwchang@cs.ucla.edu"
+    }
+  ]
+}
+```
+
+This JSON structure provides the title of the paper and details about each author including their name, affiliations, and email addresses. If any information were missing or not found in the context, it would be marked as "NA" according to the constraints provided.

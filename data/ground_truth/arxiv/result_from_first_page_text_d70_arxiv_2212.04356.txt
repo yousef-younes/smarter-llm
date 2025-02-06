@@ -1,0 +1,35 @@
+{
+  "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+  "authors": [
+    {
+      "name": "Alec Radford",
+      "affiliations": ["OpenAI, San Francisco, CA, USA"],
+      "email": "alec@openai.com"
+    },
+    {
+      "name": "Jong Wook Kim",
+      "affiliations": ["OpenAI, San Francisco, CA, USA"],
+      "email": "jongwook@openai.com"
+    },
+    {
+      "name": "Tao Xu",
+      "affiliations": ["OpenAI, San Francisco, CA, USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Greg Brockman",
+      "affiliations": ["OpenAI, San Francisco, CA, USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Christine McLeavey",
+      "affiliations": ["OpenAI, San Francisco, CA, USA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ilya Sutskever",
+      "affiliations": ["OpenAI, San Francisco, CA, USA"],
+      "email": "NA"
+    }
+  ]
+}

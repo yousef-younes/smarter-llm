@@ -1,0 +1,41 @@
+{
+  "title": "SOCIAL IQA: Commonsense Reasoning about Social Interactions",
+  "authors": [
+    {
+      "name": "Maarten Sap",
+      "affiliations": [
+        "Allen Institute for Artificial Intelligence",
+        "Paul G. Allen School of Computer Science & Engineering, University of Washington"
+      ],
+      "email": "msap@cs.washington.edu"
+    },
+    {
+      "name": "Hannah Rashkin",
+      "affiliations": [
+        "Allen Institute for Artificial Intelligence",
+        "Paul G. Allen School of Computer Science & Engineering, University of Washington"
+      ],
+      "email": "hrashkin@cs.washington.edu"
+    },
+    {
+      "name": "Derek Chen",
+      "affiliations": [
+        "Paul G. Allen School of Computer Science & Engineering, University of Washington"
+      ],
+      "email": "dchen14@cs.washington.edu"
+    },
+    {
+      "name": "Ronan Le Bras",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "ronanlb@allenai.org"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": [
+        "Allen Institute for Artificial Intelligence",
+        "Paul G. Allen School of Computer Science & Engineering, University of Washington"
+      ],
+      "email": "yejin@cs.washington.edu"
+    }
+  ]
+}

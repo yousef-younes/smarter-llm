@@ -1,0 +1,35 @@
+{
+  "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+  "authors": [
+    {
+      "name": "Rafael Rafailov",
+      "affiliations": ["Stanford University"],
+      "email": "rafailov@cs.stanford.edu"
+    },
+    {
+      "name": "Archit Sharma",
+      "affiliations": ["Stanford University"],
+      "email": "architsh@cs.stanford.edu"
+    },
+    {
+      "name": "Eric Mitchell",
+      "affiliations": ["Stanford University"],
+      "email": "eric.mitchell@cs.stanford.edu"
+    },
+    {
+      "name": "Stefano Ermon",
+      "affiliations": ["Stanford University", "CZ Biohub"],
+      "email": "NA"
+    },
+    {
+      "name": "Christopher D. Manning",
+      "affiliations": ["Stanford University"],
+      "email": "NA"
+    },
+    {
+      "name": "Chelsea Finn",
+      "affiliations": ["Stanford University"],
+      "email": "NA"
+    }
+  ]
+}

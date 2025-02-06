@@ -1,0 +1,20 @@
+{
+  "title": "Pre-training Image-Language Transformers for Open-Vocabulary Tasks",
+  "authors": [
+    {
+      "name": "AJ Piergiovanni",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Weicheng Kuo",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Anelia Angelova",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+Based on the provided context, here is the extracted metadata in the required JSON format:
+
+```json
+{
+  "title": "In Defense of the Triplet Loss for Person Re-Identiﬁcation",
+  "authors": [
+    {
+      "name": "Alexander Hermans",
+      "affiliations": ["Visual Computing Institute", "RWTH Aachen University"],
+      "email": "last@vision.rwth-aachen.org"
+    },
+    {
+      "name": "Lucas Beyer",
+      "affiliations": ["Visual Computing Institute", "RWTH Aachen University"],
+      "email": "NA"
+    },
+    {
+      "name": "Bastian Leibe",
+      "affiliations": ["Visual Computing Institute", "RWTH Aachen University"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that the email address is only provided for Alexander Hermans, so it's marked as "NA" for the other authors. Also, all authors are assumed to have the same affiliations since the text doesn't specify otherwise.

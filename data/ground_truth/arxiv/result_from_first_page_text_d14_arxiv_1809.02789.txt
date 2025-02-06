@@ -1,0 +1,28 @@
+{
+  "title": "Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering",
+  "authors": [
+    {
+      "name": "Todor Mihaylov",
+      "affiliations": [
+        "Research Training Group AIPHES",
+        "Heidelberg University, Heidelberg, Germany"
+      ],
+      "email": "mihaylov@cl.uni-heidelberg.de"
+    },
+    {
+      "name": "Peter Clark",
+      "affiliations": ["Allen Institute for Artificial Intelligence, Seattle, WA, U.S.A."],
+      "email": "peterc@allenai.org"
+    },
+    {
+      "name": "Tushar Khot",
+      "affiliations": ["Allen Institute for Artificial Intelligence, Seattle, WA, U.S.A."],
+      "email": "tushark@allenai.org"
+    },
+    {
+      "name": "Ashish Sabharwal",
+      "affiliations": ["Allen Institute for Artificial Intelligence, Seattle, WA, U.S.A."],
+      "email": "ashishs@allenai.org"
+    }
+  ]
+}

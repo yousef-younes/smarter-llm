@@ -1,0 +1,105 @@
+{
+  "title": "PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",
+  "authors": [
+    {
+      "name": "Xi Chen",
+      "affiliations": ["Google Research"],
+      "email": "NA",
+      "role": ["Core Contributor"]
+    },
+    {
+      "name": "Xiao Wang",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA",
+      "role": ["Core Contributor"]
+    },
+    {
+      "name": "Lucas Beyer",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA",
+      "role": ["Core Contributor"]
+    },
+    {
+      "name": "Alexander Kolesnikov",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Jialin Wu",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Paul Voigtlaender",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Basil Mustafa",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Sebastian Goodman",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Ibrahim Alabdulmohsin",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Piotr Padlewski",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Salz",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Xi Xiong",
+      "affiliations": ["Google Cloud"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Vlasic",
+      "affiliations": ["Google Cloud"],
+      "email": "NA"
+    },
+    {
+      "name": "Filip Pavetic",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Keran Rong",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Tianli Yu",
+      "affiliations": ["Google Cloud"],
+      "email": "NA"
+    },
+    {
+      "name": "Daniel Keysers",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Xiaohua Zhai",
+      "affiliations": ["Google DeepMind"],
+      "email": "NA",
+      "role": ["Core Contributor", "Project Lead"]
+    },
+    {
+      "name": "Radu Soricut",
+      "affiliations": ["Google Research"],
+      "email": "NA",
+      "role": ["Project Lead"]
+    }
+  ]
+}

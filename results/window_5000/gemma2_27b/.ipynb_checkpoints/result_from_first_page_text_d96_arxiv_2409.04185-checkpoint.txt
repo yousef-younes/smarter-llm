@@ -1,0 +1,12 @@
+```json
+{
+  "title": "Multi-Layer Sparse Autoencoders for Understanding Information Flow in Transformers",
+  "authors": [
+    {
+      "name": "Tim Lawson",
+      "affiliations": ["NA"],
+      "email": "tim.lawson@bristol.ac.uk"
+    }
+  ]
+}
+```

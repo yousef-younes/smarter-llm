@@ -1,0 +1,55 @@
+{
+  "title": "SCALE EFFICIENTLY: INSIGHTS FROM PRE-TRAINING AND FINE-TUNING TRANSFORMERS",
+  "authors": [
+    {
+      "name": "Yi Tay",
+      "affiliations": ["Google Research"],
+      "email": "yitay@google.com"
+    },
+    {
+      "name": "Mostafa Dehghani",
+      "affiliations": ["Google Research"],
+      "email": "dehghani@google.com"
+    },
+    {
+      "name": "Jinfeng Rao",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "William Fedus",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Samira Abnar",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Hyung Won Chung",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Sharan Narang",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Dani Yogatama",
+      "affiliations": ["DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Ashish Vaswani",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Donald Metzler",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    }
+  ]
+}

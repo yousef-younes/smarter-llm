@@ -1,0 +1,95 @@
+{
+  "title": "Mistral 7B",
+  "authors": [
+    {
+      "name": "Albert Q. Jiang",
+      "affiliations": ["Mistral AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexandre Sablayrolles",
+      "affiliations": ["Mistral AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Arthur Mensch",
+      "affiliations": ["Mistral AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Chris Bamford",
+      "affiliations": ["Mistral AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Devendra Singh Chaplot",
+      "affiliations": ["Mistral AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Diego de las Casas",
+      "affiliations": ["Mistral AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Florian Bressand",
+      "affiliations": ["Mistral AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Gianna Lengyel",
+      "affiliations": ["Mistral AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Guillaume Lample",
+      "affiliations": ["Mistral AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Lucile Saulnier",
+      "affiliations": ["Mistral AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Lélio Renard Lavaud",
+      "affiliations": ["Mistral AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Marie-Anne Lachaux",
+      "affiliations": ["Mistral AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Pierre Stock",
+      "affiliations": ["Mistral AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Teven Le Scao",
+      "affiliations": ["Mistral AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Thibaut Lavril",
+      "affiliations": ["Mistral AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Thomas Wang",
+      "affiliations": ["Mistral AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Timothée Lacroix",
+      "affiliations": ["Mistral AI"],
+      "email": "NA"
+    },
+    {
+      "name": "William El Sayed",
+      "affiliations": ["Mistral AI"],
+      "email": "NA"
+    }
+  ]
+}

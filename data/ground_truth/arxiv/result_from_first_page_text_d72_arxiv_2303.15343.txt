@@ -1,0 +1,25 @@
+{
+  "title": "Sigmoid Loss for Language Image Pre-Training",
+  "authors": [
+    {
+      "name": "Xiaohua Zhai",
+      "affiliations": ["Google DeepMind, Zurich, Switzerland"],
+      "email": "xzhai@google.com"
+    },
+    {
+      "name": "Basil Mustafa",
+      "affiliations": ["Google DeepMind, Zurich, Switzerland"],
+      "email": "basilm@google.com"
+    },
+    {
+      "name": "Alexander Kolesnikov",
+      "affiliations": ["Google DeepMind, Zurich, Switzerland"],
+      "email": "akolesnikov@google.com"
+    },
+    {
+      "name": "Lucas Beyer",
+      "affiliations": ["Google DeepMind, Zurich, Switzerland"],
+      "email": "lbeyer@google.com"
+    }
+  ]
+}

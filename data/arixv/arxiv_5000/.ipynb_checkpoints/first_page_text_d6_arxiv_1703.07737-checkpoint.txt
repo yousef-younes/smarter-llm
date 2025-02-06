@@ -1,0 +1,151 @@
+In Defense of the Triplet Loss for Person Re-Identiﬁcation
+
+Alexander Hermans∗, Lucas Beyer∗ and Bastian Leibe
+Visual Computing Institute
+RWTH Aachen University
+last@vision.rwth-aachen.org
+
+7
+1
+0
+2
+
+v
+o
+N
+1
+2
+
+]
+
+V
+C
+.
+s
+c
+[
+
+4
+v
+7
+3
+7
+7
+0
+.
+3
+0
+7
+1
+:
+v
+i
+X
+r
+a
+
+Abstract
+
+In the past few years, the ﬁeld of computer vision has
+gone through a revolution fueled mainly by the advent
+of large datasets and the adoption of deep convolutional
+neural networks for end-to-end learning. The person re-
+identiﬁcation subﬁeld is no exception to this. Unfortunately,
+a prevailing belief in the community seems to be that the
+triplet loss is inferior to using surrogate losses (classiﬁ-
+cation, veriﬁcation) followed by a separate metric learn-
+ing step. We show that, for models trained from scratch as
+well as pretrained ones, using a variant of the triplet loss to
+perform end-to-end deep metric learning outperforms most
+other published methods by a large margin.
+
+1. Introduction
+
+In recent years, person re-identiﬁcation (ReID) has at-
+tracted signiﬁcant attention in the computer vision commu-
+nity. Especially with the rise of deep learning, many new
+approaches have been proposed to achieve this task [40, 8,
+42, 31, 39, 10, 52, 4, 46, 20, 54, 35]1.
+In many aspects
+person ReID is similar to image retrieval, where signiﬁcant
+progress has been made and where deep learning has re-
+cently introduced a lot of changes. One prominent example
+in the recent literature is FaceNet [29], a convolutional neu-
+ral network (CNN) used to learn an embedding for faces.
+The key component of FaceNet is to use the triplet loss, as
+introduced by Weinberger and Saul [41], for training the
+CNN as an embedding function. The triplet loss optimizes
+the embedding space such that data points with the same
+identity are closer to each other than those with different
+identities. A visualization of such an embedding is shown
+in Figure 1.
+
+Several approaches for person ReID have already used
+some variant of the triplet loss to train their models [17,
+9, 28, 8, 40, 31, 33, 26, 6, 25], with moderate success. The
+
+∗Equal contribution. Ordering determined by a last minute coin ﬂip.
+1A nice overview of the ﬁeld is given by a recent survey paper [51].
+
+Figure 1: A small crop of the Barnes-Hut t-SNE [38] of
+our learned embeddings for the Market-1501 test-set. The
+triplet loss learns semantically meaningful features.
+
+recently most successful person ReID approaches argue that
+a classiﬁcation loss, possibly combined with a veriﬁcation
+loss, is superior for the task [6, 51, 10, 52, 22]. Typically,
+these approaches train a deep CNN using one or multiple
+of these surrogate losses and subsequently use a part of the
+network as a feature extractor, combining it with a metric
+learning approach to generate ﬁnal embeddings. Both of
+these losses have their problems, though. The classiﬁcation
+loss necessitates a growing number of learnable parameters
+as the number of identities increases, most of which will
+be discarded after training. On the other hand, many of the
+networks trained with a veriﬁcation loss have to be used
+in a cross-image representation mode, only answering the
+question “How similar are these two images?”. This makes
+
+1
+
+ 
+ 
+ 
+ 
+ 
+ 
+using them for any other task, such as clustering or retrieval,
+prohibitively expensive, as each probe has to go through the
+network paired up with every gallery image.
+
+In this paper we show that, contrary to current opin-
+ion, a plain CNN with a triplet loss can outperform current
+state-of-the-art approaches on the CUHK03 [21], Market-
+1501 [50] and MARS [49] datasets. The triplet loss allows
+us to perform end-to-end learning between the input image
+and the desired embedding space. This means we directly
+optimize the network for the ﬁnal task, which renders an ad-
+ditional metric learning step obsolete. Instead, we can sim-
+ply compare persons by computing the Euclidean distance
+of their embeddings.
+
+A possible reason for the unpopularity of the triplet loss
+is that, when applied na¨ıvely, it will indeed often produce
+disappointing results. An essential part of learning using
+the triplet loss is the mining of hard triplets, as otherwise
+training will quickly stagnate. However, mining such hard
+triplets is time consuming and it is unclear what deﬁnes
+“good” hard triplets [29, 31]. Even worse, selecting too
+hard triplets too often makes the training unstable. We show
+how this problem can be alleviated, resulting in both faster
+training and better performance. We systematically analyze
+the design space of triplet losses, and evaluate which one
+works best for person ReID. While doing so, we place two
+previously proposed variants [9, 32] into this design space
+and discuss them in more detail in Section 2. Speciﬁcally,
+we ﬁnd that the best performing version has not been used
+before. Furthermore we also show that a margin-less formu-
+lation performs slightly better, while removing one hyper-
+parameter.
+
+Another clear trend seems to be the 

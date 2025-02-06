@@ -1,0 +1,49 @@
+{
+  "title": "OPENCHAT: ADVANCING OPEN-SOURCE LANGUAGE MODELS WITH MIXED-QUALITY DATA",
+  "authors": [
+    {
+      "name": "Guan Wang",
+      "affiliations": [
+        "Department of Computer Science and Technology, Tsinghua University",
+        "Laboratory of Brain and Intelligence, Tsinghua University"
+      ],
+      "email": "imonenext@gmail.com"
+    },
+    {
+      "name": "Sijie Cheng",
+      "affiliations": [
+        "Department of Computer Science and Technology, Tsinghua University",
+        "Institute for AI Industry Research (AIR), Tsinghua University",
+        "01.AI"
+      ],
+      "email": "csj23@mails.tsinghua.edu.cn"
+    },
+    {
+      "name": "Xianyuan Zhan",
+      "affiliations": [
+        "Institute for AI Industry Research (AIR), Tsinghua University",
+        "01.AI"
+      ],
+      "email": "NA"
+    },
+    {
+      "name": "Xiangang Li",
+      "affiliations": ["01.AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Sen Song",
+      "affiliations": ["Laboratory of Brain and Intelligence, Tsinghua University"],
+      "email": "NA"
+    },
+    {
+      "name": "Yang Liu",
+      "affiliations": [
+        "Department of Computer Science and Technology, Tsinghua University",
+        "Institute for AI Industry Research (AIR), Tsinghua University",
+        "01.AI"
+      ],
+      "email": "NA"
+    }
+  ]
+}

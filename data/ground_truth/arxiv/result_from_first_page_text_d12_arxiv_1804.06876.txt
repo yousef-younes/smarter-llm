@@ -1,0 +1,30 @@
+{
+  "title": "Gender Bias in Coreference Resolution: Evaluation and Debiasing Methods",
+  "authors": [
+    {
+      "name": "Jieyu Zhao",
+      "affiliations": ["University of California, Los Angeles"],
+      "email": "jyzhao@cs.ucla.edu"
+    },
+    {
+      "name": "Tianlu Wang",
+      "affiliations": ["University of Virginia"],
+      "email": "tw8bc@virginia.edu"
+    },
+    {
+      "name": "Mark Yatskar",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "marky@allenai.org"
+    },
+    {
+      "name": "Vicente Ordonez",
+      "affiliations": ["University of Virginia"],
+      "email": "vicente@virginia.edu"
+    },
+    {
+      "name": "Kai-Wei Chang",
+      "affiliations": ["University of California, Los Angeles"],
+      "email": "kwchang@cs.ucla.edu"
+    }
+  ]
+}
