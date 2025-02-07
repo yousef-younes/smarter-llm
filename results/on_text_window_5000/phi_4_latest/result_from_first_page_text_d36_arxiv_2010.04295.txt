@@ -25,7 +25,7 @@
     {
       "name": "Hong Li",
       "affiliations": ["Georgia Tech, Atlanta, GA 30332, USA"],
-      "email": "NA"  // Email not provided in context
+      "email": "NA"
     },
     {
       "name": "Zhiwei Guan",

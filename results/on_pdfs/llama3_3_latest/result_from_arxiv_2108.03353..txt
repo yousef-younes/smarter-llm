@@ -1,0 +1,41 @@
+Based on the provided context, here is the extracted metadata in the requested JSON format:
+
+```json
+{
+  "title": "Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning",
+  "authors": [
+    {
+      "name": "Bryan Wang",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Gang Li",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Xin Zhou",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Zhourong Chen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tovi Grossman",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Yang Li",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that the affiliations for authors other than Bryan Wang and the email addresses for all authors are not mentioned in the provided context, so they are returned as "NA".

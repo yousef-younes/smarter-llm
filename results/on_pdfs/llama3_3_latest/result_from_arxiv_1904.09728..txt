@@ -1,0 +1,36 @@
+To fulfill your request, I will extract the metadata from the provided academic paper context. Here is the extracted information in the requested JSON format:
+
+```json
+{
+  "title": "SOCIAL IQA: Commonsense Reasoning about Social Interactions",
+  "authors": [
+    {
+      "name": "Maarten Sap",
+      "affiliations": ["Allen Institute for Artiﬁcial Intelligence, Seattle, W A, USA", "Paul G. Allen School of Computer Science & Engineering, Seattle, W A, USA"],
+      "email": "msap@cs.washington.edu"
+    },
+    {
+      "name": "Hannah Rashkin",
+      "affiliations": ["Allen Institute for Artiﬁcial Intelligence, Seattle, W A, USA", "Paul G. Allen School of Computer Science & Engineering, Seattle, W A, USA"],
+      "email": "hrashkin@cs.washington.edu"
+    },
+    {
+      "name": "Derek Chen",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, Seattle, W A, USA"],
+      "email": "dchen14@cs.washington.edu"
+    },
+    {
+      "name": "Ronan Le Bras",
+      "affiliations": ["Allen Institute for Artiﬁcial Intelligence, Seattle, W A, USA"],
+      "email": "ronanlb@allenai.org"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Allen Institute for Artiﬁcial Intelligence, Seattle, W A, USA", "Paul G. Allen School of Computer Science & Engineering, Seattle, W A, USA"],
+      "email": "yejin@cs.washington.edu"
+    }
+  ]
+}
+```
+
+This output includes the title of the paper and detailed information about each author, including their name, affiliations, and email address, structured according to your specifications.

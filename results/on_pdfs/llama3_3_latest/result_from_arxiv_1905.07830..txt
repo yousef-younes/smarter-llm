@@ -1,0 +1,56 @@
+To accomplish this task based on the provided context, we will extract the title of the paper, author names, their affiliations, and email addresses (if available). The given context does not explicitly provide email addresses for any of the authors, so "email" fields in our output will be "NA".
+
+Given the structure of the information, here is how we can fill out the details:
+
+- **Title**: HellaSwag: Can a Machine Really Finish Your Sentence?
+- **Authors**:
+  - Rowan Zellers
+    - Affiliations: Paul G. Allen School of Computer Science & Engineering, University of Washington
+    - Email: NA
+  - Ari Holtzman
+    - Affiliations: Paul G. Allen School of Computer Science & Engineering, University of Washington
+    - Email: NA
+  - Yonatan Bisk
+    - Affiliations: Paul G. Allen School of Computer Science & Engineering, University of Washington
+    - Email: NA
+  - Ali Farhadi
+    - Affiliations: Paul G. Allen School of Computer Science & Engineering, University of Washington, Allen Institute for Artificial Intelligence
+    - Email: NA
+  - Yejin Choi
+    - Affiliations: Paul G. Allen School of Computer Science & Engineering, University of Washington, Allen Institute for Artificial Intelligence
+    - Email: NA
+
+So, the extracted metadata in JSON format is:
+
+```json
+{
+  "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+  "authors": [
+    {
+      "name": "Rowan Zellers",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Ari Holtzman",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Yonatan Bisk",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+      "email": "NA"
+    },
+    {
+      "name": "Ali Farhadi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artificial Intelligence"],
+      "email": "NA"
+    }
+  ]
+}
+```

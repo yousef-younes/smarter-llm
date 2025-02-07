@@ -1,0 +1,24 @@
+Here is the extracted metadata in the requested JSON format:
+
+```json
+{
+  "title": "TRAIN SHORT, TEST LONG : ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION",
+  "authors": [
+    {
+      "name": "Oﬁr Press",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Facebook AI Research"],
+      "email": "ofirp@cs.washington.edu"
+    },
+    {
+      "name": "Noah A. Smith",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Mike Lewis",
+      "affiliations": ["Facebook AI Research"],
+      "email": "NA"
+    }
+  ]
+}
+```

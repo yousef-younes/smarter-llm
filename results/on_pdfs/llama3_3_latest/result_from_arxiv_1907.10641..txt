@@ -1,0 +1,54 @@
+To accomplish this task, I will carefully examine the provided context to extract the required metadata.
+
+### Extracted Metadata:
+
+- **Title**: WINO GRANDE: An Adversarial Winograd Schema Challenge at Scale
+- **Authors**:
+  - **Keisuke Sakaguchi**:
+    - **Name**: Keisuke Sakaguchi
+    - **Affiliations**: Allen Institute for Artificial Intelligence
+    - **Email**: keisukes@allenai.org
+  - **Ronan Le Bras**:
+    - **Name**: Ronan Le Bras
+    - **Affiliations**: Allen Institute for Artificial Intelligence
+    - **Email**: ronanlb@allenai.org
+  - **Chandra Bhagavatula**:
+    - **Name**: Chandra Bhagavatula
+    - **Affiliations**: Allen Institute for Artificial Intelligence
+    - **Email**: chandrab@allenai.org
+  - **Yejin Choi**:
+    - **Name**: Yejin Choi
+    - **Affiliations**: Allen Institute for Artificial Intelligence, University of Washington
+    - **Email**: yejinc@allenai.org
+
+### Structured JSON Output:
+
+```json
+{
+  "title": "WINO GRANDE: An Adversarial Winograd Schema Challenge at Scale",
+  "authors": [
+    {
+      "name": "Keisuke Sakaguchi",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "keisukes@allenai.org"
+    },
+    {
+      "name": "Ronan Le Bras",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "ronanlb@allenai.org"
+    },
+    {
+      "name": "Chandra Bhagavatula",
+      "affiliations": ["Allen Institute for Artificial Intelligence"],
+      "email": "chandrab@allenai.org"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Allen Institute for Artificial Intelligence", "University of Washington"],
+      "email": "yejinc@allenai.org"
+    }
+  ]
+}
+```
+
+This JSON output includes the title of the paper and detailed information about each author, including their name, affiliations, and email address, structured according to the specified format.

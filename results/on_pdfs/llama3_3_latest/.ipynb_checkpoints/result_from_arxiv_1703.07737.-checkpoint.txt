@@ -1,0 +1,26 @@
+Based on the provided context, I will extract the metadata from the academic paper. Here is the extracted information in JSON format:
+
+```json
+{
+  "title": "In Defense of the Triplet Loss for Person Re-Identiﬁcation",
+  "authors": [
+    {
+      "name": "Alexander Hermans",
+      "affiliations": ["Visual Computing Institute", "RWTH Aachen University"],
+      "email": "last@vision.rwth-aachen.org"
+    },
+    {
+      "name": "Lucas Beyer",
+      "affiliations": ["Visual Computing Institute", "RWTH Aachen University"],
+      "email": "NA"
+    },
+    {
+      "name": "Bastian Leibe",
+      "affiliations": ["Visual Computing Institute", "RWTH Aachen University"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that the email address is only mentioned for the first author, and it seems to be a general contact email rather than a personal one. For the other authors, I returned "NA" as their email addresses are not found in the provided context.

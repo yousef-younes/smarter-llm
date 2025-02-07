@@ -1,0 +1,36 @@
+Here is the extracted metadata in the required JSON format:
+
+```json
+{
+  "title": "Modeling Context in Referring Expressions",
+  "authors": [
+    {
+      "name": "Licheng Yu",
+      "affiliations": ["Department of Computer Science, University of North Carolina at Chapel Hill"],
+      "email": "licheng@cs.unc.edu"
+    },
+    {
+      "name": "Patrick Poirson",
+      "affiliations": ["Department of Computer Science, University of North Carolina at Chapel Hill"],
+      "email": "poirson@cs.unc.edu"
+    },
+    {
+      "name": "Shan Yang",
+      "affiliations": ["Department of Computer Science, University of North Carolina at Chapel Hill"],
+      "email": "alexyang@cs.unc.edu"
+    },
+    {
+      "name": "Alexander C. Berg",
+      "affiliations": ["Department of Computer Science, University of North Carolina at Chapel Hill"],
+      "email": "aberg@cs.unc.edu"
+    },
+    {
+      "name": "Tamara L. Berg",
+      "affiliations": ["Department of Computer Science, University of North Carolina at Chapel Hill"],
+      "email": "tlberg@cs.unc.edu"
+    }
+  ]
+}
+```
+
+Note that all the authors have the same affiliation, which is the Department of Computer Science, University of North Carolina at Chapel Hill. Their email addresses are also provided as per the given context.

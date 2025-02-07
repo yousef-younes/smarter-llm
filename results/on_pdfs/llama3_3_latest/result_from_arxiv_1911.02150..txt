@@ -1,0 +1,25 @@
+To extract the required metadata from the provided academic paper context and structure it in the specified JSON format, we'll go through the context step by step.
+
+1. **Title Extraction**: The title of the paper is mentioned as "Fast Transformer Decoding: One Write-Head is All You Need".
+
+2. **Author Information Extraction**:
+   - **Name**: The author's name is given as "Noam Shazeer".
+   - **Affiliation(s)**: The affiliation is mentioned as "Google". There's no indication of multiple affiliations.
+   - **Email Address**: The email address provided is "noam@google.com".
+
+Given the constraints and the expected output format, here's how we can structure the extracted metadata in JSON:
+
+```json
+{
+  "title": "Fast Transformer Decoding: One Write-Head is All You Need",
+  "authors": [
+    {
+      "name": "Noam Shazeer",
+      "affiliations": ["Google"],
+      "email": "noam@google.com"
+    }
+  ]
+}
+```
+
+This JSON object contains the title of the paper, and for the author, it includes their name, affiliation, and email address as per the specified format.

@@ -1,0 +1,45 @@
+To fulfill your request, I will carefully extract the necessary metadata from the provided academic paper context.
+
+### Extracted Metadata:
+
+- **Title**: TallyQA: Answering Complex Counting Questions
+- **Authors**:
+  - **Manoj Acharya**
+    - **Name**: Manoj Acharya
+    - **Affiliations**: Chester F. Carlson Center for Imaging Science, Rochester Institute of Technology
+    - **Email**: ma7583@rit.edu
+  - **Kushal Kaﬂe**
+    - **Name**: Kushal Kaﬂe
+    - **Affiliations**: Chester F. Carlson Center for Imaging Science, Rochester Institute of Technology
+    - **Email**: kk6055@rit.edu
+  - **Christopher Kanan**
+    - **Name**: Christopher Kanan
+    - **Affiliations**: Chester F. Carlson Center for Imaging Science, Rochester Institute of Technology
+    - **Email**: kanan@rit.edu
+
+### JSON Output:
+
+```json
+{
+  "title": "TallyQA: Answering Complex Counting Questions",
+  "authors": [
+    {
+      "name": "Manoj Acharya",
+      "affiliations": ["Chester F. Carlson Center for Imaging Science", "Rochester Institute of Technology"],
+      "email": "ma7583@rit.edu"
+    },
+    {
+      "name": "Kushal Kaﬂe",
+      "affiliations": ["Chester F. Carlson Center for Imaging Science", "Rochester Institute of Technology"],
+      "email": "kk6055@rit.edu"
+    },
+    {
+      "name": "Christopher Kanan",
+      "affiliations": ["Chester F. Carlson Center for Imaging Science", "Rochester Institute of Technology"],
+      "email": "kanan@rit.edu"
+    }
+  ]
+}
+```
+
+This JSON output captures the title of the paper and detailed information about each author, including their name, affiliations, and email address, structured according to your specifications.

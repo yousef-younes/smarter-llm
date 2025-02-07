@@ -1,0 +1,71 @@
+Here is the extracted metadata in the required JSON format:
+
+```json
+{
+  "title": "THE MULTI BERTS : B ERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS",
+  "authors": [
+    {
+      "name": "Thibault Sellam",
+      "affiliations": ["Google Research"],
+      "email": "tsellam@google.com"
+    },
+    {
+      "name": "Steve Yadlowsky",
+      "affiliations": ["Google Research"],
+      "email": "yadlowsky@google.com"
+    },
+    {
+      "name": "Ian Tenney",
+      "affiliations": ["Google Research"],
+      "email": "ifenney@google.com"
+    },
+    {
+      "name": "Jason Wei",
+      "affiliations": ["Google AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Naomi Saphra",
+      "affiliations": ["Google"],
+      "email": "NA"
+    },
+    {
+      "name": "Alexander D’Amour",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tal Linzen",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jasmijn Bastings",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Iulia Turc",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jacob Eisenstein",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Dipanjan Das",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ellie Pavlick",
+      "affiliations": ["Google Research"],
+      "email": "epavlick@google.com"
+    }
+  ]
+}
+```
+
+Note: For authors where the affiliation or email address is not explicitly mentioned, I have filled in "NA" as per the constraints. Also, Jason Wei's affiliation is mentioned as "Google AI" since it is specified that his work was done as a Google AI resident, and Naomi Saphra's affiliation is mentioned as "Google" since it is specified that her work was done during an internship at Google.

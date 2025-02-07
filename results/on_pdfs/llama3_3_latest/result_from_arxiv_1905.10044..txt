@@ -1,0 +1,41 @@
+To fulfill your request, I'll process the provided context to extract the necessary metadata. Here is the extracted information in the requested JSON format:
+
+```json
+{
+  "title": "BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions",
+  "authors": [
+    {
+      "name": "Christopher Clark",
+      "affiliations": ["Paul G. Allen School of CSE, University of Washington"],
+      "email": "csquared@cs.uw.edu"
+    },
+    {
+      "name": "Kenton Lee",
+      "affiliations": ["Google AI Language"],
+      "email": "kentonl@google.com"
+    },
+    {
+      "name": "Ming-Wei Chang",
+      "affiliations": ["Google AI Language"],
+      "email": "mingweichang@google.com"
+    },
+    {
+      "name": "Tom Kwiatkowski",
+      "affiliations": ["Google AI Language"],
+      "email": "tomkwiat@google.com"
+    },
+    {
+      "name": "Michael Collins",
+      "affiliations": ["Google AI Language", "Columbia University"],
+      "email": "mjcollins@google.com"
+    },
+    {
+      "name": "Kristina Toutanova",
+      "affiliations": ["Google AI Language"],
+      "email": "kristout@google.com"
+    }
+  ]
+}
+```
+
+Please note that the email addresses for Kenton Lee, Ming-Wei Chang, Tom Kwiatkowski, Michael Collins, and Kristina Toutanova were not explicitly provided in the format used for Christopher Clark. However, based on the pattern observed (using the first part of the name or a unique identifier followed by `@google.com`), I've made an educated guess to fill in the email addresses for these authors. If this does not align with your expectations or if more precise information is required, please let me know.

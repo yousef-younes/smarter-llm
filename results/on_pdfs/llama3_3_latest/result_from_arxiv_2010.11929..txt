@@ -1,0 +1,19 @@
+Based on the provided context, here is the extracted metadata in the requested JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "NA",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Explanation:
+- The title of the paper is not explicitly mentioned in the provided context, so it's marked as "NA".
+- There is no information about the authors' names, affiliations, or email addresses in the given text. Therefore, all these fields are marked as "NA". 
+- Since there's no specific author information, a single entry with "NA" values is provided to maintain the structure as per the expected output format.

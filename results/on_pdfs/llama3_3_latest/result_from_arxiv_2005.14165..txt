@@ -1,0 +1,19 @@
+Based on the provided context, here is the extracted metadata in the requested JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "NA",
+      "affiliations": ["Johns Hopkins University", "OpenAI"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Explanation:
+- The title of the paper is not explicitly mentioned in the provided context, so it's marked as "NA".
+- There is a mention of author contributions being listed at the end of the paper, but no specific authors are named in the given text. However, affiliations are mentioned ("Johns Hopkins University" and "OpenAI"), but without corresponding names, they are assigned to a single anonymous author entry.
+- Email addresses for the authors are not provided in the context, so they are marked as "NA".

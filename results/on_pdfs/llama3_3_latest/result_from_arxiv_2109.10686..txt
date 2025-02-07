@@ -1,0 +1,61 @@
+Based on the provided context, I will extract the metadata from the academic paper. Here is the extracted information in JSON format:
+
+```json
+{
+  "title": "SCALE EFFICIENTLY: INSIGHTS FROM PRE-TRAINING AND FINE-TUNING TRANSFORMERS",
+  "authors": [
+    {
+      "name": "Yi Tay",
+      "affiliations": ["Google Research"],
+      "email": "yitay@google.com"
+    },
+    {
+      "name": "Mostafa Dehghani",
+      "affiliations": ["Google Research"],
+      "email": "dehghani@google.com"
+    },
+    {
+      "name": "Jinfeng Rao",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "William Fedus",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Samira Abnar",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Hyung Won Chung",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Sharan Narang",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Dani Yogatama",
+      "affiliations": ["DeepMind"],
+      "email": "NA"
+    },
+    {
+      "name": "Ashish Vaswani",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Donald Metzler",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that some authors' affiliations and email addresses are not mentioned in the provided context, so I have returned "NA" for those fields.

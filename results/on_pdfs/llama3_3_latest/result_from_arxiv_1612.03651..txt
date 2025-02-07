@@ -1,0 +1,50 @@
+To extract the metadata from the provided academic paper text, we'll follow the instructions step by step.
+
+1. **Title Extraction**: The title of the paper is "FAST TEXT.ZIP : COMPRESSING TEXT CLASSIFICATION MODELS".
+
+2. **Author Information Extraction**:
+   - **Name**: The authors' names are Armand Joulin, Edouard Grave, Piotr Bojanowski, Matthijs Douze, Hervé Jégou, and Tomas Mikolov.
+   - **Affiliation(s)**: All authors are affiliated with "Facebook AI Research".
+   - **Email address**: The email addresses provided for the authors are {ajoulin, egrave, bojanowski, matthijs, rvj, tmikolov}@fb.com. We can map these to the respective authors based on their names.
+
+Given the constraints and expected output format, here's how we structure the extracted metadata in JSON:
+
+```json
+{
+  "title": "FAST TEXT.ZIP : COMPRESSING TEXT CLASSIFICATION MODELS",
+  "authors": [
+    {
+      "name": "Armand Joulin",
+      "affiliations": ["Facebook AI Research"],
+      "email": "ajoulin@fb.com"
+    },
+    {
+      "name": "Edouard Grave",
+      "affiliations": ["Facebook AI Research"],
+      "email": "egrave@fb.com"
+    },
+    {
+      "name": "Piotr Bojanowski",
+      "affiliations": ["Facebook AI Research"],
+      "email": "bojanowski@fb.com"
+    },
+    {
+      "name": "Matthijs Douze",
+      "affiliations": ["Facebook AI Research"],
+      "email": "matthijs@fb.com"
+    },
+    {
+      "name": "Hervé Jégou",
+      "affiliations": ["Facebook AI Research"],
+      "email": "rvj@fb.com"
+    },
+    {
+      "name": "Tomas Mikolov",
+      "affiliations": ["Facebook AI Research"],
+      "email": "tmikolov@fb.com"
+    }
+  ]
+}
+```
+
+This structured output follows the specified format and includes all requested details for each author, ensuring that affiliations are correctly mapped and any missing information is handled according to the guidelines.

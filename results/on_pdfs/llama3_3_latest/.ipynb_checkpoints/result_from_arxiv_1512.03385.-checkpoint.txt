@@ -1,0 +1,20 @@
+Based on the provided context, I will attempt to extract the metadata. However, please note that the provided context does not contain explicit author information, affiliations, or email addresses.
+
+Here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "NA",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+The context only mentions some references ([22, 21, 50, 40, etc.) and a mention of "we" in the text, indicating that there are authors, but their names, affiliations, and email addresses are not provided. Therefore, I have filled in "NA" for all fields as per the constraints. 
+
+If you provide more context or the actual paper text with author information, I'll be happy to help extract the metadata accurately.

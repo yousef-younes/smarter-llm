@@ -1,0 +1,31 @@
+Based on the provided context, I'll extract the metadata from the academic paper. Here is the extracted information in JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "José Hernández-Orallo",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Julian Togelius",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Christian Szegedy",
+      "affiliations": "NA",
+      "email": "NA"
+    },
+    {
+      "name": "Martin Wicke",
+      "affiliations": "NA",
+      "email": "NA"
+    }
+  ]
+}
+```
+
+Note that the title of the paper is not explicitly mentioned in the provided context, and the authors' affiliations and email addresses are also not available. Therefore, I've returned "NA" for those fields as per the constraints. The names of the authors are extracted from the acknowledgement section, where they are mentioned as having provided valuable comments on the draft of the document.

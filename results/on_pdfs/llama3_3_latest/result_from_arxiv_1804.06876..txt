@@ -1,0 +1,64 @@
+To accomplish this task, we will follow the instructions provided to extract the necessary metadata from the academic paper context given.
+
+### Extracting Title
+The title of the paper is: **Gender Bias in Coreference Resolution: Evaluation and Debiasing Methods**
+
+### Extracting Author Information
+We have four authors mentioned:
+1. Jieyu Zhao
+2. Tianlu Wang
+3. Mark Yatskar
+4. Vicente Ordonez
+5. Kai-Wei Chang
+
+Their affiliations are as follows:
+- Jieyu Zhao: University of California, Los Angeles
+- Tianlu Wang: University of Virginia
+- Mark Yatskar: Allen Institute for Artiﬁcial Intelligence
+- Vicente Ordonez: University of Virginia
+- Kai-Wei Chang: University of California, Los Angeles
+
+Email addresses mentioned are:
+- Jieyu Zhao: jyzhao@cs.ucla.edu
+- Tianlu Wang: tw8bc@virginia.edu
+- Mark Yatskar: marky@allenai.org
+- Vicente Ordonez: vicente@virginia.edu
+- Kai-Wei Chang: kwchang@cs.ucla.edu
+
+### Structured JSON Output
+Given the extracted information, the structured output in JSON format is as follows:
+
+```json
+{
+  "title": "Gender Bias in Coreference Resolution: Evaluation and Debiasing Methods",
+  "authors": [
+    {
+      "name": "Jieyu Zhao",
+      "affiliations": ["University of California, Los Angeles"],
+      "email": "jyzhao@cs.ucla.edu"
+    },
+    {
+      "name": "Tianlu Wang",
+      "affiliations": ["University of Virginia"],
+      "email": "tw8bc@virginia.edu"
+    },
+    {
+      "name": "Mark Yatskar",
+      "affiliations": ["Allen Institute for Artiﬁcial Intelligence"],
+      "email": "marky@allenai.org"
+    },
+    {
+      "name": "Vicente Ordonez",
+      "affiliations": ["University of Virginia"],
+      "email": "vicente@virginia.edu"
+    },
+    {
+      "name": "Kai-Wei Chang",
+      "affiliations": ["University of California, Los Angeles"],
+      "email": "kwchang@cs.ucla.edu"
+    }
+  ]
+}
+```
+
+This JSON output includes all the requested information: title of the paper, authors' names, their affiliations, and email addresses.

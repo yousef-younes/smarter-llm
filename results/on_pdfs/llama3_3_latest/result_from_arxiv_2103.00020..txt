@@ -1,0 +1,21 @@
+Based on the provided context, I'll attempt to extract the required metadata. Here's the result:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Alec",
+      "affiliations": ["OpenAI, San Francisco, CA 94110, USA"],
+      "email": "alec@openai.com"
+    },
+    {
+      "name": "Jongwook",
+      "affiliations": ["OpenAI, San Francisco, CA 94110, USA"],
+      "email": "jongwook@openai.com"
+    }
+  ]
+}
+```
+
+Note that I couldn't find the title of the paper in the provided context, so I returned "NA" for that field. The authors' names and affiliations were extracted from the correspondence section, and their email addresses were also found. However, please note that there might be other authors not mentioned in this specific part of the text.

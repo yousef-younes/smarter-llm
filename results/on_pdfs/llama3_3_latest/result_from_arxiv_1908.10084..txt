@@ -1,0 +1,30 @@
+To extract the metadata from the provided academic paper text and format it according to the specified requirements, we'll go through the text step by step.
+
+1. **Title Extraction**: The title of the paper is "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks".
+
+2. **Author Information Extraction**:
+   - **Name**: The authors mentioned are Nils Reimers and Iryna Gurevych.
+   - **Affiliation(s)**: Both authors are affiliated with the Ubiquitous Knowledge Processing Lab (UKP-TUDA), Department of Computer Science, Technische Universität Darmstadt.
+   - **Email Address**: Unfortunately, the email addresses of the authors are not provided in the given text. Therefore, this information will be marked as "NA".
+
+Given these details, the structured JSON output would be:
+
+```json
+{
+  "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+  "authors": [
+    {
+      "name": "Nils Reimers",
+      "affiliations": ["Ubiquitous Knowledge Processing Lab (UKP-TUDA), Department of Computer Science, Technische Universität Darmstadt"],
+      "email": "NA"
+    },
+    {
+      "name": "Iryna Gurevych",
+      "affiliations": ["Ubiquitous Knowledge Processing Lab (UKP-TUDA), Department of Computer Science, Technische Universität Darmstadt"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+This output adheres to the specified format and includes all available information from the provided context.

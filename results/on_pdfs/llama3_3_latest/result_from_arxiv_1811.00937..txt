@@ -1,0 +1,51 @@
+To accomplish this task, we need to carefully read through the provided context and identify the required metadata: title, authors' names, affiliations, and email addresses. 
+
+Given the context:
+
+- The **title** of the paper is "COMMONSENSE QA: A Question Answering Challenge Targeting Commonsense Knowledge".
+- There are four **authors** mentioned:
+  1. Alon Talmor
+  2. Jonathan Herzig
+  3. Nicholas Lourie
+  4. Jonathan Berant
+- **Affiliations** for the authors are as follows:
+  - Alon Talmor and Jonathan Herzig are affiliated with both "School of Computer Science, Tel-Aviv University" and implied affiliation with "Allen Institute for Artiﬁcial Intelligence".
+  - Nicholas Lourie is affiliated with "Allen Institute for Artiﬁcial Intelligence".
+  - Jonathan Berant is also affiliated with both "School of Computer Science, Tel-Aviv University" and "Allen Institute for Artiﬁcial Intelligence".
+- **Email addresses** provided are:
+  - alontalmor@mail (implied domain: tau.ac.il)
+  - jonathan.herzig@cs (implied domain: tau.ac.il)
+  - nicholasl@allenai.org
+  - joberant@cs (implied domain: tau.ac.il)
+
+Given the constraints and expected output format, here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "COMMONSENSE QA: A Question Answering Challenge Targeting Commonsense Knowledge",
+  "authors": [
+    {
+      "name": "Alon Talmor",
+      "affiliations": ["School of Computer Science, Tel-Aviv University", "Allen Institute for Artiﬁcial Intelligence"],
+      "email": "alontalmor@mail.tau.ac.il"
+    },
+    {
+      "name": "Jonathan Herzig",
+      "affiliations": ["School of Computer Science, Tel-Aviv University", "Allen Institute for Artiﬁcial Intelligence"],
+      "email": "jonathan.herzig@cs.tau.ac.il"
+    },
+    {
+      "name": "Nicholas Lourie",
+      "affiliations": ["Allen Institute for Artiﬁcial Intelligence"],
+      "email": "nicholasl@allenai.org"
+    },
+    {
+      "name": "Jonathan Berant",
+      "affiliations": ["School of Computer Science, Tel-Aviv University", "Allen Institute for Artiﬁcial Intelligence"],
+      "email": "joberant@cs.tau.ac.il"
+    }
+  ]
+}
+```
+
+Note: The email addresses were slightly modified to include the implied domain for completeness, as only the local part and sometimes the domain (but not consistently) were provided in the context.

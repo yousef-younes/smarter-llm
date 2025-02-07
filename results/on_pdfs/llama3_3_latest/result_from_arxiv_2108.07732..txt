@@ -1,0 +1,96 @@
+To accomplish this task, we'll go through the provided context to find the necessary information: title, authors' names, affiliations, and email addresses.
+
+### Title
+The title of the paper is "Program Synthesis with Large Language Models".
+
+### Authors
+We have multiple authors mentioned in the text:
+1. Jacob Austin*
+2. Augustus Odena*
+3. Maxwell Nye† (also noted as Max, affiliated with MIT but worked at Google Research)
+4. Maarten Bosma
+5. Henryk Michalewski
+6. David Dohan
+7. Ellen Jiang
+8. Carrie Cai
+9. Michael Terry
+10. Quoc Le
+11. Charles Sutton
+
+### Affiliations and Email Addresses
+- Jacob Austin: Google Research, jaaustin@google.com
+- Augustus Odena: Google Research, augustusodena@google.com
+- Maxwell Nye (Max): MIT, but worked at Google Research, NA (email not provided)
+- Maarten Bosma: Google Research, NA (email not provided)
+- Henryk Michalewski: Google Research, NA (email not provided)
+- David Dohan: Google Research, NA (email not provided)
+- Ellen Jiang: Google Research, NA (email not provided)
+- Carrie Cai: Google Research, NA (email not provided)
+- Michael Terry: Google Research, NA (email not provided)
+- Quoc Le: Google Research, NA (email not provided)
+- Charles Sutton: Google Research, NA (email not provided)
+
+Given the constraints and expected output format, here is the extracted metadata in JSON:
+
+```json
+{
+  "title": "Program Synthesis with Large Language Models",
+  "authors": [
+    {
+      "name": "Jacob Austin",
+      "affiliations": ["Google Research"],
+      "email": "jaaustin@google.com"
+    },
+    {
+      "name": "Augustus Odena",
+      "affiliations": ["Google Research"],
+      "email": "augustusodena@google.com"
+    },
+    {
+      "name": "Maxwell Nye (Max)",
+      "affiliations": ["MIT", "Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Maarten Bosma",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Henryk Michalewski",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "David Dohan",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Ellen Jiang",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Carrie Cai",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Terry",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Quoc Le",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    },
+    {
+      "name": "Charles Sutton",
+      "affiliations": ["Google Research"],
+      "email": "NA"
+    }
+  ]
+}
+```

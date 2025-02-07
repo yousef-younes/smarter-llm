@@ -1,0 +1,36 @@
+Based on the provided context, I will extract the title and author information from the research paper. Here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "REALTOXICITY PROMPTS: Evaluating Neural Toxic Degeneration in Language Models",
+  "authors": [
+    {
+      "name": "Samuel Gehman",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+      "email": "sgehman@cs.washington.edu"
+    },
+    {
+      "name": "Suchin Gururangan",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artiﬁcial Intelligence"],
+      "email": "sg01@cs.washington.edu"
+    },
+    {
+      "name": "Maarten Sap",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington"],
+      "email": "msap@cs.washington.edu"
+    },
+    {
+      "name": "Yejin Choi",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artiﬁcial Intelligence"],
+      "email": "yejin@cs.washington.edu"
+    },
+    {
+      "name": "Noah A. Smith",
+      "affiliations": ["Paul G. Allen School of Computer Science & Engineering, University of Washington", "Allen Institute for Artiﬁcial Intelligence"],
+      "email": "nasmith@cs.washington.edu"
+    }
+  ]
+}
+```
+
+Note that I have correctly mapped the affiliations to the corresponding authors and returned "NA" for no missing information in this case.
