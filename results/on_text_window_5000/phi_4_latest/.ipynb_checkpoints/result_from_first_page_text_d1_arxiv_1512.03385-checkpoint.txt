@@ -1,0 +1,27 @@
+```json
+{
+  "title": "Deep Residual Learning for Image Recognition",
+  "authors": [
+    {
+      "name": "Kaiming He",
+      "affiliations": ["Microsoft Research"],
+      "email": "kahe@microsoft.com"
+    },
+    {
+      "name": "Xiangyu Zhang",
+      "affiliations": ["Microsoft Research"],
+      "email": "v-xiangz@microsoft.com"
+    },
+    {
+      "name": "Shaoqing Ren",
+      "affiliations": ["Microsoft Research"],
+      "email": "v-shren@microsoft.com"
+    },
+    {
+      "name": "Jian Sun",
+      "affiliations": ["Microsoft Research"],
+      "email": "jiansun@microsoft.com"
+    }
+  ]
+}
+```

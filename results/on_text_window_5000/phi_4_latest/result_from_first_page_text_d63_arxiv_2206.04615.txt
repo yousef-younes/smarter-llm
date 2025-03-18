@@ -86,4 +86,5 @@ Here's how you would structure the output in JSON format:
     {"name": "Tsvetan Kozarev", "affiliations": ["NA"], "email": "NA"},
     {"name": "Yinhan Liu", "affiliations": ["NA"], "email": "NA"}
 ]
+}
 ```

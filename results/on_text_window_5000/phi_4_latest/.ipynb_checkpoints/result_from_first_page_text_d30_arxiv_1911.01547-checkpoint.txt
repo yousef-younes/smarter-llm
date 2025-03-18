@@ -1,0 +1,37 @@
+Based on the provided context, here is a structured JSON extraction of metadata for the academic paper:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "José Hernández-Orallo",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Julian Togelius",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Christian Szegedy",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Martin Wicke",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+**Explanation:**
+
+- **Title:** The title is not explicitly provided in the context, so it is marked as "NA".
+  
+- **Authors:** Four authors are mentioned in the acknowledgment section. Since there's no further information about their affiliations or email addresses within the given context, those fields are set to "NA". 
+
+This structured format follows your instructions for handling missing information and ensures that the output can be easily compared with ground truth data.

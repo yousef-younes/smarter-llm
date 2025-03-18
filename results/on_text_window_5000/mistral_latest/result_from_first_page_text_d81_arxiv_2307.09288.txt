@@ -45,7 +45,6 @@
           "name": "Prajjwal Bhargava",
           "affiliations": ["GenAI, Meta"],
           "email": "NA"
-        },
-        ... (Repeat the structure for all authors in the paper)
+        }
       ]
     }

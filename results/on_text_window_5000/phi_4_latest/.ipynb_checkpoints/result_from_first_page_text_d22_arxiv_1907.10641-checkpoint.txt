@@ -10,7 +10,7 @@
     {
       "name": "Ronan Le Bras",
       "affiliations": ["Allen Institute for Artificial Intelligence"],
-      "email": "ronanlb@allenai.org"   
+      "email": "ronanlb@allenai.org"
     },
     {
       "name": "Chandra Bhagavatula",

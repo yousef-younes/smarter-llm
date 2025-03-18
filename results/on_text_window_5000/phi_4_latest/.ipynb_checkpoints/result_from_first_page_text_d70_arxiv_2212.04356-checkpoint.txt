@@ -1,0 +1,64 @@
+To extract the metadata from the provided context, we need to identify the title of the paper and details about each author. Let's break down the information:
+
+### Title Extraction
+
+The title can be found in the section labeled "Abstract" and is followed by the authors' names. The title here is: 
+
+**"Robust Speech Recognition via Large-Scale Weak Supervision"**
+
+### Author Information Extraction
+
+In the context, we have a list of authors with an asterisk (*) indicating primary affiliations:
+
+1. **Alec Radford**
+2. **Jong Wook Kim**
+3. Tao Xu
+4. Greg Brockman
+5. Christine McLeavey
+6. Ilya Sutskever
+
+The affiliations and email addresses are not provided in the context, so they will be marked as "NA".
+
+### JSON Structured Output
+
+Here is the structured JSON output based on the extracted information:
+
+```json
+{
+  "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+  "authors": [
+    {
+      "name": "Alec Radford",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Jong Wook Kim",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Tao Xu",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Greg Brockman",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Christine McLeavey",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Ilya Sutskever",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+This JSON output includes the title and author details with affiliations and email addresses set to "NA" due to their absence in the provided context.

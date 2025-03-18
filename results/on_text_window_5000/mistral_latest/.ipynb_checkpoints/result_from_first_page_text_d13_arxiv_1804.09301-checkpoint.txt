@@ -1,0 +1,15 @@
+ {
+     "title": "Investigating Gender Bias in Coreference Resolution Systems",
+     "authors": [
+       {
+         "name": "Author 1",
+         "affiliations": ["University of XYZ"],
+         "email": "author1@university.edu"
+       },
+       {
+         "name": "Author 2",
+         "affiliations": ["Stanford University"],
+         "email": "author2@stanford.edu"
+       }
+     ]
+   }

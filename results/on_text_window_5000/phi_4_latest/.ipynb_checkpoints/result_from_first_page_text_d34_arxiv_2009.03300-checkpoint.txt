@@ -1,0 +1,46 @@
+Based on the provided context from the academic paper, here is the extracted metadata in JSON format. Since there are no explicit titles or author information included in the provided context, certain fields will be marked as "NA" where applicable.
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Zellers et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Huang et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Bisk et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Khashabi et al.",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Wang et al., 2018",
+      "affiliations": ["NA"],
+      "email": "NA"
+    },
+    {
+      "name": "Raffel et al., 2019",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+### Explanation:
+- **Title**: The context does not provide a specific title, so it is marked as "NA".
+- **Authors**: Several groups of authors are referenced (e.g., Zellers et al.), but individual names or detailed affiliations and emails are not provided.
+- **Affiliations and Emails**: Since these details are absent from the given context, they are marked as "NA". 
+
+This structured JSON output reflects the information available in the provided text.

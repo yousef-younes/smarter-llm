@@ -1,0 +1,20 @@
+Based on the provided context, I will attempt to extract the title and author information. However, please note that the context does not provide explicit author names, affiliations, or email addresses.
+
+Here is the extracted metadata in the expected JSON format:
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "NA",
+      "affiliations": ["NA"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+The reason for this output is that the provided context does not contain any explicit information about the title, author names, affiliations, or email addresses. The text appears to be a fragment of a research paper discussing coreference resolution and gender bias, but it does not provide the necessary metadata for extraction.
+
+If you provide a more complete or different context, I'll be happy to try again!

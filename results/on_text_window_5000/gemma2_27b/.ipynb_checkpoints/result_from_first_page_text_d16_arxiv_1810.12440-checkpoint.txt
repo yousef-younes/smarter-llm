@@ -1,0 +1,5 @@
+This context provides information about a research paper focused on a new dataset and algorithm for answering complex counting questions in images.  
+
+It does not contain the text of the research paper itself, only information about its topic and contributions. Therefore, I cannot extract the title and author information in JSON format as requested. 
+
+

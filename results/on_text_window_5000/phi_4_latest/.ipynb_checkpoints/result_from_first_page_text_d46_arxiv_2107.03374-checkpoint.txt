@@ -1,0 +1,141 @@
+To extract metadata from the provided academic paper context, we'll parse the information to identify the title, authors' names, affiliations, and email addresses. Here's how it can be done:
+
+### Extracted Information
+
+1. **Title**: The title is not explicitly mentioned in the given context. However, based on the content, it seems to focus on "Codex" and its evaluation.
+
+2. **Authors**: The authors are listed with specific details including contributions and affiliations.
+
+3. **Affiliations**:
+   - OpenAI (San Francisco, California, USA)
+   - Anthropic AI (San Francisco, California, USA)
+   - Zipline (South San Francisco, California, USA)
+
+4. **Email Addresses**: Only two email addresses are provided for specific authors.
+
+### JSON Output
+
+```json
+{
+  "title": "NA",
+  "authors": [
+    {
+      "name": "Mark Chen",
+      "affiliations": ["OpenAI"],
+      "email": "mark@openai.com"
+    },
+    {
+      "name": "Jerry Tworek",
+      "affiliations": ["OpenAI"],
+      "email": "jt@openai.com"
+    },
+    {
+      "name": "Heewoo Jun",
+      "affiliations": ["OpenAI"],
+      "email": "heewoo@openai.com"
+    },
+    {
+      "name": "Qiming Yuan",
+      "affiliations": ["OpenAI"],
+      "email": "qiming@openai.com"
+    },
+    {
+      "name": "Henrique Ponde de Oliveira Pinto",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Jared Kaplan",
+      "affiliations": ["Anthropic AI"],
+      "email": "NA"
+    },
+    {
+      "name": "Harri Edwards",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Yuri Burda",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Nicholas Joseph",
+      "affiliations": ["Anthropic AI", "OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Greg Brockman",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Alex Ray",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Raul Puri",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Gretchen Krueger",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Michael Petrov",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Heidy Khlaaf",
+      "affiliations": ["Zipline", "OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Girish Sastry",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Pamela Mishkin",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Brooke Chan",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Scott Gray",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Jeff Dean",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Ilya Sutskever",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Demis Hassabis",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    },
+    {
+      "name": "Dario Amodei",
+      "affiliations": ["OpenAI"],
+      "email": "NA"
+    }
+  ]
+}
+```
+
+This JSON structure captures the available information, filling in "NA" where data is not provided.
