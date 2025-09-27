@@ -1,0 +1,423 @@
+d_index,filename,title,name,affiliations,email,Phi,,,,,Mistral,,,,,Llama,,,,,Gemma,,,,
+,,,,,,title,name,affiliations,email,Order,title,name,affiliations,email,Order,title,name,affiliations,email,Order,title,name,affiliations,email,Order
+7,result_from_first_page_text_d7_arxiv_1705.00652.txt,Efficient Natural Language Response Suggestion for Smart Reply,Matthew Henderson,Google,matthen@google.com,FP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,FN,TP,1
+7,result_from_first_page_text_d7_arxiv_1705.00652.txt,Efficient Natural Language Response Suggestion for Smart Reply,Rami Al-Rfou,Google,rmyeid@google.com,,TP,TP,TP,1,,TP,FN,FN,1,,TP,TP,TP,1,,FP,FP,FP,1
+7,result_from_first_page_text_d7_arxiv_1705.00652.txt,Efficient Natural Language Response Suggestion for Smart Reply,Brian Strope,Google,bps@google.com,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,FP,FP,TP,1
+7,result_from_first_page_text_d7_arxiv_1705.00652.txt,Efficient Natural Language Response Suggestion for Smart Reply,Yun-Hsuan Sung,Google,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,FN,FN,TN,0
+7,result_from_first_page_text_d7_arxiv_1705.00652.txt,Efficient Natural Language Response Suggestion for Smart Reply,László Lukács,Google,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,FN,FN,TN,0
+7,result_from_first_page_text_d7_arxiv_1705.00652.txt,Efficient Natural Language Response Suggestion for Smart Reply,Ruiqi Guo,Google,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,FN,FN,TN,0
+7,result_from_first_page_text_d7_arxiv_1705.00652.txt,Efficient Natural Language Response Suggestion for Smart Reply,Sanjiv Kumar,Google,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,FN,FN,TN,0
+7,result_from_first_page_text_d7_arxiv_1705.00652.txt,Efficient Natural Language Response Suggestion for Smart Reply,Balint Miklos,Google,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,FN,FN,TN,0
+7,result_from_first_page_text_d7_arxiv_1705.00652.txt,Efficient Natural Language Response Suggestion for Smart Reply,Ray Kurzweil,Google,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0
+9,result_from_first_page_text_d9_arxiv_1706.03762.txt,Attention Is All You Need,Ashish Vaswani,Google Brain,avaswani@google.com,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1
+9,result_from_first_page_text_d9_arxiv_1706.03762.txt,Attention Is All You Need,Noam Shazeer,Google Brain,noam@google.com,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1
+9,result_from_first_page_text_d9_arxiv_1706.03762.txt,Attention Is All You Need,Niki Parmar,Google Research,nikip@google.com,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1
+9,result_from_first_page_text_d9_arxiv_1706.03762.txt,Attention Is All You Need,Jakob Uszkoreit,Google Research,usz@google.com,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1
+9,result_from_first_page_text_d9_arxiv_1706.03762.txt,Attention Is All You Need,Llion Jones,Google Research,llion@google.com,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1
+9,result_from_first_page_text_d9_arxiv_1706.03762.txt,Attention Is All You Need,Aidan N. Gomez,University of Toronto,aidan@cs.toronto.edu,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1
+9,result_from_first_page_text_d9_arxiv_1706.03762.txt,Attention Is All You Need,?ukasz Kaiser,Google Brain,lukaszkaiser@google.com,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TN,TP,1,,TP,TN,TP,1
+9,result_from_first_page_text_d9_arxiv_1706.03762.txt,Attention Is All You Need,Illia Polosukhin,NA,illia.polosukhin@gmail.com,,TP,TN,TP,1,,TP,TN,TP,1,,TP,TP,TP,1,,TP,TP,TP,1
+11,result_from_first_page_text_d11_arxiv_1804.00015.txt,ESPnet: End-to-End Speech Processing Toolkit,Shinji Watanabe,Johns Hopkins University,shinjiw@jhu.edu,TP,TP,TP,TP,1,TP,TP,TP,TP,1,FP,FP,FP,FN,1,TP,TP,TP,TP,1
+11,result_from_first_page_text_d11_arxiv_1804.00015.txt,ESPnet: End-to-End Speech Processing Toolkit,Takaaki Hori,Mitsubishi Electric Research Laboratories,NA,,TP,TP,tn,1,,TP,TP,TN,1,,FN,FN,FN,0,,TP,TP,TN,1
+11,result_from_first_page_text_d11_arxiv_1804.00015.txt,ESPnet: End-to-End Speech Processing Toolkit,Shigeki Karita,NTT Communication Science Laboratories,NA,,TP,TP,tn,1,,TP,TP,TN,1,,FN,FN,FN,0,,TP,TP,TN,1
+11,result_from_first_page_text_d11_arxiv_1804.00015.txt,ESPnet: End-to-End Speech Processing Toolkit,Tomoki Hayashi,Nagoya University,NA,,TP,TP,tn,1,,TP,TP,TN,1,,FN,FN,FN,0,,TP,TP,TN,1
+11,result_from_first_page_text_d11_arxiv_1804.00015.txt,ESPnet: End-to-End Speech Processing Toolkit,Jiro Nishitoba,"Retrieva, Inc.",NA,,TP,TP,tn,1,,TP,TP,TN,1,,FN,FN,FN,0,,TP,TP,TN,1
+11,result_from_first_page_text_d11_arxiv_1804.00015.txt,ESPnet: End-to-End Speech Processing Toolkit,Yuya Unno,"Preferred Networks, Inc.",NA,,TP,TP,tn,1,,TP,TP,TN,1,,FN,FN,FN,0,,TP,TP,TN,1
+11,result_from_first_page_text_d11_arxiv_1804.00015.txt,ESPnet: End-to-End Speech Processing Toolkit,Nelson Enrique Yalta Soplin,Waseda University,NA,,TP,TP,tn,1,,TP,TP,TN,1,,FN,FN,FN,0,,TP,TP,TN,1
+11,result_from_first_page_text_d11_arxiv_1804.00015.txt,ESPnet: End-to-End Speech Processing Toolkit,Jahn Heymann,Paderborn University,NA,,TP,TP,tn,1,,TP,TP,TN,1,,FN,FN,FN,0,,TP,TP,TN,1
+11,result_from_first_page_text_d11_arxiv_1804.00015.txt,ESPnet: End-to-End Speech Processing Toolkit,Matthew Wiesner,Johns Hopkins University,NA,,TP,TP,tn,1,,TP,TP,TN,1,,FN,FN,FN,0,,TP,TP,TN,1
+11,result_from_first_page_text_d11_arxiv_1804.00015.txt,ESPnet: End-to-End Speech Processing Toolkit,Nanxin Chen,Johns Hopkins University,NA,,TP,TP,tn,1,,TP,TP,TN,1,,FN,FN,FN,0,,TP,TP,TN,1
+11,result_from_first_page_text_d11_arxiv_1804.00015.txt,ESPnet: End-to-End Speech Processing Toolkit,Adithya Renduchintala,Johns Hopkins University,NA,,TP,TP,tn,1,,TP,TP,TN,1,,FN,FN,FN,0,,TP,TP,TN,1
+11,result_from_first_page_text_d11_arxiv_1804.00015.txt,ESPnet: End-to-End Speech Processing Toolkit,Tsubasa Ochiai,Doshisha University,NA,,TP,TP,tn,1,,TP,TP,TN,1,,FN,FN,FN,0,,TP,TP,TN,1
+13,result_from_first_page_text_d13_arxiv_1804.09301.txt,Gender Bias in Coreference Resolution,Rachel Rudinger,Johns Hopkins University,NA,TP,TP,TP,TN,1,FP,FP,FP,FP,1,FN,FP,FN,TN,1,TP,TP,TP,TN,1
+13,result_from_first_page_text_d13_arxiv_1804.09301.txt,Gender Bias in Coreference Resolution,Jason Naradowsky,Johns Hopkins University,NA,,TP,TP,TN,1,,FP,FP,FP,1,,FP,FN,TN,1,,TP,TP,TN,1
+13,result_from_first_page_text_d13_arxiv_1804.09301.txt,Gender Bias in Coreference Resolution,Brian Leonard,Johns Hopkins University,NA,,TP,TP,TN,1,,FN,FN,FN,1,,FP,FN,TN,1,,TP,TP,TN,1
+13,result_from_first_page_text_d13_arxiv_1804.09301.txt,Gender Bias in Coreference Resolution,Benjamin Van Durme,Johns Hopkins University,NA,,TP,TP,TN,1,,FN,FN,FN,1,,FP,FN,TN,1,,TP,TP,TN,1
+,,,,,,,,,,,,,,,,,FP,FN,TN,0,,,,,
+,,,,,,,,,,,,,,,,,FP,FN,TN,0,,,,,
+,,,,,,,,,,,,,,,,,FP,FN,TN,0,,,,,
+,,,,,,,,,,,,,,,,,FP,FN,TN,0,,,,,
+,,,,,,,,,,,,,,,,,FP,FN,TN,0,,,,,
+,,,,,,,,,,,,,,,,,FP,FN,TN,0,,,,,
+,,,,,,,,,,,,,,,,,FP,FN,TN,0,,,,,
+,,,,,,,,,,,,,,,,,FP,FN,TN,0,,,,,
+,,,,,,,,,,,,,,,,,FP,FN,TN,0,,,,,
+,,,,,,,,,,,,,,,,,FP,FN,TN,0,,,,,
+19,result_from_first_page_text_d19_arxiv_1905.07830.txt,HellaSwag: Can a Machine Really Finish Your Sentence?,Rowan Zellers,"Paul G. Allen School of Computer Science & Engineering, University of Washington",NA,TP,TP,TP,TN,1,FP,FP,FP,FP,1,TP,TP,TP,TN,1,TP,TP,TP,TN,1
+19,result_from_first_page_text_d19_arxiv_1905.07830.txt,HellaSwag: Can a Machine Really Finish Your Sentence?,Ari Holtzman,"Paul G. Allen School of Computer Science & Engineering, University of Washington",NA,,TP,TP,TN,1,,FP,FP,FP,1,,TP,TP,TN,1,,TP,TP,TN,1
+19,result_from_first_page_text_d19_arxiv_1905.07830.txt,HellaSwag: Can a Machine Really Finish Your Sentence?,Yonatan Bisk,"Paul G. Allen School of Computer Science & Engineering, University of Washington",NA,,TP,TP,TN,1,,FN,FN,FN,1,,TP,TP,TN,1,,TP,TP,TN,1
+19,result_from_first_page_text_d19_arxiv_1905.07830.txt,HellaSwag: Can a Machine Really Finish Your Sentence?,Ali Farhadi,"Paul G. Allen School of Computer Science & Engineering, University of Washington; Allen Institute for Artificial Intelligence",NA,,TP,TP,TN,1,,FN,FN,FN,1,,TP,TP,TN,1,,TP,TP,TN,1
+19,result_from_first_page_text_d19_arxiv_1905.07830.txt,HellaSwag: Can a Machine Really Finish Your Sentence?,Yejin Choi,"Paul G. Allen School of Computer Science & Engineering, University of Washington; Allen Institute for Artificial Intelligence",NA,,TP,TP,TN,1,,FN,FN,FN,1,,TP,TP,TN,1,,TP,TP,TN,1
+21,result_from_first_page_text_d21_arxiv_1905.13648.txt,Scene Text Visual Question Answering,Ali Furkan Biten,"Computer Vision Center, UAB, Spain",abiten@cvc.uab.es,TP,TP,TP,TP,1,TP,TP,TP,TP,1,FN,FN,FN,FN,0,TP,TP,TP,TN,1
+21,result_from_first_page_text_d21_arxiv_1905.13648.txt,Scene Text Visual Question Answering,Rubén Tito,"Computer Vision Center, UAB, Spain",rperez@cvc.uab.es,,TP,TP,TP,1,,TP,TP,TP,1,,FN,FN,FN,0,,TP,TP,TN,1
+21,result_from_first_page_text_d21_arxiv_1905.13648.txt,Scene Text Visual Question Answering,Andres Maﬂa,"Computer Vision Center, UAB, Spain",amafla@cvc.uab.es,,TP,TP,TP,1,,TP,TP,TP,1,,FN,FN,FN,0,,TP,TP,TN,1
+21,result_from_first_page_text_d21_arxiv_1905.13648.txt,Scene Text Visual Question Answering,Lluis Gomez,"Computer Vision Center, UAB, Spain",lgomez@cvc.uab.es,,TP,TP,TP,1,,TP,TP,TP,1,,FN,FN,FN,0,,TP,TP,TN,1
+21,result_from_first_page_text_d21_arxiv_1905.13648.txt,Scene Text Visual Question Answering,Marçal Rusiñol,"Computer Vision Center, UAB, Spain",marcal@cvc.uab.es,,TP,TP,TP,1,,TP,TP,TP,1,,FN,FN,FN,0,,TP,TP,TN,1
+21,result_from_first_page_text_d21_arxiv_1905.13648.txt,Scene Text Visual Question Answering,Ernest Valveny,"Computer Vision Center, UAB, Spain",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+21,result_from_first_page_text_d21_arxiv_1905.13648.txt,Scene Text Visual Question Answering,C.V. Jawahar,"CVIT, IIIT Hyderabad, India",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+21,,Scene Text Visual Question Answering,Dimosthenis Karatzas,"Computer Vision Center, UAB, Spain",dimos@cvc.uab.es,,TP,TP,TP,1,,TP,TP,FN,1,,FN,FN,FN,0,,TP,TP,TN,1
+26,result_from_first_page_text_d26_arxiv_1908.10084.txt,Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks,Nils Reimers,"Ubiquitous Knowledge Processing Lab (UKP-TUDA); Department of Computer Science, Technische Universität Darmstadt",NA,TP,TP,TP,TN,1,TP,TP,TP,TN,1,FN,FN,FN,TN,0,TP,TP,FN,TN,1
+26,result_from_first_page_text_d26_arxiv_1908.10084.txt,Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks,Iryna Gurevych,"Ubiquitous Knowledge Processing Lab (UKP-TUDA); Department of Computer Science, Technische Universität Darmstadt",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,FN,TN,1
+32,result_from_first_page_text_d32_arxiv_1911.11641.txt,PIQA: Reasoning about Physical Commonsense in Natural Language,Yonatan Bisk,"Allen Institute for Artificial Intelligence; Microsoft Research AI; Carnegie Mellon University; Paul G. Allen School for Computer Science and Engineering, University of Washington",NA,TP,TP,TP,TN,1,FP,TP,TP,FP,1,FN,FN,FN,TN,1,TP,TP,TP,TN,1
+32,result_from_first_page_text_d32_arxiv_1911.11641.txt,PIQA: Reasoning about Physical Commonsense in Natural Language,Rowan Zellers,"Allen Institute for Artificial Intelligence; Paul G. Allen School for Computer Science and Engineering, University of Washington",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,1,,TP,TP,TN,1
+32,result_from_first_page_text_d32_arxiv_1911.11641.txt,PIQA: Reasoning about Physical Commonsense in Natural Language,Ronan Le Bras,Allen Institute for Artificial Intelligence,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,1,,TP,TP,TN,1
+32,result_from_first_page_text_d32_arxiv_1911.11641.txt,PIQA: Reasoning about Physical Commonsense in Natural Language,Jianfeng Gao,Microsoft Research AI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,1,,TP,TP,TN,1
+32,result_from_first_page_text_d32_arxiv_1911.11641.txt,PIQA: Reasoning about Physical Commonsense in Natural Language,Yejin Choi,"Allen Institute for Artificial Intelligence; Paul G. Allen School for Computer Science and Engineering, University of Washington",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,1,,TP,TP,TN,1
+34,result_from_first_page_text_d34_arxiv_2009.03300.txt,MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING,Dan Hendrycks,UC Berkeley,NA,FN,FP,FP,TN,X,TP,TP,TP,TN,1,TP,TP,TP,TN,1,TP,TP,TP,TN,1
+34,result_from_first_page_text_d34_arxiv_2009.03300.txt,MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING,Collin Burns,Columbia University,NA,,FP,FP,TN,X,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+34,result_from_first_page_text_d34_arxiv_2009.03300.txt,MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING,Steven Basart,UChicago,NA,,FP,FP,TN,X,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+34,result_from_first_page_text_d34_arxiv_2009.03300.txt,MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING,Andy Zou,UC Berkeley,NA,,FP,FP,TN,X,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+34,result_from_first_page_text_d34_arxiv_2009.03300.txt,MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING,Mantas Mazeika,UIUC,NA,,FP,FP,TN,X,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+34,result_from_first_page_text_d34_arxiv_2009.03300.txt,MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING,Dawn Song,UC Berkeley,NA,,FP,FP,TN,X,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+34,result_from_first_page_text_d34_arxiv_2009.03300.txt,MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING,Jacob Steinhardt,UC Berkeley,NA,,FP,FP,TN,X,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+36,result_from_first_page_text_d36_arxiv_2010.04295.txt,Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements,Yang Li,Google Research,liyang@google.com,,,,,,,,,,,TP,TP,TP,TP,1,TP,TP,TP,TP,1
+36,result_from_first_page_text_d36_arxiv_2010.04295.txt,Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements,Gang Li,"Google Research, Mountain View, CA, USA",leebird@google.com,TP,TP,TP,TP,X,TP,TP,TP,TN,X,,TP,TP,FN,1,,TP,TP,TP,1
+36,result_from_first_page_text_d36_arxiv_2010.04295.txt,Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements,Luheng He,"Google Research, Mountain View, CA, USA",luheng@google.com,,TP,TP,TP,X,,TP,TP,TN,X,,TP,TP,TP,1,,TP,TP,TP,1
+36,result_from_first_page_text_d36_arxiv_2010.04295.txt,Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements,Jingjie Zheng,"Google Research, Mountain View, CA, USA",jingjiezheng@google.com,,TP,TP,TP,X,,TP,TP,TP,X,,TP,TP,TP,1,,TP,TP,TP,1
+36,result_from_first_page_text_d36_arxiv_2010.04295.txt,Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements,Hong Li,"Georgia Tech, Atlanta, GA, USA",NA,,TP,TP,TN,X,,TP,TP,TN,X,,TP,TP,TN,1,,TP,TP,TN,1
+36,result_from_first_page_text_d36_arxiv_2010.04295.txt,Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements,Zhiwei Guan,"Google Research, Mountain View, CA, USA",zguan@google.com,,TP,TP,TP,X,,TP,TP,TP,X,,TP,TP,TP,1,,TP,TP,TP,1
+,,,,,,,FP,FP,FP,0,,FP,FP,FP,0,,,,,,,,,,
+37,result_from_first_page_text_d37_arxiv_2010.11929.txt,AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE,Alexey Dosovitskiy,"Google Research, Brain Team",adosovitskiy@google.com,TP,TP,TP,TP,1,FP,TP,TP,TP,1,FP,FP,FP,FN,X,TP,TP,TP,TP,1
+37,result_from_first_page_text_d37_arxiv_2010.11929.txt,AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE,Lucas Beyer,"Google Research, Brain Team",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FP,FP,TN,X,,TP,TP,TN,1
+37,result_from_first_page_text_d37_arxiv_2010.11929.txt,AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE,Alexander Kolesnikov,"Google Research, Brain Team",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FP,FP,TN,X,,TP,TP,TN,1
+37,result_from_first_page_text_d37_arxiv_2010.11929.txt,AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE,Dirk Weissenborn,"Google Research, Brain Team",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FP,FP,TN,X,,TP,TP,TN,1
+37,result_from_first_page_text_d37_arxiv_2010.11929.txt,AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE,Xiaohua Zhai,"Google Research, Brain Team",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FP,FP,TN,X,,TP,TP,TN,1
+37,result_from_first_page_text_d37_arxiv_2010.11929.txt,AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE,Thomas Unterthiner,"Google Research, Brain Team",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FP,FP,TN,X,,TP,FN,TN,1
+37,result_from_first_page_text_d37_arxiv_2010.11929.txt,AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE,Mostafa Dehghani,"Google Research, Brain Team",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FP,FP,TN,X,,TP,FN,TN,1
+37,result_from_first_page_text_d37_arxiv_2010.11929.txt,AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE,Matthias Minderer,"Google Research, Brain Team",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FP,FP,TN,X,,TP,FN,TN,1
+37,result_from_first_page_text_d37_arxiv_2010.11929.txt,AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE,Georg Heigold,"Google Research, Brain Team",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FP,FP,TN,X,,TP,FN,TN,1
+37,result_from_first_page_text_d37_arxiv_2010.11929.txt,AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE,Sylvain Gelly,"Google Research, Brain Team",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FP,FP,TN,X,,TP,FN,TN,1
+37,result_from_first_page_text_d37_arxiv_2010.11929.txt,AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE,Jakob Uszkoreit,"Google Research, Brain Team",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FP,FP,TN,X,,TP,FN,TN,1
+37,result_from_first_page_text_d37_arxiv_2010.11929.txt,AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE,Neil Houlsby,"Google Research, Brain Team",neilhoulsby@google.com,,TP,TP,TP,1,,TP,TP,TP,1,,FP,FP,FN,X,,TP,TP,TP,1
+39,result_from_first_page_text_d39_arxiv_2101.11718.txt,BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation,Jwala Dhamala,Amazon Alexa AI-NU,NA,TP,TP,TP,TN,1,TP,TP,TP,TN,1,TP,TP,TP,TN,1,TP,TP,TP,TN,1
+39,result_from_first_page_text_d39_arxiv_2101.11718.txt,BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation,Tony Sun,UC Santa Barbara,NA,,TP,TP,TN,X,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,X
+39,result_from_first_page_text_d39_arxiv_2101.11718.txt,BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation,Varun Kumar,Amazon Alexa AI-NU,NA,,TP,TP,TN,X,,TP,TP,TN,1,,TP,TP,TN,X,,TP,TP,TN,X
+39,result_from_first_page_text_d39_arxiv_2101.11718.txt,BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation,Satyapriya Krishna,Amazon Alexa AI-NU,NA,,TP,TP,TN,X,,TP,TP,TN,1,,TP,TP,TN,X,,TP,TP,TN,X
+39,result_from_first_page_text_d39_arxiv_2101.11718.txt,BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation,Yada Pruksachatkun,Amazon Alexa AI-NU,NA,,TP,TP,TN,X,,TP,TP,TN,1,,TP,TP,TN,X,,TP,TP,TN,X
+39,result_from_first_page_text_d39_arxiv_2101.11718.txt,BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation,Kai-Wei Chang,Amazon Alexa AI-NU; UCLA,NA,,TP,TP,TN,X,,TP,TP,TN,1,,TP,TP,TN,X,,TP,TP,TN,X
+39,result_from_first_page_text_d39_arxiv_2101.11718.txt,BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation,Rahul Gupta,Amazon Alexa AI-NU,NA,,TP,TP,TN,X,,TP,TP,TN,1,,TP,TP,TN,X,,TP,TP,TN,X
+40,result_from_first_page_text_d40_arxiv_2103.00020.txt,Learning Transferable Visual Models From Natural Language Supervision,Alec Radford,NA,alec@openai.com,FN,FP,FN,TP,1,TP,TP,TN,TP,1,FN,FP,FP,TN,X,TP,TP,FP,TN,1
+40,result_from_first_page_text_d40_arxiv_2103.00020.txt,Learning Transferable Visual Models From Natural Language Supervision,Jong Wook Kim,NA,jongwook@openai.com,,FP,FN,TP,1,,TP,TN,TP,1,,FP,FP,TN,X,,TP,FP,TN,1
+40,result_from_first_page_text_d40_arxiv_2103.00020.txt,Learning Transferable Visual Models From Natural Language Supervision,Chris Hallacy,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,FN,TN,0,,TP,TN,TN,1
+40,result_from_first_page_text_d40_arxiv_2103.00020.txt,Learning Transferable Visual Models From Natural Language Supervision,Aditya Ramesh,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,FN,TN,0,,TP,TN,TN,1
+40,result_from_first_page_text_d40_arxiv_2103.00020.txt,Learning Transferable Visual Models From Natural Language Supervision,Gabriel Goh,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,FN,TN,0,,TP,TN,TN,1
+40,result_from_first_page_text_d40_arxiv_2103.00020.txt,Learning Transferable Visual Models From Natural Language Supervision,Sandhini Agarwal,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,FN,TN,0,,TP,TN,TN,1
+40,result_from_first_page_text_d40_arxiv_2103.00020.txt,Learning Transferable Visual Models From Natural Language Supervision,Girish Sastry,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,FN,TN,0,,TP,TN,TN,1
+40,result_from_first_page_text_d40_arxiv_2103.00020.txt,Learning Transferable Visual Models From Natural Language Supervision,Amanda Askell,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,FN,TN,0,,TP,TN,TN,1
+40,result_from_first_page_text_d40_arxiv_2103.00020.txt,Learning Transferable Visual Models From Natural Language Supervision,Pamela Mishkin,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,FN,TN,0,,TP,TN,TN,1
+40,result_from_first_page_text_d40_arxiv_2103.00020.txt,Learning Transferable Visual Models From Natural Language Supervision,Jack Clark,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,FN,TN,0,,TP,TN,TN,1
+40,result_from_first_page_text_d40_arxiv_2103.00020.txt,Learning Transferable Visual Models From Natural Language Supervision,Gretchen Krueger,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,FN,TN,0,,TP,TN,TN,1
+40,result_from_first_page_text_d40_arxiv_2103.00020.txt,Learning Transferable Visual Models From Natural Language Supervision,Ilya Sutskever,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,FN,TN,0,,TP,TN,TN,1
+42,result_from_first_page_text_d42_arxiv_2103.03874.txt,Measuring Mathematical Problem Solving With the MATH Dataset,Dan Hendrycks,UC Berkeley,NA,TP,TP,TP,TN,1,TP,TP,TP,TN,1,TP,TP,TP,TN,1,TP,TP,TP,TN,1
+42,result_from_first_page_text_d42_arxiv_2103.03874.txt,Measuring Mathematical Problem Solving With the MATH Dataset,Collin Burns,UC Berkeley,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+42,result_from_first_page_text_d42_arxiv_2103.03874.txt,Measuring Mathematical Problem Solving With the MATH Dataset,Saurav Kadavath,UC Berkeley,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+42,result_from_first_page_text_d42_arxiv_2103.03874.txt,Measuring Mathematical Problem Solving With the MATH Dataset,Akul Arora,UC Berkeley,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+42,result_from_first_page_text_d42_arxiv_2103.03874.txt,Measuring Mathematical Problem Solving With the MATH Dataset,Steven Basart,UChicago,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+42,result_from_first_page_text_d42_arxiv_2103.03874.txt,Measuring Mathematical Problem Solving With the MATH Dataset,Eric Tang,UC Berkeley,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+42,result_from_first_page_text_d42_arxiv_2103.03874.txt,Measuring Mathematical Problem Solving With the MATH Dataset,Dawn Song,UC Berkeley,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+42,result_from_first_page_text_d42_arxiv_2103.03874.txt,Measuring Mathematical Problem Solving With the MATH Dataset,Jacob Steinhardt,UC Berkeley,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+45,result_from_first_page_text_d45_arxiv_2106.16163.txt,THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS,Thibault Sellam,Google Research,tsellam@google.com,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,FP,FP,FN,X
+45,result_from_first_page_text_d45_arxiv_2106.16163.txt,THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS,Steve Yadlowsky,Google Research,yadlowsky@google.com,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,FP,FP,FN,X
+45,result_from_first_page_text_d45_arxiv_2106.16163.txt,THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS,Ian Tenney,Google Research,iftenney@google.com,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,FP,FP,FN,X
+45,result_from_first_page_text_d45_arxiv_2106.16163.txt,THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS,Jason Wei,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,FN,TN,1,,FP,FP,TN,X
+45,result_from_first_page_text_d45_arxiv_2106.16163.txt,THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS,Naomi Saphra,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,FN,TN,1,,FP,FP,TN,X
+45,result_from_first_page_text_d45_arxiv_2106.16163.txt,THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS,Alexander D’Amour,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,FN,TN,1,,FP,FP,TN,X
+45,result_from_first_page_text_d45_arxiv_2106.16163.txt,THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS,Tal Linzen,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,FN,TN,1,,FN,FN,TN,0
+45,result_from_first_page_text_d45_arxiv_2106.16163.txt,THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS,Jasmijn Bastings,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,FN,TN,1,,FN,FN,TN,0
+45,result_from_first_page_text_d45_arxiv_2106.16163.txt,THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS,Iulia Turc,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,FN,TN,1,,FN,FN,TN,0
+45,result_from_first_page_text_d45_arxiv_2106.16163.txt,THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS,Jacob Eisenstein,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,FN,TN,1,,FN,FN,TN,0
+45,result_from_first_page_text_d45_arxiv_2106.16163.txt,THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS,Dipanjan Das,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,FN,TN,1,,FN,FN,TN,0
+45,result_from_first_page_text_d45_arxiv_2106.16163.txt,THE MULTIBERTS: BERT REPRODUCTIONS FOR ROBUSTNESS ANALYSIS,Ellie Pavlick,Google Research,epavlick@google.com,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,FN,FN,TN,0
+48,result_from_first_page_text_d48_arxiv_2108.07732.txt,Program Synthesis with Large Language Models,Jacob Austin,Google Research,jaaustin@google.com,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1
+48,result_from_first_page_text_d48_arxiv_2108.07732.txt,Program Synthesis with Large Language Models,Augustus Odena,Google Research,augustusodena@google.com,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1
+48,result_from_first_page_text_d48_arxiv_2108.07732.txt,Program Synthesis with Large Language Models,Maxwell Nye,Google Research,NA,,TP,TP,TN,1,,FP,TP,TN,1,,TP,FN,TN,1,,TP,FN,TN,1
+48,result_from_first_page_text_d48_arxiv_2108.07732.txt,Program Synthesis with Large Language Models,Maarten Bosma,Google Research,NA,,TP,TP,TN,1,,FN,FN,TN,0,,TP,FN,TN,1,,TP,FN,TN,1
+48,result_from_first_page_text_d48_arxiv_2108.07732.txt,Program Synthesis with Large Language Models,Henryk Michalewski,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,FN,TN,1,,TP,FN,TN,1
+48,result_from_first_page_text_d48_arxiv_2108.07732.txt,Program Synthesis with Large Language Models,David Dohan,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,TP,TN,1,,TP,FN,TN,1
+48,result_from_first_page_text_d48_arxiv_2108.07732.txt,Program Synthesis with Large Language Models,Ellen Jiang,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,TP,TN,1,,TP,FN,TN,1
+48,result_from_first_page_text_d48_arxiv_2108.07732.txt,Program Synthesis with Large Language Models,Carrie Cai,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,TP,TN,1,,TP,FN,TN,1
+48,result_from_first_page_text_d48_arxiv_2108.07732.txt,Program Synthesis with Large Language Models,Michael Terry,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,FN,TN,1,,TP,FN,TN,1
+48,result_from_first_page_text_d48_arxiv_2108.07732.txt,Program Synthesis with Large Language Models,Quoc Le,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,TP,TN,1,,TP,FN,TN,1
+48,result_from_first_page_text_d48_arxiv_2108.07732.txt,Program Synthesis with Large Language Models,Charles Sutton,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,TP,TN,1,,TP,FN,TN,1
+49,result_from_first_page_text_d49_arxiv_2108.12409.txt,"TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION",Ofir Press,"Paul G. Allen School of Computer Science & Engineering, University of Washington; Facebook AI Research",ofirp@cs.washington.edu,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1
+49,result_from_first_page_text_d49_arxiv_2108.12409.txt,"TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION",Noah A. Smith,"Paul G. Allen School of Computer Science & Engineering, University of Washington; Allen Institute for AI",NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+49,result_from_first_page_text_d49_arxiv_2108.12409.txt,"TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION",Mike Lewis,Facebook AI Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+51,result_from_first_page_text_d51_arxiv_2109.10686.txt,SCALE EFFICIENTLY: INSIGHTS FROM PRE-TRAINING AND FINE-TUNING TRANSFORMERS,Yi Tay,Google Research,yitay@google.com,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1
+51,result_from_first_page_text_d51_arxiv_2109.10686.txt,SCALE EFFICIENTLY: INSIGHTS FROM PRE-TRAINING AND FINE-TUNING TRANSFORMERS,Mostafa Dehghani,Google Research,dehghani@google.com,,TP,TP,TN,1,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1
+51,result_from_first_page_text_d51_arxiv_2109.10686.txt,SCALE EFFICIENTLY: INSIGHTS FROM PRE-TRAINING AND FINE-TUNING TRANSFORMERS,Jinfeng Rao,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,,,TP,TP,TN,1,,TP,FN,TN,1
+51,result_from_first_page_text_d51_arxiv_2109.10686.txt,SCALE EFFICIENTLY: INSIGHTS FROM PRE-TRAINING AND FINE-TUNING TRANSFORMERS,William Fedus,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,,,TP,TP,TN,1,,TP,FN,TN,1
+51,result_from_first_page_text_d51_arxiv_2109.10686.txt,SCALE EFFICIENTLY: INSIGHTS FROM PRE-TRAINING AND FINE-TUNING TRANSFORMERS,Samira Abnar,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,,,TP,TP,TN,1,,TP,FN,TN,1
+51,result_from_first_page_text_d51_arxiv_2109.10686.txt,SCALE EFFICIENTLY: INSIGHTS FROM PRE-TRAINING AND FINE-TUNING TRANSFORMERS,Hyung Won Chung,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,,,TP,TP,TN,1,,TP,FN,TN,1
+51,result_from_first_page_text_d51_arxiv_2109.10686.txt,SCALE EFFICIENTLY: INSIGHTS FROM PRE-TRAINING AND FINE-TUNING TRANSFORMERS,Sharan Narang,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,,,TP,TP,TN,1,,TP,FN,TN,1
+51,result_from_first_page_text_d51_arxiv_2109.10686.txt,SCALE EFFICIENTLY: INSIGHTS FROM PRE-TRAINING AND FINE-TUNING TRANSFORMERS,Dani Yogatama,DeepMind,NA,,TP,TP,TN,1,,TP,TP,FP,,,TP,TP,TN,1,,TP,FN,TN,1
+51,result_from_first_page_text_d51_arxiv_2109.10686.txt,SCALE EFFICIENTLY: INSIGHTS FROM PRE-TRAINING AND FINE-TUNING TRANSFORMERS,Ashish Vaswani,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,,,TP,TP,TN,1,,TP,FN,TN,1
+51,result_from_first_page_text_d51_arxiv_2109.10686.txt,SCALE EFFICIENTLY: INSIGHTS FROM PRE-TRAINING AND FINE-TUNING TRANSFORMERS,Donald Metzler,Google Research,NA,,TP,TP,TN,1,,TP,FN,TN,,,TP,TP,TN,1,,TP,FN,TN,1
+52,result_from_first_page_text_d52_arxiv_2110.08193.txt,BBQ: A Hand-Built Bias Benchmark for Question Answering,Alicia Parrish,"New York University, Dept. of Linguistics",alicia.v.parrish@nyu.edu,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1,FN,FN,FN,FN,0
+52,result_from_first_page_text_d52_arxiv_2110.08193.txt,BBQ: A Hand-Built Bias Benchmark for Question Answering,Angelica Chen,"New York University, Center for Data Science",NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TP,1,,FN,FN,TN,0
+52,result_from_first_page_text_d52_arxiv_2110.08193.txt,BBQ: A Hand-Built Bias Benchmark for Question Answering,Nikita Nangia,"New York University, Center for Data Science",NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TP,1,,FN,FN,TN,0
+52,result_from_first_page_text_d52_arxiv_2110.08193.txt,BBQ: A Hand-Built Bias Benchmark for Question Answering,Vishakh Padmakumar,"New York University, Center for Data Science",NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TP,1,,FN,FN,TN,0
+52,result_from_first_page_text_d52_arxiv_2110.08193.txt,BBQ: A Hand-Built Bias Benchmark for Question Answering,Jason Phang,"New York University, Center for Data Science",NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TP,1,,FN,FN,TN,0
+52,result_from_first_page_text_d52_arxiv_2110.08193.txt,BBQ: A Hand-Built Bias Benchmark for Question Answering,Jana Thompson,"New York University, Center for Data Science",NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TP,1,,FN,FN,TN,0
+52,result_from_first_page_text_d52_arxiv_2110.08193.txt,BBQ: A Hand-Built Bias Benchmark for Question Answering,Phu Mon Htut,"New York University, Center for Data Science",NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TP,1,,FN,FN,TN,0
+52,result_from_first_page_text_d52_arxiv_2110.08193.txt,BBQ: A Hand-Built Bias Benchmark for Question Answering,Samuel R. Bowman,"New York University, Dept. of Linguistics; New York University, Center for Data Science; New York University, Dept. of Computer Science",bowman@nyu.edu,,TP,TP,TN,1,,TP,TP,TP,1,,TP,TP,TP,1,,FN,FN,FN,0
+54,result_from_first_page_text_d54_arxiv_2110.14168.txt,Training Verifiers to Solve Math Word Problems,Karl Cobbe,OpenAI,karl@openai.com,TP,TP,TP,TP,1,TP,TP,TP,TP,1,FN,TP,TP,TP,1,TP,TP,TP,FN,1
+54,result_from_first_page_text_d54_arxiv_2110.14168.txt,Training Verifiers to Solve Math Word Problems,Vineet Kosaraju,OpenAI,vineet@openai.com,,TP,TP,TP,1,,TP,TP,TN,1,,TP,TP,TP,1,,TP,TP,FN,1
+54,result_from_first_page_text_d54_arxiv_2110.14168.txt,Training Verifiers to Solve Math Word Problems,Mohammad Bavarian,OpenAI,NA,,TP,TP,TP,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+54,result_from_first_page_text_d54_arxiv_2110.14168.txt,Training Verifiers to Solve Math Word Problems,Mark Chen,OpenAI,NA,,TP,TP,TP,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+54,result_from_first_page_text_d54_arxiv_2110.14168.txt,Training Verifiers to Solve Math Word Problems,Heewoo Jun,OpenAI,NA,,TP,TP,TP,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+54,result_from_first_page_text_d54_arxiv_2110.14168.txt,Training Verifiers to Solve Math Word Problems,Lukasz Kaiser,OpenAI,NA,,TP,TP,TP,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+54,result_from_first_page_text_d54_arxiv_2110.14168.txt,Training Verifiers to Solve Math Word Problems,Matthias Plappert,OpenAI,NA,,TP,TP,TP,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+54,result_from_first_page_text_d54_arxiv_2110.14168.txt,Training Verifiers to Solve Math Word Problems,Jerry Tworek,OpenAI,NA,,TP,TP,TP,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+54,result_from_first_page_text_d54_arxiv_2110.14168.txt,Training Verifiers to Solve Math Word Problems,Jacob Hilton,OpenAI,NA,,TP,TP,TP,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+54,result_from_first_page_text_d54_arxiv_2110.14168.txt,Training Verifiers to Solve Math Word Problems,Reiichiro Nakano,OpenAI,NA,,TP,TP,TP,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+54,result_from_first_page_text_d54_arxiv_2110.14168.txt,Training Verifiers to Solve Math Word Problems,Christopher Hesse,OpenAI,NA,,TP,TP,TP,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+54,result_from_first_page_text_d54_arxiv_2110.14168.txt,Training Verifiers to Solve Math Word Problems,John Schulman,OpenAI,NA,,TP,TP,TP,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+55,result_from_first_page_text_d55_arxiv_2203.05482.txt,Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time,Mitchell Wortsman,University of Washington,mitchnw@uw.edu,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,FN,1
+55,result_from_first_page_text_d55_arxiv_2203.05482.txt,Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time,Gabriel Ilharco,University of Washington,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+55,result_from_first_page_text_d55_arxiv_2203.05482.txt,Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time,Samir Yitzhak Gadre,Columbia University,NA,,TP,FP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+55,result_from_first_page_text_d55_arxiv_2203.05482.txt,Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time,Rebecca Roelofs,"Google Research, Brain Team",NA,,TP,FP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+55,result_from_first_page_text_d55_arxiv_2203.05482.txt,Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time,Raphael Gontijo-Lopes,"Google Research, Brain Team",NA,,TP,FP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+55,result_from_first_page_text_d55_arxiv_2203.05482.txt,Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time,Ari S. Morcos,Meta AI Research,NA,,TP,FP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+55,result_from_first_page_text_d55_arxiv_2203.05482.txt,Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time,Hongseok Namkoong,Columbia University,NA,,TP,FP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+55,result_from_first_page_text_d55_arxiv_2203.05482.txt,Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time,Ali Farhadi,University of Washington,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+55,result_from_first_page_text_d55_arxiv_2203.05482.txt,Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time,Yair Carmon,Tel Aviv University,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+55,result_from_first_page_text_d55_arxiv_2203.05482.txt,Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time,Simon Kornblith,"Google Research, Brain Team",NA,,TP,FP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+55,result_from_first_page_text_d55_arxiv_2203.05482.txt,Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time,Ludwig Schmidt,University of Washington,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+58,result_from_first_page_text_d58_arxiv_2204.05149.txt,"The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink",David Patterson,"Google; University of California, Berkeley",NA,TP,TP,TP,TN,1,TP,TP,TP,TP,1,TP,TP,TP,TN,1,TP,TP,TP,TN,1
+58,result_from_first_page_text_d58_arxiv_2204.05149.txt,"The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink",Joseph Gonzalez,"University of California, Berkeley",NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+58,result_from_first_page_text_d58_arxiv_2204.05149.txt,"The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink",Urs Hölzle,Google,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+58,result_from_first_page_text_d58_arxiv_2204.05149.txt,"The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink",Quoc Le,Google,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+58,result_from_first_page_text_d58_arxiv_2204.05149.txt,"The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink",Chen Liang,Google,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+58,result_from_first_page_text_d58_arxiv_2204.05149.txt,"The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink",Lluis-Miquel Munguia,Google,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+58,result_from_first_page_text_d58_arxiv_2204.05149.txt,"The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink",Daniel Rothchild,"University of California, Berkeley",NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+58,result_from_first_page_text_d58_arxiv_2204.05149.txt,"The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink",David So,Google,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+58,result_from_first_page_text_d58_arxiv_2204.05149.txt,"The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink",Maud Texier,Google,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+58,result_from_first_page_text_d58_arxiv_2204.05149.txt,"The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink",Jeff Dean,Google,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+59,result_from_first_page_text_d59_arxiv_2205.11487.txt,Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding,Chitwan Saharia,"Google Research, Brain Team",sahariac@google.com,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1
+59,result_from_first_page_text_d59_arxiv_2205.11487.txt,Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding,William Chan,"Google Research, Brain Team",williamchan@google.com,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1
+59,result_from_first_page_text_d59_arxiv_2205.11487.txt,Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding,Saurabh Saxena,"Google Research, Brain Team",srbs@google.com,,TP,TP,FN,1,,TP,FN,FN,1,,TP,TP,TP,1,,TP,TP,TP,1
+59,result_from_first_page_text_d59_arxiv_2205.11487.txt,Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding,Lala Li,"Google Research, Brain Team",lala@google.com,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1
+59,result_from_first_page_text_d59_arxiv_2205.11487.txt,Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding,Jay Whang,"Google Research, Brain Team",jwhang@google.com,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1
+59,result_from_first_page_text_d59_arxiv_2205.11487.txt,Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding,Emily Denton,"Google Research, Brain Team",NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,FN,TN,1
+59,result_from_first_page_text_d59_arxiv_2205.11487.txt,Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding,Seyed Kamyar Seyed Ghasemipour,"Google Research, Brain Team",NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,FN,TN,1
+59,result_from_first_page_text_d59_arxiv_2205.11487.txt,Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding,Burcu Karagol Ayan,"Google Research, Brain Team",NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,FN,TN,1
+59,result_from_first_page_text_d59_arxiv_2205.11487.txt,Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding,S. Sara Mahdavi,"Google Research, Brain Team",NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,FN,TN,1
+59,result_from_first_page_text_d59_arxiv_2205.11487.txt,Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding,Rapha Gontijo Lopes,"Google Research, Brain Team",NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,FN,TN,1
+59,result_from_first_page_text_d59_arxiv_2205.11487.txt,Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding,Tim Salimans,"Google Research, Brain Team",NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,FN,TN,1
+59,result_from_first_page_text_d59_arxiv_2205.11487.txt,Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding,Jonathan Ho,"Google Research, Brain Team",jonathanho@google.com,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1
+59,result_from_first_page_text_d59_arxiv_2205.11487.txt,Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding,David J Fleet,"Google Research, Brain Team",davidfleet@google.com,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1
+59,result_from_first_page_text_d59_arxiv_2205.11487.txt,Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding,Mohammad Norouzi,"Google Research, Brain Team",mnorouzi@google.com,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1
+61,result_from_first_page_text_d61_arxiv_2205.13147.txt,Matryoshka Representation Learning,Aditya Kusupati,University of Washington,kusupati@cs.washington.edu,TP,TP,TP,TP,1,FP,TP,TP,FP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1
+61,result_from_first_page_text_d61_arxiv_2205.13147.txt,Matryoshka Representation Learning,Gantavya Bhatt,University of Washington,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+61,result_from_first_page_text_d61_arxiv_2205.13147.txt,Matryoshka Representation Learning,Aniket Rege,University of Washington,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+61,result_from_first_page_text_d61_arxiv_2205.13147.txt,Matryoshka Representation Learning,Matthew Wallingford,University of Washington,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+61,result_from_first_page_text_d61_arxiv_2205.13147.txt,Matryoshka Representation Learning,Aditya Sinha,Google Research,NA,,TP,TP,FP,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,FP,1
+61,result_from_first_page_text_d61_arxiv_2205.13147.txt,Matryoshka Representation Learning,Vivek Ramanujan,University of Washington,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+61,result_from_first_page_text_d61_arxiv_2205.13147.txt,Matryoshka Representation Learning,William Howard-Snyder,University of Washington,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+61,result_from_first_page_text_d61_arxiv_2205.13147.txt,Matryoshka Representation Learning,Kaifeng Chen,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+61,result_from_first_page_text_d61_arxiv_2205.13147.txt,Matryoshka Representation Learning,Sham Kakade,Harvard University,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+61,result_from_first_page_text_d61_arxiv_2205.13147.txt,Matryoshka Representation Learning,Prateek Jain,Google Research,prajain@google.com,,TP,TP,TP,1,,TP,TP,TN,1,,TP,TP,TP,1,,TP,TP,TP,1
+61,result_from_first_page_text_d61_arxiv_2205.13147.txt,Matryoshka Representation Learning,Ali Farhadi,University of Washington,ali@cs.washington.edu,,TP,TP,TP,1,,TP,TP,FP,1,,TP,TP,TP,1,,TP,TP,TP,1
+64,result_from_first_page_text_d64_arxiv_2209.04372.txt,Pre-training Image-Language Transformers for Open-Vocabulary Tasks,AJ Piergiovanni,Google Research,NA,TP,TP,TP,TN,1,FP,TP,TP,TN,1,TP,TP,TP,TN,1,TP,TP,TP,TN,1
+64,result_from_first_page_text_d64_arxiv_2209.04372.txt,Pre-training Image-Language Transformers for Open-Vocabulary Tasks,Weicheng Kuo,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+64,result_from_first_page_text_d64_arxiv_2209.04372.txt,Pre-training Image-Language Transformers for Open-Vocabulary Tasks,Anelia Angelova,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+66,result_from_first_page_text_d66_arxiv_2209.11055.txt,Efficient Few-Shot Learning Without Prompts,Lewis Tunstall,Hugging Face,lewis@huggingface.com,TP,TP,TP,FP,1,,,,,,FN,FN,FN,FN,1,,,,,
+66,result_from_first_page_text_d66_arxiv_2209.11055.txt,Efficient Few-Shot Learning Without Prompts,Nils Reimers,cohere.ai,info@nils-reimers.de,,TP,TP,TP,1,,,,,,,FN,FN,FN,,,,,,
+66,,Efficient Few-Shot Learning Without Prompts,Unso Eun Seo Jo,Hugging Face,unso@huggingface.com,,TP,TP,FN,1,,,,,,,FN,FN,FN,,,,,,
+66,,Efficient Few-Shot Learning Without Prompts,Luke Bates,"Ubiquitous Knowledge Processing Lab, Technical University of Darmstadt",bates@ukp.informatik.tu-darmstadt.de,,TP,TP,TP,1,,,,,,,FN,FN,FN,,,,,,
+66,,Efficient Few-Shot Learning Without Prompts,Daniel Korat,"Emergent AI Lab, Intel Labs",daniel.korat@intel.com,,TP,TP,FN,1,,,,,,,FN,FN,FN,,,,,,
+66,,Efficient Few-Shot Learning Without Prompts,"Moshe Wasserblat4, ","Emergent AI Lab, Intel Labs",moshe.wasserblat@intel.com,,TP,TP,FN,1,,,,,,,FN,FN,FN,,,,,,
+66,,Efficient Few-Shot Learning Without Prompts,Oren Pereg,"Emergent AI Lab, Intel Labs",Oren.pereg@intel.com,,TP,TP,FN,1,,,,,,,FN,FN,FN,,,,,,
+69,result_from_first_page_text_d69_arxiv_2212.04089.txt,EDITING MODELS WITH TASK ARITHMETIC,Gabriel Ilharco,University of Washington,gamaga@cs.washington.edu,TP,TP,TP,FN,1,TP,TP,TP,FN,1,TP,TP,TP,FN,1,TP,TP,TP,FN,1
+69,result_from_first_page_text_d69_arxiv_2212.04089.txt,EDITING MODELS WITH TASK ARITHMETIC,Marco Tulio Ribeiro,Microsoft Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+69,result_from_first_page_text_d69_arxiv_2212.04089.txt,EDITING MODELS WITH TASK ARITHMETIC,Mitchell Wortsman,University of Washington,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+69,result_from_first_page_text_d69_arxiv_2212.04089.txt,EDITING MODELS WITH TASK ARITHMETIC,Suchin Gururangan,University of Washington,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+69,result_from_first_page_text_d69_arxiv_2212.04089.txt,EDITING MODELS WITH TASK ARITHMETIC,Ludwig Schmidt,University of Washington; Allen Institute for AI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+69,result_from_first_page_text_d69_arxiv_2212.04089.txt,EDITING MODELS WITH TASK ARITHMETIC,Hannaneh Hajishirzi,University of Washington; Allen Institute for AI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+69,result_from_first_page_text_d69_arxiv_2212.04089.txt,EDITING MODELS WITH TASK ARITHMETIC,Ali Farhadi,University of Washington,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+70,result_from_first_page_text_d70_arxiv_2212.04356.txt,Robust Speech Recognition via Large-Scale Weak Supervision,Alec Radford,"OpenAI, San Francisco, CA, USA",alec@openai.com,TP,TP,FN,FN,1,TP,TP,FN,FN,1,TP,TP,FN,FN,1,TP,TP,TP,FN,1
+70,result_from_first_page_text_d70_arxiv_2212.04356.txt,Robust Speech Recognition via Large-Scale Weak Supervision,Jong Wook Kim,"OpenAI, San Francisco, CA, USA",jongwook@openai.com,,TP,FN,FN,1,,TP,FN,FN,1,,TP,FN,FN,1,,TP,TP,FN,1
+70,result_from_first_page_text_d70_arxiv_2212.04356.txt,Robust Speech Recognition via Large-Scale Weak Supervision,Tao Xu,"OpenAI, San Francisco, CA, USA",NA,,TP,FN,TN,1,,TP,FN,TN,1,,TP,FN,TN,1,,TP,TP,TN,1
+70,result_from_first_page_text_d70_arxiv_2212.04356.txt,Robust Speech Recognition via Large-Scale Weak Supervision,Greg Brockman,"OpenAI, San Francisco, CA, USA",NA,,TP,FN,TN,1,,TP,FN,TN,1,,TP,FN,TN,1,,TP,TP,TN,1
+70,result_from_first_page_text_d70_arxiv_2212.04356.txt,Robust Speech Recognition via Large-Scale Weak Supervision,Christine McLeavey,"OpenAI, San Francisco, CA, USA",NA,,TP,FN,TN,1,,TP,FN,TN,1,,TP,FN,TN,1,,TP,TP,TN,1
+70,result_from_first_page_text_d70_arxiv_2212.04356.txt,Robust Speech Recognition via Large-Scale Weak Supervision,Ilya Sutskever,"OpenAI, San Francisco, CA, USA",NA,,TP,FN,TN,1,,TP,FN,TN,1,,TP,FN,TN,1,,TP,TP,TN,1
+71,result_from_first_page_text_d71_arxiv_2302.13971.txt,LLaMA: Open and Efficient Foundation Language Models,Hugo Touvron,Meta AI,htouvron@meta.com,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,FP,TP,TP,1,TP,TP,TP,FN,1
+71,result_from_first_page_text_d71_arxiv_2302.13971.txt,LLaMA: Open and Efficient Foundation Language Models,Thibaut Lavril,Meta AI,thibautlav@meta.com,,TP,TP,TP,1,,TP,TP,TP,1,,FP,TP,TP,1,,TP,TP,FN,1
+71,result_from_first_page_text_d71_arxiv_2302.13971.txt,LLaMA: Open and Efficient Foundation Language Models,Gautier Izacard,Meta AI,gizacard@meta.com,,TP,TP,TP,1,,TP,TP,TP,1,,FP,TP,TP,1,,TP,TP,FN,1
+71,result_from_first_page_text_d71_arxiv_2302.13971.txt,LLaMA: Open and Efficient Foundation Language Models,Xavier Martinet,Meta AI,NA,,TP,FN,TN,1,,FN,FN,FN,X,,FN,FN,TN,X,,TP,TP,TN,1
+71,result_from_first_page_text_d71_arxiv_2302.13971.txt,LLaMA: Open and Efficient Foundation Language Models,Marie-Anne Lachaux,Meta AI,NA,,TP,FN,TN,1,,TP,FN,FN,1,,FN,FN,TN,X,,TP,TP,TN,1
+71,result_from_first_page_text_d71_arxiv_2302.13971.txt,LLaMA: Open and Efficient Foundation Language Models,Timothee Lacroix,Meta AI,NA,,TP,FN,TN,1,,TP,TP,FP,1,,FN,FN,TN,X,,TP,TP,TN,1
+71,result_from_first_page_text_d71_arxiv_2302.13971.txt,LLaMA: Open and Efficient Foundation Language Models,Baptiste Rozière,Meta AI,NA,,TP,FN,TN,1,,TP,TP,FP,1,,FN,FN,TN,X,,TP,TP,TN,1
+71,result_from_first_page_text_d71_arxiv_2302.13971.txt,LLaMA: Open and Efficient Foundation Language Models,Naman Goyal,Meta AI,NA,,TP,FN,TN,1,,TP,FN,TN,1,,FN,FN,TN,X,,TP,TP,TN,1
+71,result_from_first_page_text_d71_arxiv_2302.13971.txt,LLaMA: Open and Efficient Foundation Language Models,Eric Hambro,Meta AI,NA,,TP,FN,TN,1,,TP,TP,FP,1,,FN,FN,TN,X,,TP,TP,TN,1
+71,result_from_first_page_text_d71_arxiv_2302.13971.txt,LLaMA: Open and Efficient Foundation Language Models,Faisal Azhar,Meta AI,NA,,TP,FN,TN,1,,TP,TP,FP,1,,FN,FN,TN,X,,TP,TP,TN,1
+71,result_from_first_page_text_d71_arxiv_2302.13971.txt,LLaMA: Open and Efficient Foundation Language Models,Aurelien Rodriguez,Meta AI,NA,,TP,FN,TN,1,,TP,TP,FP,1,,FN,FN,TN,X,,TP,TP,TN,1
+71,result_from_first_page_text_d71_arxiv_2302.13971.txt,LLaMA: Open and Efficient Foundation Language Models,Armand Joulin,Meta AI,NA,,TP,FN,TN,1,,TP,TP,FP,1,,FN,FN,TN,X,,TP,TP,TN,1
+71,result_from_first_page_text_d71_arxiv_2302.13971.txt,LLaMA: Open and Efficient Foundation Language Models,Edouard Grave,Meta AI,egrave@meta.com,,TP,TP,TP,1,,TP,TP,FP,1,,FP,TP,TN,X,,TP,TP,FN,1
+71,result_from_first_page_text_d71_arxiv_2302.13971.txt,LLaMA: Open and Efficient Foundation Language Models,Guillaume Lample,Meta AI,glample@meta.com,,TP,TP,TP,1,,TP,TP,FP,1,,FP,TP,TN,X,,TP,TP,FN,1
+75,result_from_first_page_text_d75_arxiv_2305.13516.txt,"Scaling Speech Technology to 1,000+ Languages",Vineel Pratap,Meta AI,NA,TP,TP,TP,TN,1,TP,TP,TP,TN,1,TP,TP,FN,TN,1,TP,TP,TP,TN,1
+75,result_from_first_page_text_d75_arxiv_2305.13516.txt,"Scaling Speech Technology to 1,000+ Languages",Andros Tjandra,Meta AI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1
+75,result_from_first_page_text_d75_arxiv_2305.13516.txt,"Scaling Speech Technology to 1,000+ Languages",Bowen Shi,Meta AI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1
+75,result_from_first_page_text_d75_arxiv_2305.13516.txt,"Scaling Speech Technology to 1,000+ Languages",Paden Tomasello,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,FN,TN,1,,TP,TP,TN,1
+75,result_from_first_page_text_d75_arxiv_2305.13516.txt,"Scaling Speech Technology to 1,000+ Languages",Arun Babu,Meta AI,NA,,TP,TP,TN,1,,FP,TP,TN,1,,TP,FN,TN,1,,TP,FN,TN,1
+75,result_from_first_page_text_d75_arxiv_2305.13516.txt,"Scaling Speech Technology to 1,000+ Languages",Sayani Kundu,JPMorgan Chase,NA,,TP,TP,TN,1,,FN,FN,TN,X,,TP,TP,TN,1,,TP,TP,TN,1
+75,result_from_first_page_text_d75_arxiv_2305.13516.txt,"Scaling Speech Technology to 1,000+ Languages",Ali Elkahky,Apple,NA,,TP,TP,TN,1,,TP,TP,TN,X,,TP,TP,TN,1,,TP,TP,TN,1
+75,result_from_first_page_text_d75_arxiv_2305.13516.txt,"Scaling Speech Technology to 1,000+ Languages",Zhaoheng Ni,Meta AI,NA,,TP,TP,TN,1,,TP,TP,TN,X,,TP,FN,TN,1,,TP,FN,TN,1
+75,result_from_first_page_text_d75_arxiv_2305.13516.txt,"Scaling Speech Technology to 1,000+ Languages",Apoorv Vyas,Meta AI,NA,,TP,TP,TN,1,,TP,TP,TN,X,,TP,FN,TN,1,,TP,FN,TN,1
+75,result_from_first_page_text_d75_arxiv_2305.13516.txt,"Scaling Speech Technology to 1,000+ Languages",Maryam Fazel-Zarandi,Meta AI,NA,,TP,TP,TN,1,,TP,TP,TN,X,,TP,FN,TN,1,,TP,FN,TN,1
+75,result_from_first_page_text_d75_arxiv_2305.13516.txt,"Scaling Speech Technology to 1,000+ Languages",Alexei Baevski,Character.AI,NA,,TP,TP,TN,1,,TP,TP,TN,X,,TP,TP,TN,1,,TP,TP,TN,1
+75,result_from_first_page_text_d75_arxiv_2305.13516.txt,"Scaling Speech Technology to 1,000+ Languages",Yossi Adi,Meta AI; Hebrew University of Jerusalem,NA,,TP,TP,TN,1,,TP,TP,TN,X,,TP,TP,TN,1,,TP,TP,TN,1
+75,result_from_first_page_text_d75_arxiv_2305.13516.txt,"Scaling Speech Technology to 1,000+ Languages",Xiaohui Zhang,Meta AI,NA,,TP,TP,TN,1,,TP,TP,TN,X,,TP,FN,TN,1,,TP,FN,TN,1
+75,result_from_first_page_text_d75_arxiv_2305.13516.txt,"Scaling Speech Technology to 1,000+ Languages",Wei-Ning Hsu,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,FN,TN,1,,TP,FN,TN,1
+75,result_from_first_page_text_d75_arxiv_2305.13516.txt,"Scaling Speech Technology to 1,000+ Languages",Alexis Conneau,Meta AI,NA,,TP,FP,TN,1,,TP,TP,TN,X,,TP,FN,TN,1,,TP,FP,TN,1
+75,result_from_first_page_text_d75_arxiv_2305.13516.txt,"Scaling Speech Technology to 1,000+ Languages",Michael Auli,Meta AI,NA,,TP,TP,TN,1,,TP,TP,TN,X,,TP,FN,TN,1,,TP,TP,TN,1
+77,result_from_first_page_text_d77_arxiv_2305.18290.txt,Direct Preference Optimization: Your Language Model is Secretly a Reward Model,Rafael Rafailov,Stanford University,rafailov@cs.stanford.edu,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1
+77,result_from_first_page_text_d77_arxiv_2305.18290.txt,Direct Preference Optimization: Your Language Model is Secretly a Reward Model,Archit Sharma,Stanford University,architsh@cs.stanford.edu,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1
+77,result_from_first_page_text_d77_arxiv_2305.18290.txt,Direct Preference Optimization: Your Language Model is Secretly a Reward Model,Eric Mitchell,Stanford University,eric.mitchell@cs.stanford.edu,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1
+77,result_from_first_page_text_d77_arxiv_2305.18290.txt,Direct Preference Optimization: Your Language Model is Secretly a Reward Model,Stefano Ermon,Stanford University; CZ Biohub,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+77,result_from_first_page_text_d77_arxiv_2305.18290.txt,Direct Preference Optimization: Your Language Model is Secretly a Reward Model,Christopher D. Manning,Stanford University,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+77,result_from_first_page_text_d77_arxiv_2305.18290.txt,Direct Preference Optimization: Your Language Model is Secretly a Reward Model,Chelsea Finn,Stanford University,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+79,result_from_first_page_text_d79_arxiv_2306.02707.txt,Orca: Progressive Learning from Complex Explanation Traces of GPT-4,Subhabrata Mukherjee,Microsoft Research,subhabrata.mukherjee@microsoft.com,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,FN,1
+79,result_from_first_page_text_d79_arxiv_2306.02707.txt,Orca: Progressive Learning from Complex Explanation Traces of GPT-4,Arindam Mitra,Microsoft Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+79,result_from_first_page_text_d79_arxiv_2306.02707.txt,Orca: Progressive Learning from Complex Explanation Traces of GPT-4,Ganesh Jawahar,Microsoft Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+79,result_from_first_page_text_d79_arxiv_2306.02707.txt,Orca: Progressive Learning from Complex Explanation Traces of GPT-4,Sahaj Agarwal,Microsoft Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+79,result_from_first_page_text_d79_arxiv_2306.02707.txt,Orca: Progressive Learning from Complex Explanation Traces of GPT-4,Hamid Palangi,Microsoft Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+79,result_from_first_page_text_d79_arxiv_2306.02707.txt,Orca: Progressive Learning from Complex Explanation Traces of GPT-4,Ahmed Awadallah,Microsoft Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+80,result_from_first_page_text_d80_arxiv_2306.05685.txt,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,Lianmin Zheng,UC Berkeley,NA,TP,TP,TP,TN,1,TP,TP,TP,TN,1,TP,TP,TP,TN,1,FN,FN,FN,TN,0
+80,result_from_first_page_text_d80_arxiv_2306.05685.txt,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,Wei-Lin Chiang,UC Berkeley,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0
+80,result_from_first_page_text_d80_arxiv_2306.05685.txt,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,Ying Sheng,Stanford University,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0
+80,result_from_first_page_text_d80_arxiv_2306.05685.txt,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,Siyuan Zhuang,UC Berkeley,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0
+80,result_from_first_page_text_d80_arxiv_2306.05685.txt,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,Zhanghao Wu,UC Berkeley,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0
+80,result_from_first_page_text_d80_arxiv_2306.05685.txt,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,Yonghao Zhuang,Carnegie Mellon University,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0
+80,result_from_first_page_text_d80_arxiv_2306.05685.txt,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,Zi Lin,UC San Diego,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0
+80,result_from_first_page_text_d80_arxiv_2306.05685.txt,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,Zhuohan Li,UC Berkeley,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0
+80,result_from_first_page_text_d80_arxiv_2306.05685.txt,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,Dacheng Li,UC Berkeley; Carnegie Mellon University,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0
+80,result_from_first_page_text_d80_arxiv_2306.05685.txt,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,Eric P. Xing,Carnegie Mellon University; MBZUAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0
+80,result_from_first_page_text_d80_arxiv_2306.05685.txt,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,Hao Zhang,UC Berkeley; UC San Diego,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0
+80,result_from_first_page_text_d80_arxiv_2306.05685.txt,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,Joseph E. Gonzalez,UC Berkeley,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0
+80,result_from_first_page_text_d80_arxiv_2306.05685.txt,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,Ion Stoica,UC Berkeley,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0
+83,result_from_first_page_text_d83_arxiv_2309.00071.txt,YaRN: Efficient Context Window Extension of Large Language Models,Bowen Peng,Nous Research,NA,TP,TP,TP,TN,1,TP,TP,TP,TN,1,TP,FP,FN,TN,X,TP,TP,TP,TN,1
+83,result_from_first_page_text_d83_arxiv_2309.00071.txt,YaRN: Efficient Context Window Extension of Large Language Models,Jeffrey Quesnelle,Nous Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FP,FN,TN,X,,TP,TP,TN,1
+83,result_from_first_page_text_d83_arxiv_2309.00071.txt,YaRN: Efficient Context Window Extension of Large Language Models,Honglu Fan,EleutherAI; University of Geneva,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FP,FN,TN,X,,TP,TP,TN,1
+83,result_from_first_page_text_d83_arxiv_2309.00071.txt,YaRN: Efficient Context Window Extension of Large Language Models,Enrico Shippole,NA,NA,,TP,TP,TN,1,,TP,FP,TN,1,,FN,FN,TN,X,,TP,TP,TN,1
+84,result_from_first_page_text_d84_arxiv_2309.08958.txt,Monolingual or Multilingual Instruction Tuning: Which Makes a Better Alpaca,Pinzhen Chen,University of Edinburgh,pchen3@ed.ac.uk,TP,TP,TP,TP,1,FP,TP,TP,TP,1,FN,FP,FN,FN,X,FN,FN,FN,FN,X
+84,result_from_first_page_text_d84_arxiv_2309.08958.txt,Monolingual or Multilingual Instruction Tuning: Which Makes a Better Alpaca,Shaoxiong Ji,University of Helsinki,shaoxiong.ji@helsinki.fi,,TP,TP,TP,X,,TP,TP,TP,1,,FN,FN,FN,X,,FN,FN,FN,X
+84,result_from_first_page_text_d84_arxiv_2309.08958.txt,Monolingual or Multilingual Instruction Tuning: Which Makes a Better Alpaca,Nikolay Bogoychev,University of Edinburgh,NA,,TP,TP,TN,X,,TP,FP,TN,X,,FN,FN,TN,X,,FN,FN,TN,X
+84,result_from_first_page_text_d84_arxiv_2309.08958.txt,Monolingual or Multilingual Instruction Tuning: Which Makes a Better Alpaca,Andrey Kutuzov,University of Oslo,NA,,TP,TP,TN,X,,TP,TP,TN,X,,FN,FN,TN,X,,FN,FN,TN,X
+84,result_from_first_page_text_d84_arxiv_2309.08958.txt,Monolingual or Multilingual Instruction Tuning: Which Makes a Better Alpaca,Barry Haddow,University of Edinburgh,NA,,TP,TP,TN,X,,FN,FN,TN,X,,FN,FN,TN,X,,FN,FN,TN,X
+84,result_from_first_page_text_d84_arxiv_2309.08958.txt,Monolingual or Multilingual Instruction Tuning: Which Makes a Better Alpaca,Kenneth Heafield,University of Edinburgh,NA,,TP,TP,TN,1,,TP,TP,TN,X,,FN,FN,TN,X,,FN,FN,TN,X
+85,result_from_first_page_text_d85_arxiv_2309.11235.txt,OPENCHAT: ADVANCING OPEN-SOURCE LANGUAGE MODELS WITH MIXED-QUALITY DATA,Guan Wang,"Department of Computer Science and Technology, Tsinghua University; Laboratory of Brain and Intelligence, Tsinghua University",imonenext@gmail.com,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TP,1
+85,result_from_first_page_text_d85_arxiv_2309.11235.txt,OPENCHAT: ADVANCING OPEN-SOURCE LANGUAGE MODELS WITH MIXED-QUALITY DATA,Sijie Cheng,"Department of Computer Science and Technology, Tsinghua University; Institute for AI Industry Research (AIR), Tsinghua University; 01.AI",csj23@mails.tsinghua.edu.cn,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1,,TP,TP,TP,1
+85,result_from_first_page_text_d85_arxiv_2309.11235.txt,OPENCHAT: ADVANCING OPEN-SOURCE LANGUAGE MODELS WITH MIXED-QUALITY DATA,Xianyuan Zhan,"Institute for AI Industry Research (AIR), Tsinghua University; 01.AI",NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+85,result_from_first_page_text_d85_arxiv_2309.11235.txt,OPENCHAT: ADVANCING OPEN-SOURCE LANGUAGE MODELS WITH MIXED-QUALITY DATA,Xiangang Li,01.AI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,FP,TN,1,,TP,FP,TN,1
+85,result_from_first_page_text_d85_arxiv_2309.11235.txt,OPENCHAT: ADVANCING OPEN-SOURCE LANGUAGE MODELS WITH MIXED-QUALITY DATA,Sen Song,"Laboratory of Brain and Intelligence, Tsinghua University",NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+85,result_from_first_page_text_d85_arxiv_2309.11235.txt,OPENCHAT: ADVANCING OPEN-SOURCE LANGUAGE MODELS WITH MIXED-QUALITY DATA,Yang Liu,"Department of Computer Science and Technology, Tsinghua University; Institute for AI Industry Research (AIR), Tsinghua University; 01.AI",NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+87,result_from_first_page_text_d87_arxiv_2310.06825.txt,Mistral 7B,Albert Q. Jiang,Mistral AI,NA,FP,FN,FN,TN,0,TP,TP,FN,TN,1,TP,FN,FN,TN,1,TP,TP,FN,TN,1
+87,result_from_first_page_text_d87_arxiv_2310.06825.txt,Mistral 7B,Alexandre Sablayrolles,Mistral AI,NA,,FN,FN,TN,0,,TP,FN,TN,1,,FN,FN,TN,1,,TP,FN,TN,1
+87,result_from_first_page_text_d87_arxiv_2310.06825.txt,Mistral 7B,Arthur Mensch,Mistral AI,NA,,FN,FN,TN,0,,TP,FN,TN,1,,FN,FN,TN,1,,TP,FN,TN,1
+87,result_from_first_page_text_d87_arxiv_2310.06825.txt,Mistral 7B,Chris Bamford,Mistral AI,NA,,FN,FN,TN,0,,TP,FN,TN,1,,FN,FN,TN,1,,TP,FN,TN,1
+87,result_from_first_page_text_d87_arxiv_2310.06825.txt,Mistral 7B,Devendra Singh Chaplot,Mistral AI,NA,,FN,FN,TN,0,,TP,FN,TN,1,,FN,FN,TN,1,,TP,FN,TN,1
+87,result_from_first_page_text_d87_arxiv_2310.06825.txt,Mistral 7B,Diego de las Casas,Mistral AI,NA,,FN,FN,TN,0,,TP,FN,TN,1,,FN,FN,TN,1,,TP,FN,TN,1
+87,result_from_first_page_text_d87_arxiv_2310.06825.txt,Mistral 7B,Florian Bressand,Mistral AI,NA,,FN,FN,TN,0,,TP,FN,TN,1,,FN,FN,TN,1,,TP,FN,TN,1
+87,result_from_first_page_text_d87_arxiv_2310.06825.txt,Mistral 7B,Gianna Lengyel,Mistral AI,NA,,FN,FN,TN,0,,TP,FN,TN,1,,FN,FN,TN,1,,TP,FN,TN,1
+87,result_from_first_page_text_d87_arxiv_2310.06825.txt,Mistral 7B,Guillaume Lample,Mistral AI,NA,,FN,FN,TN,0,,TP,FN,TN,1,,FN,FN,TN,1,,TP,FN,TN,1
+87,result_from_first_page_text_d87_arxiv_2310.06825.txt,Mistral 7B,Lucile Saulnier,Mistral AI,NA,,FN,FN,TN,0,,TP,FN,TN,1,,FN,FN,TN,1,,TP,FN,TN,1
+87,result_from_first_page_text_d87_arxiv_2310.06825.txt,Mistral 7B,Lélio Renard Lavaud,Mistral AI,NA,,FN,FN,TN,0,,TP,FN,TN,1,,FN,FN,TN,1,,TP,FN,TN,1
+87,result_from_first_page_text_d87_arxiv_2310.06825.txt,Mistral 7B,Marie-Anne Lachaux,Mistral AI,NA,,FN,FN,TN,0,,TP,FN,TN,1,,FN,FN,TN,1,,TP,FN,TN,1
+87,result_from_first_page_text_d87_arxiv_2310.06825.txt,Mistral 7B,Pierre Stock,Mistral AI,NA,,FN,FN,TN,0,,TP,FN,TN,1,,FN,FN,TN,1,,TP,FN,TN,1
+87,result_from_first_page_text_d87_arxiv_2310.06825.txt,Mistral 7B,Teven Le Scao,Mistral AI,NA,,FN,FN,TN,0,,TP,FN,TN,1,,FN,FN,TN,1,,TP,FN,TN,1
+87,result_from_first_page_text_d87_arxiv_2310.06825.txt,Mistral 7B,Thibaut Lavril,Mistral AI,NA,,FN,FN,TN,0,,TP,FN,TN,1,,FN,FN,TN,1,,TP,FN,TN,1
+87,result_from_first_page_text_d87_arxiv_2310.06825.txt,Mistral 7B,Thomas Wang,Mistral AI,NA,,FN,FN,TN,0,,TP,FN,TN,1,,FN,FN,TN,1,,TP,FN,TN,1
+87,result_from_first_page_text_d87_arxiv_2310.06825.txt,Mistral 7B,Timothée Lacroix,Mistral AI,NA,,FN,FN,TN,0,,TP,FN,TN,1,,FN,FN,TN,1,,TP,FN,TN,1
+87,result_from_first_page_text_d87_arxiv_2310.06825.txt,Mistral 7B,William El Sayed,Mistral AI,NA,,FN,FN,TN,0,,TP,FN,TN,1,,FN,FN,TN,1,,TP,FN,TN,1
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Xi Chen,Google Research,NA,TP,TP,TP,TN,X,TP,TP,FN,TN,X,FN,FP,FN,TN,X,TP,TP,TP,TN,X
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Xiao Wang,Google DeepMind,NA,,TP,TP,TN,X,,TP,FN,TN,X,,FP,FN,TN,X,,TP,TP,TN,X
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Lucas Beyer,Google DeepMind,NA,,TP,TP,TN,X,,TP,FN,TN,X,,FP,FN,TN,X,,TP,TP,TN,X
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Alexander Kolesnikov,Google DeepMind,NA,,TP,TP,TN,X,,TP,TP,TN,X,,FP,FN,TN,X,,TP,FP,TN,X
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Jialin Wu,Google Research,NA,,TP,TP,TN,X,,TP,TP,TN,X,,FP,FN,TN,X,,TP,FP,TN,X
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Paul Voigtlaender,Google Research,NA,,TP,TP,TN,X,,TP,FP,TN,X,,FP,FN,TN,X,,TP,FP,TN,X
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Basil Mustafa,Google DeepMind,NA,,TP,TP,TN,X,,FN,FN,TN,X,,FP,FN,TN,X,,TP,FP,TN,X
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Sebastian Goodman,Google Research,NA,,TP,TP,TN,X,,TP,TP,TN,X,,FN,FN,TN,X,,TP,FP,TN,X
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Ibrahim Alabdulmohsin,Google DeepMind,NA,,TP,TP,TN,X,,TP,TP,TN,X,,FN,FN,TN,X,,TP,FP,TN,X
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Piotr Padlewski,Google DeepMind,NA,,TP,TP,TN,X,,TP,TP,TN,X,,FN,FN,TN,X,,TP,FP,TN,X
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Daniel Salz,Google Research,NA,,TP,TP,TN,X,,TP,TP,TN,X,,FN,FN,TN,X,,TP,FP,TN,X
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Xi Xiong,Google Cloud,NA,,TP,TP,TN,X,,FN,FN,TN,X,,FN,FN,TN,X,,TP,FP,TN,X
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Daniel Vlasic,Google Cloud,NA,,TP,TP,TN,X,,TP,TP,TN,X,,FN,FN,TN,X,,TP,FP,TN,X
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Filip Pavetic,Google DeepMind,NA,,TP,TP,TN,X,,TP,TP,TN,X,,FN,FN,TN,X,,TP,FP,TN,X
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Keran Rong,Google DeepMind,NA,,TP,TP,TN,X,,TP,FP,TN,X,,FN,FN,TN,X,,TP,FP,TN,X
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Tianli Yu,Google Cloud,NA,,TP,TP,TN,X,,FN,FN,TN,X,,FN,FN,TN,X,,TP,FP,TN,X
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Daniel Keysers,Google DeepMind,NA,,TP,TP,TN,X,,FN,FN,TN,X,,FN,FN,TN,X,,TP,FP,TN,X
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Xiaohua Zhai,Google DeepMind,NA,,TP,TP,TN,X,,TP,TP,TN,X,,FN,FN,TN,X,,TP,TP,TN,X
+88,result_from_first_page_text_d88_arxiv_2310.09199.txt,"PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER",Radu Soricut,Google Research,NA,,TP,TP,TN,X,,FN,FN,TN,X,,FN,FN,TN,X,,TP,TP,TN,X
+90,result_from_first_page_text_d90_arxiv_2403.19522.txt,Model Stock: All we need is just a few fine-tuned models,Dong-Hwan Jang,NAVER AI Lab,NA,TP,TP,TP,TN,1,TP,TP,TP,TN,1,FP,FP,TP,TN,1,TP,TP,TP,TN,1
+90,result_from_first_page_text_d90_arxiv_2403.19522.txt,Model Stock: All we need is just a few fine-tuned models,Sangdoo Yun,NAVER AI Lab,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+90,result_from_first_page_text_d90_arxiv_2403.19522.txt,Model Stock: All we need is just a few fine-tuned models,Dongyoon Han,NAVER AI Lab,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+92,result_from_first_page_text_d92_arxiv_2407.00066.txt,COMPRESS THEN SERVE: SERVING THOUSANDS OF LORA ADAPTERS WITH LITTLE OVERHEAD,Rickard Brüel Gabrielsson,MIT CSAIL,NA,TP,TP,TP,TN,1,TP,TP,TP,TN,1,TP,TP,TP,TN,1,TP,TP,TP,TN,1
+92,result_from_first_page_text_d92_arxiv_2407.00066.txt,COMPRESS THEN SERVE: SERVING THOUSANDS OF LORA ADAPTERS WITH LITTLE OVERHEAD,Jiacheng Zhu,MIT CSAIL,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+92,result_from_first_page_text_d92_arxiv_2407.00066.txt,COMPRESS THEN SERVE: SERVING THOUSANDS OF LORA ADAPTERS WITH LITTLE OVERHEAD,Onkar Bhardwaj,MIT-IBM Watson AI Lab,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+92,result_from_first_page_text_d92_arxiv_2407.00066.txt,COMPRESS THEN SERVE: SERVING THOUSANDS OF LORA ADAPTERS WITH LITTLE OVERHEAD,Leshem Choshen,MIT CSAIL; MIT-IBM Watson AI Lab,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+92,result_from_first_page_text_d92_arxiv_2407.00066.txt,COMPRESS THEN SERVE: SERVING THOUSANDS OF LORA ADAPTERS WITH LITTLE OVERHEAD,Kristjan Greenewald,MIT-IBM Watson AI Lab,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+92,result_from_first_page_text_d92_arxiv_2407.00066.txt,COMPRESS THEN SERVE: SERVING THOUSANDS OF LORA ADAPTERS WITH LITTLE OVERHEAD,Mikhail Yurochkin,MIT-IBM Watson AI Lab,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+92,result_from_first_page_text_d92_arxiv_2407.00066.txt,COMPRESS THEN SERVE: SERVING THOUSANDS OF LORA ADAPTERS WITH LITTLE OVERHEAD,Justin Solomon,MIT CSAIL,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+96,result_from_first_page_text_d96_arxiv_2409.04185.txt,Residual Stream Analysis with Multi-Layer SAEs,Tim Lawson,"School of Engineering Mathematics and Technology, University of Bristol",tim.lawson@bristol.ac.uk,FN,TP,TP,TP,1,TP,TP,TP,TP,1,TP,TP,TP,TN,1,FP,TP,FN,TP,1
+96,result_from_first_page_text_d96_arxiv_2409.04185.txt,Residual Stream Analysis with Multi-Layer SAEs,Lucy Farnik,"School of Engineering Mathematics and Technology, University of Bristol",NA,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,1
+96,result_from_first_page_text_d96_arxiv_2409.04185.txt,Residual Stream Analysis with Multi-Layer SAEs,Conor Houghton,"School of Engineering Mathematics and Technology, University of Bristol",NA,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,1
+96,result_from_first_page_text_d96_arxiv_2409.04185.txt,Residual Stream Analysis with Multi-Layer SAEs,Laurence Aitchison,"School of Engineering Mathematics and Technology, University of Bristol",NA,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,1
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Binyuan Hui,"Qwen Team, Alibaba Group",NA,FN,TP,TP,TN,X,TP,TP,TP,TN,X,TP,TP,TP,TN,X,TP,TP,TP,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Jian Yang,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,X,,FP,TP,TN,X,,TP,TP,TN,X,,TP,TP,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Zeyu Cui,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,X,,FP,TP,TN,X,,TP,TP,TN,X,,TP,TP,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Jiaxi Yang,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,X,,FP,TP,TN,X,,TP,TP,TN,X,,TP,TP,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Dayiheng Liu,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,X,,FP,TP,TN,X,,TP,TP,TN,X,,TP,TP,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Lei Zhang,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,X,,FP,TP,TN,X,,TP,TP,TN,X,,TP,TP,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Tianyu Liu,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,X,,FP,TP,TN,X,,TP,TP,TN,X,,TP,TP,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Jiajun Zhang,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,X,,FN,FN,TN,X,,TP,TP,TN,X,,TP,TP,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Bowen Yu,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,X,,FN,FN,TN,X,,TP,TP,TN,X,,TP,TP,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Keming Lu,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,X,,FN,FN,TN,X,,TP,TP,TN,X,,TP,TP,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Kai Dang,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,X,,FN,FN,TN,X,,TP,TP,TN,X,,TP,TP,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Yang Fan,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,X,,FN,FN,TN,X,,TP,TP,TN,X,,TP,TP,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Yichang Zhang,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,X,,FN,FN,TN,X,,TP,TP,TN,X,,FN,FN,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,An Yang,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,X,,FN,FN,TN,X,,TP,TP,TN,X,,FN,FN,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Rui Men,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,X,,FN,FN,TN,X,,TP,TP,TN,X,,FN,FN,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Fei Huang,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,X,,FN,FN,TN,X,,TP,TP,TN,X,,FN,FN,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Bo Zheng,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,0,,FN,FN,TN,X,,TP,TP,TN,X,,TP,TP,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Yibo Miao,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,X,,TP,TP,TN,X,,TP,TP,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Shanghaoran Quan,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,X,,TP,TP,TN,X,,TP,FN,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Yunlong Feng,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,X,,TP,TP,TN,X,,TP,FN,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Xingzhang Ren,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,X,,TP,TP,TN,X,,TP,TP,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Xuancheng Ren,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,X,,TP,TP,TN,X,,TP,TP,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Jingren Zhou,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,X,,TP,TP,TN,X,,TP,TP,TN,X
+97,result_from_first_page_text_d97_arxiv_2409.12186.txt,Qwen2.5-Coder Technical Report,Junyang Lin,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,X,,TP,TP,TN,X,,TP,TP,TN,X
+,,,,,,,FP,FP,FP,X,,,,,,,,,,,,,,,
+,,,,,,,FP,FP,FP,X,,,,,,,,,,,,,,,
+,,,,,,,FP,FP,FP,X,,,,,,,,,,,,,,,
+,,,,,,,FP,FP,FP,X,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Phi,,,,,Mistral,,,,,Llama,,,,,Gemma,,,,
+,,,,,,Title,Name,Aff.,Email,,Title,Name,Aff.,Email,,Title,Name,Aff.,Email,,Title,Name,Aff.,Email,
+,,,True Positive,,True Positive,36,328,305,74,0,34,325,249,55,0,30,242,216,55,0,37,315,227,40,
+,,,True Negative,,True Negative,0,0,1,291,0,0,0,13,284,0,0,0,1,298,0,0,0,11,308,
+,,,False Positive,,False Positive,2,14,19,7,0,7,13,9,17,0,3,46,16,0,0,1,8,26,2,
+,,,False Negative,,False Negative,4,38,55,8,0,0,31,98,13,0,9,98,153,33,0,3,46,105,19,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,Precision,0.947368421,0.959064327,0.941358025,0.913580247,,0.829268293,0.961538462,0.965116279,0.763888889,,0.909090909,0.840277778,0.931034483,1,,0.973684211,0.975232198,0.897233202,0.952380952,
+,,,,,Recall,0.9,0.896174863,0.847222222,0.902439024,,1,0.912921348,0.717579251,0.808823529,,0.769230769,0.711764706,0.585365854,0.625,,0.925,0.872576177,0.68373494,0.677966102,
+,,,,,F1-Score,0.923076923,0.926553672,0.891812865,0.90797546,,0.906666667,0.936599424,0.823140496,0.785714286,,0.833333333,0.770700637,0.718801997,0.769230769,,0.948717949,0.921052632,0.776068376,0.792079208,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.947,0.959,0.941,0.914,,0.829,0.962,0.965,0.764,,0.909,0.84,0.931,1,,0.974,0.975,0.897,0.952,
+,,,,,,0.9,0.896,0.847,0.902,,1,0.913,0.718,0.809,,0.769,0.712,0.585,0.625,,0.925,0.873,0.684,0.678,
+,,,,,,0.923,0.927,0.892,0.908,,0.907,0.937,0.823,0.786,,0.833,0.771,0.719,0.769,,0.949,0.921,0.776,0.792,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,ZEROS (Not available),,,,,,,40,,,,,2,,,,,51,,,,,33
+,,,,,(In order),,,,,279,,,,,288,,,,,246,,,,,275
+,,,,,(Out of Order),,,,,61,,,,,71,,,,,83,,,,,61
