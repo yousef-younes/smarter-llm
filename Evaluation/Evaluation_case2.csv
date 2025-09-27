@@ -1,0 +1,1052 @@
+d_index,filename,title,name,affiliations,email,Phi,,,,,Mistral,,,,,Llama,,,,,Gemma,,,,
+,,,,,,title,name,affiliations,email,Order,title,name,affiliations,email,Order,title,name,affiliations,email,Order,title,name,affiliations,email,Order
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Tom B. Brown,OpenAI,NA,TP,TP,TP,TN,1,TP,TP,TP,TN,1,FN,TP,TP,TN,1,TP,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Benjamin Mann,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Nick Ryder,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Melanie Subbiah,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Jared Kaplan,OpenAI,NA,,TP,FP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,FP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Prafulla Dhariwal,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Arvind Neelakantan,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Pranav Shyam,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Girish Sastry,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Amanda Askell,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Sandhini Agarwal,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Ariel Herbert-Voss,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Gretchen Krueger,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Tom Henighan,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Rewon Child,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Aditya Ramesh,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Daniel M. Ziegler,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Jeffrey Wu,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Clemens Winter,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Christopher Hesse,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Mark Chen,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Eric Sigler,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Mateusz Litwin,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Scott Gray,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Benjamin Chess,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Jack Clark,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Christopher Berner,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Sam McCandlish,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Alec Radford,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Ilya Sutskever,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+33,result_from_first_page_text_d33_arxiv_2005.14165.txt,Language Models are Few-Shot Learners,Dario Amodei,OpenAI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Mark Chen,OpenAI,mark@openai.com,FN,TP,TP,TP,1,TP,TP,TP,TN,1,TP,TP,TP,TP,1,FP,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Jerry Tworek,OpenAI,jt@openai.com,,TP,TP,TP,1,,TP,TP,TN,1,,TP,TP,TP,1,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Heewoo Jun,OpenAI,heewoo@openai.com,,TP,TP,TP,1,,TP,TP,TN,1,,TP,TP,TP,1,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Qiming Yuan,OpenAI,qiming@openai.com,,TP,TP,TP,1,,TP,TP,TN,1,,TP,TP,TP,1,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Henrique Ponde de Oliveira Pinto,OpenAI,NA,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Jared Kaplan,Anthropic AI,NA,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Harri Edwards,OpenAI,NA,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Yuri Burda,OpenAI,NA,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Nicholas Joseph,OpenAI,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,TP,TN,1,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Greg Brockman,OpenAI,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,TP,TN,1,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Alex Ray,OpenAI,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,TP,TN,1,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Raul Puri,OpenAI,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,TP,TN,1,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Gretchen Krueger,OpenAI,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,TP,TN,1,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Michael Petrov,OpenAI,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,TP,TN,1,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Heidy Khlaaf,OpenAI,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,TP,TN,1,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Girish Sastry,OpenAI,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,TP,TN,1,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Pamela Mishkin,OpenAI,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,TP,TN,1,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Brooke Chan,OpenAI,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,TP,TN,1,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Scott Gray,OpenAI,NA,,TP,TP,TN,1,,TP,FN,TN,X,,TP,TP,TN,1,,TP,TP,TN,1
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Nick Ryder,OpenAI,NA,,FN,FN,TN,0,,TP,FN,TN,X,,TP,TP,TN,1,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Mikhail Pavlov,OpenAI,NA,,FN,FN,TN,0,,TP,FN,TN,X,,TP,TP,TN,1,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Alethea Power,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Lukasz Kaiser,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Mohammad Bavarian,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Clemens Winter,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Philippe Tillet,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Felipe Petroski Such,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Dave Cummings,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Matthias Plappert,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Fotios Chantzis,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Elizabeth Barnes,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Ariel Herbert-Voss,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,William Hebgen Guss,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Alex Nichol,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Alex Paino,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Nikolas Tezak,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Jie Tang,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Igor Babuschkin,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Suchir Balaji,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Shantanu Jain,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,William Saunders,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Christopher Hesse,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Andrew N. Carr,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Jan Leike,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Josh Achiam,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Vedant Misra,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Evan Morikawa,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Alec Radford,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Matthew Knight,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Miles Brundage,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Mira Murati,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Katie Mayer,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Peter Welinder,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Bob McGrew,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Dario Amodei,OpenAI,NA,,TP,TP,TN,X,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Sam McCandlish,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Ilya Sutskever,OpenAI,NA,,TP,TP,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,X
+46,result_from_first_page_text_d46_arxiv_2107.03374.txt,Evaluating Large Language Models Trained on Code,Wojciech Zaremba,OpenAI,NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,X
+,,,,,,,FP,FP,TN,0,,FP,FP,TN,0,,FP,FP,TN,0,,FP,FP,TN,0
+,,,,,,,FP,FP,TN,0,,,,,,,FP,FP,TN,0,,,,,
+,,,,,,,,,,,,FP,FP,TN,0,,FP,FP,TN,0,,,,,
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Aarohi Srivastava,NA,NA,TP,FN,FN,TN,0,FP,FP,FP,FP,0,TP,FP,FP,TN,X,TP,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Abhinav Rastogi,NA,NA,,FN,FN,TN,0,,FP,FP,FP,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Abhishek Rao,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Abu Awal Md Shoeb,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Abubakar Abid,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Adam Fisch,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Adam R. Brown,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Adam Santoro,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Aditya Gupta,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Adrià Garriga-Alonso,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Agnieszka Kluska,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Aitor Lewkowycz,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Akshat Agarwal,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Alethea Power,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Alex Ray,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Alex Warstadt,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Alexander W. Kocurek,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ali Safaya,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ali Tazarv,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Alice Xiang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Alicia Parrish,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Allen Nie,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Aman Hussain,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Amanda Askell,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Amanda Dsouza,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,FP,TN,TN,1
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ambrose Slone,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ameet Rahane,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Anantharaman S. Iyer,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Anders Andreassen,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Andrea Madotto,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Andrea Santilli,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Andreas Stuhlmüller,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Andrew Dai,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Andrew La,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Andrew Lampinen,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Andy Zou,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Angela Jiang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Angelica Chen,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Anh Vuong,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Animesh Gupta,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Anna Gottardi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Antonio Norelli,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Anu Venkatesh,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Arash Gholamidavoodi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Arfa Tabassum,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Arul Menezes,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Arun Kirubarajan,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Asher Mullokandov,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ashish Sabharwal,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Austin Herrick,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Avia Efrat,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Aykut Erdem,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ayla Karakaş,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,B. Ryan Roberts,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Bao Sheng Loe,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Barret Zoph,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Bartłomiej Bojanowski,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Batuhan Özyurt,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Behnam Hedayatnia,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Behnam Neyshabur,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Benjamin Inden,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Benno Stein,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Berk Ekmekci,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Bill Yuchen Lin,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Blake Howald,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Bryan Orinion,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Cameron Diao,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Cameron Dour,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Catherine Stinson,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Cedrick Argueta,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,César Ferri Ramírez,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Chandan Singh,NA,NA,,FP,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Charles Rathkopf,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Chenlin Meng,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Chitta Baral,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Chiyu Wu,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Chris Callison-Burch,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Chris Waites,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Christian Voigt,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Christopher D. Manning,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Christopher Potts,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Cindy Ramirez,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Clara E. Rivera,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Clemencia Siro,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Colin Raffel,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Courtney Ashcraft,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Cristina Garbacea,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Damien Sileo,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Dan Garrette,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Dan Hendrycks,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Dan Kilman,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Dan Roth,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Daniel Freeman,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Daniel Khashabi,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Daniel Levy,NA,NA,,FP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Daniel Moseguí González,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Danielle Perszyk,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Danny Hernandez,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Danqi Chen,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Daphne Ippolito,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Dar Gilboa,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,David Dohan,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,David Drakard,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,David Jurgens,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Debajyoti Datta,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Deep Ganguli,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Denis Emelin,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Denis Kleyko,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Deniz Yuret,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Derek Chen,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Derek Tam,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Dieuwke Hupkes,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Diganta Misra,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Dilyar Buzan,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Dimitri Coelho Mollo,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Diyi Yang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Dong-Ho Lee,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Dylan Schrader,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ekaterina Shutova,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ekin Dogus Cubuk,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Elad Segal,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Eleanor Hagerman,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Elizabeth Barnes,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Elizabeth Donoway,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ellie Pavlick,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Emanuele Rodola,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Emma Lam,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Eric Chu,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Eric Tang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Erkut Erdem,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ernie Chang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ethan A. Chi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ethan Dyer,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ethan Jerzak,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ethan Kim,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Eunice Engefu Manyasi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Evgenii Zheltonozhskii,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Fanyue Xia,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Fatemeh Siar,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Fernando Martínez-Plumed,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Francesca Happé,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Francois Chollet,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Frieda Rong,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Gaurav Mishra,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Genta Indra Winata,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Gerard de Melo,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Germán Kruszewski,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Giambattista Parascandolo,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Giorgio Mariani,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Gloria Wang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Gonzalo Jaimovitch-López,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Gregor Betz,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Guy Gur-Ari,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Hana Galijasevic,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Hannah Kim,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Hannah Rashkin,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Hannaneh Hajishirzi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Harsh Mehta,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Hayden Bogar,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Henry Shevlin,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Hinrich Schütze,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Hiromu Yakura,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Hongming Zhang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Hugh Mee Wong,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ian Ng,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Isaac Noble,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jaap Jumelet,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jack Geissinger,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jackson Kernion,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jacob Hilton,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jaehoon Lee,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jaime Fernández Fisac,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,James B. Simon,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,James Koppel,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,James Zheng,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,James Zou,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jan Kocoń,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jana Thompson,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Janelle Wingfield,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jared Kaplan,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jarema Radom,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jascha Sohl-Dickstein,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jason Phang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jason Wei,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jason Yosinski,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jekaterina Novikova,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jelle Bosscher,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jennifer Marsh,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jeremy Kim,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jeroen Taal,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jesse Engel,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jesujoba Alabi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jiacheng Xu,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jiaming Song,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jillian Tang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Joan Waweru,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,John Burden,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,John Miller,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,John U. Balis,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jonathan Batchelder,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jonathan Berant,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jörg Frohberg,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jos Rozen,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Jose Hernandez-Orallo,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Joseph Boudeman,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Joseph Guerr,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Joseph Jones,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Joshua B. Tenenbaum,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Joshua S. Rule,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Joyce Chua,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Kamil Kanclerz,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Karen Livescu,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Karl Krauth,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Karthik Gopalakrishnan,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Katerina Ignatyeva,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Katja Markert,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Kaustubh D. Dhole,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Kevin Gimpel,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Kevin Omondi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Kory Mathewson,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Kristen Chiafullo,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ksenia Shkaruta,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Kumar Shridhar,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Kyle McDonell,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Kyle Richardson,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Laria Reynolds,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Leo Gao,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Li Zhang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Liam Dugan,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Lianhui Qin,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Lidia Contreras-Ochando,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Louis-Philippe Morency,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Luca Moschella,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Lucas Lam,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Lucy Noble,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ludwig Schmidt,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Luheng He,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Luis Oliveros Colón,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Luke Metz,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Lütfi Kerem Şenel,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Maarten Bosma,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Maarten Sap,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Maartje ter Hoeve,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Maheen Farooqi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Manaal Faruqui,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Mantas Mazeika,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Marco Baturan,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Marco Marelli,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Marco Maru,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Maria Jose Ramírez Quintana,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Marie Tolkiehn,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Mario Giulianelli,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Martha Lewis,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Martin Potthast,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Matthew L. Leavitt,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Matthias Hagen,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Mátyás Schubert,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Medina Orduna Baitemirova,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Melody Arnaud,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Melvin McElrath,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Michael A. Yee,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Michael Cohen,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Michael Gu,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Michael Ivanitskiy,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Michael Starritt,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Michael Strube,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Michał Swędrowski,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Michele Bevilacqua,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Michihiro Yasunaga,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Mihir Kale,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Mike Cain,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Mimee Xu,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Mirac Suzgun,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Mitch Walker,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Mo Tiwari,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Mohit Bansal,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Moin Aminnaseri,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Mor Geva,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Mozhdeh Gheini,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Mukund Varma T,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Nanyun Peng,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Nathan A. Chi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Nayeon Lee,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Neta Gur-Ari Krakover,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Nicholas Cameron,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Nicholas Roberts,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Nick Doiron,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Nicole Martinez,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Nikita Nangia,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Niklas Deckers,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Niklas Muennighoff,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Nitish Shirish Keskar,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Niveditha S. Iyer,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Noah Constant,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Noah Fiedel,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Nuan Wen,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Oliver Zhang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Omar Agha,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Omar Elbaghdadi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Omer Levy,NA,NA,,TP,TN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Owain Evans,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Pablo Antonio Moreno Casares,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Parth Doshi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Pascale Fung,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Paul Pu Liang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Paul Vicol,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Pegah Alipoormolabashi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Peiyuan Liao,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Percy Liang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Peter Chang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Peter Eckersley,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Phu Mon Htut,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Pinyu Hwang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Piotr Miłkowski,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Piyush Patil,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Pouya Pezeshkpour,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Priti Oli,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Qiaozhu Mei,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Qing Lyu,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Qinlang Chen,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Rabin Banjade,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Rachel Etta Rudolph,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Raefer Gabriel,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Rahel Habacker,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ramon Risco,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Raphaël Millière,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Rhythm Garg,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Richard Barnes,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Rif A. Saurous,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Riku Arakawa,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Robbe Raymaekers,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Robert Frank,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Rohan Sikand,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Roman Novak,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Roman Sitelew,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ronan LeBras,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Rosanne Liu,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Rowan Jacobs,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Rui Zhang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ruslan Salakhutdinov,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ryan Chi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ryan Lee,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ryan Stovall,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ryan Teehan,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Rylan Yang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sahib Singh,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Saif M. Mohammad,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sajant Anand,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sam Dillavou,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sam Shleifer,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sam Wiseman,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Samuel Gruetter,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Samuel R. Bowman,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Samuel S. Schoenholz,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sanghyun Han,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sanjeev Kwatra,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sarah A. Rous,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sarik Ghazarian,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sayan Ghosh,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sean Casey,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sebastian Bischoff,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sebastian Gehrmann,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sebastian Schuster,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sepideh Sadeghi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Shadi Hamdan,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sharon Zhou,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Shashank Srivastava,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sherry Shi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Shikhar Singh,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Shima Asaadi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Shixiang Shane Gu,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Shubh Pachchigar,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Shubham Toshniwal,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Shyam Upadhyay,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Shyamolima (Shammie) Debnath,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Siamak Shakeri,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Simon Thormeyer,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Simone Melzi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Siva Reddy,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sneha Priscilla Makini,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Soo-Hwan Lee,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Spencer Torene,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Sriharsha Hatwar,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Stanislas Dehaene,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Stefan Divic,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Stefano Ermon,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Stella Biderman,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Stephanie Lin,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Stephen Prasad,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Steven T. Piantadosi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Stuart M. Shieber,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Summer Misherghi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Svetlana Kiritchenko,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Swaroop Mishra,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Tal Linzen,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Tal Schuster,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Tao Li,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Tao Yu,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Tariq Ali,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Tatsu Hashimoto,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Te-Lin Wu,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Théo Desbordes,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Theodore Rothschild,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Thomas Phan,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Tianle Wang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Tiberius Nkinyili,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Timo Schick,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Timofei Kornev,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Titus Tunduny,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Tobias Gerstenberg,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Trenton Chang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Trishala Neeraj,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Tushar Khot,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Tyler Shultz,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Uri Shaham,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Vedant Misra,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Vera Demberg,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Victoria Nyamai,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Vikas Raunak,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Vinay Ramasesh,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Vinay Uday Prabhu,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Vishakh Padmakumar,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Vivek Srikumar,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,William Fedus,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,William Saunders,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,William Zhang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Wout Vossen,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Xiang Ren,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Xiaoyu Tong,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Xinran Zhao,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Xinyi Wu,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Xudong Shen,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Yadollah Yaghoobzadeh,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Yair Lakretz,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Yangqiu Song,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Yasaman Bahri,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Yejin Choi,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Yichi Yang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Yiding Hao,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Yifu Chen,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Yonatan Belinkov,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Yu Hou,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Yufang Hou,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Yuntao Bai,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Zachary Seid,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Zhuoye Zhao,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Zijian Wang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Zijie J. Wang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Zirui Wang,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+63,result_from_first_page_text_d63_arxiv_2206.04615.txt,Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models,Ziyi Wu,NA,NA,,FN,FN,TN,0,,FN,TN,TN,0,,FP,FP,TN,X,,TN,TN,TN,0
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,FP,TN,TN,0
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,FP,TN,TN,0
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,FP,TN,TN,0
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,FP,FN,TN,X,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,,,,
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Xi Chen,Google Research,NA,TP,TP,TP,TN,1,TP,TP,TP,TN,1,TP,TP,TP,TN,1,TP,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Xiao Wang,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Soravit Changpinyo,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,AJ Piergiovanni,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Piotr Padlewski,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Daniel Salz,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Sebastian Goodman,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Adam Grycner,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Basil Mustafa,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Lucas Beyer,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Alexander Kolesnikov,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Joan Puigcerver,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Nan Ding,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Keran Rong,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Hassan Akbari,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Gaurav Mishra,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Linting Xue,Google Research,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Ashish Thapliyal,Google Research,NA,,TP,TP,TN,1,,FP,FP,TN,0,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,James Bradbury,Google Research,NA,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Weicheng Kuo,Google Research,NA,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Mojtaba Seyedhosseini,Google Research,NA,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Chao Jia,Google Research,NA,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Burcu Karagol Ayan,Google Research,NA,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Carlos Riquelme,Google Research,NA,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1,,FN,FN,TN,0
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Andreas Steiner,Google Research,NA,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1,,FN,FN,TN,0
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Anelia Angelova,Google Research,NA,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1,,FN,FN,TN,0
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Xiaohua Zhai,Google Research,NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Neil Houlsby,Google Research,NA,,FP,TP,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+65,result_from_first_page_text_d65_arxiv_2209.06794.txt,PALI: A Jointly-Scaled Multilingual Language-Image Model,Radu Soricut,Google Research,NA,,FN,FN,TN,X,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,FP,FP,TN,X
+,,,,,,,,,,,,,,,,,FP,FP,TN,X,,FP,FP,TN,X
+,,,,,,,,,,,,,,,,,,,,,,FP,FP,TN,X
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Hugo Touvron,"GenAI, Meta",htouvron@meta.com,FP,TP,TP,TP,1,TP,TP,TP,TP,1,TP,FP,TP,FP,X,FP,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Louis Martin,"GenAI, Meta",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Kevin Stone,"GenAI, Meta",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Peter Albert,"GenAI, Meta",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Amjad Almahairi,"GenAI, Meta",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Yasmine Babaei,"GenAI, Meta",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Nikolay Bashlykov,"GenAI, Meta",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Soumya Batra,"GenAI, Meta",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Prajjwal Bhargava,"GenAI, Meta",NA,,TP,TP,TN,1,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Shruti Bhosale,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Dan Bikel,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Lukas Blecher,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Cristian Canton Ferrer,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Moya Chen,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Guillem Cucurull,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,David Esiobu,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Jude Fernandes,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Jeremy Fu,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Wenyin Fu,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Brian Fuller,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Cynthia Gao,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Vedanuj Goswami,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Naman Goyal,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Anthony Hartshorn,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Saghar Hosseini,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Rui Hou,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Hakan Inan,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Marcin Kardas ,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Viktor Kerkez,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models, Madian Khabsa ,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Isabel Kloumann,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models, Artem Korenev,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Punit Singh Koura,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Marie-Anne Lachaux,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Thibaut Lavril,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Jenya Lee,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Diana Liskovich,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Yinghai Lu,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Yuning Mao ,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Xavier Martinet,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Todor Mihaylov,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models, Pushkar Mishra,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Igor Molybog,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models, Yixin Nie,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Andrew Poulton,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Jeremy Reizenstein,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Rashi Rungta,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Kalyan Saladi,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Alan Schelten,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Ruan Silva,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Eric Michael Smith ,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Ranjan Subramanian,"GenAI, Meta",NA,,TP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models, Xiaoqing Ellen Tan,"GenAI, Meta",NA,,FP,TP,TN,1,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Binh Tang,"GenAI, Meta",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Ross Taylor ,"GenAI, Meta",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Adina Williams,"GenAI, Meta",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Jian Xiang Kuan ,"GenAI, Meta",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Puxin Xu ,"GenAI, Meta",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Zheng Yan,"GenAI, Meta",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models, Iliyan Zarov ,"GenAI, Meta",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Yuchen Zhang ,"GenAI, Meta",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Angela Fan ,"GenAI, Meta",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Melanie Kambadur ,"GenAI, Meta",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Sharan Narang,"GenAI, Meta",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models, Aurelien Rodriguez,"GenAI, Meta",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Robert Stojnic,"GenAI, Meta",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Sergey Edunov,"GenAI, Meta",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+81,result_from_first_page_text_d81_arxiv_2307.09288.txt,Llama 2: Open Foundation and Fine-Tuned Chat Models,Thomas Scialom,"GenAI, Meta",tscialomn@meta.com,,FN,FN,TN,0,,FN,FN,FN,0,,FP,TP,FP,X,,FN,FN,FN,0
+,,,,,,,,,,,,,,,,,,,,,,FP,FP,TN,X
+,,,,,,,,,,,,,,,,,,,,,,FP,FP,TN,X
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Baptiste Rozière,Meta AI,NA,TP,TP,TP,TN,1,TP,TP,TP,TN,1,TP,TP,TP,TN,1,TP,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Jonas Gehring,Meta AI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Fabian Gloeckle,Meta AI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Sten Sootla,Meta AI,NA,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Itai Gat,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Xiaoqing Ellen Tan,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Yossi Adi,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Jingyu Liu,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Romain Sauvestre,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Tal Remez,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Jérémy Rapin,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Artyom Kozhevnikov,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Ivan Evtimov,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Joanna Bitton,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Manish Bhatt,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Cristian Canton Ferrer,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Aaron Grattafiori,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Wenhan Xiong,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Alexandre Défossez,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Jade Copet,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Faisal Azhar,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Hugo Touvron,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Louis Martin,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Nicolas Usunier,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Thomas Scialom,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+82,result_from_first_page_text_d82_arxiv_2308.12950.txt,Code Llama: Open Foundation Models for Code,Gabriel Synnaeve,Meta AI,NA,,TP,TP,TN,1,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Jinze Bai,"Qwen Team, Alibaba Group",NA,FN,TP,FN,TN,1,TP,TP,TP,TN,1,TP,TP,TP,TN,1,TP,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Shuai Bai,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Yunfei Chu,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Zeyu Cui,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Kai Dang,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Xiaodong Deng,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Yang Fan,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Wenbin Ge,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Yu Han,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Fei Huang,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Binyuan Hui,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Luo Ji,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Mei Li,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Junyang Lin,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Runji Lin,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Dayiheng Liu,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Gao Liu,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Chengqiang Lu,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Keming Lu,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Jianxin Ma,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Rui Men,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Xingzhang Ren,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Xuancheng Ren,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Chuanqi Tan,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Sinan Tan,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Jianhong Tu,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Peng Wang,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Shijie Wang,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Wei Wang,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Shengguang Wu,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Benfeng Xu,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Jin Xu,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,An Yang,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Hao Yang,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Jian Yang,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Shusheng Yang,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Yang Yao,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Bowen Yu,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Hongyi Yuan,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Zheng Yuan,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Jianwei Zhang,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Xingxuan Zhang,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Yichang Zhang,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Zhenru Zhang,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Chang Zhou,"Qwen Team, Alibaba Group",ericzhou.zc@alibaba-inc.com,,TP,FN,FN,X,,FN,FN,TN,0,,FN,FN,FN,0,,FN,FN,TN,0
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Jingren Zhou,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Xiaohuan Zhou,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+86,result_from_first_page_text_d86_arxiv_2309.16609.txt,QWEN TECHNICAL REPORT,Tianhang Zhu,"Qwen Team, Alibaba Group",NA,,TP,FN,TN,X,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+,,,,,,,,,,,,FP,FP,FP,0,,,,,,,FP,FP,TN,0
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Lucas Beyer,NA,lbeyer@google.com,TP,TP,FP,TP,1,TP,TP,TN,TP,1,TP,TP,FP,TP,1,TP,TP,FP,TP,1
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Andreas Steiner,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,TP,FP,TN,1
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,André Susano Pinto,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,TP,FP,TN,1
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Alexander Kolesnikov,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,TP,FP,TN,1
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Xiao Wang,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,TP,FP,TN,1
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Daniel Salz,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,TP,FP,TN,1
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Maxim Neumann,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,TP,FP,TN,1
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Ibrahim Alabdulmohsin,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,TP,FP,TN,1
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Michael Tschannen,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,TP,FP,TN,1
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Emanuele Bugliarello,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,TP,FP,TN,1
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Thomas Unterthiner,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,TP,FP,TN,1
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Daniel Keysers,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,TP,FP,TN,1
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Skanda Koppula,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,TP,FP,TN,1
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Fangyu Liu,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,TP,FP,TN,1
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Adam Grycner,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,TP,FP,TN,1
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Alexey Gritsenko,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,TP,FP,TN,1
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Neil Houlsby,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,TP,FP,TN,1
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Manoj Kumar,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,TP,FP,TN,1
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Keran Rong,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,TP,FP,TN,0
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Julian Eisenschlos,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,FN,FN,TN,0
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Rishabh Kabra,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,FN,FN,TN,0
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Matthias Bauer,NA,NA,,TP,FP,TN,1,,TP,TN,TN,1,,TP,TP,TP,1,,FN,FN,TN,0
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Matko Bošnjak,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,TP,TP,TP,1,,FN,FN,TN,0
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Xi Chen,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,TN,TN,0,,FN,FN,TN,0
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Matthias Minderer,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,TN,TN,0,,FN,FN,TN,0
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Paul Voigtlaender,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,TN,TN,0,,FN,FN,TN,0
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Ioana Bica,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,TN,TN,0,,FN,FN,TN,0
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Ivana Balazevic,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,TN,TN,0,,FN,FN,TN,0
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Joan Puigcerver,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,TN,TN,0,,FN,FN,TN,0
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Pinelopi Papalampidi,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,TN,TN,0,,FN,FN,TN,0
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Olivier Henaff,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,TN,TN,0,,FN,FN,TN,0
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Xi Xiong,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,TN,TN,0,,FN,FN,TN,0
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Radu Soricut,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,TN,TN,0,,FN,FN,TN,0
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Jeremiah Harmsen,NA,NA,,FN,FN,TN,0,,TP,TN,TN,1,,FN,TN,TN,0,,FN,FN,TN,0
+93,result_from_first_page_text_d93_arxiv_2407.07726.txt,PaliGemma: A versatile 3B VLM for transfer,Xiaohua Zhai,NA,xzhai@google.com,,FN,FN,FN,0,,TP,TN,TP,1,,FN,TN,TN,0,,FN,FN,TN,0
+,,,,,,,FP,FP,FP,0,,,,,,,FP,TN,TN,X,,FP,FP,TN,X
+,,,,,,,FP,FP,FP,0,,,,,,,FP,TN,TN,X,,FP,FP,TN,X
+,,,,,,,FP,FP,FP,0,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,FP,FP,FP,0,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,FP,FP,FP,0,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,FP,FP,FP,0,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,FP,FP,FP,0,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,FP,FP,FP,0,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,FP,FP,FP,0,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,FP,FP,FP,0,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,FP,FP,FP,0,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,FP,FP,FP,0,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+,,,,,,,,,,,,,,,,,FP,TN,TN,X,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,An Yang,"Qwen Team, Alibaba Group",NA,TP,TP,TP,TN,1,TP,TP,TN,TN,1,TP,TP,TP,TN,1,TP,TP,TP,TN,1
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Baosong Yang,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,1,,TP,TN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Binyuan Hui,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,1,,TP,TN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Bo Zheng,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,1,,TP,TN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Bowen Yu,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,1,,TP,TN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Chang Zhou,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,1,,TP,TN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Chengpeng Li,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,1,,TP,TN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Chengyuan Li,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,1,,TP,TN,TN,1,,TP,TP,TN,1,,TP,TP,TN,1
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Dayiheng Liu,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,1,,FN,FN,FN,0,,TP,TP,TN,1,,TP,TP,TN,1
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Fei Huang,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,1,,TP,TN,T,1,,TP,TP,TN,1,,TP,TP,TN,1
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Guanting Dong,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Haoran Wei,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Huan Lin,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,1,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Jialong Tang,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Jialin Wang,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1,,TP,TP,TN,1
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Jian Yang,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1,,FP,TP,TN,1
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Jianhong Tu,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Jianwei Zhang,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,TP,TP,TN,1,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Jianxin Ma,"Qwen Team, Alibaba Group",NA,,TP,TP,TN,X,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Jianxin Yang,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Jin Xu,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Jingren Zhou,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Jinze Bai,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Jinzheng He,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Junyang Lin,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Kai Dang,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Keming Lu,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Keqin Chen,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Kexin Yang,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Mei Li,","Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Mingfeng Xue, ","Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Na Ni, ","Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Pei Zhang, ","Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Peng Wang, ","Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Ru Peng, ","Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Rui Men, ","Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Ruize Gao, ","Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Runji Lin, ","Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Shijie Wang, ","Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Shuai Bai,","Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Sinan Tan, ","Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Tianhang Zhu, ","Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Tianhao Li, ","Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Tianyu Liu,","Qwen Team, Alibaba Group",NA,,TP,TP,TN,X,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Wenbin Ge,","Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Xiaodong Deng, ","Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Xiaohuan Zhou, ","Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,"Xingzhang Ren,","Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Xinyu Zhang,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Xipin Wei,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Xuancheng Ren,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Xuejing Liu,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Yang Fan,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Yang Yao,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Yichang Zhang,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Yu Wan,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Yunfei Chu,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Yuqiong Liu,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Zeyu Cui,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Zhenru Zhang,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Zhifang Guo,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,Zhihao Fan,"Qwen Team, Alibaba Group",NA,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0,,FN,FN,TN,0
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,FP,FP,TN,x,,FP,FP,TN,X
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,FP,FP,TN,x,,FP,FP,TN,X
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,FP,FP,TN,x,,FP,FP,TN,X
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,FP,FP,TN,x,,FP,FP,TN,X
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,FP,FP,TN,X
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,FP,FP,TN,X
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,FP,FP,TN,X
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,FP,FP,TN,X
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,FP,FP,TN,X
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,FP,FP,TN,X
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,FP,FP,TN,X,,FP,FP,TN,0,,,,,,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,,,,,,FP,FP,TN,0,,,,,,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,,,,,,FP,FP,TN,0,,,,,,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,,,,,,FP,FP,TN,0,,,,,,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,,,,,,FP,FP,TN,0,,,,,,,,,,
+94,result_from_first_page_text_d94_arxiv_2407.10671.txt,QWEN2 TECHNICAL REPORT,,,,,,,,,,FP,FP,TN,0,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+ZEROS ,,(Not available),,,,,,,,,,,,,,,,,,,,,,,
+Ones,,(In order),,,,,,,,,,,,,,,,,,,,,,,
+X,,(Out of Order),,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Phi,,,,,Mistral,,,,,Llama,,,,,Gemma,,,,
+,,,,,,Title,Name,Aff.,Email,,Title,Name,Aff.,Email,,Title,Name,Aff.,Email,,Title,Name,Aff.,Email,
+,,,True Positive,,True Positive,6,256,173,6,0,8,179,100,3,0,8,148,149,27,0,7,236,193,1,
+,,,True Negative,,True Negative,0,0,29,872,0,0,0,492,830,0,0,0,63,959,0,0,425,453,827,
+,,,False Positive,,False Positive,1,89,61,12,0,1,35,35,3,0,0,634,582,2,0,2,24,39,0,
+,,,False Negative,,False Negative,2,547,629,2,0,0,625,212,2,0,1,207,195,1,0,0,144,144,1,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,Precision,0.857142857,0.742028986,0.739316239,0.333333333,,0.888888889,0.836448598,0.740740741,0.5,,1,0.189258312,0.203830369,0.931034483,,0.777777778,0.907692308,0.831896552,1,
+,,,,,Recall,0.75,0.318804483,0.215710723,0.75,,1,0.222636816,0.320512821,0.6,,0.888888889,0.416901408,0.433139535,0.964285714,,1,0.621052632,0.572700297,0.5,
+,,,,,F1-Score,0.8,0.445993031,0.333976834,0.461538462,,0.941176471,0.351669941,0.447427293,0.545454545,,0.941176471,0.260334213,0.277209302,0.947368421,,0.875,0.7375,0.678383128,0.666666667,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.857,0.742,0.739,0.333,,0.889,0.836,0.741,0.5,,1,0.189,0.204,0.931,,0.778,0.908,0.832,1,
+,,,,,,0.75,0.319,0.216,0.75,,1,0.223,0.321,0.6,,0.889,0.417,0.433,0.964,,1,0.621,0.573,0.5,
+,,,,,,0.8,0.446,0.334,0.462,,0.941,0.352,0.447,0.545,,0.941,0.26,0.277,0.947,,0.875,0.738,0.678,0.667,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,ZEROS (Not available),,,,,,,592,,,,,660,,,,,210,,,,,575
+,,,,,(In order),,,,,203,,,,,166,,,,,148,,,,,235
+,,,,,(Out of Order),,,,,97,,,,,13,,,,,631,,,,,19
